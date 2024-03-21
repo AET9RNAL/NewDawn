@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -12.0d,
+	dependencies: [
+		"8a122085"
+	],
+	tasks: [{
+		uid: "8854cb16",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "fe61e73d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

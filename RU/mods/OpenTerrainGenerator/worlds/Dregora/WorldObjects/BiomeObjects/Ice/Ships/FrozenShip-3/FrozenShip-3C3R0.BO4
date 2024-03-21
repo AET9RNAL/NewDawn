@@ -1,0 +1,252 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,18,7,PACKED_ICE:0)
+Block(-8,18,8,PACKED_ICE:0)
+Block(-8,19,7,PACKED_ICE:0)
+Block(-8,19,8,PACKED_ICE:0)
+Block(-8,20,8,PACKED_ICE:0)
+Block(-7,18,8,PACKED_ICE:0)
+Block(-7,19,7,PACKED_ICE:0)
+Block(-7,19,8,PACKED_ICE:0)
+Block(-7,20,8,PACKED_ICE:0)
+Block(-6,18,7,PACKED_ICE:0)
+Block(-6,18,8,PACKED_ICE:0)
+Block(-6,19,6,ICE:0)
+Block(-6,19,7,PACKED_ICE:0)
+Block(-6,19,8,PACKED_ICE:0)
+Block(-6,20,7,PACKED_ICE:0)
+Block(-6,20,8,PACKED_ICE:0)
+Block(-6,21,8,PACKED_ICE:0)
+Block(-5,18,7,PACKED_ICE:0)
+Block(-5,18,8,PACKED_ICE:0)
+Block(-5,19,6,ICE:0)
+Block(-5,19,7,PACKED_ICE:0)
+Block(-5,19,8,PACKED_ICE:0)
+Block(-5,20,6,ICE:0)
+Block(-5,20,7,PACKED_ICE:0)
+Block(-5,20,8,PACKED_ICE:0)
+Block(-5,21,8,PACKED_ICE:0)
+Block(-4,18,7,PACKED_ICE:0)
+Block(-4,18,8,PACKED_ICE:0)
+Block(-4,19,6,PACKED_ICE:0)
+Block(-4,19,7,PACKED_ICE:0)
+Block(-4,19,8,PACKED_ICE:0)
+Block(-4,20,7,PACKED_ICE:0)
+Block(-4,20,8,PACKED_ICE:0)
+Block(-4,21,8,PACKED_ICE:0)
+Block(-4,22,8,PACKED_ICE:0)
+Block(-4,25,8,PACKED_ICE:0)
+Block(-3,18,7,PACKED_ICE:0)
+Block(-3,18,8,PACKED_ICE:0)
+Block(-3,19,6,PACKED_ICE:0)
+Block(-3,19,7,PACKED_ICE:0)
+Block(-3,19,8,PACKED_ICE:0)
+Block(-3,20,6,PACKED_ICE:0)
+Block(-3,20,7,PACKED_ICE:0)
+Block(-3,20,8,PACKED_ICE:0)
+Block(-3,21,7,PACKED_ICE:0)
+Block(-3,21,8,PACKED_ICE:0)
+Block(-3,23,8,ICE:0)
+Block(-3,24,8,PACKED_ICE:0)
+Block(-3,25,8,PACKED_ICE:0)
+Block(-2,18,6,PACKED_ICE:0)
+Block(-2,18,7,PACKED_ICE:0)
+Block(-2,18,8,PACKED_ICE:0)
+Block(-2,19,5,PACKED_ICE:0)
+Block(-2,19,6,PACKED_ICE:0)
+Block(-2,19,7,PACKED_ICE:0)
+Block(-2,19,8,PACKED_ICE:0)
+Block(-2,20,6,PACKED_ICE:0)
+Block(-2,20,7,PACKED_ICE:0)
+Block(-2,20,8,PACKED_ICE:0)
+Block(-2,21,6,ICE:0)
+Block(-2,21,7,PACKED_ICE:0)
+Block(-2,21,8,PACKED_ICE:0)
+Block(-2,22,7,ICE:0)
+Block(-2,22,8,ICE:0)
+Block(-2,23,8,PACKED_ICE:0)
+Block(-1,18,7,PACKED_ICE:0)
+Block(-1,18,8,PACKED_ICE:0)
+Block(-1,19,6,PACKED_ICE:0)
+Block(-1,19,7,PACKED_ICE:0)
+Block(-1,19,8,PACKED_ICE:0)
+Block(-1,20,6,PACKED_ICE:0)
+Block(-1,20,7,PACKED_ICE:0)
+Block(-1,20,8,PACKED_ICE:0)
+Block(-1,21,6,PACKED_ICE:0)
+Block(-1,21,7,PACKED_ICE:0)
+Block(-1,21,8,PACKED_ICE:0)
+Block(-1,22,7,ICE:0)
+Block(-1,22,8,PACKED_ICE:0)
+Block(-1,23,8,PACKED_ICE:0)
+Block(-1,24,8,PACKED_ICE:0)
+Block(0,18,8,PACKED_ICE:0)
+Block(0,19,7,PACKED_ICE:0)
+Block(0,19,8,PACKED_ICE:0)
+Block(0,20,6,PACKED_ICE:0)
+Block(0,20,7,PACKED_ICE:0)
+Block(0,20,8,PACKED_ICE:0)
+Block(0,21,7,PACKED_ICE:0)
+Block(0,21,8,PACKED_ICE:0)
+Block(0,22,7,ICE:0)
+Block(0,22,8,PACKED_ICE:0)
+Block(0,23,7,PACKED_ICE:0)
+Block(0,23,8,ICE:0)
+Block(0,24,8,PACKED_ICE:0)
+Block(1,18,8,PACKED_ICE:0)
+Block(1,19,8,PACKED_ICE:0)
+Block(1,20,7,PACKED_ICE:0)
+Block(1,20,8,PACKED_ICE:0)
+Block(1,21,7,PACKED_ICE:0)
+Block(1,21,8,PACKED_ICE:0)
+Block(1,22,8,PACKED_ICE:0)
+Block(1,23,7,PACKED_ICE:0)
+Block(1,23,8,ICE:0)
+Block(1,24,7,PACKED_ICE:0)
+Block(1,24,8,ICE:0)
+Block(1,25,8,PACKED_ICE:0)
+Block(2,20,8,PACKED_ICE:0)
+Block(2,21,8,PACKED_ICE:0)
+Block(2,23,8,PACKED_ICE:0)
+Block(2,24,8,PACKED_ICE:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,FrozenShip-3C2R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

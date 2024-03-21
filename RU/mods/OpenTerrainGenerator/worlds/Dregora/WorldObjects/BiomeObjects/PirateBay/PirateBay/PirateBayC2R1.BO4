@@ -1,0 +1,351 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: true
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#Block(0,70,0,DIAMOND_BLOCK)
+
+Block(-2,29,8,WOOL:0)
+Block(-1,28,6,WOOL:0)
+Block(-1,28,7,WOOL:0)
+Block(0,28,6,WOOL:0)
+Block(0,29,5,WOOL:0)
+Block(0,30,4,WOOL:0)
+Block(0,33,6,WOOL:0)
+Block(0,34,7,WOOL:0)
+Block(0,34,8,WOOL:0)
+Block(1,28,5,WOOL:0)
+Block(1,29,4,WOOL:0)
+Block(1,30,3,WOOL:0)
+Block(1,31,3,WOOL:0)
+Block(1,32,4,WOOL:0)
+Block(1,33,5,WOOL:0)
+Block(1,34,6,WOOL:0)
+Block(1,35,5,WOOD_BUTTON:4)
+Block(1,35,6,LOG:5)
+Block(1,35,7,WOOD_BUTTON:3)
+Block(2,28,5,WOOL:0)
+Block(2,29,4,WOOL:0)
+Block(2,30,3,WOOL:0)
+Block(2,31,3,WOOL:0)
+Block(2,32,3,WOOL:0)
+Block(2,33,4,WOOL:0)
+Block(2,34,5,WOOL:0)
+Block(2,34,6,SPRUCE_FENCE:0)
+Block(2,35,5,WOOD_BUTTON:4)
+Block(2,35,6,LOG:5)
+Block(2,35,7,WOOD_BUTTON:3)
+Block(2,36,8,WOOL:0)
+Block(2,44,8,WOOL:0)
+Block(3,28,5,WOOL:0)
+Block(3,29,4,WOOL:0)
+Block(3,30,3,WOOL:0)
+Block(3,31,3,WOOL:0)
+Block(3,32,4,WOOL:0)
+Block(3,33,4,WOOL:0)
+Block(3,34,5,WOOL:0)
+Block(3,34,6,SPRUCE_FENCE:0)
+Block(3,35,5,WOOD_BUTTON:4)
+Block(3,35,6,LOG:5)
+Block(3,35,7,WOOD_BUTTON:3)
+Block(3,36,7,WOOL:0)
+Block(3,37,6,WOOL:0)
+Block(3,38,5,WOOL:0)
+Block(3,42,5,WOOL:0)
+Block(3,43,6,WOOL:0)
+Block(3,44,7,WOOL:0)
+Block(4,28,6,WOOL:0)
+Block(4,29,-7,WOOL:0)
+Block(4,29,-6,WOOL:0)
+Block(4,29,4,WOOL:0)
+Block(4,29,5,WOOL:0)
+Block(4,30,4,WOOL:0)
+Block(4,31,4,WOOL:0)
+Block(4,32,4,WOOL:0)
+Block(4,33,5,WOOL:0)
+Block(4,34,5,WOOL:0)
+Block(4,35,7,LOG:5)
+Block(4,35,8,WOOD_BUTTON:3)
+Block(4,36,6,WOOL:0)
+Block(4,37,6,WOOL:0)
+Block(4,38,5,WOOL:0)
+Block(4,39,4,WOOL:0)
+Block(4,40,4,WOOL:0)
+Block(4,41,4,WOOL:0)
+Block(4,42,5,WOOL:0)
+Block(4,43,5,WOOL:0)
+Block(4,44,6,WOOL:0)
+Block(4,45,5,WOOD_BUTTON:4)
+Block(4,45,6,LOG:5)
+Block(4,45,7,WOOD_BUTTON:3)
+Block(4,46,7,WOOL:0)
+Block(4,46,8,WOOL:0)
+Block(4,47,5,WOOL:0)
+Block(4,47,6,WOOL:0)
+Block(4,53,8,WOOL:0)
+Block(5,24,-7,WOOL:0)
+Block(5,28,6,WOOL:0)
+Block(5,29,5,WOOL:0)
+Block(5,30,4,WOOL:0)
+Block(5,31,4,WOOL:0)
+Block(5,32,4,WOOL:0)
+Block(5,33,5,WOOL:0)
+Block(5,34,6,WOOL:0)
+Block(5,34,7,SPRUCE_FENCE:0)
+Block(5,35,7,LOG:5)
+Block(5,35,8,WOOD_BUTTON:3)
+Block(5,36,6,WOOL:0)
+Block(5,37,5,WOOL:0)
+Block(5,38,5,WOOL:0)
+Block(5,39,4,WOOL:0)
+Block(5,40,4,WOOL:0)
+Block(5,41,4,WOOL:0)
+Block(5,42,4,WOOL:0)
+Block(5,43,5,WOOL:0)
+Block(5,44,5,WOOL:0)
+Block(5,44,6,SPRUCE_FENCE:0)
+Block(5,45,5,WOOD_BUTTON:4)
+Block(5,45,6,LOG:5)
+Block(5,45,7,WOOD_BUTTON:3)
+Block(5,46,6,WOOL:0)
+Block(5,47,5,WOOL:0)
+Block(5,47,6,WOOL:0)
+Block(5,48,4,WOOL:0)
+Block(5,51,5,WOOL:0)
+Block(5,52,6,WOOL:0)
+Block(5,53,6,WOOL:0)
+Block(5,53,7,WOOL:0)
+Block(6,23,7,DISPENSER:4)
+Block(6,24,7,WOOD_STEP:8)
+Block(6,28,6,WOOL:0)
+Block(6,29,5,WOOL:0)
+Block(6,30,4,WOOL:0)
+Block(6,31,4,WOOL:0)
+Block(6,32,5,WOOL:0)
+Block(6,33,5,WOOL:0)
+Block(6,34,6,WOOL:0)
+Block(6,34,7,SPRUCE_FENCE:0)
+Block(6,35,7,LOG:5)
+Block(6,35,8,WOOD_BUTTON:3)
+Block(6,36,6,WOOL:0)
+Block(6,37,5,WOOL:0)
+Block(6,38,5,WOOL:0)
+Block(6,39,4,WOOL:0)
+Block(6,40,4,WOOL:0)
+Block(6,41,4,WOOL:0)
+Block(6,42,4,WOOL:0)
+Block(6,43,5,WOOL:0)
+Block(6,44,5,WOOL:0)
+Block(6,44,6,SPRUCE_FENCE:0)
+Block(6,45,5,WOOD_BUTTON:4)
+Block(6,45,6,LOG:5)
+Block(6,45,7,WOOD_BUTTON:3)
+Block(6,46,6,WOOL:0)
+Block(6,47,5,WOOL:0)
+Block(6,48,4,WOOL:0)
+Block(6,49,4,WOOL:0)
+Block(6,50,4,WOOL:0)
+Block(6,51,4,WOOL:0)
+Block(6,52,5,WOOL:0)
+Block(6,52,6,SPRUCE_FENCE:0)
+Block(6,53,5,WOOD_BUTTON:4)
+Block(6,53,6,LOG:5)
+Block(6,53,7,WOOD_BUTTON:3)
+Block(7,20,7,WOOD:1)
+Block(7,20,8,WOOD:1)
+Block(7,21,6,WOOD:1)
+Block(7,21,7,WOOD:1)
+Block(7,21,8,WOOD:1)
+Block(7,22,6,WOOD:5)
+Block(7,22,7,WOOD:5)
+Block(7,22,8,WOOD:5)
+Block(7,23,6,WOOD:5)
+Block(7,23,7,COAL_BLOCK:0)
+Block(7,23,8,WOOD:5)
+Block(7,24,5,WOOD:0)
+Block(7,24,6,WOOD:0)
+Block(7,24,7,AIR:0)
+Block(7,24,8,WOOD:0)
+Block(7,25,5,WOOD:5)
+Block(7,25,6,WOOD:5)
+Block(7,25,7,WOOD:5)
+Block(7,25,8,WOOD:5)
+Block(7,26,5,WOOD:5)
+Block(7,26,6,DARK_OAK_STAIRS:7)
+Block(7,26,7,WOOD_STEP:13)
+Block(7,26,8,WOOD_STEP:13)
+Block(7,27,6,DARK_OAK_STAIRS:7)
+Block(7,27,7,DARK_OAK_STAIRS:6)
+Block(7,27,8,WOOD:5)
+Block(7,28,6,WOOD_STEP:5)
+Block(7,28,7,WOOL:0)
+Block(7,29,6,WOOL:0)
+Block(7,30,5,WOOL:0)
+Block(7,31,5,WOOL:0)
+Block(7,32,5,WOOL:0)
+Block(7,33,6,WOOL:0)
+Block(7,34,7,WOOL:0)
+Block(7,34,8,SPRUCE_FENCE:0)
+Block(7,35,7,WOOD_BUTTON:4)
+Block(7,35,8,LOG:5)
+Block(7,36,7,WOOL:0)
+Block(7,37,6,WOOL:0)
+Block(7,38,5,WOOL:0)
+Block(7,39,5,WOOL:0)
+Block(7,40,5,WOOL:0)
+Block(7,41,4,WOOL:0)
+Block(7,42,5,WOOL:0)
+Block(7,43,5,WOOL:0)
+Block(7,44,6,WOOL:0)
+Block(7,44,7,SPRUCE_FENCE:0)
+Block(7,45,7,LOG:5)
+Block(7,45,8,WOOD_BUTTON:3)
+Block(7,46,6,WOOL:0)
+Block(7,47,5,WOOL:0)
+Block(7,48,4,WOOL:0)
+Block(7,49,4,WOOL:0)
+Block(7,50,4,WOOL:0)
+Block(7,51,5,WOOL:0)
+Block(7,52,5,WOOL:0)
+Block(7,52,6,SPRUCE_FENCE:0)
+Block(7,53,5,WOOD_BUTTON:4)
+Block(7,53,6,LOG:5)
+Block(7,53,7,WOOD_BUTTON:3)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,PirateBayC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

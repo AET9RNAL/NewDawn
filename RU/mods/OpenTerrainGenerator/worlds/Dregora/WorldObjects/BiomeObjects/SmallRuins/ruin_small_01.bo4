@@ -1,0 +1,293 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 1
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(0,2,1,AIR:0,20,CHEST:3,../../Chests/Loot/JunkChest_1.nbt,10,CHEST:3,../../Chests/Loot/JunkChest_2.nbt,10,CHEST:3,../../Chests/Loot/JunkChest_3.nbt,10,CHEST:3,../../Chests/Loot/JunkChest_4.nbt,10,CHEST:3,../../Chests/Loot/JunkChest_5.nbt,10,CHEST:3,../../Chests/Traveler/Travelers_Castle.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Church.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Daeroc.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Farmsteads.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_GreenDungeon.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_IceShips.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_IceTemple.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_LegacySpawn.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Mineshafts.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Mountains.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Origin.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Pirate.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Quarry.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Spook.nbt,1,CHEST:3,../../Chests/Traveler/Travelers_Tribal.nbt,1,CHEST:3,../../Chests/Lore/SimpleDungeon_1.nbt,1,CHEST:3,../../Chests/Lore/SimpleDungeon_2.nbt,1,CHEST:3,../../Chests/Lore/SimpleDungeon_3.nbt,1,CHEST:3,../../Chests/Lore/SimpleDungeon_4.nbt,1,CHEST:3,../../Chests/Lore/SimpleDungeon_5.nbt,1,CHEST:3,../../Chests/Loot/Common1.nbt,10,CHEST:3,../../Chests/Loot/Common2.nbt,10,CHEST:3,../../Chests/Loot/Common3.nbt,10,CHEST:3,../../Chests/Loot/Common4.nbt,10,CHEST:3,../../Chests/Loot/Common5.nbt,10,CHEST:3,../../Chests/Loot/Common6.nbt,10,CHEST:3,../../Chests/Loot/Common7.nbt,10,CHEST:3,../../Chests/Loot/Common8.nbt,10,CHEST:3,../../Chests/Loot/Common9.nbt,10,CHEST:3,../../Chests/Loot/Common10.nbt,10,CHEST:3,../../Chests/Loot/Common10.nbt,11,CHEST:3,../../Chests/Loot/Common12.nbt,10,CHEST:3,../../Chests/Loot/Common13.nbt,10,CHEST:3,../../Chests/Loot/Common14.nbt,10,CHEST:3,../../Chests/Loot/Common15.nbt,10,CHEST:3,../../Chests/Lore/SimpleDungeon_1.nbt,2,CHEST:3,../../Chests/Lore/SimpleDungeon_3.nbt,2,CHEST:3,../../Chests/Lore/SimpleDungeon_4.nbt,2,CHEST:3,../../Chests/Lore/SimpleDungeon_5.nbt,2,CHEST:3,../../Chests/Lore/SimpleDungeon_5.nbt,2,CHEST:3,../../Chests/Loot/Rare1.nbt,5,CHEST:3,../../Chests/Loot/Rare2.nbt,5,CHEST:3,../../Chests/Loot/Rare3.nbt,5,CHEST:3,../../Chests/Loot/Rare4.nbt,5,CHEST:3,../../Chests/Loot/Rare5.nbt,5,CHEST:3,../../Chests/Loot/Rare6.nbt,5,CHEST:3,../../Chests/Loot/Rare7.nbt,5,CHEST:3,../../Chests/Loot/Rare8.nbt,5,CHEST:3,../../Chests/Loot/Rare9.nbt,5,CHEST:3,../../Chests/Loot/Rare10.nbt,5,CHEST:3,../../Chests/Loot/Rare11.nbt,5,CHEST:3,../../Chests/Loot/Rare12.nbt,5,CHEST:3,../../Chests/Loot/Rare13.nbt,5,CHEST:3,../../Chests/Loot/Rare14.nbt,5,CHEST:3,../../Chests/Loot/Rare15.nbt,5,CHEST:3,../../Chests/Loot/Epic1.nbt,2,CHEST:3,../../Chests/Loot/Epic2.nbt,2,CHEST:3,../../Chests/Loot/Epic3.nbt,2,CHEST:3,../../Chests/Loot/Epic4.nbt,2,CHEST:3,../../Chests/Loot/Epic5.nbt,2,CHEST:3,../../Chests/Loot/Epic6.nbt,2,CHEST:3,../../Chests/Loot/Epic7.nbt,2,CHEST:3,../../Chests/Loot/Epic8.nbt,2,CHEST:3,../../Chests/Loot/Epic9.nbt,2,CHEST:3,../../Chests/Loot/Epic10.nbt,2,CHEST:3,../../Chests/Loot/Epic11.nbt,2,CHEST:3,../../Chests/Loot/Epic12.nbt,2,CHEST:3,../../Chests/Loot/Epic13.nbt,2,CHEST:3,../../Chests/Loot/Epic14.nbt,2,CHEST:3,../../Chests/Loot/Epic15.nbt,5,CHEST:3,../../Chests/Loot/Rare1.nbt,5,CHEST:3,../../Chests/Loot/Rare2.nbt,5,CHEST:3,../../Chests/Loot/Rare3.nbt,5,CHEST:3,../../Chests/Loot/Rare4.nbt,5,CHEST:3,../../Chests/Loot/Rare5.nbt,10,CHEST:3,../../Chests/Loot/Rare6.nbt,10,CHEST:3,../../Chests/Loot/Rare7.nbt,10,CHEST:3,../../Chests/Loot/Rare8.nbt,10,CHEST:3,../../Chests/Loot/Rare9.nbt,10,CHEST:3,../../Chests/Loot/Rare10.nbt,15,CHEST:3,../../Chests/Loot/Rare11.nbt,15,CHEST:3,../../Chests/Loot/Rare12.nbt,15,CHEST:3,../../Chests/Loot/Rare13.nbt,15,CHEST:3,../../Chests/Loot/Rare14.nbt,15,CHEST:3,../../Chests/Loot/Rare15.nbt,15,CHEST:3,../../Chests/Loot/Epic15.nbt,100)
+Block(-3,0,-4,LEAVES)
+Block(-3,0,-3,LEAVES)
+Block(-3,0,0,STEP:3)
+Block(-3,0,3,LEAVES)
+Block(-3,0,4,LEAVES)
+Block(-3,0,5,STEP:3)
+Block(-2,0,-5,STEP:3)
+Block(-2,0,-4,LEAVES)
+Block(-2,0,-3,STEP:3)
+Block(-2,0,-2,SMOOTH_BRICK:1)
+Block(-2,0,-1,LEAVES)
+Block(-2,0,0,SMOOTH_BRICK:1)
+Block(-2,0,1,SMOOTH_BRICK:1)
+Block(-2,0,2,SMOOTH_BRICK:1)
+Block(-2,0,3,STEP:3)
+Block(-2,0,4,SMOOTH_BRICK:1)
+Block(-2,0,5,LEAVES)
+Block(-2,1,-3,VINE:8)
+Block(-2,1,-2,SMOOTH_BRICK:1)
+Block(-2,1,-1,VINE:8)
+Block(-2,1,0,COBBLESTONE_STAIRS:2)
+Block(-2,1,1,SMOOTH_BRICK:1)
+Block(-2,1,2,COBBLESTONE_STAIRS:0)
+Block(-2,1,4,SMOOTH_BRICK:1)
+Block(-2,1,5,VINE:8)
+Block(-2,2,-3,VINE:8)
+Block(-2,2,-2,COBBLESTONE_STAIRS:0)
+Block(-2,2,4,VINE:8)
+Block(-2,2,5,VINE:8)
+Block(-2,3,-3,VINE:8)
+Block(-2,3,5,VINE:8)
+Block(-2,4,-3,VINE:8)
+Block(-1,0,-4,LEAVES)
+Block(-1,0,-3,SMOOTH_BRICK:1)
+Block(-1,0,-2,SMOOTH_BRICK:1)
+Block(-1,0,-1,SMOOTH_BRICK:1)
+Block(-1,0,0,SMOOTH_BRICK:1)
+Block(-1,0,1,SMOOTH_BRICK:1)
+Block(-1,0,2,SMOOTH_BRICK:1)
+Block(-1,0,3,SMOOTH_BRICK:1)
+Block(-1,0,4,SMOOTH_BRICK:1)
+Block(-1,0,5,SMOOTH_BRICK:1)
+Block(-1,0,6,STEP:3)
+Block(-1,1,-4,VINE:1)
+Block(-1,1,-3,SMOOTH_BRICK:1)
+Block(-1,1,-2,SMOOTH_BRICK:3)
+Block(-1,1,-1,SMOOTH_BRICK:1)
+Block(-1,1,0,COBBLESTONE_STAIRS:0)
+Block(-1,1,1,SMOOTH_BRICK:1)
+Block(-1,1,2,COBBLESTONE_STAIRS:2)
+Block(-1,1,3,SMOOTH_BRICK:1)
+Block(-1,1,4,SMOOTH_BRICK:3)
+Block(-1,1,5,SMOOTH_BRICK:1)
+Block(-1,1,6,VINE:4)
+Block(-1,2,-4,VINE:1)
+Block(-1,2,-3,SMOOTH_BRICK:1)
+Block(-1,2,-2,SMOOTH_BRICK:2)
+Block(-1,2,-1,IRON_FENCE)
+Block(-1,2,0,COBBLE_WALL)
+Block(-1,2,1,SMOOTH_BRICK:3)
+Block(-1,2,2,COBBLE_WALL)
+Block(-1,2,3,WOOD_STEP:1)
+Block(-1,2,4,SMOOTH_BRICK:1)
+Block(-1,2,5,SMOOTH_BRICK:1)
+Block(-1,2,6,VINE:4)
+Block(-1,3,-4,VINE:1)
+Block(-1,3,-3,SMOOTH_BRICK:1)
+Block(-1,3,-2,COBBLE_WALL)
+Block(-1,3,1,STEP:3)
+Block(-1,3,4,COBBLE_WALL)
+Block(-1,3,5,SMOOTH_BRICK:1)
+Block(-1,3,6,VINE:4)
+Block(-1,4,-4,COBBLE_WALL)
+Block(-1,4,-3,SMOOTH_BRICK:3)
+Block(-1,4,-2,VINE:4)
+Block(-1,4,4,COBBLE_WALL)
+Block(-1,4,5,SMOOTH_BRICK:3)
+Block(-1,4,6,COBBLE_WALL)
+Block(-1,5,5,COBBLE_WALL)
+Block(0,0,-4,STEP:3)
+Block(0,0,-3,SMOOTH_BRICK:1)
+Block(0,0,-2,SMOOTH_BRICK:1)
+Block(0,0,-1,LEAVES)
+Block(0,0,0,SMOOTH_BRICK:1)
+Block(0,0,1,SMOOTH_BRICK:2)
+Block(0,0,2,SMOOTH_BRICK:1)
+Block(0,0,3,LONG_GRASS:2)
+Block(0,0,4,SMOOTH_BRICK:1)
+Block(0,0,5,SMOOTH_BRICK:1)
+Block(0,0,6,STEP:3)
+Block(0,1,-3,SMOOTH_BRICK:3)
+Block(0,1,-2,WOOD_STEP:1)
+Block(0,1,-1,LEAVES)
+Block(0,1,0,COBBLESTONE_STAIRS:2)
+Block(0,1,1,SMOOTH_BRICK:3)
+Block(0,1,2,STEP:3)
+Block(0,1,4,VINE:2)
+Block(0,1,5,SMOOTH_BRICK:3)
+Block(0,2,-3,SMOOTH_BRICK:1)
+Block(0,2,4,VINE:2)
+Block(0,2,5,SMOOTH_BRICK:1)
+Block(0,3,-3,COBBLE_WALL)
+Block(0,3,5,COBBLE_WALL)
+Block(0,4,-3,VINE:2)
+Block(1,0,-4,VINE:1)
+Block(1,0,-3,SMOOTH_BRICK:1)
+Block(1,0,-2,LONG_GRASS:1)
+Block(1,0,-1,SMOOTH_BRICK:1)
+Block(1,0,0,SMOOTH_BRICK:2)
+Block(1,0,1,SMOOTH_BRICK:1)
+Block(1,0,2,SMOOTH_BRICK:1)
+Block(1,0,3,SMOOTH_BRICK:1)
+Block(1,0,4,SMOOTH_BRICK:2)
+Block(1,0,5,SMOOTH_BRICK:1)
+Block(1,0,6,VINE:4)
+Block(1,1,-4,VINE:1)
+Block(1,1,-3,SMOOTH_BRICK:1)
+Block(1,1,-2,VINE:4)
+Block(1,1,0,COBBLESTONE_STAIRS:1)
+Block(1,1,1,COBBLESTONE_STAIRS:1)
+Block(1,1,2,COBBLESTONE_STAIRS:0)
+Block(1,1,4,VINE:1)
+Block(1,1,5,SMOOTH_BRICK:2)
+Block(1,1,6,VINE:4)
+Block(1,2,-3,VINE:2)
+Block(1,2,5,IRON_FENCE)
+Block(2,0,-4,STEP:3)
+Block(2,0,-3,SMOOTH_BRICK:1)
+Block(2,0,-2,SMOOTH_BRICK:1)
+Block(2,0,-1,SMOOTH_BRICK:2)
+Block(2,0,0,COBBLESTONE_STAIRS:0)
+Block(2,0,1,LEAVES)
+Block(2,0,2,STEP:3)
+Block(2,0,3,SMOOTH_BRICK:2)
+Block(2,0,4,COBBLESTONE_STAIRS:2)
+Block(2,0,5,SMOOTH_BRICK:1)
+Block(2,0,6,STEP:3)
+Block(2,1,-3,COBBLESTONE_STAIRS:1)
+Block(2,1,5,COBBLESTONE_STAIRS:1)
+Block(3,0,-4,STEP:3)
+Block(3,0,-3,SMOOTH_BRICK:1)
+Block(3,0,-2,COBBLESTONE_STAIRS:1)
+Block(3,0,-1,COBBLESTONE_STAIRS:1)
+Block(3,0,0,LEAVES)
+Block(3,0,2,STEP:5)
+Block(3,0,3,STEP:3)
+Block(3,0,4,STEP:3)
+Block(3,0,5,SMOOTH_BRICK:1)
+Block(3,1,-3,COBBLE_WALL)
+Block(3,1,5,COBBLE_WALL)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

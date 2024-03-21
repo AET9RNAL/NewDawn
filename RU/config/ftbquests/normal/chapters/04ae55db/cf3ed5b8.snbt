@@ -1,0 +1,17 @@
+{
+	x: -17.0d,
+	y: -16.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "33d09830",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a510edfd",
+		type: "item",
+		item: "minecraft:bedrock"
+	}]
+}

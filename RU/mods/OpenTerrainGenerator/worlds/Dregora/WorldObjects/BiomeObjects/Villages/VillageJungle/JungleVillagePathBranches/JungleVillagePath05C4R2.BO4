@@ -1,0 +1,162 @@
+Author: NLBlackEagle
+Description: No description given
+SettingsMode: WriteDisable
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: true
+OverrideParentHeight: true
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: false
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: -9
+RemoveAir: true
+ReplaceAbove: 
+ReplaceBelow: dirt
+ReplaceWithBiomeBlocks: true
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: true
+Block(2,0,-7,WOOD:3)
+Block(2,0,-6,WOOD:3)
+Block(2,1,-7,WOOD:3)
+Block(2,1,-6,WOOD:3)
+Block(2,2,-7,WOOD:3)
+Block(2,2,-6,WOOD:3)
+Block(2,3,-7,WOOD:3)
+Block(2,3,-6,WOOD:3)
+Block(2,4,-7,WOOD:3)
+Block(2,4,-6,WOOD:3)
+Block(2,5,-7,WOOD:3)
+Block(2,5,-6,WOOD:3)
+Block(2,6,-7,WOOD:3)
+Block(2,6,-6,WOOD:3)
+Block(2,7,-7,WOOD:3)
+Block(2,7,-6,WOOD:3)
+Block(2,8,-7,WOOD:3)
+Block(2,8,-6,WOOD:3)
+Block(2,9,-7,WOOD:3)
+Block(2,9,-6,WOOD:3)
+Block(2,10,-7,WOOD:3)
+Block(2,10,-6,WOOD:3)
+Block(2,11,-7,WOOD:3)
+Block(2,11,-6,WOOD:3)
+Block(2,12,-7,WOOD:3)
+Block(2,12,-6,WOOD:3)
+Block(2,13,-7,WOOD:3)
+Block(2,13,-6,WOOD:3)
+Block(2,14,-7,WOOD:3)
+Block(2,14,-6,WOOD:3)
+Block(3,0,-5,WOOD:3)
+Block(3,1,-5,WOOD:3)
+Block(3,2,-5,WOOD:3)
+Block(3,3,-5,WOOD:3)
+Block(3,4,-5,WOOD:3)
+Block(3,5,-5,WOOD:3)
+Block(3,6,-5,WOOD:3)
+Block(3,7,-5,WOOD:3)
+Block(3,8,-5,WOOD:3)
+Block(3,9,-5,WOOD:3)
+Block(3,10,-6,SPRUCE_FENCE:0)
+Block(3,10,-5,WOOD:3)
+Block(3,11,-5,WOOD:3)
+Block(3,12,-5,WOOD:3)
+Block(3,13,-5,WOOD:3)
+Block(3,14,-5,WOOD:3)
+Block(4,0,-4,LOG:3)
+Block(4,0,-3,WOOD:3)
+Block(4,1,-4,LOG:3)
+Block(4,1,-3,WOOD:3)
+Block(4,2,-4,LOG:3)
+Block(4,2,-3,WOOD:3)
+Block(4,3,-4,LOG:3)
+Block(4,3,-3,WOOD:3)
+Block(4,4,-4,LOG:3)
+Block(4,4,-3,WOOD:3)
+Block(4,5,-4,LOG:3)
+Block(4,5,-3,WOOD:3)
+Block(4,6,-4,LOG:3)
+Block(4,6,-3,WOOD:3)
+Block(4,7,-4,LOG:3)
+Block(4,7,-3,WOOD:3)
+Block(4,8,-4,LOG:3)
+Block(4,8,-3,WOOD:3)
+Block(4,9,-4,LOG:3)
+Block(4,9,-3,WOOD:3)
+Block(4,10,-5,SPRUCE_FENCE:0)
+Block(4,10,-4,LOG:3)
+Block(4,10,-3,WOOD:3)
+Block(4,11,-4,LOG:3)
+Block(4,11,-3,WOOD:3)
+Block(4,12,-4,LOG:3)
+Block(4,12,-3,WOOD:3)
+Block(4,13,-4,LOG:3)
+Block(4,13,-3,WOOD:3)
+Block(4,14,-4,LOG:3)
+RandomBlock(4,15,-4,STANDING_BANNER:10,../../NBT/banners/JungleBanner01.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner02.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner03.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner04.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner05.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner06.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner07.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner08.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner09.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner10.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner11.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner12.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner13.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner14.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner15.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner16.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner17.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner18.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner19.nbt,8,STANDING_BANNER:10,../../NBT/banners/JungleBanner20.nbt,100)
+Block(5,0,-2,WOOD:3)
+Block(5,1,-2,WOOD:3)
+Block(5,2,-2,WOOD:3)
+Block(5,3,-2,WOOD:3)
+Block(5,4,-2,WOOD:3)
+Block(5,5,-2,WOOD:3)
+Block(5,6,-2,WOOD:3)
+Block(5,7,-2,WOOD:3)
+Block(5,8,-2,WOOD:3)
+Block(5,9,-2,WOOD:3)
+Block(5,10,-4,SPRUCE_FENCE:0)
+Block(5,10,-3,SPRUCE_FENCE:0)
+Block(5,10,-2,WOOD:3)
+Block(5,11,-3,SPRUCE_FENCE:0)
+Block(5,11,-2,WOOD:3)
+Block(5,12,-2,WOOD:3)
+Block(5,13,-2,WOOD:3)
+Block(6,0,-2,WOOD:3)
+Block(6,1,-2,WOOD:3)
+Block(6,2,-2,WOOD:3)
+Block(6,3,-2,WOOD:3)
+Block(6,4,-2,WOOD:3)
+Block(6,5,-2,WOOD:3)
+Block(6,6,-2,WOOD:3)
+Block(6,7,-2,WOOD:3)
+Block(6,8,-2,WOOD:3)
+Block(6,9,-2,WOOD:3)
+Block(6,10,-2,WOOD:3)
+Block(6,11,-2,WOOD:3)
+Block(6,12,-2,WOOD:3)
+Block(7,0,-1,WOOD:3)
+Block(7,1,-1,WOOD:3)
+Block(7,2,-1,WOOD:3)
+Block(7,3,-1,WOOD:3)
+Block(7,4,-1,WOOD:3)
+Block(7,5,-1,WOOD:3)
+Block(7,6,-1,WOOD:3)
+Block(7,7,-1,WOOD:3)
+Block(7,8,-1,WOOD:3)
+Block(7,9,-1,WOOD:3)
+Block(7,10,-1,WOOD:3)
+Block(7,11,-1,WOOD:3)
+Block(7,12,-1,WOOD:3)
+Branch(-16,0,0,true,JungleVillagePath05C3R2,NORTH,100.0,0)

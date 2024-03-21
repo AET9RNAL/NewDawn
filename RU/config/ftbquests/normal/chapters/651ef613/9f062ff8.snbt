@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: -8.0d,
+	dependencies: [
+		"65525a43"
+	],
+	tasks: [{
+		uid: "0fb468cb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockrituallink"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d34a935a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

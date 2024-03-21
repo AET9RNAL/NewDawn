@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: -5.5d,
+	dependencies: [
+		"3aad2825"
+	],
+	tasks: [{
+		uid: "56166e3e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "93aa86c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

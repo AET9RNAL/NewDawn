@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "262fde9d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 271"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3e904746",
+		type: "xp",
+		xp: 100
+	}]
+}

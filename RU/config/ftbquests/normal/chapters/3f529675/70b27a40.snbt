@@ -1,0 +1,20 @@
+{
+	x: 2.576530612244923d,
+	y: -14.656462585034006d,
+	shape: "hexagon",
+	dependencies: [
+		"52b120b5"
+	],
+	tasks: [{
+		uid: "9677828e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:compressed_honeycomb_certus"
+		}]
+	}],
+	rewards: [{
+		uid: "4435af78",
+		type: "xp",
+		xp: 100
+	}]
+}

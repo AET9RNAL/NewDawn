@@ -1,0 +1,304 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(4,45,8,AIR)
+Block(4,46,8,AIR)
+Block(4,47,7,AIR)
+Block(4,47,8,AIR)
+Block(4,48,6,AIR)
+Block(4,48,7,AIR)
+Block(4,48,8,AIR)
+Block(4,49,6,AIR)
+Block(4,49,7,AIR)
+Block(4,49,8,AIR)
+Block(4,50,7,AIR)
+Block(4,50,8,AIR)
+Block(4,51,8,AIR)
+Block(5,44,8,AIR)
+Block(5,45,8,AIR)
+Block(5,46,7,AIR)
+Block(5,46,8,AIR)
+Block(5,47,7,AIR)
+Block(5,47,8,AIR)
+Block(5,48,6,AIR)
+Block(5,48,7,AIR)
+Block(5,48,8,AIR)
+Block(5,49,5,AIR)
+Block(5,49,6,AIR)
+Block(5,49,7,AIR)
+Block(5,49,8,AIR)
+Block(5,50,5,AIR)
+Block(5,50,6,AIR)
+Block(5,50,7,AIR)
+Block(5,50,8,AIR)
+Block(5,51,4,AIR)
+Block(5,51,5,AIR)
+Block(5,51,6,AIR)
+Block(5,51,7,AIR)
+Block(5,51,8,AIR)
+Block(5,52,4,AIR)
+Block(5,52,5,AIR)
+Block(5,52,6,AIR)
+Block(5,52,7,AIR)
+Block(5,52,8,AIR)
+Block(5,53,3,AIR)
+Block(5,53,4,AIR)
+Block(5,53,5,AIR)
+Block(5,53,6,AIR)
+Block(5,53,7,AIR)
+Block(5,54,3,AIR)
+Block(5,54,4,AIR)
+Block(5,54,5,AIR)
+Block(5,54,6,AIR)
+Block(5,55,4,AIR)
+Block(5,55,5,AIR)
+Block(5,56,4,AIR)
+Block(5,56,5,AIR)
+Block(6,45,8,AIR)
+Block(6,46,7,AIR)
+Block(6,46,8,AIR)
+Block(6,47,7,AIR)
+Block(6,47,8,AIR)
+Block(6,48,6,AIR)
+Block(6,48,7,AIR)
+Block(6,48,8,AIR)
+Block(6,49,5,AIR)
+Block(6,49,6,AIR)
+Block(6,49,7,AIR)
+Block(6,49,8,AIR)
+Block(6,50,4,AIR)
+Block(6,50,5,AIR)
+Block(6,50,6,AIR)
+Block(6,50,7,AIR)
+Block(6,50,8,AIR)
+Block(6,51,4,AIR)
+Block(6,51,5,AIR)
+Block(6,51,6,AIR)
+Block(6,51,7,AIR)
+Block(6,51,8,AIR)
+Block(6,52,3,AIR)
+Block(6,52,4,AIR)
+Block(6,52,5,AIR)
+Block(6,52,6,AIR)
+Block(6,52,7,AIR)
+Block(6,52,8,AIR)
+Block(6,53,3,AIR)
+Block(6,53,4,AIR)
+Block(6,53,5,AIR)
+Block(6,53,6,AIR)
+Block(6,53,7,AIR)
+Block(6,54,2,AIR)
+Block(6,54,3,AIR)
+Block(6,54,4,AIR)
+Block(6,54,5,AIR)
+Block(6,54,6,AIR)
+Block(6,55,2,AIR)
+Block(6,55,3,AIR)
+Block(6,55,4,AIR)
+Block(6,55,5,AIR)
+Block(6,56,1,AIR)
+Block(6,56,2,AIR)
+Block(6,56,3,AIR)
+Block(6,56,4,AIR)
+Block(6,57,0,AIR)
+Block(6,57,1,AIR)
+Block(6,57,2,AIR)
+Block(6,57,3,AIR)
+Block(6,58,0,AIR)
+Block(6,58,1,AIR)
+Block(6,58,2,AIR)
+Block(6,58,3,AIR)
+Block(6,59,1,AIR)
+Block(6,59,2,AIR)
+Block(7,46,8,AIR)
+Block(7,47,7,AIR)
+Block(7,47,8,AIR)
+Block(7,48,6,AIR)
+Block(7,48,7,AIR)
+Block(7,48,8,AIR)
+Block(7,49,5,AIR)
+Block(7,49,6,AIR)
+Block(7,49,7,AIR)
+Block(7,49,8,AIR)
+Block(7,50,4,AIR)
+Block(7,50,5,AIR)
+Block(7,50,6,AIR)
+Block(7,50,7,AIR)
+Block(7,50,8,AIR)
+Block(7,51,4,AIR)
+Block(7,51,5,AIR)
+Block(7,51,6,AIR)
+Block(7,51,7,AIR)
+Block(7,51,8,AIR)
+Block(7,52,3,AIR)
+Block(7,52,4,AIR)
+Block(7,52,5,AIR)
+Block(7,52,6,AIR)
+Block(7,52,7,AIR)
+Block(7,53,2,AIR)
+Block(7,53,3,AIR)
+Block(7,53,4,AIR)
+Block(7,53,5,AIR)
+Block(7,53,6,AIR)
+Block(7,54,2,AIR)
+Block(7,54,3,AIR)
+Block(7,54,4,AIR)
+Block(7,54,5,AIR)
+Block(7,54,6,AIR)
+Block(7,55,1,AIR)
+Block(7,55,2,AIR)
+Block(7,55,3,AIR)
+Block(7,55,4,AIR)
+Block(7,55,5,AIR)
+Block(7,56,1,AIR)
+Block(7,56,2,AIR)
+Block(7,56,3,AIR)
+Block(7,56,4,AIR)
+Block(7,57,0,AIR)
+Block(7,57,1,AIR)
+Block(7,57,2,AIR)
+Block(7,57,3,AIR)
+Block(7,58,1,AIR)
+Block(7,58,2,AIR)
+Block(7,59,1,AIR)
+Block(7,59,2,AIR)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,VoidSpike_Huge_04C1R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

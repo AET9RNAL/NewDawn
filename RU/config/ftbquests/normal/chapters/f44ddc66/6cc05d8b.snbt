@@ -1,0 +1,36 @@
+{
+	x: -2.0d,
+	y: 12.5d,
+	dependencies: [
+		"64930b8e"
+	],
+	tasks: [{
+		uid: "a5306984",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:double_transformer",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60962584",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "61cc3807",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

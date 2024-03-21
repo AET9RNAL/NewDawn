@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: -10.5d,
+	dependencies: [
+		"8cd749c0"
+	],
+	tasks: [{
+		uid: "7d8def20",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:sintezator"
+		}]
+	}],
+	rewards: [{
+		uid: "5974e27a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	dependencies: [
+		"5aed7e7f"
+	],
+	tasks: [{
+		uid: "6060c2f0",
+		type: "item",
+		items: [{
+			item: "divinerpg:apalachia_block"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "797cc2e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

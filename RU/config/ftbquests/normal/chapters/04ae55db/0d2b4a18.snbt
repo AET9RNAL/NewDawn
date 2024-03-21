@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	text: [
+		"§4Частичка креатива",
+		"",
+		"§a(Генерация:1,073GRF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
+		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "88ba2f1b",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:battery_infinite"
+		}]
+	}],
+	rewards: [{
+		uid: "280da109",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

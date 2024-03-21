@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -8.0d,
+	dependencies: [
+		"9a624fc0"
+	],
+	tasks: [{
+		uid: "ed5b3566",
+		type: "item",
+		items: [{
+			item: "botania:elfglass"
+		}]
+	}],
+	rewards: [{
+		uid: "0b86e984",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

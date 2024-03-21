@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: -5.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "0afa2a88",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "21500f20",
+		type: "xp",
+		xp: 100
+	}]
+}

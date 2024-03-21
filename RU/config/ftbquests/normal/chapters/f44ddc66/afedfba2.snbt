@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 18.0d,
+	dependencies: [
+		"d0118ad4"
+	],
+	tasks: [{
+		uid: "9994332a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tool_box_draconic"
+		}]
+	}],
+	rewards: [{
+		uid: "5b5e493a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

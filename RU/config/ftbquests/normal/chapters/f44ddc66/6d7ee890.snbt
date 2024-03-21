@@ -1,0 +1,33 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	dependencies: [
+		"2c805d93"
+	],
+	tasks: [{
+		uid: "7512c543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:quantum_helmet",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37e49c95",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

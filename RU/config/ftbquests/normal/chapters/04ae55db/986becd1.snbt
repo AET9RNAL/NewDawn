@@ -1,0 +1,99 @@
+{
+	title: "Голова",
+	icon: {
+		id: "minecraft:skull",
+		tag: {
+			RepairCost: 0,
+			SkullOwner: {
+				Id: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+				Properties: {
+					textures: [{
+						Signature: "Wx5SE5Z3apVzwXfcefbeZJwKTltm+LU/8G29xwHo/tPqqXVJTPdDD3ttqwBjupjE1S/T6+srob1/VIXQJQw7ChrIzzjSmJkpHPkuZLk1QhOODIhSW6C5Y+tfuKedpgxArVJNiUIaqR9se4AzAjOaZZBp2xbQvYyPknyLsKSOd4DJovh1SswGf2cbpg3s0fsCZM/5Yzg7A7BL1cDlGFe1wzo/i7nGq+nT+S7kAab9Uwnu7fClic9+5fFlRA9Q/568KNNR6OvIKZT0rlMUcmGltziHKfUNOlQxg/0kLar6BHf+OrILD3JIdXhRq87LadEn/4hdm/RPW2CnG8RfKHMMgsfrhv7PEZxG3H7i+vMQHloFucFZl2W5a6mVf4OExmwClviJC0yC4W17q8jS/oGVwnvESMMtBhGoaiqW+dxCuxeYK0gszpp2Xc6kc4DzciN0KXPPH1rLl542wEiQ9q9FKkCjNA2FeJCyLivum3/N7Pkfmijnt4NBA3/T90cRvW/Nz6QSMNU/4mGH51k9v+Wi3HZ01nmyFx8X4Fz/xaHc1QTaJ2gyFCCXLVfSw5rPfVgiWF0aNKgbPsrG/+yCUdAZVk4h7cpPzMxXvJNWe5bfQsasbt/zqaV5/Or8Xli2hQtkIINBjERVDUskJVk8G247jkulP/eRebuOTUMo9SrO8CM=",
+						Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MjEzNzkzNTkzNSwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCMG5LMzMzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZlZjVjY2Q1Y2QxN2RkNjgxMDMyNDY0YTlhMjdjNGY1NzdhMDZkNTFhYWI2Mjg1OTZlY2E5NWRiNjQ5Nzk0NWEiCiAgICB9CiAgfQp9"
+					}]
+				},
+				Name: "B0nK333"
+			},
+			display: {
+				Name: "LoVi_ApTe4kq's Head"
+			}
+		},
+		Damage: 3s
+	},
+	x: 0.0d,
+	y: -9.0d,
+	text: [
+		"§4Ваша персональная кукла вуду  разработчика мод пака. Самое время наложить проклятие!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"161ef81c",
+		"08c0ab83",
+		"fb7c4778",
+		"4d6d4f69",
+		"f8206525",
+		"ab830344",
+		"06d15356",
+		"e99e81d6",
+		"fe6a2be2",
+		"f5464e89",
+		"0347a617",
+		"d2026110",
+		"1e81a352",
+		"d5473293",
+		"0d1b358d",
+		"8869fdb1",
+		"e8cd3114",
+		"7ed39089",
+		"4f333d29",
+		"74de0a44",
+		"feb5afe8",
+		"a9871099",
+		"628995e9",
+		"5e9946bb",
+		"58e835cb",
+		"d09005b9",
+		"23427c28",
+		"e6a8d005",
+		"d9dd80ed",
+		"a31b2b69",
+		"07e7d553",
+		"f530f444",
+		"8f834639",
+		"52042b39"
+	],
+	rewards: [{
+		uid: "853f3b72",
+		type: "item",
+		item: {
+			id: "minecraft:skull",
+			tag: {
+				RepairCost: 0,
+				SkullOwner: {
+					Id: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					Properties: {
+						textures: [{
+							Signature: "Wx5SE5Z3apVzwXfcefbeZJwKTltm+LU/8G29xwHo/tPqqXVJTPdDD3ttqwBjupjE1S/T6+srob1/VIXQJQw7ChrIzzjSmJkpHPkuZLk1QhOODIhSW6C5Y+tfuKedpgxArVJNiUIaqR9se4AzAjOaZZBp2xbQvYyPknyLsKSOd4DJovh1SswGf2cbpg3s0fsCZM/5Yzg7A7BL1cDlGFe1wzo/i7nGq+nT+S7kAab9Uwnu7fClic9+5fFlRA9Q/568KNNR6OvIKZT0rlMUcmGltziHKfUNOlQxg/0kLar6BHf+OrILD3JIdXhRq87LadEn/4hdm/RPW2CnG8RfKHMMgsfrhv7PEZxG3H7i+vMQHloFucFZl2W5a6mVf4OExmwClviJC0yC4W17q8jS/oGVwnvESMMtBhGoaiqW+dxCuxeYK0gszpp2Xc6kc4DzciN0KXPPH1rLl542wEiQ9q9FKkCjNA2FeJCyLivum3/N7Pkfmijnt4NBA3/T90cRvW/Nz6QSMNU/4mGH51k9v+Wi3HZ01nmyFx8X4Fz/xaHc1QTaJ2gyFCCXLVfSw5rPfVgiWF0aNKgbPsrG/+yCUdAZVk4h7cpPzMxXvJNWe5bfQsasbt/zqaV5/Or8Xli2hQtkIINBjERVDUskJVk8G247jkulP/eRebuOTUMo9SrO8CM=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MjEzNzkzNTkzNSwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCMG5LMzMzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZlZjVjY2Q1Y2QxN2RkNjgxMDMyNDY0YTlhMjdjNGY1NzdhMDZkNTFhYWI2Mjg1OTZlY2E5NWRiNjQ5Nzk0NWEiCiAgICB9CiAgfQp9"
+						}]
+					},
+					Name: "B0nK333"
+				},
+				display: {
+					Name: "LoVi_ApTe4kq's Head"
+				}
+			},
+			Damage: 3s
+		}
+	},
+	{
+		uid: "35e9a21b",
+		type: "command",
+		command: "/defaultgamemode 1"
+	},
+	{
+		uid: "76dc3e04",
+		type: "command",
+		command: "/gamemode 1 @a"
+	}]
+}

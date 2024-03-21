@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 9.5d,
+	dependencies: [
+		"ff7fcf72"
+	],
+	tasks: [{
+		uid: "f03a7b40",
+		type: "item",
+		items: [{
+			item: "ae2stuff:wireless"
+		}]
+	}],
+	rewards: [{
+		uid: "a213f9fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

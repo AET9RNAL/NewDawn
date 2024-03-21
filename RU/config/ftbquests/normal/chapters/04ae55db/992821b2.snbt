@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 1.5d,
+	text: [
+		"§4Вырубка леса"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "7ab8bebc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

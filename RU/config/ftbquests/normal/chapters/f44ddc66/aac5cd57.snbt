@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c071e8f3"
+	],
+	tasks: [{
+		uid: "ed7d2eaf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nano_shield"
+		}]
+	}],
+	rewards: [{
+		uid: "4c7754af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

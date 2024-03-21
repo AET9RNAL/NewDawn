@@ -1,0 +1,24 @@
+{
+	x: -17.0d,
+	y: 6.5d,
+	dependencies: [
+		"2d283257"
+	],
+	tasks: [{
+		uid: "0defe629",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stellar_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "461c760d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,1 @@
+{CustomName:Imposter,CustomNameVisible:0,Health:2,Attributes:[{Name:"generic.maxHealth",Base:2},{Name:"generic.movementSpeed",Base:0.5f},{Name:"generic.attackDamage",Base:1}],HandItems:[{id:"minecraft:iron_axe",tag:{ench:[{id:20,lvl:2}]},Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:skull",Damage:3,tag:{SkullOwner:MHF_Villager},Count:1}]}

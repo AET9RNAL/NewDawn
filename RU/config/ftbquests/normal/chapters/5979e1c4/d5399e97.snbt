@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 11.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "3c19d6a6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lumium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "20f16eac",
+		type: "xp",
+		xp: 100
+	}]
+}

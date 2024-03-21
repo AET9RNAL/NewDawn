@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	dependencies: [
+		"0e3ecada"
+	],
+	tasks: [{
+		uid: "875b8f54",
+		type: "item",
+		items: [{
+			item: "rftools:liquid_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "152a070b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

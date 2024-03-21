@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: -2.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "314ef651",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:experience_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "727811d2",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,133 @@
+[
+	{
+		"conditions": [
+			{
+				"type": "minecraft:item_exists",
+				"item": "blackholestorage:dark_matter"
+			}
+		],
+		"input": {
+			"ore": "blockDiamond",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "1000000000",
+		"result": {
+			"item": "blackholestorage:dark_matter"
+		}
+	},
+	{
+		"conditions": [
+			{
+				"type": "minecraft:item_exists",
+				"item": "blackholestorage:anti_matter"
+			}
+		],
+		"input": {
+			"ore": "matterDark",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "8000000000",
+		"result": {
+			"item": "blackholestorage:anti_matter"
+		}
+	},
+	{
+		"input": {
+			"ore": "gemDiamond",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "50000000000",
+		"result": {
+			"item": "minecraft:diamond_block"
+		}
+	},
+	{
+		"input": {
+			"ore": "dustGlowstone",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "500000000",
+		"result": {
+			"item": "minecraft:glowstone"
+		}
+	},
+	{
+		"input": {
+			"ore": "dustRedstone",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "1000000000",
+		"result": {
+			"item": "minecraft:redstone_block"
+		}
+	},
+	{
+		"input": {
+			"ore": "gemQuartz",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "75000000",
+		"result": {
+			"item": "minecraft:prismarine_shard"
+		}
+	},
+	{
+		"input": {
+			"item": "minecraft:prismarine_shard"
+		},
+		"inputCount": 1,
+		"energy": "250000",
+		"result": {
+			"item": "minecraft:prismarine_crystals"
+		}
+	},
+	{
+		"input": {
+			"ore": "gemLapis",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "50000000",
+		"result": {
+			"item": "minecraft:lapis_block"
+		}
+	},
+	{
+		"input": {
+			"ore": "blockQuartz",
+			"type": "forge:ore_dict"
+		},
+		"inputCount": 1,
+		"energy": "50000000",
+		"result": {
+			"item": "minecraft:quartz",
+			"count": 5
+		}
+	},
+	{
+		"conditions": [
+			{
+				"type": "minecraft:item_exists",
+				"item": "blackholestorage:destabilized_diamond"
+			},
+			{
+				"type": "minecraft:item_exists",
+				"item": "blackholestorage:stabilized_electrical_diamond"
+			}
+		],
+		"input": {
+			"item": "blackholestorage:destabilized_diamond"
+		},
+		"inputCount": 1,
+		"energy": "1000000",
+		"result": {
+			"item": "blackholestorage:stabilized_electrical_diamond"
+		}
+	}
+]

@@ -1,0 +1,23 @@
+{
+	x: 14.5d,
+	y: 1.5d,
+	dependencies: [
+		"0e9cf582"
+	],
+	tasks: [{
+		uid: "922304e9",
+		type: "kill",
+		entity: "divinerpg:hive_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f34c4394",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

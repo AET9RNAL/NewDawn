@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: 18.0d,
+	dependencies: [
+		"8c7dc7f7"
+	],
+	tasks: [{
+		uid: "8d296824",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:plastic_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "d6104912",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

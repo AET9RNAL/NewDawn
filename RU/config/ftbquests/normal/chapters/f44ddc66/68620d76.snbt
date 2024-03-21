@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 17.0d,
+	dependencies: [
+		"4549c408"
+	],
+	tasks: [{
+		uid: "a5d66206",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_alfheim"
+		}]
+	}],
+	rewards: [{
+		uid: "8a480fc3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

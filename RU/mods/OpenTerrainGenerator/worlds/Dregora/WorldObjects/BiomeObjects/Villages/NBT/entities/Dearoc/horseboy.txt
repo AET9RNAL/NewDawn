@@ -1,0 +1,1 @@
+{CustomName:"Daeroc's Stable Boy",CustomNameVisible:0,Health:50,Age:-6000}

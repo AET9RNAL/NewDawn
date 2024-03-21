@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: -11.0d,
+	text: [
+		"§6Проводимость: §91000000MN/T"
+	],
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "8c04d7ee",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}]
+	}]
+}

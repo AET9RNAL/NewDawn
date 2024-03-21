@@ -1,0 +1,32 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	text: [
+		"§4Фальшивка"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "ba9e987f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "206c221b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

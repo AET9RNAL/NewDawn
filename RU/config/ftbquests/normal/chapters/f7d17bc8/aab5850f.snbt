@@ -1,0 +1,19 @@
+{
+	x: -16.0d,
+	y: 4.5d,
+	dependencies: [
+		"983725b1"
+	],
+	tasks: [{
+		uid: "30138c53",
+		type: "item",
+		items: [{
+			item: "packageddraconic:marked_wyvern_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "d292db69",
+		type: "xp",
+		xp: 100
+	}]
+}

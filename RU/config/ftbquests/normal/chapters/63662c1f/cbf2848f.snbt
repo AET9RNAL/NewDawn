@@ -1,0 +1,32 @@
+{
+	x: -2.5d,
+	y: -14.0d,
+	dependencies: [
+		"bdcc8872"
+	],
+	tasks: [{
+		uid: "70fab928",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fa3e8d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

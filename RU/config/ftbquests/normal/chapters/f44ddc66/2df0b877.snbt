@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e3507bc2",
+		"7a24a07e"
+	],
+	tasks: [{
+		uid: "d56cf866",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 33"
+		}]
+	}],
+	rewards: [{
+		uid: "e075a6c8",
+		type: "item",
+		item: "industrialupgrade:botaniapanel 1 2"
+	}]
+}

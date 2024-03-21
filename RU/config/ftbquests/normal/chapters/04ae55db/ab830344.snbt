@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -7.5d,
+	text: [
+		"§4Карманный дракон!"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "6c080130",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a706081a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

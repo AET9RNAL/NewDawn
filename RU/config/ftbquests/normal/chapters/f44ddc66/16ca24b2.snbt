@@ -1,0 +1,22 @@
+{
+	x: -19.5d,
+	y: -8.0d,
+	shape: "diamond",
+	dependencies: [
+		"8b5102f6"
+	],
+	tasks: [{
+		uid: "9a140b2c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 3"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fabf61bf",
+		type: "item",
+		item: "industrialupgrade:simplemachine 1 6",
+		count: 2
+	}]
+}

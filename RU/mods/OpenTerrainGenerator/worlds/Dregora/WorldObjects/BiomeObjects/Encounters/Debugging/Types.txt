@@ -1,0 +1,84 @@
+Creeping_Death = Baby Zombie on Cave Spider
+Dismemberer = Invisible Axe Baby Zomb
+Frozen_Walker = Stray with shield and bow
+Gluttony = Angry white rabbit
+Golden_Chick = Chicken with good loot
+Haunted_Glory = Sword and pickaxe baby zombie invisible
+Haunted_TinySword = sword baby zombie invisible
+Haunting_Head = Pumpkin head floating
+Haunting_Head_Tiny = pumpkin head floating small
+Herobrine = Herobrine with armor
+KoppenSneller = Wither skeleton invis with armor
+Legged_Creep = Creeper on spider 3x3
+Legged_Guardian = Spider with guardian on top 3x3
+Lone_Golem = Op golem 3x3
+Many_Eyes = OP spider 3x3
+Nemesis = Zombie baby on baby pig
+Posessed_Pickaxe = Invis baby zombie with pickaxe
+Kindled_Berserker = Skeleton duo sword on fire with leather armor Invis
+Kindled_GreatSoul = Fire Enderman Invis
+Kindled_Spirit = Zombie on fire Invis
+Kindled_Summoner = like beserker but small
+Pyromancer = Baby zombie on fire with lava head
+RedCloak = Evoker OP
+RedGuard = Spider with skeleton on top     3x3
+RedShield = Wither skeleton armored
+Shadow_Rider = Wither skeleton on Spider   3x3
+Spooky_behemoth = Wither Skeleton Pumpkin head chainmail
+Spooky_plainschief = Skeleton on Skeleton horse 3x3
+Stalking_End = Walking Creeper Nuke
+The_Digger = Baby zombie with shovel
+Twilight_Warrior = Zombie invis
+Warlock = Wither skeleton on horse 3x3
+White_Howl = Baby zombie on wolf
+White_Night = Wither skeleton on Polar Bear 3x3
+Wisperer = Spooky skeleton on top of skeleton horse 3x3
+
+
+
+Biome Groups:
+
+#Everywhere Biome
+#Everywhere Biome\nTree(3,Creeping_Death,100,Golden_Chick,100,Herobrine,100,Legged_Creep,100,Lone_Golem,100,Many_Eyes,100,Nemesis,100)
+
+#HighlandsBiome
+#HighlandsBiome\nTree(3,Dismemberer,100,Spooky_plainschief,100,Warlock,100,White_Howl,100)
+
+#RainforestBiome
+#RainforestBiome\nTree(4,KoppenSneller,100,Twilight_Warrior,100,Kindled_Berserker,100,Kindled_GreatSoul,100,Kindled_Spirit,100,Kindled_Summoner,100,Pyromancer,100)
+
+#IceBiome
+#IceBiome\nTree(3,Frozen_Walker,100,Gluttony,100,White_Howl,100,White_Night,100)
+
+#DesertBiome
+#DesertBiome\nTree(4,RedCloak,100,Stalking_End,100,RedGuard,100,RedShield,100,Shadow_Rider,100,Twilight_Warrior,100)
+
+#OceanBiome
+#OceanBiome\nTree(2,Legged_Guardian,100)
+
+#HotBiome
+#HotBiome\nTree(3,Kindled_Berserker,100,Kindled_GreatSoul,100,Kindled_Spirit,100,Kindled_Summoner,100,Pyromancer,100)
+
+#SpookyBiomes
+#SpookyBiomes\nTree(4,The_Digger,100,Gluttony,100,Haunted_Glory,100,Haunted_TinySword,100,Haunting_Head,100,Haunting_Head_Tiny,100,Posessed_Pickaxe,100,Spooky_behemoth,100,Spooky_plainschief,100,Wisperer,100)
+
+#BogBiome
+#BogBiome\nTree(3,The_Digger,100,Gluttony,100,Haunted_Glory,100,Posessed_Pickaxe,100,Haunted_TinySword,100,Legged_Guardian,100,Dismemberer,100)
+
+#TropicalBiome
+
+#HighlandsVillageBiome
+
+#MinesBiome
+
+#RainforestVillageBiome
+
+#HighlandRuinsBiome
+
+#RoadBiomes
+
+
+
+
+
+

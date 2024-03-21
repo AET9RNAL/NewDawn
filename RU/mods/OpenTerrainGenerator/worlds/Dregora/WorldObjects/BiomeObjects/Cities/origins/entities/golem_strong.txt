@@ -1,0 +1,1 @@
+{CustomName:"Fast Golem",CustomNameVisible:0,Attributes:[{Name:"generic.movementSpeed",Base:0.4f}]}

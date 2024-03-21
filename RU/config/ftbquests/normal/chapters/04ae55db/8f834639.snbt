@@ -1,0 +1,41 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"§4Пахнет творческим, на вкус всё ещё не дотягивает",
+		"",
+		"§a(Генерация:180000RF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
+		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "87057517",
+		type: "item",
+		items: [{
+			item: "rftools:powercell_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "25b4347c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "7c47d048",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 2
+	}]
+}

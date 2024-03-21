@@ -1,0 +1,92 @@
+{
+	title: "Rare Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "solarflux:efficiency_upgrade"
+	},
+	{
+		item: "solarflux:solar_panel_2"
+	},
+	{
+		item: "enderio:block_solar_panel"
+	},
+	{
+		item: "enderio:block_solar_panel 1 1"
+	},
+	{
+		item: "divinerpg:rupee_ingot"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "twilightforest:fiery_ingot"
+	},
+	{
+		item: "thermaldynamics:duct_0 1 3"
+	},
+	{
+		item: "enderio:item_power_conduit 1 1"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent 1 1"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent 1 4"
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "minecraft:end_crystal"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:energy_crystal",
+			tag: {
+				charge: 1000000.0d
+			}
+		}
+	},
+	{
+		item: "industrialupgrade:itemingots 1 2"
+	},
+	{
+		item: "extrautils2:ingredients 1 11"
+	},
+	{
+		item: "extrautils2:drum 1 2"
+	},
+	{
+		item: "gendustry:apiary.upgrade"
+	},
+	{
+		item: "divinerpg:wildwood_chunk"
+	},
+	{
+		item: "botania:spreader"
+	},
+	{
+		item: "botania:altar"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:circuit 1 2",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "rare_crate",
+		color: 2388387,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

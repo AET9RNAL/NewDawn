@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: -11.0d,
+	dependencies: [
+		"8641bf05"
+	],
+	tasks: [{
+		uid: "b9940123",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:quarrymodules 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "ae6013c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4c853fae",
+		type: "dimension",
+		icon: "twilightforest:miniature_structure",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "2bfa8c9c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ee9e88a7",
+		type: "item",
+		item: "twilightforest:cooked_venison",
+		count: 8
+	},
+	{
+		uid: "fef45a87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		},
+		count: 2
+	}]
+}

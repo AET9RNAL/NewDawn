@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	dependencies: [
+		"9db2e24d"
+	],
+	tasks: [{
+		uid: "8045f1e0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3c5c3f33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -9.0d,
+	shape: "gear",
+	text: [
+		"Карьер, добывающий руды при помощи эффективного использования силы созвездия Mineralis. Ваш первый продвинутый, автоматический",
+		"способ добычи ресурсов."
+	],
+	dependencies: [
+		"fca8fad0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ee77190f",
+		type: "item",
+		items: [{
+			item: "multiblocked:astral_quarry"
+		}]
+	}],
+	rewards: [{
+		uid: "89688383",
+		type: "item",
+		item: "astraladditions:ring_astral"
+	},
+	{
+		uid: "2c069b08",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 275",
+		count: 12
+	}]
+}

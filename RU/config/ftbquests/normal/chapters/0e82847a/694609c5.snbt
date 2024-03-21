@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -9.0d,
+	dependencies: [
+		"9a624fc0"
+	],
+	tasks: [{
+		uid: "306b47d6",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9fee1703",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

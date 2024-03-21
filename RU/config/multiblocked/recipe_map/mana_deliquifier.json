@@ -1,0 +1,47 @@
+{
+  "name": "mana_deliquifier",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "6fa5a8db-7084-4770-aa58-670e461d2afa",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "89692f5c-b508-4c30-8fcf-b259bef561e5",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      }
+    }
+  ]
+}

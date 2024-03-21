@@ -1,0 +1,24 @@
+{
+	x: 13.0d,
+	y: -5.0d,
+	dependencies: [
+		"e6ca2bf4"
+	],
+	tasks: [{
+		uid: "d1efccc2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	}],
+	rewards: [{
+		uid: "34ee2580",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 8.0d,
+	y: 17.0d,
+	dependencies: [
+		"32083429"
+	],
+	tasks: [{
+		uid: "ec95b623",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 64L
+	},
+	{
+		uid: "00635ceb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b2bfd473",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8df7c951",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"6b6cf889"
+	],
+	tasks: [{
+		uid: "4ba7fbf9",
+		type: "item",
+		items: [{
+			item: "draconicadditions:armor_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c0b17359",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

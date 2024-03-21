@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"2abd6f5b"
+	],
+	tasks: [{
+		uid: "64128cde",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:foam_sprayer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c422a58f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,227 @@
+VERY IMPORTANT BEFORE RELEASE
+
+- Make all files bo4data for better performance!
+- Update Content Creators file
+- Update Biome Catalog
+- Fix Entity spawn (move all one block up)
+
+
+NEWBIOMES FILE
+
+Seed: 6273382375564409542
+
+Highland Biomes:
+
+Wooden Cliffs ( Forest Plateau )
+Red Cliffs ( Rainforest Towers )
+Rockys ( Old Dregora Biomes )
+ForestCherry
+ForestAutum
+ForestWinter
+SwamplandRuins
+SwamplandMain
+SwampLandUndergrowth
+SwampLandWet
+
+Ocean:
+
+ForestIsland
+
+
+GrayMountainPeak1 - GrayMountainPeak2 - GrayMountainPeak3 - GrayMountainPeak4
+GrayMountainCliffSummit
+GrayMountainCliff
+GrayMountainEdge
+
+
+Winter Biomes:
+
+Savanna Biomes:
+
+Desert Biomes:
+
+End Biomes:
+
+-------------------------------
+
+
+BIOMES TO FIX:
+Ore(no magma) in Dregora_SulfurLake
+Trench biome (Ocean Lush)
+Plains needs more green sub biome rarity
+
+Fix mansions in biomes
+Fix villages in biomes
+
+Add plain plateau to dry mountains
+Boulders too
+
+Dry Savanna but very green
+Birch biome little bit more green
+
+-------------------------------------------------------------------------w
+
+
+Ice biomes:
+Muddy, frozen ice spikes
+Frozen Mudplains
+Frozen SpikeMountains (lots, lots, too many spikes)
+
+Ocean biomes:
+Puddle ocean
+Drowned City
+
+Mountains:
+Fallout Mountains (Hidden)
+
+Sulfur Lakes:
+Tarpits
+Waterspouts
+
+
+Wasteland Biomes:
+Wasteland (parent biome)
+Rainforestholes (In Wasteland like biome)
+SubOcean (Ocean below surface with pillars)
+Oasis
+
+Forests:
+Blood Forest (red forest above ground)
+
+Savanna:
+Savanna
+Savanna Canyons with dried up river and somee trees
+
+------------------------------------------------------------------------------------
+Volcano's!
+
+Some sort of floating rocks biome
+Dead swamp (Add swamp trees and replace most leaves with air)
+Toxic Swamp (Swamp but toxic like and heavy fog)
+
+-------------------------------------------------------------------------------------
+
+Pocket: Lush Plateaus in biggest biomes
+Redwood forests (VERY BIG CUSTOM TREES)
+Schrublands
+Limestone Mountains with SALT PLAINS death valley +90
+ICE HELL cryogenic winter -90
+
+-------------------------------------------------------------------------------------
+
+Fire Pits??
+
+Rare Highlands group in random mode.
+
+Corrupted CherryBlosssom Biome - add more grass (tall tall grass)
+Corrupted Blood Plains (Bloody, messy area)
+Corrupted Blood Pits
+Corrupted Blood Mountains
+Corrupted Highland Mountains (Like highlands but corrupted)
+- Slimey Jungle that is also a Shallow ocean with curling roots.
+Corrupted Jungle Canyon that has sunken bones on ground and is deeper then corrupted Jungle. (contains guardians)
+Corrupted Jungle, Dense Jungle 
+Corrupted PineTree Forest (Red/Purple Trees) with ash like grass spots in green gravelmountain like area and Lava streams
+Sunflower Plains (normal biome with minimal corruption)
+Roofed Forest biome (Very, Very Dark and very very dense, Add bunch of custom trees toO! Perhaps the customstructure cherry trees?
+Use the Sunflower Plains as a base with cavern stuff and floating platform then also use spike caverns and the holes as entry points.
+It's ok if the spikes pierce the surface at points because these will create deathtraps. Perhaps do a replace layer with gravel? Ultimate deathtrap biome
+Spike Caverns (In any of the above biomes)
+
+
+Next Release:
+
+Corrupted Plains (Purple/Black stuff with huge black boulders)
+Corrupted Flower Forest (Same as forest but with more flowers)
+IsleBiome with Crystals Customstructure in a hole in Forest & Plain biomes
+Corrupted Mushroom Biome
+Temperate Hills with Sparse trees (normal biome)
+A biome that is like hell and spawns as a fire pit in corrupted plains
+Ashlake
+Some sort of podzol biome
+Add spawn book
+
+Entities for:
+
+/otg tp Dregora_CorruptedJungle
+/otg tp Dregora_CorruptedJungleDense
+/otg tp Dregora_CorruptedCherry
+/otg tp Dregora_ToxicSwamp
+/otg tp Dregora_CorruptedPineForest
+/otg tp Dregora_CorruptedFlowerPlains
+/otg tp Dregora_Sulfurlands
+/otg tp Dregora_HighlandsMountain
+
+
+Missing Biomes:
+
+minecraft:extreme_hills
+minecraft:frozen_ocean
+minecraft:taiga_hills
+minecraft:deep_ocean
+minecraft:stone_beach
+minecraft:cold_beach
+minecraft:birch_forest_hills
+minecraft:mesa_clear_rock
+minecraft:mutated_taiga
+minecraft:mutated_birch_forest
+minecraft:mutated_birch_forest_hills
+minecraft:mutated_redwood_taiga_hills
+minecraft:mutated_extreme_hills_with_trees 	
+minecraft:mutated_mesa_rock
+
+-------------------------------------------------------------------------------------
+
+Make sure Dregora contains all leaves!!!!! Including Dark oak ones!
+Dry Savanna remove Fix big amethyst (no replace block)
+Fix dry mesa border with redwood border
+Drywastelandsborder Issue
+DrywastelandsHollow Issue
+Double check Ocean Temple
+Double check Villages
+Fix ugly beach border
+
+-------------------------------------------------------------------------------------
+
+- Double check all temperature settings of random mode biome non-virtual biomes (Very important for E.G. serene seasons & ToughAsNails) DONE
+- Make sure all the non-virtual biomes have proper biome tags. DONE
+
+Fix fogdensity & fogcolor Done
+- remove all strongholds except from fromimage biome (Yeah this will make the game quite a bit harder but it'll also be a compass to some very interesting biomes!) DONE
+- Fix the eagle script program and rerun it with all the biomes straightening all the virtual biomes to properly mirror the non-virtual biomes. DONE
+- add GrassColor2: & FoilageColor2: to every single biome in entire Dregora DONE
+- Give each random mode biome it's own unique biomecolor
+
+- Check all village and rare building spawns 
+- Check all mob spawn rules
+
+Congealed: DONE
+Temperate:
+Wastelands:
+Ashlands, Barren, Desert, Forests, Mesa, Ocean, Plains, Plateaus, Saltplains, Savanna, Swamp, Volcano
+
+
+- Make random mode ore queue  DONE
+- Make sure all default resources are to be found in the biomes (Flowers and such) DONE
+- Pimp the curseforge page
+
+
+Wasteland:
+- Wasteland custom entity group
+
+Congealed:
+- Frozen lands custom entity group
+
+When time left:
+
+- ToxicSwamp Custom Entity
+- Corrupted Mountain custom entity (Same as corrupted pine?)
+- Toxic Swamp
+- Sulfur Biome
+- River Guardians (nowhere safe here hehe)
+- Roofed Forest DONE
+- FlowerPlains
+- Corrupted Jungle
+- CherryBiome
+- BloodBiome
+

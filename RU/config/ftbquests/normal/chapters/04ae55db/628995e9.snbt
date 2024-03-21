@@ -1,0 +1,43 @@
+{
+	x: 2.0d,
+	y: 6.5d,
+	text: [
+		"§4И немного маны"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "acbfe6e0",
+		type: "botania_mana",
+		value: 1000000000000000L,
+		show_numbers: true
+	},
+	{
+		uid: "7e63089e",
+		type: "fluid",
+		fluid: "fluidedmana",
+		amount: 1000000
+	}],
+	rewards: [{
+		uid: "4911e697",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	},
+	{
+		uid: "212e5c56",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 8
+	}]
+}

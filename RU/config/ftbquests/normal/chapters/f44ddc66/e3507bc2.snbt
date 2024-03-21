@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 15.0d,
+	dependencies: [
+		"c083e56d"
+	],
+	tasks: [{
+		uid: "b608c426",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_reinforced_stellar"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "35f9788f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

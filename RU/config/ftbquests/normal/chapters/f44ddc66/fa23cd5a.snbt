@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: -8.0d,
+	dependencies: [
+		"fd0b9b82"
+	],
+	tasks: [{
+		uid: "87276c93",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:draconicpanel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d3aa8f16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

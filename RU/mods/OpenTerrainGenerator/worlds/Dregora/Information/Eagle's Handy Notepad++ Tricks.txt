@@ -1,0 +1,14 @@
+-----------Mass change placeholder blocks into entities---------------------------------
+
+If you have 40 different placeholders for entities you want to turn these placeholders into entities. Adding the blocks as Block1,Block2,Block3,etc will add the prefix entity to all these different blocks. From then on you will need to search all files for entityBlock( and remove block ) then change the block themselves to the entity you want to replace it with and how many entities you want to spawn there
+
+outter () is to apply inner () over all blocks
+inner () = /1
+| = seperator
+
+
+Search for:
+((block.*block1)|(block.*Block2)|(block.*Block3))
+
+Replace By:
+entity\1

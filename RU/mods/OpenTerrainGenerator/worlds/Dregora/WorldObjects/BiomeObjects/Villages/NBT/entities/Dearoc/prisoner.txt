@@ -1,0 +1,1 @@
+{Profession:5,CustomName:"Daeroc's Prisoner",CustomNameVisible:0,Health:50}

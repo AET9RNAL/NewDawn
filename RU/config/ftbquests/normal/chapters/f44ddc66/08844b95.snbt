@@ -1,0 +1,24 @@
+{
+	x: 11.5d,
+	y: -6.5d,
+	dependencies: [
+		"ed183c72"
+	],
+	tasks: [{
+		uid: "1c8e8639",
+		type: "item",
+		items: [{
+			item: "quantum_generators:qg"
+		}]
+	}],
+	rewards: [{
+		uid: "5c9fd179",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

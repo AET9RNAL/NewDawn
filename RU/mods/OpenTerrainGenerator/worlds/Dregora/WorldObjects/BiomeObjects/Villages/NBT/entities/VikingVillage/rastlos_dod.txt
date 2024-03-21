@@ -1,0 +1,1 @@
+{CustomName:"Rastlos Dod",CustomNameVisible:0,CanPickUpLoot:1b,Health:40,Attributes:[{Name:"generic.maxHealth",Base:40},{Name:"generic.movementSpeed",Base:0.4f}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647},{Id:10,Amplifier:2,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647}]}

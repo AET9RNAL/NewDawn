@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	dependencies: [
+		"570faa4f",
+		"68d3c1b3",
+		"22e00ea1",
+		"7e5a6268",
+		"363a2537"
+	],
+	tasks: [{
+		uid: "66ab5368",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "aaf5460c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

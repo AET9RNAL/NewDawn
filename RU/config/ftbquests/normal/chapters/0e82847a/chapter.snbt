@@ -1,0 +1,21 @@
+{
+	title: "Botania",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.dream: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	description: [
+		"Цветы"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

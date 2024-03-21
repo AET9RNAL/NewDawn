@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	dependencies: [
+		"96d15004"
+	],
+	tasks: [{
+		uid: "14f5ded3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens"
+		}]
+	}],
+	rewards: [{
+		uid: "59edd902",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

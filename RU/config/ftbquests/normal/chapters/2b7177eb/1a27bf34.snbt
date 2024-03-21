@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: -5.0d,
+	dependencies: [
+		"e6ca2bf4"
+	],
+	tasks: [{
+		uid: "7295770a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:placer_block"
+		}]
+	}],
+	rewards: [{
+		uid: "b4dff651",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

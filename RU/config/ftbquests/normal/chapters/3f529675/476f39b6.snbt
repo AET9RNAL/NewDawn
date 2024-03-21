@@ -1,0 +1,49 @@
+{
+	x: 1.8200680272109153d,
+	y: -24.229591836734713d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"443f53ff",
+		"9a624d12",
+		"96b3b132",
+		"b9ea6449",
+		"eb2f02f3",
+		"f3abad1d"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "18fc9dc2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:refractive_crystal_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "c40da221",
+		type: "item",
+		item: "gendustry:industrial_apiary",
+		count: 8
+	},
+	{
+		uid: "fcdfc8e0",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "for.honey",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 64
+	},
+	{
+		uid: "aacfc9e7",
+		type: "item",
+		item: "contenttweaker:refractive_crystal_plate",
+		count: 4
+	}]
+}

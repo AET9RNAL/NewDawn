@@ -1,0 +1,181 @@
+{
+	title: "Legendary Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:controller",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_64k"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: "extrabotany:quantummanabuffer"
+	},
+	{
+		item: "industrialupgrade:botaniapanel 1 1"
+	},
+	{
+		item: "enderio:block_solar_panel 1 4"
+	},
+	{
+		item: "solarflux:solar_panel_5"
+	},
+	{
+		item: "draconicevolution:magnet 1 1"
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 2
+	},
+	{
+		item: "draconicevolution:wyvern_core"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:itembatlamacrystal",
+			tag: {
+				charge: 1.0E8d
+			}
+		}
+	},
+	{
+		item: "avaritia:block_resource 1 2"
+	},
+	{
+		item: "threng:machine 1 3",
+		count: 2
+	},
+	{
+		item: "threng:big_assembler",
+		count: 12
+	},
+	{
+		item: "threng:machine 1 5"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nanopickaxe",
+			tag: {
+				charge: 1000000.0d,
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:material 1 1025",
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}
+	},
+	{
+		item: "draconicevolution:fusion_crafting_core"
+	},
+	{
+		item: "draconicevolution:energy_storage_core"
+	},
+	{
+		item: "industrialupgrade:module_quickly",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:black_hole_controller_reworked"
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 24"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nano_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nano_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "legendary_crate",
+		color: 15844367,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

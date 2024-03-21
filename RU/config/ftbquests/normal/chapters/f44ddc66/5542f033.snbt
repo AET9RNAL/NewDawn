@@ -1,0 +1,35 @@
+{
+	x: 15.0d,
+	y: 11.0d,
+	dependencies: [
+		"24f641bf",
+		"724b24f1",
+		"f00355e1"
+	],
+	tasks: [{
+		uid: "a880d547",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:ultddrill",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5060e4fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

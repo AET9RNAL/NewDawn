@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -7.5d,
+	dependencies: [
+		"fca765b0"
+	],
+	tasks: [{
+		uid: "f67df82d",
+		type: "item",
+		items: [{
+			item: "twilightforest:knightmetal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b98f690e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

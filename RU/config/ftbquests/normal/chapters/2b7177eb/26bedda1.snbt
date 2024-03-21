@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -7.5d,
+	dependencies: [
+		"c8348594"
+	],
+	tasks: [{
+		uid: "b74b400d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:fluid_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "6cf86ae9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

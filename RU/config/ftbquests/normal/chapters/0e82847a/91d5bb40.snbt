@@ -1,0 +1,28 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	dependencies: [
+		"951d71a0"
+	],
+	tasks: [{
+		uid: "b1f5ad0c",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "54220970",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

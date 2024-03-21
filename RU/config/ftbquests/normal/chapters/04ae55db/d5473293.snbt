@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -7.5d,
+	text: [
+		"§4Из Extra Utilities лучше!",
+		"",
+		"§a(Генерация:12,884GRF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
+		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "93b72a0d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:creative_rf_source"
+		}]
+	}],
+	rewards: [{
+		uid: "d164d3c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "relic_crate"
+			}
+		},
+		count: 3
+	}]
+}

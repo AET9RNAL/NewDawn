@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 4.5d,
+	dependencies: [
+		"143290a4"
+	],
+	tasks: [{
+		uid: "3bd1af1d",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	}],
+	rewards: [{
+		uid: "0828549d",
+		type: "xp",
+		xp: 100
+	}]
+}

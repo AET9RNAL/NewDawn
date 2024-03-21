@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 16.0d,
+	dependencies: [
+		"ba23acf8"
+	],
+	tasks: [{
+		uid: "c67b4b5c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_reinforced_alfheim"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "df420df9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -5.5d,
+	y: -7.0d,
+	dependencies: [
+		"f49038cc"
+	],
+	tasks: [{
+		uid: "9aa1c0df",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "97af90ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

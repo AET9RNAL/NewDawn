@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"22411e79"
+	],
+	tasks: [{
+		uid: "3d5571ef",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "62c79f76",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

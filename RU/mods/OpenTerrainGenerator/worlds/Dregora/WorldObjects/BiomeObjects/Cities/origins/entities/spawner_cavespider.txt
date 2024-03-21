@@ -1,0 +1,1 @@
+/setblock ~ ~-1 ~ mob_spawner 0 replace {SpawnCount:1,MaxNearbyEntities:6,SpawnRange:4,Delay:20,MinSpawnDelay:20,MaxSpawnDelay:60,RequiredPlayerRange:6,SpawnData:{id:"minecraft:cave_spider"}}

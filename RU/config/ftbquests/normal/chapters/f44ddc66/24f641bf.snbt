@@ -1,0 +1,33 @@
+{
+	x: 13.5d,
+	y: 12.0d,
+	dependencies: [
+		"96222c62"
+	],
+	tasks: [{
+		uid: "178c3f39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:spectralshovel",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b7022b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

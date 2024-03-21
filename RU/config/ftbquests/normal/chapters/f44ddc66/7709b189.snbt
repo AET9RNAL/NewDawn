@@ -1,0 +1,33 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"aac5cd57"
+	],
+	tasks: [{
+		uid: "683e1980",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a51114b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

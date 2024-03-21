@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	text: [
+		"§4Сколько глаз вам пришлось выбить ради этого?"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "70efded3",
+		type: "fluid",
+		fluid: "ender",
+		amount: 100000000
+	}],
+	rewards: [{
+		uid: "0be8cceb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

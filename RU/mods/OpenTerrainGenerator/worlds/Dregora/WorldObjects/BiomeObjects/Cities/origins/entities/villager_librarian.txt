@@ -1,0 +1,1 @@
+{Profession:1,HandDropChances:[2F,0.1F],HandItems:[{id:"minecraft:book",Count:3},{id:"minecraft:writable_book",Count:1}],ArmorDropChances:[0.4F,0.5F,0.01F,0.2F],ArmorItems:[{id:"minecraft:dye",Count:7},{id:"minecraft:paper",Count:3},{id:"minecraft:clock",Count:1},{}],ActiveEffects:[{Id:16,Amplifier:0,Duration:2147483647}]}

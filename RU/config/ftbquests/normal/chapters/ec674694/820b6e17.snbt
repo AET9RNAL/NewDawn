@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"6d72c5cb"
+	],
+	tasks: [{
+		uid: "642e5905",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "45b3d0ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

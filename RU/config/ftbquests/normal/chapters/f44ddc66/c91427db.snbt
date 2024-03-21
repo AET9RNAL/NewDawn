@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -7.5d,
+	dependencies: [
+		"7a24a07e"
+	],
+	tasks: [{
+		uid: "ff37b58d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:excitednucleus 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3ce3f7f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

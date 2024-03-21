@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 19.0d,
+	dependencies: [
+		"8c308b86"
+	],
+	tasks: [{
+		uid: "a8044dc6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_reinforced_chaotic"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "73fc5a33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

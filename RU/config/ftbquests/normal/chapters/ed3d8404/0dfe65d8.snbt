@@ -1,0 +1,24 @@
+{
+	icon: "divinerpg:ancient_entity_statue",
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"95d91c62"
+	],
+	tasks: [{
+		uid: "11153bf6",
+		type: "kill",
+		entity: "divinerpg:ancient_entity",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "daefa7d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

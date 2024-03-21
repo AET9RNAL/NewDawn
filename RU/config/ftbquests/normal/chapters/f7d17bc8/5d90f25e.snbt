@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	dependencies: [
+		"284b98a7"
+	],
+	tasks: [{
+		uid: "86d27f3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:spatial_storage_cell_128_cubed"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "562da2e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 14.5d,
+	dependencies: [
+		"919e637e"
+	],
+	tasks: [{
+		uid: "23ea5492",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_dense_fiery"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "74630969",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

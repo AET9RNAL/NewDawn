@@ -1,0 +1,80 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"§4Разноцветные!"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "65e7c9b7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_stellar"
+		}],
+		count: 25000L
+	},
+	{
+		uid: "336b6db2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_chaotic"
+		}],
+		count: 25000L
+	},
+	{
+		uid: "c38ecaad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_alfheim"
+		}],
+		count: 25000L
+	},
+	{
+		uid: "29825037",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_awakened"
+		}],
+		count: 25000L
+	},
+	{
+		uid: "ade79179",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_dense_fiery"
+		}],
+		count: 25000L
+	},
+	{
+		uid: "f479ccef",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_draconic"
+		}],
+		count: 25000L
+	}],
+	rewards: [{
+		uid: "c59cca1b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "relic_crate"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "5520762a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 64
+	}]
+}

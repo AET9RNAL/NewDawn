@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	dependencies: [
+		"d4890f5e"
+	],
+	tasks: [{
+		uid: "e48251fa",
+		type: "item",
+		items: [{
+			item: "rftools:rf_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "cd377b1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

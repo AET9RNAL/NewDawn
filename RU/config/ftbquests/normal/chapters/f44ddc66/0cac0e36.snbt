@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: 5.5d,
+	dependencies: [
+		"2d283257"
+	],
+	tasks: [{
+		uid: "66df8348",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eden_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "5ce50353",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

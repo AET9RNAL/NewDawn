@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"75bf5a26"
+	],
+	tasks: [{
+		uid: "05177856",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8f435e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

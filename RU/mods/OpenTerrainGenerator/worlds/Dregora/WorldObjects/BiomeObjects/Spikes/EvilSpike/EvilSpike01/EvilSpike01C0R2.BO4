@@ -1,0 +1,266 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-5,38,3,OBSIDIAN:0)
+Block(-5,39,3,OBSIDIAN:0)
+Block(-5,40,3,OBSIDIAN:0)
+Block(-5,40,4,OBSIDIAN:0)
+Block(-5,41,3,OBSIDIAN:0)
+Block(-5,41,4,OBSIDIAN:0)
+Block(-5,42,3,OBSIDIAN:0)
+Block(-5,42,4,OBSIDIAN:0)
+Block(-5,43,2,OBSIDIAN:0)
+Block(-5,43,3,OBSIDIAN:0)
+Block(-5,43,4,minecraft:purple_glazed_terracotta:0)
+Block(-5,44,2,OBSIDIAN:0)
+Block(-5,44,3,OBSIDIAN:0)
+Block(-5,44,4,minecraft:purple_glazed_terracotta:0)
+Block(-5,45,1,OBSIDIAN:0)
+Block(-5,45,2,OBSIDIAN:0)
+Block(-5,45,3,OBSIDIAN:0)
+Block(-5,46,-2,minecraft:red_glazed_terracotta:1)
+Block(-5,46,-1,minecraft:red_glazed_terracotta:1)
+Block(-5,46,0,OBSIDIAN:0)
+Block(-5,47,-2,OBSIDIAN:0)
+Block(-4,41,3,OBSIDIAN:0)
+Block(-4,42,3,OBSIDIAN:0)
+Block(-4,43,3,OBSIDIAN:0)
+Block(-4,44,-4,minecraft:red_glazed_terracotta:1)
+Block(-4,44,1,OBSIDIAN:0)
+Block(-4,44,3,OBSIDIAN:0)
+Block(-4,45,-4,minecraft:purple_glazed_terracotta:1)
+Block(-4,45,-3,minecraft:red_glazed_terracotta:1)
+Block(-4,45,-2,minecraft:red_glazed_terracotta:1)
+Block(-4,45,0,OBSIDIAN:0)
+Block(-4,45,1,OBSIDIAN:0)
+Block(-4,45,2,minecraft:purple_glazed_terracotta:0)
+Block(-4,45,3,minecraft:purple_glazed_terracotta:0)
+Block(-4,46,-3,minecraft:purple_glazed_terracotta)
+Block(-4,46,-2,minecraft:red_glazed_terracotta:1)
+Block(-4,46,-1,OBSIDIAN:0)
+Block(-4,46,0,OBSIDIAN:0)
+Block(-4,46,1,OBSIDIAN:0)
+Block(-4,47,-3,OBSIDIAN:0)
+Block(-4,47,-2,OBSIDIAN:0)
+Block(-4,47,-1,OBSIDIAN:0)
+Block(-4,48,-5,OBSIDIAN:0)
+Block(-4,48,-4,OBSIDIAN:0)
+Block(-4,48,-3,OBSIDIAN:0)
+Block(-4,48,-2,OBSIDIAN:0)
+Block(-4,49,-7,OBSIDIAN:0)
+Block(-4,49,-6,OBSIDIAN:0)
+Block(-4,49,-5,OBSIDIAN:0)
+Block(-4,49,-4,OBSIDIAN:0)
+Block(-4,50,-7,OBSIDIAN:0)
+Block(-4,50,-6,OBSIDIAN:0)
+Block(-3,44,-5,minecraft:red_glazed_terracotta:1)
+Block(-3,45,-5,minecraft:purple_glazed_terracotta:1)
+Block(-3,45,-2,OBSIDIAN:0)
+Block(-3,46,-3,OBSIDIAN:0)
+Block(-3,46,-2,OBSIDIAN:0)
+Block(-3,46,-1,OBSIDIAN:0)
+Block(-3,46,0,minecraft:purple_glazed_terracotta:0)
+Block(-3,46,1,minecraft:purple_glazed_terracotta:0)
+Block(-3,47,-5,OBSIDIAN:0)
+Block(-3,47,-4,OBSIDIAN:0)
+Block(-3,47,-3,OBSIDIAN:0)
+Block(-3,47,-2,OBSIDIAN:0)
+Block(-3,47,-1,minecraft:purple_glazed_terracotta:0)
+Block(-3,47,0,minecraft:purple_glazed_terracotta:0)
+Block(-3,48,-6,OBSIDIAN:0)
+Block(-3,48,-5,OBSIDIAN:0)
+Block(-3,48,-4,OBSIDIAN:0)
+Block(-3,48,-3,minecraft:purple_glazed_terracotta:0)
+Block(-3,48,-2,minecraft:purple_glazed_terracotta:0)
+Block(-3,49,-7,OBSIDIAN:0)
+Block(-3,49,-6,OBSIDIAN:0)
+Block(-3,49,-5,OBSIDIAN:0)
+Block(-3,49,-4,minecraft:purple_glazed_terracotta:0)
+Block(-3,50,-7,minecraft:purple_glazed_terracotta:0)
+Block(-3,50,-6,minecraft:purple_glazed_terracotta:0)
+Block(-2,44,-6,minecraft:red_glazed_terracotta:1)
+Block(-2,45,-6,minecraft:red_glazed_terracotta:1)
+Block(-2,46,-6,minecraft:purple_glazed_terracotta:1)
+Block(-2,46,-5,OBSIDIAN:0)
+Block(-2,47,-6,OBSIDIAN:0)
+Block(-2,47,-5,OBSIDIAN:0)
+Block(-2,47,-4,OBSIDIAN:0)
+Block(-2,47,-3,OBSIDIAN:0)
+Block(-2,47,-2,minecraft:purple_glazed_terracotta:0)
+Block(-2,47,-1,minecraft:purple_glazed_terracotta:0)
+Block(-2,48,-7,OBSIDIAN:0)
+Block(-2,48,-6,OBSIDIAN:0)
+Block(-2,48,-5,OBSIDIAN:0)
+Block(-2,48,-4,OBSIDIAN:0)
+Block(-2,48,-3,minecraft:purple_glazed_terracotta:0)
+Block(-2,48,-2,OBSIDIAN:0)
+Block(-2,49,-7,OBSIDIAN:0)
+Block(-2,49,-6,OBSIDIAN:0)
+Block(-2,49,-5,OBSIDIAN:0)
+Block(-2,49,-4,minecraft:purple_glazed_terracotta:0)
+Block(-2,50,-7,minecraft:purple_glazed_terracotta:0)
+Block(-2,50,-6,OBSIDIAN:0)
+Block(-2,50,-5,minecraft:purple_glazed_terracotta:0)
+Block(-2,51,-7,minecraft:purple_glazed_terracotta:0)
+Block(-1,45,-7,minecraft:red_glazed_terracotta:1)
+Block(-1,46,-7,minecraft:red_glazed_terracotta:1)
+Block(-1,47,-7,minecraft:red_glazed_terracotta:1)
+Block(-1,48,-7,OBSIDIAN:0)
+Block(-1,48,-6,OBSIDIAN:0)
+Block(-1,48,-5,OBSIDIAN:0)
+Block(-1,48,-4,minecraft:purple_glazed_terracotta:0)
+Block(-1,49,-7,OBSIDIAN:0)
+Block(-1,49,-6,minecraft:purple_glazed_terracotta:0)
+Block(-1,49,-5,minecraft:purple_glazed_terracotta:0)
+Block(-1,49,-4,OBSIDIAN:0)
+Block(-1,50,-7,OBSIDIAN:0)
+Block(-1,50,-6,OBSIDIAN:0)
+Block(-1,50,-5,OBSIDIAN:0)
+Block(-1,51,-7,OBSIDIAN:0)
+Block(0,49,-7,minecraft:purple_glazed_terracotta:0)
+Block(0,50,-6,OBSIDIAN:0)
+Block(0,50,-5,OBSIDIAN:0)
+Block(0,51,-7,OBSIDIAN:0)
+Block(0,51,-6,OBSIDIAN:0)
+Block(1,51,-7,OBSIDIAN:0)
+Block(1,51,-6,OBSIDIAN:0)
+Block(1,52,-6,OBSIDIAN:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

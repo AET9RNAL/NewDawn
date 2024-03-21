@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: -19.5d,
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "b2acce00",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "reikarlily"
+			}
+		}]
+	}]
+}

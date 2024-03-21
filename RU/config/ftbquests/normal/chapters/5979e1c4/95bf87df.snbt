@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 10.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "62238fe9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:signalum_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "068640bf",
+		type: "xp",
+		xp: 100
+	}]
+}

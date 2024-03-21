@@ -1,0 +1,35 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"919d8176"
+	],
+	tasks: [{
+		uid: "67cb0ad3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ironwood_boots",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31489730",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

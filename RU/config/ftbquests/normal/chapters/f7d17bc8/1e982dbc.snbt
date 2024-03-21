@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: 3.5d,
+	dependencies: [
+		"143290a4"
+	],
+	tasks: [{
+		uid: "21d5a638",
+		type: "item",
+		items: [{
+			item: "packagedavaritia:extreme_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "575aca7c",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a281dea5",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "f36461b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

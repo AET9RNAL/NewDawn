@@ -1,0 +1,7 @@
+{
+	title: "AE2",
+	icon: "contenttweaker:server_core",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: -9.5d,
+	dependencies: [
+		"a5c036f1"
+	],
+	tasks: [{
+		uid: "d83ec4e5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine",
+			tag: {},
+			Damage: 14s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61f53986",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	dependencies: [
+		"7ab4eaad",
+		"87133938"
+	],
+	tasks: [{
+		uid: "84c75733",
+		type: "item",
+		items: [{
+			item: "contenttweaker:arcana_core"
+		}]
+	}],
+	rewards: [{
+		uid: "16f0ac7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	dependencies: [
+		"0e9cf582"
+	],
+	tasks: [{
+		uid: "d04e7261",
+		type: "item",
+		items: [{
+			item: "divinerpg:fire_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "bcb0fc9b",
+		type: "item",
+		item: "minecraft:ender_chest"
+	}]
+}

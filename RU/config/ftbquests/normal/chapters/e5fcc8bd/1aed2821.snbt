@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"a7d2b15c"
+	],
+	tasks: [{
+		uid: "8f899930",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "b1030731",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

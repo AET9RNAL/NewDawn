@@ -1,0 +1,318 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: 
+
+ReplaceWithGroundBlock: 
+
+ReplaceWithStoneBlock: 
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,59,8,STONE:3)
+Block(-8,60,7,STONE:3)
+Block(-8,60,8,STONE:3)
+Block(-8,61,6,STONE:3)
+Block(-8,61,7,STONE:3)
+Block(-8,61,8,STONE:3)
+Block(-8,62,5,STONE:3)
+Block(-8,62,6,STONE:3)
+Block(-8,62,7,STONE:3)
+Block(-8,62,8,STONE:3)
+Block(-8,63,4,STONE:3)
+Block(-8,63,5,STONE:3)
+Block(-8,63,6,STONE:3)
+Block(-8,63,7,STONE:3)
+Block(-8,63,8,STONE:3)
+Block(-8,64,4,STONE:3)
+Block(-8,64,5,STONE:3)
+Block(-8,64,6,STONE:3)
+Block(-8,64,7,STONE:3)
+Block(-8,64,8,STONE:3)
+Block(-8,65,4,STONE:3)
+Block(-8,65,5,STONE:3)
+Block(-8,65,6,STONE:3)
+Block(-8,65,7,STONE:3)
+Block(-8,65,8,STONE:3)
+Block(-8,66,4,STONE:3)
+Block(-8,66,5,STONE:3)
+Block(-8,66,6,STONE:3)
+Block(-8,66,7,STONE:3)
+Block(-8,66,8,STONE:3)
+Block(-8,67,3,STONE:3)
+Block(-8,67,4,STONE:3)
+Block(-8,67,5,OBSIDIAN:0)
+Block(-8,67,6,OBSIDIAN:0)
+Block(-8,67,7,OBSIDIAN:0)
+Block(-8,67,8,OBSIDIAN:0)
+Block(-8,68,3,STONE:3)
+Block(-8,68,4,OBSIDIAN:0)
+Block(-8,68,5,OBSIDIAN:0)
+Block(-8,68,6,OBSIDIAN:0)
+Block(-8,68,7,OBSIDIAN:0)
+Block(-8,68,8,OBSIDIAN:0)
+Block(-8,69,4,OBSIDIAN:0)
+Block(-8,69,5,OBSIDIAN:0)
+Block(-8,69,6,OBSIDIAN:0)
+Block(-8,69,7,OBSIDIAN:0)
+Block(-8,69,8,OBSIDIAN:0)
+Block(-8,70,4,OBSIDIAN:0)
+Block(-8,70,5,OBSIDIAN:0)
+Block(-8,70,6,OBSIDIAN:0)
+Block(-8,70,7,OBSIDIAN:0)
+Block(-8,70,8,OBSIDIAN:0)
+Block(-8,71,5,MAGMA:0)
+Block(-8,71,6,MAGMA:0)
+Block(-8,71,7,MAGMA:0)
+Block(-8,71,8,OBSIDIAN:0)
+Block(-8,72,6,MAGMA:0)
+Block(-8,72,7,MAGMA:0)
+Block(-8,72,8,MAGMA:0)
+Block(-8,73,6,MAGMA:0)
+Block(-8,73,7,MAGMA:0)
+Block(-8,73,8,MAGMA:0)
+Block(-8,74,8,MAGMA:0)
+Block(-7,60,8,STONE:3)
+Block(-7,61,7,STONE:3)
+Block(-7,61,8,STONE:3)
+Block(-7,62,6,STONE:3)
+Block(-7,62,7,STONE:3)
+Block(-7,62,8,STONE:3)
+Block(-7,63,5,STONE:3)
+Block(-7,63,6,STONE:3)
+Block(-7,63,7,STONE:3)
+Block(-7,63,8,STONE:3)
+Block(-7,64,4,STONE:3)
+Block(-7,64,5,STONE:3)
+Block(-7,64,6,STONE:3)
+Block(-7,64,7,STONE:3)
+Block(-7,64,8,STONE:3)
+Block(-7,65,4,STONE:3)
+Block(-7,65,5,STONE:3)
+Block(-7,65,6,STONE:3)
+Block(-7,65,7,STONE:3)
+Block(-7,65,8,STONE:3)
+Block(-7,66,4,STONE:3)
+Block(-7,66,5,STONE:3)
+Block(-7,66,6,STONE:3)
+Block(-7,66,7,STONE:3)
+Block(-7,66,8,STONE:3)
+Block(-7,67,4,STONE:3)
+Block(-7,67,5,OBSIDIAN:0)
+Block(-7,67,6,OBSIDIAN:0)
+Block(-7,67,7,OBSIDIAN:0)
+Block(-7,67,8,OBSIDIAN:0)
+Block(-7,68,4,OBSIDIAN:0)
+Block(-7,68,5,OBSIDIAN:0)
+Block(-7,68,6,OBSIDIAN:0)
+Block(-7,68,7,OBSIDIAN:0)
+Block(-7,68,8,OBSIDIAN:0)
+Block(-7,69,4,OBSIDIAN:0)
+Block(-7,69,5,OBSIDIAN:0)
+Block(-7,69,6,OBSIDIAN:0)
+Block(-7,69,7,OBSIDIAN:0)
+Block(-7,69,8,OBSIDIAN:0)
+Block(-7,70,5,OBSIDIAN:0)
+Block(-7,70,6,OBSIDIAN:0)
+Block(-7,70,7,OBSIDIAN:0)
+Block(-7,70,8,OBSIDIAN:0)
+Block(-7,71,6,MAGMA:0)
+Block(-7,71,7,MAGMA:0)
+Block(-7,71,8,MAGMA:0)
+Block(-7,72,6,MAGMA:0)
+Block(-7,72,7,MAGMA:0)
+Block(-7,72,8,MAGMA:0)
+Block(-7,73,8,MAGMA:0)
+Block(-6,61,8,STONE:3)
+Block(-6,62,7,STONE:3)
+Block(-6,62,8,STONE:3)
+Block(-6,63,6,STONE:3)
+Block(-6,63,7,STONE:3)
+Block(-6,63,8,STONE:3)
+Block(-6,64,5,STONE:3)
+Block(-6,64,6,STONE:3)
+Block(-6,64,7,STONE:3)
+Block(-6,64,8,STONE:3)
+Block(-6,65,5,STONE:3)
+Block(-6,65,6,STONE:3)
+Block(-6,65,7,STONE:3)
+Block(-6,65,8,OBSIDIAN:0)
+Block(-6,66,4,STONE:3)
+Block(-6,66,5,STONE:3)
+Block(-6,66,6,STONE:3)
+Block(-6,66,7,OBSIDIAN:0)
+Block(-6,66,8,OBSIDIAN:0)
+Block(-6,67,4,STONE:3)
+Block(-6,67,5,OBSIDIAN:0)
+Block(-6,67,6,OBSIDIAN:0)
+Block(-6,67,7,OBSIDIAN:0)
+Block(-6,67,8,OBSIDIAN:0)
+Block(-6,68,5,OBSIDIAN:0)
+Block(-6,68,6,OBSIDIAN:0)
+Block(-6,68,7,OBSIDIAN:0)
+Block(-6,68,8,OBSIDIAN:0)
+Block(-6,69,6,OBSIDIAN:0)
+Block(-6,69,7,MAGMA:0)
+Block(-6,69,8,MAGMA:0)
+Block(-6,70,5,OBSIDIAN:0)
+Block(-6,70,6,MAGMA:0)
+Block(-6,70,7,MAGMA:0)
+Block(-6,70,8,MAGMA:0)
+Block(-6,71,6,MAGMA:0)
+Block(-6,71,7,MAGMA:0)
+Block(-6,71,8,MAGMA:0)
+Block(-6,72,6,MAGMA:0)
+Block(-6,72,7,MAGMA:0)
+Block(-6,72,8,MAGMA:0)
+Block(-6,73,8,MAGMA:0)
+Block(-5,63,8,STONE:3)
+Block(-5,64,8,OBSIDIAN:0)
+Block(-5,65,8,OBSIDIAN:0)
+Block(-5,67,8,OBSIDIAN:0)
+Block(-5,68,7,MAGMA:0)
+Block(-5,68,8,MAGMA:0)
+Block(-5,69,7,MAGMA:0)
+Block(-5,69,8,MAGMA:0)
+Block(-5,70,6,MAGMA:0)
+Block(-5,70,7,MAGMA:0)
+Block(-5,70,8,MAGMA:0)
+Block(-5,71,6,MAGMA:0)
+Block(-5,71,7,MAGMA:0)
+Block(-5,71,8,MAGMA:0)
+Block(-5,72,7,MAGMA:0)
+Block(-5,72,8,MAGMA:0)
+Block(-4,70,7,MAGMA:0)
+Block(-4,70,8,MAGMA:0)
+Block(-4,71,8,MAGMA:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,Amethyst_Desert_BigC10R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

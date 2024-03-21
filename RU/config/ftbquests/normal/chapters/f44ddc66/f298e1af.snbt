@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 16.0d,
+	dependencies: [
+		"011a801e"
+	],
+	tasks: [{
+		uid: "6578a651",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_advanced_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "fbcd7e25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

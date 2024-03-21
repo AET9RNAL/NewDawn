@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: -2.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "ef775bad",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tungsten_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "cbb4b281",
+		type: "xp",
+		xp: 100
+	}]
+}

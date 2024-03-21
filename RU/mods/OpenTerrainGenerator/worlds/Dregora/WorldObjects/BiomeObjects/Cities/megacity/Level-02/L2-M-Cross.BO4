@@ -1,0 +1,160 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: L4-M-CrossC0R0, L4-M-CrossC0R1, L4-M-CrossC0R2, L4-M-CrossC0R3, L4-M-CrossC1R0, L4-M-CrossC1R1, L4-M-CrossC1R2, L4-M-CrossC1R3, L4-M-CrossC2R0, L4-M-CrossC2R1, L4-M-CrossC2R2, L4-M-CrossC2R3, L4-M-CrossC3R0, L4-M-CrossC3R1, L4-M-CrossC3R2, L4-M-CrossC3R3, L4-M-Straigth-START_01-C0R0, L4-M-Straigth-START_01-C0R1, L4-M-Straigth-START_01-C1R0, L4-M-Straigth-START_01-C1R1, L4-M-Straigth-START_01-C2R0, L4-M-Straigth-START_01-C2R1, L4-M-Straigth-START_01-C3R0, L4-M-Straigth-START_01-C3R1, L4-M-Straigth-3CC0R0, L4-M-Straigth-3CC0R1, L4-M-Straigth-3CC0R2, L4-M-Straigth-3CC1R0, L4-M-Straigth-3CC1R1, L4-M-Straigth-3CC1R2, L4-M-Straigth-3CC2R0, L4-M-Straigth-3CC2R1, L4-M-Straigth-3CC2R2, L4-M-Straigth-3CC3R0, L4-M-Straigth-3CC3R1, L4-M-Straigth-3CC3R2, L4-M-Cross
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#BRANCH NORTH IN 0R0
+
+#Branch(0,0,0,true,L2-M-CrossC0R3,NORTH,100.0,0)
+
+
+
+#L2-M-Cross
+#NORTH = C2R0 = 32,0,0 FROM CENTER
+#EAST = C3R2 = 48,0,32 FROM CENTER
+#SOUTH = C1R3 = 16,0,48 FROM CENTER
+#WEST = C0R1 = 0,0,16 FROM CENTER
+
+#L2-M-Straigth-3C
+#NORTH = C1R0 = 16,0,0 FROM CENTER
+#SOUTH = C2R2 = 32,0,32 FROM CENTER
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

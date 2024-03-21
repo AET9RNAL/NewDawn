@@ -1,0 +1,50 @@
+{
+	title: "Mythic Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "draconicevolution:awakened_core"
+	},
+	{
+		item: "maia_draconic_edition:enderium_core"
+	},
+	{
+		item: "contenttweaker:stellar_core",
+		count: 4
+	},
+	{
+		item: "contenttweaker:iridium_advanced_stellar",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:quantumitems4",
+		count: 8
+	},
+	{
+		item: "avaritia:resource 1 5"
+	},
+	{
+		item: "contenttweaker:cross_dimensional_core"
+	},
+	{
+		item: "contenttweaker:infinity_circuit"
+	},
+	{
+		item: "industrialupgrade:machines 1 5"
+	},
+	{
+		item: "enderio:block_solar_panel 1 6"
+	},
+	{
+		item: "appliedenergistics2:material 1 65"
+	}],
+	loot_crate: {
+		string_id: "mythic_crate",
+		color: 13849600,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

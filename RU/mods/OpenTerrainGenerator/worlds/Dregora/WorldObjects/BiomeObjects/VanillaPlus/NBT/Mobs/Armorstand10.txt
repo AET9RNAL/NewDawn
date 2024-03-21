@@ -1,0 +1,1 @@
+{ArmorItems:[{},{id:"minecraft:leather_leggings",tag:{display:{color:12433078}},Count:1},{id:"minecraft:leather_chestplate",tag:{display:{color:4204570}},Count:1},{id:"minecraft:leather_helmet",tag:{display:{color:12433078}},Count:1}]}

@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -7.0d,
+	dependencies: [
+		"e6ca2bf4"
+	],
+	tasks: [{
+		uid: "b7394261",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:card_location"
+		}]
+	}],
+	rewards: [{
+		uid: "84b5ec81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

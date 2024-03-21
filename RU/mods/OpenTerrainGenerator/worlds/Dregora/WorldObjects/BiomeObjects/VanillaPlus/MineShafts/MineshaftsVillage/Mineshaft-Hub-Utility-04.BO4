@@ -1,0 +1,188 @@
+Author: NLBlackEagle
+Description: No description given
+SettingsMode: WriteDisable
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: true
+OverrideParentHeight: false
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove: 
+ReplaceBelow: 
+ReplaceWithBiomeBlocks: true
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: true
+Block(-7,0,-3,WOOD:5)
+Block(-7,0,-2,WOOD:5)
+Block(-7,0,-1,WOOD:5)
+Block(-7,0,0,WOOD:5)
+Block(-7,0,1,WOOD_STEP:13)
+Block(-7,0,2,WOOD_STEP:13)
+Block(-7,0,3,WOOD:5)
+Block(-7,0,4,WOOD:5)
+Block(-7,0,5,WOOD:5)
+Block(-7,0,6,WOOD:5)
+Block(-7,750,9,AIR:0)
+RandomBlock(-7,1,-3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,1,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-7,1,-1,BOOKSHELF:0)
+Block(-7,1,0,CARPET:13)
+Block(-7,1,1,CARPET:13)
+Block(-7,1,2,AIR:0)
+Block(-7,1,3,AIR:0)
+Block(-7,1,4,BOOKSHELF:0)
+RandomBlock(-7,1,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,1,6,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,2,-3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,2,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-7,2,-1,BOOKSHELF:0)
+Block(-7,2,0,AIR:0)
+Block(-7,2,1,AIR:0)
+Block(-7,2,2,AIR:0)
+Block(-7,2,3,AIR:0)
+Block(-7,2,4,BOOKSHELF:0)
+RandomBlock(-7,2,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,2,6,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,3,-3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,3,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-7,3,-1,TRAP_DOOR:11)
+Block(-7,3,0,TRAP_DOOR:11)
+Block(-7,3,1,TRAP_DOOR:9)
+Block(-7,3,2,TRAP_DOOR:9)
+Block(-7,3,3,TRAP_DOOR:11)
+Block(-7,3,4,TRAP_DOOR:11)
+RandomBlock(-7,3,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-7,3,6,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-6,0,-2,WOOD:5)
+Block(-6,0,-1,WOOD:5)
+Block(-6,0,0,WOOD:5)
+Block(-6,0,1,WOOD_STEP:13)
+Block(-6,0,2,WOOD_STEP:13)
+Block(-6,0,3,WOOD:5)
+Block(-6,0,4,WOOD:5)
+Block(-6,0,5,WOOD:5)
+RandomBlock(-6,1,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,1,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-6,1,1,AIR:0)
+Block(-6,1,2,CARPET:13)
+Block(-6,1,3,BOOKSHELF:0)
+RandomBlock(-6,1,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,1,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,2,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,2,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-6,2,0,AIR:0)
+Block(-6,2,1,AIR:0)
+Block(-6,2,2,AIR:0)
+RandomBlock(-6,2,3,AIR:0,20,CHEST:2,../../../../Chests/Loot/JunkChest_1.nbt,10,CHEST:2,../../../../Chests/Loot/JunkChest_2.nbt,10,CHEST:2,../../../../Chests/Loot/JunkChest_3.nbt,10,CHEST:2,../../../../Chests/Loot/JunkChest_4.nbt,10,CHEST:2,../../../../Chests/Loot/JunkChest_5.nbt,10,CHEST:2,../../../../Chests/Lore/HiddenMine_1.nbt,1,CHEST:2,../../../../Chests/Lore/HiddenMine_2.nbt,1,CHEST:2,../../../../Chests/Lore/HiddenMine_3.nbt,1,CHEST:2,../../../../Chests/Lore/HiddenMine_4.nbt,1,CHEST:2,../../../../Chests/Lore/HiddenMine_5.nbt,1,CHEST:2,../../../../Chests/Loot/Common1.nbt,10,CHEST:2,../../../../Chests/Loot/Common2.nbt,10,CHEST:2,../../../../Chests/Loot/Common3.nbt,10,CHEST:2,../../../../Chests/Loot/Common4.nbt,10,CHEST:2,../../../../Chests/Loot/Common5.nbt,10,CHEST:2,../../../../Chests/Loot/Common6.nbt,10,CHEST:2,../../../../Chests/Loot/Common7.nbt,10,CHEST:2,../../../../Chests/Loot/Common8.nbt,10,CHEST:2,../../../../Chests/Loot/Common9.nbt,10,CHEST:2,../../../../Chests/Loot/Common10.nbt,10,CHEST:2,../../../../Chests/Loot/Common10.nbt,11,CHEST:2,../../../../Chests/Loot/Common12.nbt,10,CHEST:2,../../../../Chests/Loot/Common13.nbt,10,CHEST:2,../../../../Chests/Loot/Common14.nbt,10,CHEST:2,../../../../Chests/Loot/Common15.nbt,10,CHEST:2,../../../../Chests/Lore/HiddenMine_1.nbt,2,CHEST:2,../../../../Chests/Lore/HiddenMine_3.nbt,2,CHEST:2,../../../../Chests/Lore/HiddenMine_4.nbt,2,CHEST:2,../../../../Chests/Lore/HiddenMine_5.nbt,2,CHEST:2,../../../../Chests/Lore/HiddenMine_5.nbt,2,CHEST:2,../../../../Chests/Loot/Rare1.nbt,5,CHEST:2,../../../../Chests/Loot/Rare2.nbt,5,CHEST:2,../../../../Chests/Loot/Rare3.nbt,5,CHEST:2,../../../../Chests/Loot/Rare4.nbt,5,CHEST:2,../../../../Chests/Loot/Rare5.nbt,5,CHEST:2,../../../../Chests/Loot/Rare6.nbt,5,CHEST:2,../../../../Chests/Loot/Rare7.nbt,5,CHEST:2,../../../../Chests/Loot/Rare8.nbt,5,CHEST:2,../../../../Chests/Loot/Rare9.nbt,5,CHEST:2,../../../../Chests/Loot/Rare10.nbt,5,CHEST:2,../../../../Chests/Loot/Rare11.nbt,5,CHEST:2,../../../../Chests/Loot/Rare12.nbt,5,CHEST:2,../../../../Chests/Loot/Rare13.nbt,5,CHEST:2,../../../../Chests/Loot/Rare14.nbt,5,CHEST:2,../../../../Chests/Loot/Rare15.nbt,5,CHEST:2,../../../../Chests/Loot/Epic1.nbt,2,CHEST:2,../../../../Chests/Loot/Epic2.nbt,2,CHEST:2,../../../../Chests/Loot/Epic3.nbt,2,CHEST:2,../../../../Chests/Loot/Epic4.nbt,2,CHEST:2,../../../../Chests/Loot/Epic5.nbt,2,CHEST:2,../../../../Chests/Loot/Epic6.nbt,2,CHEST:2,../../../../Chests/Loot/Epic7.nbt,2,CHEST:2,../../../../Chests/Loot/Epic8.nbt,2,CHEST:2,../../../../Chests/Loot/Epic9.nbt,2,CHEST:2,../../../../Chests/Loot/Epic10.nbt,2,CHEST:2,../../../../Chests/Loot/Epic11.nbt,2,CHEST:2,../../../../Chests/Loot/Epic12.nbt,2,CHEST:2,../../../../Chests/Loot/Epic13.nbt,2,CHEST:2,../../../../Chests/Loot/Epic14.nbt,2,CHEST:2,../../../../Chests/Loot/Epic15.nbt,5,CHEST:2,../../../../Chests/Loot/Rare1.nbt,5,CHEST:2,../../../../Chests/Loot/Rare2.nbt,5,CHEST:2,../../../../Chests/Loot/Rare3.nbt,5,CHEST:2,../../../../Chests/Loot/Rare4.nbt,5,CHEST:2,../../../../Chests/Loot/Rare5.nbt,10,CHEST:2,../../../../Chests/Loot/Rare6.nbt,10,CHEST:2,../../../../Chests/Loot/Rare7.nbt,10,CHEST:2,../../../../Chests/Loot/Rare8.nbt,10,CHEST:2,../../../../Chests/Loot/Rare9.nbt,10,CHEST:2,../../../../Chests/Loot/Rare10.nbt,15,CHEST:2,../../../../Chests/Loot/Rare11.nbt,15,CHEST:2,../../../../Chests/Loot/Rare12.nbt,15,CHEST:2,../../../../Chests/Loot/Rare13.nbt,15,CHEST:2,../../../../Chests/Loot/Rare14.nbt,15,CHEST:2,../../../../Chests/Loot/Rare15.nbt,15,CHEST:2,../../../../Chests/Loot/Epic15.nbt,100)
+RandomBlock(-6,2,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,2,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,3,-2,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,3,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-6,3,0,TRAP_DOOR:11)
+Block(-6,3,1,TRAP_DOOR:9)
+Block(-6,3,2,TRAP_DOOR:9)
+Block(-6,3,3,TRAP_DOOR:11)
+RandomBlock(-6,3,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-6,3,5,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-5,0,-1,WOOD:5)
+Block(-5,0,0,WOOD:5)
+Block(-5,0,1,WOOD_STEP:13)
+Block(-5,0,2,WOOD_STEP:13)
+Block(-5,0,3,WOOD:5)
+Block(-5,0,4,WOOD:5)
+RandomBlock(-5,1,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,1,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-5,1,1,CARPET:13)
+Block(-5,1,2,CARPET:13)
+RandomBlock(-5,1,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,1,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,2,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,2,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-5,2,1,AIR:0)
+Block(-5,2,2,AIR:0)
+RandomBlock(-5,2,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,2,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,3,-1,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,3,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-5,3,1,TRAP_DOOR:9)
+Block(-5,3,2,TRAP_DOOR:9)
+RandomBlock(-5,3,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-5,3,4,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-4,0,0,WOOD:5)
+Block(-4,0,1,WOOD_STEP:13)
+Block(-4,0,2,WOOD_STEP:13)
+Block(-4,0,3,WOOD:5)
+RandomBlock(-4,1,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-4,1,1,AIR:0)
+Block(-4,1,2,AIR:0)
+RandomBlock(-4,1,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-4,2,0,TORCH:5)
+Block(-4,2,1,AIR:0)
+Block(-4,2,2,AIR:0)
+RandomBlock(-4,2,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-4,3,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-4,3,1,TRAP_DOOR:9)
+Block(-4,3,2,TRAP_DOOR:9)
+RandomBlock(-4,3,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-3,0,0,WOOD:5)
+Block(-3,0,1,WOOD_STEP:13)
+Block(-3,0,2,WOOD_STEP:13)
+Block(-3,0,3,WOOD:5)
+RandomBlock(-3,1,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-3,1,1,AIR:0,20,CHEST:4,../../../../Chests/Loot/JunkChest_1.nbt,10,CHEST:4,../../../../Chests/Loot/JunkChest_2.nbt,10,CHEST:4,../../../../Chests/Loot/JunkChest_3.nbt,10,CHEST:4,../../../../Chests/Loot/JunkChest_4.nbt,10,CHEST:4,../../../../Chests/Loot/JunkChest_5.nbt,10,CHEST:4,../../../../Chests/Lore/HiddenMine_1.nbt,1,CHEST:4,../../../../Chests/Lore/HiddenMine_2.nbt,1,CHEST:4,../../../../Chests/Lore/HiddenMine_3.nbt,1,CHEST:4,../../../../Chests/Lore/HiddenMine_4.nbt,1,CHEST:4,../../../../Chests/Lore/HiddenMine_5.nbt,1,CHEST:4,../../../../Chests/Loot/Common1.nbt,10,CHEST:4,../../../../Chests/Loot/Common2.nbt,10,CHEST:4,../../../../Chests/Loot/Common3.nbt,10,CHEST:4,../../../../Chests/Loot/Common4.nbt,10,CHEST:4,../../../../Chests/Loot/Common5.nbt,10,CHEST:4,../../../../Chests/Loot/Common6.nbt,10,CHEST:4,../../../../Chests/Loot/Common7.nbt,10,CHEST:4,../../../../Chests/Loot/Common8.nbt,10,CHEST:4,../../../../Chests/Loot/Common9.nbt,10,CHEST:4,../../../../Chests/Loot/Common10.nbt,10,CHEST:4,../../../../Chests/Loot/Common10.nbt,11,CHEST:4,../../../../Chests/Loot/Common12.nbt,10,CHEST:4,../../../../Chests/Loot/Common13.nbt,10,CHEST:4,../../../../Chests/Loot/Common14.nbt,10,CHEST:4,../../../../Chests/Loot/Common15.nbt,10,CHEST:4,../../../../Chests/Lore/HiddenMine_1.nbt,2,CHEST:4,../../../../Chests/Lore/HiddenMine_3.nbt,2,CHEST:4,../../../../Chests/Lore/HiddenMine_4.nbt,2,CHEST:4,../../../../Chests/Lore/HiddenMine_5.nbt,2,CHEST:4,../../../../Chests/Lore/HiddenMine_5.nbt,2,CHEST:4,../../../../Chests/Loot/Rare1.nbt,5,CHEST:4,../../../../Chests/Loot/Rare2.nbt,5,CHEST:4,../../../../Chests/Loot/Rare3.nbt,5,CHEST:4,../../../../Chests/Loot/Rare4.nbt,5,CHEST:4,../../../../Chests/Loot/Rare5.nbt,5,CHEST:4,../../../../Chests/Loot/Rare6.nbt,5,CHEST:4,../../../../Chests/Loot/Rare7.nbt,5,CHEST:4,../../../../Chests/Loot/Rare8.nbt,5,CHEST:4,../../../../Chests/Loot/Rare9.nbt,5,CHEST:4,../../../../Chests/Loot/Rare10.nbt,5,CHEST:4,../../../../Chests/Loot/Rare11.nbt,5,CHEST:4,../../../../Chests/Loot/Rare12.nbt,5,CHEST:4,../../../../Chests/Loot/Rare13.nbt,5,CHEST:4,../../../../Chests/Loot/Rare14.nbt,5,CHEST:4,../../../../Chests/Loot/Rare15.nbt,5,CHEST:4,../../../../Chests/Loot/Epic1.nbt,2,CHEST:4,../../../../Chests/Loot/Epic2.nbt,2,CHEST:4,../../../../Chests/Loot/Epic3.nbt,2,CHEST:4,../../../../Chests/Loot/Epic4.nbt,2,CHEST:4,../../../../Chests/Loot/Epic5.nbt,2,CHEST:4,../../../../Chests/Loot/Epic6.nbt,2,CHEST:4,../../../../Chests/Loot/Epic7.nbt,2,CHEST:4,../../../../Chests/Loot/Epic8.nbt,2,CHEST:4,../../../../Chests/Loot/Epic9.nbt,2,CHEST:4,../../../../Chests/Loot/Epic10.nbt,2,CHEST:4,../../../../Chests/Loot/Epic11.nbt,2,CHEST:4,../../../../Chests/Loot/Epic12.nbt,2,CHEST:4,../../../../Chests/Loot/Epic13.nbt,2,CHEST:4,../../../../Chests/Loot/Epic14.nbt,2,CHEST:4,../../../../Chests/Loot/Epic15.nbt,5,CHEST:4,../../../../Chests/Loot/Rare1.nbt,5,CHEST:4,../../../../Chests/Loot/Rare2.nbt,5,CHEST:4,../../../../Chests/Loot/Rare3.nbt,5,CHEST:4,../../../../Chests/Loot/Rare4.nbt,5,CHEST:4,../../../../Chests/Loot/Rare5.nbt,10,CHEST:4,../../../../Chests/Loot/Rare6.nbt,10,CHEST:4,../../../../Chests/Loot/Rare7.nbt,10,CHEST:4,../../../../Chests/Loot/Rare8.nbt,10,CHEST:4,../../../../Chests/Loot/Rare9.nbt,10,CHEST:4,../../../../Chests/Loot/Rare10.nbt,15,CHEST:4,../../../../Chests/Loot/Rare11.nbt,15,CHEST:4,../../../../Chests/Loot/Rare12.nbt,15,CHEST:4,../../../../Chests/Loot/Rare13.nbt,15,CHEST:4,../../../../Chests/Loot/Rare14.nbt,15,CHEST:4,../../../../Chests/Loot/Rare15.nbt,15,CHEST:4,../../../../Chests/Loot/Epic15.nbt,100)
+Block(-3,1,2,BOOKSHELF:0)
+RandomBlock(-3,1,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-3,2,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-3,2,1,AIR:0)
+Block(-3,2,2,BOOKSHELF:0)
+RandomBlock(-3,2,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-3,3,0,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-3,3,1,TRAP_DOOR:9)
+Block(-3,3,2,TRAP_DOOR:9)
+RandomBlock(-3,3,3,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-2,0,0,WOOD:5)
+Block(-2,0,1,WOOD:5)
+Block(-2,0,2,WOOD:5)
+Block(-2,0,3,WOOD:5)
+Block(-2,1,0,SPRUCE_FENCE:0)
+RandomBlock(-2,1,1,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-2,1,2,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-2,1,3,SPRUCE_FENCE:0)
+Block(-2,2,0,SPRUCE_FENCE:0)
+RandomBlock(-2,2,1,DARK_OAK_FENCE:0,30,STONE:6,100)
+RandomBlock(-2,2,2,DARK_OAK_FENCE:0,30,STONE:6,100)
+Block(-2,2,3,SPRUCE_FENCE:0)
+Block(-2,3,0,WOOD:1)
+Block(-2,3,1,WOOD:1)
+Block(-2,3,2,WOOD:1)
+Block(-2,3,3,WOOD:1)
+Block(8,750,-6,AIR:0)
+Block(-6,1,0,AIR:0)
+WBR(0,0,0,false,Util-04-1-Armorstand10,NORTH,10,0,Util-04-1-Armorstand09,NORTH,10,0,Util-04-1-Armorstand08,NORTH,10,0,Util-04-1-Armorstand07,NORTH,10,0,Util-04-1-Armorstand06,NORTH,10,0,Util-04-1-Armorstand05,NORTH,10,0,Util-04-1-Armorstand04,NORTH,10,0,Util-04-1-Armorstand03,NORTH,10,0,Util-04-1-Armorstand02,NORTH,10,0,Util-04-1-Armorstand01,NORTH,10,0,100.0)

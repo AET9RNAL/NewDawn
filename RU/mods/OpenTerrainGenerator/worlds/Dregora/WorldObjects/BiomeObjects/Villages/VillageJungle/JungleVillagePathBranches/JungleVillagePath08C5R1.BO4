@@ -1,0 +1,193 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: true
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: false
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: dirt
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,5,WOOD:3)
+Block(-8,0,6,WOOD:3)
+Block(-8,0,7,GRASS_PATH:0)
+Block(-8,0,8,GRASS_PATH:0)
+Block(-8,1,5,AIR:0)
+Block(-7,0,4,GRASS_PATH:0)
+Block(-7,0,5,GRASS_PATH:0)
+Block(-7,0,6,GRASS_PATH:0)
+Block(-6,0,2,GRASS_PATH:0)
+Block(-6,0,3,GRASS_PATH:0)
+Block(-6,0,4,GRASS_PATH:0)
+Block(-6,0,5,GRASS_PATH:0)
+Block(-6,0,6,GRASS_PATH:0)
+Block(-5,0,2,GRASS_PATH:0)
+Block(-5,0,3,GRASS_PATH:0)
+Block(-5,0,4,GRASS_PATH:0)
+Block(-4,0,2,GRASS_PATH:0)
+Block(-4,0,3,GRASS_PATH:0)
+Block(-4,0,4,GRASS_PATH:0)
+Block(-4,0,5,GRASS_PATH:0)
+Block(-3,0,1,WOOD:3)
+Block(-3,0,2,GRASS_PATH:0)
+Block(-3,0,3,GRASS_PATH:0)
+Block(-2,0,0,GRASS_PATH:0)
+Block(-2,0,1,WOOD:3)
+Block(-1,0,-1,GRASS_PATH:0)
+Block(-1,0,0,GRASS_PATH:0)
+Block(0,0,-1,GRASS_PATH:0)
+Block(0,0,0,GRASS_PATH:0)
+Block(1,0,-2,GRASS_PATH:0)
+Block(1,0,-1,GRASS_PATH:0)
+Block(2,0,-6,GRASS_PATH:0)
+Block(2,0,-5,GRASS_PATH:0)
+Block(2,0,-4,WOOD:3)
+Block(2,0,-3,GRASS_PATH:0)
+Block(2,0,-2,GRASS_PATH:0)
+Block(2,0,-1,GRASS_PATH:0)
+Block(3,0,-5,GRASS_PATH:0)
+Block(3,0,-4,WOOD:3)
+Block(3,0,-1,GRASS_PATH:0)
+Block(3,0,0,GRASS_PATH:0)
+Block(4,0,-6,GRASS_PATH:0)
+Block(4,0,-5,GRASS_PATH:0)
+Block(4,0,0,GRASS_PATH:0)
+Block(5,0,0,GRASS_PATH:0)
+Block(6,0,0,GRASS_PATH:0)
+Block(7,0,-1,GRASS_PATH:0)
+Block(7,0,0,GRASS_PATH:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(0,0,0,true,AnimalFarm01,NORTH,10.0,10,AnimalFarm02,NORTH,10.0,10,AnimalFarm03,NORTH,10.0,10,AnimalFarm04,NORTH,10.0,10,AnimalFarm05,NORTH,10.0,10,AnimalFarm06,NORTH,10.0,10,AnimalFarm07,NORTH,10.0,10,AnimalFarm01,EAST,10.0,10,AnimalFarm02,EAST,10.0,10,AnimalFarm03,EAST,10.0,10,AnimalFarm04,EAST,10.0,10,AnimalFarm05,EAST,10.0,10,AnimalFarm06,EAST,10.0,10,AnimalFarm07,EAST,10.0,10,AnimalFarm01,WEST,10.0,10,AnimalFarm02,WEST,10.0,10,AnimalFarm03,WEST,10.0,10,AnimalFarm04,WEST,10.0,10,AnimalFarm05,WEST,10.0,10,AnimalFarm06,WEST,10.0,10,AnimalFarm07,WEST,10.0,10,AnimalFarm01,SOUTH,10.0,10,AnimalFarm02,SOUTH,10.0,10,AnimalFarm03,SOUTH,10.0,10,AnimalFarm04,SOUTH,10.0,10,AnimalFarm05,SOUTH,10.0,10,AnimalFarm06,SOUTH,10.0,10,AnimalFarm07,SOUTH,10.0,10,280.0)
+Branch(-16,0,0,true,JungleVillagePath08C4R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(-8,1,5,minecraft:villager_golem,1,../../NBT/entities/tribalgatekeeper.txt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

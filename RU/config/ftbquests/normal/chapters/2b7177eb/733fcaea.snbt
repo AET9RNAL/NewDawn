@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -8.5d,
+	dependencies: [
+		"c46ca47e"
+	],
+	tasks: [{
+		uid: "256c39fd",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:cable_wireless_fluid"
+		}]
+	}],
+	rewards: [{
+		uid: "742811d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

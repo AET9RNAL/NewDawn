@@ -1,0 +1,24 @@
+{
+	x: 10.5d,
+	y: 17.0d,
+	dependencies: [
+		"56f4e66d"
+	],
+	tasks: [{
+		uid: "d034c3a4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "05cd9db6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

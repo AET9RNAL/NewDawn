@@ -1,0 +1,25 @@
+{
+	x: -17.5d,
+	y: -2.0d,
+	dependencies: [
+		"4700a9fd"
+	],
+	tasks: [{
+		uid: "468d5b9c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:transformer_iu 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a66af36",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

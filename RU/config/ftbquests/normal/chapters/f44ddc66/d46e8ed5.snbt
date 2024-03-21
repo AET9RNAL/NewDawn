@@ -1,0 +1,32 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"45d35c61"
+	],
+	tasks: [{
+		uid: "6104d726",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:spectral_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57e0a563",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

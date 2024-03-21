@@ -1,0 +1,217 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(5,33,8,OBSIDIAN)
+Block(5,34,8,OBSIDIAN)
+Block(5,35,7,OBSIDIAN)
+Block(6,31,8,SANDSTONE)
+Block(6,32,8,SANDSTONE)
+Block(6,33,7,OBSIDIAN)
+Block(6,33,8,OBSIDIAN)
+Block(6,34,6,SANDSTONE)
+Block(6,34,7,OBSIDIAN)
+Block(6,34,8,OBSIDIAN)
+Block(6,35,6,OBSIDIAN)
+Block(6,35,7,OBSIDIAN)
+Block(6,35,8,OBSIDIAN)
+Block(6,36,5,OBSIDIAN)
+Block(6,36,6,OBSIDIAN)
+Block(6,36,7,OBSIDIAN)
+Block(6,37,5,OBSIDIAN)
+Block(6,37,6,OBSIDIAN)
+Block(6,38,4,OBSIDIAN)
+Block(6,38,5,OBSIDIAN)
+Block(6,39,4,OBSIDIAN)
+Block(6,40,3,OBSIDIAN)
+Block(6,41,2,OBSIDIAN)
+Block(7,29,8,SANDSTONE)
+Block(7,30,7,SANDSTONE)
+Block(7,30,8,SANDSTONE)
+Block(7,31,7,SANDSTONE)
+Block(7,31,8,SANDSTONE)
+Block(7,32,6,SANDSTONE)
+Block(7,32,7,SANDSTONE)
+Block(7,32,8,SANDSTONE)
+Block(7,33,6,SANDSTONE)
+Block(7,33,7,SANDSTONE)
+Block(7,33,8,SANDSTONE)
+Block(7,34,5,SANDSTONE)
+Block(7,34,6,SANDSTONE)
+Block(7,34,7,SANDSTONE)
+Block(7,34,8,OBSIDIAN)
+Block(7,35,5,SANDSTONE)
+Block(7,35,6,SANDSTONE)
+Block(7,35,7,SANDSTONE)
+Block(7,35,8,OBSIDIAN)
+Block(7,36,4,OBSIDIAN)
+Block(7,36,5,OBSIDIAN)
+Block(7,36,6,OBSIDIAN)
+Block(7,36,7,OBSIDIAN)
+Block(7,36,8,OBSIDIAN)
+Block(7,37,3,SANDSTONE)
+Block(7,37,4,OBSIDIAN)
+Block(7,37,5,OBSIDIAN)
+Block(7,37,6,OBSIDIAN)
+Block(7,37,7,OBSIDIAN)
+Block(7,38,3,SANDSTONE)
+Block(7,38,4,OBSIDIAN)
+Block(7,38,5,OBSIDIAN)
+Block(7,38,6,OBSIDIAN)
+Block(7,39,2,OBSIDIAN)
+Block(7,39,3,OBSIDIAN)
+Block(7,39,4,OBSIDIAN)
+Block(7,39,5,OBSIDIAN)
+Block(7,40,2,OBSIDIAN)
+Block(7,40,3,OBSIDIAN)
+Block(7,40,4,OBSIDIAN)
+Block(7,41,1,OBSIDIAN)
+Block(7,41,2,OBSIDIAN)
+Block(7,41,3,OBSIDIAN)
+Block(7,42,1,OBSIDIAN)
+Block(7,42,2,OBSIDIAN)
+Block(7,43,0,OBSIDIAN)
+Block(7,43,1,OBSIDIAN)
+Block(7,44,-1,OBSIDIAN)
+Block(7,44,0,OBSIDIAN)
+Block(7,45,-1,OBSIDIAN)
+Block(7,46,-2,OBSIDIAN)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,DesertSpike_Huge_18C1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

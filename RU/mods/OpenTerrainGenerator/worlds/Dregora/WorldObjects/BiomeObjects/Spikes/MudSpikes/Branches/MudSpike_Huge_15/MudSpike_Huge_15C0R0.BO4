@@ -1,0 +1,289 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(5,40,8,STAINED_CLAY:0)
+Block(5,41,7,STAINED_CLAY:0)
+Block(5,42,6,STAINED_CLAY:0)
+Block(5,43,5,STAINED_CLAY:0)
+Block(5,44,4,STAINED_CLAY:0)
+Block(5,45,3,STAINED_CLAY:0)
+Block(5,46,2,STAINED_CLAY:0)
+Block(5,47,1,STAINED_CLAY:0)
+Block(5,47,2,DIRT:1)
+Block(5,48,0,DIRT:1)
+Block(5,48,1,DIRT:1)
+Block(5,49,-1,DIRT:1)
+Block(5,49,0,DIRT:1)
+Block(5,50,-2,DIRT:1)
+Block(5,50,-1,DIRT:1)
+Block(5,51,-3,DIRT:1)
+Block(5,51,-2,DIRT:1)
+Block(5,52,-4,DIRT:1)
+Block(5,52,-3,DIRT:1)
+Block(5,53,-4,DIRT:1)
+Block(5,53,-3,DIRT:1)
+Block(5,54,-5,DIRT:1)
+Block(5,54,-4,DIRT:1)
+Block(6,38,8,DIRT:1)
+Block(6,39,7,STAINED_CLAY:0)
+Block(6,39,8,STAINED_CLAY:0)
+Block(6,40,6,STAINED_CLAY:0)
+Block(6,40,7,STAINED_CLAY:0)
+Block(6,40,8,STAINED_CLAY:0)
+Block(6,41,5,STAINED_CLAY:0)
+Block(6,41,6,STAINED_CLAY:0)
+Block(6,41,7,STAINED_CLAY:0)
+Block(6,42,4,STAINED_CLAY:0)
+Block(6,42,5,STAINED_CLAY:0)
+Block(6,42,6,STAINED_CLAY:0)
+Block(6,43,3,STAINED_CLAY:0)
+Block(6,43,4,STAINED_CLAY:0)
+Block(6,43,5,STAINED_CLAY:0)
+Block(6,44,2,STAINED_CLAY:0)
+Block(6,44,3,STAINED_CLAY:0)
+Block(6,44,4,STAINED_CLAY:0)
+Block(6,44,5,STAINED_CLAY:0)
+Block(6,45,1,STAINED_CLAY:0)
+Block(6,45,2,STAINED_CLAY:0)
+Block(6,45,3,STAINED_CLAY:0)
+Block(6,45,4,STAINED_CLAY:0)
+Block(6,46,0,STAINED_CLAY:0)
+Block(6,46,1,STAINED_CLAY:0)
+Block(6,46,2,STAINED_CLAY:0)
+Block(6,46,3,STAINED_CLAY:0)
+Block(6,47,-1,STAINED_CLAY:0)
+Block(6,47,0,STAINED_CLAY:0)
+Block(6,47,1,STAINED_CLAY:0)
+Block(6,47,2,STAINED_CLAY:0)
+Block(6,48,-2,STAINED_CLAY:0)
+Block(6,48,-1,STAINED_CLAY:0)
+Block(6,48,0,STAINED_CLAY:0)
+Block(6,48,1,DIRT:1)
+Block(6,49,-2,DIRT:1)
+Block(6,49,-1,DIRT:1)
+Block(6,49,0,DIRT:1)
+Block(6,50,-3,DIRT:1)
+Block(6,50,-2,DIRT:1)
+Block(6,50,-1,DIRT:1)
+Block(6,50,0,DIRT:1)
+Block(6,51,-3,DIRT:1)
+Block(6,51,-2,DIRT:1)
+Block(6,51,-1,DIRT:1)
+Block(6,52,-4,DIRT:1)
+Block(6,52,-3,DIRT:1)
+Block(6,52,-2,DIRT:1)
+Block(6,53,-4,DIRT:1)
+Block(6,53,-3,DIRT:1)
+Block(7,36,8,DIRT:1)
+Block(7,37,7,DIRT:1)
+Block(7,37,8,DIRT:1)
+Block(7,38,6,DIRT:1)
+Block(7,38,7,STAINED_CLAY:0)
+Block(7,38,8,STAINED_CLAY:0)
+Block(7,39,5,DIRT:1)
+Block(7,39,6,STAINED_CLAY:0)
+Block(7,39,7,STAINED_CLAY:0)
+Block(7,39,8,STAINED_CLAY:0)
+Block(7,40,4,STAINED_CLAY:0)
+Block(7,40,5,STAINED_CLAY:0)
+Block(7,40,6,STAINED_CLAY:0)
+Block(7,40,7,STAINED_CLAY:0)
+Block(7,40,8,STAINED_CLAY:0)
+Block(7,41,3,STAINED_CLAY:0)
+Block(7,41,4,STAINED_CLAY:0)
+Block(7,41,5,STAINED_CLAY:0)
+Block(7,41,6,STAINED_CLAY:0)
+Block(7,41,7,STAINED_CLAY:0)
+Block(7,41,8,STAINED_CLAY:0)
+Block(7,42,2,STAINED_CLAY:0)
+Block(7,42,3,STAINED_CLAY:0)
+Block(7,42,4,STAINED_CLAY:0)
+Block(7,42,5,STAINED_CLAY:0)
+Block(7,42,6,STAINED_CLAY:0)
+Block(7,42,7,STAINED_CLAY:0)
+Block(7,43,1,STAINED_CLAY:0)
+Block(7,43,2,STAINED_CLAY:0)
+Block(7,43,3,STAINED_CLAY:0)
+Block(7,43,4,STAINED_CLAY:0)
+Block(7,43,5,STAINED_CLAY:0)
+Block(7,43,6,STAINED_CLAY:0)
+Block(7,44,0,STAINED_CLAY:0)
+Block(7,44,1,STAINED_CLAY:0)
+Block(7,44,2,STAINED_CLAY:0)
+Block(7,44,3,STAINED_CLAY:0)
+Block(7,44,4,STAINED_CLAY:0)
+Block(7,44,5,STAINED_CLAY:0)
+Block(7,45,-1,STAINED_CLAY:0)
+Block(7,45,0,STAINED_CLAY:0)
+Block(7,45,1,STAINED_CLAY:0)
+Block(7,45,2,STAINED_CLAY:0)
+Block(7,45,3,STAINED_CLAY:0)
+Block(7,45,4,STAINED_CLAY:0)
+Block(7,46,-1,STAINED_CLAY:0)
+Block(7,46,0,STAINED_CLAY:0)
+Block(7,46,1,STAINED_CLAY:0)
+Block(7,46,2,STAINED_CLAY:0)
+Block(7,46,3,STAINED_CLAY:0)
+Block(7,47,-1,STAINED_CLAY:0)
+Block(7,47,0,STAINED_CLAY:0)
+Block(7,47,1,STAINED_CLAY:0)
+Block(7,47,2,STAINED_CLAY:0)
+Block(7,47,3,DIRT:1)
+Block(7,48,-2,STAINED_CLAY:0)
+Block(7,48,-1,STAINED_CLAY:0)
+Block(7,48,0,STAINED_CLAY:0)
+Block(7,48,1,DIRT:1)
+Block(7,48,2,DIRT:1)
+Block(7,49,-2,DIRT:1)
+Block(7,49,-1,DIRT:1)
+Block(7,49,0,DIRT:1)
+Block(7,49,1,DIRT:1)
+Block(7,50,-3,DIRT:1)
+Block(7,50,-2,DIRT:1)
+Block(7,50,-1,DIRT:1)
+Block(7,50,0,DIRT:1)
+Block(7,51,-3,DIRT:1)
+Block(7,51,-2,DIRT:1)
+Block(7,51,-1,DIRT:1)
+Block(7,52,-3,DIRT:1)
+Block(7,52,-2,DIRT:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,MudSpike_Huge_15C1R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

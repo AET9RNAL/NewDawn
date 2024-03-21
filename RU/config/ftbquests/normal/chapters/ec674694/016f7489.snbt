@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -7.5d,
+	dependencies: [
+		"f49038cc"
+	],
+	tasks: [{
+		uid: "956c4568",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "2ad253ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

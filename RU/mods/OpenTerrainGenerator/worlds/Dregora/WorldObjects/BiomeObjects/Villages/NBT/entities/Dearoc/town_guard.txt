@@ -1,0 +1,1 @@
+{CustomName:"Daeroc's Town Guard",CustomNameVisible:0,Health:50}

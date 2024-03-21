@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: 20.0d,
+	dependencies: [
+		"5fd8ff03"
+	],
+	tasks: [{
+		uid: "b77f90a7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:spawnermodules 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "594455ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

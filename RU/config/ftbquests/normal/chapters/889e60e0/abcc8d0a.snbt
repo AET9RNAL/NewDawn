@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -8.0d,
+	dependencies: [
+		"88e84e05"
+	],
+	tasks: [{
+		uid: "b42dc377",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:knightmetal_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d885b827",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

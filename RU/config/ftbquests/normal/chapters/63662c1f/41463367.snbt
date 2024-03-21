@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: -7.5d,
+	dependencies: [
+		"dc60d2e3"
+	],
+	tasks: [{
+		uid: "5e7864db",
+		type: "item",
+		items: [{
+			item: "draconicevolution:celestial_manipulator"
+		}]
+	}],
+	rewards: [{
+		uid: "44b7b8a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

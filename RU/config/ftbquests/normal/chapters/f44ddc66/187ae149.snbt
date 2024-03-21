@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: 10.5d,
+	dependencies: [
+		"b8788bbc"
+	],
+	tasks: [{
+		uid: "62436170",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:petrol_quarry",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f59c69b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

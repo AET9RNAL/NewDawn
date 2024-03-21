@@ -1,0 +1,24 @@
+{
+	x: -18.0d,
+	y: 5.5d,
+	dependencies: [
+		"2d283257"
+	],
+	tasks: [{
+		uid: "53800a80",
+		type: "item",
+		items: [{
+			item: "contenttweaker:draconium_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "bde3fe3c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

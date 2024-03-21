@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	dependencies: [
+		"2b87ca87"
+	],
+	tasks: [{
+		uid: "e096b1bc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "84af63f6",
+		type: "xp",
+		xp: 100
+	}]
+}

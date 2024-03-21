@@ -1,0 +1,30 @@
+{
+	x: 2.627551020408177d,
+	y: -11.683673469387749d,
+	shape: "hexagon",
+	dependencies: [
+		"ea8ec8dc"
+	],
+	tasks: [{
+		uid: "170ded99",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridescent_dripping_honeycomb_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "f8a536b8",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "for.honey",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 8
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -9.0d,
+	dependencies: [
+		"e1295ba9"
+	],
+	tasks: [{
+		uid: "24c2dbab",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:botaniapanel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2c342ce4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

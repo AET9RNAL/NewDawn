@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	dependencies: [
+		"a32c36be"
+	],
+	tasks: [{
+		uid: "66790582",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemenchantmentamulet",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0361760e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

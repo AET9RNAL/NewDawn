@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -5.5d,
+	text: [
+		"§4Ещё теплее, и на вкус уже более правдоподобно",
+		"",
+		"§a(Генерация:10000000RF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
+		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "9ecee70d",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrecoil_genesis"
+		}]
+	}],
+	rewards: [{
+		uid: "3ddb349e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

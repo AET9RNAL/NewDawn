@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: -3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8fc2983e",
+		"f63d33cb"
+	],
+	tasks: [{
+		uid: "c78eb85c",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "37fd8858",
+		type: "item",
+		item: "twilightforest:borer_essence",
+		count: 24
+	},
+	{
+		uid: "1387c9b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

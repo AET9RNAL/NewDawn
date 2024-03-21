@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: 9.5d,
+	dependencies: [
+		"52b120b5"
+	],
+	tasks: [{
+		uid: "ab01fe2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:energy_crystal",
+			tag: {},
+			Damage: 16s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "adb66c9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

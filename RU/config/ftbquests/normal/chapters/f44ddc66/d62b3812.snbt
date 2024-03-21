@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	dependencies: [
+		"2df0b877"
+	],
+	tasks: [{
+		uid: "bae25f87",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 34"
+		}]
+	}],
+	rewards: [{
+		uid: "36122df9",
+		type: "item",
+		item: "industrialupgrade:machines 1 6"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	dependencies: [
+		"a38e9c6b"
+	],
+	tasks: [{
+		uid: "e156bc26",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}],
+	rewards: [{
+		uid: "4532b302",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

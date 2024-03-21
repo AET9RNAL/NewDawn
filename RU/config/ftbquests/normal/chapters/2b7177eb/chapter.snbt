@@ -1,0 +1,10 @@
+{
+	title: "Cyclic",
+	icon: "cyclicmagic:crystallized_obsidian",
+	description: [
+		"Суслик"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

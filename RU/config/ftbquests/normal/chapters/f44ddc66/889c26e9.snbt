@@ -1,0 +1,24 @@
+{
+	x: -9.0d,
+	y: -1.0d,
+	dependencies: [
+		"e118feb3"
+	],
+	tasks: [{
+		uid: "dec3e45c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "bb2ca04c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

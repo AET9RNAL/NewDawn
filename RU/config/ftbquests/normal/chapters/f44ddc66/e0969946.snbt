@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"0910cdf4"
+	],
+	tasks: [{
+		uid: "547a21fd",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:blockresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "742f6b36",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

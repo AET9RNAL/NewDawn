@@ -1,0 +1,144 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: true
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: false
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: dirt
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+WeightedBranch(0,0,0,true,Acacia-AnimalFarm01,NORTH,10.0,10,Acacia-AnimalFarm02,NORTH,10.0,10,Acacia-AnimalFarm03,NORTH,10.0,10,Acacia-AnimalFarm04,NORTH,10.0,10,Acacia-AnimalFarm05,NORTH,10.0,10,Acacia-AnimalFarm06,NORTH,10.0,10,Acacia-AnimalFarm07,NORTH,10.0,10,Acacia-AnimalFarm01,EAST,10.0,10,Acacia-AnimalFarm02,EAST,10.0,10,Acacia-AnimalFarm03,EAST,10.0,10,Acacia-AnimalFarm04,EAST,10.0,10,Acacia-AnimalFarm05,EAST,10.0,10,Acacia-AnimalFarm06,EAST,10.0,10,Acacia-AnimalFarm07,EAST,10.0,10,Acacia-AnimalFarm01,WEST,10.0,10,Acacia-AnimalFarm02,WEST,10.0,10,Acacia-AnimalFarm03,WEST,10.0,10,Acacia-AnimalFarm04,WEST,10.0,10,Acacia-AnimalFarm05,WEST,10.0,10,Acacia-AnimalFarm06,WEST,10.0,10,Acacia-AnimalFarm07,WEST,10.0,10,Acacia-AnimalFarm01,SOUTH,10.0,10,Acacia-AnimalFarm02,SOUTH,10.0,10,Acacia-AnimalFarm03,SOUTH,10.0,10,Acacia-AnimalFarm04,SOUTH,10.0,10,Acacia-AnimalFarm05,SOUTH,10.0,10,Acacia-AnimalFarm06,SOUTH,10.0,10,Acacia-AnimalFarm07,SOUTH,10.0,10,280.0)
+Branch(0,0,16,true,AcaciaVillagePath07C4R4,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

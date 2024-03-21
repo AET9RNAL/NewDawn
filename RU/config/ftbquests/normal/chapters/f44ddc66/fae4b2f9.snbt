@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -15.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ab56ba84",
+		"099e9ea5"
+	],
+	tasks: [{
+		uid: "16fd1c2f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:machines 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "fc845344",
+		type: "item",
+		item: "industrialupgrade:machines 1 5"
+	}]
+}

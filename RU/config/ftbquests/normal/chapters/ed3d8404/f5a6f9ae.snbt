@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: -2.0d,
+	dependencies: [
+		"5aed7e7f"
+	],
+	tasks: [{
+		uid: "f5448065",
+		type: "item",
+		items: [{
+			item: "divinerpg:eternal_archer_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "99559918",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

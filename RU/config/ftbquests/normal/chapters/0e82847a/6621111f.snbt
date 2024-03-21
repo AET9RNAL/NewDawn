@@ -1,0 +1,17 @@
+{
+	x: -20.5d,
+	y: -3.0d,
+	text: [
+		"Проводимость: 250000Mn/t; Дальность: 24	"
+	],
+	dependencies: [
+		"b5ae5bcf"
+	],
+	tasks: [{
+		uid: "41db55a2",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_muspelheim"
+		}]
+	}]
+}

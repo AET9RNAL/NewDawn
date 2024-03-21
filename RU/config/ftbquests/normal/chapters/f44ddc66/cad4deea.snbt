@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: -11.0d,
+	dependencies: [
+		"793e8926"
+	],
+	tasks: [{
+		uid: "9d6a71d9",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:avaritiapanel"
+		}]
+	}],
+	rewards: [{
+		uid: "31a726a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

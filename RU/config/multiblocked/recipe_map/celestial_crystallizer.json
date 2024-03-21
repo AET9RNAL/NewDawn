@@ -1,0 +1,91 @@
+{
+  "name": "celestial_crystallizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "7bae3831-0980-47b7-b7e8-a52c17eb7a0b",
+      "duration": 24000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:96000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1800000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"astralsorcery:itemcelestialcrystal\",Count:1,tag:{astralsorcery:{crystalProperties:{collectiveCapability:100,size:900,fract:0,purity:100,sizeOverride:-1}}},Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c86d0f9c-a10a-4c01-bb38-aac97913cd5c",
+      "duration": 12000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:96000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 900000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"astralsorcery:itemrockcrystalsimple\",Count:1,tag:{astralsorcery:{crystalProperties:{collectiveCapability:100,size:400,fract:0,purity:100,sizeOverride:-1}}},Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

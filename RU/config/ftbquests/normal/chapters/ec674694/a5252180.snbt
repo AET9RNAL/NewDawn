@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"f49038cc"
+	],
+	tasks: [{
+		uid: "f0fc8418",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}],
+	rewards: [{
+		uid: "75114041",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

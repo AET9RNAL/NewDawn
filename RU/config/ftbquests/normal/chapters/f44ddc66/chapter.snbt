@@ -1,0 +1,14 @@
+{
+	title: "IU",
+	icon: {
+		id: "industrialupgrade:basemachine3",
+		tag: {},
+		Damage: 10s
+	},
+	description: [
+		"Новая Эра"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

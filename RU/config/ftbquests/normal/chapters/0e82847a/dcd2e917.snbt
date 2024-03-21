@@ -1,0 +1,17 @@
+{
+	x: -20.5d,
+	y: -2.0d,
+	text: [
+		"Проводимость: 625000Mn/t; Дальность: 30"
+	],
+	dependencies: [
+		"6621111f"
+	],
+	tasks: [{
+		uid: "399234ca",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_alfheim"
+		}]
+	}]
+}

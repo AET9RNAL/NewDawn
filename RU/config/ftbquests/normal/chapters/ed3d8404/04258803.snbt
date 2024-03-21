@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"0dfe65d8"
+	],
+	tasks: [{
+		uid: "230e0c87",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_shards"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "b28c83fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

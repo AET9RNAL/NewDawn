@@ -1,0 +1,145 @@
+Author: NLBlackEagle
+Description: No description given
+SettingsMode: WriteDisable
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: true
+OverrideParentHeight: true
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: false
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: -9
+RemoveAir: true
+ReplaceAbove: 
+ReplaceBelow: dirt
+ReplaceWithBiomeBlocks: true
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: true
+Block(0,10,7,SPRUCE_FENCE:0)
+Block(0,10,8,SPRUCE_FENCE:0)
+Block(1,0,8,WOOD:4)
+Block(1,1,8,WOOD:4)
+Block(1,2,8,WOOD:4)
+Block(1,3,8,WOOD:4)
+Block(1,4,8,WOOD:4)
+Block(1,5,8,WOOD:4)
+Block(1,6,8,WOOD:4)
+Block(1,7,8,WOOD:4)
+Block(1,8,8,WOOD:4)
+Block(1,9,8,WOOD:4)
+Block(1,10,8,WOOD:4)
+Block(1,11,8,WOOD:4)
+Block(1,12,8,WOOD:4)
+Block(1,13,8,WOOD:4)
+Block(1,14,8,WOOD:4)
+Block(2,0,8,WOOD:4)
+Block(2,1,8,WOOD:4)
+Block(2,2,8,WOOD:4)
+Block(2,3,8,WOOD:4)
+Block(2,4,8,WOOD:4)
+Block(2,5,8,WOOD:4)
+Block(2,6,8,WOOD:4)
+Block(2,7,8,WOOD:4)
+Block(2,8,8,WOOD:4)
+Block(2,9,8,WOOD:4)
+Block(2,10,7,SPRUCE_FENCE:0)
+Block(2,10,8,WOOD:4)
+Block(2,11,8,WOOD:4)
+Block(2,12,8,WOOD:4)
+Block(2,13,8,WOOD:4)
+Block(2,14,8,WOOD:4)
+Block(3,0,8,LOG_2:0)
+Block(3,1,8,LOG_2:0)
+Block(3,2,8,LOG_2:0)
+Block(3,3,8,LOG_2:0)
+Block(3,4,8,LOG_2:0)
+Block(3,5,8,LOG_2:0)
+Block(3,6,8,LOG_2:0)
+Block(3,7,8,LOG_2:0)
+Block(3,8,8,LOG_2:0)
+Block(3,9,8,LOG_2:0)
+Block(3,10,7,SPRUCE_FENCE:0)
+Block(3,10,8,LOG_2:0)
+Block(3,11,7,SPRUCE_FENCE:0)
+Block(3,11,8,LOG_2:0)
+Block(3,12,7,SPRUCE_FENCE:0)
+Block(3,12,8,LOG_2:0)
+Block(3,13,8,LOG_2:0)
+Block(3,14,8,LOG_2:0)
+Block(3,15,8,LOG_2:0)
+RandomBlock(3,16,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner01.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner02.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner03.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner04.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner05.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner06.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner07.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner08.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner09.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner10.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner11.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner12.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner13.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner14.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner15.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner16.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner17.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner18.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner19.nbt,8,STANDING_BANNER:8,../../NBT/banners/JungleBanner20.nbt,100)
+Block(4,0,8,WOOD:4)
+Block(4,1,8,WOOD:4)
+Block(4,2,8,WOOD:4)
+Block(4,3,8,WOOD:4)
+Block(4,4,8,WOOD:4)
+Block(4,5,8,WOOD:4)
+Block(4,6,8,WOOD:4)
+Block(4,7,8,WOOD:4)
+Block(4,8,8,WOOD:4)
+Block(4,9,8,WOOD:4)
+Block(4,10,7,SPRUCE_FENCE:0)
+Block(4,10,8,WOOD:4)
+Block(4,11,7,SPRUCE_FENCE:0)
+Block(4,11,8,WOOD:4)
+Block(4,12,8,WOOD:4)
+Block(4,13,8,WOOD:4)
+Block(4,14,8,WOOD:4)
+Block(4,15,8,WOOD:4)
+Block(5,10,7,SPRUCE_FENCE:0)
+Block(5,10,8,SPRUCE_FENCE:0)
+Block(6,0,8,WOOD:4)
+Block(6,1,8,WOOD:4)
+Block(6,2,8,WOOD:4)
+Block(6,3,8,WOOD:4)
+Block(6,4,8,WOOD:4)
+Block(6,5,8,WOOD:4)
+Block(6,6,8,WOOD:4)
+Block(6,7,8,WOOD:4)
+Block(6,8,8,WOOD:4)
+Block(6,9,8,WOOD:4)
+Block(6,10,7,SPRUCE_FENCE:0)
+Block(6,10,8,WOOD:4)
+Block(6,11,8,WOOD:4)
+Block(6,12,8,WOOD:4)
+Block(6,13,8,WOOD:4)
+Block(7,0,8,WOOD:4)
+Block(7,1,8,WOOD:4)
+Block(7,2,8,WOOD:4)
+Block(7,3,8,WOOD:4)
+Block(7,4,8,WOOD:4)
+Block(7,5,8,WOOD:4)
+Block(7,6,8,WOOD:4)
+Block(7,7,8,WOOD:4)
+Block(7,8,8,WOOD:4)
+Block(7,9,8,WOOD:4)
+Block(7,10,8,WOOD:4)
+Block(7,11,8,WOOD:4)
+Block(7,12,8,WOOD:4)
+Block(7,13,8,WOOD:4)
+Block(7,14,8,WOOD:4)
+Branch(16,0,0,true,AcaciaVillagePath05C3R1,NORTH,100.0,0)

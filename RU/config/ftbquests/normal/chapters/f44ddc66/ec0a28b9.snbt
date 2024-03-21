@@ -1,0 +1,27 @@
+{
+	x: 17.0d,
+	y: -6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"93aede60"
+	],
+	tasks: [{
+		uid: "c09ff1e5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:additionmodule",
+			tag: {},
+			Damage: 10s
+		}]
+	}],
+	rewards: [{
+		uid: "20f8d8c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

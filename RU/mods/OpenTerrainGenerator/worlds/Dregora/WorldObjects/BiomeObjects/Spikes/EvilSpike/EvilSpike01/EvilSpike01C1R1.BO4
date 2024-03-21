@@ -1,0 +1,176 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,35,-7,minecraft:red_glazed_terracotta:0)
+Block(-8,42,-7,OBSIDIAN:0)
+Block(-8,43,-7,OBSIDIAN:0)
+Block(-8,44,-7,OBSIDIAN:0)
+Block(-8,44,-6,OBSIDIAN:0)
+Block(-8,45,-7,OBSIDIAN:0)
+Block(-8,45,-6,OBSIDIAN:0)
+Block(-8,45,-5,OBSIDIAN:0)
+Block(-8,46,-7,OBSIDIAN:0)
+Block(-8,46,-6,OBSIDIAN:0)
+Block(-8,46,-5,OBSIDIAN:0)
+Block(-8,47,-7,OBSIDIAN:0)
+Block(-8,47,-6,OBSIDIAN:0)
+Block(-8,47,-5,OBSIDIAN:0)
+Block(-8,47,-4,OBSIDIAN:0)
+Block(-8,48,-6,OBSIDIAN:0)
+Block(-8,48,-5,OBSIDIAN:0)
+Block(-8,48,-4,minecraft:purple_glazed_terracotta:0)
+Block(-8,49,-4,OBSIDIAN:0)
+Block(-8,50,-3,OBSIDIAN:0)
+Block(-7,43,-7,OBSIDIAN:0)
+Block(-7,44,-7,OBSIDIAN:0)
+Block(-7,45,-7,OBSIDIAN:0)
+Block(-7,45,-6,OBSIDIAN:0)
+Block(-7,46,-7,minecraft:purple_glazed_terracotta:0)
+Block(-7,46,-6,OBSIDIAN:0)
+Block(-7,47,-6,minecraft:purple_glazed_terracotta:0)
+Block(-7,47,-5,OBSIDIAN:0)
+Block(-7,48,-5,minecraft:purple_glazed_terracotta:0)
+Block(-7,49,-4,OBSIDIAN:0)
+Block(-7,50,-3,OBSIDIAN:0)
+Block(-6,45,-7,OBSIDIAN:0)
+Block(-6,46,-6,OBSIDIAN:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,EvilSpike01C0R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

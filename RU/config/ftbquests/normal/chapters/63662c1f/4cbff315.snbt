@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"dc60d2e3"
+	],
+	tasks: [{
+		uid: "f181e177",
+		type: "item",
+		items: [{
+			item: "draconicevolution:magnet 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a66befa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

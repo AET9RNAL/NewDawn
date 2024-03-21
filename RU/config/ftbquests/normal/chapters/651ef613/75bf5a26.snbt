@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "1442f886",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "480bda67",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}
+	}]
+}

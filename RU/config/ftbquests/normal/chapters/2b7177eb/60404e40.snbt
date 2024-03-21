@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -7.5d,
+	dependencies: [
+		"e6ca2bf4"
+	],
+	tasks: [{
+		uid: "0d19fd52",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_disenchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "d5464f26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

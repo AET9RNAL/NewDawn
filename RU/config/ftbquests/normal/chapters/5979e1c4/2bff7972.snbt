@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 10.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "a343e761",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:apatite_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "838f771e",
+		type: "xp",
+		xp: 100
+	}]
+}

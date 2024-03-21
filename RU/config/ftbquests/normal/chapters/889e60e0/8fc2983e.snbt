@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: -5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a38e9c6b"
+	],
+	tasks: [{
+		uid: "82890e4f",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "76b20e96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

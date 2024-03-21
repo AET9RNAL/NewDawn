@@ -1,0 +1,28 @@
+{
+	x: 8.5d,
+	y: -1.5d,
+	text: [
+		"§4Вайпните мир вручную"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "81e17e1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

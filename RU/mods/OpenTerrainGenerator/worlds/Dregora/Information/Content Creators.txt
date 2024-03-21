@@ -1,0 +1,271 @@
+#---------------------------------------------------------------------#
+#                  More In depth info on Dregora                      #
+#---------------------------------------------------------------------#
+
+File Version: V1.9 (At update this file will contain additional information)
+
+
+Little extra for content creators. Information on Dregora condensed to what is usefull to content creators.
+
+#-----------------------------------------------#
+#            What Dregora aims to be            #
+#-----------------------------------------------#
+
+Dregora aims to be a post-apocalyptic overworld replacement that tells a story through lore conveyed in books & by the look of structures. Dregora takes place thousands of year in the future after the dimise of 22 century technology (2100-2200) A event named the Blight has turned the world into a desolate wasteland except for a couple lush but mostly corrupted pockets. This creates a sometimes alien environment in a otherwise recognizable world with custom but vanilla compatible entities which I will explain where to find down below. 
+
+As for the technical side of Dregora, it aims to remain compatible with Spigot so while it works and is suggested to be used in combination to other mods (E.G. Quark) Dregora itself will remain entirely compatible with vanilla and also work as a plugin with otg in a spigot server.
+
+#-----------------------------------------------#
+#               Dregora's Future                #
+#-----------------------------------------------#
+
+First up the full completion of 1.12.2, adding all the structures back in and post-apocalyptic cities. Making the wastelands of Dregora a lot more interesting. Next up will be 1.16.5 and a huge mod compatibility update making Dregora work with Biomes O plenty, Biomes You Go and most of all other biome mods.
+
+Aside from the main development I will try to make Dynamic Trees compatible in the near future for 1.12.2 and future versions and create a different branch for Dregora that will be entirely compatible with RLCraft. Dregora's been around for 10 years and if it were up to me I'd still be developing Dregora 10 years in the future. It would however be awesome if more developers were to take a interest in helping team OTG develop OTG itself.
+
+#-----------------------------------------------#
+#              Configuration                    #
+#-----------------------------------------------#
+
+Dregora can be adjusted to fit the users need by following guides found within the .jar file, this has also been put on the curseforge page. Namely it is possible to remove the lore, and the spawn structure with relative ease.
+
+#-----------------------------------------------#
+#                 Entities                      #
+#-----------------------------------------------#
+
+You'll be able to spawn the entities in with the following commands. Do note it will create a hole in the ground upon spawning (This does not happen when they spawn naturally)
+When these entities generate naturally they only spawn once unless a spawner spawned them in.
+
+Random mode spawns:
+
+
+Flesh Seekers spawn most often in the /otg tp Dregora_CorruptedRoofedForestHole and become more rare towards the edge of this biome collection.
+
+/otg spawn Corrupted_Mutant_T1 
+/otg spawn Corrupted_Mutant_T2 
+/otg spawn Corrupted_Mutant_T3 
+
+Frenzied BloodHunters spawn most often in the /otg tp Dregora_CorruptedBloodForest and become more rare towards the edge of this biome collection.
+
+/otg spawn Corrupted_Mutant_T4
+/otg spawn Corrupted_Mutant_T5 
+/otg spawn Corrupted_Mutant_T6 
+
+Dusters, Imposters & Gore Hoppers spawn in the Wasteland Biomes (Scroll down to see a list of biomes)
+
+/otg spawn Corrupted_Mutant_T7
+/otg spawn Corrupted_Mutant_T8
+/otg spawn Corrupted_Mutant_T9
+
+Blight Runner, Bone Collector & Frozen Pest spawn in the Cold Wasteland Biomes (Scroll down to see a list of biomes)
+
+/otg spawn Corrupted_Mutant_T10
+/otg spawn Corrupted_Mutant_T11
+/otg spawn Corrupted_Mutant_T12
+
+Fromimage Specific spawns: 
+
+/otg spawn Creeping_Death 
+/otg spawn Dismemberer 
+/otg spawn Frozen_Walker 
+/otg spawn Gluttony 
+/otg spawn Golden_Chick 
+/otg spawn Haunted_Glory 
+/otg spawn Haunted_TinySword 
+/otg spawn Haunting_Head 
+/otg spawn Haunting_Head_Tiny 
+/otg spawn Herobrine 
+/otg spawn Kindled_Berserker 
+/otg spawn Kindled_GreatSoul 
+/otg spawn Kindled_Spirit 
+/otg spawn Kindled_Summoner 
+/otg spawn KoppenSneller 
+/otg spawn Legged_Creep 
+/otg spawn Legged_Guardian 
+/otg spawn Lone_Golem 
+/otg spawn Many_Eyes 
+/otg spawn Nemesis 
+/otg spawn Posessed_Pickaxe 
+/otg spawn Pyromancer 
+/otg spawn RedCloak 
+/otg spawn RedGuard 
+/otg spawn RedShield 
+/otg spawn Shadow_Rider 
+/otg spawn Shadow_Stalker 
+/otg spawn Spooky_behemoth 
+/otg spawn Spooky_plainschief 
+/otg spawn Stalking_End 
+/otg spawn The_Digger 
+/otg spawn Twilight_Warrior 
+/otg spawn Warlock 
+/otg spawn White_Howl 
+/otg spawn White_Night 
+/otg spawn Wisperer 
+
+
+#-----------------------------------------------#
+#                 Biomes & Map                  #
+#-----------------------------------------------#
+
+Dregora has 130 random mode biomes as per v1.9 and 409 fromimage biomes. You could either use https://map.dregora.com to teleport to specific FromImage locations, the colors of the map are pretty much self explainatory. As for teleporting to random mode biomes I have prepared a list of main, isle and border biomes. The main biomes are what make up the majority of the biome. Isle biomes spawn within these biomes and border biomes generate around the edges. (E.G. Beach is a border biome of Ocean and TropicalIsle is a isle biome in Ocean.)
+
+#------------------------------#
+#       Main Biomes            #
+#------------------------------#
+
+Wasteland Biomes:
+
+/otg tp Dregora_DryDunes
+/otg tp Dregora_LushMesa
+/otg tp Dregora_DryMesa
+/otg tp Dregora_DrySavanna
+/otg tp Dregora_DrySavannaHilly
+/otg tp Dregora_DrySavannaCanyon
+/otg tp Dregora_DrySavannaAshlands
+/otg tp Dregora_DryRedwood
+/otg tp Dregora_DryWastelands
+/otg tp Dregora_DryWastelandsHollow
+/otg tp Dregora_DryDirtlands
+/otg tp Dregora_DeadSwamp
+/otg tp Dregora_Shrubland
+/otg tp Dregora_SaltPlains
+/otg tp Dregora_DryPlains
+/otg tp Dregora_DryForestBirch
+/otg tp Dregora_RockyPlains
+/otg tp Dregora_Ashlands
+
+Cold and Ice Biomes:
+
+/otg tp Dregora_FrozenMudPlains
+/otg tp Dregora_FrozenMudMountainRange
+/otg tp Dregora_FrozenPlains
+/otg tp Dregora_FrozenTundra
+/otg tp Dregora_FrozenTaiga
+
+Lush and Corrupted Biomes:
+
+/otg tp Dregora_Ocean
+/otg tp Dregora_Sulfurlands
+/otg tp Dregora_ToxicSwamp
+/otg tp Dregora_CorruptedCherry
+/otg tp Dregora_CorruptedBloodForest
+/otg tp Dregora_HighlandsMountain
+/otg tp Dregora_CorruptedJungle
+/otg tp Dregora_CorruptedJungleDense
+/otg tp Dregora_CorruptedPineForest
+/otg tp Dregora_CorruptedFlowerPlains
+/otg tp Dregora_CorruptedRoofedForest
+
+#------------------------------#
+#       Isle Biomes            #
+#------------------------------#
+
+/otg tp Dregora_DryPlainsSpikes
+/otg tp Dregora_DryPlains_Boulders
+/otg tp Dregora_DryPlains_Hills_Ruins
+/otg tp Dregora_SubPlains
+/otg tp Dregora_SubPlainsLake
+/otg tp Dregora_DryDunesLow
+/otg tp Dregora_DryDunesHigh
+/otg tp Dregora_RockyPlainsMedium
+/otg tp Dregora_RockyPlainsHigh
+/otg tp Dregora_Ashpits
+/otg tp Dregora_AshpitsShallow
+/otg tp Dregora_AshpitsDry
+/otg tp Dregora_FrozenMudSpikes
+/otg tp Dregora_FrozenMudForest
+/otg tp Dregora_FrozenMudSpikes
+/otg tp Dregora_FrozenMudMountainSummit
+/otg tp Dregora_OceanTropicalIsland
+/otg tp Dregora_OceanTropicalHills
+/otg tp Dregora_OceanClear
+/otg tp Dregora_DryDirtlandsForest
+/otg tp Dregora_SulfurLake
+/otg tp Dregora_SulfurDeposits
+/otg tp Dregora_DryWastelandsHollowPillar
+/otg tp Dregora_DryWastelandsHollowBigPillar
+/otg tp Dregora_DryWastelandsHollowHole
+/otg tp Dregora_DryWastelandsHollowOasis
+/otg tp Dregora_DryWastelandsOasis
+/otg tp Dregora_DryWastelandsMesa
+/otg tp Dregora_DrySavannaCanyonRiver
+/otg tp Dregora_DrySavannaCanyonRiverPillar
+/otg tp Dregora_DrySavannaVolcano
+/otg tp Dregora_DrySavannaCaldera
+/otg tp Dregora_ToxicSwampHill
+/otg tp Dregora_DeadSwampHill
+/otg tp Dregora_WastelandPlateau
+/otg tp Dregora_WastelandPlateauLow
+/otg tp Dregora_WastelandPlateauIsle
+/otg tp Dregora_ShrublandForest
+/otg tp Dregora_LimestoneMountain
+/otg tp Dregora_LimestoneMountainHigh
+/otg tp Dregora_FrozenPlainsHills
+/otg tp Dregora_FrozenTaigaForest
+/otg tp Dregora_CorruptedBloodHole
+/otg tp Dregora_HighlandsMountainMedium
+/otg tp Dregora_HighlandsMountainHigh
+/otg tp Dregora_CorruptedJungleHill
+/otg tp Dregora_CorruptedJungleHillBorderIsle
+/otg tp Dregora_CorruptedFlowerPlainsHole
+/otg tp Dregora_CorruptedRoofedForestHole
+
+#------------------------------#
+#       Border Biomes          #
+#------------------------------#
+
+/otg tp Dregora_DryBeach
+/otg tp Dregora_SubPlainsBorder
+/otg tp Dregora_SubPlainsBorderLake
+/otg tp Dregora_DryDunesBorder
+/otg tp Dregora_DryForestBirchBorder
+/otg tp Dregora_LushMesaBorder
+/otg tp Dregora_DryMesaBorder
+/otg tp Dregora_RockyPlainsBorder
+/otg tp Dregora_AshpitsBorder
+/otg tp Dregora_AshlandsBorder
+/otg tp Dregora_FrozenMudPlainsBorder
+/otg tp Dregora_FrozenMudMountainSlope
+/otg tp Dregora_DryDirtlandsForestBorder
+/otg tp Dregora_DryDirtlandsBorder
+/otg tp Dregora_DryAshBeach
+/otg tp Dregora_SulfurlandsBorder
+/otg tp Dregora_DryWastelandsBorder
+/otg tp Dregora_DryWastelandsHollowHoleBorder
+/otg tp Dregora_DryWastelandsMesaBorder
+/otg tp Dregora_DrySavannaBorder
+/otg tp Dregora_DrySavannaCanyonRiverBorder
+/otg tp Dregora_DrySavannaAshlandsBorder
+/otg tp Dregora_DeadSwampBorder
+/otg tp Dregora_ToxicSwampBorder
+/otg tp Dregora_WastelandPlateauBorder
+/otg tp Dregora_WastelandPlateauLowBorder
+/otg tp Dregora_DryRedwoodBorder
+/otg tp Dregora_ShrublandBorder
+/otg tp Dregora_SaltPlainsBorder
+/otg tp Dregora_FrozenPlainsBorder
+/otg tp Dregora_CorruptedCherryBorder
+/otg tp Dregora_CorruptedBloodForestBorder
+/otg tp Dregora_CorruptedBloodHoleBorder
+/otg tp Dregora_HighlandsMountainBorder
+/otg tp Dregora_CorruptedJungleHillBorder
+/otg tp Dregora_CorruptedJungleDenseBorder
+/otg tp Dregora_CorruptedPineForestBorder
+/otg tp Dregora_CorruptedFlowerPlainsHoleBorder
+/otg tp Dregora_CorruptedFlowerPlainsBorder
+/otg tp Dregora_CorruptedRoofedForestBorder
+/otg tp Dregora_CorruptedRoofedForestHoleBorder
+
+
+
+
+
+
+
+
+
+
+
+
+
+

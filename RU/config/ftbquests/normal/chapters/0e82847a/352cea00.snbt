@@ -1,0 +1,30 @@
+{
+	x: -12.5d,
+	y: -4.0d,
+	dependencies: [
+		"0d0a76ad"
+	],
+	tasks: [{
+		uid: "8b66af4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de64e64c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -11.0d,
+	y: 19.5d,
+	dependencies: [
+		"4ed40d74"
+	],
+	tasks: [{
+		uid: "82507db7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:autoheater"
+		}]
+	}],
+	rewards: [{
+		uid: "bf4be494",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}
