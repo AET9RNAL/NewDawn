@@ -1,1 +1,0 @@
-{Profession:4,CustomName:Chef,CustomNameVisible:0,HandDropChances:[0.2F,0.15F],HandItems:[{id:"minecraft:baked_potato",Count:3},{id:"minecraft:cooked_beef",Count:1}],ArmorDropChances:[0.15F,0.15F,2F,2F],ArmorItems:[{id:"minecraft:cooked_porkchop",Count:1},{id:"minecraft:cookie",Count:3},{id:"minecraft:flint_and_steel",Count:1},{}]}

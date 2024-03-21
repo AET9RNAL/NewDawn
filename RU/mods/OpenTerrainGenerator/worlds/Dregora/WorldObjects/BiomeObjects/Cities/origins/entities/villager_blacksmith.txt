@@ -1,1 +1,0 @@
-{Profession:3,HandDropChances:[2F,0.01F],HandItems:[{},{id:"minecraft:iron_shovel",Count:1}],ArmorDropChances:[0.01F,0.25F,0.15F,2F],ArmorItems:[{id:"minecraft:iron_ingot",Count:1},{id:"minecraft:iron_nugget",Count:4},{id:"minecraft:experience_bottle",Count:3},{}]}

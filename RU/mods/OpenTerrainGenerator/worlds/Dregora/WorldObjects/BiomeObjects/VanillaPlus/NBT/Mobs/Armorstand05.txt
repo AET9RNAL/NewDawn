@@ -1,1 +1,0 @@
-{{ShowArms:1,HandItems:[{id:"minecraft:golden_shovel",Count:1b},{id:"minecraft:compass",Count:1b}],ArmorItems:[{id:"minecraft:iron_boots",Count:1},{id:"minecraft:leather_leggings",tag:{display:{color:12433078}},Count:1},{id:"minecraft:leather_chestplate",tag:{display:{color:4204570}},Count:1},{id:"minecraft:leather_helmet",tag:{display:{color:12433078}},Count:1}]}

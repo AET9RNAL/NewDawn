@@ -1,1 +1,0 @@
-{CatType:3,CustomName:Gizmo,CustomNameVisible:0,FallFlying:1,ArmorItems:[{},{},{id:"minecraft:elytra",Count:1},{}],Health:30,Attributes:[{Name:"generic.maxHealth",Base:30},{Name:"generic.movementSpeed",Base:0.5f}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647},{Id:8,Amplifier:0,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647}]}

@@ -1,1 +1,0 @@
-{CustomName:"Daeroc's Market Customer",CustomNameVisible:0,Health:50}

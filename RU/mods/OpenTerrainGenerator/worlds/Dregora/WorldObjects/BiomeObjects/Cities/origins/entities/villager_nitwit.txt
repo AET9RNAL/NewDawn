@@ -1,1 +1,0 @@
-{Profession:5,HandDropChances:[0.3F,0.15F],HandItems:[{id:"minecraft:rotten_flesh",Count:1},{id:"minecraft:apple",Count:1}],ArmorDropChances:[0.05F,2F,2F,2F],ArmorItems:[{id:"minecraft:bread",Count:1},{},{},{}]}

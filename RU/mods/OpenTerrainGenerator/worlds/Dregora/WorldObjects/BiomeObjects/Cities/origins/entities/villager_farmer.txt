@@ -1,1 +1,0 @@
-{Profession:0,HandDropChances:[0.2F,0.2F],HandItems:[{id:"minecraft:wheat",Count:3},{id:"minecraft:wheat_seeds",Count:8}],ArmorDropChances:[0.2F,0.13F,0.13F,0.53F],ArmorItems:[{id:"minecraft:potato",Count:5},{id:"minecraft:carrot",Count:3},{id:"minecraft:iron_hoe",Count:1},{}]}

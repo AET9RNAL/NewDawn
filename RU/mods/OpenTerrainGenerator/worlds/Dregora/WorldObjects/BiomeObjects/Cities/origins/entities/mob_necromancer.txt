@@ -1,1 +1,0 @@
-{CustomName:Necromancer,CustomNameVisible:0,NoGravity:1b,Health:35,Attributes:[{Name:"generic.maxHealth",Base:35},{Name:"generic.attackDamage",Base:8}],HandItems:[{id:"minecraft:redstone_torch",Count:1},{id:"minecraft:totem_of_undying",Count:1}],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647}]}

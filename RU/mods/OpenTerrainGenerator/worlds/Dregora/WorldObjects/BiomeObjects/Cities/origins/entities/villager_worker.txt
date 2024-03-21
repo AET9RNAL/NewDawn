@@ -1,1 +1,0 @@
-{Profession:5,CustomName:Worker,CustomNameVisible:0,HandDropChances:[0.1F,2F],HandItems:[{id:"minecraft:coal",Damage:1,Count:14},{}],ArmorDropChances:[0.1F,0.3F,0.15F,0.15F],ArmorItems:[{id:"minecraft:iron_pickaxe",tag:{display:{Name:"Worker's Pickaxe"}},Count:1},{id:"minecraft:torch",Count:3},{id:"minecraft:iron_nugget",Count:5},{}]}

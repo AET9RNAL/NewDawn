@@ -1,1 +1,0 @@
-{HandDropChances:[0.05F,2F],HandItems:[{id:"minecraft:gold_nugget",Count:1},{}]}

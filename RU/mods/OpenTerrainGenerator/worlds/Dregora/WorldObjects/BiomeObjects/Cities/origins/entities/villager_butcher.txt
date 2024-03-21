@@ -1,1 +1,0 @@
-{Profession:4,HandDropChances:[0.2F,0.2F],HandItems:[{id:"minecraft:beef",Count:1},{id:"minecraft:chicken",Count:1}],ArmorDropChances:[0.2F,0.05F,2F,2F],ArmorItems:[{id:"minecraft:porkchop",Count:2},{id:"minecraft:iron_axe",tag:{display:{Name:"Butcher's Axe"},ench:[{id:16,lvl:2}]},Count:1},{},{}]}

@@ -1,1 +1,0 @@
-{CatType:3,CustomName:"Gizmo's Spawn",CustomNameVisible:0,Attributes:[{Name:"generic.movementSpeed",Base:0.5f}],Age:0}
