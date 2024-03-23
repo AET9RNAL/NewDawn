@@ -11,20 +11,20 @@ import crafttweaker.item.IItemStack;
 
 <contenttweaker:cross_dimensional_core>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
 mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void Forge by clicking RMB while holding Endorium Ingot");
-<mod_id:industrial_spawner>.displayName = "Industrial Spawner Controller";
-<mod_id:legendary_industrial_spawner>.displayName = "Legendry Spawner Controller";
-<multiblocked:neutron_molecular_transformer>.displayName = "Neutron Molecular Transformer Controller";
-<mod_id:mechanical_apothecary>.displayName = "Mechanical Apothecary Controller";
-<multiblocked:mechanical_elven>.displayName = "Mechanical Elven Controller";
+// <mod_id:industrial_spawner>.displayName = "Industrial Spawner Controller";
+// <mod_id:legendary_industrial_spawner>.displayName = "Legendry Spawner Controller";
+// <multiblocked:neutron_molecular_transformer>.displayName = "Neutron Molecular Transformer Controller";
+// <mod_id:mechanical_apothecary>.displayName = "Mechanical Apothecary Controller";
+// <multiblocked:mechanical_elven>.displayName = "Mechanical Elven Controller";
 
-<multiblocked:celestial_crystallizer>.displayName = "Celestial Crystallizer Controller";
-<multiblocked:mana_deliquifier>.displayName = "Mana Deliquifier Controller";
-<multiblocked:mana_liquifier>.displayName = "Mana Liquifier Controller";
-<multiblocked:mechanical_starlight_infuser>.displayName = "Mechanical Starlight Infuser Controller";
-<multiblocked:starlight_synthesizer>.displayName = "Starlight Synthesizer Controller";
-<multiblocked:perfect_alloy_smelter>.displayName = "Perfect Alloy Smelter Controller";
-<multiblocked:cooler>.displayName = "Cooler";
-<multiblocked:astral_quarry>.displayName = "Astral Quarry Controller";
+// <multiblocked:celestial_crystallizer>.displayName = "Celestial Crystallizer Controller";
+// <multiblocked:mana_deliquifier>.displayName = "Mana Deliquifier Controller";
+// <multiblocked:mana_liquifier>.displayName = "Mana Liquifier Controller";
+// <multiblocked:mechanical_starlight_infuser>.displayName = "Mechanical Starlight Infuser Controller";
+// <multiblocked:starlight_synthesizer>.displayName = "Starlight Synthesizer Controller";
+// <multiblocked:perfect_alloy_smelter>.displayName = "Perfect Alloy Smelter Controller";
+// <multiblocked:cooler>.displayName = "Cooler";
+// <multiblocked:astral_quarry>.displayName = "Astral Quarry Controller";
 <draconicevolution:reactor_core>.addTooltip(format.red("0 conversion Gen rate:60MRF/T.Overclocked:~150-180MRF/T!"));
 <draconicevolution:reactor_component>.addTooltip(format.red("Shield energy consumption is MUCH higher the higher is gen rate"));
 <draconicevolution:reactor_component:1>.addTooltip(format.red("In order to calculate stratup values, multiply default DE params by 100, gen rate/shield"));
@@ -223,8 +223,6 @@ var pickaxeArray = [
     <thermalfoundation:tool.pickaxe_steel>,
     <betternether:cincinnasite_pickaxe>,
     <betternether:cincinnasite_pickaxe_diamond>,
-    <cyclicmagic:emerald_pickaxe>,
-    <cyclicmagic:crystal_pickaxe>,
     <divinerpg:arlemite_pickaxe>,
     <divinerpg:corrupted_pickaxe>,
     <divinerpg:divine_pickaxe>,
@@ -237,7 +235,6 @@ var pickaxeArray = [
     <endreborn:tool_pickaxe_endorium>,
     <endreborn:tool_pickaxe_wolframium>,
     <futuremc:netherite_pickaxe>,
-    <randomthings:spectrepickaxe>,
     <netherex:frosted_amedian_pickaxe>,
     <netherex:blazed_amedian_pickaxe>,
     <netherex:withered_amedian_pickaxe>,
@@ -254,8 +251,6 @@ var swordArray = [
  <thermalfoundation:tool.sword_bronze>,
  <thermalfoundation:tool.sword_constantan>,
  <thermalfoundation:tool.sword_electrum>,
- <cyclicmagic:crystal_sword>,
- <cyclicmagic:emerald_sword>,
  <appliedenergistics2:nether_quartz_sword>,
  <appliedenergistics2:certus_quartz_sword>,
  <minecraft:golden_sword>,
@@ -263,14 +258,10 @@ var swordArray = [
  <minecraft:stone_sword>,
  <minecraft:wooden_sword>,
  <minecraft:iron_sword>,
- <twilightforest:glass_sword>,
- <randomthings:spectresword>,
  <divinerpg:blue_ender_sword>,
  <divinerpg:blue_divine_sword>,
  <divinerpg:bluefire_sword>,
  <divinerpg:bloodgem_sword>,
- <cyclicmagic:sword_ender>,
- <cyclicmagic:sword_slowness>,
  <thermalfoundation:tool.sword_electrum>,
  <thermalfoundation:tool.sword_steel>,
  <thermalfoundation:tool.sword_platinum>,
@@ -279,7 +270,6 @@ var swordArray = [
  <thermalfoundation:tool.sword_lead>,
  <thermalfoundation:tool.sword_silver>,
  <thermalfoundation:tool.sword_tin>,
- <cyclicmagic:sword_weakness>
 ] as IItemStack[];
 for sword in swordArray {
     sword.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
@@ -295,7 +285,6 @@ var axeArray = [
 	<netherex:blazed_amedian_axe>,
 	<netherex:frosted_amedian_axe>,
 	<divinerpg:wildwood_axe>,
-	<cyclicmagic:emerald_axe>,
 	<betternether:cincinnasite_axe_diamond>,
 	<betternether:cincinnasite_axe>,
 	<appliedenergistics2:nether_quartz_axe>,

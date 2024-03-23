@@ -87,7 +87,6 @@ mods.avaritia.Compressor.add("Photon", <jaopca:avaritia_singularity.photon>, 100
 mods.avaritia.Compressor.add("Proton", <jaopca:avaritia_singularity.proton>, 1008, <ore:blockProton>, true);
 
 mods.avaritia.Compressor.add("PulsatingIron", <jaopca:avaritia_singularity.pulsating_iron>, 4032, <ore:blockPulsatingIron>, true);
-mods.avaritia.Compressor.add("RedAlloy", <jaopca:avaritia_singularity.red_alloy>, 4032, <ore:blockRedAlloy>, true);
 mods.avaritia.Compressor.add("RedstoneAlloy", <jaopca:avaritia_singularity.redstone_alloy>, 4032, <ore:blockRedstoneAlloy>, true);
 mods.avaritia.Compressor.add("Signalum", <jaopca:avaritia_singularity.signalum>, 4032, <ore:blockSignalum>, true);
 mods.avaritia.Compressor.add("Spinel", <jaopca:avaritia_singularity.spinel>, 4032, <ore:blockSpinel>, true);

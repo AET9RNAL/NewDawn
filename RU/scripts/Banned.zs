@@ -14,16 +14,7 @@ recipes.remove(<botania:redstringcomparator>);
 recipes.remove(<botania:redstringrelay>);
 recipes.remove(<botania:redstringinterceptor>);
 recipes.remove(<forestry:rainmaker>);
-recipes.remove(<randomthings:enderanchor>);
-recipes.remove(<randomthings:voxelprojector>);
-recipes.remove(<randomthings:chunkanalyzer>);
-recipes.remove(<randomthings:inventorytester>);
-recipes.remove(<randomthings:globalchatdetector>);
-recipes.remove(<randomthings:chatdetector>);
-recipes.remove(<randomthings:blockdestabilizer>);
-recipes.remove(<twilightforest:uncrafting_table>);
-//recipes.remove(<aeadditions:terminal.fluid.wireless>);
-//recipes.remove(<aeadditions:terminal.universal.wireless>);
+
 
 recipes.remove(<appliedenergistics2:matter_cannon>);
 recipes.remove(<botania:managun>);

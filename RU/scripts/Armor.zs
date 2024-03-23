@@ -17,22 +17,6 @@ recipes.remove(<minecraft:iron_boots>);
 recipes.remove(<minecraft:iron_leggings>);
 recipes.remove(<minecraft:iron_chestplate>);
 recipes.remove(<minecraft:iron_helmet>);
-recipes.remove(<twilightforest:knightmetal_boots>);
-recipes.remove(<twilightforest:knightmetal_leggings>);
-recipes.remove(<twilightforest:knightmetal_chestplate>);
-recipes.remove(<twilightforest:knightmetal_helmet>);
-recipes.remove(<twilightforest:ironwood_boots>);
-recipes.remove(<twilightforest:ironwood_leggings>);
-recipes.remove(<twilightforest:ironwood_chestplate>);
-recipes.remove(<twilightforest:ironwood_helmet>);
-recipes.remove(<twilightforest:steeleaf_boots>);
-recipes.remove(<twilightforest:steeleaf_leggings>);
-recipes.remove(<twilightforest:steeleaf_chestplate>);
-recipes.remove(<twilightforest:steeleaf_helmet>);
-recipes.remove(<twilightforest:fiery_boots>);
-recipes.remove(<twilightforest:fiery_leggings>);
-recipes.remove(<twilightforest:fiery_chestplate>);
-recipes.remove(<twilightforest:fiery_helmet>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:horse_armor_copper>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:horse_armor_tin>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:horse_armor_silver>);
@@ -87,22 +71,6 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:armor.boots_bronze>.withTag({Quali
 //Don't touch me!
 //#Add
 
-recipes.addShaped(<twilightforest:knightmetal_boots>, [[null, null, null],[<twilightforest:knightmetal_ingot>, null, <twilightforest:knightmetal_ingot>], [<twilightforest:knightmetal_ingot>, <minecraft:iron_boots>, <twilightforest:knightmetal_ingot>]]);
-recipes.addShaped(<twilightforest:knightmetal_leggings>, [[<twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>],[<twilightforest:knightmetal_ingot>, <minecraft:iron_leggings>, <twilightforest:knightmetal_ingot>], [<twilightforest:knightmetal_ingot>, null, <twilightforest:knightmetal_ingot>]]);
-recipes.addShaped(<twilightforest:knightmetal_chestplate>, [[<twilightforest:knightmetal_ingot>, null, <twilightforest:knightmetal_ingot>],[<twilightforest:knightmetal_ingot>, <minecraft:iron_chestplate>, <twilightforest:knightmetal_ingot>], [<twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>]]);
-recipes.addShaped(<twilightforest:knightmetal_helmet>, [[null, null, null],[<twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>, <twilightforest:knightmetal_ingot>], [<twilightforest:knightmetal_ingot>, <minecraft:iron_helmet>, <twilightforest:knightmetal_ingot>]]);
-recipes.addShaped(<twilightforest:steeleaf_boots>, [[null, null, null],[<twilightforest:steeleaf_ingot>, null, <twilightforest:steeleaf_ingot>], [<twilightforest:steeleaf_ingot>, <minecraft:iron_boots>, <twilightforest:steeleaf_ingot>]]);
-recipes.addShaped(<twilightforest:steeleaf_leggings>, [[<twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>],[<twilightforest:steeleaf_ingot>, <minecraft:iron_leggings>, <twilightforest:steeleaf_ingot>], [<twilightforest:steeleaf_ingot>, null, <twilightforest:steeleaf_ingot>]]);
-recipes.addShaped(<twilightforest:steeleaf_chestplate>, [[<twilightforest:steeleaf_ingot>, null, <twilightforest:steeleaf_ingot>],[<twilightforest:steeleaf_ingot>, <minecraft:iron_chestplate>, <twilightforest:steeleaf_ingot>], [<twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>]]);
-recipes.addShaped(<twilightforest:steeleaf_helmet>, [[null, null, null],[<twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>], [<twilightforest:steeleaf_ingot>, <minecraft:iron_helmet>, <twilightforest:steeleaf_ingot>]]);
-recipes.addShaped(<twilightforest:fiery_boots>, [[null, null, null],[<twilightforest:fiery_ingot>, null, <twilightforest:fiery_ingot>], [<twilightforest:fiery_ingot>, <twilightforest:ironwood_boots>, <twilightforest:fiery_ingot>]]);
-recipes.addShaped(<twilightforest:fiery_leggings>, [[<twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>],[<twilightforest:fiery_ingot>, <twilightforest:ironwood_leggings>, <twilightforest:fiery_ingot>], [<twilightforest:fiery_ingot>, null, <twilightforest:fiery_ingot>]]);
-recipes.addShaped(<twilightforest:fiery_chestplate>, [[<twilightforest:fiery_ingot>, null, <twilightforest:fiery_ingot>],[<twilightforest:fiery_ingot>, <twilightforest:ironwood_chestplate>, <twilightforest:fiery_ingot>], [<twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>]]);
-recipes.addShaped(<twilightforest:fiery_helmet>, [[null, null, null],[<twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>, <twilightforest:fiery_ingot>], [<twilightforest:fiery_ingot>, <twilightforest:ironwood_helmet>, <twilightforest:fiery_ingot>]]);
-recipes.addShaped(<twilightforest:ironwood_boots>, [[null, null, null],[<twilightforest:ironwood_ingot>, null, <twilightforest:ironwood_ingot>], [<twilightforest:ironwood_ingot>, <minecraft:iron_boots>, <twilightforest:ironwood_ingot>]]);
-recipes.addShaped(<twilightforest:ironwood_leggings>, [[<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>],[<twilightforest:ironwood_ingot>, <minecraft:iron_leggings>, <twilightforest:ironwood_ingot>], [<twilightforest:ironwood_ingot>, null, <twilightforest:ironwood_ingot>]]);
-recipes.addShaped(<twilightforest:ironwood_chestplate>, [[<twilightforest:ironwood_ingot>, null, <twilightforest:ironwood_ingot>],[<twilightforest:ironwood_ingot>, <minecraft:iron_chestplate>, <twilightforest:ironwood_ingot>], [<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>]]);
-recipes.addShaped(<twilightforest:ironwood_helmet>, [[null, null, null],[<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>], [<twilightforest:ironwood_ingot>, <minecraft:iron_helmet>, <twilightforest:ironwood_ingot>]]);
 recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:iron_boots>, <minecraft:diamond>]]);
 recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[<minecraft:diamond>, <minecraft:iron_leggings>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
 recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, null, <minecraft:diamond>],[<minecraft:diamond>, <minecraft:iron_chestplate>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);

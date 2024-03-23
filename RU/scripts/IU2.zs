@@ -17,7 +17,7 @@ recipes.addShaped(<industrialupgrade:manasteel_core>, [[<industrialupgrade:rune_
 recipes.addShaped(<industrialupgrade:elementium_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:manasteel_core>, <industrialupgrade:photoniy_ingot>], [<moreplates:elementium_plate>, <industrialupgrade:rune_energy>, <moreplates:elementium_plate>]]);
 recipes.addShaped(<industrialupgrade:manasteel_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:itemcore>, <industrialupgrade:photoniy_ingot>], [<moreplates:manasteel_plate>, <industrialupgrade:rune_energy>, <moreplates:manasteel_plate>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:22>, [[<ore:blockGlassHardened>, <botania:specialflower>.withTag({type: "thermalily"}), <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <industrialupgrade:itemcell>, <ore:blockGlassHardened>], [null, <industrialupgrade:crafting_elements:21>, null]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:229>, [[<cyclicmagic:crystallized_obsidian>, <minecraft:obsidian>, <cyclicmagic:crystallized_obsidian>],[<industrialupgrade:gear:15>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:gear:15>], [null, null, null]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:229>, [[<minecraft:barrier>, <minecraft:obsidian>, <minecraft:barrier>],[<industrialupgrade:gear:15>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:gear:15>], [null, null, null]]);
 
 recipes.addShaped(<industrialupgrade:crafting_elements:16>, [[<moreplates:end_steel_plate>, <moreplates:end_steel_plate>, <moreplates:end_steel_plate>],[<moreplates:energetic_silver_plate>, <industrialupgrade:crafting_elements:42>, <moreplates:energetic_silver_plate>], [null, null, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <extrautils2:suncrystal>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<redstonearsenal:material:128>, <industrialupgrade:radiationresources:4>, <redstonearsenal:material:128>]]);
@@ -184,7 +184,7 @@ mods.industrialupgrade.MolecularTransformer.addRecipe(<botania:overgrowthseed>, 
 
 //Compressor
 //mods.industrialupgrade.compressor.addRecipe(IItemstack, Ingridient);
-mods.industrialupgrade.compressor.addRecipe(<industrialupgrade:itemplates:25>, <cyclicmagic:crystallized_obsidian>);
+mods.industrialupgrade.compressor.addRecipe(<industrialupgrade:itemplates:25>, <minecraft:barrier>);
 
 
 //AdvAlloySmelter

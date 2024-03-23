@@ -15,15 +15,15 @@ recipes.remove(<divinerpg:bedrock_chunk>);
 
 //Don't touch me!
 //#Add
-recipes.addShaped(<divinerpg:skythern_block>, [[<divinerpg:skythern_fragments>, <rftools:matter_transmitter>, <divinerpg:skythern_fragments>],[<divinerpg:skythern_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:skythern_dust>], [<divinerpg:skythern_fragments>, <rftools:matter_transmitter>, <divinerpg:skythern_fragments>]]);
-recipes.addShaped(<divinerpg:apalachia_block>, [[<divinerpg:apalachia_fragments>, <rftools:matter_transmitter>, <divinerpg:apalachia_fragments>],[<divinerpg:apalachia_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:apalachia_dust>], [<divinerpg:apalachia_fragments>, <rftools:matter_transmitter>, <divinerpg:apalachia_fragments>]]);
+recipes.addShaped(<divinerpg:skythern_block>, [[<divinerpg:skythern_fragments>, <minecraft:barrier>, <divinerpg:skythern_fragments>],[<divinerpg:skythern_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:skythern_dust>], [<divinerpg:skythern_fragments>, <minecraft:barrier>, <divinerpg:skythern_fragments>]]);
+recipes.addShaped(<divinerpg:apalachia_block>, [[<divinerpg:apalachia_fragments>, <minecraft:barrier>, <divinerpg:apalachia_fragments>],[<divinerpg:apalachia_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:apalachia_dust>], [<divinerpg:apalachia_fragments>, <minecraft:barrier>, <divinerpg:apalachia_fragments>]]);
 recipes.addShaped(<divinerpg:wildwood_block>, [[<divinerpg:wildwood_fragments>, <industrialupgrade:crafting_elements:269>, <divinerpg:wildwood_fragments>],[<divinerpg:wildwood_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:wildwood_dust>], [<divinerpg:wildwood_fragments>, <industrialupgrade:crafting_elements:269>, <divinerpg:wildwood_fragments>]]);
 recipes.addShaped(<divinerpg:eden_block>, [[<divinerpg:eden_fragments>, <industrialupgrade:crafting_elements:269>, <divinerpg:eden_fragments>],[<divinerpg:eden_heart>, <appliedenergistics2:quantum_ring>, <divinerpg:eden_dust>], [<divinerpg:eden_fragments>, <industrialupgrade:crafting_elements:269>, <divinerpg:eden_fragments>]]);
 recipes.addShaped(<divinerpg:arcana_portal_frame> * 12, [[<appliedenergistics2:quantum_ring>, <divinerpg:bluefire_stone>, <divinerpg:teleportation_star>],[<divinerpg:skythern_block>, <divinerpg:skythern_block>, <divinerpg:skythern_block>], [<divinerpg:teleportation_star>, <divinerpg:bluefire_stone>, <appliedenergistics2:quantum_ring>]]);
-recipes.addShaped(<divinerpg:arlemite_shickaxe>, [[null, null, null],[<divinerpg:arlemite_pickaxe>, <bloodmagic:component:8>, <divinerpg:arlemite_axe>], [null, <divinerpg:arlemite_shovel>, null]]);
-recipes.addShaped(<divinerpg:rupee_shickaxe>, [[null, null, null],[<divinerpg:rupee_pickaxe>, <bloodmagic:component:8>, <divinerpg:rupee_axe>], [null, <divinerpg:rupee_shovel>, null]]);
-recipes.addShaped(<divinerpg:divine_shickaxe>, [[null, null, null],[<divinerpg:divine_pickaxe>, <bloodmagic:component:8>, <divinerpg:divine_axe>], [null, <divinerpg:divine_shovel>, null]]);
-recipes.addShaped(<divinerpg:bedrock_chunk>, [[<cyclicmagic:crystallized_obsidian>, <cyclicmagic:crystallized_obsidian>, <cyclicmagic:crystallized_obsidian>],[<cyclicmagic:crystallized_obsidian>, <divinerpg:rupee_block>, <cyclicmagic:crystallized_obsidian>], [null, <cyclicmagic:crystallized_obsidian>, <cyclicmagic:crystallized_obsidian>]]);
+recipes.addShaped(<divinerpg:arlemite_shickaxe>, [[null, null, null],[<divinerpg:arlemite_pickaxe>, <minecraft:barrier>, <divinerpg:arlemite_axe>], [null, <divinerpg:arlemite_shovel>, null]]);
+recipes.addShaped(<divinerpg:rupee_shickaxe>, [[null, null, null],[<divinerpg:rupee_pickaxe>, <minecraft:barrier>, <divinerpg:rupee_axe>], [null, <divinerpg:rupee_shovel>, null]]);
+recipes.addShaped(<divinerpg:divine_shickaxe>, [[null, null, null],[<divinerpg:divine_pickaxe>, <minecraft:barrier>, <divinerpg:divine_axe>], [null, <divinerpg:divine_shovel>, null]]);
+recipes.addShaped(<divinerpg:bedrock_chunk>, [[<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>],[<minecraft:barrier>, <divinerpg:rupee_block>, <minecraft:barrier>], [null, <minecraft:barrier>, <minecraft:barrier>]]);
 
 
 // Karot Soul

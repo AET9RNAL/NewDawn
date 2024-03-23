@@ -59,15 +59,10 @@ mods.avaritia.ExtremeCrafting.addShaped("Starlight Synthesizer Controller", <mul
 
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("ND:shaped/internal/altar/dirtfromstuff", <botania:runealtar>, 200, 200, [
             <botania:livingrock>, <astralsorcery:itemrockcrystalsimple>, <botania:livingrock>,
-            <twilightforest:fiery_ingot>, <botania:manaresource:2>, <twilightforest:fiery_ingot>,
+            <minecraft:barrier>, <botania:manaresource:2>, <minecraft:barrier>,
             <botania:livingrock>, <botania:livingrock1slab>, <botania:livingrock>]);
 
 
-mods.astralsorcery.Altar.addAttunementAltarRecipe("ND:shaped/internal/altar/bloodaltar", <bloodmagic:altar>, 500, 300, [
-          <extrabotany:blockshadowium>, null, <extrabotany:blockshadowium>,
-          <extrabotany:blockshadowium>, <botania:runealtar>, <extrabotany:blockshadowium>,
-         <contenttweaker:circuit_void>, <industrialupgrade:simplemachine:6>, <contenttweaker:circuit_void>,
-          <contenttweaker:eden_core>, <minecraft:end_crystal>, <minecraft:end_crystal>, <contenttweaker:eden_core>]);
 
 
 // Brightstarlight Collector

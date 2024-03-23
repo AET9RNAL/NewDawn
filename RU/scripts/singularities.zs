@@ -10,8 +10,6 @@ mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.cinnabar>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.clay>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.construction_alloy>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.crude_oil>);
-mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.electrotine_alloy>);
-mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.electrotine_alloy>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.ender>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.gaia>);
 mods.jei.JEI.removeAndHide(<jaopca:avaritia_singularity.pure_nether_quartz>);
