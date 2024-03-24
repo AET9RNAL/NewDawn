@@ -718,48 +718,6 @@
       }
     },
     {
-      "uid": "570bbca5-2a47-4114-97e7-aa1f672486c6",
-      "duration": 40,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"rftools:dimensional_shard_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 0.3,
-            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"rftools:dimensional_shard\",Count:4,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "c8ca35f1-dc9f-4467-a078-bb42152206e6",
       "duration": 40,
       "inputs": {

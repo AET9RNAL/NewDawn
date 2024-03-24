@@ -4,447 +4,6 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
-      "uid": "f7d6db60-eff7-4670-9cbb-b3553e7d9acb",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:yeti_alpha\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:yeti_alpha\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 6,
-              "matches": [
-                "{id:\"twilightforest:alpha_fur\",Count:6,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 6,
-              "matches": [
-                "{id:\"twilightforest:ice_bomb\",Count:6,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "b3080675-4b5b-4040-bb70-59bf88185658",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:ur_ghast\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:ur_ghast\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 8,
-              "matches": [
-                "{id:\"twilightforest:fiery_tears\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"netherex:ghast_meat_raw\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 6,
-              "matches": [
-                "{id:\"minecraft:gunpowder\",Count:6,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "dc413220-eb9e-49b6-a505-73d2cef58f05",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:hydra\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:hydra\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"twilightforest:fiery_blood\",Count:10,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 14,
-              "matches": [
-                "{id:\"twilightforest:hydra_chop\",Count:14,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "1f592888-6d7c-488f-9114-fd35adf9ec0b",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:lich\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:lich\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:twilight_scepter\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:lifedrain_scepter\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:zombie_scepter\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:shield_scepter\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"twilightforest:miniature_structure\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:bone\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:ender_pearl\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "84624b9d-e323-44d5-a19e-ff9b59d2e8b2",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:naga\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:naga\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 8,
-              "matches": [
-                "{id:\"twilightforest:naga_scale\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "2e7490fd-635d-4088-8120-c788a64c99bc",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:snow_queen\"},Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"twilightforest:snow_queen\"},Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:triple_bow\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"twilightforest:seeker_bow\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"minecraft:packed_ice\",Count:64,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"minecraft:snowball\",Count:64,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "13c7798d-ba01-4f95-b4e7-2fc5fe9567ae",
       "duration": 150,
       "inputs": {
@@ -454,7 +13,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"botania:doppleganger\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"botania:doppleganger\"}}"
               ]
             }
           }
@@ -473,7 +32,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"botania:doppleganger\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"botania:doppleganger\"}}"
               ]
             }
           },
@@ -500,7 +59,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"botania:dice\",Count:1,Damage:0s}"
+                "{id:\"botania:dice\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -733,7 +292,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:quadro\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:quadro\"}}"
               ]
             }
           }
@@ -752,7 +311,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:quadro\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:quadro\"}}"
               ]
             }
           },
@@ -787,7 +346,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"minecraft:ender_dragon\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:ender_dragon\"}}"
               ]
             }
           }
@@ -806,7 +365,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"minecraft:ender_dragon\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:ender_dragon\"}}"
               ]
             }
           },
@@ -859,7 +418,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:sunstorm\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:sunstorm\"}}"
               ]
             }
           }
@@ -896,7 +455,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:teleportation_star\",Count:1,tag:{},Damage:0s}"
+                "{id:\"divinerpg:teleportation_star\",Count:1,Damage:0s,tag:{},ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -905,7 +464,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:eden_blitz\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:eden_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -931,7 +490,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:ancient_entity\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:ancient_entity\"}}"
               ]
             }
           }
@@ -950,7 +509,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:ancient_entity\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:ancient_entity\"}}"
               ]
             }
           },
@@ -959,7 +518,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:sandslash\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:sandslash\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -994,7 +553,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:lady_luna\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:lady_luna\"}}"
               ]
             }
           }
@@ -1013,7 +572,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:lady_luna\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:lady_luna\"}}"
               ]
             }
           },
@@ -1022,7 +581,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:everfright\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:everfright\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1031,7 +590,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:eversight\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:eversight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1040,7 +599,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:everbright\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:everbright\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1049,7 +608,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:everlight\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:everlight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1058,7 +617,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:evernight\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:evernight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1084,7 +643,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:experienced_cori\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:experienced_cori\"}}"
               ]
             }
           }
@@ -1103,7 +662,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:experienced_cori\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:experienced_cori\"}}"
               ]
             }
           },
@@ -1112,7 +671,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:skythern_blitz\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:skythern_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1139,7 +698,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_shield\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_shield\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1165,7 +724,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:termasect\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:termasect\"}}"
               ]
             }
           }
@@ -1184,7 +743,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:wildwood_blitz\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:wildwood_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1228,7 +787,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:karot\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:karot\"}}"
               ]
             }
           }
@@ -1247,7 +806,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:karot\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:karot\"}}"
               ]
             }
           },
@@ -1256,7 +815,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_phaser\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_phaser\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1291,7 +850,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:vamacheron\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:vamacheron\"}}"
               ]
             }
           }
@@ -1310,7 +869,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:vamacheron\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:vamacheron\"}}"
               ]
             }
           },
@@ -1319,7 +878,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_blade\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_blade\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1354,7 +913,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:soul_fiend\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:soul_fiend\"}}"
               ]
             }
           }
@@ -1373,7 +932,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:soul_fiend\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:soul_fiend\"}}"
               ]
             }
           },
@@ -1417,7 +976,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:reyvor\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:reyvor\"}}"
               ]
             }
           }
@@ -1436,7 +995,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:reyvor\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:reyvor\"}}"
               ]
             }
           },
@@ -1445,7 +1004,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_leggings\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_leggings\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1480,7 +1039,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:densos\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:densos\"}}"
               ]
             }
           }
@@ -1499,7 +1058,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:densos\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:densos\"}}"
               ]
             }
           },
@@ -1508,7 +1067,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_chestplate\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_chestplate\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1543,7 +1102,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:eternal_archer\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:eternal_archer\"}}"
               ]
             }
           }
@@ -1562,7 +1121,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"divinerpg:eternal_archer\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:eternal_archer\"}}"
               ]
             }
           },
@@ -1571,7 +1130,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_blitz\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1580,7 +1139,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"divinerpg:halite_bow\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:halite_bow\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
@@ -1615,7 +1174,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"minecraft:wither\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:wither\"}}"
               ]
             }
           }
@@ -1634,7 +1193,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"minecraft:wither\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:wither\"}}"
               ]
             }
           },
@@ -1678,7 +1237,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"draconicevolution:chaosguardian\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"draconicevolution:chaosguardian\"}}"
               ]
             }
           }
@@ -1697,7 +1256,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,tag:{EntityName:\"draconicevolution:chaosguardian\"},Damage:0s}"
+                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"draconicevolution:chaosguardian\"}}"
               ]
             }
           },

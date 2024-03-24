@@ -80,7 +80,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"medumone\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"medumone\"}}"
               ]
             }
           }
@@ -155,7 +155,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"ba_lightning_flower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"ba_lightning_flower\"}}"
               ]
             }
           }
@@ -257,7 +257,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"spectranthemum\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"spectranthemum\"}}"
               ]
             }
           }
@@ -368,7 +368,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"orechidIgnem\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"orechidIgnem\"}}"
               ]
             }
           }
@@ -470,7 +470,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"hyacidus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"hyacidus\"}}"
               ]
             }
           }
@@ -563,7 +563,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"gourmaryllis\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"gourmaryllis\"}}"
               ]
             }
           }
@@ -674,7 +674,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"mirrowtunia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"mirrowtunia\"}}"
               ]
             }
           }
@@ -776,7 +776,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"shulk_me_not\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"shulk_me_not\"}}"
               ]
             }
           }
@@ -860,7 +860,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"solegnolia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"solegnolia\"}}"
               ]
             }
           }
@@ -935,7 +935,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"dreadthorn\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"dreadthorn\"}}"
               ]
             }
           }
@@ -1028,7 +1028,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"jiyuulia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"jiyuulia\"}}"
               ]
             }
           }
@@ -1094,7 +1094,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"sunbless\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"sunbless\"}}"
               ]
             }
           }
@@ -1178,7 +1178,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"arcanerose\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"arcanerose\"}}"
               ]
             }
           }
@@ -1262,7 +1262,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"clayconia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"clayconia\"}}"
               ]
             }
           }
@@ -1355,7 +1355,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"tigerseye\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"tigerseye\"}}"
               ]
             }
           }
@@ -1448,7 +1448,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"kekimurus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"kekimurus\"}}"
               ]
             }
           }
@@ -1559,7 +1559,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"spectrolus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"spectrolus\"}}"
               ]
             }
           }
@@ -1670,7 +1670,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"enchantedorchid\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"enchantedorchid\"}}"
               ]
             }
           }
@@ -1754,7 +1754,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"fallenKanade\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"fallenKanade\"}}"
               ]
             }
           }
@@ -1847,7 +1847,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"manalinkium\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"manalinkium\"}}"
               ]
             }
           }
@@ -1922,7 +1922,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"bellflower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"bellflower\"}}"
               ]
             }
           }
@@ -2042,7 +2042,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"orechid\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"orechid\"}}"
               ]
             }
           }
@@ -2153,7 +2153,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"vinculotus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"vinculotus\"}}"
               ]
             }
           }
@@ -2228,7 +2228,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"bergamute\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"bergamute\"}}"
               ]
             }
           }
@@ -2294,7 +2294,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"ba_snow_flower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"ba_snow_flower\"}}"
               ]
             }
           }
@@ -2405,7 +2405,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"reikarlily\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"reikarlily\"}}"
               ]
             }
           }
@@ -2471,7 +2471,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"moonbless\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"moonbless\"}}"
               ]
             }
           }
@@ -2591,7 +2591,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"dandelifeon\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"dandelifeon\"}}"
               ]
             }
           }
@@ -2702,7 +2702,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"tinkle\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"tinkle\"}}"
               ]
             }
           }
@@ -2795,7 +2795,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"stonesia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"stonesia\"}}"
               ]
             }
           }
@@ -2879,7 +2879,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"manastar\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"manastar\"}}"
               ]
             }
           }
@@ -2972,7 +2972,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"omniviolet\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"omniviolet\"}}"
               ]
             }
           }
@@ -3038,7 +3038,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"hydroangeas\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"hydroangeas\"}}"
               ]
             }
           }
@@ -3131,7 +3131,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"pollidisiac\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"pollidisiac\"}}"
               ]
             }
           }
@@ -3233,7 +3233,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"bubbell\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"bubbell\"}}"
               ]
             }
           }
@@ -3317,7 +3317,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"munchdew\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"munchdew\"}}"
               ]
             }
           }
@@ -3410,7 +3410,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"tangleberrie\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"tangleberrie\"}}"
               ]
             }
           }
@@ -3512,7 +3512,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"rafflowsia\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"rafflowsia\"}}"
               ]
             }
           }
@@ -3605,7 +3605,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"edelweiss\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"edelweiss\"}}"
               ]
             }
           }
@@ -3716,7 +3716,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"loonium\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"loonium\"}}"
               ]
             }
           }
@@ -3800,7 +3800,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"thermalily\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"thermalily\"}}"
               ]
             }
           }
@@ -3875,7 +3875,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"ba_rain_flower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"ba_rain_flower\"}}"
               ]
             }
           }
@@ -3950,7 +3950,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"endoflame\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"endoflame\"}}"
               ]
             }
           }
@@ -4043,7 +4043,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"necrofleur\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"necrofleur\"}}"
               ]
             }
           }
@@ -4136,7 +4136,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"jadedAmaranthus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"jadedAmaranthus\"}}"
               ]
             }
           }
@@ -4229,7 +4229,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"heiseiDream\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"heiseiDream\"}}"
               ]
             }
           }
@@ -4322,7 +4322,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"entropinnyum\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"entropinnyum\"}}"
               ]
             }
           }
@@ -4424,7 +4424,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"ba_wither_flower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"ba_wither_flower\"}}"
               ]
             }
           }
@@ -4508,7 +4508,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"hopperhock\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"hopperhock\"}}"
               ]
             }
           }
@@ -4601,7 +4601,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"daffomill\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"daffomill\"}}"
               ]
             }
           }
@@ -4676,7 +4676,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"geminiorchid\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"geminiorchid\"}}"
               ]
             }
           }
@@ -4769,7 +4769,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"exoflame\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"exoflame\"}}"
               ]
             }
           }
@@ -4880,7 +4880,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"marimorphosis\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"marimorphosis\"}}"
               ]
             }
           }
@@ -4973,7 +4973,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"agricarnation\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"agricarnation\"}}"
               ]
             }
           }
@@ -5057,7 +5057,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"bloodyenchantress\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"bloodyenchantress\"}}"
               ]
             }
           }
@@ -5105,7 +5105,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"puredaisy\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"puredaisy\"}}"
               ]
             }
           }
@@ -5189,7 +5189,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"rannuncarpus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"rannuncarpus\"}}"
               ]
             }
           }
@@ -5282,7 +5282,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"stardustlotus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"stardustlotus\"}}"
               ]
             }
           }
@@ -5357,7 +5357,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"bellethorn\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"bellethorn\"}}"
               ]
             }
           }
@@ -5450,7 +5450,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"narslimmus\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"narslimmus\"}}"
               ]
             }
           }
@@ -5543,7 +5543,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"botania:specialflower\",Count:1,tag:{type:\"annoyingflower\"},Damage:0s}"
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"annoyingflower\"}}"
               ]
             }
           }

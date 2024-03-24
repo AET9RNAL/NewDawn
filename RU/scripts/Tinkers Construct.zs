@@ -29,7 +29,6 @@ mods.tconstruct.Melting.addRecipe(<liquid:pyrotheum>*250, <thermalfoundation:mat
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStackoutput, ILiquidStack[]);
 mods.tconstruct.Alloy.addRecipe(<liquid:crude_steel>*288, [<liquid:stone>*14400,<liquid:clay>*5184]);
-mods.tconstruct.Alloy.addRecipe(<liquid:crystal>, [<liquid:obsidian>*576,<liquid:amber>*1000,<liquid:emerald>*1332]);
 mods.tconstruct.Alloy.addRecipe(<liquid:redstone_alloy>*144,[<liquid:quartz>*72,<liquid:redstone>*72]);
 
 

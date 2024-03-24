@@ -326,24 +326,6 @@
             }
           },
           {
-            "chance": 0.15,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"rftools:dimensional_shard_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.09,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thaumcraft:ore_cinnabar\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
             "chance": 0.09,
             "content": {
               "amount": 1,

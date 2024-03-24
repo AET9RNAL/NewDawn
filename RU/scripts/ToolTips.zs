@@ -230,7 +230,6 @@ var pickaxeArray = [
     <divinerpg:rupee_pickaxe>,
     <divinerpg:eden_pickaxe>,
     <divinerpg:wildwood_pickaxe>,
-    <divinerpg:skythern_pickaxe>,
     <divinerpg:dream_pickaxe>,
     <endreborn:tool_pickaxe_endorium>,
     <endreborn:tool_pickaxe_wolframium>,
@@ -239,6 +238,9 @@ var pickaxeArray = [
     <netherex:blazed_amedian_pickaxe>,
     <netherex:withered_amedian_pickaxe>,
     <thermalfoundation:tool.sword_copper>,
+    <immersiveengineering:pickaxe_steel>,
+    <thermalfoundation:tool.pickaxe_electrum>,
+    <thermalfoundation:tool.pickaxe_invar>,
 
 ] as IItemStack[];
 for pickaxe in pickaxeArray {
@@ -277,7 +279,6 @@ for sword in swordArray {
 }
 
 var axeArray = [
- 	<divinerpg:skythern_axe>,
 	<divinerpg:dream_axe>,
 	<endreborn:tool_axe_endorium>,
 	<futuremc:netherite_axe>,
@@ -299,7 +300,35 @@ var axeArray = [
 	<divinerpg:realmite_axe>,
 	<divinerpg:divine_axe>,
 	<divinerpg:corrupted_axe>,
-	<divinerpg:arlemite_axe>
+	<divinerpg:arlemite_axe>,
+    <thermalfoundation:tool.axe_tin>,
+ <thermalfoundation:tool.axe_silver>,
+ <thermalfoundation:tool.axe_lead>,
+ <thermalfoundation:tool.axe_aluminum>,
+ <thermalfoundation:tool.axe_nickel>,
+ <thermalfoundation:tool.axe_platinum>,
+ <thermalfoundation:tool.axe_steel>,
+ <thermalfoundation:tool.axe_electrum>,
+ <thermalfoundation:tool.axe_invar>,
+ <byg:tamreliteaxe>,
+ <byg:pendoriteaxe>,
+ <byg:lathariumaxe>,
+ <endreborn:tool_axe_wolframium>,
+ <futuremc:netherite_axe>,
+ <immersiveengineering:axe_steel>,
+ <midnight:tenebrum_axe>,
+ <midnight:nagrilite_axe>,
+ <midnight:ebonys_axe>,
+ <midnight:nightstone_axe>,
+ <midnight:shadowroot_axe>,
+ <mekanismtools:steelaxe>,
+ <mekanismtools:lapislazuliaxe>,
+ <mekanismtools:glowstoneaxe>,
+ <mekanismtools:bronzeaxe>,
+ <naturesaura:infused_iron_axe>,
+ <thermalfoundation:tool.axe_copper>,
+ <thermalfoundation:tool.axe_constantan>,
+ <thermalfoundation:tool.axe_bronze>
 ] as IItemStack[];
 for axe in axeArray {
     axe.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
@@ -307,7 +336,54 @@ for axe in axeArray {
 }
 
 
-
+var shovelArray = [
+    <minecraft:iron_shovel>,
+    <minecraft:wooden_shovel>,
+    <minecraft:stone_shovel>,
+    <minecraft:diamond_shovel>,
+    <minecraft:golden_shovel>,
+    <appliedenergistics2:certus_quartz_spade>,
+    <appliedenergistics2:nether_quartz_spade>,
+    <byg:tamreliteshovel>,
+    <byg:pendoriteshovel>,
+    <byg:kasaishovel>,
+    <byg:lathariumshovel>,
+    <divinerpg:arlemite_shovel>,
+    <divinerpg:corrupted_shovel>,
+    <divinerpg:divine_shovel>,
+    <divinerpg:realmite_shovel>,
+    <divinerpg:rupee_shovel>,
+    <divinerpg:eden_shovel>,
+    <divinerpg:wildwood_shovel>,
+    <endreborn:tool_shovel_wolframium>,
+    <endreborn:tool_shovel_endorium>,
+    <divinerpg:dream_shovel>,
+    <midnight:nagrilite_shovel>,
+    <midnight:nightstone_shovel>,
+    <midnight:shadowroot_shovel>,
+    <midnight:tenebrum_shovel>,
+    <thermalfoundation:tool.shovel_copper>,
+    <immersiveengineering:shovel_steel>,
+    <mekanismtools:bronzeshovel>,
+    <futuremc:netherite_shovel>,
+    <forestry:bronze_shovel>,
+    <mekanismtools:glowstoneshovel>,
+    <mekanismtools:osmiumshovel>,
+    <mekanismtools:lapislazulishovel>,
+    <thermalfoundation:tool.shovel_copper>,
+    <thermalfoundation:tool.shovel_tin>,
+    <thermalfoundation:tool.shovel_silver>,
+    <thermalfoundation:tool.shovel_lead>,
+    <thermalfoundation:tool.shovel_aluminum>,
+    <thermalfoundation:tool.shovel_nickel>,
+    <thermalfoundation:tool.shovel_platinum>,
+    <thermalfoundation:tool.shovel_steel>,
+    <thermalfoundation:tool.shovel_electrum>,
+] as IItemStack[];
+for shovel in shovelArray {
+    shovel.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
+    shovel.maxDamage = 1;
+}
 
 
 

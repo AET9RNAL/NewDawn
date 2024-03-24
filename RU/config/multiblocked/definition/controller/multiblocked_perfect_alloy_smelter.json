@@ -1,0 +1,453 @@
+{
+  "version": 2,
+  "location": "multiblocked:perfect_alloy_smelter",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 155,
+      "y": 141,
+      "width": 12,
+      "height": 30,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 3
+    },
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 138,
+      "y": 141,
+      "width": 12,
+      "height": 30,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 3,
+      "capacity": 120000000,
+      "maxReceive": 60000000,
+      "maxExtract": 60000000
+    },
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "INF",
+        "x": 25,
+        "y": 153,
+        "autoIO": true,
+        "tC": 200000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "INF",
+        "x": 4,
+        "y": 153,
+        "autoIO": true,
+        "tC": 200000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 79,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 79,
+        "y": 3,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 79,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 61,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 60,
+        "y": 61,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 136,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 136,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 22,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 22,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 41,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 41,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 60,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 60,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 117,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 117,
+        "y": 23,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 42,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 23,
+        "autoIO": true
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "appliedenergistics2:controller",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:server_core",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "chisel:futura",
+          "meta": 4
+        },
+        "type": "blockstate"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "perfect_alloy_smelter",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  "
+      ],
+      [
+        "   B   ",
+        " A A A ",
+        " A A A ",
+        " A A A ",
+        "   B   "
+      ],
+      [
+        "A AAA A",
+        "A CCC A",
+        "A CCC A",
+        "A CCC A",
+        "A AAA A"
+      ],
+      [
+        "BBADABB",
+        "EACFCAB",
+        "@ACFCAB",
+        "GACFCAB",
+        "BBADABB"
+      ],
+      [
+        "A AAA A",
+        "A CCC A",
+        "A CCC A",
+        "A CCC A",
+        "A AAA A"
+      ],
+      [
+        "   B   ",
+        " A A A ",
+        " A A A ",
+        " A A A ",
+        "   B   "
+      ],
+      [
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  ",
+        "  ABA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "multiblocked:perfect_alloy_smelter",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:perfect_industrial_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "fluiddrawers:tank",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN",
+        "slotName": "INF"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT",
+        "slotName": "OUT"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_pyrotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "diamondbarrels:obsidian_barrel",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "io": "IN",
+        "slotName": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}
