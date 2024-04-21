@@ -1,87 +1,98 @@
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemStack;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
 ///recipes.remove(AAAA);
 //mods.jei.JEI.addItem(IItemstack);
 //mods.jei.JEI.removeAndHide(DDD);
-recipes.remove(<thermalfoundation:upgrade:3>);
-recipes.remove(<thermalfoundation:upgrade:2>);
-recipes.remove(<thermalfoundation:upgrade:1>);
-recipes.remove(<thermalfoundation:upgrade>);
-recipes.remove(<thermalexpansion:tank>);
-recipes.remove(<thermalfoundation:material:293>);
-recipes.remove(<thermalfoundation:material:294>);
-recipes.remove(<thermalfoundation:material:295>);
-recipes.remove(<thermalfoundation:material:292>);
-recipes.remove(<thermalfoundation:material:298>);
-recipes.remove(<thermalfoundation:material:294>);
-recipes.remove(<thermalexpansion:machine:8>);
-recipes.remove(<thermalexpansion:machine:6>);
-recipes.remove(<thermalexpansion:machine:3>);
-recipes.remove(<thermalexpansion:machine:1>);
-recipes.remove(<thermalexpansion:frame>);
-recipes.remove(<thermalexpansion:machine>);
-recipes.remove(<thermaldynamics:duct_0:9>);
-recipes.remove(<thermaldynamics:duct_0:8>);
-recipes.remove(<thermaldynamics:duct_0:4>);
-recipes.remove(<thermaldynamics:duct_0:7>);
-recipes.remove(<thermaldynamics:duct_0:3>);
-recipes.remove(<thermaldynamics:duct_0:6>);
-recipes.remove(<thermaldynamics:duct_0:1>);
-recipes.remove(<thermaldynamics:duct_0>);
-recipes.remove(<thermalexpansion:machine:4>);
-recipes.remove(<thermaldynamics:filter:4>);
-recipes.remove(<thermaldynamics:retriever:4>);
-recipes.remove(<thermaldynamics:servo:4>);
-recipes.remove(<thermalexpansion:dynamo:5>);
-recipes.remove(<thermalexpansion:dynamo:3>);
-recipes.remove(<thermalexpansion:dynamo:2>);
-recipes.remove(<thermalexpansion:dynamo:1>);
-recipes.remove(<thermalexpansion:dynamo>);
-recipes.remove(<thermalexpansion:augment:337>);
+val itemsToRemove = [
+  <thermalfoundation:upgrade:3>,
+  <thermalfoundation:upgrade:2>,
+  <thermalfoundation:upgrade:1>,
+  <thermalfoundation:upgrade>,
+  <thermalexpansion:tank>,
+  <thermalfoundation:material:293>,
+  <thermalfoundation:material:294>,
+  <thermalfoundation:material:295>,
+  <thermalfoundation:material:292>,
+  <thermalfoundation:material:298>,
+  <thermalfoundation:material:294>,
+  <thermalexpansion:machine:8>,
+  <thermalexpansion:machine:6>,
+  <thermalexpansion:machine:3>,
+  <thermalexpansion:machine:1>,
+  <thermalexpansion:frame>,
+  <thermalexpansion:machine>,
+  <thermaldynamics:duct_0:9>,
+  <thermaldynamics:duct_0:8>,
+  <thermaldynamics:duct_0:4>,
+  <thermaldynamics:duct_0:7>,
+  <thermaldynamics:duct_0:3>,
+  <thermaldynamics:duct_0:6>,
+  <thermaldynamics:duct_0:1>,
+  <thermaldynamics:duct_0>,
+  <thermalexpansion:machine:4>,
+  <thermaldynamics:filter:4>,
+  <thermaldynamics:retriever:4>,
+  <thermaldynamics:servo:4>,
+  <thermalexpansion:dynamo:5>,
+  <thermalexpansion:dynamo:3>,
+  <thermalexpansion:dynamo:2>,
+  <thermalexpansion:dynamo:1>,
+  <thermalexpansion:dynamo>,
+  <thermalexpansion:augment:337>,
+  <thermaldynamics:filter>,
+  <thermaldynamics:filter:1>,
+  <thermaldynamics:filter:2>,
+  <thermaldynamics:filter:3>,
+  <thermaldynamics:filter:4>,
+  <thermaldynamics:retriever>,
+  <thermaldynamics:retriever:1>,
+  <thermaldynamics:retriever:2>,
+  <thermaldynamics:retriever:3>,
+  <thermaldynamics:retriever:4>,
+  <thermaldynamics:servo>,
+  <thermaldynamics:servo:2>,
+  <thermaldynamics:servo:3>,
+  <thermaldynamics:servo:4>,
+  <thermaldynamics:servo:1>,
+  <thermaldynamics:duct_16>,
+  <thermaldynamics:duct_16:1>,
+  <thermaldynamics:duct_16:2>,
+  <thermaldynamics:duct_16:3>,
+  <thermaldynamics:duct_16:5>,
+  <thermaldynamics:duct_16:4>,
+  <thermaldynamics:duct_16:6>,
+  <thermaldynamics:duct_16:7>,
+  <thermaldynamics:duct_32:4>,
+  <thermaldynamics:duct_32:5>,
+  <thermaldynamics:duct_32:6>,
+  <thermaldynamics:duct_32:7>,
+  <thermalfoundation:material:656>,
+  <thermalfoundation:material:515>,
+  <thermalfoundation:material:514>,
+  <thermalfoundation:material:513>,
+  <thermalexpansion:device>,
+  <thermalexpansion:device:12>,
+  <thermalexpansion:device:2>,
+  <thermalfoundation:material:512>,
+  <thermalexpansion:capacitor>,
+  <thermalexpansion:capacitor:1>,
+  <thermalexpansion:capacitor:2>,
+  <thermalexpansion:capacitor:3>,
+  <thermalexpansion:capacitor:4>
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
+
 recipes.removeShaped(<thermalfoundation:material:32> * 3, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[null, null, null], [null, null, null]]);
-recipes.remove(<thermaldynamics:filter>);
-recipes.remove(<thermaldynamics:filter:1>);
-recipes.remove(<thermaldynamics:filter:2>);
-recipes.remove(<thermaldynamics:filter:3>);
-recipes.remove(<thermaldynamics:filter:4>);
-recipes.remove(<thermaldynamics:retriever>);
-recipes.remove(<thermaldynamics:retriever:1>);
-recipes.remove(<thermaldynamics:retriever:2>);
-recipes.remove(<thermaldynamics:retriever:3>);
-recipes.remove(<thermaldynamics:retriever:4>);
-recipes.remove(<thermaldynamics:servo>);
-recipes.remove(<thermaldynamics:servo:2>);
-recipes.remove(<thermaldynamics:servo:3>);
-recipes.remove(<thermaldynamics:servo:4>);
-recipes.remove(<thermaldynamics:servo:1>);
-recipes.remove(<thermaldynamics:duct_16>);
-recipes.remove(<thermaldynamics:duct_16:1>);
-recipes.remove(<thermaldynamics:duct_16:2>);
-recipes.remove(<thermaldynamics:duct_16:3>);
-recipes.remove(<thermaldynamics:duct_16:5>);
-recipes.remove(<thermaldynamics:duct_16:4>);
-recipes.remove(<thermaldynamics:duct_16:6>);
-recipes.remove(<thermaldynamics:duct_16:7>);
-recipes.remove(<thermaldynamics:duct_32:4>);
-recipes.remove(<thermaldynamics:duct_32:5>);
-recipes.remove(<thermaldynamics:duct_32:6>);
-recipes.remove(<thermaldynamics:duct_32:7>);
-recipes.remove(<thermalfoundation:material:656>);
-recipes.remove(<thermalfoundation:material:515>);
-recipes.remove(<thermalfoundation:material:514>);
-recipes.remove(<thermalfoundation:material:513>);
-recipes.remove(<thermalexpansion:device>);
-recipes.remove(<thermalexpansion:device:12>);
-recipes.remove(<thermalexpansion:device:2>);
-recipes.remove(<thermalfoundation:material:512>);
+
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:diamond>, <liquid:redstone>*500);
-recipes.remove(<thermalexpansion:capacitor>);
-recipes.remove(<thermalexpansion:capacitor:1>);
-recipes.remove(<thermalexpansion:capacitor:2>);
-recipes.remove(<thermalexpansion:capacitor:3>);
-recipes.remove(<thermalexpansion:capacitor:4>);
+
 //addItem(item);
 
 
@@ -91,14 +102,14 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [[<contenttweaker:plate_alloy_t
 recipes.addShaped(<thermalfoundation:upgrade:2>, [[<thermalfoundation:material:357>, <industrialupgrade:alloygear:2>, <thermalfoundation:material:357>],[<enderio:item_capacitor_melodic>, <industrialupgrade:upgrades>, <enderio:item_capacitor_melodic>], [<thermalfoundation:material:357>, <moreplates:energetic_alloy_gear>, <thermalfoundation:material:357>]]);
 recipes.addShaped(<thermalfoundation:upgrade:1>, [[<ore:plateElectrum>, <industrialupgrade:gear:12>, <ore:plateElectrum>],[<enderio:item_basic_capacitor:2>, <industrialupgrade:upgrades:8>, <enderio:item_basic_capacitor:2>], [<ore:plateElectrum>, <moreplates:dark_steel_gear>, <ore:plateElectrum>]]);
 recipes.addShaped(<thermalfoundation:upgrade>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:gear:3>, <moreplates:electrical_steel_plate>],[<enderio:item_basic_capacitor:2>, <industrialupgrade:upgrades:8>, <enderio:item_basic_capacitor:2>], [<moreplates:electrical_steel_plate>, <industrialupgrade:gear:3>, <moreplates:electrical_steel_plate>]]);
-recipes.addShaped(<thermalexpansion:tank>, [[<thermalfoundation:material:355>, <thermalfoundation:material:512>, <thermalfoundation:material:355>],[<thermalfoundation:material:291>, <minecraft:barrier>, <thermalfoundation:material:291>], [<thermalfoundation:material:355>, <thermalfoundation:material:512>, <thermalfoundation:material:355>]]);
+recipes.addShaped(<thermalexpansion:tank>, [[<thermalfoundation:material:355>, <thermalfoundation:material:512>, <thermalfoundation:material:355>],[<thermalfoundation:material:291>, <industrialupgrade:crafting_elements:46>, <thermalfoundation:material:291>], [<thermalfoundation:material:355>, <thermalfoundation:material:512>, <thermalfoundation:material:355>]]);
 
-recipes.addShaped(<thermalexpansion:machine:8>, [[<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>],[<extrautils2:decorativeglass>, <thermalexpansion:frame>, <extrautils2:decorativeglass>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
-recipes.addShaped(<thermalexpansion:machine:6>, [[<minecraft:barrier>, <ore:blockGlassHardened>, <minecraft:barrier>],[<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
-recipes.addShaped(<thermalexpansion:machine:3>, [[<minecraft:barrier>, <ore:gearInvar>, <minecraft:barrier>],[<extrautils2:compressedsand:1>, <thermalexpansion:frame>, <extrautils2:compressedsand:1>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
+recipes.addShaped(<thermalexpansion:machine:8>, [[<industrialupgrade:crafting_elements:201>, <industrialupgrade:crafting_elements:46>, <industrialupgrade:crafting_elements:201>],[<extrautils2:decorativeglass>, <thermalexpansion:frame>, <extrautils2:decorativeglass>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
+recipes.addShaped(<thermalexpansion:machine:6>, [[<industrialupgrade:crafting_elements:70>, <ore:blockGlassHardened>, <industrialupgrade:crafting_elements:70>],[<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
+recipes.addShaped(<thermalexpansion:machine:3>, [[<industrialupgrade:crafting_elements:70>, <ore:gearInvar>, <industrialupgrade:crafting_elements:70>],[<extrautils2:compressedsand:1>, <thermalexpansion:frame>, <extrautils2:compressedsand:1>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 recipes.addShaped(<thermalexpansion:machine:1>, [[<appliedenergistics2:grindstone>, <minecraft:piston>, <appliedenergistics2:grindstone>],[<industrialupgrade:crafting_elements:283>, <thermalexpansion:frame>, <industrialupgrade:crafting_elements:283>], [<thermalfoundation:material:26>, <thermalfoundation:material:513>, <thermalfoundation:material:26>]]);
 recipes.addShaped(<thermalexpansion:frame>, [[<ore:ingotTitanium>, <extrautils2:decorativeglass>, <ore:ingotTitanium>],[<extrautils2:decorativeglass>, <ore:gearTin>, <extrautils2:decorativeglass>], [<ore:ingotTitanium>, <extrautils2:decorativeglass>, <ore:ingotTitanium>]]);
-recipes.addShaped(<thermalexpansion:machine>, [[<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>],[<minecraft:brick_block>, <thermalexpansion:frame>, <minecraft:brick_block>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
+recipes.addShaped(<thermalexpansion:machine>, [[<ore:plateConductiveIron>, <ironfurnaces:iron_furnace_idle>, <ore:plateConductiveIron>],[<minecraft:brick_block>, <thermalexpansion:frame>, <minecraft:brick_block>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
 
 recipes.addShaped(<thermaldynamics:duct_0:9>, [[<simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>],[<simplyjetpacks:metaitemmods:28>, <enderio:item_endergy_conduit:11>, <simplyjetpacks:metaitemmods:28>], [<simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>]]);
 recipes.addShaped(<thermaldynamics:duct_0:8> * 2, [[<thermalfoundation:material:359>, null, <thermalfoundation:material:359>],[<thermaldynamics:duct_0:3>, <enderio:item_endergy_conduit:7>, <thermaldynamics:duct_0:3>], [<thermalfoundation:material:359>, null, <thermalfoundation:material:359>]]);
@@ -112,8 +123,8 @@ recipes.addShaped(<thermalexpansion:machine:4>, [[<simplyjetpacks:metaitemmods:1
 recipes.addShaped(<thermalexpansion:dynamo:5>, [[<thermalfoundation:material:166>, <thermalfoundation:material:514>, <ore:ingotSolarium>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<ore:ingotSolarium>, <extrautils2:ingredients:2>, <thermalfoundation:material:166>]]);
 recipes.addShaped(<thermalexpansion:dynamo:3>, [[<botania:manaresource>, <thermalfoundation:material:514>, <ore:ingotCobalt>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<ore:ingotCobalt>, <extrautils2:ingredients:2>, <botania:manaresource>]]);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [[<botania:manaresource>, <thermalfoundation:material:514>, <thermalfoundation:material:131>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<thermalfoundation:material:131>, <extrautils2:ingredients:2>, <botania:manaresource>]]);
-recipes.addShaped(<thermalexpansion:dynamo:1>, [[<taiga:valyrium_ingot>, <thermalfoundation:material:514>, <taiga:valyrium_ingot>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<taiga:valyrium_ingot>, <extrautils2:ingredients:2>, <taiga:valyrium_ingot>]]);
-recipes.addShaped(<thermalexpansion:dynamo>, [[<taiga:nihilite_ingot>, <thermalfoundation:material:514>, <taiga:nihilite_ingot>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<taiga:nihilite_ingot>, <extrautils2:ingredients:2>, <taiga:nihilite_ingot>]]);
+recipes.addShaped(<thermalexpansion:dynamo:1>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:514>, <moreplates:redstone_alloy_plate>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<moreplates:redstone_alloy_plate>, <extrautils2:ingredients:2>, <moreplates:redstone_alloy_plate>]]);
+recipes.addShaped(<thermalexpansion:dynamo>, [[<moreplates:redstone_alloy_plate>, <thermalfoundation:material:514>, <moreplates:redstone_alloy_plate>],[<extrautils2:ingredients:1>, <extrabotany:chargepad>, <extrautils2:ingredients:1>], [<moreplates:redstone_alloy_plate>, <extrautils2:ingredients:2>, <moreplates:redstone_alloy_plate>]]);
 recipes.addShaped(<thermalexpansion:augment:337>, [[<botania:manaresource>, <tconstruct:cast_custom:4>, <botania:manaresource>],[<industrialupgrade:gear:3>, <thermalfoundation:material:512>, <industrialupgrade:gear:3>], [<botania:manaresource>, <tconstruct:cast_custom:4>, <botania:manaresource>]]);
 
 recipes.addShaped(<thermaldynamics:servo:4> * 2, [[<contenttweaker:plate_alloy_thermal>, null, <contenttweaker:plate_alloy_thermal>],[<simplyjetpacks:metaitemmods:19>, <thermalfoundation:glass_alloy:7>, <simplyjetpacks:metaitemmods:19>], [<endreborn:ingot_infused>, <astralsorcery:itemcraftingcomponent:4>, <endreborn:ingot_infused>]]);
@@ -121,11 +132,11 @@ recipes.addShaped(<thermaldynamics:servo:3> * 2, [[null, null, null],[<thermalfo
 recipes.addShaped(<thermaldynamics:servo:2> * 2, [[null, null, null],[<industrialupgrade:itemdoubleplates:13>, <industrialupgrade:glass>, <industrialupgrade:itemdoubleplates:13>], [<thermalfoundation:material:161>, <extrautils2:ingredients>, <thermalfoundation:material:161>]]);
 recipes.addShaped(<thermaldynamics:servo:1> * 2, [[null, null, null],[<simplyjetpacks:metaitemmods:18>, <extrautils2:decorativeglass>, <simplyjetpacks:metaitemmods:18>], [<ore:ingotInvar>, <extrautils2:ingredients>, <ore:ingotInvar>]]);
 recipes.addShaped(<thermaldynamics:servo> * 2, [[null, null, null],[<minecraft:iron_nugget>, <extrautils2:decorativeglass>, <minecraft:iron_nugget>], [<minecraft:iron_ingot>, <ore:plateRedstoneAlloy>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<thermaldynamics:retriever:4> * 2, [[<contenttweaker:plate_alloy_thermal>, null, <contenttweaker:plate_alloy_thermal>],[<simplyjetpacks:metaitemmods:19>, <thermalfoundation:glass_alloy:7>, <simplyjetpacks:metaitemmods:19>], [<endreborn:ingot_infused>, <minecraft:barrier>, <endreborn:ingot_infused>]]);
-recipes.addShaped(<thermaldynamics:retriever:3> * 2, [[null, null, null],[<thermalfoundation:material:357>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:material:357>], [<thermalfoundation:material:165>, <minecraft:barrier>, <thermalfoundation:material:165>]]);
-recipes.addShaped(<thermaldynamics:retriever:2> * 2, [[null, null, null],[<industrialupgrade:itemdoubleplates:13>, <industrialupgrade:glass>, <industrialupgrade:itemdoubleplates:13>], [<thermalfoundation:material:161>, <minecraft:barrier>, <thermalfoundation:material:161>]]);
-recipes.addShaped(<thermaldynamics:retriever:1> * 2, [[null, null, null],[<simplyjetpacks:metaitemmods:18>, <extrautils2:decorativeglass>, <simplyjetpacks:metaitemmods:18>], [<ore:ingotInvar>, <minecraft:barrier>, <ore:ingotInvar>]]);
-recipes.addShaped(<thermaldynamics:retriever> * 2, [[null, null, null],[<minecraft:iron_nugget>, <extrautils2:decorativeglass>, <minecraft:iron_nugget>], [<minecraft:iron_ingot>, <minecraft:barrier>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<thermaldynamics:retriever:4> * 2, [[<contenttweaker:plate_alloy_thermal>, null, <contenttweaker:plate_alloy_thermal>],[<simplyjetpacks:metaitemmods:19>, <thermalfoundation:glass_alloy:7>, <simplyjetpacks:metaitemmods:19>], [<endreborn:ingot_infused>, <industrialupgrade:circuit:16>, <endreborn:ingot_infused>]]);
+recipes.addShaped(<thermaldynamics:retriever:3> * 2, [[null, null, null],[<thermalfoundation:material:357>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:material:357>], [<thermalfoundation:material:165>, <industrialupgrade:circuit:16>, <thermalfoundation:material:165>]]);
+recipes.addShaped(<thermaldynamics:retriever:2> * 2, [[null, null, null],[<industrialupgrade:itemdoubleplates:13>, <industrialupgrade:glass>, <industrialupgrade:itemdoubleplates:13>], [<thermalfoundation:material:161>, <industrialupgrade:circuit:16>, <thermalfoundation:material:161>]]);
+recipes.addShaped(<thermaldynamics:retriever:1> * 2, [[null, null, null],[<simplyjetpacks:metaitemmods:18>, <extrautils2:decorativeglass>, <simplyjetpacks:metaitemmods:18>], [<ore:ingotInvar>, <industrialupgrade:circuit:16>, <ore:ingotInvar>]]);
+recipes.addShaped(<thermaldynamics:retriever> * 2, [[null, null, null],[<minecraft:iron_nugget>, <extrautils2:decorativeglass>, <minecraft:iron_nugget>], [<minecraft:iron_ingot>, <industrialupgrade:circuit:16>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<thermaldynamics:filter:4> * 2, [[<contenttweaker:plate_alloy_thermal>, null, <contenttweaker:plate_alloy_thermal>],[<simplyjetpacks:metaitemmods:19>, <thermalfoundation:glass_alloy:7>, <simplyjetpacks:metaitemmods:19>], [<endreborn:ingot_infused>, <industrialupgrade:preciousgem>, <endreborn:ingot_infused>]]);
 recipes.addShaped(<thermaldynamics:filter:3> * 2, [[null, null, null],[<thermalfoundation:material:357>, <thermalfoundation:glass_alloy:5>, <thermalfoundation:material:357>], [<thermalfoundation:material:165>, <astralsorcery:itemcraftingcomponent:5>, <thermalfoundation:material:165>]]);
 recipes.addShaped(<thermaldynamics:filter:2> * 2, [[null, null, null],[<industrialupgrade:itemdoubleplates:13>, <industrialupgrade:glass>, <industrialupgrade:itemdoubleplates:13>], [<thermalfoundation:material:161>, <astralsorcery:itemcraftingcomponent:5>, <thermalfoundation:material:161>]]);
@@ -158,10 +169,10 @@ recipes.addShaped(<thermalexpansion:capacitor:2>, [[null, <moreplates:vibrant_al
 recipes.addShaped(<thermalexpansion:capacitor:1>, [[null, <moreplates:energetic_alloy_plate>, null],[<simplyjetpacks:metaitemmods:18>, <thermalexpansion:capacitor>, <simplyjetpacks:metaitemmods:18>], [<moreplates:energetic_alloy_plate>, <industrialupgrade:itemdust:24>, <moreplates:energetic_alloy_plate>]]);
 recipes.addShaped(<thermalexpansion:capacitor>, [[null, <moreplates:redstone_alloy_plate>, null],[<ore:plateLead>, <taiga:prometheum_dust>, <ore:plateLead>], [<moreplates:redstone_alloy_plate>, <taiga:tiberium_crystal>, <moreplates:redstone_alloy_plate>]]);
 
-recipes.addShaped(<thermalfoundation:material:512>, [[<minecraft:barrier>, <ore:plateIron>, <minecraft:barrier>],[null, <ore:plateIron>, null], [<minecraft:barrier>, <ore:plateIron>, <minecraft:barrier>]]);
+recipes.addShaped(<thermalfoundation:material:512>, [[<ore:plateRedstoneAlloy>, <ore:plateIron>, <ore:plateRedstoneAlloy>],[null, <ore:plateIron>, null], [<ore:plateRedstoneAlloy>, <ore:plateIron>, <ore:plateRedstoneAlloy>]]);
 recipes.addShaped(<thermalexpansion:device:2>, [[<industrialupgrade:itemdoubleplates:13>, <botania:rune:11>, <industrialupgrade:itemdoubleplates:13>],[<extrautils2:ingredients:16>, <thermalexpansion:frame:64>, <extrautils2:ingredients:16>], [<simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>]]);
 recipes.addShaped(<thermalexpansion:device:12>, [[null, <minecraft:hopper>, null],[<enderio:item_material:14>, <thermalexpansion:frame:64>, <enderio:item_material:14>], [<thermalfoundation:material:26>, <thermalfoundation:material:512>, <thermalfoundation:material:26>]]);
-recipes.addShaped(<thermalexpansion:device>, [[null, <botania:openbucket>, null],[<extrautils2:decorativeglass>, <thermalexpansion:frame:64>, <extrautils2:decorativeglass>], [<thermalfoundation:material:26>, <minecraft:barrier>, <thermalfoundation:material:26>]]);
+recipes.addShaped(<thermalexpansion:device>, [[null, <botania:openbucket>, null],[<extrautils2:decorativeglass>, <thermalexpansion:frame:64>, <extrautils2:decorativeglass>], [<thermalfoundation:material:26>, <mekanism:machineblock2:11>.withTag({tier: 0}), <thermalfoundation:material:26>]]);
 
 
 //Pulverizer

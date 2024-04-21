@@ -2,7 +2,6 @@
 
 recipes.remove(<botania:terraplate>);
 recipes.remove(<botania:runealtar>);
-recipes.remove(<botania:altar>);
 recipes.remove(<botania:pylon>);
 recipes.remove(<botania:pylon:1>);
 recipes.remove(<botania:pylon:2>);
@@ -22,14 +21,13 @@ recipes.remove(<botania:spreader>);
 //mods.botania.RuneAltar.addRecipe(<draconicevolution:wyvern_helm>, [] , int mana);
 //mods.botanicadds.GaiaPlate.add(IItemStack output, int mana, IItemStack[] inputs)
 
-recipes.addShaped(<botania:livingwood:5>, [[<botania:livingwood>, <minecraft:barrier>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<botania:livingwood:5>, [[<botania:livingwood>, <midnight:viridshroom_powder>, null],[null, null, null], [null, null, null]]);
 recipes.addShaped(<botania:terraplate>, [[<botania:storage>, <botania:storage>, <botania:storage>],[<botania:rune>, <astraladditions:block_starmetal>, <botania:rune:1>], [<botania:rune:2>, <botania:rune:8>, <botania:rune:3>]]);
-recipes.addShaped(<botania:pylon:2>, [[null, <botania:manaresource:8>, <minecraft:barrier>],[<moreplates:elementium_plate>, <botania:pylon>, <moreplates:elementium_plate>], [<minecraft:barrier>, <minecraft:barrier>, null]]);
+recipes.addShaped(<botania:pylon:2>, [[null, <botania:manaresource:8>, <midnight:nightshroom_powder>],[<moreplates:elementium_plate>, <botania:pylon>, <moreplates:elementium_plate>], [<midnight:nightshroom_powder>, <botania:manaresource:8>, null]]);
 recipes.addShaped(<botania:pylon:1>, [[null, <botania:manaresource:18>, null],[<divinerpg:terran_stone>, <botania:pylon>, <divinerpg:terran_stone>], [null, <minecraft:ender_eye>, null]]);
-recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <botanianeedsit:mana_capacitor_terrasteel>, <botania:livingwood>],[<botania:livingwood>, <minecraft:barrier>, <botania:livingwood>], [<botania:livingwood>, <minecraft:barrier>, <botania:livingwood>]]);
-recipes.addShaped(<botania:pylon>, [[null, <minecraft:barrier>, null],[<extrautils2:ingredients:11>, <botania:manaresource:2>, <extrautils2:ingredients:11>], [null, <minecraft:barrier>, null]]);
-recipes.addShaped(<botania:pool>, [[null, null, null],[<botania:livingrock>, <minecraft:barrier>, <botania:livingrock>], [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]]);
-recipes.addShaped(<botania:altar>, [[<minecraft:stone_slab:3>, <minecraft:barrier>, <minecraft:stone_slab:3>],[<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>], [<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>]]);
+recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <botanianeedsit:mana_capacitor_terrasteel>, <botania:livingwood>],[<botania:livingwood>, <midnight:viridshroom_powder>, <botania:livingwood>], [<botania:livingwood>, <moreplates:emerald_plate>, <botania:livingwood>]]);
+recipes.addShaped(<botania:pylon>, [[null, <industrialupgrade:itemplates:21>, null],[<extrautils2:ingredients:11>, <botania:manaresource:2>, <extrautils2:ingredients:11>], [null, <industrialupgrade:itemplates:21>, null]]);
+recipes.addShaped(<botania:pool>, [[null, null, null],[<botania:livingrock>, <midnight:rouxe>, <botania:livingrock>], [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]]);
 mods.botania.RuneAltar.addRecipe(<extrabotany:lens:6>, [<botania:lens>, <botania:lens:1>.withTag({}), <botania:lens:2>.withTag({}), <botania:lens:4>.withTag({}), <extrabotany:lens>.withTag({}), <extrabotany:lens:2>.withTag({}), <astralsorcery:itemcoloredlens:6>, <botania:manaresource:14>, <industrialupgrade:upgrade_speed_creation>, <contenttweaker:iridium_dense_alfheim>], 500000);
 mods.botania.RuneAltar.addRecipe(<contenttweaker:infinity_circuit>, [<contenttweaker:draconium_circuit>, <contenttweaker:awakened_draconium_circuit>, <contenttweaker:chaotic_circuit>, <contenttweaker:neutronium_circuit>, <contenttweaker:stellar_circuit>, <contenttweaker:eden_circuit>, <contenttweaker:wildwood_circuit>, <contenttweaker:apalachia_circuit>, <contenttweaker:skythern_circuit>, <contenttweaker:mortum_circuit>, <contenttweaker:arcana_circuit>, <industrialupgrade:circuit:11>, <genetics:misc:8>, <contenttweaker:ae2uel_processor_universal>, <avaritia:resource:4>, <threng:material:6>], 1000000);
 recipes.addShaped(<botania:spreader:3>, [[<botania:dreamwood:5>, <botania:dreamwood>, <botania:dreamwood>],[<botania:manaresource:5>, <botania:spreader:2>, <astralsorcery:itemcraftingcomponent:4>], [<botania:dreamwood:5>, <botania:dreamwood>, <botania:dreamwood>]]);
@@ -125,7 +123,7 @@ mods.botania.ManaInfusion.addConjuration(<taiga:palladium_ore>*2, <taiga:palladi
 
 //Rune Altar
 
-mods.botania.RuneAltar.addRecipe(<matc:inferiumcrystal>, [<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<industrialupgrade:preciousgem>,<avaritia:resource:1>,<enderio:item_material:14>,<botania:rune:5>,<minecraft:barrier>] , 125000);
+mods.botania.RuneAltar.addRecipe(<matc:inferiumcrystal>, [<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<industrialupgrade:preciousgem>,<avaritia:resource:1>,<enderio:item_material:14>,<botania:rune:5>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"})] , 125000);
 mods.botania.RuneAltar.addRecipe(<matc:prudentiumcrystal>, [<matc:inferiumcrystal>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<enderio:item_material:15>] , 250000);
 mods.botania.RuneAltar.addRecipe(<matc:intermediumcrystal>, [<matc:prudentiumcrystal>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<extrautils2:suncrystal>,<enderio:item_material:16>] , 500000);
 mods.botania.RuneAltar.addRecipe(<matc:superiumcrystal>, [<matc:intermediumcrystal>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<contenttweaker:iridescent_shimmering_honeycomb_crystal>] , 750000);

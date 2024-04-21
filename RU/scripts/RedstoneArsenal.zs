@@ -1,22 +1,33 @@
+import crafttweaker.item.IItemStack;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
+
+val itemsToRemove = [
+  <redstonearsenal:armor.helmet_flux>,
+  <redstonearsenal:armor.plate_flux>,
+  <redstonearsenal:armor.legs_flux>,
+  <redstonearsenal:armor.boots_flux>,
+  <redstonearsenal:tool.wrench_flux>,
+  <redstonearsenal:tool.pickaxe_flux>,
+  <redstonearsenal:tool.bow_flux>,
+  <redstonearsenal:tool.hammer_flux>,
+  <redstonearsenal:tool.battlewrench_flux>,
+  <redstonearsenal:material:224>,
+  <redstonearsenal:material:160>,
+  <redstonearsenal:tool.shield_flux>
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
+
 recipes.removeShaped(<redstonearsenal:material:96>, [[null, <redstonearsenal:material:32>, null],[<redstonearsenal:material:32>, null, <redstonearsenal:material:32>], [null, <redstonearsenal:material:32>, null]]);
-recipes.remove(<redstonearsenal:tool.shield_flux>);
 recipes.removeShaped(<redstonearsenal:material:160>, [[<ore:gemDiamond>, <ore:gemDiamond>, null],[<forge:bucketfilled>, null, null], [null, null, null]]);
 recipes.removeShaped(<redstonearsenal:material:160>, [[<minecraft:diamond>, <minecraft:diamond>, null],[<forge:bucketfilled>, null, null], [null, null, null]]);
-recipes.remove(<redstonearsenal:armor.helmet_flux>);
-recipes.remove(<redstonearsenal:armor.plate_flux>);
-recipes.remove(<redstonearsenal:armor.legs_flux>);
-recipes.remove(<redstonearsenal:armor.boots_flux>);
-recipes.remove(<redstonearsenal:tool.wrench_flux>);
-recipes.remove(<redstonearsenal:tool.pickaxe_flux>);
-recipes.remove(<redstonearsenal:tool.bow_flux>);
-recipes.remove(<redstonearsenal:tool.hammer_flux>);
-recipes.remove(<redstonearsenal:tool.battlewrench_flux>);
-recipes.remove(<redstonearsenal:material:224>);
-recipes.remove(<redstonearsenal:material:160>);
+
 
 
 

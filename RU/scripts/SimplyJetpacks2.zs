@@ -1,20 +1,32 @@
+import crafttweaker.item.IItemStack;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
-recipes.remove(<simplyjetpacks:itemjetpack:1>);
-recipes.remove(<simplyjetpacks:itemjetpack:2>);
-recipes.remove(<simplyjetpacks:itemjetpack:3>);
-recipes.remove(<simplyjetpacks:itemjetpack:7>);
-recipes.remove(<simplyjetpacks:itemjetpack:16>);
-recipes.remove(<simplyjetpacks:itemjetpack:8>);
-recipes.remove(<simplyjetpacks:itemjetpack:9>);
-recipes.remove(<simplyjetpacks:itemjetpack:10>);
-recipes.remove(<simplyjetpacks:itemjetpack:17>);
-recipes.remove(<simplyjetpacks:itemjetpack:18>);
-recipes.remove(<simplyjetpacks:itemjetpack:19>);
-recipes.remove(<simplyjetpacks:metaitemmods:24>);
-recipes.remove(<simplyjetpacks:itemjetpack:24>);
+val itemsToRemove = [
+  <simplyjetpacks:itemjetpack:1>,
+  <simplyjetpacks:itemjetpack:2>,
+  <simplyjetpacks:itemjetpack:3>,
+  <simplyjetpacks:itemjetpack:7>,
+  <simplyjetpacks:itemjetpack:16>,
+  <simplyjetpacks:itemjetpack:8>,
+  <simplyjetpacks:itemjetpack:9>,
+  <simplyjetpacks:itemjetpack:10>,
+  <simplyjetpacks:itemjetpack:17>,
+  <simplyjetpacks:itemjetpack:18>,
+  <simplyjetpacks:itemjetpack:19>,
+  <simplyjetpacks:metaitemmods:24>,
+  <simplyjetpacks:itemjetpack:24>,
+  <simplyjetpacks:metaitemmods>,
+  <simplyjetpacks:metaitemmods:1>,
+  <simplyjetpacks:metaitemmods:2>,
+  <simplyjetpacks:metaitemmods:24>
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
 recipes.removeShaped(<simplyjetpacks:itemjetpack:19>, [[<thermalfoundation:material:167>, <thermalexpansion:capacitor:4>, <thermalfoundation:material:167>],[<thermalfoundation:material:167>, <simplyjetpacks:itemjetpack:18>, <thermalfoundation:material:167>], [<simplyjetpacks:metaitemmods:23>, null, <simplyjetpacks:metaitemmods:23>]]);
 recipes.removeShaped(<simplyjetpacks:itemjetpack:18>, [[<thermalfoundation:material:161>, <thermalexpansion:capacitor:2>, <thermalfoundation:material:161>],[<thermalfoundation:material:161>, <simplyjetpacks:itemjetpack:17>, <thermalfoundation:material:161>], [<simplyjetpacks:metaitemmods:22>, null, <simplyjetpacks:metaitemmods:22>]]);
 recipes.removeShaped(<simplyjetpacks:itemjetpack:17>, [[<thermalfoundation:material:162>, <thermalexpansion:capacitor:1>, <thermalfoundation:material:162>],[<thermalfoundation:material:162>, <simplyjetpacks:itemjetpack:16>, <thermalfoundation:material:162>], [<simplyjetpacks:metaitemmods:21>, null, <simplyjetpacks:metaitemmods:21>]]);
@@ -26,10 +38,7 @@ recipes.removeShaped(<simplyjetpacks:itemjetpack:7>, [[<enderio:item_alloy_ingot
 recipes.removeShaped(<simplyjetpacks:itemjetpack:3>, [[<minecraft:diamond>, <minecraft:redstone_block>, <minecraft:diamond>],[<minecraft:diamond>, <simplyjetpacks:itemjetpack:2>, <minecraft:diamond>], [<simplyjetpacks:metaitemmods:2>, null, <simplyjetpacks:metaitemmods:2>]]);
 recipes.removeShaped(<simplyjetpacks:itemjetpack:2>, [[<minecraft:gold_ingot>, <minecraft:redstone_block>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, <simplyjetpacks:itemjetpack:1>, <minecraft:gold_ingot>], [<simplyjetpacks:metaitemmods:1>, null, <simplyjetpacks:metaitemmods:1>]]);
 recipes.removeShaped(<simplyjetpacks:itemjetpack:1>, [[<minecraft:iron_ingot>, <minecraft:comparator>, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <simplyjetpacks:metaitem:4>, <minecraft:iron_ingot>], [<simplyjetpacks:metaitemmods>, null, <simplyjetpacks:metaitemmods>]]);
-recipes.remove(<simplyjetpacks:metaitemmods>);
-recipes.remove(<simplyjetpacks:metaitemmods:1>);
-recipes.remove(<simplyjetpacks:metaitemmods:2>);
-recipes.remove(<simplyjetpacks:metaitemmods:24>);
+
 mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:25>);
 
 

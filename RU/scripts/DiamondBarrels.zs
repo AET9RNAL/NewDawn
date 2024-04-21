@@ -5,5 +5,5 @@
 recipes.remove(<diamondbarrels:obsidian_barrel>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<diamondbarrels:obsidian_barrel>, [[<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>],[<minecraft:barrier>, <diamondbarrels:diamond_barrel>, <minecraft:barrier>], [<minecraft:barrier>, <minecraft:barrier>, <minecraft:barrier>]]);
+recipes.addShaped(<diamondbarrels:obsidian_barrel>, [[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>],[<ore:plateObsidian>, <diamondbarrels:diamond_barrel>, <ore:plateObsidian>], [<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]]);
 //File End
