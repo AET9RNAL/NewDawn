@@ -1,0 +1,16 @@
+{
+	x: -27.0d,
+	y: -0.5d,
+	shape: "diamond",
+	dependencies: [
+		"6e1017b8"
+	],
+	tasks: [{
+		uid: "43f53d29",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item"
+		}],
+		count: 48L
+	}]
+}

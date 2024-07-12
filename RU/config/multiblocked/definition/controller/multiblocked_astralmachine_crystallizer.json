@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "location": "multiblocked:astralmachine_crystallizer",
+  "traits": {
+    "background": "multiblocked:textures/as_gui_crystallizer.png",
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 12,
+      "y": 103,
+      "width": 7,
+      "height": 34,
+      "texture": "multiblocked:textures/as_progress_bar_1.png",
+      "fillDirection": 3
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 80,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 79,
+        "y": 38,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"astralsorcery:blockcustomore\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"astralsorcery:blockcustomore\\\",Count:1,Damage:1s}\""
+        ]
+      }
+    ],
+    "starlight_as": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 21,
+      "width": 11,
+      "height": 63,
+      "texture": "multiblocked:textures/starlight_progress_bar.png",
+      "fillDirection": 3,
+      "capacity": 2000000,
+      "passiveStarlight": false
+    },
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "INF",
+        "x": 79,
+        "y": 120,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 150,
+      "width": 10,
+      "height": 15,
+      "texture": "multiblocked:textures/rf_charge_bar.png",
+      "fillDirection": 3,
+      "capacity": 4000000,
+      "maxReceive": 8000,
+      "maxExtract": 8000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:astralmachine_celestial_crystallizer",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Astralmachine_crystallizer",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "multiblocked:astralmachine_crystallizer",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

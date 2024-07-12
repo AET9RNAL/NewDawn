@@ -1,0 +1,15 @@
+{
+	x: -14.5d,
+	y: 27.5d,
+	shape: "square",
+	dependencies: [
+		"a272925b"
+	],
+	tasks: [{
+		uid: "157f873f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:entitymodules 1 1"
+		}]
+	}]
+}

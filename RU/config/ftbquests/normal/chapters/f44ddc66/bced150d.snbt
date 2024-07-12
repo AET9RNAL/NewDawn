@@ -1,0 +1,41 @@
+{
+	x: -20.5d,
+	y: 5.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "f7289b08",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 78s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "318c7557",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "4ee466f8",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 16
+	},
+	{
+		uid: "a765e55d",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 219"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 24.0d,
+	y: 11.5d,
+	shape: "square",
+	dependencies: [
+		"29fd6ef0"
+	],
+	tasks: [{
+		uid: "0b1bdc22",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rod_quantum"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 31.5d,
+	y: 11.5d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"b4c79b88"
+	],
+	tasks: [{
+		uid: "8f306129",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spectral_shield"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -23.5d,
+	shape: "diamond",
+	dependencies: [
+		"ea3df782",
+		"4d543ebf"
+	],
+	tasks: [{
+		uid: "2a0cfbeb",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_compressiridium",
+			tag: {
+				damage: 144000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

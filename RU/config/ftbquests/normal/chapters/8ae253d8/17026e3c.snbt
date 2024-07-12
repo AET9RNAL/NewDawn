@@ -1,0 +1,13 @@
+{
+	x: -17.5d,
+	y: -21.0d,
+	shape: "diamond",
+	tasks: [{
+		uid: "af631e86",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:avaritiagenerator 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

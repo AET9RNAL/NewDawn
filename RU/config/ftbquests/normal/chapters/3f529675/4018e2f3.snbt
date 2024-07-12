@@ -8,14 +8,14 @@
 		uid: "75b879ed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "gendustry:industrial_scoop",
+			Damage: 100s,
 			tag: {
 				charge: 0
 			},
-			Damage: 100s
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -25,10 +25,10 @@
 		type: "item",
 		items: [{
 			id: "gendustry:industrial_grafter",
+			Damage: 100s,
 			tag: {
 				charge: 0
-			},
-			Damage: 100s
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

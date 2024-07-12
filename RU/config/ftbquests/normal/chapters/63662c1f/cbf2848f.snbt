@@ -8,13 +8,13 @@
 		uid: "70fab928",
 		type: "item",
 		items: [{
+			id: "draconicevolution:draconic_pick",
 			ForgeCaps: {
 				Parent: {
 					Size: 18,
 					Items: []
 				}
-			},
-			id: "draconicevolution:draconic_pick"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

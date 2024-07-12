@@ -1,0 +1,16 @@
+{
+	x: 16.0d,
+	y: 7.0d,
+	shape: "square",
+	dependencies: [
+		"ed6ddee4"
+	],
+	tasks: [{
+		uid: "ef943b5a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:compresscarbon"
+		}],
+		count: 16L
+	}]
+}

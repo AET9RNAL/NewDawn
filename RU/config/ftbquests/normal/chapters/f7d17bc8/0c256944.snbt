@@ -8,11 +8,11 @@
 		uid: "7bae240a",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:storage_cell_256mb",
+			tag: {},
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "appliedenergistics2:storage_cell_256mb",
-			tag: {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

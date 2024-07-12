@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: -9.0d,
-	shape: "gear",
+	shape: "diamond",
 	text: [
 		"Карьер, добывающий руды при помощи эффективного использования силы созвездия Mineralis. Ваш первый продвинутый, автоматический",
 		"способ добычи ресурсов."
@@ -11,10 +11,10 @@
 	],
 	size: 2.0d,
 	tasks: [{
-		uid: "ee77190f",
+		uid: "4adb1ba2",
 		type: "item",
 		items: [{
-			item: "multiblocked:astral_quarry"
+			item: "astralsorcery:astralmachine_astral_quarry"
 		}]
 	}],
 	rewards: [{

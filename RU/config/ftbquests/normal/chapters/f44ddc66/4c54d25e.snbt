@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 15.0d,
+	shape: "square",
+	dependencies: [
+		"b4c79b88"
+	],
+	tasks: [{
+		uid: "c02ee873",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:itembatlamacrystal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

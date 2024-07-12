@@ -1,0 +1,22 @@
+{
+	x: 8.7093537414966d,
+	y: -15.011734693877564d,
+	shape: "diamond",
+	dependencies: [
+		"ba40a692",
+		"2141c58b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4e7d1e62",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:ultramarinerotor",
+			tag: {
+				damage: 1769472000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

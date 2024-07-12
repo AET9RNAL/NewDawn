@@ -1,0 +1,12 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "dd1cce42",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:excitednucleus"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -31.87585034013609d,
+	y: 0.023809523809518396d,
+	shape: "diamond",
+	dependencies: [
+		"ca997a72"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2e4af031",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 10"
+		}],
+		count: 3L
+	}]
+}

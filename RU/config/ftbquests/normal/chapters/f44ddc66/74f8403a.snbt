@@ -1,0 +1,21 @@
+{
+	x: 24.5d,
+	y: 14.0d,
+	shape: "diamond",
+	dependencies: [
+		"8d9c0468",
+		"3de0dbf6"
+	],
+	tasks: [{
+		uid: "b520863e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantumaxe",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

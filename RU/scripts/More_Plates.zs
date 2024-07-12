@@ -3,60 +3,6 @@
 //#Remove
 //MorePlates Gear removal
 //recipes.remove(XXX);
-val gearRecipes = [
-  [<moreplates:supremium_gear>, [[null, <mysticalagriculture:crafting:37>, null],[<mysticalagriculture:crafting:37>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:37>], [null, <mysticalagriculture:crafting:37>, null]]],
-  [<moreplates:superium_gear>, [[null, <mysticalagriculture:crafting:36>, null],[<mysticalagriculture:crafting:36>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:36>], [null, <mysticalagriculture:crafting:36>, null]]],
-  [<moreplates:soulium_gear>, [[null, <mysticalagriculture:crafting:38>, null],[<mysticalagriculture:crafting:38>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:38>], [null, <mysticalagriculture:crafting:38>, null]]],
-  [<moreplates:prudentium_gear>, [[null, <mysticalagriculture:crafting:34>, null],[<mysticalagriculture:crafting:34>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:34>], [null, <mysticalagriculture:crafting:34>, null]]],
-  [<moreplates:intermedium_gear>, [[null, <mysticalagriculture:crafting:35>, null],[<mysticalagriculture:crafting:35>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:35>], [null, <mysticalagriculture:crafting:35>, null]]],
-  [<moreplates:inferium_gear>, [[null, <mysticalagriculture:crafting:33>, null],[<mysticalagriculture:crafting:33>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:33>], [null, <mysticalagriculture:crafting:33>, null]]],
-  [<moreplates:insanium_gear>, [[null, <mysticalagradditions:insanium:2>, null],[<mysticalagradditions:insanium:2>, <minecraft:iron_ingot>, <mysticalagradditions:insanium:2>], [null, <mysticalagradditions:insanium:2>, null]]],
-  [<moreplates:nether_quartz_gear>, [[null, <minecraft:quartz>, null],[<minecraft:quartz>, <minecraft:iron_ingot>, <minecraft:quartz>], [null, <minecraft:quartz>, null]]],
-  [<moreplates:lapis_lazuli_gear>, [[null, <minecraft:dye:4>, null],[<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>], [null, <minecraft:dye:4>, null]]],
-  [<moreplates:glowstone_gear>, [[null, <minecraft:glowstone_dust>, null],[<minecraft:glowstone_dust>, <minecraft:iron_ingot>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]],
-  [<moreplates:coal_gear>, [[null, <minecraft:coal>, null],[<minecraft:coal>, <minecraft:iron_ingot>, <minecraft:coal>], [null, <minecraft:coal>, null]]],
-  [<moreplates:silicon_gear>, [[null, <appliedenergistics2:material:5>, null],[<appliedenergistics2:material:5>, <minecraft:iron_ingot>, <appliedenergistics2:material:5>], [null, <appliedenergistics2:material:5>, null]]],
-[<moreplates:evil_infused_iron_gear>, [[null, <extrautils2:ingredients:17>, null],[<extrautils2:ingredients:17>, <minecraft:iron_ingot>, <extrautils2:ingredients:17>], [null, <extrautils2:ingredients:17>, null]]],
-[<moreplates:enchanted_gear>, [[null, <extrautils2:ingredients:12>, null],[<extrautils2:ingredients:12>, <minecraft:iron_ingot>, <extrautils2:ingredients:12>], [null, <extrautils2:ingredients:12>, null]]],
-[<moreplates:demon_gear>, [[null, <extrautils2:ingredients:11>, null],[<extrautils2:ingredients:11>, <minecraft:iron_ingot>, <extrautils2:ingredients:11>], [null, <extrautils2:ingredients:11>, null]]],
-[<moreplates:vivid_alloy_gear>, [[null, <enderio:item_alloy_endergy_ingot:6>, null],[<enderio:item_alloy_endergy_ingot:6>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:6>], [null, <enderio:item_alloy_endergy_ingot:6>, null]]],
-[<moreplates:stellar_alloy_gear>, [[null, <enderio:item_alloy_endergy_ingot:3>, null],[<enderio:item_alloy_endergy_ingot:3>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:3>], [null, <enderio:item_alloy_endergy_ingot:3>, null]]],
-[<moreplates:melodic_alloy_gear>, [[null, <enderio:item_alloy_endergy_ingot:2>, null],[<enderio:item_alloy_endergy_ingot:2>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:2>], [null, <enderio:item_alloy_endergy_ingot:2>, null]]],
-[<moreplates:energetic_silver_gear>, [[null, <enderio:item_alloy_endergy_ingot:5>, null],[<enderio:item_alloy_endergy_ingot:5>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:5>], [null, <enderio:item_alloy_endergy_ingot:5>, null]]],
-[<moreplates:crystalline_pink_slime_gear>, [[null, <enderio:item_alloy_endergy_ingot:4>, null],[<enderio:item_alloy_endergy_ingot:4>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:4>], [null, <enderio:item_alloy_endergy_ingot:4>, null]]],
-[<moreplates:crystalline_alloy_gear>, [[null, <enderio:item_alloy_endergy_ingot:1>, null],[<enderio:item_alloy_endergy_ingot:1>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot:1>], [null, <enderio:item_alloy_endergy_ingot:1>, null]]],
-[<moreplates:crude_steel_gear>, [[null, <enderio:item_alloy_endergy_ingot>, null],[<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, <enderio:item_alloy_endergy_ingot>], [null, <enderio:item_alloy_endergy_ingot>, null]]],
-[<moreplates:vibrant_alloy_gear>, [[null, <enderio:item_alloy_ingot:2>, null],[<enderio:item_alloy_ingot:2>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:2>], [null, <enderio:item_alloy_ingot:2>, null]]],
-[<moreplates:soularium_gear>, [[null, <mysticalagriculture:crafting:38>, null],[<mysticalagriculture:crafting:38>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:38>], [null, <mysticalagriculture:crafting:38>, null]]],
-[<moreplates:redstone_alloy_gear>, [[null, <enderio:item_alloy_ingot:3>, null],[<enderio:item_alloy_ingot:3>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:3>], [null, <enderio:item_alloy_ingot:3>, null]]],
-[<moreplates:pulsating_iron_gear>, [[null, <enderio:item_alloy_ingot:5>, null],[<enderio:item_alloy_ingot:5>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:5>], [null, <enderio:item_alloy_ingot:5>, null]]],
-[<moreplates:iron_alloy_gear>, [[null, <enderio:item_alloy_ingot:9>, null],[<enderio:item_alloy_ingot:9>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:9>], [null, <enderio:item_alloy_ingot:9>, null]]],
-[<moreplates:energetic_alloy_gear>, [[null, <enderio:item_alloy_ingot:1>, null],[<enderio:item_alloy_ingot:1>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:1>], [null, <enderio:item_alloy_ingot:1>, null]]],
-[<moreplates:end_steel_gear>, [[null, <enderio:item_alloy_ingot:8>, null],[<enderio:item_alloy_ingot:8>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:8>], [null, <enderio:item_alloy_ingot:8>, null]]],
-[<moreplates:electrical_steel_gear>, [[null, <enderio:item_alloy_ingot>, null],[<enderio:item_alloy_ingot>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot>], [null, <enderio:item_alloy_ingot>, null]]],
-[<moreplates:dark_steel_gear>, [[null, <enderio:item_alloy_ingot:6>, null],[<enderio:item_alloy_ingot:6>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:6>], [null, <enderio:item_alloy_ingot:6>, null]]],
-[<moreplates:conductive_iron_gear>, [[null, <enderio:item_alloy_ingot:4>, null],[<enderio:item_alloy_ingot:4>, <minecraft:iron_ingot>, <enderio:item_alloy_ingot:4>], [null, <enderio:item_alloy_ingot:4>, null]]],
-[<moreplates:draconium_gear>, [[null, <draconicevolution:draconium_ingot>, null],[<draconicevolution:draconium_ingot>, <minecraft:iron_ingot>, <draconicevolution:draconium_ingot>], [null, <draconicevolution:draconium_ingot>, null]]],
-[<moreplates:awakened_draconium_gear>, [[null, <draconicevolution:draconic_ingot>, null],[<draconicevolution:draconic_ingot>, <minecraft:iron_ingot>, <draconicevolution:draconic_ingot>], [null, <draconicevolution:draconic_ingot>, null]]],
-[<moreplates:terrasteel_gear>, [[null, <botania:manaresource:4>, null],[<botania:manaresource:4>, <minecraft:iron_ingot>, <botania:manaresource:4>], [null, <botania:manaresource:4>, null]]],
-[<moreplates:manasteel_gear>, [[null, <botania:manaresource>, null],[<botania:manaresource>, <minecraft:iron_ingot>, <botania:manaresource>], [null, <botania:manaresource>, null]]],
-[<moreplates:gaia_spirit_gear>, [[null, <botania:manaresource:14>, null],[<botania:manaresource:14>, <minecraft:iron_ingot>, <botania:manaresource:14>], [null, <botania:manaresource:14>, null]]],
-[<moreplates:elementium_gear>, [[null, <botania:manaresource:7>, null],[<botania:manaresource:7>, <minecraft:iron_ingot>, <botania:manaresource:7>], [null, <botania:manaresource:7>, null]]],
-[<moreplates:neutronium_gear>, [[null, <avaritia:resource:4>, null],[<avaritia:resource:4>, <minecraft:iron_ingot>, <avaritia:resource:4>], [null, <avaritia:resource:4>, null]]],
-[<moreplates:infinity_gear>, [[null, <avaritia:resource:6>, null],[<avaritia:resource:6>, <minecraft:iron_ingot>, <avaritia:resource:6>], [null, <avaritia:resource:6>, null]]],
-[<moreplates:crystal_matrix_gear>, [[null, <avaritia:resource:1>, null],[<avaritia:resource:1>, <minecraft:iron_ingot>, <avaritia:resource:1>], [null, <avaritia:resource:1>, null]]],
-[<moreplates:fluix_gear>, [[null, <appliedenergistics2:material:12>, null],[<appliedenergistics2:material:12>, <minecraft:iron_ingot>, <appliedenergistics2:material:12>], [null, <appliedenergistics2:material:12>, null]]],
-[<moreplates:fluix_gear>, [[null, <appliedenergistics2:material:7>, null],[<appliedenergistics2:material:7>, <minecraft:iron_ingot>, <appliedenergistics2:material:7>], [null, <appliedenergistics2:material:7>, null]]],
-[<moreplates:certus_quartz_gear>, [[null, <appliedenergistics2:material:10>, null],[<appliedenergistics2:material:10>, <minecraft:iron_ingot>, <appliedenergistics2:material:10>], [null, <appliedenergistics2:material:10>, null]]],
-[<moreplates:certus_quartz_gear>, [[null, <appliedenergistics2:material>, null],[<appliedenergistics2:material>, <minecraft:iron_ingot>, <appliedenergistics2:material>], [null, <appliedenergistics2:material>, null]]],
-
-];
-
-for recipe in gearRecipes {
-  recipes.removeShaped(recipe[0], recipe[1]);
-}
-
-
 
 recipes.removeShaped(<moreplates:supremium_gear>, [[null, <mysticalagriculture:crafting:37>, null],[<mysticalagriculture:crafting:37>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:37>], [null, <mysticalagriculture:crafting:37>, null]]);
 recipes.removeShaped(<moreplates:superium_gear>, [[null, <mysticalagriculture:crafting:36>, null],[<mysticalagriculture:crafting:36>, <minecraft:iron_ingot>, <mysticalagriculture:crafting:36>], [null, <mysticalagriculture:crafting:36>, null]]);

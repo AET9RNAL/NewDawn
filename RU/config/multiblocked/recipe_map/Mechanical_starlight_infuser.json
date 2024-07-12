@@ -23,12 +23,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -64,12 +58,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -107,12 +95,6 @@
             "chance": 1.0,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -148,12 +130,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -191,12 +167,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -232,12 +202,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -275,12 +239,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -314,14 +272,8 @@
         ],
         "fluid": [
           {
-            "chance": 1.0,
+            "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -359,12 +311,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -400,12 +346,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -443,12 +383,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -484,12 +418,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -527,12 +455,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -568,12 +490,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -611,12 +527,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -652,12 +562,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -695,12 +599,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -734,14 +632,8 @@
         ],
         "fluid": [
           {
-            "chance": 1.0,
+            "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -779,12 +671,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -818,14 +704,8 @@
         ],
         "fluid": [
           {
-            "chance": 1.0,
+            "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -863,12 +743,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -904,12 +778,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -947,12 +815,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -988,12 +850,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1031,12 +887,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1072,12 +922,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1115,12 +959,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1156,12 +994,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1199,12 +1031,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1240,12 +1066,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1283,12 +1103,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1324,12 +1138,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1367,12 +1175,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1408,12 +1210,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1451,12 +1247,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1490,12 +1280,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -1533,12 +1317,6 @@
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
           }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
-          }
         ]
       },
       "outputs": {
@@ -1574,12 +1352,6 @@
           {
             "chance": 0.3,
             "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },

@@ -32,16 +32,7 @@
 		count: 5
 	},
 	{
-		item: "rftools:machine_base",
-		count: 3
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "industrialupgrade:treetap"
-		}
+		item: "industrialupgrade:treetap"
 	},
 	{
 		item: "minecraft:clock"
@@ -64,14 +55,85 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 23"
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 17",
+		count: 6
+	},
+	{
+		item: "industrialupgrade:cable_iu_item 1 12",
+		count: 12
+	},
+	{
+		item: "industrialupgrade:forge_hammer"
+	},
+	{
+		item: "industrialupgrade:single_use_battery",
+		count: 16
+	},
+	{
+		item: "mekanism:controlcircuit",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:circuit 1 15",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 42",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 294",
+		count: 3
+	},
+	{
+		item: "thermalexpansion:augment 1 128"
+	},
+	{
+		item: "avaritia:resource 1 1"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 4
+	},
+	{
+		item: "mekanism:enrichedalloy",
+		count: 5
+	},
+	{
+		item: "minecraft:gold_ore",
+		count: 10
+	},
+	{
+		item: "industrialupgrade:circuit 1 16",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:blockresource 1 4",
+		count: 2
+	},
+	{
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		item: "mekanism:basicblock 1 8"
 	}],
 	loot_crate: {
 		string_id: "uncommon_crate",
 		color: 2600544,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

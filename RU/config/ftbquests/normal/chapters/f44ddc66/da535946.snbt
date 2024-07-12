@@ -1,0 +1,34 @@
+{
+	x: -20.5d,
+	y: 17.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "f6969c29",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine2",
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "c607d4af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "d50a7b57",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 132"
+	}]
+}

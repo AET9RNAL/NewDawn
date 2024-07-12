@@ -8,13 +8,13 @@
 		uid: "b3bc0569",
 		type: "item",
 		items: [{
+			id: "draconicevolution:draconic_axe",
 			ForgeCaps: {
 				Parent: {
 					Size: 18,
 					Items: []
 				}
-			},
-			id: "draconicevolution:draconic_axe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

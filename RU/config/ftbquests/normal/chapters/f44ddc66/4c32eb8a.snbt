@@ -1,0 +1,21 @@
+{
+	x: 31.5d,
+	y: 6.5d,
+	shape: "diamond",
+	dependencies: [
+		"a7df0310",
+		"43265f99"
+	],
+	tasks: [{
+		uid: "506fc8e2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

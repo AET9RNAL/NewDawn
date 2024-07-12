@@ -1,0 +1,17 @@
+{
+	x: -2.4d,
+	y: 17.6d,
+	shape: "square",
+	dependencies: [
+		"ed67c045"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "b1e306ba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_dense_chaotic"
+		}],
+		count: 2L
+	}]
+}

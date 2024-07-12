@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -14.5d,
+	shape: "diamond",
+	dependencies: [
+		"2141c58b",
+		"4deea43d"
+	],
+	tasks: [{
+		uid: "b90052aa",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adronrotor",
+			tag: {
+				damage: 442368000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

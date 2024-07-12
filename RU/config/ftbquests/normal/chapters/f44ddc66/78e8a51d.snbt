@@ -1,0 +1,18 @@
+{
+	x: -17.0d,
+	y: -6.5d,
+	shape: "diamond",
+	dependencies: [
+		"1e3da71e"
+	],
+	tasks: [{
+		uid: "eea9f710",
+		type: "item",
+		items: [{
+			id: "simplyquarries:simplyquarries",
+			Damage: 1s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

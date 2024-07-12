@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -7.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ab2e83f8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1ee73930",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:admpanel",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

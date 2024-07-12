@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "location": "botania:manamachine_mana_liquefier",
+  "traits": {
+    "background": "multiblocked:textures/gui_liquefier.png",
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 45,
+      "y": 87,
+      "width": 15,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 32000000,
+      "allowSpark": true
+    },
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT_LIQ",
+        "x": 115,
+        "y": 86,
+        "autoIO": false,
+        "tC": 16000,
+        "w": 18,
+        "h": 39,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ],
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_UPGRADE",
+        "x": 151,
+        "y": 7,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:upgrade_x1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x9\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x16\\\",Count:1,Damage:0s}\""
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:manamchine_mana_liquefier",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mana_liquifier",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "botania:manamachine_mana_liquefier",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

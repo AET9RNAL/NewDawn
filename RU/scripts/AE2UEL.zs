@@ -1,109 +1,149 @@
+import crafttweaker.item.IItemStack;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
-recipes.remove(<appliedenergistics2:grindstone>);
-recipes.remove(<appliedenergistics2:molecular_assembler>);
-recipes.remove(<appliedenergistics2:controller>);
-recipes.remove(<appliedenergistics2:molecular_assembler>);
-recipes.remove(<appliedenergistics2:material:54>);
-recipes.remove(<appliedenergistics2:material:55>);
-recipes.remove(<appliedenergistics2:material:56>);
-recipes.remove(<appliedenergistics2:material:57>);
-recipes.remove(<appliedenergistics2:material:35>);
-recipes.remove(<appliedenergistics2:material:36>);
-recipes.remove(<appliedenergistics2:material:37>);
-recipes.remove(<appliedenergistics2:material:38>);
-recipes.remove(<appliedenergistics2:crafting_storage_1k>);
-recipes.remove(<appliedenergistics2:crafting_storage_4k>);
-recipes.remove(<appliedenergistics2:crafting_storage_16k>);
-recipes.remove(<appliedenergistics2:crafting_storage_64k>);
-recipes.remove(<appliedenergistics2:crafting_monitor>);
-recipes.remove(<appliedenergistics2:crafting_accelerator>);
-recipes.remove(<appliedenergistics2:storage_cell_1k>);
-recipes.remove(<appliedenergistics2:storage_cell_4k>);
-recipes.remove(<appliedenergistics2:storage_cell_16k>);
-recipes.remove(<appliedenergistics2:storage_cell_64k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_1k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_4k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_16k>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_64k>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_2_cubed>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_16_cubed>);
-recipes.remove(<appliedenergistics2:spatial_storage_cell_128_cubed>);
+val itemsToRemove = [
+  <appliedenergistics2:grindstone>,
+  <appliedenergistics2:molecular_assembler>,
+  <appliedenergistics2:controller>,
+  <appliedenergistics2:molecular_assembler>,
+  <appliedenergistics2:material:54>,
+  <appliedenergistics2:material:55>,
+  <appliedenergistics2:material:56>,
+  <appliedenergistics2:material:57>,
+  <appliedenergistics2:material:35>,
+  <appliedenergistics2:material:36>,
+  <appliedenergistics2:material:37>,
+  <appliedenergistics2:material:38>,
+  <appliedenergistics2:crafting_storage_1k>,
+  <appliedenergistics2:crafting_storage_4k>,
+  <appliedenergistics2:crafting_storage_16k>,
+  <appliedenergistics2:crafting_storage_64k>,
+  <appliedenergistics2:crafting_monitor>,
+  <appliedenergistics2:crafting_accelerator>,
+  <appliedenergistics2:storage_cell_1k>,
+  <appliedenergistics2:storage_cell_4k>,
+  <appliedenergistics2:storage_cell_16k>,
+  <appliedenergistics2:storage_cell_64k>,
+  <appliedenergistics2:fluid_storage_cell_1k>,
+  <appliedenergistics2:fluid_storage_cell_4k>,
+  <appliedenergistics2:fluid_storage_cell_16k>,
+  <appliedenergistics2:fluid_storage_cell_64k>,
+  <appliedenergistics2:spatial_storage_cell_2_cubed>,
+  <appliedenergistics2:spatial_storage_cell_16_cubed>,
+  <appliedenergistics2:spatial_storage_cell_128_cubed>,
+  <appliedenergistics2:condenser>,
+  <appliedenergistics2:energy_acceptor>,
+  <appliedenergistics2:security_station>,
+  <appliedenergistics2:portable_cell>,
+  <appliedenergistics2:material:27>,
+  <appliedenergistics2:material:53>,
+  <appliedenergistics2:material:30>,
+  <appliedenergistics2:material:25>,
+  <appliedenergistics2:material:28>,
+  <appliedenergistics2:material:58>,
+  <appliedenergistics2:part:16>,
+  <appliedenergistics2:part:260>,
+  <appliedenergistics2:part:240>,
+  <appliedenergistics2:part:261>,
+  <appliedenergistics2:part:241>,
+  <appliedenergistics2:material:61>,
+  <appliedenergistics2:material:62>,
+  <appliedenergistics2:material:63>,
+  <appliedenergistics2:material:64>,
+  <appliedenergistics2:material:65>,
+  <appliedenergistics2:material:66>,
+  <appliedenergistics2:material:67>,
+  <appliedenergistics2:storage_cell_1mb>,
+  <appliedenergistics2:storage_cell_4mb>,
+  <appliedenergistics2:storage_cell_16mb>,
+  <appliedenergistics2:storage_cell_64mb>,
+  <appliedenergistics2:storage_cell_256mb>,
+  <appliedenergistics2:crafting_storage_1mb>,
+  <appliedenergistics2:crafting_storage_4mb>,
+  <appliedenergistics2:crafting_storage_16mb>,
+  <appliedenergistics2:crafting_storage_64mb>,
+  <appliedenergistics2:crafting_storage_256mb>,
+  <appliedenergistics2:crafting_storage_1gb>,
+  <appliedenergistics2:crafting_storage_15gb>,
+  <appliedenergistics2:material:68>,
+  <appliedenergistics2:material:69>,
+  <appliedenergistics2:material:70>,
+  <appliedenergistics2:fluid_storage_cell_1mb>,
+  <appliedenergistics2:fluid_storage_cell_4mb>,
+  <appliedenergistics2:fluid_storage_cell_16mb>,
+  <ae2stuff:grower>,
+  <appliedenergistics2:charger>,
+  <appliedenergistics2:wireless_access_point>,
+  <appliedenergistics2:improved_energy_cell>,
+  <appliedenergistics2:advanced_energy_cell>,
+  <appliedenergistics2:perfect_energy_cell>,
+  <appliedenergistics2:dense_energy_cell>,
+  <appliedenergistics2:crafting_accelerator_4x>,
+  <appliedenergistics2:crafting_accelerator_16x>,
+  <appliedenergistics2:crafting_accelerator_64x>,
+  <appliedenergistics2:crafting_accelerator_128x>,
+  <appliedenergistics2:crafting_accelerator_256x>,
+  <appliedenergistics2:crafting_accelerator_512x>,
+  <appliedenergistics2:crafting_accelerator_1024x>,
+  <appliedenergistics2:crafting_accelerator_creative>,
+  <appliedenergistics2:interfaceimp>,
+  <appliedenergistics2:interfaceadv>,
+  <appliedenergistics2:interfaceper>,
+  <appliedenergistics2:molecular_assemblerimp>,
+  <appliedenergistics2:part:557>,
+  <appliedenergistics2:part:556>,
+  <appliedenergistics2:part:558>,
+  <appliedenergistics2:part:555>,
+  <appliedenergistics2:spatial_io_port>,
+  <ae2stuff:inscriberper>,
+  <ae2stuff:inscriberadv>,
+  <ae2stuff:inscriberimp>,
+  <appliedenergistics2:quantum_ring>,
+  <appliedenergistics2:solar_panel_per>,
+  <appliedenergistics2:solar_panel_adv>,
+  <appliedenergistics2:solar_panel_imp>,
+  <appliedenergistics2:solar_panel_basic>,
+  <appliedenergistics2:quartz_growth_accelerator>,
+  <appliedenergistics2:io_portimp>,
+  <appliedenergistics2:io_port>,
+  <appliedenergistics2:cell_workbench>,
+  <appliedenergistics2:driveimp>
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
+
 recipes.removeShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:12>, null],[<appliedenergistics2:material:12>, null, null], [null, null, null]]);
 recipes.removeShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:7>, null],[<appliedenergistics2:material:7>, null, null], [null, null, null]]);
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
-recipes.remove(<appliedenergistics2:condenser>);
-recipes.remove(<appliedenergistics2:energy_acceptor>);
-recipes.remove(<appliedenergistics2:security_station>);
-recipes.remove(<appliedenergistics2:portable_cell>);
-recipes.remove(<appliedenergistics2:material:27>);
-recipes.remove(<appliedenergistics2:material:53>);
-recipes.remove(<appliedenergistics2:material:30>);
-recipes.remove(<appliedenergistics2:material:25>);
-recipes.remove(<appliedenergistics2:material:28>);
-recipes.remove(<appliedenergistics2:material:58>);
-recipes.remove(<appliedenergistics2:part:16>);
-recipes.remove(<appliedenergistics2:part:260>);
-recipes.remove(<appliedenergistics2:part:240>);
-recipes.remove(<appliedenergistics2:part:261>);
-recipes.remove(<appliedenergistics2:part:241>);
 
-recipes.remove(<appliedenergistics2:material:61>);
-recipes.remove(<appliedenergistics2:material:62>);
-recipes.remove(<appliedenergistics2:material:63>);
-recipes.remove(<appliedenergistics2:material:64>);
-recipes.remove(<appliedenergistics2:material:65>);
-recipes.remove(<appliedenergistics2:material:66>);
-recipes.remove(<appliedenergistics2:material:67>);
-recipes.remove(<appliedenergistics2:storage_cell_1mb>);
-recipes.remove(<appliedenergistics2:storage_cell_4mb>);
-recipes.remove(<appliedenergistics2:storage_cell_16mb>);
-recipes.remove(<appliedenergistics2:storage_cell_64mb>);
-recipes.remove(<appliedenergistics2:storage_cell_256mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_1mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_4mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_16mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_64mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_256mb>);
-recipes.remove(<appliedenergistics2:crafting_storage_1gb>);
-recipes.remove(<appliedenergistics2:crafting_storage_15gb>);
-recipes.remove(<appliedenergistics2:material:68>);
-recipes.remove(<appliedenergistics2:material:69>);
-recipes.remove(<appliedenergistics2:material:70>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_1mb>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_4mb>);
-recipes.remove(<appliedenergistics2:fluid_storage_cell_16mb>);
-recipes.remove(<ae2stuff:grower>);
-recipes.remove(<appliedenergistics2:charger>);
-recipes.remove(<appliedenergistics2:wireless_access_point>);
-recipes.remove(<appliedenergistics2:improved_energy_cell>);
-recipes.remove(<appliedenergistics2:advanced_energy_cell>);
-recipes.remove(<appliedenergistics2:perfect_energy_cell>);
-recipes.remove(<appliedenergistics2:dense_energy_cell>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_4x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_16x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_64x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_128x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_256x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_512x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_1024x>);
-recipes.remove(<appliedenergistics2:crafting_accelerator_creative>);
-
-recipes.remove(<appliedenergistics2:interfaceimp>);
-recipes.remove(<appliedenergistics2:interfaceadv>);
-recipes.remove(<appliedenergistics2:interfaceper>);
-recipes.remove(<appliedenergistics2:molecular_assemblerimp>);
-recipes.remove(<appliedenergistics2:part:557>);
-recipes.remove(<appliedenergistics2:part:556>);
-recipes.remove(<appliedenergistics2:part:558>);
-recipes.remove(<appliedenergistics2:part:555>);
-
-recipes.remove(<appliedenergistics2:spatial_io_port>);
-
-
-
+mods.jei.JEI.removeAndHide(<nae2:material:1>);
+mods.jei.JEI.removeAndHide(<nae2:material:2>);
+mods.jei.JEI.removeAndHide(<nae2:material:3>);
+mods.jei.JEI.removeAndHide(<nae2:material:4>);
+mods.jei.JEI.removeAndHide(<nae2:material:5>);
+mods.jei.JEI.removeAndHide(<nae2:material:6>);
+mods.jei.JEI.removeAndHide(<nae2:material:7>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_fluid_16384k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_fluid_256k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_16384k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_fluid_1024k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_4096k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_fluid_4096k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_256k>);
+mods.jei.JEI.removeAndHide(<nae2:material:8>);
+mods.jei.JEI.removeAndHide(<nae2:storage_cell_1024k>);
+mods.jei.JEI.removeAndHide(<nae2:coprocessor_64x>);
+mods.jei.JEI.removeAndHide(<nae2:coprocessor_4x>);
+mods.jei.JEI.removeAndHide(<nae2:storage_crafting_4096k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_crafting_1024k>);
+mods.jei.JEI.removeAndHide(<nae2:coprocessor_16x>);
+mods.jei.JEI.removeAndHide(<nae2:storage_crafting_16384k>);
+mods.jei.JEI.removeAndHide(<nae2:storage_crafting_256k>);
 
 
 //Don't touch me!
@@ -120,6 +160,20 @@ recipes.addShaped(<appliedenergistics2:wireless_access_point>, [[<industrialupgr
 recipes.addShaped(<contenttweaker:server_core>, [[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>],[<appliedenergistics2:part:76>, <appliedenergistics2:controller>, <appliedenergistics2:part:76>], [<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>]]);
 recipes.addShaped(<appliedenergistics2:interface>, [[null, null, null],[null, <appliedenergistics2:part:440>, null], [null, null, null]]);
 
+recipes.addShaped(<ae2stuff:inscriberper>, [[<ore:doubleplateDuralumin>, <appliedenergistics2:crafting_accelerator_16x>, <ore:doubleplateDuralumin>],[<mekanism:controlcircuit:3>, <ae2stuff:inscriberadv>, <ore:circuitUltimate>], [<ore:doubleplateDuralumin>, <contenttweaker:ae2uel_processor_universal>, <industrialupgrade:alloydoubleplate:8>]]);
+recipes.addShaped(<ae2stuff:inscriberadv>, [[<ore:plateElectrum>, <appliedenergistics2:crafting_accelerator_4x>, <ore:plateElectrum>],[<mekanism:controlcircuit:2>, <ae2stuff:inscriberimp>, <ore:circuitElite>], [<ore:plateElectrum>, <contenttweaker:ae2uel_processor_universal>, <industrialupgrade:itemplates:13>]]);
+recipes.addShaped(<ae2stuff:inscriberimp>, [[<ore:plateChromium>, <appliedenergistics2:crafting_accelerator>, <ore:plateChromium>],[<mekanism:controlcircuit:1>, <ae2stuff:inscriber>, <ore:circuitAdvanced>], [<ore:plateChromium>, <appliedenergistics2:material:24>, <industrialupgrade:itemplates:11>]]);
+recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<ore:plateIron>, <appliedenergistics2:material:22>, <ore:plateIron>],[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:76>], [<ore:plateIron>, <appliedenergistics2:material:22>, <ore:plateIron>]]);
+recipes.addShaped(<appliedenergistics2:solar_panel_per>, [[<mekanismecoenergistics:moresolarcell:7>, <appliedenergistics2:material:9>, <mekanismecoenergistics:moresolarcell:7>],[<appliedenergistics2:material:9>, <appliedenergistics2:solar_panel_adv>, <appliedenergistics2:material:9>], [<appliedenergistics2:solar_panel_adv>, <appliedenergistics2:material:61>, <appliedenergistics2:solar_panel_adv>]]);
+recipes.addShaped(<appliedenergistics2:solar_panel_adv>, [[<mekanismecoenergistics:moresolarcell>, <appliedenergistics2:material:9>, <mekanismecoenergistics:moresolarcell>],[<appliedenergistics2:material:9>, <appliedenergistics2:solar_panel_imp>, <appliedenergistics2:material:9>], [<appliedenergistics2:solar_panel_imp>, <appliedenergistics2:material:36>, <appliedenergistics2:solar_panel_imp>]]);
+recipes.addShaped(<appliedenergistics2:solar_panel_imp>, [[<mekanismgenerators:solarpanel>, <appliedenergistics2:material:9>, <mekanismgenerators:solarpanel>],[<appliedenergistics2:material:9>, <appliedenergistics2:solar_panel_basic>, <appliedenergistics2:material:9>], [<appliedenergistics2:solar_panel_basic>, <appliedenergistics2:material:35>, <appliedenergistics2:solar_panel_basic>]]);
+recipes.addShaped(<appliedenergistics2:solar_panel_basic>, [[<mekanismgenerators:solarpanel>, <appliedenergistics2:material:9>, <mekanismgenerators:solarpanel>],[<appliedenergistics2:material:24>, <enderio:block_simple_stirling_generator>, <appliedenergistics2:material:24>], [<appliedenergistics2:sky_stone_block>, <appliedenergistics2:paint_ball:20>, <appliedenergistics2:sky_stone_block>]]);
+recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:plateIron>, <appliedenergistics2:part:16>, <ore:plateIron>],[<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:plateIron>, <appliedenergistics2:part:16>, <ore:plateIron>]]);
+recipes.addShaped(<appliedenergistics2:io_portimp>, [[<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>],[<appliedenergistics2:drive>, <appliedenergistics2:drive>, <appliedenergistics2:drive>], [<ore:plateDenseIron>, <contenttweaker:ae2uel_processor_universal>, <ore:plateDenseIron>]]);
+recipes.addShaped(<appliedenergistics2:io_port>, [[<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>],[<appliedenergistics2:drive>, <enderio:item_me_conduit>, <appliedenergistics2:drive>], [<ore:plateIron>, <appliedenergistics2:material:22>, <ore:plateIron>]]);
+recipes.addShaped(<appliedenergistics2:cell_workbench>, [[<ore:wool>, <appliedenergistics2:material:23>, <ore:wool>],[<ore:plateIron>, <ore:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<appliedenergistics2:driveimp>, [[<industrialupgrade:itemdoubleplates:22>, <appliedenergistics2:drive>, <industrialupgrade:itemdoubleplates:22>],[<appliedenergistics2:material:24>, <mekanismecoenergistics:morecontrolcircuit:1>, <appliedenergistics2:material:24>], [<industrialupgrade:itemdoubleplates:22>, <appliedenergistics2:drive>, <industrialupgrade:itemdoubleplates:22>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>, <industrialupgrade:crafting_elements:16>, <appliedenergistics2:smooth_sky_stone_block>],[<industrialupgrade:circuit:7>, <contenttweaker:ae2uel_processor_universal>, <mekanism:atomicalloy>], [<appliedenergistics2:smooth_sky_stone_block>, <mekanismecoenergistics:morecontrolcircuit>, <appliedenergistics2:smooth_sky_stone_block>]]);
 
 
 

@@ -1,0 +1,20 @@
+{
+	x: 19.5d,
+	y: 13.5d,
+	shape: "diamond",
+	dependencies: [
+		"c4abed6c"
+	],
+	tasks: [{
+		uid: "95e46a2f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nanoshovel",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

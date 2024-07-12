@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "eee1f56c",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}]
+}

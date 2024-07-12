@@ -11,10 +11,10 @@
 		uid: "ba9e987f",
 		type: "item",
 		items: [{
+			id: "avaritia:infinity_bow",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "avaritia:infinity_bow"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "14ef45c7",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}]
+	}]
+}

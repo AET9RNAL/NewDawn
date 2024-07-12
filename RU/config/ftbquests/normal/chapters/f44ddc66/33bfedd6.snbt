@@ -1,0 +1,21 @@
+{
+	x: 26.5d,
+	y: 7.5d,
+	shape: "diamond",
+	dependencies: [
+		"d745f829",
+		"350df0f3"
+	],
+	tasks: [{
+		uid: "870f4772",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

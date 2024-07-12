@@ -26,13 +26,13 @@
 		uid: "c108f1ed",
 		type: "item",
 		items: [{
+			id: "draconicevolution:wyvern_shovel",
 			ForgeCaps: {
 				Parent: {
 					Size: 9,
 					Items: []
 				}
-			},
-			id: "draconicevolution:wyvern_shovel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

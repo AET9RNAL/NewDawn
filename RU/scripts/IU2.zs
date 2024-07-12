@@ -174,7 +174,7 @@ mods.industrialupgrade.CombMacerator.addRecipe(<taiga:tiberium_crystal>, <taiga:
 
 //AlloySmelter
 //mods.industrialupgrade.AlloySmelter.addRecipe(output, container, fill, temperature);
-mods.industrialupgrade.AlloySmelter.addRecipe(<thermalfoundation:material:163>*4, <thermalfoundation:material:129>, <thermalfoundation:material:128>*3, 950);
+
 mods.industrialupgrade.AlloySmelter.addRecipe(<taiga:nihilite_ingot>, <taiga:vibranium_ingot>, <taiga:solarium_ingot>, 4900);
 
 // MolecularTransformer
@@ -185,7 +185,7 @@ mods.industrialupgrade.MolecularTransformer.addRecipe(<draconicevolution:chaos_s
 
 //Compressor
 //mods.industrialupgrade.compressor.addRecipe(IItemstack, Ingridient);
-
+mods.industrialupgrade.compressor.addRecipe(<maia_draconic_edition:chaotic_plate>, <industrialupgrade:chaosingot>);
 
 
 //AdvAlloySmelter

@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"239a8f3f",
+		"5cdd2c4f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ba0b9cf5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:sintezator",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "c1eaaefa",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemingots 1 25"
+		}],
+		count: 16L
+	}]
+}

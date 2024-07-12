@@ -215,3 +215,18 @@ item.contenttweaker.voidweave_alloy_plate_dense.name=Dense Voidweave Plate
 item.contenttweaker.singularity_impulse.name=Impulse Singularity
 
 
+item.contenttweaker.upgrade_x1.name=Stack Upgrade x1
+item.contenttweaker.upgrade_x2.name=Stack Upgrade x2
+item.contenttweaker.upgrade_x3.name=Stack Upgrade x3
+item.contenttweaker.upgrade_x4.name=Stack Upgrade x4
+item.contenttweaker.upgrade_x9.name=Stack Upgrade x9
+item.contenttweaker.upgrade_x16.name=Stack Upgrade x16
+item.contenttweaker.upgrade_x64.name=Stack Upgrade x64
+
+item.contenttweaker.module_luck_x5.name=Module Luck x5
+item.contenttweaker.module_luck_x20.name=Module Luck x20
+item.contenttweaker.module_luck_x50.name=Module Luck x50
+
+item.contenttweaker.module_manapool_alchemy.name=Module "Alchemy"
+item.contenttweaker.module_manapool_conjuration.name=Module "Conjuraion"
+item.contenttweaker.module_manapool_dimensional.name=Module "Dimensional"

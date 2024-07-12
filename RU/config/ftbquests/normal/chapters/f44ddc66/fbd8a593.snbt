@@ -1,0 +1,16 @@
+{
+	x: 21.5d,
+	y: 11.5d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"29fd6ef0"
+	],
+	tasks: [{
+		uid: "f06ba39c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nano_shield"
+		}]
+	}]
+}

@@ -10,9 +10,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "appliedenergistics2:storage_cell_64k",
 			tag: {}
 		}
@@ -21,29 +18,13 @@
 		item: "extrabotany:quantummanabuffer"
 	},
 	{
-		item: "industrialupgrade:botaniapanel 1 1"
-	},
-	{
-		item: "enderio:block_solar_panel 1 4"
-	},
-	{
-		item: "solarflux:solar_panel_5"
-	},
-	{
 		item: "draconicevolution:magnet 1 1"
-	},
-	{
-		item: "draconicevolution:draconic_core",
-		count: 2
 	},
 	{
 		item: "draconicevolution:wyvern_core"
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:itembatlamacrystal",
 			tag: {
 				charge: 1.0E8d
@@ -65,26 +46,11 @@
 		item: "threng:machine 1 5"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "industrialupgrade:nanopickaxe",
-			tag: {
-				charge: 1000000.0d,
-				ID_Item: 2147483647
-			}
-		}
-	},
-	{
 		item: "thermalfoundation:material 1 1025",
 		count: 32
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "buildinggadgets:buildingtool",
 			tag: {
 				blockstate: {
@@ -95,9 +61,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "buildinggadgets:destructiontool",
 			tag: {
 				overlay: 1b,
@@ -126,9 +89,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:nano_helmet",
 			tag: {
 				ID_Item: 2147483647
@@ -137,9 +97,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:nano_chestplate",
 			tag: {
 				ID_Item: 2147483647
@@ -148,9 +105,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:nano_leggings",
 			tag: {
 				ID_Item: 2147483647
@@ -159,12 +113,97 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:nano_boots",
 			tag: {
 				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: "mekanismecoenergistics:ecogenerator 1 4"
+	},
+	{
+		item: "botaniverse:morepool 1 2"
+	},
+	{
+		item: {
+			id: "industrialupgrade:basemachine3",
+			Damage: 30s,
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:mektool",
+			tag: {
+				mekData: {
+					energyStored: 1.0E7d
+				}
+			}
+		}
+	},
+	{
+		item: "mekanismgenerators:reactor"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:perfect_energy_cell",
+			tag: {
+				internalCurrentPower: 1.28E7d,
+				internalMaxPower: 1.28E7d
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "mekanism:basicblock2",
+			Damage: 3s,
+			tag: {
+				tier: 3
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "industrialupgrade:draconicpanel",
+			tag: {}
+		}
+	},
+	{
+		item: "industrialupgrade:modules 1 17"
+	},
+	{
+		item: "industrialupgrade:modultype 1 4"
+	},
+	{
+		item: "industrialupgrade:module_quickly",
+		count: 8
+	},
+	{
+		item: {
+			id: "industrialupgrade:spectralpickaxe",
+			tag: {
+				charge: 5.0E7d,
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:spectral_bow",
+			tag: {
+				charge: 150000.0d,
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:per_lappack",
+			tag: {
+				charge: 1.0E8d
 			}
 		}
 	}],
@@ -173,9 +212,9 @@
 		color: 15844367,
 		glow: true,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

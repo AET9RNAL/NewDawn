@@ -5,10 +5,10 @@
 		uid: "3e32c156",
 		type: "item",
 		items: [{
+			id: "divinerpg:mysterious_clock",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "divinerpg:mysterious_clock"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

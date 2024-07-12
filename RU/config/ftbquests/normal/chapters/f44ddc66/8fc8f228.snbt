@@ -1,0 +1,19 @@
+{
+	x: 31.5d,
+	y: 14.5d,
+	shape: "diamond",
+	dependencies: [
+		"30c678b9"
+	],
+	tasks: [{
+		uid: "9e296812",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:katana",
+			Damage: 27s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

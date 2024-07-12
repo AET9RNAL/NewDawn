@@ -6,8 +6,7 @@ recipes.remove(<chickenchunks:chunk_loader>);
 recipes.remove(<chickenchunks:chunk_loader:1>);
 //Don't touch me!
 //#Add
-// Spot Loader
-recipes.remove(<chickenchunks:chunk_loader:1>);
+
 
 
 

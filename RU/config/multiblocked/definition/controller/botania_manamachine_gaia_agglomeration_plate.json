@@ -1,0 +1,172 @@
+{
+  "version": 2,
+  "location": "botania:manamachine_gaia_agglomeration_plate",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 59,
+      "y": 70,
+      "width": 56,
+      "height": 24,
+      "texture": "multiblocked:textures/gaia_agglo_progress_bar.png",
+      "fillDirection": 2
+    },
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 131,
+      "width": 14,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 64000000,
+      "allowSpark": true
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out",
+        "x": 78,
+        "y": 96,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "in",
+        "x": 78,
+        "y": 49,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"botania:manaresource\\\",Count:1,Damage:9s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "in",
+        "x": 105,
+        "y": 49,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"botania:manaresource\\\",Count:1,Damage:8s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "in",
+        "x": 51,
+        "y": 49,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"botania:manaresource\\\",Count:1,Damage:14s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "upgrade",
+        "x": 151,
+        "y": 7,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:upgrade_x1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x2\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x4\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x16\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x64\\\",Count:1,Damage:0s}\""
+        ]
+      }
+    ],
+    "background": "multiblocked:textures/gui_manamachine_agglomeration.png"
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:manamachine_gaia_agglomeration_plate",
+        "type": "imodel"
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.75,
+          1.0
+        ]
+      ]
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "manamachine_gaia_agglomeration",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "botania:manamachine_gaia_agglomeration_plate",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	x: -18.5d,
+	y: 6.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "88933019",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 10s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "35267ddd",
+		type: "item",
+		item: "industrialupgrade:coolpipes_iu_item 1 1",
+		count: 12
+	},
+	{
+		uid: "b25435b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "fe41af48",
+		type: "item",
+		item: "industrialupgrade:itemcell 1 20",
+		count: 12
+	}]
+}

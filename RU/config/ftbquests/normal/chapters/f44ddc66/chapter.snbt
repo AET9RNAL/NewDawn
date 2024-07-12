@@ -1,9 +1,9 @@
 {
 	title: "IU",
 	icon: {
-		id: "industrialupgrade:basemachine3",
-		tag: {},
-		Damage: 10s
+		id: "industrialupgrade:machines",
+		Damage: 12s,
+		tag: {}
 	},
 	description: [
 		"Новая Эра"

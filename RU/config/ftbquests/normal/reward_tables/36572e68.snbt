@@ -2,12 +2,6 @@
 	title: "Rare Crate",
 	loot_size: 1,
 	rewards: [{
-		item: "solarflux:efficiency_upgrade"
-	},
-	{
-		item: "solarflux:solar_panel_2"
-	},
-	{
 		item: "enderio:block_solar_panel"
 	},
 	{
@@ -18,9 +12,6 @@
 	},
 	{
 		item: "thermalfoundation:upgrade"
-	},
-	{
-		item: "twilightforest:fiery_ingot"
 	},
 	{
 		item: "thermaldynamics:duct_0 1 3"
@@ -42,9 +33,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "industrialupgrade:energy_crystal",
 			tag: {
 				charge: 1000000.0d
@@ -79,14 +67,69 @@
 	{
 		item: "industrialupgrade:circuit 1 2",
 		count: 4
+	},
+	{
+		item: "mekanismgenerators:solarpanel",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 273",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 92",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 72",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 23"
+	},
+	{
+		item: "industrialupgrade:se_iu_item",
+		count: 6
+	},
+	{
+		item: "mekanism:reinforcedalloy",
+		count: 8
+	},
+	{
+		item: "mekanism:controlcircuit 1 1",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:blockresource 1 9",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:baseblockingot 1 6",
+		count: 2
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		},
+		count: 4
+	},
+	{
+		item: "mekanism:tierinstaller 1 2"
+	},
+	{
+		item: "mekanism:basicblock2 1 1",
+		count: 5
 	}],
 	loot_crate: {
 		string_id: "rare_crate",
 		color: 2388387,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

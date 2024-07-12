@@ -1,6 +1,7 @@
 {
-	x: 3.0d,
-	y: 7.0d,
+	x: 3.5d,
+	y: 7.5d,
+	shape: "diamond",
 	dependencies: [
 		"0ad61a33"
 	],
@@ -8,11 +9,11 @@
 		uid: "c18de6ed",
 		type: "item",
 		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {},
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "appliedenergistics2:storage_cell_1k",
-			tag: {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,0 +1,13 @@
+{
+	x: 8.0d,
+	y: -0.5d,
+	shape: "diamond",
+	size: 2.0d,
+	tasks: [{
+		uid: "a02402de",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachine_starlight_fabricator"
+		}]
+	}]
+}

@@ -8,13 +8,13 @@
 		uid: "bed8049c",
 		type: "item",
 		items: [{
+			id: "draconicevolution:draconic_shovel",
 			ForgeCaps: {
 				Parent: {
 					Size: 18,
 					Items: []
 				}
-			},
-			id: "draconicevolution:draconic_shovel"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

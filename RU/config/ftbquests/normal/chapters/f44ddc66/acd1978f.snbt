@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -15.5d,
+	shape: "diamond",
+	dependencies: [
+		"b0ddf201",
+		"4b96053b"
+	],
+	tasks: [{
+		uid: "9b8919b0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:compressiridium",
+			tag: {
+				damage: 144000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

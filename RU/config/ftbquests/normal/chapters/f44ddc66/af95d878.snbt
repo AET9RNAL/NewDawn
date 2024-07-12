@@ -1,0 +1,29 @@
+{
+	x: -21.0d,
+	y: 11.0d,
+	shape: "diamond",
+	dependencies: [
+		"035264d7",
+		"bc5446a3"
+	],
+	tasks: [{
+		uid: "fc9c5b9b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine",
+			Damage: 3s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d050f73b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -12.5d,
+	y: 1.25d,
+	shape: "hexagon",
+	dependencies: [
+		"eba959d3",
+		"e32afed8",
+		"fa48dafb"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "c9f2be25",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 12s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5cf730a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "16e5a3b6",
+		type: "item",
+		auto: "disabled",
+		item: "taiga:solarium_block"
+	},
+	{
+		uid: "22d37277",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 4"
+	}]
+}

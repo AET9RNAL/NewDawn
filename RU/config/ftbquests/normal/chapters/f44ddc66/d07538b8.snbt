@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -15.5d,
+	shape: "diamond",
+	dependencies: [
+		"bd1d55d5",
+		"20216da8"
+	],
+	tasks: [{
+		uid: "4b409e0f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rotor_iron",
+			tag: {
+				damage: 57600
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

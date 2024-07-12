@@ -1,0 +1,16 @@
+{
+	x: -3.6d,
+	y: 6.4d,
+	shape: "square",
+	dependencies: [
+		"fb3239f1"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "27c62d38",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemsunnariumpanel 1 6"
+		}]
+	}]
+}

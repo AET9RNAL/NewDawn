@@ -1,0 +1,16 @@
+{
+	x: -3.2d,
+	y: 5.6d,
+	shape: "square",
+	dependencies: [
+		"fb3239f1"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "f6239407",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 388"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -13.0d,
+	y: -27.0d,
+	dependencies: [
+		"3eb3a9bc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "22526124",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:avaritiagenerator 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

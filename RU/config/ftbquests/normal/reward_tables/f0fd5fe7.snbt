@@ -25,12 +25,6 @@
 	},
 	{
 		item: {
-			ForgeCaps: {
-				Parent: {
-					Size: 27,
-					Items: []
-				}
-			},
 			id: "draconicevolution:draconic_staff_of_power",
 			tag: {
 				DEUpgrades: {
@@ -45,22 +39,10 @@
 		}
 	},
 	{
-		item: "randomthings:spectrecoil_genesis"
+		item: "genetics:geneticdatabase 1 1"
 	},
 	{
 		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "genetics:geneticdatabase",
-			Damage: 1s
-		}
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extrabotany:mastermanaring",
 			tag: {
 				mana: 2147483646
@@ -68,22 +50,33 @@
 		}
 	},
 	{
-		item: "solarflux:solar_panel_infinity"
-	},
-	{
 		item: "appliedenergistics2:creative_energy_cell"
 	},
 	{
 		item: "appliedenergistics2:material 1 66"
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 4,
+				mekData: {
+					energyStored: 1.7976931348623157E308d
+				}
+			}
+		}
+	},
+	{
+		item: "mekanismecoenergistics:avaritiagenerator 1 2"
 	}],
 	loot_crate: {
 		string_id: "relic_crate",
 		color: 8070172,
 		glow: true,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

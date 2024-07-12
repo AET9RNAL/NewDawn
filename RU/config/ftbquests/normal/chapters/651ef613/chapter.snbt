@@ -1,9 +1,6 @@
 {
 	title: "AstrallSorcery",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "astralsorcery:blockcelestialcollectorcrystal",
 		tag: {
 			astralsorcery: {
@@ -17,6 +14,9 @@
 				},
 				collectorType: 1
 			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	description: [

@@ -1,0 +1,22 @@
+{
+	x: 19.375d,
+	y: 16.875d,
+	dependencies: [
+		"5e06d9e6",
+		"8d9c0468",
+		"c5dcf929"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "e15fafe1",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nanodrill",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

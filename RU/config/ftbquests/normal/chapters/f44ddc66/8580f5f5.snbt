@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"71eb0ed5",
+		"74eb3bf8"
+	],
+	tasks: [{
+		uid: "c225944d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:daynight_solar_panel_glass 1 5"
+		}]
+	}]
+}

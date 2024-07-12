@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 14.0d,
+	shape: "diamond",
+	dependencies: [
+		"c4abed6c"
+	],
+	tasks: [{
+		uid: "786cd8fd",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nanoaxe",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

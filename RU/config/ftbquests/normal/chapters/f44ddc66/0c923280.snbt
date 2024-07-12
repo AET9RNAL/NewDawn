@@ -1,0 +1,20 @@
+{
+	x: 21.5d,
+	y: 9.5d,
+	shape: "diamond",
+	dependencies: [
+		"fbd8a593"
+	],
+	tasks: [{
+		uid: "89600230",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

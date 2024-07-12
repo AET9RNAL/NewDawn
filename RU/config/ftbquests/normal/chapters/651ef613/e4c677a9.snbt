@@ -1,6 +1,6 @@
 {
 	x: 0.5d,
-	y: -2.0d,
+	y: -1.5d,
 	dependencies: [
 		"ca42fa9a",
 		"edeea799"
@@ -9,11 +9,11 @@
 		uid: "ddcaffe6",
 		type: "item",
 		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 1s,
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:blockaltar",
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

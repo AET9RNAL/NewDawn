@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: -11.5d,
+	tasks: [{
+		uid: "edf2384a",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 2"
+		}]
+	}]
+}

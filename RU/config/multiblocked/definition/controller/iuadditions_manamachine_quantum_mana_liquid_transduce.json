@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "location": "iuadditions:manamachine_quantum_mana_liquid_transduce",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_LIQ",
+        "x": 78,
+        "y": 31,
+        "autoIO": false,
+        "tC": 1000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT_LIQ",
+        "x": 77,
+        "y": 114,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ],
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 121,
+      "width": 14,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 1000000,
+      "allowSpark": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:manamachine_quantum_mana_liquid_transducer",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "iuadditions:manamachine_quantum_mana_liquid_transduce",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

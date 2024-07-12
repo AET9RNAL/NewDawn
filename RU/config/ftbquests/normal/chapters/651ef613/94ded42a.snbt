@@ -1,6 +1,6 @@
 {
 	x: 0.0d,
-	y: 5.0d,
+	y: 4.0d,
 	dependencies: [
 		"75bf5a26"
 	],
@@ -8,10 +8,10 @@
 		uid: "05177856",
 		type: "item",
 		items: [{
+			id: "astralsorcery:itemjournal",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:itemjournal"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

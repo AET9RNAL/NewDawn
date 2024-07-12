@@ -1,0 +1,22 @@
+{
+	x: 24.0d,
+	y: 17.0d,
+	dependencies: [
+		"ec37f10f",
+		"74f8403a",
+		"7ddc42c7"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "9c26a217",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantumdrill",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

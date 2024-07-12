@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:device",
+			Damage: 11s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -21,8 +22,7 @@
 					2b,
 					2b
 				]
-			},
-			Damage: 11s
+			}
 		}],
 		consume_items: false,
 		only_from_crafting: true

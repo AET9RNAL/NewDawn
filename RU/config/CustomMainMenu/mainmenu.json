@@ -1,21 +1,6 @@
 {
     "images":
-    {
-        
-
-        // "title":
-        // {
-        //     "image" : "cmm:textures/gui/NewDawnse.png",
-        //     "posX" : -230,
-        //     "posY" : -190,
-        //     "width" : 512,
-        //     "height" : 512,
-        //     "alignment" : "top_center"
-        // },
-        
-
-        
- 
+    { 
        "buttonbackground":
        {
         "image" : "cmm:textures/gui/buttonbckgr.png",
@@ -245,6 +230,23 @@
             "text" : "release date: 2024.NN.NN",
             "posX" : 25,
             "posY" : -30,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        
+        "mods":
+        {
+            "text" : "#modsloaded# Mods loaded,",
+            "posX" : 25,
+            "posY" : -15,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        "mods1":
+        {
+            "text" : "#modsactive# Mods active",
+            "posX" : 105,
+            "posY" : -15,
             "color" : -250,
             "alignment" : "bottom_left"
         }

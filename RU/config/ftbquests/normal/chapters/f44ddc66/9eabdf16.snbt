@@ -1,0 +1,18 @@
+{
+	x: -13.850850340136056d,
+	y: -6.996088435374141d,
+	shape: "hexagon",
+	dependencies: [
+		"36a5ab1a"
+	],
+	tasks: [{
+		uid: "978c7236",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 40s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

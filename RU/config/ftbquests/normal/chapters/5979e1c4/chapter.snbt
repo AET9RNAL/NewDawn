@@ -1,10 +1,10 @@
 {
 	title: "Agriculture",
 	icon: {
+		id: "mysticalagriculture:master_infusion_crystal",
 		ForgeCaps: {
 			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "mysticalagriculture:master_infusion_crystal"
+		}
 	},
 	always_invisible: false,
 	group: 0,

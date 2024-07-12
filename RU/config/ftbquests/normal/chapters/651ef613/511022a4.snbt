@@ -1,6 +1,6 @@
 {
 	x: 6.0d,
-	y: -2.0d,
+	y: -2.5d,
 	dependencies: [
 		"e4c677a9"
 	],
@@ -8,10 +8,10 @@
 		uid: "5f49ef97",
 		type: "item",
 		items: [{
+			id: "astralsorcery:itemexchangewand",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:itemexchangewand"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

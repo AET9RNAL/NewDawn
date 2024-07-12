@@ -1,16 +1,63 @@
 
 # CREATED USING EXTERNAL TWEAKER
 import crafttweaker.item.IItemCondition;
-
+import crafttweaker.item.IItemStack;
 //<industrialupgrade:.addTooltip(format.red(""));
-
-
 
 //CRAFTINGTABLE
 //recipes.remove(AAA);
+// Define an array of items to be removed
+val itemsToRemove = [
+    <industrialupgrade:circuit:17>,
+    <industrialupgrade:crafting_elements:137>,
+    <industrialupgrade:basemachine3:78>,
+    <industrialupgrade:basemachine3:89>,
+    <industrialupgrade:simplemachine:1>,
+    <industrialupgrade:simplemachine>,
+    <industrialupgrade:simplemachine:2>,
+    <industrialupgrade:basemachine:4>,
+    <industrialupgrade:crafting_elements:79>,
+    <industrialupgrade:basemachine1:10>,
+    <industrialupgrade:blockresource:9>,
+    <industrialupgrade:blockresource:8>,
+    <industrialupgrade:moremachine3:16>,
+    <industrialupgrade:moremachine3>,
+    <industrialupgrade:crafting_elements:24>,
+    <industrialupgrade:crafting_elements:116>,
+    <industrialupgrade:crafting_elements:140>,
+    <industrialupgrade:forge_hammer>,
+    <industrialupgrade:upgradekitpanel:7>,
+    <industrialupgrade:upgradekitpanel:8>,
+    <industrialupgrade:upgradekitpanel:9>,
+    <industrialupgrade:upgradekitpanel:10>,
+    <industrialupgrade:upgradekitpanel:11>,
+    <industrialupgrade:upgradekitpanel:12>,
+    <industrialupgrade:upgradekitpanel:13>,
+    <industrialupgrade:crafting_elements:223>,
+    <industrialupgrade:crafting_elements:221>,
+    <industrialupgrade:crafting_elements:225>,
+    <industrialupgrade:crafting_elements:219>,
+    <industrialupgrade:drill>,
+    <industrialupgrade:magnet>,
+    <industrialupgrade:jetpack:27>,
+    <industrialupgrade:re_battery>,
+    <industrialupgrade:crafting_elements:206>,
+    <industrialupgrade:upgrades:10>,
+    <industrialupgrade:wiring_storage:2>,
+    <industrialupgrade:jetpack:27>,
+    <industrialupgrade:jetpack>.withTag({hasID: 1 as byte, canupgrade: 1 as byte, ID_Item: 1}),
+    <industrialupgrade:photoniumglass>,
+    <industrialupgrade:crafting_elements:37>,
+    <industrialupgrade:crafting_elements:30>,
+    <industrialupgrade:crafting_elements:75>,
+    <industrialupgrade:crafting_elements:79>,
+    <industrialupgrade:gen_sunnarium_plate> 
+] as IItemStack[];
+for item in itemsToRemove {
+  recipes.remove(item);
+}
 
-recipes.remove(<industrialupgrade:circuit:17>);
-recipes.remove(<industrialupgrade:crafting_elements:137>);
+
 recipes.removeShaped(<industrialupgrade:crafting_elements:186>, [[null, <industrialupgrade:itemdoubleplates:22>, null],[<industrialupgrade:itemdoubleplates:22>, null, null], [null, <industrialupgrade:itemdoubleplates:22>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:187>, [[null, <industrialupgrade:itemdoubleplates:22>, null],[null, null, <industrialupgrade:itemdoubleplates:22>], [null, <industrialupgrade:itemdoubleplates:22>, null]]);
 recipes.removeShaped(<industrialupgrade:itembatlamacrystal>, [[<industrialupgrade:itembatlamacrystal:*>, <industrialupgrade:quantumitems3>, <industrialupgrade:itembatlamacrystal:*>],[<industrialupgrade:quantumitems3>, <industrialupgrade:photoniy_ingot>, <industrialupgrade:quantumitems3>], [<industrialupgrade:itembatlamacrystal:*>, <industrialupgrade:quantumitems3>, <industrialupgrade:itembatlamacrystal:*>]]);
@@ -21,46 +68,7 @@ recipes.removeShaped(<industrialupgrade:crafting_elements:211>, [[null, <industr
 recipes.removeShaped(<industrialupgrade:crafting_elements:210>, [[null, <industrialupgrade:cable_iu_item>, null],[<industrialupgrade:circuit:9>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:itembatlamacrystal:*>], [null, <industrialupgrade:cable_iu_item>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:209>, [[null, <industrialupgrade:cable_iu_item:20>, null],[<industrialupgrade:crafting_elements:273>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:itembatlamacrystal:*>], [null, <industrialupgrade:cable_iu_item:20>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrialupgrade:cable_iu_item:15>, null],[<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:advanced_re_battery:16>], [null, <industrialupgrade:cable_iu_item:15>, null]]);
-recipes.remove(<industrialupgrade:basemachine3:78>);
-recipes.remove(<industrialupgrade:basemachine3:89>);
-recipes.remove(<industrialupgrade:simplemachine:1>);
-recipes.remove(<industrialupgrade:simplemachine>);
-recipes.remove(<industrialupgrade:simplemachine:2>);
-recipes.remove(<industrialupgrade:basemachine:4>);
-recipes.remove(<industrialupgrade:crafting_elements:79>);
-recipes.remove(<industrialupgrade:basemachine1:10>);
-recipes.remove(<industrialupgrade:blockresource:9>);
-recipes.remove(<industrialupgrade:blockresource:8>);
-recipes.remove(<industrialupgrade:moremachine3:16>);
-recipes.remove(<industrialupgrade:moremachine3>);
-recipes.remove(<industrialupgrade:crafting_elements:24>);
-recipes.remove(<industrialupgrade:crafting_elements:116>);
-recipes.remove(<industrialupgrade:crafting_elements:140>);
-recipes.remove(<industrialupgrade:forge_hammer>);
-recipes.remove(<industrialupgrade:upgradekitpanel:7>);
-recipes.remove(<industrialupgrade:upgradekitpanel:8>);
-recipes.remove(<industrialupgrade:upgradekitpanel:9>);
-recipes.remove(<industrialupgrade:upgradekitpanel:10>);
-recipes.remove(<industrialupgrade:upgradekitpanel:11>);
-recipes.remove(<industrialupgrade:upgradekitpanel:12>);
-recipes.remove(<industrialupgrade:upgradekitpanel:13>);
-recipes.remove(<industrialupgrade:crafting_elements:223>);
-recipes.remove(<industrialupgrade:crafting_elements:221>);
-recipes.remove(<industrialupgrade:crafting_elements:225>);
-recipes.remove(<industrialupgrade:crafting_elements:219>);
-recipes.remove(<industrialupgrade:drill>);
-recipes.remove(<industrialupgrade:magnet>);
-recipes.remove(<industrialupgrade:jetpack:27>);
-recipes.remove(<industrialupgrade:re_battery>);
-recipes.remove(<industrialupgrade:crafting_elements:206>);
-recipes.remove(<industrialupgrade:upgrades:10>);
-recipes.remove(<industrialupgrade:wiring_storage:2>);
-recipes.remove(<industrialupgrade:jetpack:27>);
-recipes.remove(<industrialupgrade:jetpack>.withTag({hasID: 1 as byte, canupgrade: 1 as byte, ID_Item: 1}));
-recipes.remove(<industrialupgrade:photoniumglass>);
-recipes.remove(<industrialupgrade:crafting_elements:37>);
-recipes.remove(<industrialupgrade:crafting_elements:30>);
-recipes.remove(<industrialupgrade:crafting_elements:75>);
+
 //CRAFTINGTABLE ADD
 
 
@@ -68,7 +76,7 @@ recipes.remove(<industrialupgrade:crafting_elements:75>);
 recipes.addShaped(<industrialupgrade:crafting_elements:223>, [[null, <ironfurnaces:diamond_furnace_idle>, null],[<moreplates:draconium_plate>, <industrialupgrade:crafting_elements:24>, <moreplates:draconium_plate>], [<industrialupgrade:alloydoubleplate:8>, <industrialupgrade:alloydoubleplate:8>, <industrialupgrade:alloydoubleplate:8>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:221>, [[null, <ironfurnaces:diamond_furnace_idle>, null],[<industrialupgrade:itemdoubleplates:9>, <industrialupgrade:crafting_elements:23>, <industrialupgrade:itemdoubleplates:9>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:225>, [[null, <ironfurnaces:gold_furnace_idle>, null],[<industrialupgrade:itemdoubleplates:21>, <industrialupgrade:crafting_elements:25>, <industrialupgrade:itemdoubleplates:21>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:219>, [[null, <ironfurnaces:iron_furnace_idle>, null],[<thermalfoundation:material:32>, <industrialupgrade:crafting_elements:21>, <thermalfoundation:material:32>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:219>, [[null, <ironfurnaces:iron_furnace_idle>, null],[<ore:plateIron>, <industrialupgrade:crafting_elements:21>, <ore:plateIron>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
 
 recipes.addShaped(<industrialupgrade:forge_hammer>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null],[<minecraft:iron_ingot>, <forestry:oak_stick>, <forestry:oak_stick>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, null]]);
 recipes.addShaped(<industrialupgrade:forge_hammer>, [[null, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<forestry:oak_stick>, <forestry:oak_stick>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
@@ -77,16 +85,16 @@ recipes.addShaped(<industrialupgrade:crafting_elements:24>, [[<contenttweaker:to
 recipes.addShaped(<industrialupgrade:crafting_elements:116>, [[<contenttweaker:plate_gaia_steel>, <enderio:item_capacitor_stellar>, <contenttweaker:plate_gaia_steel>],[<contenttweaker:plate_gaia_steel>, <industrialupgrade:crafting_elements:92>, <contenttweaker:plate_gaia_steel>], [<contenttweaker:plate_gaia_steel>, <enderio:item_capacitor_stellar>, <contenttweaker:plate_gaia_steel>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:140>, [[<contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:crafting_elements:139>, <industrialupgrade:photoniy_ingot>], [<contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>]]);
 
-recipes.addShaped(<industrialupgrade:basemachine3:78>, [[<moreplates:electrical_steel_plate>, <thermalfoundation:material:32>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:11>, <enderio:block_stirling_generator>, <thermalfoundation:material:32>], [<moreplates:electrical_steel_plate>, <thermalfoundation:material:32>, <moreplates:electrical_steel_plate>]]);
+recipes.addShaped(<industrialupgrade:basemachine3:78>, [[<moreplates:electrical_steel_plate>, <ore:plateIron>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:11>, <enderio:block_stirling_generator>, <ore:plateIron>], [<moreplates:electrical_steel_plate>, <ore:plateIron>, <moreplates:electrical_steel_plate>]]);
 recipes.addShaped(<industrialupgrade:basemachine3:89>, [[<industrialupgrade:crafting_elements:265>, <thermalexpansion:machine:8>, <industrialupgrade:crafting_elements:27>],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:154>], [<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:276>, <industrialupgrade:crafting_elements:272>]]);
 recipes.addShaped(<industrialupgrade:simplemachine:1>, [[<moreplates:electrical_steel_plate>, <extrautils2:compressedcobblestone:1>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:63>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:72>], [<moreplates:electrical_steel_plate>, <thermalexpansion:machine:5>, <moreplates:electrical_steel_plate>]]);
 recipes.addShaped(<industrialupgrade:simplemachine>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:272>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:69>, <enderio:block_sag_mill>, <industrialupgrade:crafting_elements:72>], [<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:272>, <moreplates:electrical_steel_plate>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:219>, [[null, <ironfurnaces:iron_furnace_idle>, null],[<ore:plateIron>, <industrialupgrade:crafting_elements:21>, <ore:plateIron>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
 recipes.addShaped(<industrialupgrade:basemachine:4>, [[<industrialupgrade:crafting_elements:70>, <gendustry:apiary.upgrade:6>, <industrialupgrade:crafting_elements:74>],[<enderio:block_alloy_smelter>, <industrialupgrade:simplemachine:2>, <enderio:block_alloy_smelter>], [<industrialupgrade:crafting_elements:74>, <gendustry:apiary.upgrade:6>, <industrialupgrade:crafting_elements:70>]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<thermalfoundation:material:355>, <industrialupgrade:radiationresources:4>, <thermalfoundation:material:355>]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<ore:plateBronze>, <industrialupgrade:radiationresources:4>, <ore:plateBronze>]]);
 recipes.addShaped(<industrialupgrade:basemachine1:10>, [[null, <industrialupgrade:basemachine3:89>, null],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:blockresource:9>, <industrialupgrade:crafting_elements:99>], [null, <industrialupgrade:crafting_elements:276>, null]]);
-recipes.addShaped(<industrialupgrade:blockresource:9>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:dark_steel_plate>],[<enderio:item_capacitor_melodic>, <industrialupgrade:blockresource:8>, <enderio:item_capacitor_melodic>], [<moreplates:dark_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:electrical_steel_plate>]]);
-recipes.addShaped(<industrialupgrade:blockresource:8>, [[null, <industrialupgrade:crafting_elements:137>, null],[<industrialupgrade:crafting_elements:137>, <thermalexpansion:frame>, <industrialupgrade:crafting_elements:137>], [null, <industrialupgrade:crafting_elements:137>, null]]);
+recipes.addShaped(<industrialupgrade:blockresource:9>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:dark_steel_plate>],[<immersiveengineering:material:9>, <industrialupgrade:blockresource:8>, <immersiveengineering:material:9>], [<moreplates:dark_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:electrical_steel_plate>]]);
+recipes.addShaped(<industrialupgrade:blockresource:8>, [[<immersiveengineering:material:8>, <industrialupgrade:crafting_elements:137>, <immersiveengineering:material:8>],[<industrialupgrade:crafting_elements:137>, <thermalexpansion:frame>, <industrialupgrade:crafting_elements:137>], [<immersiveengineering:material:8>, <industrialupgrade:crafting_elements:137>, <immersiveengineering:material:8>]]);
 recipes.addShaped(<industrialupgrade:moremachine3:16>, [[<thermalexpansion:augment:337>, <industrialupgrade:crafting_elements:218>, <thermalexpansion:augment:337>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<thermalexpansion:augment:337>, <industrialupgrade:crafting_elements:276>, <thermalexpansion:augment:337>]]);
 recipes.addShaped(<industrialupgrade:moremachine3>, [[<industrialupgrade:crafting_elements:64>, <enderio:block_farm_station>, <industrialupgrade:crafting_elements:61>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:9>, <industrialupgrade:crafting_elements:44>], [<contenttweaker:stellar_circuit>, <thermalexpansion:machine:5>, <contenttweaker:stellar_circuit>]]);
 
@@ -109,14 +117,6 @@ recipes.addShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrial
 recipes.addShaped(<industrialupgrade:crafting_elements:137> * 2, [[<minecraft:redstone>, <industrialupgrade:itemplates:12>, <minecraft:redstone>], [<thermalfoundation:material:357>, <extrautils2:ingredients:0>, <thermalfoundation:material:357>],[<minecraft:redstone>, <industrialupgrade:itemplates:16>, <minecraft:redstone>]]);
 recipes.addShaped(<industrialupgrade:magnet>, [[<industrialupgrade:alloyingot:7>, <thermalinnovation:magnet:4>, <industrialupgrade:alloyingot:9>],[<industrialupgrade:itemdoubleplates>, <industrialupgrade:advanced_re_battery>, <industrialupgrade:itemdoubleplates>], [null, <industrialupgrade:itemdoubleplates>, null]]);
 
-recipes.addShapeless(<thermalfoundation:material:355>, [<industrialupgrade:forge_hammer>,<ore:ingotBronze>]);
-recipes.addShapeless(<thermalfoundation:material:324>, [<industrialupgrade:forge_hammer>,<ore:ingotAluminum>]);
-recipes.addShapeless(<thermalfoundation:material:323>, [<industrialupgrade:forge_hammer>,<ore:ingotLead>]);
-recipes.addShapeless(<thermalfoundation:material:322>, [<industrialupgrade:forge_hammer>,<ore:ingotSilver>]);
-recipes.addShapeless(<thermalfoundation:material:320>, [<industrialupgrade:forge_hammer>,<thermalfoundation:material:128>]);
-recipes.addShapeless(<thermalfoundation:material:33>, [<industrialupgrade:forge_hammer>,<minecraft:gold_ingot>]);
-recipes.addShapeless(<thermalfoundation:material:321>, [<industrialupgrade:forge_hammer>,<thermalfoundation:material:129>]);
-recipes.addShapeless(<thermalfoundation:material:32>, [<industrialupgrade:forge_hammer>,<minecraft:iron_ingot>]);
 
 recipes.addShaped(<contenttweaker:arcana_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:arcana_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:arcana_capacitor>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
 recipes.addShaped(<contenttweaker:mortum_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:mortum_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:mortum_capacitor>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
@@ -158,8 +158,8 @@ recipes.addShaped(<contenttweaker:tool_box_awakened>, [[<avaritia:resource:4>, <
 recipes.addShaped(<contenttweaker:tool_box_draconic>, [[<industrialupgrade:neutroniumingot>, <contenttweaker:iridium_advanced_draconic>, <industrialupgrade:neutroniumingot>],[<contenttweaker:iridium_advanced_draconic>, <industrialupgrade:adv_spectral_box>, <contenttweaker:iridium_advanced_draconic>], [<simplyjetpacks:metaitemmods:19>, <industrialupgrade:coal_chunk>, <simplyjetpacks:metaitemmods:19>]]);
 recipes.addShaped(<industrialupgrade:circuit:17>, [[<industrialupgrade:cable_iu_item:12>, <industrialupgrade:cable_iu_item:12>, <industrialupgrade:cable_iu_item:12>],[<industrialupgrade:circuit:15>, <enderio:item_basic_capacitor>, <industrialupgrade:circuit:15>], [<thermalfoundation:material:357>, <moreplates:redstone_alloy_plate>, <thermalfoundation:material:357>]]);
 recipes.addShaped(<contenttweaker:glass_adm>, [[<contenttweaker:iridium_advanced_chaotic>, <contenttweaker:iridium_advanced_chaotic>, <contenttweaker:iridium_advanced_chaotic>],[<contenttweaker:admsp>, <industrialupgrade:photoniumglass:13>, <contenttweaker:admsp>], [<contenttweaker:iridium_advanced_chaotic>, <contenttweaker:iridium_advanced_chaotic>, <contenttweaker:iridium_advanced_chaotic>]]);
-recipes.addShaped(<industrialupgrade:drill>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <thermalinnovation:drill>, <thermalfoundation:material:32>], [<thermalfoundation:material:32>, <industrialupgrade:crafting_elements:279>, <thermalfoundation:material:32>]]);
-recipes.addShaped(<industrialupgrade:jetpack:27>, [[<thermalfoundation:material:32>, <industrialupgrade:crafting_elements:273>, <thermalfoundation:material:32>],[<thermalfoundation:material:32>, <simplyjetpacks:itemjetpack:1>, <thermalfoundation:material:32>], [<moreplates:glowstone_plate>, <industrialupgrade:wiring_storage:2>, <moreplates:glowstone_plate>]]);
+recipes.addShaped(<industrialupgrade:drill>, [[null, <ore:plateIron>, null],[<ore:plateIron>, <thermalinnovation:drill>, <ore:plateIron>], [<ore:plateIron>, <industrialupgrade:crafting_elements:279>, <ore:plateIron>]]);
+recipes.addShaped(<industrialupgrade:jetpack:27>, [[<ore:plateIron>, <industrialupgrade:crafting_elements:273>, <ore:plateIron>],[<ore:plateIron>, <simplyjetpacks:itemjetpack:1>, <ore:plateIron>], [<moreplates:glowstone_plate>, <industrialupgrade:wiring_storage:2>, <moreplates:glowstone_plate>]]);
 
 recipes.addShaped(<industrialupgrade:re_battery>, [[null, <industrialupgrade:cable_iu_item:19>, null],[<industrialupgrade:casing:25>, <taiga:tiberium_crystal>, <industrialupgrade:casing:25>], [<industrialupgrade:casing:25>, <enderio:item_alloy_ingot:3>, <industrialupgrade:casing:25>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:206>, [[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:19>, <astralsorcery:blockinfusedwood:1>],[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:crafting_elements:21>, <astralsorcery:blockinfusedwood:1>], [<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:19>, <astralsorcery:blockinfusedwood:1>]]);
@@ -174,6 +174,11 @@ recipes.addShaped(<industrialupgrade:crafting_elements:37>, [[<redstonearsenal:m
 
 recipes.addShaped(<industrialupgrade:crafting_elements:30>, [[<ore:plateInvar>, <astralsorcery:itemusabledust:1>, <ore:plateInvar>],[null, <industrialupgrade:crafting_elements:21>, null], [null, null, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:75>, [[<ore:plateCobalt>, <ore:plateCobalt>, <ore:plateCobalt>],[<divinerpg:divine_stone>, <industrialupgrade:crafting_elements:21>, <divinerpg:divine_stone>], [<divinerpg:divine_stone>, <industrialupgrade:itemiucrafring:3>, <divinerpg:divine_stone>]]);
+
+
+recipes.addShaped(<industrialupgrade:gen_sunnarium_plate>, [[null, <industrialupgrade:crafting_elements:128>, null],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:se_gen>, <industrialupgrade:crafting_elements:79>], [null, <industrialupgrade:crafting_elements:276>, null]]);
+recipes.addShaped(<industrialupgrade:simplemachine:2>, [[<industrialupgrade:crafting_elements:72>, <industrialupgrade:crafting_elements:219>, <industrialupgrade:crafting_elements:72>],[<industrialupgrade:crafting_elements:272>, <enderio:block_simple_furnace>, <industrialupgrade:crafting_elements:272>], [<industrialupgrade:crafting_elements:35>, <industrialupgrade:crafting_elements:44>, <industrialupgrade:crafting_elements:35>]]);
+
 
 // Matter Fabricator
 recipes.remove(<industrialupgrade:simplemachine:6>);
@@ -265,21 +270,9 @@ mods.industrialupgrade.rolling.addRecipe(<moreplates:prudentium_plate>, <mystica
 mods.industrialupgrade.rolling.addRecipe(<moreplates:superium_plate>, <mysticalagriculture:crafting:36>);
 mods.industrialupgrade.rolling.addRecipe(<moreplates:supremium_plate>, <mysticalagriculture:crafting:37>);
 
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:32>, <minecraft:iron_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:33>, <minecraft:gold_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:320>, <thermalfoundation:material:128>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:321>, <thermalfoundation:material:129>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:322>, <thermalfoundation:material:130>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:323>, <thermalfoundation:material:131>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:324>, <ore:ingotAluminum>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:325>, <thermalfoundation:material:133>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:326>, <thermalfoundation:material:134>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:327>, <thermalfoundation:material:135>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:328>, <thermalfoundation:material:136>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:352>, <thermalfoundation:material:160>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:353>, <thermalfoundation:material:161>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:354>, <thermalfoundation:material:162>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:355>, <thermalfoundation:material:163>);
+
+
+
 mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:357>, <thermalfoundation:material:165>);
 mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:358>, <thermalfoundation:material:166>);
 mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:359>, <thermalfoundation:material:167>);

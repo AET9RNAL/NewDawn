@@ -1,0 +1,16 @@
+{
+	x: 16.0d,
+	y: 8.0d,
+	shape: "square",
+	dependencies: [
+		"aa53df9c"
+	],
+	tasks: [{
+		uid: "e7a30332",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 282"
+		}],
+		count: 32L
+	}]
+}

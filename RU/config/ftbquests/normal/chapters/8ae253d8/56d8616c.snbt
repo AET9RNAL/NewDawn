@@ -1,0 +1,13 @@
+{
+	x: -13.5d,
+	y: -10.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "d387622f",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogeneratoradd 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

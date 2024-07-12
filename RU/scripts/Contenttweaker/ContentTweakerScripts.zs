@@ -10,9 +10,9 @@ import mods.contenttweaker.IItemColorSupplier;
 //
 
 //PATTERN
-var NAMEPLACEHOLDER = VanillaFactory.createItem("NAMEPLACEHOLDER");
-NAMEPLACEHOLDER.maxStackSize = 64;
-NAMEPLACEHOLDER.register();
+//var NAMEPLACEHOLDER = VanillaFactory.createItem("NAMEPLACEHOLDER");
+//NAMEPLACEHOLDER.maxStackSize = 64;
+//NAMEPLACEHOLDER.register();
 
 //
 
@@ -993,41 +993,120 @@ var voidweave_alloy_plate_dense = VanillaFactory.createItem("voidweave_alloy_pla
 voidweave_alloy_plate_dense.maxStackSize = 64;
 voidweave_alloy_plate_dense.register();
 
+//upgrade_x1
+var upgrade_x1 = VanillaFactory.createItem("upgrade_x1");
+upgrade_x1.maxStackSize = 64;
+upgrade_x1.register();
 
+//upgrade_x2
+var upgrade_x2 = VanillaFactory.createItem("upgrade_x2");
+upgrade_x2.maxStackSize = 64;
+upgrade_x2.register();
 
+//upgrade_x3
+var upgrade_x3 = VanillaFactory.createItem("upgrade_x3");
+upgrade_x3.maxStackSize = 64;
+upgrade_x3.register();
 
+//upgrade_x4
+var upgrade_x4 = VanillaFactory.createItem("upgrade_x4");
+upgrade_x4.maxStackSize = 64;
+upgrade_x4.register();
 
+//upgrade_x16
+var upgrade_x16 = VanillaFactory.createItem("upgrade_x16");
+upgrade_x16.maxStackSize = 64;
+upgrade_x16.register();
 
+//upgrade_x9
+var upgrade_x9 = VanillaFactory.createItem("upgrade_x9");
+upgrade_x9.maxStackSize = 64;
+upgrade_x9.register();
 
+//upgrade_x64
+var upgrade_x64 = VanillaFactory.createItem("upgrade_x64");
+upgrade_x64.maxStackSize = 64;
+upgrade_x64.register();
 
+//module_luck_x5
+var module_luck_x5 = VanillaFactory.createItem("module_luck_x5");
+module_luck_x5.maxStackSize = 64;
+module_luck_x5.register();
 
+//module_luck_x20
+var module_luck_x20 = VanillaFactory.createItem("module_luck_x20");
+module_luck_x20.maxStackSize = 64;
+module_luck_x20.register();
 
+//module_luck_x50
+var module_luck_x50 = VanillaFactory.createItem("module_luck_x50");
+module_luck_x50.maxStackSize = 64;
+module_luck_x50.register();
 
+//module_manapool
+var module_manapool = VanillaFactory.createItem("module_manapool");
+module_manapool.maxStackSize = 64;
+module_manapool.register();
 
+//module_manapool_alchemy
+var module_manapool_alchemy = VanillaFactory.createItem("module_manapool_alchemy");
+module_manapool_alchemy.maxStackSize = 64;
+module_manapool_alchemy.register();
 
+//module_manapool_conjuration
+var module_manapool_conjuration = VanillaFactory.createItem("module_manapool_conjuration");
+module_manapool_conjuration.maxStackSize = 64;
+module_manapool_conjuration.register();
 
+//module_manapool_dimensional
+var module_manapool_dimensional = VanillaFactory.createItem("module_manapool_dimensional");
+module_manapool_dimensional.maxStackSize = 64;
+module_manapool_dimensional.register();
 
+//flower_module_endoflame
+var flower_module_endoflame = VanillaFactory.createItem("flower_module_endoflame");
+flower_module_endoflame.maxStackSize = 64;
+flower_module_endoflame.register();
 
+//flower_module_gourmaryllis
+var flower_module_gourmaryllis = VanillaFactory.createItem("flower_module_gourmaryllis");
+flower_module_gourmaryllis.maxStackSize = 64;
+flower_module_gourmaryllis.register();
 
+//flower_module_thermalily
+var flower_module_thermalily = VanillaFactory.createItem("flower_module_thermalily");
+flower_module_thermalily.maxStackSize = 64;
+flower_module_thermalily.register();
 
+//flower_module_kekimorus
+var flower_module_kekimorus = VanillaFactory.createItem("flower_module_kekimorus");
+flower_module_kekimorus.maxStackSize = 64;
+flower_module_kekimorus.register();
 
+//flower_module_reikar
+var flower_module_reikar = VanillaFactory.createItem("flower_module_reikar");
+flower_module_reikar.maxStackSize = 64;
+flower_module_reikar.register();
 
+//flower_module_entropinnyum
+var flower_module_entropinnyum = VanillaFactory.createItem("flower_module_entropinnyum");
+flower_module_entropinnyum.maxStackSize = 64;
+flower_module_entropinnyum.register();
 
+//flower_module_arcana
+var flower_module_arcana = VanillaFactory.createItem("flower_module_arcana");
+flower_module_arcana.maxStackSize = 64;
+flower_module_arcana.register();
 
+//flower_module_hydroangeas
+var flower_module_hydroangeas = VanillaFactory.createItem("flower_module_hydroangeas");
+flower_module_hydroangeas.maxStackSize = 64;
+flower_module_hydroangeas.register();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//flower_module_gemini
+var flower_module_gemini = VanillaFactory.createItem("flower_module_gemini");
+flower_module_gemini.maxStackSize = 64;
+flower_module_gemini.register();
 
 
 

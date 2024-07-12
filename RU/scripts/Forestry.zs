@@ -25,6 +25,7 @@ recipes.remove(<genetics:misc:8>);
 recipes.remove(<genetics:misc:9>);
 recipes.remove(<forestry:sturdy_machine>);
 recipes.remove(<genetics:misc>);
+recipes.remove(<forestry:fabricator>);
 //Don't touch me!
 //#Add
 recipes.addShaped(<contenttweaker:iridescent_dripping_crystal_plate>, [[<contenttweaker:plate_alloy_industrial>, <contenttweaker:iridescent_dripping_honeycomb_crystal>, <industrialupgrade:quantumitems2>],[<contenttweaker:iridescent_dripping_honeycomb_crystal>, <forestry:impregnated_casing>, <contenttweaker:iridescent_dripping_honeycomb_crystal>], [<industrialupgrade:quantumitems2>, <contenttweaker:iridescent_dripping_honeycomb_crystal>, <contenttweaker:plate_alloy_industrial>]]);
@@ -41,6 +42,7 @@ recipes.addShaped(<genetics:misc:9>, [[<genetics:misc:8>, <genetics:misc:8>, <ge
 recipes.addShaped(<forestry:sturdy_machine>, [[<ore:plateBronze>, <simplyjetpacks:metaitemmods:16>, <ore:plateBronze>],[<simplyjetpacks:metaitemmods:16>, null, <simplyjetpacks:metaitemmods:16>], [<ore:plateBronze>, <simplyjetpacks:metaitemmods:16>, <ore:plateBronze>]]);
 recipes.addShaped(<genetics:misc>, [[<industrialupgrade:crafting_elements:137>, <moreplates:crystalline_alloy_plate>, <industrialupgrade:crafting_elements:137>],[<moreplates:crystalline_alloy_plate>, <forestry:sturdy_machine>, <moreplates:crystalline_alloy_plate>], [<industrialupgrade:crafting_elements:137>, <moreplates:crystalline_alloy_plate>, <industrialupgrade:crafting_elements:137>]]);
 
+recipes.addShaped(<forestry:fabricator>, [[<ore:plateGold>, <extrautils2:decorativeglass>, <ore:plateGold>],[<extrautils2:decorativeglass>, <forestry:sturdy_machine>, <extrautils2:decorativeglass>], [<ore:plateGold>, <ore:chest>, <ore:plateGold>]]);
 
 
 

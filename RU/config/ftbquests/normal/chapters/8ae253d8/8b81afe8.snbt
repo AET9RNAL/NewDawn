@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "90280b73",
+		type: "item",
+		items: [{
+			item: "mekanism:energyupgrade"
+		}]
+	}]
+}

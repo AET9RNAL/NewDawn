@@ -8,7 +8,7 @@
 				type: "common_crate"
 			}
 		},
-		weight: 13
+		weight: 18
 	},
 	{
 		item: {
@@ -17,7 +17,7 @@
 				type: "uncommon_crate"
 			}
 		},
-		weight: 10
+		weight: 15
 	},
 	{
 		item: {
@@ -26,7 +26,7 @@
 				type: "rare_crate"
 			}
 		},
-		weight: 8
+		weight: 14
 	},
 	{
 		item: {
@@ -35,7 +35,7 @@
 				type: "epic_crate"
 			}
 		},
-		weight: 7
+		weight: 5
 	},
 	{
 		item: {
@@ -43,8 +43,7 @@
 			tag: {
 				type: "legendary_crate"
 			}
-		},
-		weight: 2
+		}
 	},
 	{
 		item: {
@@ -60,15 +59,16 @@
 			tag: {
 				type: "random_crate"
 			}
-		}
+		},
+		weight: 4
 	}],
 	loot_crate: {
 		string_id: "random_crate",
 		color: 11782687,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

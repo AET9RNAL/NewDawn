@@ -8,11 +8,11 @@
 		uid: "05e3fe11",
 		type: "item",
 		items: [{
+			id: "botania:lens",
+			tag: {},
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "botania:lens",
-			tag: {}
+			}
 		}],
 		ignore_nbt: 1b
 	}]

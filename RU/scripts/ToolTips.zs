@@ -29,10 +29,26 @@ mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void For
 <draconicevolution:reactor_component>.addTooltip(format.red("Shield energy consumption is MUCH higher the higher is gen rate"));
 <draconicevolution:reactor_component:1>.addTooltip(format.red("In order to calculate stratup values, multiply default DE params by 100, gen rate/shield"));
 
-
-
-
-
+<iuadditions:improved_excavator>.displayName = "Improved Excavator";
+<iuadditions:mana_furnace>.displayName = "Mana Furnace";
+<iuadditions:mana_macerator>.displayName = "Mana Macerator";
+<botania:manamachine_agglomeration_plate>.displayName = "Mechanical Agglomeration Plate";
+<botania:manamachine_alfheim_portal>.displayName = "Mechanical Alfheim Portal";
+<botania:manamachine_gaia_agglomeration_plate>.displayName = "Mechanical GAIA Agglomeration Plate";
+<botania:manamachine_manapool>.displayName = "Mechanical Mana Pool";
+<astralsorcery:astralmachine_astral_quarry>.displayName = "Astral Quarry";
+<multiblocked:astralmachine_celestial_crystallizer>.displayName = "Celestial Crystallizer";
+<multiblocked:astralmachine_crystallizer>.displayName = "Crystallizer";
+<astralsorcery:astralmachine_starlight_fabricator>.displayName = "Starlight Fabricator";
+<astralsorcery:astralmachine_constellation_generator>.displayName = "Constellation Generator";
+<astralsorcery:astralmachine_astral_quarry>.displayName = "Astral Quarry";
+<astralsorcery:astralmachinee_starlight_infuser>.displayName = "Starlight Infuser";
+<botania:manamachine_agglomeration_plate>.displayName = "Mechanical Agglomertion Plate";
+<botania:manamachine_alfheim_portal>.displayName = "Mechanical Alfheim Portal";
+<botania:manamachine_gaia_agglomeration_plate>.displayName = "Mechanical GAIA Agglomeration Plate";
+<botania:manamachine_manapool>.displayName = "Mechanical Manapool";
+<botania:manamachine_mana_deliquefier>.displayName = "Mana Deliquefier";
+<botania:manamachine_mana_liquefier>.displayName = "Mana Liquefier";
 
 
 

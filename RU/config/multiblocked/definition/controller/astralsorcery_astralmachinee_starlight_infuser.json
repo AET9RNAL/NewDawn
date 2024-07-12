@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "location": "astralsorcery:astralmachinee_starlight_infuser",
+  "traits": {
+    "background": "multiblocked:textures/as_gui_infuser.png",
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 95,
+      "y": 78,
+      "width": 17,
+      "height": 11,
+      "texture": "multiblocked:textures/as_progress_arrow.png",
+      "fillDirection": 0
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 126,
+        "y": 76,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 49,
+        "y": 76,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "INF",
+        "x": 8,
+        "y": 149,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:astralmachine_mechanical_starlight_infuser",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 10,
+      "parent": "idle",
+      "sound": {
+        "sound": "astralsorcery:attunement",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Mechanical_starlight_infuser",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "astralsorcery:astralmachinee_starlight_infuser",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

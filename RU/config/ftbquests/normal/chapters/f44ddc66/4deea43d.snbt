@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -15.5d,
+	shape: "diamond",
+	dependencies: [
+		"2df4f92d",
+		"2141c58b"
+	],
+	tasks: [{
+		uid: "58473264",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:barionrotor",
+			tag: {
+				damage: 110592000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

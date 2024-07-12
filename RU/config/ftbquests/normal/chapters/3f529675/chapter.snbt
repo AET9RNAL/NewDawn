@@ -1,9 +1,6 @@
 {
 	title: "Forestry",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 40,
@@ -143,6 +140,9 @@
 					Slot: 12b
 				}]
 			}
+		},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	always_invisible: false,

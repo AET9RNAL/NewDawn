@@ -1,0 +1,148 @@
+{
+  "version": 2,
+  "location": "botania:manamachine_alfheim_portal",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 51,
+      "y": 67,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    },
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 73,
+        "y": 30,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 74,
+        "y": 103,
+        "autoIO": false
+      }
+    ],
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 11,
+      "y": 137,
+      "width": 11,
+      "height": 25,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 1000000,
+      "allowSpark": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:manamachine_alfheim_portal",
+        "type": "imodel"
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.75,
+          1.0
+        ]
+      ]
+    },
+    "idle": {
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.75,
+          1.0
+        ]
+      ],
+      "parent": "unformed"
+    },
+    "working": {
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.75,
+          1.0
+        ]
+      ],
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "manamachine_alfheim_portal",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "botania:manamachine_alfheim_portal",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

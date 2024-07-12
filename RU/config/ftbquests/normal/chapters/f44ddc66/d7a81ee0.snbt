@@ -1,0 +1,35 @@
+{
+	x: -21.0d,
+	y: 5.0d,
+	shape: "diamond",
+	dependencies: [
+		"bced150d",
+		"bc5446a3"
+	],
+	tasks: [{
+		uid: "b3b56e6f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine",
+			Damage: 10s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8910e6de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "bcdc3c5a",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 274",
+		count: 16
+	}]
+}

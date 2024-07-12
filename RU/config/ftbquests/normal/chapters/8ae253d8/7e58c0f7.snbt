@@ -1,0 +1,15 @@
+{
+	x: -14.0d,
+	y: -17.5d,
+	dependencies: [
+		"f1afa59c"
+	],
+	tasks: [{
+		uid: "9908a842",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morecontrolcircuit 1 9"
+		}],
+		count: 4L
+	}]
+}

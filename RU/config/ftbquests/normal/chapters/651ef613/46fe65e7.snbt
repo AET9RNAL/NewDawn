@@ -1,6 +1,6 @@
 {
 	x: 6.0d,
-	y: -1.0d,
+	y: -1.5d,
 	dependencies: [
 		"e4c677a9"
 	],
@@ -8,10 +8,10 @@
 		uid: "fab9b1eb",
 		type: "item",
 		items: [{
+			id: "astralsorcery:itemgrapplewand",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:itemgrapplewand"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

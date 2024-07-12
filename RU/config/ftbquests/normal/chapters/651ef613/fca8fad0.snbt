@@ -8,11 +8,11 @@
 		uid: "48235fea",
 		type: "item",
 		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 3s,
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:blockaltar",
-			Damage: 3s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

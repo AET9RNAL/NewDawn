@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -23.5d,
+	shape: "diamond",
+	dependencies: [
+		"0b0603cb",
+		"261b35d4"
+	],
+	tasks: [{
+		uid: "9b7fd71f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_barionrotor",
+			tag: {
+				damage: 110592000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

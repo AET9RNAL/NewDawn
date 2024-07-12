@@ -2,6 +2,7 @@
 	title: "Голова",
 	icon: {
 		id: "minecraft:skull",
+		Damage: 3s,
 		tag: {
 			RepairCost: 0,
 			SkullOwner: {
@@ -17,8 +18,7 @@
 			display: {
 				Name: "LoVi_ApTe4kq's Head"
 			}
-		},
-		Damage: 3s
+		}
 	},
 	x: 0.0d,
 	y: -9.0d,
@@ -67,6 +67,7 @@
 		type: "item",
 		item: {
 			id: "minecraft:skull",
+			Damage: 3s,
 			tag: {
 				RepairCost: 0,
 				SkullOwner: {
@@ -82,8 +83,7 @@
 				display: {
 					Name: "LoVi_ApTe4kq's Head"
 				}
-			},
-			Damage: 3s
+			}
 		}
 	},
 	{

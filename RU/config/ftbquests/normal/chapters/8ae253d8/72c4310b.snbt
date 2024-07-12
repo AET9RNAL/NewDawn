@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: -12.0d,
+	tasks: [{
+		uid: "5930d69a",
+		type: "item",
+		items: [{
+			item: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

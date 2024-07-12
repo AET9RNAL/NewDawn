@@ -1,0 +1,16 @@
+{
+	x: -23.993027210884378d,
+	y: 1.6853741496598715d,
+	shape: "square",
+	dependencies: [
+		"905404b5"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "fd7fbd28",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:circuit"
+		}]
+	}]
+}

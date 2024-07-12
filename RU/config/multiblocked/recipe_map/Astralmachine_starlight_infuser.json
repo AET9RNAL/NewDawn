@@ -1,0 +1,43 @@
+{
+  "name": "Astralmachine_starlight_infuser",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "68c751f0-4dc8-4fc3-8ba5-0ff779393bf4",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.3,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

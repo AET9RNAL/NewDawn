@@ -1,0 +1,16 @@
+{
+	x: 19.5d,
+	y: 11.5d,
+	shape: "square",
+	dependencies: [
+		"ed6ddee4"
+	],
+	tasks: [{
+		uid: "318922fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rod_nano"
+		}],
+		count: 4L
+	}]
+}

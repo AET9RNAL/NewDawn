@@ -1,0 +1,21 @@
+{
+	x: 27.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"aa20abfd",
+		"350df0f3"
+	],
+	tasks: [{
+		uid: "bf412f97",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -14,26 +14,13 @@
 		item: "minecraft:sapling"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "minecraft:water_bucket"
-		}
+		item: "minecraft:water_bucket"
 	},
 	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "minecraft:mushroom_stew"
-		}
+		item: "minecraft:mushroom_stew"
 	},
 	{
 		item: "minecraft:bread"
-	},
-	{
-		item: "thermalfoundation:material 1 163"
 	},
 	{
 		item: "minecraft:stone"
@@ -70,14 +57,67 @@
 	{
 		item: "industrialupgrade:crafting_elements 1 271",
 		count: 8
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 4
+	},
+	{
+		item: "forestry:bee_combs",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 2"
+	},
+	{
+		item: "botania:petal",
+		count: 4
+	},
+	{
+		item: "fluxnetworks:flux",
+		count: 3
+	},
+	{
+		item: "minecraft:iron_block"
+	},
+	{
+		item: "industrialupgrade:blockresource 1 1"
+	},
+	{
+		item: "thermalfoundation:material 1 288"
+	},
+	{
+		item: "extrautils2:suncrystal"
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		item: {
+			id: "extrabotany:cocktail",
+			tag: {
+				brewKey: "speed"
+			}
+		}
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: "ironfurnaces:iron_furnace_idle"
+	},
+	{
+		item: "industrialforegoing:pink_slime",
+		count: 4
 	}],
 	loot_crate: {
 		string_id: "common_crate",
 		color: 16777215,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 0
+			monster: 0,
+			boss: 0
 		}
 	}
 }

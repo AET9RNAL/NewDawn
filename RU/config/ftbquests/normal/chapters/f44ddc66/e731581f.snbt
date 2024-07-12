@@ -1,0 +1,18 @@
+{
+	x: -23.0d,
+	y: 24.0d,
+	shape: "diamond",
+	dependencies: [
+		"06c724e1"
+	],
+	tasks: [{
+		uid: "c2fc8718",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine1",
+			Damage: 4s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

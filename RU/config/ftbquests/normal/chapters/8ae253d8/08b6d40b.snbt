@@ -1,0 +1,13 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "09ca101c",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockmachine 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

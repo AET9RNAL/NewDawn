@@ -11,15 +11,15 @@
 		uid: "81e17e1e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "avaritia:infinity_pickaxe",
 			tag: {
 				ench: [{
 					lvl: 10s,
 					id: 35s
 				}]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}],
 		ignore_damage: true,

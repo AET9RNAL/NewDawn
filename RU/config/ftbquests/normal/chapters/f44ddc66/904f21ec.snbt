@@ -1,0 +1,21 @@
+{
+	x: 29.0d,
+	y: 19.0d,
+	dependencies: [
+		"2e99261d",
+		"cb415e82"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "0b888fc4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:ultddrill",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

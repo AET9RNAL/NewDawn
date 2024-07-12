@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: -5.5d,
+	shape: "diamond",
+	dependencies: [
+		"27bd4a88"
+	],
+	tasks: [{
+		uid: "e280c780",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:excitednucleus 1 12"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -15.0d,
+	y: -17.0d,
+	shape: "diamond",
+	dependencies: [
+		"eb23843f"
+	],
+	tasks: [{
+		uid: "41c2e69c",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogenerator 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

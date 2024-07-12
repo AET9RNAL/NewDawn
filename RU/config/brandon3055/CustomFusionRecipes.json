@@ -499,198 +499,6 @@
             
         ]
 	},
-	
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_sword",
-        "catalyst": "draconicevolution:wyvern_sword",
-        "energy": 50000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:dragon_heart",
-            "draconicevolution:dragon_heart",
-            "industrialupgrade:itemcore,1,9",
-            "industrialupgrade:itemcore,1,9",
-            "extrabotany:firstfractal",
-            "extrabotany:spearsubspace"
-            
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_shovel",
-        "catalyst": "draconicevolution:wyvern_shovel",
-        "energy": 50000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:dragon_heart",
-            "draconicevolution:dragon_heart",
-            "industrialupgrade:itemcore,1,9",
-            "industrialupgrade:itemcore,1,9"
-            
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_hoe",
-        "catalyst": "minecraft:diamond_hoe",
-        "energy": 50000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-			"industrialupgrade:itemcore,1,9",
-			"industrialupgrade:itemcore,1,9"
-        ]
-	},
-
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_pick",
-        "catalyst": "draconicevolution:wyvern_pick",
-        "energy": 50000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:dragon_heart",
-            "draconicevolution:dragon_heart",
-            "industrialupgrade:itemcore,1,9",
-            "industrialupgrade:itemcore,1,9"
-            
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_chest",
-        "catalyst": "draconicevolution:wyvern_chest",
-        "energy": 50000000,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "industrialupgrade:itemsunnariumpanel,1,12",
-            "industrialupgrade:itemsunnariumpanel,1,12"
-            
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_helm",
-        "catalyst": "draconicevolution:wyvern_helm",
-        "energy": 50000000,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-          "industrialupgrade:itemsunnariumpanel,1,12",
-          "industrialupgrade:itemsunnariumpanel,1,12"
-          
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_boots",
-        "catalyst": "draconicevolution:wyvern_boots",
-        "energy": 50000000,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-          "industrialupgrade:itemsunnariumpanel,1,12",
-          "industrialupgrade:itemsunnariumpanel,1,12"
-          
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_legs",
-        "catalyst": "draconicevolution:wyvern_legs",
-        "energy": 50000000,
-        "tier": 3,
-        "ingredients": [
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-          "industrialupgrade:itemsunnariumpanel,1,12",
-          "industrialupgrade:itemsunnariumpanel,1,12"
-          
-        ]
-	},
-	{
-	    "mode": "ADD",
-        "result": "draconicevolution:draconic_bow",
-        "catalyst": "draconicevolution:wyvern_bow",
-        "energy": 50000000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_block",
-            "draconicevolution:draconic_block",
-			"industrialupgrade:itemsunnariumpanel,1,12",
-			"industrialupgrade:itemsunnariumpanel,1,12"
-        ]
-    },
     {
 
         "mode": "ADD",
@@ -711,8 +519,6 @@
             "divinerpg:mortum_axe",
             "botania:elementiumaxe",
             "astralsorcery:itemchargedcrystalaxe",
-			"twilightforest:ironwood_axe",
-			"twilightforest:steeleaf_axe",
             "contenttweaker:iridium_dense_draconic",
             "contenttweaker:iridium_dense_draconic"
         ]
@@ -735,13 +541,6 @@
             "contenttweaker:stellar_core",
             "industrialupgrade:itemcore,1,4",
             "industrialupgrade:itemcore,1,4"
-
-            
-
-
-
-
-    
         ]
     
     },
@@ -1276,7 +1075,402 @@
             "contenttweaker:cross_dimensional_core"
         ]
 
+    },
+    {
+
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_axe",
+        "catalyst": "draconicevolution:wyvern_axe",
+        "energy": 500000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:matter_awakened_draconium",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:matter_awakened_draconium",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+        ]
+
+    },
+
+    {
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_sword",
+        "catalyst": "draconicevolution:wyvern_sword",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "extrabotany:firstfractal",
+            "extrabotany:spearsubspace",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_shovel",
+        "catalyst": "draconicevolution:wyvern_shovel",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:matter_awakened_draconium",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:matter_awakened_draconium",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+            
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_hoe",
+        "catalyst": "minecraft:diamond_hoe",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:matter_awakened_draconium",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:matter_awakened_draconium",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+        ]
+	},
+
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_pick",
+        "catalyst": "draconicevolution:wyvern_pick",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:matter_awakened_draconium",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:matter_awakened_draconium",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+            
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "extrabotany:material,1,3",
+            "industrialupgrade:excitednucleus,1,9",
+            "industrialupgrade:excitednucleus,1,9",
+            "extrabotany:material,1,3",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+            
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "extrabotany:material,1,3",
+            "industrialupgrade:excitednucleus,1,9",
+            "industrialupgrade:excitednucleus,1,9",
+            "extrabotany:material,1,3",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+          
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "extrabotany:material,1,3",
+            "industrialupgrade:excitednucleus,1,9",
+            "industrialupgrade:excitednucleus,1,9",
+            "extrabotany:material,1,3",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+          
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "extrabotany:material,1,3",
+            "industrialupgrade:excitednucleus,1,9",
+            "industrialupgrade:excitednucleus,1,9",
+            "extrabotany:material,1,3",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+          
+        ]
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_bow",
+        "catalyst": "draconicevolution:wyvern_bow",
+        "energy": 50000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:matter_awakened_draconium",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:tool_box_awakened",
+            "contenttweaker:matter_awakened_draconium",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:awakened_draconium_circuit",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:iridium_dense_awakened",
+            "contenttweaker:iridium_dense_awakened"
+        ]
+    },
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "botania:terrapick",
+        "energy": 4250000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_awakened",
+            "contenttweaker:iridium_advanced_awakened",
+            "draconicevolution:draconic_energy_core",
+            "industrialupgrade:quarrymodules,1,11",
+            "draconicevolution:draconic_sword",
+            "draconicevolution:draconic_hoe",
+            "draconicevolution:draconic_axe",
+            "draconicevolution:draconic_pick",
+            "industrialupgrade:quarrymodules,1,11",
+            "draconicevolution:draconic_energy_core",
+            "contenttweaker:iridium_advanced_awakened",
+            "contenttweaker:iridium_advanced_awakened"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicadditions:chaotic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_staff_of_power",
+        "energy": 120000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:tool_box_chaotic",
+            "industrialupgrade:chaosenergycore",
+            "botania:thorring",
+            "botania:thorring",
+            "industrialupgrade:chaosenergycore",
+            "contenttweaker:tool_box_chaotic",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicadditions:chaotic_helm",
+        "catalyst": "draconicevolution:draconic_helm",
+        "energy": 300000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic",
+            "draconicevolution:chaotic_core",
+            "industrialupgrade:chaosenergycore",
+            "contenttweaker:chaotic_circuit",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "jaopca:avaritia_singularity.neutron",
+            "jaopca:avaritia_singularity.neutron",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "contenttweaker:chaotic_circuit",
+            "industrialupgrade:chaosenergycore",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicadditions:chaotic_chest",
+        "catalyst": "draconicevolution:draconic_chest",
+        "energy": 300000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic",
+            "draconicevolution:chaotic_core",
+            "industrialupgrade:chaosenergycore",
+            "contenttweaker:chaotic_circuit",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "jaopca:avaritia_singularity.neutron",
+            "jaopca:avaritia_singularity.neutron",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "contenttweaker:chaotic_circuit",
+            "industrialupgrade:chaosenergycore",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicadditions:chaotic_legs", 
+        "catalyst": "draconicevolution:draconic_legs",
+        "energy": 300000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic",
+            "draconicevolution:chaotic_core",
+            "industrialupgrade:chaosenergycore",
+            "contenttweaker:chaotic_circuit",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "jaopca:avaritia_singularity.neutron",
+            "jaopca:avaritia_singularity.neutron",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "contenttweaker:chaotic_circuit",
+            "industrialupgrade:chaosenergycore",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicadditions:chaotic_boots", 
+        "catalyst": "draconicevolution:draconic_boots",
+        "energy": 300000000000,
+        "tier": 3,
+        "ingredients": [
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic",
+            "draconicevolution:chaotic_core",
+            "industrialupgrade:chaosenergycore",
+            "contenttweaker:chaotic_circuit",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "jaopca:avaritia_singularity.neutron",
+            "jaopca:avaritia_singularity.neutron",
+            "mekanismecoenergistics:alloyavaritia,1,1",
+            "contenttweaker:chaotic_circuit",
+            "industrialupgrade:chaosenergycore",
+            "draconicevolution:chaotic_core",
+            "contenttweaker:iridium_advanced_chaotic",
+            "contenttweaker:iridium_advanced_chaotic"
+        ]
     }
+
 
 
 

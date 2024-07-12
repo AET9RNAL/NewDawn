@@ -1,0 +1,28 @@
+{
+	x: -20.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "253ec6b1",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 271"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3b79e27c",
+		type: "item",
+		item: "industrialupgrade:sapling",
+		count: 8
+	},
+	{
+		uid: "8332c61b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

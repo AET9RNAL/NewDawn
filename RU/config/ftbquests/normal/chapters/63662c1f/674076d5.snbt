@@ -26,13 +26,13 @@
 		uid: "97cfe432",
 		type: "item",
 		items: [{
+			id: "draconicevolution:wyvern_pick",
 			ForgeCaps: {
 				Parent: {
 					Size: 9,
 					Items: []
 				}
-			},
-			id: "draconicevolution:wyvern_pick"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

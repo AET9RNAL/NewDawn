@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -12.5d,
+	tasks: [{
+		uid: "0b623ce3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachine_constellation_generator"
+		}]
+	}]
+}

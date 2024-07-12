@@ -193,3 +193,16 @@ item.contenttweaker.nucleoarlemite_alloy_plate.name=Нуклеоарлемито
 item.contenttweaker.nucleoarlemite_alloy_plate_dense.name=Плотная Нуклеоарлемитовая Пластина
 item.contenttweaker.voidweave_alloy_plate.name=Пластина с Пустотным Переплетением
 item.contenttweaker.voidweave_alloy_plate_dense.name=Плотная Пластина с Пустотным Переплетением
+
+item.contenttweaker.upgrade_x1.name=Улучшение Стак x1
+item.contenttweaker.upgrade_x3.name=Улучшение Стак x3
+item.contenttweaker.upgrade_x9.name=Улучшение Стак x9
+item.contenttweaker.upgrade_x64.name=Улучшение Стак x64
+
+item.contenttweaker.module_luck_x5.name=Модуль Удачи x5
+item.contenttweaker.module_luck_x20.name=Модуль Удачи x20
+item.contenttweaker.module_luck_x50.name=Модуль Удачи x50
+
+item.contenttweaker.module_manapool_alchemy.name=Модуль "Алхимия"
+item.contenttweaker.module_manapool_conjuration.name=Модуль "Колдовство"
+item.contenttweaker.module_manapool_dimensional.name=Модуль "Измерения"

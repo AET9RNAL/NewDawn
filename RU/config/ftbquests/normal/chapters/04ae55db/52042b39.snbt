@@ -8,10 +8,10 @@
 		uid: "df72e325",
 		type: "item",
 		items: [{
+			id: "avaritia:infinity_chestplate",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "avaritia:infinity_chestplate"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

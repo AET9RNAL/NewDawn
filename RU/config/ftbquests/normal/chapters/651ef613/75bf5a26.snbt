@@ -9,10 +9,10 @@
 		uid: "480bda67",
 		type: "item",
 		item: {
+			id: "astralsorcery:itemjournal",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "astralsorcery:itemjournal"
+			}
 		}
 	}]
 }

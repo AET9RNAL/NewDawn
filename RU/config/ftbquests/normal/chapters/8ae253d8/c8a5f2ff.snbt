@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: -12.0d,
+	tasks: [{
+		uid: "5256c095",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

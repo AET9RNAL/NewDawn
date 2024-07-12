@@ -8,10 +8,10 @@
 		uid: "ce5cb2da",
 		type: "item",
 		items: [{
+			id: "draconicadditions:chaotic_bow",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "draconicadditions:chaotic_bow"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

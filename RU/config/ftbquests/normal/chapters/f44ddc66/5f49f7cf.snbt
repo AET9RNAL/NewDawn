@@ -1,0 +1,16 @@
+{
+	x: -3.6d,
+	y: 11.2d,
+	shape: "square",
+	dependencies: [
+		"1a0bff6b"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "374951ae",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemsunnariumpanel 1 12"
+		}]
+	}]
+}
