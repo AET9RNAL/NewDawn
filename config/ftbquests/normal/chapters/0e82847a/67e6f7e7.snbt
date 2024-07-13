@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	dependencies: [
+		"337b1ed1"
+	],
+	tasks: [{
+		uid: "350f0958",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_gaia_agglomeration_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "edc5c911",
+		type: "item",
+		item: "extrabotany:quantummanabuffer"
+	}]
+}

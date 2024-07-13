@@ -1,0 +1,26 @@
+{
+	x: -63.0d,
+	y: -24.0d,
+	shape: "diamond",
+	dependencies: [
+		"ae2193a0"
+	],
+	tasks: [{
+		uid: "e309235a",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogeneratoradd 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "164beab1",
+		type: "item",
+		item: {
+			id: "industrialupgrade:neutron",
+			tag: {
+				damage: 27648000
+			}
+		}
+	}]
+}

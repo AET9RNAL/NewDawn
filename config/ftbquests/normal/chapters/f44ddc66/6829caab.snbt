@@ -1,0 +1,26 @@
+{
+	x: -20.0d,
+	y: -2.5d,
+	shape: "diamond",
+	dependencies: [
+		"157b3464"
+	],
+	tasks: [{
+		uid: "c78192f8",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:block_anvil",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "1b1d4e9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

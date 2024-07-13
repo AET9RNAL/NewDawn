@@ -1,0 +1,31 @@
+{
+	x: -50.5d,
+	y: -15.0d,
+	dependencies: [
+		"ced8590e",
+		"caa9ea57"
+	],
+	tasks: [{
+		uid: "41d060fd",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75a5ec7d",
+		type: "item",
+		item: "mekanismecoenergistics:ecogenerator"
+	},
+	{
+		uid: "e333e592",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

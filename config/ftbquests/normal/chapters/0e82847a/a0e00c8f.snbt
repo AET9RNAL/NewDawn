@@ -1,0 +1,29 @@
+{
+	x: -20.5d,
+	y: -1.0d,
+	text: [
+		"Transfer rate: 1562500Mn/t; Range in blocks: 36"
+	],
+	dependencies: [
+		"dcd2e917"
+	],
+	tasks: [{
+		uid: "65cd0b36",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_asgard"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "caec4ebc",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 32
+	}]
+}

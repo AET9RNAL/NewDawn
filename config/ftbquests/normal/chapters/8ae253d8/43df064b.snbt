@@ -1,0 +1,22 @@
+{
+	x: -65.0d,
+	y: -17.0d,
+	dependencies: [
+		"cd93c85a"
+	],
+	tasks: [{
+		uid: "50dad2d7",
+		type: "item",
+		items: [{
+			item: "mekanism:mektool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11462c14",
+		type: "item",
+		item: "industrialupgrade:quantumitems3",
+		count: 3
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -22.5d,
+	shape: "diamond",
+	dependencies: [
+		"b9ab5de8",
+		"4d543ebf"
+	],
+	tasks: [{
+		uid: "b9369caf",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_iridium",
+			tag: {
+				damage: 123428
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

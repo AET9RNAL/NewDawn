@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 9.0d,
+	dependencies: [
+		"22411e79"
+	],
+	tasks: [{
+		uid: "a3854431",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wired_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "c4d7fd4a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

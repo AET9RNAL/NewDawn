@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	dependencies: [
+		"20055e51",
+		"a04cbfd8"
+	],
+	tasks: [{
+		uid: "9b9d1b2a",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "a06cfcc9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

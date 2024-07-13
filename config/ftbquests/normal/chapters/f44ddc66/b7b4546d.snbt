@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -22.5d,
+	shape: "diamond",
+	dependencies: [
+		"c68ff69b",
+		"4658e6df"
+	],
+	tasks: [{
+		uid: "271e0637",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_rotor_bronze",
+			tag: {
+				damage: 43200
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

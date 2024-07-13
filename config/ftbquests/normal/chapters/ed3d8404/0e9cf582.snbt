@@ -1,0 +1,24 @@
+{
+	x: 14.5d,
+	y: 0.0d,
+	dependencies: [
+		"f0378987"
+	],
+	tasks: [{
+		uid: "e61d656d",
+		type: "item",
+		items: [{
+			item: "divinerpg:nightmare_bed"
+		}]
+	}],
+	rewards: [{
+		uid: "7da1f5a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

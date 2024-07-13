@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -15.5d,
+	shape: "diamond",
+	dependencies: [
+		"ecbbefba",
+		"88dcdad3"
+	],
+	tasks: [{
+		uid: "664e4959",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:neutron",
+			tag: {
+				damage: 27648000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

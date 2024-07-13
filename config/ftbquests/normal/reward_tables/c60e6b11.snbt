@@ -1,0 +1,139 @@
+{
+	title: "Uncommon Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "thermalfoundation:material 1 160",
+		count: 12
+	},
+	{
+		item: "industrialupgrade:blockresource 1 8",
+		count: 2
+	},
+	{
+		item: "gendustry:genetics_processor",
+		count: 2
+	},
+	{
+		item: "minecraft:lapis_block"
+	},
+	{
+		item: "minecraft:daylight_detector"
+	},
+	{
+		item: "minecraft:piston",
+		count: 3
+	},
+	{
+		item: "minecraft:hopper",
+		count: 2
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:treetap"
+	},
+	{
+		item: "minecraft:clock"
+	},
+	{
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:healing"
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 8
+	},
+	{
+		item: "botania:manaresource",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 23"
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 17",
+		count: 6
+	},
+	{
+		item: "industrialupgrade:cable_iu_item 1 12",
+		count: 12
+	},
+	{
+		item: "industrialupgrade:forge_hammer"
+	},
+	{
+		item: "industrialupgrade:single_use_battery",
+		count: 16
+	},
+	{
+		item: "mekanism:controlcircuit",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:circuit 1 15",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 42",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 294",
+		count: 3
+	},
+	{
+		item: "thermalexpansion:augment 1 128"
+	},
+	{
+		item: "avaritia:resource 1 1"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 4
+	},
+	{
+		item: "mekanism:enrichedalloy",
+		count: 5
+	},
+	{
+		item: "minecraft:gold_ore",
+		count: 10
+	},
+	{
+		item: "industrialupgrade:circuit 1 16",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:blockresource 1 4",
+		count: 2
+	},
+	{
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		item: "mekanism:basicblock 1 8"
+	}],
+	loot_crate: {
+		string_id: "uncommon_crate",
+		color: 2600544,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

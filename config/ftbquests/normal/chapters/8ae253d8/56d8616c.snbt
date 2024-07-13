@@ -1,0 +1,36 @@
+{
+	x: -60.0d,
+	y: -17.0d,
+	shape: "diamond",
+	dependencies: [
+		"aa0713f0"
+	],
+	tasks: [{
+		uid: "d387622f",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogeneratoradd 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d57bebef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "917e4b25",
+		type: "item",
+		item: {
+			id: "industrialupgrade:rotor_steel",
+			tag: {
+				damage: 115200
+			}
+		}
+	}]
+}

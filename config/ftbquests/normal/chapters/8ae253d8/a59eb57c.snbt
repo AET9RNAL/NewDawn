@@ -1,0 +1,29 @@
+{
+	x: -48.5d,
+	y: -10.5d,
+	dependencies: [
+		"c43abcfa"
+	],
+	tasks: [{
+		uid: "c7250f6f",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}]
+	}],
+	rewards: [{
+		uid: "555a2fa6",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 8"
+	},
+	{
+		uid: "cda0c5b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

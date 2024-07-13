@@ -1,0 +1,21 @@
+{
+	x: 24.0d,
+	y: 13.5d,
+	shape: "diamond",
+	dependencies: [
+		"5e06d9e6",
+		"3de0dbf6"
+	],
+	tasks: [{
+		uid: "760c1a18",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantumshovel",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

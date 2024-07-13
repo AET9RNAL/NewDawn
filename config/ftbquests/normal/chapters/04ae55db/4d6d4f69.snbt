@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "fe63fb1d",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_boots",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1829a84f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

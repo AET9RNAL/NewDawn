@@ -1,0 +1,12 @@
+{
+	x: -18.0d,
+	y: 23.5d,
+	shape: "square",
+	tasks: [{
+		uid: "2f00f0f5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:plastic_plate"
+		}]
+	}]
+}

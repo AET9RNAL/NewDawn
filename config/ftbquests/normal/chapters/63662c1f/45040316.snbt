@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"6b6cf889"
+	],
+	tasks: [{
+		uid: "79de0839",
+		type: "item",
+		items: [{
+			item: "draconicevolution:entity_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "13a88ca0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

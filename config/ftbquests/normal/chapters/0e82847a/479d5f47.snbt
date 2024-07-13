@@ -1,0 +1,28 @@
+{
+	x: -15.0d,
+	y: -17.5d,
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "5ea8f35e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "sunbless"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "732681e6",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 4
+	}]
+}

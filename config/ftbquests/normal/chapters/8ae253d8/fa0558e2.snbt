@@ -1,0 +1,30 @@
+{
+	x: -47.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "23e06965",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "350fff34",
+		type: "item",
+		item: {
+			id: "mekanism:configurator",
+			tag: {
+				mekData: {
+					energyStored: 60000.0d
+				}
+			}
+		}
+	},
+	{
+		uid: "f43a881f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

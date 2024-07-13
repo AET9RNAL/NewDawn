@@ -1,0 +1,26 @@
+{
+	x: -59.5d,
+	y: -29.5d,
+	shape: "diamond",
+	dependencies: [
+		"586d95ae"
+	],
+	tasks: [{
+		uid: "64df70b3",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:avaritiagenerator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4311772a",
+		type: "item",
+		item: {
+			id: "industrialupgrade:adronrotor",
+			tag: {
+				damage: 442368000
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	dependencies: [
+		"6b6cf889"
+	],
+	tasks: [{
+		uid: "c7dc937a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_energy_core"
+		}]
+	}],
+	rewards: [{
+		uid: "47c3256a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

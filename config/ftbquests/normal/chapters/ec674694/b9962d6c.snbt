@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	dependencies: [
+		"4cdcdb6d"
+	],
+	tasks: [{
+		uid: "3067ebdd",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "6a824a80",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

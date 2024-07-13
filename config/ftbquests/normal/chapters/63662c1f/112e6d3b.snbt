@@ -1,0 +1,35 @@
+{
+	x: -3.5d,
+	y: -15.0d,
+	dependencies: [
+		"247c7864",
+		"4d6d9a9f",
+		"cbf2848f",
+		"d4ffe3d2"
+	],
+	tasks: [{
+		uid: "0474b23c",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_staff_of_power",
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4264354",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

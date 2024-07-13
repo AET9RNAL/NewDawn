@@ -1,0 +1,55 @@
+{
+	x: -95.08333333333331d,
+	y: -18.690476190476204d,
+	shape: "square",
+	text: [
+		"Just a basic energy matrix setup"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2f6f1b9e",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 1"
+		}],
+		count: 25L
+	},
+	{
+		uid: "395c3a3c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 10"
+		}],
+		count: 8L
+	},
+	{
+		uid: "91d22616",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e3f0cdb8",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 3s,
+			tag: {
+				tier: 0
+			}
+		}]
+	},
+	{
+		uid: "b8a4b480",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 4s,
+			tag: {
+				tier: 0
+			}
+		}]
+	}]
+}

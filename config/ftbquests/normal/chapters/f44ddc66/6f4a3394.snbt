@@ -1,0 +1,56 @@
+{
+	x: -21.0d,
+	y: -3.5d,
+	shape: "diamond",
+	dependencies: [
+		"6829caab"
+	],
+	tasks: [{
+		uid: "6c729726",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemplates 1 27"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3a3e6cf3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemplates 1 22"
+		}],
+		count: 16L
+	},
+	{
+		uid: "60746af2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemplates 1 20"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d08faf2b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemplates 1 21"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "def7ccec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "ee0b667e",
+		type: "item",
+		item: "industrialupgrade:cable_iu_item 1 13",
+		count: 8
+	}]
+}

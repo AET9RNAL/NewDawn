@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 4.4d,
+	shape: "square",
+	dependencies: [
+		"7ae9c4b3"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "df23c7fc",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solar_panel_battery 1 4"
+		}]
+	}]
+}

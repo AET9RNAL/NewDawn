@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: -3.5d,
+	text: [
+		"§4Для чего? Сами придумайте"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "f190eef8",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcreativecoolantport"
+		}]
+	}],
+	rewards: [{
+		uid: "2a203055",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

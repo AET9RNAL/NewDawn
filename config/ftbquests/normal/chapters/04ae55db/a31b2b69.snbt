@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	text: [
+		"§4Энергия для вашей МЭ(более оптимизировано чем запитка МЭ от РФ)"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "fabf59d6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "b6d88dfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

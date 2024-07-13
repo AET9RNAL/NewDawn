@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 18.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "178f442e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fiery_ingot_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1ad98c11",
+		type: "xp",
+		xp: 100
+	}]
+}

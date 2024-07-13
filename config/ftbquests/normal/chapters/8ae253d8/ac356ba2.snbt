@@ -1,0 +1,21 @@
+{
+	x: -47.5d,
+	y: -5.0d,
+	dependencies: [
+		"fa0558e2"
+	],
+	tasks: [{
+		uid: "62aeae04",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:baseore1 1 3"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "bdeb5a62",
+		type: "item",
+		item: "industrialupgrade:gear 1 19",
+		count: 4
+	}]
+}

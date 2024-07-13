@@ -1,0 +1,16 @@
+{
+	x: -43.306122448979636d,
+	y: -21.489115646258526d,
+	dependencies: [
+		"bfd62f8b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "09ca101c",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockmachine 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

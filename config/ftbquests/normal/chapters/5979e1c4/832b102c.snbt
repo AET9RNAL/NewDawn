@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 18.5d,
+	dependencies: [
+		"2b87ca87"
+	],
+	tasks: [{
+		uid: "9d5c6976",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ironwood_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "299fed10",
+		type: "xp",
+		xp: 100
+	}]
+}

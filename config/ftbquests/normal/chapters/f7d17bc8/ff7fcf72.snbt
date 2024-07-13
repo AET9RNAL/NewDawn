@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 12.5d,
+	dependencies: [
+		"40128603"
+	],
+	tasks: [{
+		uid: "4f76322a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ae2uel_processor_universal"
+		}]
+	}],
+	rewards: [{
+		uid: "e80de1eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

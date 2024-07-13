@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -14.5d,
+	shape: "diamond",
+	dependencies: [
+		"b0ddf201",
+		"ad3d082b"
+	],
+	tasks: [{
+		uid: "e35c4e6a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:iridium",
+			tag: {
+				damage: 123428
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

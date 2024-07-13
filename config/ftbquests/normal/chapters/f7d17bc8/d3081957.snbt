@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	dependencies: [
+		"d552cf75"
+	],
+	tasks: [{
+		uid: "5f5fbe14",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7dfe3bf",
+		type: "xp",
+		xp: 100
+	}]
+}

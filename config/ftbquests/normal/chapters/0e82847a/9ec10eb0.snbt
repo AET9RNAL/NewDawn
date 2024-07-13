@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -4.0d,
+	dependencies: [
+		"951d71a0"
+	],
+	tasks: [{
+		uid: "3f408b18",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "c1f27f5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

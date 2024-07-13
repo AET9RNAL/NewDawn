@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -8.0d,
+	shape: "diamond",
+	dependencies: [
+		"fca8fad0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "344423b3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachine_constellation_generator"
+		}]
+	}]
+}

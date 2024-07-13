@@ -1,0 +1,24 @@
+{
+	x: 18.5d,
+	y: -5.5d,
+	dependencies: [
+		"bf941c0b"
+	],
+	tasks: [{
+		uid: "373d1b78",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special"
+		}]
+	}],
+	rewards: [{
+		uid: "cd924294",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

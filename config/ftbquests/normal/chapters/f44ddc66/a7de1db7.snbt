@@ -1,0 +1,30 @@
+{
+	x: -24.5d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"6c729726",
+		"7396d812",
+		"95502b02"
+	],
+	tasks: [{
+		uid: "f8070a71",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 19"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4aa4dbf7",
+		type: "item",
+		item: "industrialupgrade:itemplates 1 27",
+		count: 32
+	},
+	{
+		uid: "0da38544",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 6
+	}]
+}

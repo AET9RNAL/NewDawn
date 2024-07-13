@@ -1,0 +1,24 @@
+{
+	icon: "divinerpg:sunstorm_statue",
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"ef8dd3f4"
+	],
+	tasks: [{
+		uid: "ec28436d",
+		type: "kill",
+		entity: "divinerpg:sunstorm",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "676ea3ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

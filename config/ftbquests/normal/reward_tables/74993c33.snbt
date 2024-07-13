@@ -1,0 +1,220 @@
+{
+	title: "Legendary Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:controller",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_64k"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: "extrabotany:quantummanabuffer"
+	},
+	{
+		item: "draconicevolution:magnet 1 1"
+	},
+	{
+		item: "draconicevolution:wyvern_core"
+	},
+	{
+		item: {
+			id: "industrialupgrade:itembatlamacrystal",
+			tag: {
+				charge: 1.0E8d
+			}
+		}
+	},
+	{
+		item: "avaritia:block_resource 1 2"
+	},
+	{
+		item: "threng:machine 1 3",
+		count: 2
+	},
+	{
+		item: "threng:big_assembler",
+		count: 12
+	},
+	{
+		item: "threng:machine 1 5"
+	},
+	{
+		item: "thermalfoundation:material 1 1025",
+		count: 32
+	},
+	{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}
+	},
+	{
+		item: "draconicevolution:fusion_crafting_core"
+	},
+	{
+		item: "draconicevolution:energy_storage_core"
+	},
+	{
+		item: "industrialupgrade:module_quickly",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:black_hole_controller_reworked"
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 24"
+	},
+	{
+		item: {
+			id: "industrialupgrade:nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:nano_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:nano_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: "mekanismecoenergistics:ecogenerator 1 4"
+	},
+	{
+		item: "botaniverse:morepool 1 2"
+	},
+	{
+		item: {
+			id: "industrialupgrade:basemachine3",
+			Damage: 30s,
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:mektool",
+			tag: {
+				mekData: {
+					energyStored: 1.0E7d
+				}
+			}
+		}
+	},
+	{
+		item: "mekanismgenerators:reactor"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:perfect_energy_cell",
+			tag: {
+				internalCurrentPower: 1.28E7d,
+				internalMaxPower: 1.28E7d
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "mekanism:basicblock2",
+			Damage: 3s,
+			tag: {
+				tier: 3
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "industrialupgrade:draconicpanel",
+			tag: {}
+		}
+	},
+	{
+		item: "industrialupgrade:modules 1 17"
+	},
+	{
+		item: "industrialupgrade:modultype 1 4"
+	},
+	{
+		item: "industrialupgrade:module_quickly",
+		count: 8
+	},
+	{
+		item: {
+			id: "industrialupgrade:spectralpickaxe",
+			tag: {
+				charge: 5.0E7d,
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:spectral_bow",
+			tag: {
+				charge: 150000.0d,
+				ID_Item: 2147483647
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:per_lappack",
+			tag: {
+				charge: 1.0E8d
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "legendary_crate",
+		color: 15844367,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

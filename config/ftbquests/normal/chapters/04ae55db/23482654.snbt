@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"§4Тут и так понятно"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "04b22018",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_shovel",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

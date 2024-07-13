@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: 17.0d,
+	dependencies: [
+		"aa9f6a7c"
+	],
+	tasks: [{
+		uid: "0d7f1774",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7a698013",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

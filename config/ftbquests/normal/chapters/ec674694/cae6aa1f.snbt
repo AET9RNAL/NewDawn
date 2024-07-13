@@ -1,0 +1,206 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	dependencies: [
+		"9a66b63c"
+	],
+	tasks: [{
+		uid: "f5625da9",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1e6f291a",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "379c7362",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "13229d4d",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e37d57d0",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fbb92724",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "89b85848",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fbe7f34b",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 3"
+		}],
+		count: 16L
+	},
+	{
+		uid: "45d32bfa",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 4"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1f99e88a",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "52bedb0b",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 5"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f585fc40",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 6"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9c25d2cd",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6b83819b",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 7"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f9385275",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "8b0bc705",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b0d00a3c",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 9"
+		}],
+		count: 16L
+	},
+	{
+		uid: "c9a61a05",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 10"
+		}],
+		count: 16L
+	},
+	{
+		uid: "072fab35",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 11"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5bff4360",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "07b297d4",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4c12c0c2",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ce1e9a78",
+		type: "item",
+		items: [{
+			item: "enderio:item_data_conduit"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2f25c0f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "527c3a8e",
+		type: "xp",
+		xp: 100
+	}]
+}

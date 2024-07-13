@@ -1,0 +1,17 @@
+{
+	x: -1.2d,
+	y: 16.8d,
+	shape: "square",
+	dependencies: [
+		"736cfe92"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "8a38506d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_reinforced_fiery"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -64.0d,
+	y: -30.0d,
+	dependencies: [
+		"58224afa"
+	],
+	tasks: [{
+		uid: "fbdbc802",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:controlcircuitavaritia 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2b4f6d55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

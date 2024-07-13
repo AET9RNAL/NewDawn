@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"d552cf75"
+	],
+	tasks: [{
+		uid: "794a1238",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "1b57bd62",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

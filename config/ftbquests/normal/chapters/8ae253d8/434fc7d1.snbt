@@ -1,0 +1,33 @@
+{
+	x: -58.0d,
+	y: -7.0d,
+	dependencies: [
+		"449fddae"
+	],
+	tasks: [{
+		uid: "f9bb0aaa",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "d2184d56",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "0ef64f5f",
+		type: "item",
+		item: {
+			id: "industrialupgrade:basemachine2",
+			Damage: 10s,
+			tag: {}
+		}
+	}]
+}

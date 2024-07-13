@@ -1,0 +1,35 @@
+{
+	x: -61.5d,
+	y: -16.5d,
+	shape: "diamond",
+	dependencies: [
+		"be991a1a"
+	],
+	tasks: [{
+		uid: "23e6f417",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogenerator 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebb9f064",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "854029ea",
+		type: "item",
+		item: {
+			id: "industrialupgrade:machines",
+			Damage: 1s,
+			tag: {}
+		}
+	}]
+}

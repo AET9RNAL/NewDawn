@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"6b6cf889"
+	],
+	tasks: [{
+		uid: "dae52a80",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "44ecd98a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	dependencies: [
+		"582a7958"
+	],
+	tasks: [{
+		uid: "d04b6883",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "24e88d50",
+		type: "item",
+		item: {
+			id: "extrabotany:lens",
+			Damage: 6s,
+			tag: {}
+		}
+	},
+	{
+		uid: "0bfdea19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

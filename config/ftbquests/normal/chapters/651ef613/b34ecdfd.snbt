@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -10.0d,
+	shape: "diamond",
+	text: [
+		"This machine can create perfect rock crystals, no more complex automations!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ac33f20d",
+		type: "item",
+		items: [{
+			item: "multiblocked:astralmachine_crystallizer"
+		}]
+	}]
+}

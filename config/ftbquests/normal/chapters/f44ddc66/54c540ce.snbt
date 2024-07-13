@@ -1,0 +1,21 @@
+{
+	x: 31.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"02a2ba6d",
+		"a7df0310"
+	],
+	tasks: [{
+		uid: "efe524fe",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

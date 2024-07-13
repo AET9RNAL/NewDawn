@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -7.5d,
+	shape: "diamond",
+	dependencies: [
+		"45996036",
+		"060e3509"
+	],
+	tasks: [{
+		uid: "ce77336e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:machines",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

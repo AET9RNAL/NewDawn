@@ -1,0 +1,30 @@
+{
+	x: -19.0d,
+	y: -4.0d,
+	text: [
+		"Mana capacity is x10 the normal pool. Emits/Accepts at higher rates"
+	],
+	dependencies: [
+		"9ec10eb0"
+	],
+	tasks: [{
+		uid: "5dc009e1",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "95b3de60",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 3s,
+			tag: {
+				weight: 189
+			}
+		},
+		count: 6
+	}]
+}

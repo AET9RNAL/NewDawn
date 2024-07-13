@@ -1,0 +1,28 @@
+{
+	x: -91.0d,
+	y: -19.5d,
+	dependencies: [
+		"c3f4ea5d"
+	],
+	tasks: [{
+		uid: "e476dbbd",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 4s,
+			tag: {
+				tier: 2
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "77360686",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

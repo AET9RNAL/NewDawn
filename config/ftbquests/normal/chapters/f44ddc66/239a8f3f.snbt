@@ -1,0 +1,31 @@
+{
+	x: -17.5d,
+	y: 3.5d,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "2b0b2418",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:blockresource 1 9"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "70a4de48",
+		type: "item",
+		item: "mekanism:basicblock 1 8",
+		count: 2
+	},
+	{
+		uid: "ed2280d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

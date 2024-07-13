@@ -1,0 +1,36 @@
+{
+	x: -19.0d,
+	y: -1.0d,
+	text: [
+		"Mana capacity is x2147 the normal pool. Emits/Accepts at higher rates"
+	],
+	dependencies: [
+		"3f761fe5"
+	],
+	tasks: [{
+		uid: "ee818967",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool 1 3"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "664cde23",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 3s,
+			tag: {
+				weight: 189
+			}
+		},
+		count: 6
+	},
+	{
+		uid: "ce0161bd",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 32
+	}]
+}

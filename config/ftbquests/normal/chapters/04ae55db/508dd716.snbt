@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	text: [
+		"§4Станьте тру фермером!"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "67198629",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_hoe",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

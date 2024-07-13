@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -21.0d,
+	dependencies: [
+		"e64d5ac1"
+	],
+	tasks: [{
+		uid: "ce5cb2da",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaotic_bow",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b94c407",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

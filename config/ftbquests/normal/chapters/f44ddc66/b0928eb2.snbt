@@ -1,0 +1,21 @@
+{
+	x: 19.5d,
+	y: 14.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"570b076e",
+		"b003e685"
+	],
+	tasks: [{
+		uid: "df1643b3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_saber",
+			Damage: 27s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

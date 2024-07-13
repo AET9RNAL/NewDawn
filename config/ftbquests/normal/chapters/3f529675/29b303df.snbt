@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -5.5d,
+	dependencies: [
+		"a2bfffe3"
+	],
+	tasks: [{
+		uid: "e1f22447",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	}],
+	rewards: [{
+		uid: "663c07b0",
+		type: "xp",
+		xp: 100
+	}]
+}

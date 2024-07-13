@@ -1,0 +1,39 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	dependencies: [
+		"3943f7aa"
+	],
+	tasks: [{
+		uid: "31fab9a6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 9s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2747d178",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -9.0d,
+	shape: "diamond",
+	text: [
+		"A quarry capable of generating a handful of ores by effectively utilizing a focused ray of Mineralis constellation. Your first, advanced, automatic way of",
+		"getting lots of resources"
+	],
+	dependencies: [
+		"fca8fad0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4adb1ba2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachine_astral_quarry"
+		}]
+	}],
+	rewards: [{
+		uid: "89688383",
+		type: "item",
+		item: "astraladditions:ring_astral"
+	},
+	{
+		uid: "2c069b08",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 275",
+		count: 12
+	}]
+}

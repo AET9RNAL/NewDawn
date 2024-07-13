@@ -1,0 +1,24 @@
+{
+	x: -13.5d,
+	y: 6.5d,
+	shape: "diamond",
+	dependencies: [
+		"b3285c4c"
+	],
+	tasks: [{
+		uid: "f75f991f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine",
+			Damage: 1s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6a014b3",
+		type: "item",
+		item: "industrialupgrade:itemcore 1 6",
+		count: 2
+	}]
+}

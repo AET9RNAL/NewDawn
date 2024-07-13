@@ -1,0 +1,33 @@
+{
+	x: -48.5d,
+	y: -12.5d,
+	dependencies: [
+		"c4d91faf"
+	],
+	tasks: [{
+		uid: "edf2384a",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6e8cdaa3",
+		type: "item",
+		item: {
+			id: "industrialupgrade:basemachine3",
+			Damage: 28s,
+			tag: {}
+		}
+	},
+	{
+		uid: "a82c4fad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 26.5d,
+	y: 6.5d,
+	shape: "diamond",
+	dependencies: [
+		"350df0f3",
+		"6fc52772"
+	],
+	tasks: [{
+		uid: "a896ebda",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

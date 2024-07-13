@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -11.0d,
+	shape: "diamond",
+	text: [
+		"Like a normal starlight infuser, but automated. There is LazyAE, and then there is what I'd call LazyAS, lol"
+	],
+	dependencies: [
+		"c2c2c9a3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "36b21621",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachinee_starlight_infuser"
+		}]
+	}]
+}

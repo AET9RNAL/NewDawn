@@ -1,0 +1,51 @@
+{
+	x: -41.0d,
+	y: -22.0d,
+	shape: "square",
+	dependencies: [
+		"d0c18b38"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "65d1ca75",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "37746446",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}],
+		count: 3L,
+		only_from_crafting: true
+	},
+	{
+		uid: "93c6b330",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}],
+		count: 36L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6dadf81c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "af79031e",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 2",
+		count: 48
+	}]
+}

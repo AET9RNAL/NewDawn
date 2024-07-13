@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "a74af1e4",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_grainy"
+		}]
+	}],
+	rewards: [{
+		uid: "0a52b815",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

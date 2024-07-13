@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "extrabotany:buddhistrelics",
+		tag: {}
+	},
+	x: -12.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "be302150",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8d0e4622",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: -12.0d,
+	dependencies: [
+		"95b073dd"
+	],
+	tasks: [{
+		uid: "624e9f47",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "426b5afa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

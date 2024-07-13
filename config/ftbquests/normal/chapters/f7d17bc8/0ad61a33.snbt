@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 8.5d,
+	shape: "diamond",
+	dependencies: [
+		"ff7fcf72"
+	],
+	tasks: [{
+		uid: "2026cb43",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "a0d1633b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

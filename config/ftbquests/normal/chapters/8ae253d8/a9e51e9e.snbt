@@ -1,0 +1,36 @@
+{
+	x: -60.0d,
+	y: -21.0d,
+	shape: "diamond",
+	dependencies: [
+		"3a643c69"
+	],
+	tasks: [{
+		uid: "9485272c",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogeneratoradd 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f27280b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "23ff76d9",
+		type: "item",
+		item: {
+			id: "industrialupgrade:spectral",
+			tag: {
+				damage: 157090
+			}
+		}
+	}]
+}

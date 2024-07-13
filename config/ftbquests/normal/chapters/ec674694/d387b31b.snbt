@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: 6.0d,
+	dependencies: [
+		"4cdcdb6d"
+	],
+	tasks: [{
+		uid: "896a8c8a",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "5b86eead",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

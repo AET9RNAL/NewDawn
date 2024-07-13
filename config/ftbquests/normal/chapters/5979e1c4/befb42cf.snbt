@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -6.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "19b412a7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fire_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7dc091b0",
+		type: "xp",
+		xp: 100
+	}]
+}

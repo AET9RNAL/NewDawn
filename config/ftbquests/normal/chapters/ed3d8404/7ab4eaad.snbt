@@ -1,0 +1,24 @@
+{
+	x: 14.5d,
+	y: 2.5d,
+	dependencies: [
+		"6f09d1f3"
+	],
+	tasks: [{
+		uid: "0bf87171",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vethea_core"
+		}]
+	}],
+	rewards: [{
+		uid: "15565f50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

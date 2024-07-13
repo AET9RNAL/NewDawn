@@ -1,0 +1,38 @@
+{
+	x: -52.5d,
+	y: -9.0d,
+	dependencies: [
+		"2f57729b",
+		"d3d3d2bc"
+	],
+	tasks: [{
+		uid: "52b37213",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a19f8954",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "9499b48b",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 137",
+		count: 2
+	},
+	{
+		uid: "1d7207d4",
+		type: "item",
+		item: "industrialupgrade:itemdust 1 23",
+		count: 12
+	}]
+}

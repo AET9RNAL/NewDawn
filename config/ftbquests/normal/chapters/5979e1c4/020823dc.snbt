@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 5.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "6cbf977f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:invar_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8ff4e0f6",
+		type: "xp",
+		xp: 100
+	}]
+}

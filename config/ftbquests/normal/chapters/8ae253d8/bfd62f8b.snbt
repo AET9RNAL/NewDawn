@@ -1,0 +1,27 @@
+{
+	x: -47.5d,
+	y: -21.5d,
+	shape: "diamond",
+	dependencies: [
+		"2f57729b",
+		"ced8590e"
+	],
+	tasks: [{
+		uid: "d0678ce8",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ef6a254",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

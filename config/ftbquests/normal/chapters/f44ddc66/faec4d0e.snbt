@@ -1,0 +1,39 @@
+{
+	x: -20.5d,
+	y: 25.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"239a8f3f"
+	],
+	tasks: [{
+		uid: "f578e453",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine3",
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9d17acf9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "3d5f0a35",
+		type: "item",
+		item: "xlfoodmod:oreo_cake",
+		count: 4
+	},
+	{
+		uid: "ab1a314f",
+		type: "item",
+		item: "xlfoodmod:super_energy_drink"
+	}]
+}

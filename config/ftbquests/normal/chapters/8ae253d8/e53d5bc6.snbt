@@ -1,0 +1,26 @@
+{
+	x: -70.5d,
+	y: -13.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ced8590e"
+	],
+	tasks: [{
+		uid: "20e74f48",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1196c200",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	dependencies: [
+		"6680b0e6"
+	],
+	tasks: [{
+		uid: "045f9d36",
+		type: "item",
+		items: [{
+			item: "contenttweaker:apalachia_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9bdba082",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	dependencies: [
+		"22411e79"
+	],
+	tasks: [{
+		uid: "b4409b32",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "8f013a0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

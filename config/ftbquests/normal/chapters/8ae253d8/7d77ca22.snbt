@@ -1,0 +1,24 @@
+{
+	x: -52.5d,
+	y: -13.5d,
+	dependencies: [
+		"ef9f4beb"
+	],
+	tasks: [{
+		uid: "be56a0fd",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f14a9cef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

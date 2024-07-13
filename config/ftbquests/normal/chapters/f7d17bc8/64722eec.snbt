@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 18.5d,
+	dependencies: [
+		"40128603"
+	],
+	tasks: [{
+		uid: "5ff274a7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}]
+	}],
+	rewards: [{
+		uid: "e4b347de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

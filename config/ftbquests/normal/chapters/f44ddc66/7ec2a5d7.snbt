@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -5.5d,
+	shape: "diamond",
+	dependencies: [
+		"1a0429e8"
+	],
+	tasks: [{
+		uid: "302ef43d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:admcore_exc"
+		}]
+	}]
+}

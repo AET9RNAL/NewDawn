@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	dependencies: [
+		"9ec10eb0"
+	],
+	tasks: [{
+		uid: "e06e7ae7",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5c9b1e58",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 2s,
+			tag: {
+				weight: 113
+			}
+		}
+	}]
+}

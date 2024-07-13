@@ -1,0 +1,23 @@
+{
+	x: -11.0d,
+	y: 18.5d,
+	dependencies: [
+		"69d5d169",
+		"9feb010f"
+	],
+	tasks: [{
+		uid: "49313ec6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 37s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "2d38b4bf",
+		type: "item",
+		item: "industrialupgrade:solidmatter 1 3",
+		count: 64
+	}]
+}

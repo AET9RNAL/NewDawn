@@ -1,0 +1,36 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"3276b647"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ada0b0c2",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "6c99f02a",
+		type: "item",
+		item: "gendustry:apiary.upgrade",
+		count: 2
+	},
+	{
+		uid: "e249acc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "c27c3a2b",
+		type: "xp",
+		xp: 100
+	}]
+}

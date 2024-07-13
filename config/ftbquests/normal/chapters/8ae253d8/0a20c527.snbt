@@ -1,0 +1,27 @@
+{
+	x: -62.5d,
+	y: -19.0d,
+	dependencies: [
+		"a3bc4561"
+	],
+	tasks: [{
+		uid: "3b3a6378",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morecontrolcircuit 1 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f1332a06",
+		type: "item",
+		item: "redstonearsenal:material 1 32",
+		count: 16
+	},
+	{
+		uid: "16478e1a",
+		type: "item",
+		item: "industrialupgrade:circuit 1 11",
+		count: 6
+	}]
+}

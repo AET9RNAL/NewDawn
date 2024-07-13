@@ -1,0 +1,29 @@
+{
+	x: -47.5d,
+	y: -23.5d,
+	shape: "diamond",
+	dependencies: [
+		"8e96aaa2"
+	],
+	tasks: [{
+		uid: "394aa9d3",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75acc4c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

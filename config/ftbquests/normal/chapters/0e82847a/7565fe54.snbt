@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	dependencies: [
+		"9a624fc0"
+	],
+	tasks: [{
+		uid: "931a30fb",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_alfheim_portal"
+		}]
+	}],
+	rewards: [{
+		uid: "8a2dea61",
+		type: "item",
+		item: "botania:storage",
+		count: 16
+	},
+	{
+		uid: "4cca2e48",
+		type: "item",
+		item: "botania:storage 1 3",
+		count: 16
+	},
+	{
+		uid: "b961861b",
+		type: "item",
+		item: "botania:manaresource 1 1",
+		count: 64
+	}]
+}

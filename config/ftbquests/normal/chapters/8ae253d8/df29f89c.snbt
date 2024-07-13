@@ -1,0 +1,26 @@
+{
+	x: -73.03945578231296d,
+	y: -15.559183673469398d,
+	dependencies: [
+		"6e56a932"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "092143aa",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockgenerator 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d07951c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

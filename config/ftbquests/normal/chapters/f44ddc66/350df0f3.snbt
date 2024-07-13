@@ -1,0 +1,16 @@
+{
+	x: 26.5d,
+	y: 11.5d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"390a4d8c"
+	],
+	tasks: [{
+		uid: "e85c17e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:quantum_shield"
+		}]
+	}]
+}

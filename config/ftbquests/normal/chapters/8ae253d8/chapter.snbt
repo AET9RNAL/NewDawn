@@ -1,0 +1,29 @@
+{
+	title: "Mekanism",
+	icon: "mekanismecoenergistics:ecogeneratoradd 1 9",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -79.5d,
+		y: -19.0d,
+		width: 10.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/fusion_reactor.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -95.0d,
+		y: -20.0d,
+		width: 50.0d,
+		height: 25.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/induction_matrix.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

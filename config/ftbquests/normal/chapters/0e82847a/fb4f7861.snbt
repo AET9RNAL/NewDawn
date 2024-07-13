@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: -13.5d,
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "5ad7524c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2f23f4fb",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "69293c6a",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 32
+	}]
+}

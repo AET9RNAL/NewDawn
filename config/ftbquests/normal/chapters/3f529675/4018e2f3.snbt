@@ -1,0 +1,46 @@
+{
+	x: 3.0d,
+	y: -5.5d,
+	dependencies: [
+		"a2bfffe3"
+	],
+	tasks: [{
+		uid: "75b879ed",
+		type: "item",
+		items: [{
+			id: "gendustry:industrial_scoop",
+			Damage: 100s,
+			tag: {
+				charge: 0
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "efd8fa87",
+		type: "item",
+		items: [{
+			id: "gendustry:industrial_grafter",
+			Damage: 100s,
+			tag: {
+				charge: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8058496a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

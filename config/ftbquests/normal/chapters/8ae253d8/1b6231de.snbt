@@ -1,0 +1,21 @@
+{
+	x: -60.5d,
+	y: -16.0d,
+	dependencies: [
+		"41240f0a"
+	],
+	tasks: [{
+		uid: "32c34e56",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morecontrolcircuit 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f198054a",
+		type: "item",
+		item: "industrialupgrade:circuit 1 9",
+		count: 8
+	}]
+}

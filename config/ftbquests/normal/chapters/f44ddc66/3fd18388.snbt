@@ -1,0 +1,31 @@
+{
+	x: -11.0d,
+	y: 16.0d,
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "9365cf45",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:double_transformer",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "05b70a75",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "89b45af6",
+		type: "item",
+		item: "industrialupgrade:upgrademodules 1 3"
+	}]
+}

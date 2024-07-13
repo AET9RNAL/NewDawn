@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -14.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "4e9a8c2f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:compressed_honeycomb_shimmering"
+		}]
+	}],
+	rewards: [{
+		uid: "ae07f113",
+		type: "xp",
+		xp: 100
+	}]
+}

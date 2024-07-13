@@ -1,0 +1,38 @@
+{
+	x: -25.0d,
+	y: -0.5d,
+	shape: "diamond",
+	dependencies: [
+		"a7de1db7"
+	],
+	tasks: [{
+		uid: "30bea4ca",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 12"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "fc18b8d4",
+		type: "item",
+		item: "industrialupgrade:itemplates 1 20",
+		count: 32
+	},
+	{
+		uid: "68573e18",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 271",
+		count: 64
+	},
+	{
+		uid: "c9b198f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

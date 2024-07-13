@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	dependencies: [
+		"68d3c1b3",
+		"22e00ea1"
+	],
+	tasks: [{
+		uid: "2fc9c9d5",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "4637ea9d",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 1s,
+			tag: {
+				weight: 76
+			}
+		},
+		count: 2
+	}]
+}

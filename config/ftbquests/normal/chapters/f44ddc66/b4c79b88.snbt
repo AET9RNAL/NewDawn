@@ -1,0 +1,18 @@
+{
+	x: 16.0d,
+	y: 14.0d,
+	shape: "square",
+	dependencies: [
+		"390a4d8c"
+	],
+	tasks: [{
+		uid: "05765b22",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lapotron_crystal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

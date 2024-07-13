@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	dependencies: [
+		"a2c7804e"
+	],
+	tasks: [{
+		uid: "4d80386f",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaia_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "91b4a643",
+		type: "item",
+		item: "extrabotany:material 1 1",
+		count: 2
+	}]
+}

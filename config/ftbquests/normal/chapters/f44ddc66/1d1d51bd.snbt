@@ -1,0 +1,28 @@
+{
+	x: -16.5d,
+	y: -7.0d,
+	shape: "diamond",
+	dependencies: [
+		"78e8a51d"
+	],
+	tasks: [{
+		uid: "00ef1edc",
+		type: "item",
+		items: [{
+			id: "simplyquarries:simplyquarries",
+			Damage: 2s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f10e7a98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

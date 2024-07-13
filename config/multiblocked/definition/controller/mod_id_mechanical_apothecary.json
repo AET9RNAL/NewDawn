@@ -1,0 +1,414 @@
+{
+  "version": 2,
+  "location": "mod_id:mechanical_apothecary",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "INF",
+        "x": 7,
+        "y": 150,
+        "autoIO": true,
+        "tC": 100000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 55,
+      "y": 152,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 1000000,
+      "allowSpark": true
+    },
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 73,
+        "y": 3,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 78,
+        "y": 121,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 78,
+        "y": 83,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 59,
+        "y": 83,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 97,
+        "y": 102,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 78,
+        "y": 102,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 59,
+        "y": 102,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 97,
+        "y": 121,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 59,
+        "y": 121,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 97,
+        "y": 64,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 97,
+        "y": 83,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 78,
+        "y": 64,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 59,
+        "y": 64,
+        "autoIO": true
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "appliedenergistics2:controller",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:server_core",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "chisel:futura",
+          "meta": 4
+        },
+        "type": "blockstate"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Mechanical_Apothecary",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        " A B A ",
+        " A   A ",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "AAAAAAA",
+        "A     A",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "A     A",
+        " AAAAC ",
+        "       ",
+        "A      ",
+        "       ",
+        "       "
+      ],
+      [
+        "A     A",
+        " AADA@ ",
+        "   A   ",
+        "A  E   ",
+        "F      ",
+        "       "
+      ],
+      [
+        "A     A",
+        " AAAAG ",
+        "       ",
+        "A      ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "AAAAAAA",
+        "A     A",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "  AAA  ",
+        " A H A ",
+        " A   A ",
+        "       ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mod_id:mechanical_apothecary",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "avaritiaddons:avaritiaddons_chest",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "io": "IN",
+        "slotName": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "multiblocked:energy_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "contenttweaker:server_core",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "botania:altar",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "botania:pool",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN",
+        "slotName": "INF"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "avaritiaddons:avaritiaddons_chest",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "io": "OUT",
+        "slotName": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

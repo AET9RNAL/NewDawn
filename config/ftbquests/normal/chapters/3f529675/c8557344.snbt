@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	dependencies: [
+		"ec4e8c30"
+	],
+	tasks: [{
+		uid: "ad447fb0",
+		type: "item",
+		items: [{
+			item: "gendustry:env_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "b0092c25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

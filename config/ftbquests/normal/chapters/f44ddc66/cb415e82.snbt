@@ -1,0 +1,21 @@
+{
+	x: 29.5d,
+	y: 14.0d,
+	shape: "diamond",
+	dependencies: [
+		"74f8403a",
+		"d0a9cfc2"
+	],
+	tasks: [{
+		uid: "1ce15a58",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectralaxe",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -53.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa0558e2"
+	],
+	tasks: [{
+		uid: "d6ead064",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			Damage: 6s,
+			tag: {
+				tier: 0
+			}
+		}]
+	}]
+}

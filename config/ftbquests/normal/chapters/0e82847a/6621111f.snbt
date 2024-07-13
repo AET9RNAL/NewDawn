@@ -1,0 +1,29 @@
+{
+	x: -20.5d,
+	y: -3.0d,
+	text: [
+		"Transfer rate: 250000Mn/t; Range in blocks: 24"
+	],
+	dependencies: [
+		"b5ae5bcf"
+	],
+	tasks: [{
+		uid: "41db55a2",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_muspelheim"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "e3fffbf1",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 8
+	}]
+}

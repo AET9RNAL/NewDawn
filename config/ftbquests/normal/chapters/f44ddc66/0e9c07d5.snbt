@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6a9d56af"
+	],
+	tasks: [{
+		uid: "5734f337",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solar_panel_glass 1 11"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -4.8d,
+	y: 11.2d,
+	shape: "square",
+	dependencies: [
+		"5f49f7cf"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "12c07b07",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 353"
+		}]
+	}],
+	rewards: [{
+		uid: "9dc28dab",
+		type: "item",
+		item: {
+			id: "industrialupgrade:basemachine3",
+			Damage: 93s,
+			tag: {}
+		}
+	}]
+}

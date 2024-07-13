@@ -1,0 +1,16 @@
+{
+	x: -52.5d,
+	y: -5.5d,
+	dependencies: [
+		"c54ed0da"
+	],
+	tasks: [{
+		uid: "5930d69a",
+		type: "item",
+		items: [{
+			item: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

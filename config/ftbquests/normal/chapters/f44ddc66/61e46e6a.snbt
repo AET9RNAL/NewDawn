@@ -1,0 +1,22 @@
+{
+	x: 8.713775510204101d,
+	y: -23.018537414966d,
+	shape: "diamond",
+	dependencies: [
+		"0b0603cb",
+		"f969e3ef"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cbfca00b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_ultramarinerotor",
+			tag: {
+				damage: 1769472000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

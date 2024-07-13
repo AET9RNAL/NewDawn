@@ -1,0 +1,288 @@
+{
+    "images":
+    { 
+       "buttonbackground":
+       {
+        "image" : "cmm:textures/gui/buttonbckgr.png",
+            "posX" : 15,
+            "posY" : 33,
+            "width" : 200,
+            "height" : 2560,
+            "alignment" : "left"
+
+
+        },
+        "head":
+       {
+        "image" : "cmm:textures/gui/head.png",
+            "posX" : 140,
+            "posY" : -63,
+            "width" : 8,
+            "height" : 8,
+            "alignment" : "bottom_left"
+
+
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+            "posX" : 20,
+            "posY" : 100,
+			"textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 190,
+            "height" : 20,
+            "imageWidth" : 200,
+			"imageHeight" : 20,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10526880,
+            "alignment" : "left",
+            "texture" : "cmm:textures/gui/buttonback.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+            "alignment" : "left",
+            "posX" : 20,
+            "posY" : 130,
+            "textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 190,
+            "height" : 20,
+            "imageWidth" : 200,
+			"imageHeight" : 20,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10526880,
+            "texture" : "cmm:textures/gui/buttonback.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "alignment" : "left",
+            "posX" : 20,
+            "posY" : 160,
+            "textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 190,
+            "height" : 20,
+            "imageWidth" : 200,
+			"imageHeight" : 20,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10526880,
+            "texture" : "cmm:textures/gui/buttonback.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Options",
+            "alignment" : "left",
+            "posX" : 20,
+            "posY" : 188,
+            "textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth" : 80,
+			"imageHeight" : 20,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10526880,
+            "texture" : "cmm:textures/gui/buttonback.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit",
+            "alignment" : "left",
+            "posX" : 130,
+            "posY" : 188,
+            "textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 80,
+            "height" : 20,
+            "imageWidth" : 80,
+			"imageHeight" : 20,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10526880,
+            "texture" : "cmm:textures/gui/buttonback.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "alignment" : "left",
+            "posX" : 190,
+            "posY" : 213,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "alignment" : "left",
+            "posX" : 20,
+            "posY" : 213,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "cmm:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+    
+        "Discord":
+        {
+            "text" : "",
+			"texture" : "cmm:textures/gui/logo.png",
+			"hoverText" : "",
+			"alignment" : "left",
+            "posX" : 103,
+            "posY" : 185,
+            "width" : 25,
+            "height" : 25,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "https://linktr.ee/lovi_apte4kq"
+            }
+        }
+    },
+    
+    
+    
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -175,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+    
+        "creds":
+        {
+            "text" : "Modpack by: AETERNAL",
+            "posX" : 25,
+            "posY" : -60,
+            "textOffsetX" : 0,
+			"textOffsetY" : 0,
+            "width" : 80,
+            "height" : 20,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        "mpversion":
+        {
+            "text" : "ver: 1.3",
+            "posX" : 25,
+            "posY" : -45,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        "release":
+        {
+            "text" : "release date: 2024.NN.NN",
+            "posX" : 25,
+            "posY" : -30,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        
+        "mods":
+        {
+            "text" : "#modsloaded# Mods loaded,",
+            "posX" : 25,
+            "posY" : -15,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        },
+        "mods1":
+        {
+            "text" : "#modsactive# Mods active",
+            "posX" : 105,
+            "posY" : -15,
+            "color" : -250,
+            "alignment" : "bottom_left"
+        }
+
+    
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 223,
+            "posY" : 40,
+            "color" : -256,
+            "alignment" : "top_left",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "newdawn:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        },
+        "background":
+		{
+			"image" : "cmm:textures/gui/NDAP.png",
+            "mode" : "fill"
+		}
+        
+    }
+    
+ 
+
+
+
+}

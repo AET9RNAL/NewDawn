@@ -1,0 +1,48 @@
+{
+	x: -47.5d,
+	y: -15.0d,
+	dependencies: [
+		"8e96aaa2"
+	],
+	tasks: [{
+		uid: "73556501",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "b21156cc",
+		type: "item",
+		item: "moreplates:redstone_alloy_plate",
+		count: 8
+	},
+	{
+		uid: "8018162b",
+		type: "item",
+		item: "minecraft:piston",
+		count: 4
+	},
+	{
+		uid: "03545532",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 70"
+	},
+	{
+		uid: "91b8e3b3",
+		type: "item",
+		item: "industrialupgrade:gear 1 2",
+		count: 2
+	},
+	{
+		uid: "6061daf3",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		},
+		count: 16
+	}]
+}

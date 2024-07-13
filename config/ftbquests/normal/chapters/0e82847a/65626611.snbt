@@ -1,0 +1,28 @@
+{
+	x: -15.5d,
+	y: -14.5d,
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "a0151856",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "ba_rain_flower"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6db96129",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "contenttweaker:blocks/manamachine_bottom",
+    "up": "contenttweaker:blocks/manamachine_quantum_mana_liquid_transducer_top",
+    "north": "contenttweaker:blocks/manamachine_quantum_mana_liquid_transducer_front",
+    "south": "contenttweaker:blocks/manamachine_quantum_mana_liquid_transducer_leftrightback",
+    "west": "contenttweaker:blocks/manamachine_quantum_mana_liquid_transducer_leftrightback",
+    "east": "contenttweaker:blocks/manamachine_quantum_mana_liquid_transducer_leftrightback"
+  }
+}

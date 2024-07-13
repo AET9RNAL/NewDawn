@@ -1,0 +1,22 @@
+{
+	x: 16.0d,
+	y: 7.0d,
+	shape: "square",
+	dependencies: [
+		"ed6ddee4"
+	],
+	tasks: [{
+		uid: "ef943b5a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:compresscarbon"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "14f58801",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 275",
+		count: 12
+	}]
+}

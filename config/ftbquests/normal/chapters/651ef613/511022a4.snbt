@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -2.5d,
+	dependencies: [
+		"e4c677a9"
+	],
+	tasks: [{
+		uid: "5f49ef97",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemexchangewand",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c41620f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

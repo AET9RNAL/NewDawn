@@ -1,0 +1,19 @@
+{
+	x: -97.5d,
+	y: -10.5d,
+	dependencies: [
+		"367a78cf"
+	],
+	tasks: [{
+		uid: "1663636c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock3 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "a11afbf0",
+		type: "xp",
+		xp: 5000
+	}]
+}

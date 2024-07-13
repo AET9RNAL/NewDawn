@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"52296c4d"
+	],
+	tasks: [{
+		uid: "c8a8475b",
+		type: "item",
+		items: [{
+			id: "extrabotany:lens",
+			Damage: 6s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6b0ddaa8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

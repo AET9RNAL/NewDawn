@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	dependencies: [
+		"bd815ed7"
+	],
+	tasks: [{
+		uid: "ba535f4d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6cf6d277",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

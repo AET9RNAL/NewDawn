@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	text: [
+		"§4Драконье вымирание"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "868ccbba",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 69000L
+	}],
+	rewards: [{
+		uid: "a3868e38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "relic_crate"
+			}
+		},
+		count: 6
+	}]
+}

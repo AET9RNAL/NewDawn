@@ -1,0 +1,36 @@
+{
+  "name": "Starlight_synthesizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "c2ffdec3-a161-4110-9410-f9be55e460b9",
+      "duration": 1,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 50000,
+              "constellation": "astralsorcery.constellation.horologium"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}

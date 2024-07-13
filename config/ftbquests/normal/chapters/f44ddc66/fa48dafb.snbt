@@ -1,0 +1,33 @@
+{
+	x: -13.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"e32afed8"
+	],
+	tasks: [{
+		uid: "b6f01eb4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_se_gen",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "50f84b8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "8b29d59e",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 1"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 9.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "8250c291",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:basalt_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "870c4c1e",
+		type: "xp",
+		xp: 100
+	}]
+}

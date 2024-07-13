@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -10.5d,
+	dependencies: [
+		"e038bebc"
+	],
+	tasks: [{
+		uid: "cd94fe32",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_melodic"
+		}]
+	}],
+	rewards: [{
+		uid: "fc44f595",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

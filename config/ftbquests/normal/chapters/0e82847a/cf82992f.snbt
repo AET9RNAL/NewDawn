@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: 0.0d,
+	dependencies: [
+		"2ee29e94"
+	],
+	tasks: [{
+		uid: "3ce0c824",
+		type: "item",
+		items: [{
+			id: "botania:lens",
+			Damage: 2s,
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "019498e9",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	}]
+}

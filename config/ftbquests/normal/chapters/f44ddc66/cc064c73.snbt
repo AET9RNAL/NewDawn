@@ -1,0 +1,20 @@
+{
+	x: 21.0d,
+	y: 9.0d,
+	shape: "diamond",
+	dependencies: [
+		"fbd8a593"
+	],
+	tasks: [{
+		uid: "34c9e5fc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

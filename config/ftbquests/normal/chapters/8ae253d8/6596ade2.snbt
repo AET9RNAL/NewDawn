@@ -1,0 +1,39 @@
+{
+	x: -67.5d,
+	y: -15.5d,
+	text: [
+		"The ultimate power of the wind"
+	],
+	dependencies: [
+		"6e702e7b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d9a4b716",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockgenerator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "933bf66e",
+		type: "item",
+		item: {
+			id: "industrialupgrade:compressiridium",
+			tag: {
+				damage: 144000
+			}
+		}
+	},
+	{
+		uid: "9a312e11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

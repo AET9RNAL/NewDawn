@@ -1,0 +1,21 @@
+{
+	x: -62.5d,
+	y: -17.0d,
+	dependencies: [
+		"1b6231de"
+	],
+	tasks: [{
+		uid: "ce954297",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morecontrolcircuit 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "095344c6",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 1",
+		count: 32
+	}]
+}

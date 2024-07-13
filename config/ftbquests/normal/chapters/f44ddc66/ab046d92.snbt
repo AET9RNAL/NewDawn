@@ -1,0 +1,19 @@
+{
+	x: 29.0d,
+	y: 5.0d,
+	dependencies: [
+		"4c1fcbbe"
+	],
+	tasks: [{
+		uid: "d692c039",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral_bow",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

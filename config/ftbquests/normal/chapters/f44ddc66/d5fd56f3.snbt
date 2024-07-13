@@ -1,0 +1,30 @@
+{
+	x: -20.5d,
+	y: 23.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "7f57eb95",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:simplemachine",
+			Damage: 5s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "aa74450a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

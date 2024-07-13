@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -22.5d,
+	shape: "diamond",
+	dependencies: [
+		"9b7fd71f",
+		"0b0603cb"
+	],
+	tasks: [{
+		uid: "2c859133",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_adronrotor",
+			tag: {
+				damage: 442368000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

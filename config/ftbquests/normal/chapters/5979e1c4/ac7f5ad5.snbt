@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -10.0d,
+	tasks: [{
+		uid: "00558151",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1999e564",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

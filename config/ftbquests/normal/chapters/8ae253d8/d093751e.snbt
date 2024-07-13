@@ -1,0 +1,21 @@
+{
+	x: -61.5d,
+	y: -5.5d,
+	dependencies: [
+		"429f6cfe"
+	],
+	tasks: [{
+		uid: "444866f3",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0262c683",
+		type: "item",
+		item: "enderio:block_alloy 1 4",
+		count: 4
+	}]
+}

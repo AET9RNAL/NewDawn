@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 19.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "a40ea35d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fluix_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "49695d54",
+		type: "xp",
+		xp: 100
+	}]
+}

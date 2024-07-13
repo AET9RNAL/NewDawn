@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	text: [
+		"§4Может поместить целую вселенную"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "8767e809",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:avaritiaddons_chest 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "01717645",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

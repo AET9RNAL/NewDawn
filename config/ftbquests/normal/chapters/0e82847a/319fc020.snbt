@@ -1,0 +1,44 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	dependencies: [
+		"07a01b3f"
+	],
+	tasks: [{
+		uid: "ee52b088",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4576e0b4",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d26dd800",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	},
+	{
+		uid: "96d1ba6c",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 3s,
+			tag: {
+				weight: 189
+			}
+		},
+		count: 6
+	}]
+}

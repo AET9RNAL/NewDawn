@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -6.0d,
+	dependencies: [
+		"eb70ba2e"
+	],
+	tasks: [{
+		uid: "2f8e4592",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "3e9f49cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

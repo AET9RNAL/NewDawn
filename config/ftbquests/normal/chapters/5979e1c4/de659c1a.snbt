@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: -6.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "dfd3a6b3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tier4_inferium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1070bc76",
+		type: "xp",
+		xp: 100
+	}]
+}

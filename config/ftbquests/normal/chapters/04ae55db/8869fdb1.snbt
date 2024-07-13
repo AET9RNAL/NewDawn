@@ -1,0 +1,37 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	text: [
+		"§4Достаточно чтобы поднять в воздух целый мир"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "06ce8a5b",
+		type: "fluid",
+		fluid: "iufluidhelium",
+		amount: 1000000000
+	}],
+	rewards: [{
+		uid: "b6500573",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "1653e8c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

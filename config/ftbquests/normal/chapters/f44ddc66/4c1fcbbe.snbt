@@ -1,0 +1,19 @@
+{
+	x: 24.0d,
+	y: 5.0d,
+	dependencies: [
+		"600d8534"
+	],
+	tasks: [{
+		uid: "5e70c437",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_bow",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

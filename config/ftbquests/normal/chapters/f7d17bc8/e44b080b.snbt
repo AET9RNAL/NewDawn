@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: 4.0d,
+	dependencies: [
+		"143290a4"
+	],
+	tasks: [{
+		uid: "5dcd8cd0",
+		type: "item",
+		items: [{
+			item: "packagedastral:discovery_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "b39d7aa5",
+		type: "xp",
+		xp: 100
+	}]
+}

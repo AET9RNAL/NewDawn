@@ -1,0 +1,13 @@
+{
+	title: "Закат",
+	icon: {
+		id: "appliedenergistics2:creative_storage_cell",
+		tag: {},
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

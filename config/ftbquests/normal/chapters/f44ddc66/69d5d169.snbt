@@ -1,0 +1,32 @@
+{
+	x: -13.0d,
+	y: 17.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"239a8f3f"
+	],
+	tasks: [{
+		uid: "b02a2943",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:molecular",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "e3cde233",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 209",
+		count: 2
+	},
+	{
+		uid: "b0705686",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

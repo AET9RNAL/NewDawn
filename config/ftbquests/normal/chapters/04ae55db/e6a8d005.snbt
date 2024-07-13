@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -4.5d,
+	text: [
+		"§4Семена..."
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "5aa42457",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:stuff 1 69"
+		}]
+	}],
+	rewards: [{
+		uid: "1c20a10a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

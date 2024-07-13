@@ -1,0 +1,135 @@
+{
+	title: "Rare Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "enderio:block_solar_panel"
+	},
+	{
+		item: "enderio:block_solar_panel 1 1"
+	},
+	{
+		item: "divinerpg:rupee_ingot"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermaldynamics:duct_0 1 3"
+	},
+	{
+		item: "enderio:item_power_conduit 1 1"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent 1 1"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent 1 4"
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "minecraft:end_crystal"
+	},
+	{
+		item: {
+			id: "industrialupgrade:energy_crystal",
+			tag: {
+				charge: 1000000.0d
+			}
+		}
+	},
+	{
+		item: "industrialupgrade:itemingots 1 2"
+	},
+	{
+		item: "extrautils2:ingredients 1 11"
+	},
+	{
+		item: "extrautils2:drum 1 2"
+	},
+	{
+		item: "gendustry:apiary.upgrade"
+	},
+	{
+		item: "divinerpg:wildwood_chunk"
+	},
+	{
+		item: "botania:spreader"
+	},
+	{
+		item: "botania:altar"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 272",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:circuit 1 2",
+		count: 4
+	},
+	{
+		item: "mekanismgenerators:solarpanel",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 273",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 92",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 72",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 23"
+	},
+	{
+		item: "industrialupgrade:se_iu_item",
+		count: 6
+	},
+	{
+		item: "mekanism:reinforcedalloy",
+		count: 8
+	},
+	{
+		item: "mekanism:controlcircuit 1 1",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:blockresource 1 9",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:baseblockingot 1 6",
+		count: 2
+	},
+	{
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		},
+		count: 4
+	},
+	{
+		item: "mekanism:tierinstaller 1 2"
+	},
+	{
+		item: "mekanism:basicblock2 1 1",
+		count: 5
+	}],
+	loot_crate: {
+		string_id: "rare_crate",
+		color: 2388387,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

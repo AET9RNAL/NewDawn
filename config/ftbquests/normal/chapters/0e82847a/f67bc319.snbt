@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"a2c7804e"
+	],
+	tasks: [{
+		uid: "97b2374f",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_agglomeration_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "370d484b",
+		type: "item",
+		item: "extrabotany:spiritfuel",
+		count: 16
+	}]
+}

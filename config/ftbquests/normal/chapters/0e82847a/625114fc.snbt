@@ -1,0 +1,35 @@
+{
+	x: -12.5d,
+	y: -7.5d,
+	dependencies: [
+		"352cea00"
+	],
+	tasks: [{
+		uid: "caea3d44",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "45c184fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "0e11164a",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 12
+	}]
+}

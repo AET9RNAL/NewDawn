@@ -1,0 +1,24 @@
+{
+	x: -56.0d,
+	y: -10.0d,
+	dependencies: [
+		"449fddae"
+	],
+	tasks: [{
+		uid: "14ef45c7",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "fe92cc1b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

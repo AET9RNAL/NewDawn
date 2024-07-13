@@ -1,0 +1,21 @@
+{
+	x: -60.5d,
+	y: -24.0d,
+	dependencies: [
+		"f1afa59c"
+	],
+	tasks: [{
+		uid: "9908a842",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:morecontrolcircuit 1 9"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9ce2f84f",
+		type: "item",
+		item: "contenttweaker:neutronium_circuit",
+		count: 4
+	}]
+}

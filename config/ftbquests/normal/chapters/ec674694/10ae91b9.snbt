@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	dependencies: [
+		"f49038cc"
+	],
+	tasks: [{
+		uid: "c785af84",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "77f7483a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

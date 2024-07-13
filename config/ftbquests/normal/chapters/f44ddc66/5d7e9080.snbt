@@ -1,0 +1,28 @@
+{
+	x: -13.0d,
+	y: -7.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "c5a5ba9c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quarry_vein",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62c82527",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

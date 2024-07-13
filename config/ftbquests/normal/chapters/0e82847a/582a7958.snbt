@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"daef6d26"
+	],
+	tasks: [{
+		uid: "2cf57f63",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "12a052ea",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 2s,
+			tag: {
+				weight: 113
+			}
+		},
+		count: 2
+	}]
+}

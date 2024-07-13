@@ -1,0 +1,27 @@
+{
+	x: -58.0d,
+	y: -18.0d,
+	dependencies: [
+		"a3bc4561"
+	],
+	tasks: [{
+		uid: "69ebf68c",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b35a7cb5",
+		type: "item",
+		item: {
+			id: "industrialupgrade:diamond_drill",
+			tag: {
+				charge: 30000.0d,
+				ID_Item: 2147483647
+			}
+		}
+	}]
+}

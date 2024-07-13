@@ -1,0 +1,20 @@
+{
+	x: -64.0d,
+	y: -26.0d,
+	dependencies: [
+		"7e58c0f7"
+	],
+	tasks: [{
+		uid: "a87b92d1",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:controlcircuitavaritia"
+		}]
+	}],
+	rewards: [{
+		uid: "a8761522",
+		type: "item",
+		item: "avaritia:block_resource 1 2",
+		count: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 1.1853741496598715d,
+	y: -10.58503401360543d,
+	shape: "hexagon",
+	dependencies: [
+		"69898706"
+	],
+	tasks: [{
+		uid: "f1800a15",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridescent_shimmering_crystal_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "d718cc22",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "for.honey",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	}]
+}

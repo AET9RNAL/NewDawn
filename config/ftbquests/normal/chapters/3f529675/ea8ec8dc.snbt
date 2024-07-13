@@ -1,0 +1,17 @@
+{
+	x: 2.2295918367347127d,
+	y: -13.982993197278908d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "d265c086",
+		type: "item",
+		items: [{
+			item: "contenttweaker:compressed_honeycomb_dripping"
+		}]
+	}],
+	rewards: [{
+		uid: "cdeb2bff",
+		type: "xp",
+		xp: 100
+	}]
+}

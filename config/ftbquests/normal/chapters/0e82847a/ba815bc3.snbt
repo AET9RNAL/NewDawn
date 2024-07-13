@@ -1,0 +1,29 @@
+{
+	x: -17.5d,
+	y: -3.0d,
+	text: [
+		"This machine will turn mana into it's liquid state, can be useful when you want to transport it to any part of the world via tesseracts etc. Mana can be accepted/em",
+		"itted via spark"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"363a2537"
+	],
+	tasks: [{
+		uid: "1c9bdebc",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_mana_liquefier"
+		}]
+	}],
+	rewards: [{
+		uid: "8ffee001",
+		type: "item",
+		item: {
+			id: "botania:manaringgreater",
+			tag: {
+				mana: 2000000
+			}
+		}
+	}]
+}

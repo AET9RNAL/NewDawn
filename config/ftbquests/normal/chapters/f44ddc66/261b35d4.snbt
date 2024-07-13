@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -23.5d,
+	shape: "diamond",
+	dependencies: [
+		"c3e15a54",
+		"d0ff60e8"
+	],
+	tasks: [{
+		uid: "86fa58cc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_neutron",
+			tag: {
+				damage: 27648000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

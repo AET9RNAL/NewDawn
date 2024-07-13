@@ -1,0 +1,20 @@
+{
+	x: 22.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"fdbb6a5b"
+	],
+	tasks: [{
+		uid: "1c777ed9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_helmet",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

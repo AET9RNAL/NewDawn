@@ -1,0 +1,20 @@
+{
+	x: -14.0d,
+	y: 3.0d,
+	dependencies: [
+		"e44b080b",
+		"5e29da10"
+	],
+	tasks: [{
+		uid: "a22df5d9",
+		type: "item",
+		items: [{
+			item: "packagedastral:attunement_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "09926a12",
+		type: "xp",
+		xp: 100
+	}]
+}

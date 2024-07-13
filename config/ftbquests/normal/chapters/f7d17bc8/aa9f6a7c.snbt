@@ -1,0 +1,24 @@
+{
+	x: 11.5d,
+	y: 17.0d,
+	dependencies: [
+		"eb4f0a43"
+	],
+	tasks: [{
+		uid: "4f1f0254",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}]
+	}],
+	rewards: [{
+		uid: "eb748b96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

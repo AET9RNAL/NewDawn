@@ -1,0 +1,21 @@
+{
+	x: 19.5d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"570b076e",
+		"390a4d8c"
+	],
+	tasks: [{
+		uid: "48f67d57",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_bow",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

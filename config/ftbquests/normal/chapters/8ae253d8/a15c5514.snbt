@@ -1,0 +1,31 @@
+{
+	x: -61.5d,
+	y: -19.5d,
+	shape: "diamond",
+	dependencies: [
+		"86c7dc7c"
+	],
+	tasks: [{
+		uid: "cd82cda6",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogenerator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d517452e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "d4b1ecec",
+		type: "item",
+		item: "mekanismecoenergistics:ecogenerator 1 1"
+	}]
+}

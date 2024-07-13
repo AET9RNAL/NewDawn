@@ -1,0 +1,40 @@
+{
+	x: -20.5d,
+	y: 7.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed1b9770"
+	],
+	tasks: [{
+		uid: "874ebced",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:simplemachine",
+			Damage: 2s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "61b8a2ad",
+		type: "item",
+		item: "enderio:block_experience_obelisk"
+	},
+	{
+		uid: "1fc4e4f9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "260ff15a",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 69"
+	}]
+}

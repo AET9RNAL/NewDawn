@@ -1,0 +1,123 @@
+{
+	title: "common crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:coal",
+		count: 6
+	},
+	{
+		item: "minecraft:apple",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling"
+	},
+	{
+		item: "minecraft:water_bucket"
+	},
+	{
+		item: "minecraft:mushroom_stew"
+	},
+	{
+		item: "minecraft:bread"
+	},
+	{
+		item: "minecraft:stone"
+	},
+	{
+		item: "minecraft:planks"
+	},
+	{
+		item: "minecraft:furnace"
+	},
+	{
+		item: "minecraft:chest",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:preciousgem"
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 6
+	},
+	{
+		item: "minecraft:brown_mushroom",
+		count: 16
+	},
+	{
+		item: "botania:livingrock",
+		count: 2
+	},
+	{
+		item: "botania:livingwood",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 271",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 4
+	},
+	{
+		item: "forestry:bee_combs",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 2"
+	},
+	{
+		item: "botania:petal",
+		count: 4
+	},
+	{
+		item: "fluxnetworks:flux",
+		count: 3
+	},
+	{
+		item: "minecraft:iron_block"
+	},
+	{
+		item: "industrialupgrade:blockresource 1 1"
+	},
+	{
+		item: "thermalfoundation:material 1 288"
+	},
+	{
+		item: "extrautils2:suncrystal"
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		item: {
+			id: "extrabotany:cocktail",
+			tag: {
+				brewKey: "speed"
+			}
+		}
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: "ironfurnaces:iron_furnace_idle"
+	},
+	{
+		item: "industrialforegoing:pink_slime",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "common_crate",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"a32c36be"
+	],
+	tasks: [{
+		uid: "cce9a1ca",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmapdrawingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "e9c3cba9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

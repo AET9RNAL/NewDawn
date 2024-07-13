@@ -1,0 +1,38 @@
+{
+	x: -56.0d,
+	y: -28.0d,
+	dependencies: [
+		"58224afa",
+		"4ec57d3b"
+	],
+	tasks: [{
+		uid: "068efd15",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "033d0ae5",
+		type: "item",
+		item: "industrialupgrade:itemcell 1 27",
+		count: 32
+	},
+	{
+		uid: "101f2079",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "ef05610c",
+		type: "item",
+		item: "mekanism:cosmicmatter",
+		count: 32
+	}]
+}

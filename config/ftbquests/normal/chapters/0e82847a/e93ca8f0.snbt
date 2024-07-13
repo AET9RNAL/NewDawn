@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"e260ee0e"
+	],
+	tasks: [{
+		uid: "13b77bd7",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2a79470b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

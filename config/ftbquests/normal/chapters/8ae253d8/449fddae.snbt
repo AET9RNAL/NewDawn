@@ -1,0 +1,30 @@
+{
+	x: -56.0d,
+	y: -7.0d,
+	dependencies: [
+		"c54ed0da"
+	],
+	tasks: [{
+		uid: "00ea49ef",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "52eba7ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "32169ff3",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 3
+	}]
+}

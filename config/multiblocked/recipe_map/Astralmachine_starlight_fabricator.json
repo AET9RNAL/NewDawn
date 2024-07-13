@@ -1,0 +1,44 @@
+{
+  "name": "Astralmachine_starlight_fabricator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "763bd578-6dbe-40d1-8311-ff0ea0a99e40",
+      "duration": 20,
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 2500,
+              "constellation": "astralsorcery.constellation.horologium"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 0.1,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:50}"
+          }
+        ]
+      }
+    }
+  ]
+}

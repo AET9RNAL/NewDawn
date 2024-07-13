@@ -1,0 +1,15 @@
+{
+	x: -18.0d,
+	y: 27.5d,
+	shape: "square",
+	dependencies: [
+		"ec51cbcf"
+	],
+	tasks: [{
+		uid: "80c6a6ae",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:module_schedule"
+		}]
+	}]
+}

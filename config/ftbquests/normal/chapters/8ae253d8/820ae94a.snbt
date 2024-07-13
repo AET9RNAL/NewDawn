@@ -1,0 +1,28 @@
+{
+	x: -95.0d,
+	y: -13.0d,
+	dependencies: [
+		"1bd98723"
+	],
+	tasks: [{
+		uid: "a51783a9",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f61bf98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

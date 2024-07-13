@@ -1,0 +1,193 @@
+{
+	x: -79.35714285714286d,
+	y: -18.392857142857146d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"820ae94a",
+		"6cb5a174",
+		"429f6cfe",
+		"ced8590e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4c89034a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	},
+	{
+		uid: "4091aa4d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass"
+		}],
+		count: 8L
+	},
+	{
+		uid: "73246b84",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4f01fe90",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	},
+	{
+		uid: "c017a65f",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}],
+		count: 75L
+	},
+	{
+		uid: "67e81174",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 13"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb5bc849",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a72daf9e",
+		type: "item",
+		item: {
+			id: "mekanismgenerators:hohlraum",
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "fusionfuel",
+						amount: 10
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "72de8975",
+		type: "item",
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				mekData: {
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					security: 0,
+					config2: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting2: 1b,
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting3: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					stored: {
+						gasName: "fusionfuel",
+						amount: 512000
+					},
+					Items: []
+				},
+				tier: 3,
+				BlockEntityTag: {
+					id: "mekanism:gas_tank",
+					facing: 5,
+					redstone: 0b,
+					config2: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting2: 1b,
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting3: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					securityMode: 0,
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					securityFreq: {
+						name: "Security",
+						ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+						publicFreq: 1b,
+						override: 0b,
+						securityMode: 0
+					},
+					Items: [],
+					tier: 3,
+					gasTank: {
+						stored: {
+							gasName: "fusionfuel",
+							amount: 512000
+						},
+						maxGas: 512000
+					},
+					dumping: 0,
+					controlType: 0
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					]
+				}
+			}
+		}
+	},
+	{
+		uid: "ab8093c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

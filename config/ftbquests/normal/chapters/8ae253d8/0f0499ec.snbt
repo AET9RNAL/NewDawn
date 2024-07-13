@@ -1,0 +1,34 @@
+{
+	x: -91.0d,
+	y: -16.5d,
+	dependencies: [
+		"820ae94a"
+	],
+	tasks: [{
+		uid: "2a223ecc",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 4s,
+			tag: {
+				tier: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "032ebff6",
+		type: "item",
+		item: "industrialupgrade:itemingots 1 17",
+		count: 12
+	},
+	{
+		uid: "23913b43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

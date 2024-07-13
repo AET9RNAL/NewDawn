@@ -1,0 +1,31 @@
+{
+	x: -51.5d,
+	y: -16.0d,
+	dependencies: [
+		"caa9ea57"
+	],
+	tasks: [{
+		uid: "9fb114c5",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80abaf54",
+		type: "item",
+		item: "mekanism:atomicalloy",
+		count: 8
+	},
+	{
+		uid: "494c6ab3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

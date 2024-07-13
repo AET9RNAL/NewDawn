@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	dependencies: [
+		"9ec10eb0"
+	],
+	tasks: [{
+		uid: "3cfd915f",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_manapool"
+		}]
+	}],
+	rewards: [{
+		uid: "783beb4a",
+		type: "item",
+		item: "botaniverse:morepool"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 10.5d,
+	text: [
+		"§4Получите душу Стража Гайи"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "13d1f61f",
+		type: "item",
+		items: [{
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "botania:doppleganger"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7c8225c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

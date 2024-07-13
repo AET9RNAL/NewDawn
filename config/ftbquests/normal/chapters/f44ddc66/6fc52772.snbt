@@ -1,0 +1,20 @@
+{
+	x: 21.5d,
+	y: 6.5d,
+	shape: "diamond",
+	dependencies: [
+		"33448770"
+	],
+	tasks: [{
+		uid: "73bb7051",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_chestplate",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

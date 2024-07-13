@@ -1,0 +1,43 @@
+{
+	x: -56.0d,
+	y: -18.0d,
+	dependencies: [
+		"a3bc4561"
+	],
+	tasks: [{
+		uid: "0dde773e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f02ef2a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "4cc9b21c",
+		type: "item",
+		item: "botanicadds:rune_tp",
+		count: 8
+	},
+	{
+		uid: "be31c4b9",
+		type: "item",
+		item: "mekanism:speedupgrade",
+		count: 8
+	},
+	{
+		uid: "d0280e2b",
+		type: "item",
+		item: "mekanism:energyupgrade",
+		count: 8
+	}]
+}

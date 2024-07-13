@@ -1,0 +1,36 @@
+{
+	x: -57.0d,
+	y: -18.0d,
+	dependencies: [
+		"a3bc4561"
+	],
+	tasks: [{
+		uid: "9909ec99",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15d15208",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "0912d41e",
+		type: "item",
+		item: {
+			id: "mekanismecoenergistics:ecotransmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 16
+	}]
+}

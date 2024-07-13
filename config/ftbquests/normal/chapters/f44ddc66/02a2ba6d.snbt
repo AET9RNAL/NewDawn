@@ -1,0 +1,21 @@
+{
+	x: 26.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"906fa86e",
+		"350df0f3"
+	],
+	tasks: [{
+		uid: "7ffc436d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_leggings",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

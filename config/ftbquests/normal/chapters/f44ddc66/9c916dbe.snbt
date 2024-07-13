@@ -1,0 +1,37 @@
+{
+	x: -0.4d,
+	y: 16.8d,
+	shape: "square",
+	dependencies: [
+		"8543628c"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "6785bcf6",
+		type: "item",
+		items: [{
+			item: "iuadditions:iridium_reinforced_stellar"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "269a7cf8",
+		type: "item",
+		item: {
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium",
+					collectorType: 1,
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

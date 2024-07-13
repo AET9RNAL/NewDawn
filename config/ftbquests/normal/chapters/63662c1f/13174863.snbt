@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	dependencies: [
+		"4892408b"
+	],
+	tasks: [{
+		uid: "181db501",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "29eba1ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

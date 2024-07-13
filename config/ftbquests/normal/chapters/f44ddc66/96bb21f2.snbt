@@ -1,0 +1,17 @@
+{
+	x: -1.6d,
+	y: 17.6d,
+	shape: "square",
+	dependencies: [
+		"89fc0700"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "76f0464a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iridium_dense_alfheim"
+		}],
+		count: 8L
+	}]
+}

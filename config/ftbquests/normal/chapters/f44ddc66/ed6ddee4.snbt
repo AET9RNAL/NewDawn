@@ -1,0 +1,22 @@
+{
+	x: 16.0d,
+	y: 8.0d,
+	shape: "square",
+	dependencies: [
+		"aa53df9c"
+	],
+	tasks: [{
+		uid: "e7a30332",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 282"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "1da76838",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 64
+	}]
+}

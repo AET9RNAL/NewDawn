@@ -1,0 +1,38 @@
+{
+	x: -49.5d,
+	y: -16.5d,
+	shape: "diamond",
+	dependencies: [
+		"b5d70a28"
+	],
+	tasks: [{
+		uid: "724fe249",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8038f27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "362d78ea",
+		type: "item",
+		item: {
+			id: "mekanismecoenergistics:ecotransmitter",
+			Damage: 2s,
+			tag: {
+				tier: 0
+			}
+		},
+		count: 8
+	}]
+}

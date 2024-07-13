@@ -1,0 +1,30 @@
+{
+	x: -56.0d,
+	y: -11.0d,
+	dependencies: [
+		"449fddae"
+	],
+	tasks: [{
+		uid: "ce9f5309",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "673ae413",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "067056b1",
+		type: "item",
+		item: "minecraft:wool",
+		count: 64
+	}]
+}

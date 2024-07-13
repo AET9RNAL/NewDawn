@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: -5.5d,
+	text: [
+		"§4Мельница..."
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "ea968182",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2e15f530",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

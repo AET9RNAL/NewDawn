@@ -1,0 +1,32 @@
+{
+	x: -11.0d,
+	y: 10.5d,
+	dependencies: [
+		"4ec57d3b"
+	],
+	tasks: [{
+		uid: "8a22d3d2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:solid",
+			Damage: 5s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30335d4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "cef2261b",
+		type: "item",
+		item: "industrialupgrade:itemcore 1 5"
+	}]
+}
