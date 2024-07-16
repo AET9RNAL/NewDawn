@@ -1,0 +1,14 @@
+{
+	x: -20.0d,
+	y: -13.0d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "1089d32d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_thermalily"
+		}]
+	}]
+}

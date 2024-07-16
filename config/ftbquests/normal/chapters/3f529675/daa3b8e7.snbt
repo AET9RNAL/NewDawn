@@ -3,10 +3,10 @@
 	y: -13.329081632653072d,
 	shape: "hexagon",
 	tasks: [{
-		uid: "4d60f2e9",
+		uid: "2d29696a",
 		type: "item",
 		items: [{
-			item: "contenttweaker:compressed_honeycomb_static"
+			item: "iuadditions:compressed_statichoneycomb"
 		}]
 	}],
 	rewards: [{

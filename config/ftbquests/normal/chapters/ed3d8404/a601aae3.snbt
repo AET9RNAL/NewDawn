@@ -5,10 +5,10 @@
 		"119b15f9"
 	],
 	tasks: [{
-		uid: "fef07909",
+		uid: "74d6ab72",
 		type: "item",
 		items: [{
-			item: "contenttweaker:wildwood_core"
+			item: "iuadditions:core_wildwood"
 		}]
 	}],
 	rewards: [{

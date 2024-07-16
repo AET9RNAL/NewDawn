@@ -6,10 +6,10 @@
 		"8dd7a952"
 	],
 	tasks: [{
-		uid: "818d44ee",
+		uid: "09c197b5",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_venomous_honeycomb_crystal"
+			item: "iuadditions:crystal_venomous"
 		}]
 	}],
 	rewards: [{

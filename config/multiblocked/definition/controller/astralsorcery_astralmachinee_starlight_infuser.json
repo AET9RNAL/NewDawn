@@ -19,7 +19,7 @@
         "gIO": 1,
         "mIO": 1,
         "slotName": "OUT",
-        "x": 126,
+        "x": 127,
         "y": 76,
         "autoIO": false
       },
@@ -28,7 +28,7 @@
         "gIO": 2,
         "mIO": 0,
         "slotName": "IN",
-        "x": 49,
+        "x": 50,
         "y": 76,
         "autoIO": false
       }

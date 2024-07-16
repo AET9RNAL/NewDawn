@@ -2,8 +2,12 @@
 	x: -2.5d,
 	y: -8.0d,
 	shape: "diamond",
+	text: [
+		"Best low-to-mid end energy generator. Energy generation depends on constellation. Focus a ray of starlight via linking tool from collector crystal",
+		"and the generator will start producing power. Energy can only be extracted via Mekanism cables configured in \"Pull\" mode"
+	],
 	dependencies: [
-		"fca8fad0"
+		"a32c36be"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -12,5 +16,26 @@
 		items: [{
 			item: "astralsorcery:astralmachine_constellation_generator"
 		}]
+	}],
+	rewards: [{
+		uid: "08ac9574",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "f376b072",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: 7.5d,
 	text: [
-		"§4Нейтроний..."
+		"§4Some neutronium..."
 	],
 	dependencies: [
 		"30b92a51"

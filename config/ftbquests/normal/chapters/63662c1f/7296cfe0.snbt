@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -19.0d,
+	dependencies: [
+		"76fe02ca"
+	],
+	tasks: [{
+		uid: "a76100ae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_wildwood"
+		}]
+	}]
+}

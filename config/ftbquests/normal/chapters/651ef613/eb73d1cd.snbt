@@ -15,5 +15,20 @@
 		items: [{
 			item: "astralsorcery:astralmachinee_starlight_infuser"
 		}]
+	}],
+	rewards: [{
+		uid: "b3e6ec50",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 1000
+				}
+			}
+		},
+		count: 24
 	}]
 }

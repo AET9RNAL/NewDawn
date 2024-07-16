@@ -10,7 +10,8 @@
 		items: [{
 			item: "mekanismgenerators:generator"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "83fb3170",
@@ -21,5 +22,11 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "7bea36ee",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 32
 	}]
 }

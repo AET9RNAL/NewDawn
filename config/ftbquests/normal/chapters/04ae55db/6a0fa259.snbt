@@ -2,7 +2,7 @@
 	x: -8.5d,
 	y: 0.0d,
 	text: [
-		"§4Улучшите вашу бесконечность!"
+		"§4Infinity^2"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "avaritiatweaks:enhancement_crystal"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "4cbff9ce",

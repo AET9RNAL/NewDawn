@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: -3.5d,
 	text: [
-		"§4Для чего? Сами придумайте"
+		"§4Why? Honestly, I have no idea"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "bigreactors:reactorcreativecoolantport"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "2a203055",

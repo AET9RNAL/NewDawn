@@ -2,10 +2,11 @@
 	x: -3.0d,
 	y: -5.5d,
 	text: [
-		"§4А он точно творческий?",
+		"§4Is this thing really creative?",
+		"-No, you've been had",
 		"",
-		"§a(Генерация:150000RF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
-		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+		"§a(Generation:150000RF/t *TO MAXIMIZE ENERGY TRANSFER CAPABILITY USE FLUX PLUGS ON EACH SIDE OF ANY CREATIVE SOURCE OF",
+		"ENERGY *)"
 	],
 	dependencies: [
 		"30b92a51"
@@ -32,7 +33,8 @@
 				],
 				Send: 25000
 			}
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "2d8cd4d0",

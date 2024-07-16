@@ -6,10 +6,10 @@
 		"e8a25950"
 	],
 	tasks: [{
-		uid: "3d59c250",
+		uid: "fb3fcdd7",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_venomous_crystal_plate"
+			item: "iuadditions:plate_venomous"
 		}]
 	}],
 	rewards: [{

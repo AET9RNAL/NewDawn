@@ -8,13 +8,11 @@
 		uid: "ed59e6ca",
 		type: "item",
 		items: [{
-			id: "avaritia:infinity_helmet",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "avaritia:infinity_helmet"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "e790f6ed",

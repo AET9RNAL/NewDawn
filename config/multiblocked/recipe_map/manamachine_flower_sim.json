@@ -1,0 +1,899 @@
+{
+  "name": "manamachine_flower_sim",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "4818f1d5-58ce-4f66-813f-ed56e6f47341",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_hydroangeas\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:1000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f60da286-37ca-4612-872d-3f27717a38f3",
+      "duration": 140,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_kekimorus\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:cake\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12600
+          }
+        ]
+      }
+    },
+    {
+      "uid": "078aaca5-72c3-4487-b811-13f76ab5a17e",
+      "duration": 252000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:avaritia_singularity.coal\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 3072
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e052741e-c167-4e58-84b0-f8d2d51613f3",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2ee2a8fb-6cee-4cc3-be7a-60c75609ae70",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_gourmaryllis\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:potato\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 13
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d8138cb9-0485-483d-ac7c-618ed3e61128",
+      "duration": 72000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_reikar\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:serenade_striker\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 122
+          }
+        ]
+      }
+    },
+    {
+      "uid": "07217a89-c8c3-4ab1-8016-a24105a97c88",
+      "duration": 30,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_gourmaryllis\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:baked_potato\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 40
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0b4baa3b-b024-4d33-8392-518bd055dc96",
+      "duration": 36,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_thermalily\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_liquid\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:1000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d5420bf6-0369-4c47-ab03-4b678a436b96",
+      "duration": 8000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal_block\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c3bde267-03f6-4e1e-b26a-78575a643225",
+      "duration": 25200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_liquid\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"jaopca:avaritia_singularity.coal\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:31}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1e16b57e-efa9-458e-b399-dee4c24626ac",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_gourmaryllis\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:cooked_beef\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 52
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e701d1bf-2b14-411c-a8a2-b7515a57e5e6",
+      "duration": 900,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_thermalily\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:1000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 40
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f9cffb5a-3f68-4d1a-8b1c-a78b2dc934e1",
+      "duration": 140,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_kekimorus\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_liquid\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:cake\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:13}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0fa8f8e5-065a-4b47-a456-94879c4b48e5",
+      "duration": 8790,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_reikar\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_liquid\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:serenade_striker\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:1}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b32a79f4-b150-43a0-ab08-c88796ac4a1c",
+      "duration": 150,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:log\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12
+          }
+        ]
+      }
+    },
+    {
+      "uid": "957849ab-d1f1-49d5-af7a-5473c1e78754",
+      "duration": 50,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_endoflame\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:stick\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 12
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ce734ebd-50b8-45f7-a48d-a6856aa7bf6d",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_entropinnyum\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_liquid\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:tnt\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:7}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fa525faf-bd4c-4b9d-b69a-0c041c180982",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_gemini\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:1000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e8e850b1-e9a4-46f5-8ffe-01e9a27f483e",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_arcana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"xpjuice\",Amount:130}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    },
+    {
+      "uid": "641bde4e-68f0-4688-95af-c40c284faf38",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_entropinnyum\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:tnt\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 6500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "53e0ba9b-5bd7-403d-9a96-45cf9a7815d5",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:flower_module_gourmaryllis\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manastate_module_mana\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:carrot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 26
+          }
+        ]
+      }
+    }
+  ]
+}

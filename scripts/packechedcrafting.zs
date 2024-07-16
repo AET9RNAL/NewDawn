@@ -7,7 +7,7 @@ recipes.remove(<packagedauto:package_component>);
 //#Add
 
 
-recipes.addShaped(<packagedauto:package_component>, [[<industrialupgrade:itemdoubleplates:21>, <astralsorcery:blockinfusedwood:1>, <industrialupgrade:itemdoubleplates:21>],[<astralsorcery:blockinfusedwood:1>, <contenttweaker:iridescent_static_honeycomb_crystal>, <astralsorcery:blockinfusedwood:1>], [<industrialupgrade:itemdoubleplates:21>, <astralsorcery:blockinfusedwood:1>, <industrialupgrade:itemdoubleplates:21>]]);
+recipes.addShaped(<packagedauto:package_component>, [[<industrialupgrade:itemdoubleplates:21>, <astralsorcery:blockinfusedwood:1>, <industrialupgrade:itemdoubleplates:21>],[<astralsorcery:blockinfusedwood:1>, <iuadditions:crystal_static>, <astralsorcery:blockinfusedwood:1>], [<industrialupgrade:itemdoubleplates:21>, <astralsorcery:blockinfusedwood:1>, <industrialupgrade:itemdoubleplates:21>]]);
 
 
 // Packager

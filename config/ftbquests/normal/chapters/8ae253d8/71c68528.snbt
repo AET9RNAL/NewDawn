@@ -12,7 +12,8 @@
 		items: [{
 			item: "mekanism:machineblock 1 10"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "55fedcdd",
@@ -23,5 +24,11 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "8cf1f274",
+		type: "item",
+		item: "industrialupgrade:baseore1 1 3",
+		count: 32
 	}]
 }

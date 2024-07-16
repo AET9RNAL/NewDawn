@@ -230,3 +230,31 @@ item.contenttweaker.module_luck_x50.name=Module Luck x50
 item.contenttweaker.module_manapool_alchemy.name=Module "Alchemy"
 item.contenttweaker.module_manapool_conjuration.name=Module "Conjuraion"
 item.contenttweaker.module_manapool_dimensional.name=Module "Dimensional"
+
+item.contenttweaker.module_manapool.name=Module "Mana Transformation"
+item.contenttweaker.flower_module_endoflame.name=Flower Module:Endoflame
+item.contenttweaker.flower_module_gourmaryllis.name=Flower Module:Gourmaryllis
+item.contenttweaker.flower_module_thermalily.name=Flower Module:Thermalily
+item.contenttweaker.flower_module_kekimorus.name=Flower Module:Kekimorus
+item.contenttweaker.flower_module_reikar.name=Flower Module:Reikar Lily
+item.contenttweaker.flower_module_entropinnyum.name=Flower Module:Entropinnyum
+item.contenttweaker.flower_module_arcana.name=Flower Module:Rosa Arcana
+item.contenttweaker.flower_module_hydroangeas.name=Flower Module:Hydroangeas
+item.contenttweaker.flower_module_gemini.name=Flower Module:Gemini
+
+item.contenttweaker.manastate_module_liquid.name=Mana State Module "Liquid"
+item.contenttweaker.manastate_module_mana.name=Mana State Module "Mana"
+
+item.contenttweaker.spawner_module_hell.name=Spawn Module:Hell
+item.contenttweaker.spawner_module_end.name=Spawn Module:End
+item.contenttweaker.spawner_module_eden.name=Spawn Module:Eden
+item.contenttweaker.spawner_module_wildwood.name=Spawn Module:Wildwood
+item.contenttweaker.spawner_module_apalachia.name=Spawn Module:Apalachia
+item.contenttweaker.spawner_module_skythern.name=Spawn Module:Skythern
+item.contenttweaker.spawner_module_mortum.name=Spawn Module:Mortum
+item.contenttweaker.spawner_module_vethea.name=Spawn Module:Vethea
+item.contenttweaker.spawner_module_arcana.name=Spawn Module:Arcana
+item.contenttweaker.spawner_module_gaia.name=Spawn Module:GAIA
+item.contenttweaker.spawner_module_dragon.name=Spawn Module:Ender Dragon
+item.contenttweaker.spawner_module_chaos.name=Spawn Module:Chaos Guardian
+item.contenttweaker.spawner_module_wither.name=Spawn Module:Wither

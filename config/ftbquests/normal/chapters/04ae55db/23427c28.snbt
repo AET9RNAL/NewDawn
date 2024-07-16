@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 9.0d,
 	text: [
-		"§4Драконье вымирание"
+		"§4The great dragon extinction"
 	],
 	dependencies: [
 		"30b92a51"

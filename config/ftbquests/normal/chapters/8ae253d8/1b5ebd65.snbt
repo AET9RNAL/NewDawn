@@ -12,7 +12,8 @@
 		items: [{
 			item: "mekanism:machineblock 1 12"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "1df6ab5b",

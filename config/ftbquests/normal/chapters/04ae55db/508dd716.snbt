@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: 2.0d,
 	text: [
-		"§4Станьте тру фермером!"
+		"§4There has never been a better opportunity to become a farmer!"
 	],
 	dependencies: [
 		"30b92a51"

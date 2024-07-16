@@ -1,5 +1,5 @@
 {
-	title: "AstrallSorcery",
+	title: "To the stars ",
 	icon: {
 		id: "astralsorcery:blockcelestialcollectorcrystal",
 		tag: {
@@ -14,14 +14,8 @@
 				},
 				collectorType: 1
 			}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
-	description: [
-		"К звёздам"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

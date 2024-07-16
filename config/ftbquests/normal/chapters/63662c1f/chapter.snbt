@@ -1,9 +1,6 @@
 {
-	title: "Draconic",
+	title: "Dragons",
 	icon: "draconicevolution:reactor_core",
-	description: [
-		"Драконы"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

@@ -1,9 +1,6 @@
 {
-	title: "EnderIO",
+	title: "The ultimate enderman power",
 	icon: "enderio:block_inventory_panel",
-	description: [
-		"Сила эндермена"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

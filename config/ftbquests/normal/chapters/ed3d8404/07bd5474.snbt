@@ -5,10 +5,10 @@
 		"c67cb6dc"
 	],
 	tasks: [{
-		uid: "b06285cc",
+		uid: "78d137ae",
 		type: "item",
 		items: [{
-			item: "contenttweaker:skythern_core"
+			item: "iuadditions:core_skythern"
 		}]
 	}],
 	rewards: [{

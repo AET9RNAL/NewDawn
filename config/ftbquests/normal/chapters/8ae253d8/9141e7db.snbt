@@ -1,0 +1,18 @@
+{
+	x: -41.0d,
+	y: -24.0d,
+	text: [
+		"This is a very powerful machine capable of processing liquids at a much higher rate, it's no longer necessary to build a dozen of evaporation towers, instead,",
+		"place a few of these and you'll be set for the rest of the game"
+	],
+	dependencies: [
+		"6b34a5a9"
+	],
+	tasks: [{
+		uid: "99b7f2e6",
+		type: "item",
+		items: [{
+			item: "mekanism:mekamachine_extreme_evaporation_chamber"
+		}]
+	}]
+}

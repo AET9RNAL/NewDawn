@@ -27,5 +27,10 @@
 		type: "item",
 		item: "industrialupgrade:crafting_elements 1 275",
 		count: 12
+	},
+	{
+		uid: "81aca4b6",
+		type: "item",
+		item: "astralsorcery:itemfragmentcapsule"
 	}]
 }

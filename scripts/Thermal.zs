@@ -197,12 +197,12 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<redstonearsenal:material:32>,<
 
 val honey = <liquid:for.honey> * 2500;
 
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_shimmering_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_shimmering>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_radioactive_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_radioactive>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_venomous_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_venomous>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_certus_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_certus>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_static_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_static>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:iridescent_dripping_honeycomb_crystal>, <contenttweaker:compressed_honeycomb_dripping>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_shimmering>, <iuadditions:compressed_shimmeringhoneycomb>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_radioactive>, <iuadditions:compressed_radioactivehoneycomb>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_venomous>, <iuadditions:compressed_venomoushoneycomb>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_certus>, <iuadditions:compressed_certushoneycomb>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_static>, <iuadditions:compressed_statichoneycomb>, honey, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_dripping>, <iuadditions:compressed_drippinghoneycomb>, honey, 800);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>,<contenttweaker:wyvern_energy_core_empty>, <liquid:vibrant_alloy>*4000, 4000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconic_energy_core>, <contenttweaker:awakened_energy_core_empty>, <liquid:stellar_alloy>*4000, 4000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconium_capacitor>, <contenttweaker:wyvern_capacitor_empty>, <liquid:draconium>*5000, 3500);
@@ -295,8 +295,8 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:osram_fluid>*288, <taiga:osram_
 mods.thermalexpansion.Crucible.addRecipe(<liquid:eezo_fluid>*288, <taiga:eezo_ore>, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:iufluidneft>*250, <industrialupgrade:crafting_elements:283>, 8000);
 
-
-
+mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>, <enderio:item_alloy_endergy_ingot:3>*9, 4000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>, <enderio:block_alloy_endergy:3>, 4000);
 
 
 

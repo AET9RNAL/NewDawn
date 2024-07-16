@@ -5,10 +5,10 @@
 		"fcf4ed31"
 	],
 	tasks: [{
-		uid: "19ab78ee",
+		uid: "82b4f706",
 		type: "item",
 		items: [{
-			item: "contenttweaker:eden_core"
+			item: "iuadditions:core_eden"
 		}]
 	}],
 	rewards: [{

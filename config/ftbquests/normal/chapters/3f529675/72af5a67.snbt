@@ -6,10 +6,10 @@
 		"ea8ec8dc"
 	],
 	tasks: [{
-		uid: "170ded99",
+		uid: "39ea0420",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_dripping_honeycomb_crystal"
+			item: "iuadditions:crystal_dripping"
 		}]
 	}],
 	rewards: [{

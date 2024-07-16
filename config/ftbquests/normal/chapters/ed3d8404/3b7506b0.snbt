@@ -6,10 +6,10 @@
 		"87133938"
 	],
 	tasks: [{
-		uid: "84c75733",
+		uid: "9c8c183f",
 		type: "item",
 		items: [{
-			item: "contenttweaker:arcana_core"
+			item: "iuadditions:core_arcana"
 		}]
 	}],
 	rewards: [{

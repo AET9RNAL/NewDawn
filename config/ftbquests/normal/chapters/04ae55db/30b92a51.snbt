@@ -1,16 +1,9 @@
 {
-	icon: {
-		id: "botania:dice",
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		}
-	},
+	icon: "botania:dice",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"Сможете осилить?",
-		"",
-		"Используйте экран для сдачи квестов с большим кол-вом предметов"
+		"Will You be able to overcome all the difficulties,madness and... chickens to prove your worthiness? Only time will show"
 	],
 	tasks: [{
 		uid: "4a257d2e",

@@ -5,12 +5,12 @@
     "recipe_progress": {
       "cIO": 2,
       "gIO": 2,
-      "x": 51,
-      "y": 67,
+      "x": 57,
+      "y": 70,
       "width": 60,
-      "height": 18,
-      "texture": "multiblocked:textures/gui/energy_bar.png",
-      "fillDirection": 0
+      "height": 23,
+      "texture": "multiblocked:textures/trader_progress_bar.png",
+      "fillDirection": 2
     },
     "item": [
       {
@@ -18,8 +18,8 @@
         "gIO": 2,
         "mIO": 0,
         "slotName": "IN",
-        "x": 73,
-        "y": 30,
+        "x": 78,
+        "y": 49,
         "autoIO": false
       },
       {
@@ -27,23 +27,40 @@
         "gIO": 2,
         "mIO": 1,
         "slotName": "OUT",
-        "x": 74,
-        "y": 103,
+        "x": 78,
+        "y": 96,
         "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_UPGRADE",
+        "x": 151,
+        "y": 7,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:upgrade_x1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x2\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x4\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x16\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x64\\\",Count:1,Damage:0s}\""
+        ]
       }
     ],
     "bot_mana": {
       "cIO": 0,
       "gIO": 2,
-      "x": 11,
-      "y": 137,
-      "width": 11,
-      "height": 25,
+      "x": 10,
+      "y": 131,
+      "width": 14,
+      "height": 35,
       "texture": "multiblocked:textures/mana_bar_test2.png",
       "fillDirection": 3,
       "capacity": 1000000,
       "allowSpark": true
-    }
+    },
+    "background": "multiblocked:textures/gui_alfheim_trader.png"
   },
   "properties": {
     "rotationState": "ALL",

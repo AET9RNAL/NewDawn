@@ -2,7 +2,7 @@
 	x: 8.5d,
 	y: 1.5d,
 	text: [
-		"§4Вырубка леса"
+		"§4Deforestation"
 	],
 	dependencies: [
 		"30b92a51"

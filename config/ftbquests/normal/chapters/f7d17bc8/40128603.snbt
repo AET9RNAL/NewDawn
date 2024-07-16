@@ -9,21 +9,24 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:material 1 24"
-		}]
+		}],
+		count: 32L
 	},
 	{
 		uid: "418f48aa",
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:material 1 23"
-		}]
+		}],
+		count: 32L
 	},
 	{
 		uid: "da45e8d7",
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:material 1 22"
-		}]
+		}],
+		count: 32L
 	}],
 	rewards: [{
 		uid: "74c1e3b8",

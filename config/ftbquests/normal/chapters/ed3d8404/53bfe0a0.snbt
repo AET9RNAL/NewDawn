@@ -5,10 +5,10 @@
 		"47a43c02"
 	],
 	tasks: [{
-		uid: "cf37cb70",
+		uid: "d0e3e115",
 		type: "item",
 		items: [{
-			item: "contenttweaker:mortum_core"
+			item: "iuadditions:core_mortum"
 		}]
 	}],
 	rewards: [{

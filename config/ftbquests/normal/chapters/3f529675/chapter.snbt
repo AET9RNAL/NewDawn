@@ -1,5 +1,5 @@
 {
-	title: "Forestry",
+	title: "Deez beez",
 	icon: {
 		id: "forestry:bee_queen_ge",
 		tag: {
@@ -140,9 +140,6 @@
 					Slot: 12b
 				}]
 			}
-		},
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
 		}
 	},
 	always_invisible: false,

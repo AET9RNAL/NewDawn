@@ -1,0 +1,14 @@
+{
+	x: -24.5d,
+	y: -15.0d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "516a721d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_hydroangeas"
+		}]
+	}]
+}

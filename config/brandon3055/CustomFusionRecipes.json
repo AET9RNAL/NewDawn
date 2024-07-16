@@ -526,19 +526,19 @@
     {
 
         "mode": "ADD",
-        "result": "contenttweaker:cross_dimensional_core",
+        "result": "iuadditions:core_crossdimensional",
         "catalyst": "extrautils2:opinium,1,5",
         "energy": 600000000,
         "tier": 3,
         "ingredients": [
-            "contenttweaker:eden_core",
-            "contenttweaker:wildwood_core",
-            "contenttweaker:apalachia_core",
-            "contenttweaker:skythern_core",
-            "contenttweaker:mortum_core",
-            "contenttweaker:arcana_core",
-            "contenttweaker:vethea_core",
-            "contenttweaker:stellar_core",
+            "iuadditions:core_eden",
+            "iuadditions:core_wildwood",
+            "iuadditions:core_apalachia",
+            "iuadditions:core_skythern",
+            "iuadditions:core_mortum",
+            "iuadditions:core_arcana",
+            "iuadditions:core_vethea",
+            "iuadditions:core_stellar",
             "industrialupgrade:itemcore,1,4",
             "industrialupgrade:itemcore,1,4"
         ]
@@ -547,32 +547,32 @@
     {
 
         "mode": "ADD",
-        "result": "contenttweaker:glass_bee_refractive",
+        "result": "iuadditions:glass_refractive",
         "catalyst": "industrialupgrade:photoniumglass,1,13",
         "energy": 2500000000,
         "tier": 3,
         "ingredients": [
-            "contenttweaker:glass_bee_radioactive",
-            "contenttweaker:glass_bee_purple",
-            "contenttweaker:glass_bee_gold",
-            "contenttweaker:glass_bee_static",
-            "contenttweaker:glass_bee_shimmering",
-            "contenttweaker:glass_bee_certus"
+            "iuadditions:glass_radioactive",
+            "iuadditions:glass_venomous",
+            "iuadditions:glass_dripping",
+            "iuadditions:glass_static",
+            "iuadditions:glass_shimmering",
+            "iuadditions:glass_certus"
         ]
 
     },
     {
 
         "mode": "ADD",
-        "result": "contenttweaker:eden_core",
+        "result": "iuadditions:core_eden",
         "catalyst": "divinerpg:eden_heart",
         "energy": 16384000,
         "tier": 0,
         "ingredients": [
             "divinerpg:mysterious_clock",
             "divinerpg:mysterious_clock",
-            "contenttweaker:eden_circuit",
-            "contenttweaker:eden_circuit",
+            "iuadditions:circuit_eden",
+            "iuadditions:circuit_eden",
             "divinerpg:eden_block",
             "divinerpg:eden_block",
             "divinerpg:hellspider_pumpkin",
@@ -586,15 +586,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:wildwood_core",
+        "result": "iuadditions:core_wildwood",
         "catalyst": "divinerpg:wildwood_heart",
         "energy": 20480000,
         "tier": 1,
         "ingredients": [
             "divinerpg:wildwood_chunk",
             "divinerpg:wildwood_chunk",
-            "contenttweaker:wildwood_circuit",
-            "contenttweaker:wildwood_circuit",
+            "iuadditions:circuit_wildwood",
+            "iuadditions:circuit_wildwood",
             "divinerpg:wildwood_block",
             "divinerpg:wildwood_block",
             "divinerpg:diamond_lamp",
@@ -607,15 +607,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:apalachia_core",
+        "result": "iuadditions:core_apalachia",
         "catalyst": "divinerpg:apalachia_heart",
         "energy": 24576000,
         "tier": 1,
         "ingredients": [
             "divinerpg:apalachia_chunk",
             "divinerpg:apalachia_chunk",
-            "contenttweaker:apalachia_circuit",
-            "contenttweaker:apalachia_circuit",
+            "iuadditions:circuit_apalachia",
+            "iuadditions:circuit_apalachia",
             "divinerpg:apalachia_block",
             "divinerpg:apalachia_block",
             "divinerpg:netherite_block",
@@ -630,15 +630,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:skythern_core",
+        "result": "iuadditions:core_skythern",
         "catalyst": "divinerpg:skythern_heart",
         "energy": 28672000,
         "tier": 1,
         "ingredients": [
             "divinerpg:skythern_chunk",
             "divinerpg:skythern_chunk",
-            "contenttweaker:skythern_circuit",
-            "contenttweaker:skythern_circuit",
+            "iuadditions:circuit_skythern",
+            "iuadditions:circuit_skythern",
             "divinerpg:skythern_block",
             "divinerpg:skythern_block",
             "divinerpg:arlemite_block",
@@ -653,15 +653,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:mortum_core",
+        "result": "iuadditions:core_mortum",
         "catalyst": "divinerpg:mortum_heart",
         "energy": 32768000,
         "tier": 2,
         "ingredients": [
             "divinerpg:mortum_chunk",
             "divinerpg:mortum_chunk",
-            "contenttweaker:mortum_circuit",
-            "contenttweaker:mortum_circuit",
+            "iuadditions:circuit_mortum",
+            "iuadditions:circuit_mortum",
             "divinerpg:mortum_block",
             "divinerpg:mortum_block",
             "divinerpg:bloodgem_block",
@@ -676,15 +676,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:vethea_core",
+        "result": "iuadditions:core_vethea",
         "catalyst": "divinerpg:honeychunk",
         "energy": 34816000,
         "tier": 3,
         "ingredients": [
             "divinerpg:shiny_pearls",
             "divinerpg:shiny_pearls",
-            "contenttweaker:stellar_circuit",
-            "contenttweaker:stellar_circuit",
+            "iuadditions:circuit_stellar",
+            "iuadditions:circuit_stellar",
             "divinerpg:nightmare_bed",
             "divinerpg:nightmare_bed",
             "divinerpg:fire_crystal",
@@ -703,15 +703,15 @@
     },
     {
         "mode": "ADD",
-        "result": "contenttweaker:arcana_core",
+        "result": "iuadditions:core_arcana",
         "catalyst": "divinerpg:arcanium",
         "energy": 36864000,
         "tier": 3,
         "ingredients": [
             "divinerpg:collector",
             "divinerpg:collector",
-            "contenttweaker:arcana_circuit",
-            "contenttweaker:arcana_circuit",
+            "iuadditions:circuit_arcana",
+            "iuadditions:circuit_arcana",
             "divinerpg:arcana_portal_frame",
             "divinerpg:arcana_portal_frame",
             "divinerpg:arcanium_block",
@@ -867,21 +867,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,14",
-        "catalyst": "contenttweaker:eden_core",
+        "result": "iuadditions:divinepanel",
+        "catalyst": "iuadditions:core_eden",
         "energy": 226099200,
         "tier": 0,
         "ingredients": [
-            "contenttweaker:shadow_photonium_plate_dense",
-            "contenttweaker:shadow_photonium_plate_dense",
-            "contenttweaker:eden_circuit",
-            "contenttweaker:eden_circuit",
+            "iuadditions:plate_shadowphotoniumdense",
+            "iuadditions:plate_shadowphotoniumdense",
+            "iuadditions:circuit_eden",
+            "iuadditions:circuit_eden",
             "industrialupgrade:machines,1,6",
             "industrialupgrade:machines,1,6",
-            "contenttweaker:eden_circuit",
-            "contenttweaker:eden_circuit",
-            "contenttweaker:shadow_photonium_plate_dense",
-            "contenttweaker:shadow_photonium_plate_dense",
+            "iuadditions:circuit_eden",
+            "iuadditions:circuit_eden",
+            "iuadditions:plate_shadowphotoniumdense",
+            "iuadditions:plate_shadowphotoniumdense",
             "industrialupgrade:excitednucleus,1,5",
             "industrialupgrade:excitednucleus,1,5"
         ]
@@ -890,21 +890,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,15",
-        "catalyst": "contenttweaker:wildwood_core",
+        "result": "iuadditions:divinepanel,1,1",
+        "catalyst": "iuadditions:core_wildwood",
         "energy": 282624000,
-        "tier": 1,
+        "tier": 0,
         "ingredients": [
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
-            "contenttweaker:wildwood_circuit",
-            "contenttweaker:wildwood_circuit",
+            "iuadditions:plate_nucleoarlemitedense",
+            "iuadditions:plate_nucleoarlemitedense",
+            "iuadditions:circuit_wildwood",
+            "iuadditions:circuit_wildwood",
             "industrialupgrade:machines,1,14",
             "industrialupgrade:machines,1,14",
-            "contenttweaker:wildwood_circuit",
-            "contenttweaker:wildwood_circuit",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
+            "iuadditions:circuit_wildwood",
+            "iuadditions:circuit_wildwood",
+            "iuadditions:plate_nucleoarlemitedense",
+            "iuadditions:plate_nucleoarlemitedense",
             "industrialupgrade:excitednucleus,1,6",
             "industrialupgrade:excitednucleus,1,6"
         ]
@@ -913,21 +913,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,16",
-        "catalyst": "contenttweaker:apalachia_core",
+        "result": "iuadditions:divinepanel,1,2",
+        "catalyst": "iuadditions:core_apalachia",
         "energy": 447283200,
         "tier": 1,
         "ingredients": [
-            "contenttweaker:hades_alloy_plate_dense",
-            "contenttweaker:hades_alloy_plate_dense",
-            "contenttweaker:apalachia_circuit",
-            "contenttweaker:apalachia_circuit",
+            "iuadditions:plate_hadesdense",
+            "iuadditions:plate_hadesdense",
+            "iuadditions:circuit_apalachia",
+            "iuadditions:circuit_apalachia",
             "industrialupgrade:machines,1,15",
             "industrialupgrade:machines,1,15",
-            "contenttweaker:apalachia_circuit",
-            "contenttweaker:apalachia_circuit",
-            "contenttweaker:hades_alloy_plate_dense",
-            "contenttweaker:hades_alloy_plate_dense",
+            "iuadditions:circuit_apalachia",
+            "iuadditions:circuit_apalachia",
+            "iuadditions:plate_hadesdense",
+            "iuadditions:plate_hadesdense",
             "industrialupgrade:excitednucleus,1,7",
             "industrialupgrade:excitednucleus,1,7"
         ]
@@ -936,21 +936,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,17",
-        "catalyst": "contenttweaker:skythern_core",
+        "result": "iuadditions:divinepanel,1,3",
+        "catalyst": "iuadditions:core_skythern",
         "energy": 521830400,
         "tier": 1,
         "ingredients": [
-            "contenttweaker:harmonite_alloy_plate_dense",
-            "contenttweaker:harmonite_alloy_plate_dense",
-            "contenttweaker:skythern_circuit",
-            "contenttweaker:skythern_circuit",
+            "iuadditions:plate_harmonitedense",
+            "iuadditions:plate_harmonitedense",
+            "iuadditions:circuit_skythern",
+            "iuadditions:circuit_skythern",
             "industrialupgrade:machines,1,16",
             "industrialupgrade:machines,1,16",
-            "contenttweaker:skythern_circuit",
-            "contenttweaker:skythern_circuit",
-            "contenttweaker:harmonite_alloy_plate_dense",
-            "contenttweaker:harmonite_alloy_plate_dense",
+            "iuadditions:circuit_skythern",
+            "iuadditions:circuit_skythern",
+            "iuadditions:plate_harmonitedense",
+            "iuadditions:plate_harmonitedense",
             "industrialupgrade:excitednucleus,1,8",
             "industrialupgrade:excitednucleus,1,8"
         ]
@@ -959,21 +959,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,18",
-        "catalyst": "contenttweaker:mortum_core",
+        "result": "iuadditions:divinepanel,1,4",
+        "catalyst": "iuadditions:core_mortum",
         "energy": 596377600,
         "tier": 2,
         "ingredients": [
-            "contenttweaker:molten_demon_alloy_plate_dense",
-            "contenttweaker:molten_demon_alloy_plate_dense",
-            "contenttweaker:mortum_circuit",
-            "contenttweaker:mortum_circuit",
+            "iuadditions:plate_moltendemondense",
+            "iuadditions:plate_moltendemondense",
+            "iuadditions:circuit_mortum",
+            "iuadditions:circuit_mortum",
             "industrialupgrade:machines,1,17",
             "industrialupgrade:machines,1,17",
-            "contenttweaker:mortum_circuit",
-            "contenttweaker:mortum_circuit",
-            "contenttweaker:molten_demon_alloy_plate_dense",
-            "contenttweaker:molten_demon_alloy_plate_dense",
+            "iuadditions:circuit_mortum",
+            "iuadditions:circuit_mortum",
+            "iuadditions:plate_moltendemondense",
+            "iuadditions:plate_moltendemondense",
             "industrialupgrade:excitednucleus,1,9",
             "industrialupgrade:excitednucleus,1,9"
         ]
@@ -982,21 +982,21 @@
     {
 
         "mode": "ADD",
-        "result": "industrialupgrade:machines,1,19",
-        "catalyst": "contenttweaker:arcana_core",
+        "result": "iuadditions:divinepanel,1,5",
+        "catalyst": "iuadditions:core_arcana",
         "energy": 862617600,
         "tier": 3,
         "ingredients": [
-            "contenttweaker:voidweave_alloy_plate_dense",
-            "contenttweaker:voidweave_alloy_plate_dense",
-            "contenttweaker:arcana_circuit",
-            "contenttweaker:arcana_circuit",
+            "iuadditions:plate_voidweavedense",
+            "iuadditions:plate_voidweavedense",
+            "iuadditions:circuit_arcana",
+            "iuadditions:circuit_arcana",
             "industrialupgrade:machines,1,18",
             "industrialupgrade:machines,1,18",
-            "contenttweaker:arcana_circuit",
-            "contenttweaker:arcana_circuit",
-            "contenttweaker:voidweave_alloy_plate_dense",
-            "contenttweaker:voidweave_alloy_plate_dense",
+            "iuadditions:circuit_arcana",
+            "iuadditions:circuit_arcana",
+            "iuadditions:plate_voidweavedense",
+            "iuadditions:plate_voidweavedense",
             "industrialupgrade:excitednucleus,1,10",
             "industrialupgrade:excitednucleus,1,10"
         ]
@@ -1006,20 +1006,20 @@
 
         "mode": "ADD",
         "result": "industrialupgrade:machines,1,20",
-        "catalyst": "contenttweaker:vethea_core",
+        "catalyst": "iuadditions:core_vethea",
         "energy": 940032000,
         "tier": 3,
         "ingredients": [
-            "contenttweaker:celestial_alloy_plate_dense",
-            "contenttweaker:celestial_alloy_plate_dense",
-            "contenttweaker:stellar_circuit",
-            "contenttweaker:stellar_circuit",
+            "iuadditions:plate_celestialdense",
+            "iuadditions:plate_celestialdense",
+            "iuadditions:circuit_stellar",
+            "iuadditions:circuit_stellar",
             "industrialupgrade:machines,1,19",
             "industrialupgrade:machines,1,19",
-            "contenttweaker:stellar_circuit",
-            "contenttweaker:stellar_circuit",
-            "contenttweaker:celestial_alloy_plate_dense",
-            "contenttweaker:celestial_alloy_plate_dense",
+            "iuadditions:circuit_stellar",
+            "iuadditions:circuit_stellar",
+            "iuadditions:plate_celestialdense",
+            "iuadditions:plate_celestialdense",
             "industrialupgrade:excitednucleus,1,11",
             "industrialupgrade:excitednucleus,1,11"
         ]
@@ -1029,12 +1029,12 @@
 
         "mode": "ADD",
         "result": "industrialupgrade:machines,1,21",
-        "catalyst": "contenttweaker:cross_dimensional_core",
+        "catalyst": "iuadditions:core_crossdimensional",
         "energy": 9600000000,
         "tier": 3,
         "ingredients": [
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
+            "iuadditions:plate_nucleoarlemitedense",
+            "iuadditions:plate_nucleoarlemitedense",
             "contenttweaker:iridium_advanced_chaotic",
             "contenttweaker:iridium_advanced_chaotic",
             "contenttweaker:infinity_circuit",
@@ -1047,8 +1047,8 @@
             "contenttweaker:infinity_circuit",
             "contenttweaker:iridium_advanced_chaotic",
             "contenttweaker:iridium_advanced_chaotic",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense",
-            "contenttweaker:nucleoarlemite_alloy_plate_dense"
+            "iuadditions:plate_nucleoarlemitedense",
+            "iuadditions:plate_nucleoarlemitedense"
             
         ]
 
@@ -1071,8 +1071,8 @@
             "draconicevolution:chaotic_core",
             "industrialupgrade:excitednucleus,1,10",
             "industrialupgrade:excitednucleus,1,9",
-            "contenttweaker:cross_dimensional_core",
-            "contenttweaker:cross_dimensional_core"
+            "iuadditions:core_crossdimensional",
+            "iuadditions:core_crossdimensional"
         ]
 
     },
@@ -1468,6 +1468,21 @@
             "draconicevolution:chaotic_core",
             "contenttweaker:iridium_advanced_chaotic",
             "contenttweaker:iridium_advanced_chaotic"
+        ]
+    },
+    {
+	    "mode": "ADD",
+        "result": "draconicevolution:draconium_block,1,1", 
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 10000000,
+        "tier": 1,
+        "ingredients": [
+            "jaopca:mekanism_crystal.draconium",
+            "jaopca:mekanism_crystal.draconium",
+            "jaopca:mekanism_crystal.draconium",
+            "jaopca:mekanism_crystal.draconium",
+            "jaopca:mekanism_crystal.draconium",
+            "jaopca:mekanism_crystal.draconium"
         ]
     }
 

@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: -1.0d,
 	text: [
-		"§4Как обычный, только в 100 раз быстрее!"
+		"§4Works like a regular, but 100x faster!"
 	],
 	dependencies: [
 		"30b92a51"

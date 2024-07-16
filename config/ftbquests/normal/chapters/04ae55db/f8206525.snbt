@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 6.5d,
 	text: [
-		"§4Ледниковый период"
+		"§4Ice Age"
 	],
 	dependencies: [
 		"30b92a51"

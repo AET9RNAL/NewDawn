@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -5.5d,
 	text: [
-		"§4Мельница..."
+		"§4"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "extrautils2:passivegenerator 1 6"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "2e15f530",

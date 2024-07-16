@@ -2,7 +2,8 @@
 	x: -17.5d,
 	y: -1.5d,
 	text: [
-		"This machine will return liquid mana into it's normal state. Mana can be accepted/emitted via spark"
+		"This machine will return liquid mana into it's normal state.  Mana can be accepted/emitted via spark, you can place it by clicking RMB while sneaking, ",
+		"also works with spreaders"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

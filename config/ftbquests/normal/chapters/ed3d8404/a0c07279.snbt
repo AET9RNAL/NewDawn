@@ -11,10 +11,10 @@
 		"53bfe0a0"
 	],
 	tasks: [{
-		uid: "a190f193",
+		uid: "60e2cfcb",
 		type: "item",
 		items: [{
-			item: "contenttweaker:cross_dimensional_core"
+			item: "iuadditions:core_crossdimensional"
 		}]
 	}],
 	rewards: [{

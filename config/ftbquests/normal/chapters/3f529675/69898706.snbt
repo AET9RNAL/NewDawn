@@ -6,10 +6,10 @@
 		"224e6138"
 	],
 	tasks: [{
-		uid: "d6c9f135",
+		uid: "e88a837c",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_shimmering_honeycomb_crystal"
+			item: "iuadditions:crystal_shimmering"
 		}]
 	}],
 	rewards: [{

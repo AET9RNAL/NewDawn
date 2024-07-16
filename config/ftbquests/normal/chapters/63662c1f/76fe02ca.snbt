@@ -1,0 +1,22 @@
+{
+	x: 9.0d,
+	y: -17.5d,
+	text: [
+		"A machine that will generate different loot depending on the module inserted at the cost of different liquids/mana",
+		"",
+		"How to use:",
+		"1.Place a desired module in the central slot",
+		"2.Supply it with required liquid/mana",
+		"For view all available recipes click \"U\" on it while in the inventory"
+	],
+	dependencies: [
+		"95b073dd"
+	],
+	tasks: [{
+		uid: "af57e870",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconicmachine_industrial_spawner"
+		}]
+	}]
+}

@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 6.5d,
 	text: [
-		"§4И немного маны"
+		"§4And a little bit of many, for all of your mana needs"
 	],
 	dependencies: [
 		"30b92a51"

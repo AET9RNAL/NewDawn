@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:filterupgrade"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "fe92cc1b",

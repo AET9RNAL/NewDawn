@@ -3,7 +3,7 @@
 	y: -3.0d,
 	text: [
 		"This machine will turn mana into it's liquid state, can be useful when you want to transport it to any part of the world via tesseracts etc. Mana can be accepted/em",
-		"itted via spark"
+		"itted via spark, you can place it by clicking RMB while sneaking, also works with spreaders"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

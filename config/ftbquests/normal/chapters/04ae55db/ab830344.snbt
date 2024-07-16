@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: -7.5d,
 	text: [
-		"§4Карманный дракон!"
+		"§4Pocket dragon... A dragon... In your pocket..."
 	],
 	dependencies: [
 		"30b92a51"

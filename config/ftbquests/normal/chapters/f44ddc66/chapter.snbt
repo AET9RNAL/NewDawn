@@ -1,13 +1,10 @@
 {
-	title: "IU",
+	title: "New Era",
 	icon: {
 		id: "industrialupgrade:machines",
 		Damage: 12s,
 		tag: {}
 	},
-	description: [
-		"Новая Эра"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

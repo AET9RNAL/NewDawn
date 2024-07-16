@@ -6,10 +6,10 @@
 		"eebd2b23"
 	],
 	tasks: [{
-		uid: "3313bb2a",
+		uid: "d2b7a9b1",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_certus_crystal_plate"
+			item: "iuadditions:plate_certus"
 		}]
 	}],
 	rewards: [{

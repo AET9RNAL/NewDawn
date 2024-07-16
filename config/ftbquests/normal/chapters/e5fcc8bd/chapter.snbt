@@ -1,9 +1,6 @@
 {
 	title: "Thermal",
 	icon: "thermalexpansion:frame",
-	description: [
-		"Машинки"
-	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

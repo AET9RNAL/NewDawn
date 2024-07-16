@@ -11,7 +11,8 @@
 		items: [{
 			item: "mekanismgenerators:generator 1 3"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "1196c200",
@@ -20,6 +21,107 @@
 			id: "ftbquests:lootcrate",
 			tag: {
 				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "3297ccc9",
+		type: "item",
+		item: {
+			id: "mekanism:gastank",
+			tag: {
+				mekData: {
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					security: 0,
+					config2: [B;
+						2b,
+						2b,
+						2b,
+						2b,
+						2b,
+						2b
+					],
+					ejecting2: 1b,
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting3: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					stored: {
+						gasName: "ethene",
+						amount: 512000
+					},
+					Items: []
+				},
+				tier: 3,
+				BlockEntityTag: {
+					id: "mekanism:gas_tank",
+					facing: 5,
+					redstone: 0b,
+					config2: [B;
+						2b,
+						2b,
+						2b,
+						2b,
+						2b,
+						2b
+					],
+					ejecting2: 1b,
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting3: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					securityMode: 0,
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					securityFreq: {
+						name: "Security",
+						ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+						publicFreq: 1b,
+						override: 0b,
+						securityMode: 0
+					},
+					Items: [],
+					tier: 3,
+					gasTank: {
+						stored: {
+							gasName: "ethene",
+							amount: 512000
+						},
+						maxGas: 512000
+					},
+					dumping: 0,
+					controlType: 0
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					]
+				}
 			}
 		}
 	}]

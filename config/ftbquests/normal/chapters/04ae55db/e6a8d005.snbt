@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -4.5d,
 	text: [
-		"§4Семена..."
+		"§4"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "mysticalagradditions:stuff 1 69"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "1c20a10a",

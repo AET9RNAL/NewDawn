@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 5.5d,
 	text: [
-		"§4СУП!!!!"
+		"§4Taste the whole periodic table"
 	],
 	dependencies: [
 		"30b92a51"

@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:basicblock 1 8"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "b21156cc",

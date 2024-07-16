@@ -2,7 +2,7 @@
 	x: -5.0d,
 	y: 2.0d,
 	text: [
-		"§4Может поместить целую вселенную"
+		"§4A storage, for your infinity"
 	],
 	dependencies: [
 		"30b92a51"

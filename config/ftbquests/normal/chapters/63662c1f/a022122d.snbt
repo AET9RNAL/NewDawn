@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: -21.0d,
+	dependencies: [
+		"76fe02ca"
+	],
+	tasks: [{
+		uid: "fe31f47a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_gaia"
+		}]
+	}]
+}

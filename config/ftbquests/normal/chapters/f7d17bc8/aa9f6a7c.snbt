@@ -1,5 +1,5 @@
 {
-	x: 11.5d,
+	x: 10.5d,
 	y: 17.0d,
 	dependencies: [
 		"eb4f0a43"
@@ -20,5 +20,11 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "7e73d11c",
+		type: "item",
+		item: "jaopca:block.charged_certus_quartz",
+		count: 16
 	}]
 }

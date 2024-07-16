@@ -4,16 +4,16 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
-      "uid": "13c7798d-ba01-4f95-b4e7-2fc5fe9567ae",
-      "duration": 150,
+      "uid": "7c91d791-f4dc-40d0-a4fd-56138b888422",
+      "duration": 80,
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"botania:doppleganger\"}}"
+                "{id:\"contenttweaker:spawner_module_eden\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -21,7 +21,131 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:6000}"
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:eden_heart\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"divinerpg:eden_fragments\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.06,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:teleportation_star\",Count:1,Damage:0s,tag:{},ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:eden_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"divinerpg:divine_shards\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:eden_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:eden_log\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:eden_lamp\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a7d35ac0-d41c-41c1-8fc3-185ad3ccd168",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_skythern\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
           }
         ]
       },
@@ -32,10 +156,578 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"botania:doppleganger\"}}"
+                "{id:\"divinerpg:skythern_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
               ]
             }
           },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:skythern_heart\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:skythern_fragments\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.038,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_shield\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:skythern_log\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:skythern_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:milky_lamp\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "89ad185f-bb5c-4900-8319-de37f72ac244",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_wildwood\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:wildwood_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:wildwood_fragments\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:wildwood_log\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:wildwood_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:wildwood_heart\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c0bbcee0-8d47-4a4c-addb-85dc87b4299f",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_mortum\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_phaser\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_blade\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 60,
+              "matches": [
+                "{id:\"divinerpg:halite_slicer\",Count:60,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_helmet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_chestplate\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_leggings\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_boots\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:mortum_heart\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:mortum_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:mortum_log\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:mortum_fragments\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ea2442a6-2750-48cd-9c55-aab073ce3f11",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_apalachia\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_bow\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:halite_blitz\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:apalachia_fragments\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:apalachia_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:apalachia_log\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:apalachia_heart\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3a64cfde-2f36-4fdf-aa13-2cd5e644845c",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_arcana\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:raw_arcanium\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"divinerpg:arcanite_tubes\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:dungeon_bookshelf\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"divinerpg:ancient_stone_breakable\",Count:9,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:arcanium_power_breakable\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:arcanium_power\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:hitchak\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:veilo\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"divinerpg:collector_fragments\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:strong_arcana_potion\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:moonbulb\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "13c7798d-ba01-4f95-b4e7-2fc5fe9567ae",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_gaia\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:3000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:5000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:3000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
           {
             "chance": 1.0,
             "content": {
@@ -262,7 +954,7 @@
             }
           },
           {
-            "chance": 0.03,
+            "chance": 0.05,
             "content": {
               "amount": 1,
               "matches": [
@@ -271,7 +963,7 @@
             }
           },
           {
-            "chance": 0.8,
+            "chance": 0.1,
             "content": {
               "amount": 1,
               "matches": [
@@ -284,15 +976,15 @@
     },
     {
       "uid": "436986e9-825f-44f7-b400-fb340b919624",
-      "duration": 1,
+      "duration": 80,
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:quadro\"}}"
+                "{id:\"contenttweaker:spawner_module_vethea\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -300,21 +992,20 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
+            "content": "{FluidName:\"iufluidneutron\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
           }
         ]
       },
       "outputs": {
         "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:quadro\"}}"
-              ]
-            }
-          },
           {
             "chance": 1.0,
             "content": {
@@ -332,355 +1023,85 @@
                 "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
               ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "6769adb7-ac66-435d-a6cb-f32dcc625f8b",
-      "duration": 100,
-      "inputs": {
-        "item": [
+          },
           {
-            "chance": 1.0,
+            "chance": 0.005,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:ender_dragon\"}}"
+                "{id:\"divinerpg:everfright\",Count:1,Damage:0s}"
               ]
             }
-          }
-        ],
-        "fluid": [
+          },
           {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1500}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
+            "chance": 0.005,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:ender_dragon\"}}"
+                "{id:\"divinerpg:eversight\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:everbright\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:everlight\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:evernight\",Count:1,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 32,
               "matches": [
-                "{id:\"minecraft:dragon_egg\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:dirty_pearls\",Count:32,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 24,
               "matches": [
-                "{id:\"draconicevolution:dragon_heart\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:clean_pearls\",Count:24,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 40,
+              "amount": 16,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:40,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.7,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"draconicevolution:draconium_dust\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "7c91d791-f4dc-40d0-a4fd-56138b888422",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:sunstorm\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:eden_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.7,
-            "content": {
-              "amount": 6,
-              "matches": [
-                "{id:\"divinerpg:eden_fragments\",Count:6,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.06,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:teleportation_star\",Count:1,Damage:0s,tag:{},ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:eden_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+                "{id:\"divinerpg:polished_pearls\",Count:16,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 8,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "983a5512-40d3-4262-80cf-a997fc6aa04f",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:ancient_entity\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:ancient_entity\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:sandslash\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"divinerpg:divine_shards\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "dc23b105-a77e-4bea-8f3d-486fc70763f1",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:lady_luna\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:lady_luna\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:everfright\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:eversight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:everbright\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:everlight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:evernight\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "a7d35ac0-d41c-41c1-8fc3-185ad3ccd168",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:experienced_cori\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:experienced_cori\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:skythern_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:skythern_heart\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:shiny_pearls\",Count:8,Damage:0s}"
               ]
             }
           },
@@ -689,475 +1110,25 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"divinerpg:skythern_fragments\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.038,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_shield\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+                "{id:\"divinerpg:acid\",Count:4,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "89ad185f-bb5c-4900-8319-de37f72ac244",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:termasect\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:wildwood_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+                "{id:\"divinerpg:honeysuckle\",Count:5,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 5,
               "matches": [
-                "{id:\"divinerpg:wildwood_fragments\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"divinerpg:wildwood_log\",Count:64,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "c0bbcee0-8d47-4a4c-addb-85dc87b4299f",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:karot\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:karot\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_phaser\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:mortum_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "68df1cb4-ee66-4e97-a256-681d5a6f8208",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:vamacheron\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:vamacheron\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_blade\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:mortum_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "66cc798b-cd26-4a21-b91a-eb7880e8c42c",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:soul_fiend\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:soul_fiend\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 200,
-              "matches": [
-                "{id:\"divinerpg:halite_slicer\",Count:200,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:mortum_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "07e05424-9360-421e-80a4-1a268eae8024",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:reyvor\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:reyvor\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_leggings\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:mortum_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "7647ebad-d7c2-4b7b-b85d-0b8eddd5a24e",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:densos\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:densos\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_chestplate\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:mortum_heart\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "4f7731f4-8181-40e7-9e0e-0f9b6e5c1139",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:eternal_archer\"}}"
-              ]
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"divinerpg:eternal_archer\"}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_blitz\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:halite_bow\",Count:1,Damage:0s,ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 15,
-              "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:15,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:apalachia_heart\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:honeychunk\",Count:5,Damage:0s}"
               ]
             }
           }
@@ -1170,11 +1141,11 @@
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:wither\"}}"
+                "{id:\"contenttweaker:spawner_module_wither\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1182,21 +1153,20 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
+            "content": "{FluidName:\"iufluidneutron\",Amount:700}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
           }
         ]
       },
       "outputs": {
         "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"minecraft:wither\"}}"
-              ]
-            }
-          },
           {
             "chance": 0.35,
             "content": {
@@ -1228,16 +1198,16 @@
       }
     },
     {
-      "uid": "a31f8381-8a23-45db-a125-9bd4518aa28d",
-      "duration": 200,
+      "uid": "2acc5e6c-0d1c-4ab1-9fee-c8633eeaf8bc",
+      "duration": 20,
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"draconicevolution:chaosguardian\"}}"
+                "{id:\"contenttweaker:spawner_module_hell\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1245,7 +1215,149 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"iufluidneutron\",Amount:10000}"
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:250}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_biofuel\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"minecraft:netherrack\",Count:12,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"minecraft:quartz_ore\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"divinerpg:molten_shards\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:glowstone\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"betternether:cincinnasite_block\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:bloodgem\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"divinerpg:bluefire_stone\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 40,
+              "matches": [
+                "{id:\"divinerpg:netherite_ingot\",Count:40,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:netherite_lamp\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:fury_fire\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:hellstone_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6769adb7-ac66-435d-a6cb-f32dcc625f8b",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_dragon\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"draconium\",Amount:1000}"
           }
         ]
       },
@@ -1256,10 +1368,144 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"draconicevolution:mob_soul\",Count:1,Damage:0s,tag:{EntityName:\"draconicevolution:chaosguardian\"}}"
+                "{id:\"minecraft:dragon_egg\",Count:1,Damage:0s}"
               ]
             }
           },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:dragon_heart\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 40,
+              "matches": [
+                "{id:\"minecraft:experience_bottle\",Count:40,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"draconicevolution:draconium_dust\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"divinerpg:ender_shards\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:2,Damage:103s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"minecraft:end_stone\",Count:12,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"endreborn:item_raw_endorium\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:item_end_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:item_end_shard\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a31f8381-8a23-45db-a125-9bd4518aa28d",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:spawner_module_chaos\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"iufluidneutron\",Amount:10000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:10000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nutrient_distillation\",Amount:10000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
           {
             "chance": 0.8,
             "content": {
@@ -1281,9 +1527,45 @@
           {
             "chance": 1.0,
             "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"draconicevolution:nugget\",Count:32,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"draconicevolution:draconium_dust\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"draconicevolution:infused_obsidian\",Count:9,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicadditions:chaos_crystal_stable\",Count:1,Damage:0s,tag:{isStable:1b}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
               "amount": 2,
               "matches": [
-                "{id:\"draconicevolution:nugget\",Count:2,Damage:1s}"
+                "{id:\"draconicevolution:draconium_block\",Count:2,Damage:1s}"
               ]
             }
           }

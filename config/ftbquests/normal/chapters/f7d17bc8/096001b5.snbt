@@ -20,5 +20,11 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "1dfd153a",
+		type: "item",
+		item: "appliedenergistics2:quartz_block",
+		count: 4
 	}]
 }

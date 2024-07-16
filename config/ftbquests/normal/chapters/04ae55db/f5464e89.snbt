@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: -4.5d,
 	text: [
-		"§4Улучшение для ваших ящиков"
+		"§4The ultimate upgrade for your drawers"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "storagedrawers:upgrade_creative"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "54490b4a",

@@ -1,5 +1,5 @@
 {
-	x: 12.5d,
+	x: 11.5d,
 	y: 16.0d,
 	dependencies: [
 		"aa9f6a7c"
@@ -20,5 +20,11 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "e8cf62bf",
+		type: "item",
+		item: "threng:material",
+		count: 16
 	}]
 }

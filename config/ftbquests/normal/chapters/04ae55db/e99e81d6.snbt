@@ -2,10 +2,8 @@
 	x: -3.0d,
 	y: -6.5d,
 	text: [
-		"§4Теплее...",
-		"",
-		"§a(Генерация:500000RF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
-		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+		"§a(Generation:500000RF/t *TO MAXIMIZE ENERGY TRANSFER CAPABILITY USE FLUX PLUGS ON EACH SIDE OF ANY CREATIVE SOURCE OF",
+		"ENERGY *)"
 	],
 	dependencies: [
 		"30b92a51"
@@ -18,7 +16,8 @@
 			tag: {
 				"enderio:energy": 50000000
 			}
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "ad36c478",

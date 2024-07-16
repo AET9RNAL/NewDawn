@@ -1,6 +1,9 @@
 {
 	x: 3.0d,
 	y: -6.5d,
+	text: [
+		"§4Feel guilty yet? No? Give it some time and it will eat you from inside"
+	],
 	dependencies: [
 		"30b92a51"
 	],
@@ -9,6 +12,7 @@
 		type: "item",
 		items: [{
 			item: "botania:pool 1 1"
-		}]
+		}],
+		only_from_crafting: true
 	}]
 }

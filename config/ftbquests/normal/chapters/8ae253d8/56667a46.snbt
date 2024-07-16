@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:speedupgrade"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "41592443",

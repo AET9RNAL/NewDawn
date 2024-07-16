@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "contenttweaker:ae2uel_processor_universal"
-		}]
+		}],
+		count: 4L
 	}],
 	rewards: [{
 		uid: "e80de1eb",

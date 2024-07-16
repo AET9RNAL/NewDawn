@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "location": "mekanism:mekamachine_extreme_evaporation_chamber",
+  "traits": {
+    "background": "multiblocked:textures/gui_mekamachine_extreme_evaporation.png",
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 1,
+        "slotName": "OUT_F",
+        "x": 134,
+        "y": 68,
+        "autoIO": false,
+        "tC": 10000000,
+        "w": 18,
+        "h": 61,
+        "fillDir": "DOWN_TO_UP"
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 2,
+        "slotName": "IN_F",
+        "x": 24,
+        "y": 68,
+        "autoIO": false,
+        "tC": 10000000,
+        "w": 18,
+        "h": 61,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"water\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"brine\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"liquidsodium\\\",Amount:1000}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F0",
+        "x": 48,
+        "y": 118,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 80,
+        "h": 10,
+        "fillDir": "LEFT_TO_RIGHT",
+        "valid": [
+          "\"{FluidName:\\\"lava\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"pyrotheum\\\",Amount:1000}\""
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "mekanism"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:mekamachine_extreme_thermal_evaporation_chamber",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Mekamachine_extreme_evaporation",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "mekanism:mekamachine_extreme_evaporation_chamber",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

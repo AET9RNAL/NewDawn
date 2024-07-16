@@ -5,10 +5,10 @@
 		"6f09d1f3"
 	],
 	tasks: [{
-		uid: "0bf87171",
+		uid: "ec863d85",
 		type: "item",
 		items: [{
-			item: "contenttweaker:vethea_core"
+			item: "iuadditions:core_vethea"
 		}]
 	}],
 	rewards: [{

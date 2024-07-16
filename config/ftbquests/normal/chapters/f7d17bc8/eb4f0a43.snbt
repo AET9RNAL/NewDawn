@@ -1,5 +1,5 @@
 {
-	x: 10.5d,
+	x: 9.0d,
 	y: 17.0d,
 	dependencies: [
 		"56f4e66d"
@@ -20,5 +20,11 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "86f4df2e",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 64
 	}]
 }

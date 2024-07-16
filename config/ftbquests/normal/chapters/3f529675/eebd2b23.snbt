@@ -6,10 +6,10 @@
 		"70b27a40"
 	],
 	tasks: [{
-		uid: "65197a63",
+		uid: "9943d905",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_certus_honeycomb_crystal"
+			item: "iuadditions:crystal_certus"
 		}]
 	}],
 	rewards: [{

@@ -1,0 +1,14 @@
+{
+	x: -22.5d,
+	y: -10.5d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "1fa66254",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_reikar"
+		}]
+	}]
+}

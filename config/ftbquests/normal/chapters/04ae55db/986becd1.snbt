@@ -1,5 +1,5 @@
 {
-	title: "Голова",
+	title: "Head",
 	icon: {
 		id: "minecraft:skull",
 		Damage: 3s,
@@ -23,7 +23,7 @@
 	x: 0.0d,
 	y: -9.0d,
 	text: [
-		"§4Ваша персональная кукла вуду  разработчика мод пака. Самое время наложить проклятие!"
+		"§4Your personal voodoo doll of the creator of this modpack. It's time to put a curse on this pesky bastard!"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -67,19 +67,15 @@
 			id: "minecraft:skull",
 			Damage: 3s,
 			tag: {
-				RepairCost: 0,
 				SkullOwner: {
+					Name: "AET3RNAL",
 					Id: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
 					Properties: {
 						textures: [{
-							Signature: "Wx5SE5Z3apVzwXfcefbeZJwKTltm+LU/8G29xwHo/tPqqXVJTPdDD3ttqwBjupjE1S/T6+srob1/VIXQJQw7ChrIzzjSmJkpHPkuZLk1QhOODIhSW6C5Y+tfuKedpgxArVJNiUIaqR9se4AzAjOaZZBp2xbQvYyPknyLsKSOd4DJovh1SswGf2cbpg3s0fsCZM/5Yzg7A7BL1cDlGFe1wzo/i7nGq+nT+S7kAab9Uwnu7fClic9+5fFlRA9Q/568KNNR6OvIKZT0rlMUcmGltziHKfUNOlQxg/0kLar6BHf+OrILD3JIdXhRq87LadEn/4hdm/RPW2CnG8RfKHMMgsfrhv7PEZxG3H7i+vMQHloFucFZl2W5a6mVf4OExmwClviJC0yC4W17q8jS/oGVwnvESMMtBhGoaiqW+dxCuxeYK0gszpp2Xc6kc4DzciN0KXPPH1rLl542wEiQ9q9FKkCjNA2FeJCyLivum3/N7Pkfmijnt4NBA3/T90cRvW/Nz6QSMNU/4mGH51k9v+Wi3HZ01nmyFx8X4Fz/xaHc1QTaJ2gyFCCXLVfSw5rPfVgiWF0aNKgbPsrG/+yCUdAZVk4h7cpPzMxXvJNWe5bfQsasbt/zqaV5/Or8Xli2hQtkIINBjERVDUskJVk8G247jkulP/eRebuOTUMo9SrO8CM=",
-							Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MjEzNzkzNTkzNSwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCMG5LMzMzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZlZjVjY2Q1Y2QxN2RkNjgxMDMyNDY0YTlhMjdjNGY1NzdhMDZkNTFhYWI2Mjg1OTZlY2E5NWRiNjQ5Nzk0NWEiCiAgICB9CiAgfQp9"
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMTE1ODY5NzM2OCwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRVQzUk5BTCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWY1Y2NkNWNkMTdkZDY4MTAzMjQ2NGE5YTI3YzRmNTc3YTA2ZDUxYWFiNjI4NTk2ZWNhOTVkYjY0OTc5NDVhIgogICAgfQogIH0KfQ==",
+							Signature: "M2MKMTMDKbbmgtFXglAqVbg1WiJcRVpKda1D7BphCRzio9mtzV/dKgYyL+vVwH1N1nWs0neqGESF/Xpo4K26/lKdDDmHsYL7vPeJhpovz2QBegczezUctQPHmI2wCbYI+kxC/rF22kOnyBeqn/RUAouLh6JytouEVJmC063u+2Xv7wPTIWGj0av9eDWece1KuJ9Txz0Jbm3crn7mdS7LbDChwTB+HoyIaWE26R5zLOFBY9mhBbIoWzb7fwd0N3OdNhgq5vl1FiJwdgZeWHqunFzYwF9SI7NJsgPLVxtDYN4fk9EY5HzzMu0aOe8CPBGZM6c19rOHABROfMJfRRWmJDK1p0sEQay1n6/VYvVyPD6qLCGmi+5lRvPrIJD6JVHDnBYY4KoDGKVcJ+2POdUth5NZKNP4sjuN0kwWOj96krwW9Gkn6OACMHXzaNpU0/LojcbFbcmRVnWrnzXuSskMe0Mt81BfT3WjxeKGF+6V7k4g+dvXR60j0T1R767HQOTzi+OvHfznPlv8NkD4UXabSmA+uio+/X0X/v+uIpEnALzEnuYdgZ3dquOSOb6oAxNdnNkdURQj9T3UWZgrFmVeLPLuT9TfsbK9+H/VVrLePgfVNwvgcRtWBiOQGIobw1cVpQendwUaTcHEqQEHqNSSNef+awxzKAsUBUkiVT4zrfQ="
 						}]
-					},
-					Name: "B0nK333"
-				},
-				display: {
-					Name: "LoVi_ApTe4kq's Head"
+					}
 				}
 			}
 		}

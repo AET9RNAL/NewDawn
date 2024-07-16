@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:mufflingupgrade"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "673ae413",

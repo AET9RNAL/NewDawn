@@ -3,10 +3,10 @@
 	y: -14.656462585034006d,
 	shape: "hexagon",
 	tasks: [{
-		uid: "9677828e",
+		uid: "cad42436",
 		type: "item",
 		items: [{
-			item: "contenttweaker:compressed_honeycomb_certus"
+			item: "iuadditions:compressed_certushoneycomb"
 		}]
 	}],
 	rewards: [{

@@ -11,7 +11,8 @@
 		items: [{
 			item: "mekanismecoenergistics:avaritiagenerator 1 3"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "80b40195",

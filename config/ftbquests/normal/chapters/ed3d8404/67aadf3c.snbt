@@ -5,10 +5,10 @@
 		"6680b0e6"
 	],
 	tasks: [{
-		uid: "045f9d36",
+		uid: "90ea6d05",
 		type: "item",
 		items: [{
-			item: "contenttweaker:apalachia_core"
+			item: "iuadditions:core_apalachia"
 		}]
 	}],
 	rewards: [{

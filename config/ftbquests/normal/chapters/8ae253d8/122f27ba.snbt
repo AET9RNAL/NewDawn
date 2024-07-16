@@ -12,7 +12,8 @@
 		items: [{
 			item: "mekanism:machineblock3 1 12"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "fb57ee78",
@@ -23,5 +24,11 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "7aefc50f",
+		type: "item",
+		item: "minecraft:melon_block",
+		count: 16
 	}]
 }

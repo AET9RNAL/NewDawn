@@ -2,7 +2,7 @@
 	x: 7.5d,
 	y: 0.0d,
 	text: [
-		"§4Тут и так понятно"
+		"§4Ah yes, a shovel at the cost of Lambo"
 	],
 	dependencies: [
 		"30b92a51"

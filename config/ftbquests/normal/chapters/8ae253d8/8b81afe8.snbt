@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "mekanism:energyupgrade"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "91adda0e",

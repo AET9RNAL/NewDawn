@@ -1,0 +1,292 @@
+{
+  "version": 2,
+  "location": "botania:manamachine_flower_sim",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 68,
+      "y": 46,
+      "width": 39,
+      "height": 80,
+      "texture": "multiblocked:textures/flowersim_progress_bar.png",
+      "fillDirection": 2
+    },
+    "background": "multiblocked:textures/gui_manamachine_flower_sim.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 58,
+        "y": 50,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 58,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 58,
+        "y": 14,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 40,
+        "y": 50,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 40,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 40,
+        "y": 14,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 116,
+        "y": 50,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 115,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 116,
+        "y": 14,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 50,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 98,
+        "y": 14,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_FLOWER",
+        "x": 78,
+        "y": 86,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:flower_module_gourmaryllis\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_thermalily\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_kekimorus\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_reikar\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_entropinnyum\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_arcana\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_hydroangeas\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_gemini\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:flower_module_endoflame\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_UPGRADE",
+        "x": 78,
+        "y": 28,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:manastate_module_mana\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:manastate_module_liquid\\\",Count:1,Damage:0s}\""
+        ]
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT_F",
+        "x": 97,
+        "y": 126,
+        "autoIO": false,
+        "tC": 5000,
+        "w": 18,
+        "h": 41,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"fluidedmana\\\",Amount:1000}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F",
+        "x": 18,
+        "y": 16,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 19,
+        "h": 42,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"water\\\",Amount:1000}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F",
+        "x": 138,
+        "y": 16,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 19,
+        "h": 42,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"lava\\\",Amount:1000}\""
+        ]
+      }
+    ],
+    "bot_mana": {
+      "cIO": 1,
+      "gIO": 2,
+      "x": 61,
+      "y": 129,
+      "width": 15,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 2000000,
+      "allowSpark": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:flower_sim",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "manamachine_flower_sim",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "botania:manamachine_flower_sim",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

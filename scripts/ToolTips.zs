@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 //addDescription(IItemStack item, string... desc);
 //mods.jei.JEI.addDescription(IItemstack,"TEXT");
 
-<contenttweaker:cross_dimensional_core>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
+<iuadditions:core_crossdimensional>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
 mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void Forge by clicking RMB while holding Endorium Ingot");
 // <mod_id:industrial_spawner>.displayName = "Industrial Spawner Controller";
 // <mod_id:legendary_industrial_spawner>.displayName = "Legendry Spawner Controller";
@@ -49,166 +49,49 @@ mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void For
 <botania:manamachine_manapool>.displayName = "Mechanical Manapool";
 <botania:manamachine_mana_deliquefier>.displayName = "Mana Deliquefier";
 <botania:manamachine_mana_liquefier>.displayName = "Mana Liquefier";
+<mekanism:mekamachine_extreme_evaporation_chamber>.displayName = "Extreme Evaporation Chamber";
+<botania:manamachine_flower_sim>.displayName = "Flower Simulation Chamber";
+<draconicevolution:draconicmachine_industrial_spawner>.displayName = "Industrial Spawner";
 
 
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_axe>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
 
-§a-Elementium Axe
--Corrupted Axe
--Mortum Axe
--Ender Axe
--Steel leaf Axe
--Superium Axe
--Spectral Axe");
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_axe>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_bow>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_bow>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§a-Crystal Bow
--Endorium Bow[DivineRPG]
--Inferno Bow
--Mortum Bow
--Spectral Bow
--Superium Bow
--Shadow Bow
--Ender Bow[EnderIO]");
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_pick>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_pick>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-§a-Elementium AIOT
--Mortum Pickaxe
--Spectral Pickaxe
--Superium Pickaxe
--Fiery Pickaxe
--Netherite Pickaxe
--Stellar Pickaxe");
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_shovel>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_shovel>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_sword>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§a-Corrupted Shovel
--Crystal Shovel[Cyclic]
--Steel Leaf Shovel
--Superium Shovel
--Spectral Shovel
--Mortum Shovel
--Elementium Shovel");
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_sword>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_helm>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-§a-Bluefire Sword
--Spectral Saber
--End Mage Barclay Sword(DivineRPG)
--Scorching Sword
--Superium Sword
--Mana Stealing Blade
--Fiery Sword
--Bedrock Sword
--Sword of Evasion");
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_chest>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_helm>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_legs>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§a-Terrasteel Helm
--Currupted Helm
--Superium Helm
--Fiery Helm
--Yeti Horned Helm
--Ender Helm
--Spectral Quantum Helm");
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_chest>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
+mods.jei.JEI.addDescription(<draconicevolution:wyvern_boots>,"§5Please use a spark of Nilfheim tier and higher to avoid losing items due to despawning over time.
 
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
-
-§a-Terrasteel Chestplate
--Corrupted Chestplate
--Mortum Chestplate
--Inferno Chestplate
--Stellar Chestplate
--Ender Plate
--Superium Chestplate
--Spectral Quantum Chestplate");
-
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_legs>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
-
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
-
-§a-Terrasteel Leggings
--Corrupted Leggings
--Superium Leggings
--Naga Scale Leggings
--Jungle Leggings
--Ender Leggings
--Spectral Quantum Leggings");
-
-mods.jei.JEI.addDescription(<draconicevolution:wyvern_boots>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
-
-§5-Wyvern Core
--Wyvern Energy Core
--Draconic Iridium Compressed Plate
--Draconic Box
--Draconium Circuit
--6 FULL pools of mana[6E6 units of mana]
-
-§a-Terrasteel Boots
--Corrupted Boots
--Ender Boots
--Fiery Boots
--Mortum Boots
--Superium Boots
--Yeti Boots
--Spectral Quantum Boots");
+§6*Note: a higher tier spark has to be placed on top of a mana source, not the plate");
 
 mods.jei.JEI.addDescription(<botanicadds:gaiasteel_ingot>,"§6Please use GAIA Agglomeration Plate for crafting, following the list of ingridients below(order doesn't matter):
 
@@ -260,7 +143,7 @@ var pickaxeArray = [
 
 ] as IItemStack[];
 for pickaxe in pickaxeArray {
-    pickaxe.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
+    pickaxe.addTooltip(format.darkRed("This item is disabled, use Tinkers Construct"));
     pickaxe.maxDamage = 1;
 }
 
@@ -290,7 +173,7 @@ var swordArray = [
  <thermalfoundation:tool.sword_tin>,
 ] as IItemStack[];
 for sword in swordArray {
-    sword.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
+    sword.addTooltip(format.darkRed("This item is disabled, use Tinkers Construct"));
     sword.maxDamage = 1;
 }
 
@@ -344,7 +227,7 @@ var axeArray = [
  <thermalfoundation:tool.axe_bronze>
 ] as IItemStack[];
 for axe in axeArray {
-    axe.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
+    axe.addTooltip(format.darkRed("This item is disabled, use Tinkers Construct"));
     axe.maxDamage = 1;
 }
 
@@ -390,7 +273,7 @@ var shovelArray = [
     <thermalfoundation:tool.shovel_electrum>,
 ] as IItemStack[];
 for shovel in shovelArray {
-    shovel.addTooltip(format.darkRed("Этот предмет отключен, используйте Tinkers Construct"));
+    shovel.addTooltip(format.darkRed("This item is disabled, use Tinkers Construct"));
     shovel.maxDamage = 1;
 }
 

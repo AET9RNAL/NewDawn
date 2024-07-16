@@ -206,3 +206,31 @@ item.contenttweaker.module_luck_x50.name=Модуль Удачи x50
 item.contenttweaker.module_manapool_alchemy.name=Модуль "Алхимия"
 item.contenttweaker.module_manapool_conjuration.name=Модуль "Колдовство"
 item.contenttweaker.module_manapool_dimensional.name=Модуль "Измерения"
+
+item.contenttweaker.module_manapool.name=Модуль "Преобразование Маной"
+item.contenttweaker.flower_module_endoflame.name=Цветочный модуль:Endoflame
+item.contenttweaker.flower_module_gourmaryllis.name=Цветочный модуль:Гурмарилис
+item.contenttweaker.flower_module_thermalily.name=Цветочный модуль:Thermalily
+item.contenttweaker.flower_module_kekimorus.name=Цветочный модуль:Кекиморус
+item.contenttweaker.flower_module_reikar.name=Цветочный модуль:Лилия Рейкар
+item.contenttweaker.flower_module_entropinnyum.name=Цветочный модуль:Энтропиннум
+item.contenttweaker.flower_module_arcana.name=Цветочный модуль:Роза Аркана
+item.contenttweaker.flower_module_hydroangeas.name=Цветочный модуль:Водогортентизия
+item.contenttweaker.flower_module_gemini.name=Цветочный модуль:Gemini
+
+item.contenttweaker.manastate_module_liquid.name=Модуль состояния маны "Жидкость"
+item.contenttweaker.manastate_module_mana.name=Модуль состояния маны "Мана"
+
+item.contenttweaker.spawner_module_hell.name=Модуль Спавна:Ад
+item.contenttweaker.spawner_module_end.name=Модуль Спавна:Край
+item.contenttweaker.spawner_module_eden.name=Модуль Спавна:Эдем
+item.contenttweaker.spawner_module_wildwood.name=Модуль Спавна:Дикий Лес
+item.contenttweaker.spawner_module_apalachia.name=Модуль Спавна:Аппалачия
+item.contenttweaker.spawner_module_skythern.name=Модуль Спавна:Небесный Тёрн
+item.contenttweaker.spawner_module_mortum.name=Модуль Спавна:Мортум
+item.contenttweaker.spawner_module_vethea.name=Модуль Спавна:Везея
+item.contenttweaker.spawner_module_arcana.name=Модуль Спавна:Аркана
+item.contenttweaker.spawner_module_gaia.name=Модуль Спавна:ГАЙА
+item.contenttweaker.spawner_module_dragon.name=Модуль Спавна:Дракон Края
+item.contenttweaker.spawner_module_chaos.name=Модуль Спавна:Хранитель Хаоса
+item.contenttweaker.spawner_module_wither.name=Модуль Спавна:Иссушитель

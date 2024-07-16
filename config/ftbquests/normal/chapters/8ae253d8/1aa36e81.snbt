@@ -51,5 +51,17 @@
 				tier: 0
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "64e5b37a",
+		type: "item",
+		item: {
+			id: "mekanismecoenergistics:energytabletspectral",
+			tag: {
+				mekData: {
+					energyStored: 6.4E7d
+				}
+			}
+		}
 	}]
 }

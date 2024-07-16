@@ -8,13 +8,11 @@
 		uid: "fe63fb1d",
 		type: "item",
 		items: [{
-			id: "avaritia:infinity_boots",
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			item: "avaritia:infinity_boots"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "1829a84f",

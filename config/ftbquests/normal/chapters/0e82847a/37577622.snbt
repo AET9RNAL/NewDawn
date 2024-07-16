@@ -1,0 +1,14 @@
+{
+	x: -22.5d,
+	y: -16.5d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "c43ce495",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_gemini"
+		}]
+	}]
+}

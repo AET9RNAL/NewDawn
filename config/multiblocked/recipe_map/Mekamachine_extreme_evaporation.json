@@ -1,0 +1,127 @@
+{
+  "name": "Mekamachine_extreme_evaporation",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "237af04c-8cc5-46b9-a97b-0103916df0c2",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:2000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquidsodium\",Amount:15000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquidsuperheatedsodium\",Amount:15000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b3a1c4ab-dfce-4963-87b6-60b9cde70d27",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:10000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:15000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"brine\",Amount:15000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3d8ff033-099e-4818-8ab4-cf8e42c39e92",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:50000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"brine\",Amount:50000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "675da9cc-928a-4386-9e9e-4132972056c6",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"brine\",Amount:15000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:20000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquidlithium\",Amount:15000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "919ba89d-4cd2-441f-a374-294cb2c3f609",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:2000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"brine\",Amount:25000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquidlithium\",Amount:25000}"
+          }
+        ]
+      }
+    }
+  ]
+}

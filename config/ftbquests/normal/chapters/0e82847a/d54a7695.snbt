@@ -1,0 +1,14 @@
+{
+	x: -20.5d,
+	y: -11.0d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "47dd75b8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_kekimorus"
+		}]
+	}]
+}

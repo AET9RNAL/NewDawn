@@ -6,10 +6,10 @@
 		"7c6e6d88"
 	],
 	tasks: [{
-		uid: "244badbc",
+		uid: "528fb56f",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_radioactive_honeycomb_crystal"
+			item: "iuadditions:crystal_radioactive"
 		}]
 	}],
 	rewards: [{

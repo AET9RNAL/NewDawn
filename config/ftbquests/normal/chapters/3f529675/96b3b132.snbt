@@ -6,10 +6,10 @@
 		"daa3b8e7"
 	],
 	tasks: [{
-		uid: "77c76abc",
+		uid: "1ca95d58",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_static_crystal_plate"
+			item: "iuadditions:plate_static"
 		}]
 	}],
 	rewards: [{

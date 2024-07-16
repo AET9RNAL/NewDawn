@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: -5.5d,
 	text: [
-		"§4Энергия для вашей МЭ(более оптимизировано чем запитка МЭ от РФ)"
+		"§4Power for your ME system. Place that thing and forget about it"
 	],
 	dependencies: [
 		"30b92a51"
@@ -12,7 +12,8 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:creative_energy_cell"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "b6d88dfa",

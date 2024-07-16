@@ -5,6 +5,9 @@
 	text: [
 		"This machine can create perfect celestial crystals, no more complex automations!"
 	],
+	dependencies: [
+		"b34ecdfd"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "54c092ba",
@@ -12,5 +15,15 @@
 		items: [{
 			item: "multiblocked:astralmachine_celestial_crystallizer"
 		}]
+	}],
+	rewards: [{
+		uid: "69dc4947",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

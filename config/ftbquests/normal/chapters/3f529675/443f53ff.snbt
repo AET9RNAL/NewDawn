@@ -6,10 +6,10 @@
 		"72af5a67"
 	],
 	tasks: [{
-		uid: "3923a04d",
+		uid: "1f16dbe5",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_dripping_crystal_plate"
+			item: "iuadditions:plate_dripping"
 		}]
 	}],
 	rewards: [{

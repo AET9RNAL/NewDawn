@@ -9,13 +9,11 @@
 		type: "item",
 		items: [{
 			id: "appliedenergistics2:creative_storage_cell",
-			tag: {},
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			tag: {}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "e9305a22",

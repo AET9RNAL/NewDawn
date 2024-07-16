@@ -2,10 +2,8 @@
 	x: -2.0d,
 	y: -6.5d,
 	text: [
-		"§4Из драконика лучше!",
-		"",
-		"§a(Генерация:10,006GRF/t *ИСПОЛЬЗУЙТЕ ФЛАКС РАЗЬЁМЫ СО ВСЕХ ДОСТУПНЫХ СТОРОН ДЛЯ ВСЕХ КРЕАТИВНЫХ ИСТОЧНИКОВ ДЛЯ ",
-		"КОРРЕКТНОГО ИЗВЛЕЧЕНИЯ ЭНЕРГИИ *)"
+		"§a(Generation:10,006GRF/t *TO MAXIMIZE ENERGY TRANSFER CAPABILITY USE FLUX PLUGS ON EACH SIDE OF ANY CREATIVE SOURCE OF",
+		"ENERGY *)"
 	],
 	dependencies: [
 		"30b92a51"
@@ -15,7 +13,8 @@
 		type: "item",
 		items: [{
 			item: "extrautils2:creativeenergy"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "74562622",

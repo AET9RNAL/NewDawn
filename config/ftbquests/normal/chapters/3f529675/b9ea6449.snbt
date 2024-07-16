@@ -6,10 +6,10 @@
 		"7c6e6d88"
 	],
 	tasks: [{
-		uid: "a85f76a5",
+		uid: "c6c6d3cf",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_radioactive_crystal_plate"
+			item: "iuadditions:plate_radioactive"
 		}]
 	}],
 	rewards: [{

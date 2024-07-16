@@ -9,14 +9,16 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:material 1 44"
-		}]
+		}],
+		count: 4L
 	},
 	{
 		uid: "859f3ab2",
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:material 1 43"
-		}]
+		}],
+		count: 4L
 	}],
 	rewards: [{
 		uid: "d717c254",

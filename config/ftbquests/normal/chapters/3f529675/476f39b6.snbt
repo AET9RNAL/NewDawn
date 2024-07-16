@@ -13,10 +13,10 @@
 	],
 	size: 3.0d,
 	tasks: [{
-		uid: "18fc9dc2",
+		uid: "f452822d",
 		type: "item",
 		items: [{
-			item: "contenttweaker:refractive_crystal_plate"
+			item: "iuadditions:plate_refractive"
 		}]
 	}],
 	rewards: [{
@@ -41,9 +41,9 @@
 		count: 64
 	},
 	{
-		uid: "aacfc9e7",
+		uid: "173620f4",
 		type: "item",
-		item: "contenttweaker:refractive_crystal_plate",
-		count: 4
+		item: "iuadditions:plate_refractive",
+		count: 6
 	}]
 }

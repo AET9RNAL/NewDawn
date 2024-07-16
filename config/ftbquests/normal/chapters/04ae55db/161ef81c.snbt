@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 5.5d,
 	text: [
-		"§4Сколько глаз вам пришлось выбить ради этого?"
+		"§4How many of them eyes have you had to poke for this?"
 	],
 	dependencies: [
 		"30b92a51"

@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: 6.5d,
 	text: [
-		"§4Превратитесь в Халка"
+		"§4Always dreamed of becoming a Hulk?"
 	],
 	dependencies: [
 		"30b92a51"

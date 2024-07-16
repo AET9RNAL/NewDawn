@@ -13,7 +13,8 @@
 			tag: {
 				tier: 2
 			}
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "77360686",

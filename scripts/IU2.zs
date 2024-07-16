@@ -9,6 +9,7 @@ recipes.remove(<industrialupgrade:itemplates:25>);
 recipes.remove(<industrialupgrade:crafting_elements:16>);
 recipes.remove(<industrialupgrade:crafting_elements:79>);
 recipes.remove(<industrialupgrade:crafting_elements:72>);
+recipes.remove(<industrialupgrade:basemachine3:81>);
 //Don't touch me!
 //#Add
 recipes.addShaped(<industrialupgrade:advanced_re_battery>, [[<industrialupgrade:cable_iu_item:12>, <industrialupgrade:casing:19>, <industrialupgrade:cable_iu_item:12>],[<industrialupgrade:casing:19>, <taiga:tiberium_crystal>, <industrialupgrade:casing:19>], [<industrialupgrade:casing:19>, <ore:dustLead>, <industrialupgrade:casing:19>]]);
@@ -16,14 +17,13 @@ recipes.addShaped(<industrialupgrade:elementium_core>, [[<industrialupgrade:rune
 recipes.addShaped(<industrialupgrade:manasteel_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:itemcore>, <industrialupgrade:photoniy_ingot>], [<moreplates:manasteel_plate>, <industrialupgrade:rune_energy>, <moreplates:manasteel_plate>]]);
 recipes.addShaped(<industrialupgrade:elementium_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:manasteel_core>, <industrialupgrade:photoniy_ingot>], [<moreplates:elementium_plate>, <industrialupgrade:rune_energy>, <moreplates:elementium_plate>]]);
 recipes.addShaped(<industrialupgrade:manasteel_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:itemcore>, <industrialupgrade:photoniy_ingot>], [<moreplates:manasteel_plate>, <industrialupgrade:rune_energy>, <moreplates:manasteel_plate>]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:22>, [[<ore:blockGlassHardened>, <botania:specialflower>.withTag({type: "thermalily"}), <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <industrialupgrade:itemcell>, <ore:blockGlassHardened>], [null, <industrialupgrade:crafting_elements:21>, null]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:22>, [[<ore:blockGlassHardened>, <botania:specialflower>.withTag({type: "thermalily"}), <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <industrialupgrade:fluid_cell>, <ore:blockGlassHardened>], [null, <industrialupgrade:crafting_elements:21>, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:229>, [[<mekanism:compressedobsidian>, <minecraft:obsidian>, <mekanism:compressedobsidian>],[<industrialupgrade:gear:15>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:gear:15>], [null, null, null]]);
-
+recipes.addShaped(<industrialupgrade:basemachine3:81>, [[<ore:dustCoal>, <extrautils2:decorativeglass>, <ore:dustCoal>],[<extrautils2:decorativeglass>, <industrialupgrade:crafting_elements:37>, <extrautils2:decorativeglass>], [null, <industrialupgrade:basemachine3:78>, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:16>, [[<moreplates:end_steel_plate>, <moreplates:end_steel_plate>, <moreplates:end_steel_plate>],[<moreplates:energetic_silver_plate>, <industrialupgrade:crafting_elements:42>, <moreplates:energetic_silver_plate>], [null, null, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <extrautils2:suncrystal>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<redstonearsenal:material:128>, <industrialupgrade:radiationresources:4>, <redstonearsenal:material:128>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:72>, [[null, <industrialupgrade:itemplates>, null],[<industrialupgrade:itemplates>, <industrialupgrade:crafting_elements:46>, <industrialupgrade:itemplates>], [<industrialupgrade:itemplates:6>, <simplyjetpacks:metaitemmods:30>, <industrialupgrade:itemplates:6>]]);
 
-recipes.addShaped(<industrialupgrade:basemachine3:81>, [[null, <extrautils2:decorativeglass>, null],[<extrautils2:decorativeglass>, <industrialupgrade:crafting_elements:37>, <extrautils2:decorativeglass>], [null, <industrialupgrade:basemachine3:78>, null]]);
 
 
 // Perfect Industrial Casing

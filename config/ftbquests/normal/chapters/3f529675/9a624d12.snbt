@@ -6,10 +6,10 @@
 		"69898706"
 	],
 	tasks: [{
-		uid: "f1800a15",
+		uid: "5bf271dc",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridescent_shimmering_crystal_plate"
+			item: "iuadditions:plate_shimmering"
 		}]
 	}],
 	rewards: [{

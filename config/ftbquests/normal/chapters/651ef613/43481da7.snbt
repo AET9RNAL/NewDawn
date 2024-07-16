@@ -1,6 +1,6 @@
 {
-	x: 8.0d,
-	y: -0.5d,
+	x: 7.940476190476197d,
+	y: -1.5595238095238102d,
 	shape: "diamond",
 	text: [
 		"This machine is capable of generating liquid starlight. To do so, it requires a constant supply of energy, also a focused ray of Horologium constellation."

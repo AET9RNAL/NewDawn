@@ -10,7 +10,8 @@
 		items: [{
 			item: "mekanismgenerators:generator 1 5"
 		}],
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "b0a8c63d",
