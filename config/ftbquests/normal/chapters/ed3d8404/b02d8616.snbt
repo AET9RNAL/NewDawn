@@ -1,6 +1,7 @@
 {
 	x: 16.0d,
 	y: 0.0d,
+	can_repeat: true,
 	dependencies: [
 		"0e9cf582"
 	],
@@ -9,7 +10,9 @@
 		type: "item",
 		items: [{
 			item: "divinerpg:fire_crystal"
-		}]
+		}],
+		count: 10L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "bcb0fc9b",

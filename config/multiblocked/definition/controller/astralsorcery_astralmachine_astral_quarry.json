@@ -201,6 +201,148 @@
         "x": 133,
         "y": 110,
         "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_MODULE",
+        "x": 151,
+        "y": 7,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:module_luck_x1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_luck_x2\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_luck_x5\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_luck_x20\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_luck_x50\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 133,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 115,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 97,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 79,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 61,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 43,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 25,
+        "y": 128,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 133,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 115,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 97,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 79,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 61,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 43,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 25,
+        "y": 56,
+        "autoIO": false
       }
     ],
     "starlight_as": {

@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "bc65d2ca",
+		type: "item",
+		items: [{
+			id: "tiabs:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

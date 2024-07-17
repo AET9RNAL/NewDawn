@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "7b2d52ed",
+		type: "item",
+		items: [{
+			id: "flowingtime:timewatch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

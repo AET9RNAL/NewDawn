@@ -3,7 +3,7 @@
 	y: -10.0d,
 	shape: "diamond",
 	text: [
-		"This machine can create perfect rock crystals, no more complex automations!"
+		"§6This machine can create perfect rock crystals, no more complex automations!"
 	],
 	dependencies: [
 		"fca8fad0"

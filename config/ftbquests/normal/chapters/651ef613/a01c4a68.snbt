@@ -3,8 +3,10 @@
 	y: -9.0d,
 	shape: "diamond",
 	text: [
-		"A quarry capable of generating a handful of ores by effectively utilizing a focused ray of Mineralis constellation. Your first, advanced, automatic way of",
-		"getting lots of resources"
+		"§6A quarry capable of generating a handful of ores by effectively utilizing a focused ray of Mineralis constellation. Your first, advanced, automatic way of",
+		"getting lots of resources.",
+		"",
+		"*Note: Don't forget to use celestial collector crystals with max stats on stabilizing platforms for max performance"
 	],
 	dependencies: [
 		"fca8fad0"

@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -11.5d,
+	dependencies: [
+		"a01c4a68"
+	],
+	tasks: [{
+		uid: "8e8c8f31",
+		type: "item",
+		items: [{
+			item: "contenttweaker:module_luck_x1"
+		}]
+	}]
+}

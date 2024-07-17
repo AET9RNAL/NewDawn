@@ -9,7 +9,7 @@
 		"How to use:",
 		"",
 		"1.Put a mana state module in the upper central slot. ",
-		"*Not: before choosing what state of mana you want to be generated, look up the recipes and check if it supports liquid state. All recipes support regular",
+		"*Note: before choosing what state of mana you want to be generated, look up the recipes and check if it supports liquid state. All recipes support regular",
 		"mana state, but few support liquid.",
 		"",
 		"2.Put a flower module in the central slot",

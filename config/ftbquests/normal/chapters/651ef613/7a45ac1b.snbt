@@ -3,7 +3,7 @@
 	y: -8.0d,
 	shape: "diamond",
 	text: [
-		"Best low-to-mid end energy generator. Energy generation depends on constellation. Focus a ray of starlight via linking tool from collector crystal",
+		"§6Best low-to-mid end energy generator. Energy generation depends on constellation. Focus a ray of starlight via linking tool from collector crystal",
 		"and the generator will start producing power. Energy can only be extracted via Mekanism cables configured in \"Pull\" mode"
 	],
 	dependencies: [

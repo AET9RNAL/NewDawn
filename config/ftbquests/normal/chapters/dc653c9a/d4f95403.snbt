@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -41.0d,
+	text: [
+		"§6What's the goal of the modpack?",
+		"",
+		"§2Long story short, it all comes down to three main things:",
+		"1.Energy",
+		"2.Mana",
+		"3.Starlight",
+		"",
+		"If you have these things, then you have resources, if you have resources - you can craft new machines and explore mods more deeply. Some people set a goal to complete all of the quests or don't do them at all, some aim for creative items and as much",
+		"power as possible. At the end where to go and where to stop is only up to you, pick your poison ;)"
+	],
+	tasks: [{
+		uid: "7e92d8fb",
+		type: "checkmark",
+		icon: "extrabotany:cosmetic 1 7"
+	}],
+	rewards: [{
+		uid: "30e5f393",
+		type: "xp",
+		xp: 300
+	}]
+}
