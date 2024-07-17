@@ -258,3 +258,6 @@ item.contenttweaker.spawner_module_gaia.name=Spawn Module:GAIA
 item.contenttweaker.spawner_module_dragon.name=Spawn Module:Ender Dragon
 item.contenttweaker.spawner_module_chaos.name=Spawn Module:Chaos Guardian
 item.contenttweaker.spawner_module_wither.name=Spawn Module:Wither
+
+item.contenttweaker.module_luck_x1.name=Module Luck x1
+item.contenttweaker.module_luck_x2.name=Module Luck x2

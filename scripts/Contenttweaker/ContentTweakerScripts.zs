@@ -521,6 +521,16 @@ var upgrade_x64 = VanillaFactory.createItem("upgrade_x64");
 upgrade_x64.maxStackSize = 64;
 upgrade_x64.register();
 
+//module_luck_x1
+var module_luck_x1 = VanillaFactory.createItem("module_luck_x1");
+module_luck_x1.maxStackSize = 64;
+module_luck_x1.register();
+
+//module_luck_x2
+var module_luck_x2 = VanillaFactory.createItem("module_luck_x2");
+module_luck_x2.maxStackSize = 64;
+module_luck_x2.register();
+
 //module_luck_x5
 var module_luck_x5 = VanillaFactory.createItem("module_luck_x5");
 module_luck_x5.maxStackSize = 64;
@@ -676,9 +686,6 @@ spawner_module_chaos.register();
 var spawner_module_dragon = VanillaFactory.createItem("spawner_module_dragon");
 spawner_module_dragon.maxStackSize = 64;
 spawner_module_dragon.register();
-
-
-
 
 
 

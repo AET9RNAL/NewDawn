@@ -295,8 +295,8 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:osram_fluid>*288, <taiga:osram_
 mods.thermalexpansion.Crucible.addRecipe(<liquid:eezo_fluid>*288, <taiga:eezo_ore>, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:iufluidneft>*250, <industrialupgrade:crafting_elements:283>, 8000);
 
-mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>, <enderio:item_alloy_endergy_ingot:3>*9, 4000);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>, <enderio:block_alloy_endergy:3>, 4000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>*144, <enderio:item_alloy_endergy_ingot:3>*9, 4000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>*1296, <enderio:block_alloy_endergy:3>, 4000);
 
 
 

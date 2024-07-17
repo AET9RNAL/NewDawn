@@ -234,3 +234,6 @@ item.contenttweaker.spawner_module_gaia.name=Модуль Спавна:ГАЙА
 item.contenttweaker.spawner_module_dragon.name=Модуль Спавна:Дракон Края
 item.contenttweaker.spawner_module_chaos.name=Модуль Спавна:Хранитель Хаоса
 item.contenttweaker.spawner_module_wither.name=Модуль Спавна:Иссушитель
+
+item.contenttweaker.module_luck_x1.name=Модуль Удачи x1
+item.contenttweaker.module_luck_x2.name=Модуль Удачи x2
