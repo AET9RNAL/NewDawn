@@ -1,0 +1,12 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "99247831",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}],
+		only_from_crafting: true
+	}]
+}

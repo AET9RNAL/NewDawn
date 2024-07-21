@@ -3,7 +3,7 @@
 	y: -13.0d,
 	shape: "circle",
 	text: [
-		"This machine aacepts different flower modules that mimic behaviour of regular flowers that you may already be familiar with. The exception is that ",
+		"§6This machine aacepts different flower modules that mimic behaviour of regular flowers that you may already be familiar with. The exception is that ",
 		"flower modules are usually at least 2 times more powerful than regular flowers. Some recipes support liquid mana",
 		"",
 		"How to use:",

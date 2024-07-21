@@ -69,6 +69,18 @@ recipes.removeShaped(<industrialupgrade:crafting_elements:210>, [[null, <industr
 recipes.removeShaped(<industrialupgrade:crafting_elements:209>, [[null, <industrialupgrade:cable_iu_item:20>, null],[<industrialupgrade:crafting_elements:273>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:itembatlamacrystal:*>], [null, <industrialupgrade:cable_iu_item:20>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrialupgrade:cable_iu_item:15>, null],[<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:advanced_re_battery:16>], [null, <industrialupgrade:cable_iu_item:15>, null]]);
 recipes.remove(<iuadditions:compressed_shimmeringhoneycomb>);
+
+recipes.remove(<quantum_generators:qg>);
+recipes.remove(<quantum_generators:qg:1>);
+recipes.remove(<quantum_generators:qg:2>);
+recipes.remove(<quantum_generators:qg:3>);
+recipes.remove(<quantum_generators:qg:4>);
+recipes.remove(<quantum_generators:qg:5>);
+recipes.remove(<industrialupgrade:basemachine:8>);
+recipes.remove(<industrialupgrade:basemachine:13>);
+recipes.remove(<industrialupgrade:basemachine:14>);
+recipes.remove(<industrialupgrade:basemachine:15>);
+
 //CRAFTINGTABLE ADD
 
 

@@ -266,3 +266,7 @@ Agglomeration.addRecipe(<contenttweaker:spawner_module_chaos>, [<industrialupgra
 <contenttweaker:iridium_advanced_chaotic>,<jaopca:avaritia_singularity.demonic_metal>,<draconicadditions:chaotic_energy_core>,<contenttweaker:matter_awakened_draconium>,<draconicevolution:awakened_core>,
 <jaopca:avaritia_singularity.cosmic_neutronium>,<jaopca:avaritia_singularity.caravky>] as IIngredient[], 
 30000000, 0xf4ffe3, 0xd42d00, <mysticalagradditions:special:4>, <draconicevolution:draconic_block>, <draconicevolution:infused_obsidian>, null, <draconicevolution:draconium_block:1>, <endreborn:block_essence_ore>);
+
+
+Agglomeration.addRecipe(<contenttweaker:module_luck_x2>, [<contenttweaker:module_luck_x1>,<contenttweaker:module_luck_x1>,<betternether:cincinnasite_forged>,<midnight:bogshroom_powder>,<avaritia:resource>,<biomesoplenty:terrestrial_artifact>,
+<enderio:item_material:19>,<extrautils2:suncrystal>,<extrautils2:unstableingots:2>,<astralsorcery:itemusabledust>] as IIngredient[], 250000, 0x60696c, 0xf9f780);

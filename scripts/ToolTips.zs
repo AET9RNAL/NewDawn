@@ -28,10 +28,11 @@ mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void For
 <draconicevolution:reactor_core>.addTooltip(format.red("0 conversion Gen rate:60MRF/T.Overclocked:~150-180MRF/T!"));
 <draconicevolution:reactor_component>.addTooltip(format.red("Shield energy consumption is MUCH higher the higher is gen rate"));
 <draconicevolution:reactor_component:1>.addTooltip(format.red("In order to calculate stratup values, multiply default DE params by 100, gen rate/shield"));
+<simplecobblegen:cobblegen>.addTooltip(format.red("Use with ME storage bus to get infinite cobble"));
 
-<iuadditions:improved_excavator>.displayName = "Improved Excavator";
-<iuadditions:mana_furnace>.displayName = "Mana Furnace";
-<iuadditions:mana_macerator>.displayName = "Mana Macerator";
+// <iuadditions:improved_excavator>.displayName = "Improved Excavator";
+// <iuadditions:mana_furnace>.displayName = "Mana Furnace";
+// <iuadditions:mana_macerator>.displayName = "Mana Macerator";
 <botania:manamachine_agglomeration_plate>.displayName = "Mechanical Agglomeration Plate";
 <botania:manamachine_alfheim_portal>.displayName = "Mechanical Alfheim Portal";
 <botania:manamachine_gaia_agglomeration_plate>.displayName = "Mechanical GAIA Agglomeration Plate";

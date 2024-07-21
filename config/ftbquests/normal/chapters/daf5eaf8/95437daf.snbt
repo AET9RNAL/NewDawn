@@ -1,13 +1,15 @@
 {
-	x: -4.0d,
+	x: -1.0d,
 	y: -3.0d,
 	tasks: [{
-		uid: "bc65d2ca",
+		uid: "d28d4527",
 		type: "item",
 		items: [{
-			id: "tiabs:timeinabottle",
+			id: "buildinggadgets:buildingtool",
 			tag: {
-				timeData: {}
+				blockstate: {
+					Name: "minecraft:air"
+				}
 			}
 		}],
 		ignore_damage: true,

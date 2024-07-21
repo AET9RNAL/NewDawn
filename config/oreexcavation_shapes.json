@@ -47,6 +47,78 @@
         "OXXXO",
         "OOXXO"
       ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 0,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OOOOO",
+        "OOOOO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX",
+        "XXXXX"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
     }
   ]
 }

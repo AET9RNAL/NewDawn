@@ -1,11 +1,11 @@
 {
-	x: -2.5d,
+	x: 2.0d,
 	y: -1.5d,
 	tasks: [{
-		uid: "cd1a8240",
+		uid: "fb4213c8",
 		type: "item",
 		items: [{
-			item: "flowingtime:flpedestal"
+			item: "chickenchunks:chunk_loader"
 		}],
 		only_from_crafting: true
 	}]

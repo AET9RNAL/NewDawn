@@ -138,6 +138,17 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("ND:shaped/internal/altar/quarry", 
              <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>,
              <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]);
 
+//Luckx1
+ mods.astralsorcery.Altar.addConstellationAltarRecipe("ND:shaped/internal/altar/Luckx1", <contenttweaker:module_luck_x1>, 2000, 10, [
+             <mekanismecoenergistics:morecompressed:3>, <astralsorcery:itemusabledust>, <mekanismecoenergistics:morecompressed:3>,
+             <astralsorcery:itemusabledust>, <iuadditions:core_stellar>, <astralsorcery:itemusabledust>,
+             <mekanismecoenergistics:morecompressed:3>, <minecraft:emerald_block>, <mekanismecoenergistics:morecompressed:3>,
+             <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>,
+             null, null,
+             null, null,
+             null, null,
+             null, null]);
+
 
 //Crystallizer
 mods.astralsorcery.Altar.addTraitAltarRecipe("ND:shaped/internal/altar/crystallizer", <multiblocked:astralmachine_crystallizer>, 4500, 100, [

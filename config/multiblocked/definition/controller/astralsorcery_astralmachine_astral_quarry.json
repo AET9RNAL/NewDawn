@@ -354,7 +354,7 @@
       "height": 63,
       "texture": "multiblocked:textures/starlight_progress_bar.png",
       "fillDirection": 3,
-      "capacity": 300000,
+      "capacity": 600000,
       "passiveStarlight": false
     },
     "background": "multiblocked:textures/as_gui_quarry.png"

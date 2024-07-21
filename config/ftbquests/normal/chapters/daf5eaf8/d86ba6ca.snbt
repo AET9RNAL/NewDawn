@@ -1,11 +1,11 @@
 {
-	x: -2.5d,
-	y: -1.5d,
+	x: 2.0d,
+	y: -3.0d,
 	tasks: [{
-		uid: "cd1a8240",
+		uid: "dfbd0ae4",
 		type: "item",
 		items: [{
-			item: "flowingtime:flpedestal"
+			item: "enderstorage:ender_storage"
 		}],
 		only_from_crafting: true
 	}]
