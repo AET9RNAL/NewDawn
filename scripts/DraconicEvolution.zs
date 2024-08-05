@@ -42,7 +42,7 @@ recipes.remove(<draconicevolution:crafting_injector>);
 //#Add
 
 
-recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<iuadditions:plate_astralstarmetal>, <moreplates:diamond_plate>, <enderio:block_crafter>],[<moreplates:diamond_plate>, <draconicevolution:draconic_core>, <moreplates:diamond_plate>], [<enderio:block_crafter>, <astralsorcery:blockaltar:1>, <iuadditions:plate_astralstarmetal>]]);
+//recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<iuadditions:plate_astralstarmetal>, <moreplates:diamond_plate>, <enderio:block_crafter>],[<moreplates:diamond_plate>, <draconicevolution:draconic_core>, <moreplates:diamond_plate>], [<enderio:block_crafter>, <astralsorcery:blockaltar:1>, <iuadditions:plate_astralstarmetal>]]);
 recipes.addShaped(<industrialupgrade:chaosenergycore>, [[<iuadditions:plate_refractive>, <industrialupgrade:chaosingot>, <iuadditions:plate_refractive>],[<industrialupgrade:chaosingot>, <draconicevolution:draconic_energy_core>, <industrialupgrade:chaosingot>], [<iuadditions:plate_refractive>, <industrialupgrade:chaosingot>, <iuadditions:plate_refractive>]]);
 recipes.addShaped(<draconicevolution:energy_crystal:1> * 4, [[<industrialupgrade:modules:11>, <draconicevolution:energy_crystal>, <botanicadds:rune_energy>],[<draconicevolution:energy_crystal>, <draconicevolution:reactor_part:4>, <draconicevolution:energy_crystal>], [<botanicadds:rune_energy>, <draconicevolution:energy_crystal>, <industrialupgrade:modules:11>]]);
 recipes.addShaped(<draconicevolution:energy_crystal> * 4, [[<extrautils2:suncrystal>, <draconicevolution:wyvern_energy_core>, <extrautils2:suncrystal>],[<draconicevolution:wyvern_energy_core>, <astralsorcery:itemcelestialcrystal>, <draconicevolution:wyvern_energy_core>], [<extrautils2:suncrystal>, <draconicevolution:wyvern_energy_core>, <extrautils2:suncrystal>]]);
@@ -62,14 +62,23 @@ recipes.addShaped(<draconicevolution:crafting_injector>, [[null, null, null],[nu
 recipes.addShaped(<draconicevolution:crafting_injector>, [[<moreplates:vivid_alloy_plate>, <draconicevolution:draconic_core>, <moreplates:vivid_alloy_plate>],[<minecraft:obsidian>, <astralsorcery:blockaltar>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.addShaped(<draconicevolution:celestial_manipulator>, [[<naturesaura:calling_spirit>, <enderio:block_weather_obelisk>, <naturesaura:calling_spirit>],[<naturesaura:calling_spirit>, <industrialupgrade:excitednucleus:6>, <naturesaura:calling_spirit>], [<minecraft:dragon_egg>, <astralsorcery:itemshiftingstar>, <minecraft:dragon_egg>]]);
 
+//Combination Crafting
+//
+recipes.remove(<draconicevolution:fusion_crafting_core>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:fusion_crafting_core>, 500000, 2500, <draconicevolution:draconic_core>, [
+<iuadditions:plate_astralstarmetal>, <moreplates:diamond_plate>,<enderio:block_crafter>,<moreplates:diamond_plate>,<moreplates:diamond_plate>,<enderio:block_crafter>,
+<astralsorcery:blockaltar:1>,<iuadditions:plate_astralstarmetal>]);
+//
+
+
+
+
+
+
+
 // Energy Core
 recipes.remove(<draconicevolution:energy_storage_core>);
 mods.avaritia.ExtremeCrafting.addShaped("Energy Core", <draconicevolution:energy_storage_core> * 1, [[null, null, null, <industrialupgrade:crafting_elements:398>, <mekanismecoenergistics:morecompressed:6>, <industrialupgrade:crafting_elements:398>, null, null, null], [null, null, null, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, null, null, null],[null, null, null, <botania:storage:4>, <mekanismecoenergistics:energytabletneutron>, <botania:storage:4>, null, null, null],[<industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, <botania:storage:4>, <draconicevolution:wyvern_core>, <industrialupgrade:circuit:11>, <draconicevolution:wyvern_core>, <botania:storage:4>, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>],[<mekanismecoenergistics:morecompressed:6>, <industrialupgrade:crafting_elements:398>, <mekanismecoenergistics:energytabletneutron>, <industrialupgrade:circuit:11>, <enderio:block_cap_bank:3>, <industrialupgrade:circuit:11>, <mekanismecoenergistics:energytabletneutron>, <industrialupgrade:crafting_elements:398>, <mekanismecoenergistics:morecompressed:6>],[<industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, <botania:storage:4>, <draconicevolution:wyvern_core>, <industrialupgrade:circuit:11>, <draconicevolution:wyvern_core>, <botania:storage:4>, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>],[null, null, null, <botania:storage:4>, <mekanismecoenergistics:energytabletneutron>, <botania:storage:4>, null, null, null],[null, null, null, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, <industrialupgrade:crafting_elements:398>, null, null, null],[null, null, null, <industrialupgrade:crafting_elements:398>, <mekanismecoenergistics:morecompressed:6>, <industrialupgrade:crafting_elements:398>, null, null, null]]);
-
-
-
-
-
 
 // Energy Infuser
 recipes.remove(<draconicevolution:energy_infuser>);

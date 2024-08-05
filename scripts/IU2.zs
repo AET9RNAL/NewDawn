@@ -1,3 +1,4 @@
+import crafttweaker.item.IIngredient;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
@@ -23,6 +24,361 @@ recipes.addShaped(<industrialupgrade:basemachine3:81>, [[<ore:dustCoal>, <extrau
 recipes.addShaped(<industrialupgrade:crafting_elements:16>, [[<moreplates:end_steel_plate>, <moreplates:end_steel_plate>, <moreplates:end_steel_plate>],[<moreplates:energetic_silver_plate>, <industrialupgrade:crafting_elements:42>, <moreplates:energetic_silver_plate>], [null, null, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <extrautils2:suncrystal>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<redstonearsenal:material:128>, <industrialupgrade:radiationresources:4>, <redstonearsenal:material:128>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:72>, [[null, <industrialupgrade:itemplates>, null],[<industrialupgrade:itemplates>, <industrialupgrade:crafting_elements:46>, <industrialupgrade:itemplates>], [<industrialupgrade:itemplates:6>, <simplyjetpacks:metaitemmods:30>, <industrialupgrade:itemplates:6>]]);
+
+//#Ender Crafter
+recipes.remove(<industrialupgrade:quarrymodules:1>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:1>, [
+	[<ore:doubleplateAlcled>, <ore:doubleplateVanadoalumite>, <ore:doubleplateAlcled>], 
+	[<industrialupgrade:itemcore:1>, <industrialupgrade:upgrades:1>, <industrialupgrade:itemcore:1>], 
+	[<ore:doubleplateAlcled>, <ore:doubleplateVanadoalumite>, <ore:doubleplateAlcled>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:2>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:2>, [
+	[<industrialupgrade:itemcore:2>, <industrialupgrade:circuit:9>, <industrialupgrade:itemcore:2>], 
+	[<industrialupgrade:quarrymodules:1>, <industrialupgrade:nanobox>, <industrialupgrade:quarrymodules:1>], 
+	[<industrialupgrade:itemcore:2>, <industrialupgrade:circuit:9>, <industrialupgrade:itemcore:2>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:3>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:3>, [
+	[<industrialupgrade:itemcore:4>, <ore:crystalingotPhoton>, <industrialupgrade:itemcore:4>], 
+	[<industrialupgrade:quarrymodules:2>, <industrialupgrade:quantumitems6>, <industrialupgrade:quarrymodules:2>], 
+	[<industrialupgrade:itemcore:4>, <ore:crystalingotPhoton>, <industrialupgrade:itemcore:4>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:4>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:4>, [
+	[<industrialupgrade:itemcore:6>, <industrialupgrade:quantumitems6>, <industrialupgrade:itemcore:6>], 
+	[<industrialupgrade:quarrymodules:3>, <industrialupgrade:circuit:11>, <industrialupgrade:quarrymodules:3>], 
+	[<industrialupgrade:itemcore:6>, <industrialupgrade:quantumitems6>, <industrialupgrade:itemcore:6>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:5>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:5>, [
+	[<industrialupgrade:itemcore:7>, <industrialupgrade:quarrymodules:4>, <industrialupgrade:itemcore:7>], 
+	[<industrialupgrade:quarrymodules:4>, <contenttweaker:iridium_advanced_alfheim>, <industrialupgrade:quarrymodules:4>], 
+	[<industrialupgrade:itemcore:7>, <industrialupgrade:quarrymodules:4>, <industrialupgrade:itemcore:7>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:6>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:6>, [
+	[<industrialupgrade:itemcore:4>, <ore:crystalPhoton>, <industrialupgrade:itemcore:4>], 
+	[<ore:crystalPhoton>, <industrialupgrade:circuit:11>, <ore:crystalPhoton>], 
+	[<industrialupgrade:itemcore:4>, <ore:crystalPhoton>, <industrialupgrade:itemcore:4>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:7>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:7>, [
+	[<industrialupgrade:itemcore:5>, <ore:crystalPhoton>, <industrialupgrade:itemcore:5>], 
+	[<industrialupgrade:quarrymodules:6>, <industrialupgrade:circuit:11>, <industrialupgrade:quarrymodules:6>], 
+	[<industrialupgrade:itemcore:5>, <ore:crystalPhoton>, <industrialupgrade:itemcore:5>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:8>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:8>, [
+	[<industrialupgrade:itemcore:5>, <iuadditions:iridium_advanced_stellar>, <industrialupgrade:itemcore:5>], 
+	[<industrialupgrade:quarrymodules:7>, <industrialupgrade:circuit:11>, <industrialupgrade:quarrymodules:7>], 
+	[<industrialupgrade:itemcore:5>, <iuadditions:iridium_advanced_stellar>, <industrialupgrade:itemcore:5>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:9>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:9>, [
+	[<industrialupgrade:itemcore:3>, <ore:crystalPhoton>, <industrialupgrade:itemcore:3>], 
+	[<ore:crystalPhoton>, <industrialupgrade:circuit:11>, <ore:crystalPhoton>], 
+	[<industrialupgrade:itemcore:3>, <ore:crystalPhoton>, <industrialupgrade:itemcore:3>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:10>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:10>, [
+	[<industrialupgrade:quarrymodules:9>, <ore:crystalingotPhoton>, <industrialupgrade:quarrymodules:9>], 
+	[<ore:crystalingotPhoton>, <ore:circuitPerfectHybrid>, <ore:crystalingotPhoton>], 
+	[<industrialupgrade:quarrymodules:9>, <ore:crystalingotPhoton>, <industrialupgrade:quarrymodules:9>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:11>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:11>, [
+	[<industrialupgrade:quarrymodules:10>, <ore:crystalingotPhoton>, <industrialupgrade:quarrymodules:10>], 
+	[<ore:crystalingotPhoton>, <ore:circuitProtonic>, <ore:crystalingotPhoton>], 
+	[<industrialupgrade:quarrymodules:10>, <ore:crystalingotPhoton>, <industrialupgrade:quarrymodules:10>]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:14>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:14>, [
+	[null, <industrialupgrade:moremachine:2>, null], 
+	[<industrialupgrade:itemcore:5>, <industrialupgrade:module_schedule>, <industrialupgrade:itemcore:5>], 
+	[null, <ore:doubleplateMuntsa>, null]
+]);
+
+
+recipes.remove(<industrialupgrade:quarrymodules:15>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:quarrymodules:15>, [
+	[null, <industrialupgrade:moremachine:2>, null], 
+	[<industrialupgrade:itemcore:5>, <industrialupgrade:module_schedule>, <industrialupgrade:itemcore:5>], 
+	[null, <ore:doubleplateVanadoalumite>, null]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules>, [
+	[<industrialupgrade:quarrymodules:6>, <ore:doubleplateNichrome>, <industrialupgrade:quarrymodules:6>], 
+	[null, null, null], 
+	[null, null, null]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:1>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:1>, [
+	[<ore:doubleplateAlumel>, <ore:doubleplateAluminium>, <ore:doubleplateAlumel>], 
+	[<industrialupgrade:circuit:9>, <industrialupgrade:spawnermodules>, <industrialupgrade:circuit:9>], 
+	[<industrialupgrade:nanobox>, <industrialupgrade:nanobox>, <industrialupgrade:nanobox>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:2>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:2>, [
+	[<ore:doubleplateVitalium>, <ore:doubleplatePlatinum>, <ore:doubleplateVitalium>], 
+	[<industrialupgrade:circuit:10>, <industrialupgrade:spawnermodules:1>, <industrialupgrade:circuit:10>], 
+	[<industrialupgrade:quantumitems6>, <industrialupgrade:quantumitems6>, <industrialupgrade:quantumitems6>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:3>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:3>, [
+	[<ore:doubleplateNichrome>, <industrialupgrade:quarrymodules:2>, <ore:doubleplateNichrome>], 
+	[null, null, null], 
+	[null, null, null]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:4>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:4>, [
+	[null, <minecraft:experience_bottle>, null], 
+	[<ore:doubleplateNichrome>, <industrialupgrade:module_schedule>, <ore:doubleplateNichrome>], 
+	[null, <minecraft:experience_bottle>, null]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:5>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:5>, [
+	[<ore:doubleplateAlumel>, <ore:doubleplateAluminium>, <ore:doubleplateAlumel>], 
+	[<industrialupgrade:circuit:9>, <industrialupgrade:spawnermodules:4>, <industrialupgrade:circuit:9>], 
+	[<industrialupgrade:nanobox>, <industrialupgrade:nanobox>, <industrialupgrade:nanobox>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:entitymodules:1>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:entitymodules:1>, [
+	[<industrialupgrade:circuit:11>, <industrialupgrade:adv_spectral_box>, <industrialupgrade:circuit:11>], 
+	[<ore:doubleplateGermanium>, <industrialupgrade:module_schedule>, <ore:doubleplateGermanium>], 
+	[<ore:casingFerromanganese>, <industrialupgrade:adv_spectral_box>, <ore:casingFerromanganese>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:spawnermodules:8>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:spawnermodules:8>, [
+	[<industrialupgrade:itemcore:5>, <industrialupgrade:crafting_elements:285>, <industrialupgrade:itemcore:5>], 
+	[<industrialupgrade:quantumitems6>, <industrialupgrade:module_schedule>, <industrialupgrade:quantumitems6>], 
+	[<industrialupgrade:circuit:10>, <industrialupgrade:crafting_elements:285>, <industrialupgrade:circuit:10>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:modules>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modules>, [
+	[<ore:doubleplateElectrum>, <extrautils2:suncrystal>, <ore:doubleplateElectrum>], 
+	[<ore:plateCobalt>, <industrialupgrade:circuit:10>, <ore:plateCobalt>], 
+	[<industrialupgrade:plastic_plate>, <ore:doubleplateVitalium>, <industrialupgrade:plastic_plate>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:modules:3>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modules:3>, [
+	[<ore:doubleplateFerromanganese>, <astralsorcery:itemusabledust:1>, <ore:doubleplateFerromanganese>], 
+	[<ore:doubleplateRedbrass>, <industrialupgrade:circuit:10>, <ore:doubleplateRedbrass>], 
+	[<industrialupgrade:plastic_plate>, <ore:doubleplateVitalium>, <industrialupgrade:plastic_plate>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:modules:6>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modules:6>, [
+	[<ore:doubleplateFerromanganese>, <ore:doubleplateFerromanganese>, <ore:doubleplateFerromanganese>], 
+	[<ore:doubleplateAlumel>, <industrialupgrade:circuit:10>, <ore:doubleplateAlumel>], 
+	[<industrialupgrade:plastic_plate>, <ore:doubleplateVitalium>, <industrialupgrade:plastic_plate>]
+]);
+
+
+recipes.remove(<industrialupgrade:modules:9>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modules:9>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<ore:doubleplateMuntsa>, <mekanismecoenergistics:energytablethybrid>, <ore:doubleplateMuntsa>], 
+	[<industrialupgrade:plastic_plate>, <ore:doubleplateVitalium>, <industrialupgrade:plastic_plate>]
+]);
+
+
+recipes.remove(<industrialupgrade:modules:15>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modules:15>, [
+	[<industrialupgrade:lens:4>, <industrialupgrade:lens:4>, <industrialupgrade:lens:4>], 
+	[<ore:doubleplateMuntsa>, <industrialupgrade:module_schedule>, <ore:doubleplateMuntsa>], 
+	[<ore:doubleplateNichrome>, <ore:doubleplateVanadoalumite>, <ore:doubleplateNichrome>]
+]);
+
+
+recipes.remove(<industrialupgrade:additionmodule:1>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:additionmodule:1>, [
+	[<industrialupgrade:itemcore:5>, <industrialupgrade:circuit:11>, <industrialupgrade:itemcore:5>], 
+	[<industrialupgrade:circuit:11>, <industrialupgrade:quantumitems3>, <industrialupgrade:circuit:11>], 
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>]
+]);
+
+
+recipes.remove(<industrialupgrade:module_infinity_water>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:module_infinity_water>, [
+	[<mysticalagriculture:crafting:48>, <mysticalagriculture:crafting:48>, <mysticalagriculture:crafting:48>], 
+	[<industrialupgrade:circuit:9>, <industrialupgrade:module_schedule>, <industrialupgrade:circuit:9>], 
+	[<industrialupgrade:quantumitems6>, <industrialupgrade:quantumitems2>, <industrialupgrade:quantumitems6>]
+]);
+
+
+recipes.remove(<industrialupgrade:additionmodule:10>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:additionmodule:10>, [
+	[<ore:plateZinc>, <ore:plateZinc>, <ore:plateZinc>], 
+	[<industrialupgrade:circuit:9>, <ore:blockVanadium>, <industrialupgrade:circuit:9>], 
+	[<ore:doubleplatePlatinum>, <industrialupgrade:quantumitems2>, <ore:doubleplatePlatinum>]
+]);
+
+
+
+recipes.remove(<industrialupgrade:modultype>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens>, <industrialupgrade:circuit:11>, <industrialupgrade:lens>], 
+	[<industrialupgrade:lens>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:1>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:1>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:1>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:1>], 
+	[<industrialupgrade:lens:1>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:1>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:2>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:2>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:2>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:2>], 
+	[<industrialupgrade:lens:2>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:2>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:3>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:3>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:3>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:3>], 
+	[<industrialupgrade:lens:3>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:3>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:4>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:4>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:4>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:4>], 
+	[<industrialupgrade:lens:4>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:4>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:5>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:5>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:5>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:5>], 
+	[<industrialupgrade:lens:5>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:5>]
+]);
+
+
+recipes.remove(<industrialupgrade:modultype:6>);
+mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:6>, [
+	[<industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>, <industrialupgrade:quantumitems4>], 
+	[<industrialupgrade:lens:6>, <industrialupgrade:circuit:11>, <industrialupgrade:lens:6>], 
+	[<industrialupgrade:lens:6>, <industrialupgrade:quantumitems3>, <industrialupgrade:lens:6>]
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Combination Crafting
+
+//Combination Crafting
+//
+//recipes.remove(XXX);
+//mods.extendedcrafting.CombinationCrafting.addRecipe(output, rfCost, rfRate, input, [
+//pedestalItem, pedestalItem]);
+//
+
+
+
+//
+recipes.remove(<industrialupgrade:modules:12>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:modules:12>, 1000000, 1250, <industrialupgrade:module_schedule>, [
+<industrialupgrade:alloydoubleplate:7>, <industrialupgrade:modules>,<industrialupgrade:alloydoubleplate:7>,<industrialupgrade:modules:3>,<industrialupgrade:alloydoubleplate:7>]);
+//
+
+//
+recipes.remove(<industrialupgrade:module_stack>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:module_stack>, 500000, 2500, <industrialupgrade:module_schedule>, [
+<industrialupgrade:upgrades:8>, <industrialupgrade:alloyplate:1>,<industrialupgrade:upgrades:8>,<industrialupgrade:upgrades:2>,<industrialupgrade:alloyplate:1>,<industrialupgrade:upgrades:2>]);
+//
+
+//
+recipes.remove(<industrialupgrade:module_quickly>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:module_quickly>, 500000, 2500, <industrialupgrade:module_schedule>, [
+<industrialupgrade:upgrades:1>, <iuadditions:iridium_reinforced_stellar>,<industrialupgrade:upgrades:1>]);
+//
+
+
+
+
+
+
+
+
+
+
 
 
 
