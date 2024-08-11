@@ -15,5 +15,15 @@
 		uid: "6701ac06",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "64702b31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

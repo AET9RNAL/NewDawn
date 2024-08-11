@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:module_luck_x2"
 		}]
+	}],
+	rewards: [{
+		uid: "b2076e86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

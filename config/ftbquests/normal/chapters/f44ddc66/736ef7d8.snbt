@@ -12,5 +12,15 @@
 		items: [{
 			item: "industrialupgrade:solar_panel_glass 1 13"
 		}]
+	}],
+	rewards: [{
+		uid: "f731ab41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

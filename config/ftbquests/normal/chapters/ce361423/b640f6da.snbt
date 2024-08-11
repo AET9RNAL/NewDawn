@@ -1,0 +1,14 @@
+{
+	icon: "extendedcrafting:material 1 40",
+	x: 0.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "5ca7a408",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5bd8599d",
+		type: "xp",
+		xp: 400
+	}]
+}

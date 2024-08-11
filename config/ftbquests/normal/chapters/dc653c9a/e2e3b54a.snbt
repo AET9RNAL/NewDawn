@@ -1,0 +1,74 @@
+{
+	x: 2.5d,
+	y: -33.0d,
+	dependencies: [
+		"05294b51",
+		"ecf18979"
+	],
+	tasks: [{
+		uid: "6f9e7715",
+		type: "item",
+		items: [{
+			id: "tconstruct:pickaxe",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Stats: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b46c7a46",
+		type: "item",
+		item: "minecraft:apple",
+		count: 12
+	},
+	{
+		uid: "1df66e41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

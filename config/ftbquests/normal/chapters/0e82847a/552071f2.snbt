@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_gourmaryllis"
 		}]
+	}],
+	rewards: [{
+		uid: "64ade41e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

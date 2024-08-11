@@ -12,5 +12,15 @@
 		uid: "36795379",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "f86d5f7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

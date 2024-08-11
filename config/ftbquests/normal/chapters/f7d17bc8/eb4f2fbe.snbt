@@ -2,19 +2,29 @@
 	x: -13.0d,
 	y: 7.5d,
 	dependencies: [
-		"143290a4",
-		"e29d99ae"
+		"143290a4"
 	],
 	tasks: [{
 		uid: "f477dcaf",
 		type: "item",
 		items: [{
 			item: "packagedauto:recipe_holder"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "bcb6731c",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "d2d0382a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

@@ -12,5 +12,21 @@
 			item: "industrialupgrade:cable_iu_item 1 6"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "0e26ff37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "b1a8eed2",
+		type: "item",
+		item: "mekanismecoenergistics:controlcircuitavaritia 1 1",
+		count: 6
 	}]
 }

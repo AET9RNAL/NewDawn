@@ -9,11 +9,22 @@
 		type: "item",
 		items: [{
 			item: "packagedauto:me_package_component"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "dadf58f7",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "b2eebc9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
 	}]
 }

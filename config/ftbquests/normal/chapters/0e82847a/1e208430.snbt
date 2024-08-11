@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_entropinnyum"
 		}]
+	}],
+	rewards: [{
+		uid: "1e6eceb5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

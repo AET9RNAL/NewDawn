@@ -14,10 +14,12 @@
 		count: 2
 	},
 	{
-		item: "minecraft:lapis_block"
+		item: "minecraft:lapis_block",
+		count: 4
 	},
 	{
-		item: "minecraft:daylight_detector"
+		item: "minecraft:daylight_detector",
+		count: 3
 	},
 	{
 		item: "minecraft:piston",
@@ -35,7 +37,8 @@
 		item: "industrialupgrade:treetap"
 	},
 	{
-		item: "minecraft:clock"
+		item: "minecraft:clock",
+		count: 2
 	},
 	{
 		item: {
@@ -47,11 +50,11 @@
 	},
 	{
 		item: "appliedenergistics2:material 1 1",
-		count: 8
+		count: 12
 	},
 	{
 		item: "botania:manaresource",
-		count: 2
+		count: 8
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 23"
@@ -89,7 +92,7 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 42",
-		count: 3
+		count: 4
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 294",
@@ -126,6 +129,52 @@
 	},
 	{
 		item: "mekanism:basicblock 1 8"
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 4
+	},
+	{
+		item: "mekanism:ingot 1 3",
+		count: 4
+	},
+	{
+		item: "threng:material 1 2",
+		count: 4
+	},
+	{
+		item: "mekanism:polyethene 1 2",
+		count: 4
+	},
+	{
+		item: "simplyjetpacks:metaitemmods 1 3",
+		count: 5
+	},
+	{
+		item: "simplyjetpacks:metaitemmods 1 17",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:blockresource 1 2",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:blockresource 1 5",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:baseblockingot 1 9"
+	},
+	{
+		item: "industrialupgrade:baseblockingot 1 3",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "taiga:tiberium_crystal",
+		count: 12
 	}],
 	loot_crate: {
 		string_id: "uncommon_crate",

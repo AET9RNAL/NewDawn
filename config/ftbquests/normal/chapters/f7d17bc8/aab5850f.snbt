@@ -15,5 +15,15 @@
 		uid: "d292db69",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "145ae481",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

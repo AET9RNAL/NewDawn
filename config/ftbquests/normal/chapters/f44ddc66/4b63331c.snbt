@@ -1,0 +1,19 @@
+{
+	x: -23.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a7de1db7"
+	],
+	tasks: [{
+		uid: "a3bc93ae",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:re_battery",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}]
+}

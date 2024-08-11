@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"b640f6da"
+	],
+	tasks: [{
+		uid: "dd17a77f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 7"
+		}],
+		count: 32L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "8f00d013",
+		type: "item",
+		item: "astralsorcery:itemusabledust",
+		count: 12
+	}]
+}

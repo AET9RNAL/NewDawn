@@ -1,12 +1,14 @@
 {
-	x: -19.0d,
-	y: -1.0d,
+	x: -19.066666666666677d,
+	y: 0.011904761904752093d,
+	shape: "hexagon",
 	text: [
 		"Mana capacity is x2147 the normal pool. Emits/Accepts at higher rates"
 	],
 	dependencies: [
 		"3f761fe5"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "ee818967",
 		type: "item",
@@ -32,5 +34,15 @@
 		type: "item",
 		item: "botania:blacklotus 1 1",
 		count: 32
+	},
+	{
+		uid: "c677c7af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

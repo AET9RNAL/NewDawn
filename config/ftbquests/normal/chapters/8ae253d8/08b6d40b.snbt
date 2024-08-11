@@ -1,6 +1,7 @@
 {
 	x: -43.306122448979636d,
 	y: -21.489115646258526d,
+	shape: "hexagon",
 	dependencies: [
 		"bfd62f8b"
 	],
@@ -12,5 +13,15 @@
 			item: "mekanismmultiblockmachine:multiblockmachine 1 2"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "acbd139c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

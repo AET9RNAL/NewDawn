@@ -1,0 +1,127 @@
+{
+	x: -32.5d,
+	y: -18.0d,
+	shape: "diamond",
+	dependencies: [
+		"63ed6fd8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7d26fbc4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 3s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "29538b2a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 35s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "b087a51b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 7s,
+			tag: {}
+		}],
+		count: 9L
+	},
+	{
+		uid: "6b30f8d7",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 23s,
+			tag: {}
+		}],
+		count: 16L
+	},
+	{
+		uid: "bb018b9a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 15s,
+			tag: {}
+		}],
+		count: 36L
+	},
+	{
+		uid: "58fd3719",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 11s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "e7c279b4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 39s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "b73aadc9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 31s,
+			tag: {}
+		}],
+		count: 8L
+	},
+	{
+		uid: "8c9bb372",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 19s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "617f5c67",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 27s,
+			tag: {}
+		}],
+		count: 64L
+	},
+	{
+		uid: "0352b301",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 27s,
+			tag: {}
+		}],
+		count: 64L
+	},
+	{
+		uid: "f0288687",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:graphite_reactor",
+			Damage: 27s,
+			tag: {}
+		}],
+		count: 11L
+	}]
+}

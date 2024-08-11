@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:controller"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "da655933",

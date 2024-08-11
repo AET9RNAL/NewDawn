@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_thermalily"
 		}]
+	}],
+	rewards: [{
+		uid: "c1b0b973",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

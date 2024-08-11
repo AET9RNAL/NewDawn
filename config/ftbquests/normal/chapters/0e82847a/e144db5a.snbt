@@ -1,7 +1,7 @@
 {
 	x: -22.5d,
 	y: -13.0d,
-	shape: "circle",
+	shape: "hexagon",
 	text: [
 		"§6This machine aacepts different flower modules that mimic behaviour of regular flowers that you may already be familiar with. The exception is that ",
 		"flower modules are usually at least 2 times more powerful than regular flowers. Some recipes support liquid mana",
@@ -22,11 +22,28 @@
 	dependencies: [
 		"0d0a76ad"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "19379988",
 		type: "item",
 		items: [{
 			item: "botania:manamachine_flower_sim"
 		}]
+	}],
+	rewards: [{
+		uid: "f2e3c849",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 6
+	},
+	{
+		uid: "e0073cd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

@@ -1,0 +1,27 @@
+{
+	x: -6.5d,
+	y: -28.0d,
+	shape: "hexagon",
+	dependencies: [
+		"944c0341"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "1a956abb",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0c42ab0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

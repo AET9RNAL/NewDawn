@@ -12,5 +12,11 @@
 		items: [{
 			item: "industrialupgrade:itemsunnariumpanel 1 8"
 		}]
+	}],
+	rewards: [{
+		uid: "b1f7910b",
+		type: "item",
+		item: "industrialupgrade:itemingots 1 17",
+		count: 64
 	}]
 }

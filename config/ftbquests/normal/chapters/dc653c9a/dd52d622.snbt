@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -30.0d,
+	dependencies: [
+		"aa759dee"
+	],
+	tasks: [{
+		uid: "aa1b2613",
+		type: "item",
+		items: [{
+			item: "minecraft:bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "128cfacc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

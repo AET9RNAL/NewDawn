@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_hydroangeas"
 		}]
+	}],
+	rewards: [{
+		uid: "df3da647",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

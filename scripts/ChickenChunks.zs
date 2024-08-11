@@ -2,8 +2,11 @@
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
-recipes.remove(<chickenchunks:chunk_loader>);
-recipes.remove(<chickenchunks:chunk_loader:1>);
+
+//recipes.remove(<chickenchunks:chunk_loader>);
+//recipes.remove(<chickenchunks:chunk_loader:1>);
+
+
 //Don't touch me!
 //#Add
 

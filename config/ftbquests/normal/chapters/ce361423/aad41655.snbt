@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	dependencies: [
+		"77338651",
+		"c8bd156f"
+	],
+	tasks: [{
+		uid: "d8db8fce",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 14"
+		}],
+		count: 8L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "e9ea9d1e",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 16
+	}]
+}

@@ -14,7 +14,7 @@
           },
           {
             "chance": 1.0,
-            "content": "{FluidName:\"liquidsodium\",Amount:15000}"
+            "content": "{FluidName:\"liquidsodium\",Amount:100000}"
           }
         ]
       },
@@ -22,7 +22,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"liquidsuperheatedsodium\",Amount:15000}"
+            "content": "{FluidName:\"liquidsuperheatedsodium\",Amount:1000}"
           }
         ]
       }
@@ -38,7 +38,7 @@
           },
           {
             "chance": 1.0,
-            "content": "{FluidName:\"water\",Amount:15000}"
+            "content": "{FluidName:\"water\",Amount:150000}"
           }
         ]
       },
@@ -62,7 +62,7 @@
           },
           {
             "chance": 1.0,
-            "content": "{FluidName:\"water\",Amount:50000}"
+            "content": "{FluidName:\"water\",Amount:500000}"
           }
         ]
       },
@@ -82,7 +82,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"brine\",Amount:15000}"
+            "content": "{FluidName:\"brine\",Amount:150000}"
           },
           {
             "chance": 1.0,
@@ -110,7 +110,7 @@
           },
           {
             "chance": 1.0,
-            "content": "{FluidName:\"brine\",Amount:25000}"
+            "content": "{FluidName:\"brine\",Amount:250000}"
           }
         ]
       },

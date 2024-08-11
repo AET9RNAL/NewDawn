@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -10.0d,
+	dependencies: [
+		"59d6236a"
+	],
+	tasks: [{
+		uid: "6f0fcad8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:interface"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "00c90457",
+		type: "item",
+		item: "appliedenergistics2:interface",
+		count: 3
+	}]
+}

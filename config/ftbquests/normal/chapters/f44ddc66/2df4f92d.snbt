@@ -17,5 +17,17 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eb1503f",
+		type: "item",
+		item: "jaopca:block.neutron",
+		count: 8
+	},
+	{
+		uid: "560c32a3",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 6",
+		count: 2
 	}]
 }

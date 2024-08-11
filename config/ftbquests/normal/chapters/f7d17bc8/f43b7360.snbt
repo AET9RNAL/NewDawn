@@ -15,5 +15,15 @@
 		uid: "03340f34",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "cbecfc30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

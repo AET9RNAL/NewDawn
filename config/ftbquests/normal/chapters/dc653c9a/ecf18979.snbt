@@ -1,0 +1,73 @@
+{
+	x: -2.0d,
+	y: -33.0d,
+	shape: "hexagon",
+	dependencies: [
+		"395254ff"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fbe7c80a",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 1s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1,
+					Damage: 0s
+				}
+			}
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "1530a423",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1,
+					Damage: 0s
+				}
+			}
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "05294b51",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "b60b69bf",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "10d07256",
+		type: "item",
+		item: "minecraft:wool",
+		count: 9
+	},
+	{
+		uid: "fdc4de1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

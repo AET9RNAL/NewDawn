@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aecde5bb",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 24
 	}]
 }

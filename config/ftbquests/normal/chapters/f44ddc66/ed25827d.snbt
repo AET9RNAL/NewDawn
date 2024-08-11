@@ -12,5 +12,20 @@
 			item: "industrialupgrade:cable_iu_item 1 3"
 		}],
 		count: 32L
+	}],
+	rewards: [{
+		uid: "12487cc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "5119395f",
+		type: "item",
+		item: "mekanismecoenergistics:ecogenerator 1 5"
 	}]
 }

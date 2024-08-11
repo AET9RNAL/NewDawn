@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: -28.0d,
+	shape: "hexagon",
+	dependencies: [
+		"1f805eb6"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "f67ffd2d",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:diamond_furnace_idle"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0c858d91",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

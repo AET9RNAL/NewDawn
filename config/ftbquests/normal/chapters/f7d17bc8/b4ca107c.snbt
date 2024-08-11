@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "threng:machine 1 2"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "bca6c337",

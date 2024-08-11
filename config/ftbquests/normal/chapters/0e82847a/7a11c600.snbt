@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_arcana"
 		}]
+	}],
+	rewards: [{
+		uid: "557dae33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

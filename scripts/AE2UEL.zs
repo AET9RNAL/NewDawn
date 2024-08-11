@@ -96,7 +96,7 @@ val itemsToRemove = [
   <appliedenergistics2:part:556>,
   <appliedenergistics2:part:558>,
   <appliedenergistics2:part:555>,
-  <appliedenergistics2:spatial_io_port>,
+//  <appliedenergistics2:spatial_io_port>,
   <ae2stuff:inscriberper>,
   <ae2stuff:inscriberadv>,
   <ae2stuff:inscriberimp>,

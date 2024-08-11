@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -31.0d,
+	dependencies: [
+		"30f17899"
+	],
+	tasks: [{
+		uid: "49f75c82",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:iron_furnace_idle"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "359034ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

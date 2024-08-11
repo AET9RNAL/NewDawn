@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "ae2stuff:inscriber"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "a2f3cd96",

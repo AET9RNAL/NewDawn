@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f74d3378",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 5",
+		count: 4
 	}]
 }

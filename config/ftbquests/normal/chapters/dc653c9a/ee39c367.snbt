@@ -1,0 +1,26 @@
+{
+	x: 11.0d,
+	y: -33.0d,
+	dependencies: [
+		"51ea3dbe",
+		"dd52d622",
+		"b787da7e"
+	],
+	tasks: [{
+		uid: "95fc7c4c",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "fa29eeee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

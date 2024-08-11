@@ -3,5 +3,16 @@
 	icon: "minecraft:crafting_table",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 2.1785714285714306d,
+		y: -26.76785714285714d,
+		width: 25.0d,
+		height: 25.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/ftbq_midnight.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

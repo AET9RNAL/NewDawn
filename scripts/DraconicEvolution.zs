@@ -1,5 +1,5 @@
 //import crafttweaker.item.IIngredient;
-
+import crafttweaker.item.IItemStack;
 
 //import moretweaker.draconicevolution.FusionCrafting;
 
@@ -38,6 +38,19 @@ recipes.remove(<draconicevolution:celestial_manipulator>);
 mods.jei.JEI.removeAndHide(<maia_draconic_edition:dark_matter_core>);
 mods.jei.JEI.removeAndHide(<maia_draconic_edition:red_matter_core>);
 recipes.remove(<draconicevolution:crafting_injector>);
+
+val itemsToRemove = [
+    <draconicevolution:reactor_part:4>,
+    <draconicevolution:reactor_part:3>,
+    <draconicevolution:reactor_part:2>,
+    <draconicevolution:reactor_part:1>,
+    <draconicevolution:reactor_part>,
+    <draconicevolution:flow_gate>
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
 //Don't touch me!
 //#Add
 
@@ -62,6 +75,9 @@ recipes.addShaped(<draconicevolution:crafting_injector>, [[null, null, null],[nu
 recipes.addShaped(<draconicevolution:crafting_injector>, [[<moreplates:vivid_alloy_plate>, <draconicevolution:draconic_core>, <moreplates:vivid_alloy_plate>],[<minecraft:obsidian>, <astralsorcery:blockaltar>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.addShaped(<draconicevolution:celestial_manipulator>, [[<naturesaura:calling_spirit>, <enderio:block_weather_obelisk>, <naturesaura:calling_spirit>],[<naturesaura:calling_spirit>, <industrialupgrade:excitednucleus:6>, <naturesaura:calling_spirit>], [<minecraft:dragon_egg>, <astralsorcery:itemshiftingstar>, <minecraft:dragon_egg>]]);
 
+recipes.addShaped(<draconicevolution:reactor_part>, [[<industrialupgrade:crafting_elements:392>, <moreplates:awakened_draconium_plate>, <industrialupgrade:crafting_elements:392>],[<moreplates:awakened_draconium_plate>, <draconicevolution:wyvern_core>, <moreplates:awakened_draconium_plate>], [<industrialupgrade:crafting_elements:392>, <moreplates:awakened_draconium_plate>, <industrialupgrade:crafting_elements:392>]]);
+recipes.addShaped(<draconicevolution:flow_gate>, [[<industrialupgrade:crafting_elements:392>, <draconicevolution:potentiometer>, <industrialupgrade:crafting_elements:392>],[<mekanismecoenergistics:morecontrolcircuit:7>, <draconicevolution:draconic_core>, <mekanismecoenergistics:morecontrolcircuit:7>], [<industrialupgrade:crafting_elements:392>, <industrialupgrade:crafting_elements:327>, <industrialupgrade:crafting_elements:392>]]);
+
 //Combination Crafting
 //
 recipes.remove(<draconicevolution:fusion_crafting_core>);
@@ -70,10 +86,29 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:fusion_cr
 <astralsorcery:blockaltar:1>,<iuadditions:plate_astralstarmetal>]);
 //
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:reactor_part:3>, 2000000, 10000, <draconicevolution:wyvern_core>, [
+<draconicevolution:reactor_part:1>, <draconicevolution:reactor_part:1>,<draconicevolution:reactor_part:2>,<draconicevolution:reactor_part:2>,<contenttweaker:iridium_reinforced_draconic>,
+<contenttweaker:iridium_reinforced_draconic>]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:reactor_part:4>, 2000000, 10000, <draconicevolution:wyvern_core>, [
+<mekanism:compresseddiamond>, <industrialupgrade:itemdoubleplates:13>,<mekanism:compresseddiamond>,<industrialupgrade:itemdoubleplates:13>,<mekanism:compresseddiamond>,
+<industrialupgrade:itemdoubleplates:13>,<mekanism:compresseddiamond>,<industrialupgrade:itemdoubleplates:13>]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:reactor_part:1>, 450000, 10000, <draconicevolution:draconic_core>, [
+<moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>,<contenttweaker:iridium_reinforced_draconic>,<contenttweaker:iridium_reinforced_draconic>,
+<moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>]);
+//
 
-
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:reactor_part:2>, 450000, 10000, <draconicevolution:draconic_core>, [
+<mekanism:compresseddiamond>, <mekanism:compresseddiamond>,<contenttweaker:iridium_reinforced_draconic>,<contenttweaker:iridium_reinforced_draconic>,
+<mekanism:compresseddiamond>, <mekanism:compresseddiamond>]);
+//
 
 
 // Energy Core

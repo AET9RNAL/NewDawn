@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "879429bf",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 2",
+		count: 16
 	}]
 }

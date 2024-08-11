@@ -12,5 +12,15 @@
 		uid: "2974510e",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "5d914540",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

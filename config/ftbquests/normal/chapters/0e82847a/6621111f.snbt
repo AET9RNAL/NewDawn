@@ -1,6 +1,6 @@
 {
-	x: -20.5d,
-	y: -3.0d,
+	x: -23.5d,
+	y: -6.5d,
 	text: [
 		"Transfer rate: 250000Mn/t; Range in blocks: 24"
 	],

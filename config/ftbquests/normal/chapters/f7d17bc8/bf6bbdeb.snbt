@@ -9,11 +9,22 @@
 		type: "item",
 		items: [{
 			item: "packagedauto:packager_extension"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "83a82128",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "971b2960",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

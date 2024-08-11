@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"a592cd4b"
+	],
+	tasks: [{
+		uid: "1a66db06",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 2"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "90baaa0c",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 12
+	}]
+}

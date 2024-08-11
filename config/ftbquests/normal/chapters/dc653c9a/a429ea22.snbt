@@ -1,0 +1,30 @@
+{
+	x: 5.0d,
+	y: -34.5d,
+	dependencies: [
+		"94564817"
+	],
+	tasks: [{
+		uid: "bb735dae",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cc92e6be",
+		type: "item",
+		item: "minecraft:coal_block"
+	},
+	{
+		uid: "ea60e593",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

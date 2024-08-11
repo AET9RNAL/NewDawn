@@ -14,5 +14,15 @@
 		items: [{
 			item: "mekanism:mekamachine_extreme_evaporation_chamber"
 		}]
+	}],
+	rewards: [{
+		uid: "b61d6cac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

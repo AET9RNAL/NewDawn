@@ -1,0 +1,32 @@
+{
+	x: -6.5d,
+	y: -33.0d,
+	dependencies: [
+		"ecf18979",
+		"1530a423"
+	],
+	tasks: [{
+		uid: "520da0b8",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a6622214",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "a48e0221",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

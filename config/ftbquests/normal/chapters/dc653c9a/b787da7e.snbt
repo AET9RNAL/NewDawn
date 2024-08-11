@@ -1,0 +1,52 @@
+{
+	x: 11.0d,
+	y: -26.0d,
+	text: [
+		"§6Will be useful very soon"
+	],
+	dependencies: [
+		"e90bf3f0"
+	],
+	tasks: [{
+		uid: "64fbaf4b",
+		type: "item",
+		items: [{
+			item: "midnight:bogshroom_powder"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e897f2f9",
+		type: "item",
+		items: [{
+			item: "midnight:nightshroom_powder"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1acf4281",
+		type: "item",
+		items: [{
+			item: "midnight:dewshroom_powder"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3cb6aca0",
+		type: "item",
+		items: [{
+			item: "midnight:viridshroom_powder"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "9552cdae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

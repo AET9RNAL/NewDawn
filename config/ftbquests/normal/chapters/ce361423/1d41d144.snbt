@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: -6.5d,
+	dependencies: [
+		"d924fc70"
+	],
+	tasks: [{
+		uid: "fe63519e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "d96c83e3",
+		type: "item",
+		item: "avaritia:resource 1 4"
+	}]
+}

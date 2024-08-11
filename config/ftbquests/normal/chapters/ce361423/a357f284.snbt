@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	dependencies: [
+		"490ec207"
+	],
+	tasks: [{
+		uid: "2014dc75",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 16"
+		}],
+		count: 8L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4e5263e0",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 8
+	}]
+}

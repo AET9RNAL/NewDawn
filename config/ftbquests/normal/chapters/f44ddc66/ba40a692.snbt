@@ -17,5 +17,17 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "242cb424",
+		type: "item",
+		item: "industrialupgrade:quantumitems4",
+		count: 64
+	},
+	{
+		uid: "6ae7bf44",
+		type: "item",
+		item: "jaopca:block.neutron",
+		count: 12
 	}]
 }

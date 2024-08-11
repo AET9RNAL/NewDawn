@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	dependencies: [
+		"490ec207"
+	],
+	tasks: [{
+		uid: "39275400",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4b9db24b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

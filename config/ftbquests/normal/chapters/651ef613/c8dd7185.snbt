@@ -10,5 +10,11 @@
 		items: [{
 			item: "contenttweaker:module_luck_x1"
 		}]
+	}],
+	rewards: [{
+		uid: "259bad4c",
+		type: "item",
+		item: "astralsorcery:blockcustomore 1 1",
+		count: 24
 	}]
 }

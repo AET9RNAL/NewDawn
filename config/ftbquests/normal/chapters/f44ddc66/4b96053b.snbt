@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0444b818",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 282",
+		count: 64
 	}]
 }

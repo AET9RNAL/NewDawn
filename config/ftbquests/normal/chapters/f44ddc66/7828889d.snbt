@@ -12,5 +12,11 @@
 			item: "industrialupgrade:cable_iu_item 1 17"
 		}],
 		count: 64L
+	}],
+	rewards: [{
+		uid: "9fe48b5f",
+		type: "item",
+		item: "industrialupgrade:baseblockingot 1 3",
+		count: 16
 	}]
 }

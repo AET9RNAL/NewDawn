@@ -16,5 +16,16 @@
 		uid: "c04fdda7",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "96981c2b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
 	}]
 }

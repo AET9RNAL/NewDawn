@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6248757f",
+		type: "item",
+		item: "mekanism:basicblock 1 3",
+		count: 16
 	}]
 }

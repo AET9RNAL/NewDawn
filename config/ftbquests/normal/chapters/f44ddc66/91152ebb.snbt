@@ -12,5 +12,11 @@
 		items: [{
 			item: "industrialupgrade:night_solar_panel_glass 1 7"
 		}]
+	}],
+	rewards: [{
+		uid: "85304584",
+		type: "item",
+		item: "industrialupgrade:itemsunnariumpanel 1 7",
+		count: 64
 	}]
 }

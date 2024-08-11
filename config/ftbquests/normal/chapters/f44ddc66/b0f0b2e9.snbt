@@ -1,0 +1,116 @@
+{
+	x: -30.75d,
+	y: -18.0d,
+	shape: "diamond",
+	dependencies: [
+		"ea2f9323"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ac0e1d04",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 11s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "f33978e9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 27s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "c1311b20",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 19s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "c294a9e2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 31s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "c18c929c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 23s,
+			tag: {}
+		}],
+		count: 12L
+	},
+	{
+		uid: "32b0ca90",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 15s,
+			tag: {}
+		}],
+		count: 12L
+	},
+	{
+		uid: "a2592fc0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 35s,
+			tag: {}
+		}],
+		count: 12L
+	},
+	{
+		uid: "7ed88da7",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 39s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "eea49b73",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 7s,
+			tag: {}
+		}],
+		count: 16L
+	},
+	{
+		uid: "0f62bb25",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_reactors",
+			Damage: 3s,
+			tag: {}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "9506042f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 4
+	}]
+}

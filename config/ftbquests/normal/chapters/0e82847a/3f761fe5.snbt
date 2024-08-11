@@ -1,12 +1,14 @@
 {
-	x: -19.0d,
-	y: -2.0d,
+	x: -20.20952380952383d,
+	y: -1.2166666666666686d,
+	shape: "hexagon",
 	text: [
 		"Mana capacity is x1000 the normal pool. Emits/Accepts at higher rates"
 	],
 	dependencies: [
 		"1b29d7be"
 	],
+	size: 1.4d,
 	tasks: [{
 		uid: "47cb2dae",
 		type: "item",
@@ -26,5 +28,15 @@
 			}
 		},
 		count: 6
+	},
+	{
+		uid: "a82f1e84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

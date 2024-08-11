@@ -1,6 +1,7 @@
 {
 	x: -67.5d,
 	y: -15.5d,
+	shape: "hexagon",
 	text: [
 		"The ultimate power of the wind"
 	],

@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -33.0d,
+	dependencies: [
+		"991b59d9"
+	],
+	tasks: [{
+		uid: "39d88f75",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9d93a548",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

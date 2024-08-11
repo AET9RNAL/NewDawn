@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	dependencies: [
+		"b640f6da"
+	],
+	tasks: [{
+		uid: "4a56a305",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "09b1d43b",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 8
+	}]
+}

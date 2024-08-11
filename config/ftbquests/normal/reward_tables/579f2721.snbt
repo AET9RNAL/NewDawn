@@ -4,14 +4,15 @@
 	use_title: true,
 	rewards: [{
 		item: "minecraft:coal",
-		count: 6
+		count: 8
 	},
 	{
 		item: "minecraft:apple",
-		count: 4
+		count: 5
 	},
 	{
-		item: "minecraft:sapling"
+		item: "minecraft:sapling",
+		count: 10
 	},
 	{
 		item: "minecraft:water_bucket"
@@ -20,23 +21,28 @@
 		item: "minecraft:mushroom_stew"
 	},
 	{
-		item: "minecraft:bread"
+		item: "minecraft:bread",
+		count: 4
 	},
 	{
-		item: "minecraft:stone"
+		item: "minecraft:stone",
+		count: 32
 	},
 	{
-		item: "minecraft:planks"
+		item: "minecraft:planks",
+		count: 32
 	},
 	{
-		item: "minecraft:furnace"
-	},
-	{
-		item: "minecraft:chest",
+		item: "minecraft:furnace",
 		count: 2
 	},
 	{
-		item: "industrialupgrade:preciousgem"
+		item: "minecraft:chest",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:preciousgem",
+		count: 5
 	},
 	{
 		item: "minecraft:iron_ore",
@@ -48,43 +54,46 @@
 	},
 	{
 		item: "botania:livingrock",
-		count: 2
-	},
-	{
-		item: "botania:livingwood",
-		count: 2
-	},
-	{
-		item: "industrialupgrade:crafting_elements 1 271",
-		count: 8
-	},
-	{
-		item: "appliedenergistics2:material",
-		count: 4
-	},
-	{
-		item: "forestry:bee_combs",
-		count: 2
-	},
-	{
-		item: "botania:manaresource 1 2"
-	},
-	{
-		item: "botania:petal",
-		count: 4
-	},
-	{
-		item: "fluxnetworks:flux",
 		count: 3
 	},
 	{
-		item: "minecraft:iron_block"
+		item: "botania:livingwood",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 271",
+		count: 12
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 12
+	},
+	{
+		item: "forestry:bee_combs",
+		count: 5
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 2
+	},
+	{
+		item: "botania:petal",
+		count: 12
+	},
+	{
+		item: "fluxnetworks:flux",
+		count: 4
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 2
 	},
 	{
 		item: "industrialupgrade:blockresource 1 1"
 	},
 	{
-		item: "thermalfoundation:material 1 288"
+		item: "thermalfoundation:material 1 288",
+		count: 2
 	},
 	{
 		item: "extrautils2:suncrystal"
@@ -110,6 +119,74 @@
 	{
 		item: "industrialforegoing:pink_slime",
 		count: 4
+	},
+	{
+		item: "divinerpg:fruit_cake"
+	},
+	{
+		item: "industrialupgrade:classicore",
+		count: 8
+	},
+	{
+		item: "tconstruct:soil",
+		count: 12
+	},
+	{
+		item: "minecraft:book",
+		count: 4
+	},
+	{
+		item: "minecraft:leather",
+		count: 4
+	},
+	{
+		item: "minecraft:wool",
+		count: 6
+	},
+	{
+		item: "minecraft:string",
+		count: 12
+	},
+	{
+		item: "storagedrawers:upgrade_storage"
+	},
+	{
+		item: "midnight:bogshroom_powder",
+		count: 3
+	},
+	{
+		item: "midnight:viridshroom_powder",
+		count: 3
+	},
+	{
+		item: "midnight:dewshroom_powder",
+		count: 3
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 4
+	},
+	{
+		item: "biomesoplenty:gem",
+		count: 2
+	},
+	{
+		item: "botania:fertilizer",
+		count: 2
+	},
+	{
+		item: "botania:petal 1 15",
+		count: 4
+	},
+	{
+		item: "divinerpg:realmite_ingot"
+	},
+	{
+		item: "extendedcrafting:material"
+	},
+	{
+		item: "extrautils2:endershard",
+		count: 2
 	}],
 	loot_crate: {
 		string_id: "common_crate",

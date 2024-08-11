@@ -115,6 +115,15 @@
                 "{id:\"divinerpg:eden_lamp\",Count:1,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"divinerpg:eden_soul\",Count:12,Damage:0s}"
+              ]
+            }
           }
         ]
       }
@@ -222,6 +231,15 @@
                 "{id:\"divinerpg:milky_lamp\",Count:1,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"divinerpg:skythern_soul\",Count:6,Damage:0s}"
+              ]
+            }
           }
         ]
       }
@@ -309,6 +327,15 @@
               "amount": 1,
               "matches": [
                 "{id:\"divinerpg:wildwood_heart\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"divinerpg:wildwood_soul\",Count:9,Damage:0s}"
               ]
             }
           }
@@ -454,6 +481,15 @@
                 "{id:\"divinerpg:mortum_fragments\",Count:4,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"divinerpg:mortum_soul\",Count:6,Damage:0s}"
+              ]
+            }
           }
         ]
       }
@@ -550,6 +586,15 @@
               "amount": 10,
               "matches": [
                 "{id:\"minecraft:experience_bottle\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"divinerpg:apalachia_soul\",Count:9,Damage:0s}"
               ]
             }
           }

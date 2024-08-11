@@ -12,5 +12,21 @@
 			item: "industrialupgrade:cable_iu_item 1 13"
 		}],
 		count: 64L
+	}],
+	rewards: [{
+		uid: "872109b3",
+		type: "item",
+		item: "industrialupgrade:itemdust 1 24",
+		count: 64
+	},
+	{
+		uid: "9b240b2e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

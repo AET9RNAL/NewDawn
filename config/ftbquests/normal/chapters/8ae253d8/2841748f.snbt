@@ -1,10 +1,12 @@
 {
 	x: -56.0d,
 	y: -28.0d,
+	shape: "hexagon",
 	dependencies: [
 		"58224afa",
 		"4ec57d3b"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "068efd15",
 		type: "item",
@@ -15,12 +17,6 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "033d0ae5",
-		type: "item",
-		item: "industrialupgrade:itemcell 1 27",
-		count: 32
-	},
-	{
 		uid: "101f2079",
 		type: "item",
 		item: {
@@ -35,5 +31,19 @@
 		type: "item",
 		item: "mekanism:cosmicmatter",
 		count: 32
+	},
+	{
+		uid: "59959e6d",
+		type: "item",
+		item: {
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluiduu_matter",
+					Amount: 1000
+				}
+			}
+		},
+		count: 24
 	}]
 }

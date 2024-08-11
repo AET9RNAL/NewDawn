@@ -1,0 +1,33 @@
+{
+	x: -27.0d,
+	y: -2.5d,
+	dependencies: [
+		"69734e4c"
+	],
+	tasks: [{
+		uid: "21a257ab",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 3s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "563e091b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "3c538255",
+		type: "item",
+		item: "industrialupgrade:itemplates 1 22",
+		count: 24
+	}]
+}

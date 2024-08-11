@@ -1,0 +1,102 @@
+{
+	x: -36.5d,
+	y: -13.5d,
+	shape: "diamond",
+	size: 1.5d,
+	tasks: [{
+		uid: "1d89ddfc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 24s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "3a208afc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 32s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "49124351",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 36s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "ffd6148a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 16s,
+			tag: {}
+		}],
+		count: 3L
+	},
+	{
+		uid: "a8cdf92a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 8s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "d16e1c78",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 28s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "6180c7a5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 4s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "41f611a0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 20s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "28fdaaa3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "ea53e0d3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_reactor",
+			Damage: 12s,
+			tag: {}
+		}],
+		count: 28L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -33.0d,
+	y: -2.5d,
+	dependencies: [
+		"571412ac"
+	],
+	tasks: [{
+		uid: "f4059471",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 9s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "bed157eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "b9d0b235",
+		type: "item",
+		item: "mekanismecoenergistics:ecogeneratoradd 1 5"
+	}]
+}

@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_reikar"
 		}]
+	}],
+	rewards: [{
+		uid: "fbdf15fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

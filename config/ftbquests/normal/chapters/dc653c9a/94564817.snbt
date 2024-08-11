@@ -1,0 +1,73 @@
+{
+	x: 2.5d,
+	y: -34.5d,
+	dependencies: [
+		"05294b51",
+		"ecf18979"
+	],
+	tasks: [{
+		uid: "c8333163",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Stats: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c048849c",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "a46b5d2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

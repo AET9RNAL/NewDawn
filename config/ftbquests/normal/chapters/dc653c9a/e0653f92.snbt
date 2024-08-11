@@ -1,0 +1,77 @@
+{
+	x: 2.5d,
+	y: -31.5d,
+	dependencies: [
+		"05294b51",
+		"ecf18979"
+	],
+	tasks: [{
+		uid: "4189cb0b",
+		type: "item",
+		items: [{
+			id: "tconstruct:broadsword",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Stats: {
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6faeb40",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_strength"
+			}
+		}
+	},
+	{
+		uid: "3d110495",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

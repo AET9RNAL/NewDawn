@@ -1,0 +1,34 @@
+{
+	x: -31.0d,
+	y: -4.0d,
+	dependencies: [
+		"38508d91"
+	],
+	tasks: [{
+		uid: "efbd2b3f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 7s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6cb46c79",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "69b70849",
+		type: "item",
+		item: "industrialupgrade:photoniy_ingot",
+		count: 32
+	}]
+}

@@ -12,5 +12,21 @@
 			item: "industrialupgrade:cable_iu_item"
 		}],
 		count: 48L
+	}],
+	rewards: [{
+		uid: "c9646a28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "96d42156",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 6",
+		count: 32
 	}]
 }

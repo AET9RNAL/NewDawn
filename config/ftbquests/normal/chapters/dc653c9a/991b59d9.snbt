@@ -1,0 +1,37 @@
+{
+	x: 5.0d,
+	y: -33.0d,
+	dependencies: [
+		"e2e3b54a"
+	],
+	tasks: [{
+		uid: "e70dbf80",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "bfb2f78d",
+		type: "item",
+		item: "minecraft:sand",
+		count: 32
+	},
+	{
+		uid: "31448f86",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 32
+	},
+	{
+		uid: "e4305ff7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

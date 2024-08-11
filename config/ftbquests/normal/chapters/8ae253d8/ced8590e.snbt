@@ -1,15 +1,18 @@
 {
 	x: -47.5d,
 	y: -15.0d,
+	shape: "hexagon",
 	dependencies: [
 		"8e96aaa2"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "73556501",
 		type: "item",
 		items: [{
 			item: "mekanism:basicblock 1 8"
 		}],
+		count: 4L,
 		only_from_crafting: true
 	}],
 	rewards: [{

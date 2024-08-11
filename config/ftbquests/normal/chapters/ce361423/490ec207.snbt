@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"aad41655"
+	],
+	tasks: [{
+		uid: "b6f2c86b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 15"
+		}],
+		count: 8L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f9aa02d6",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 16
+	}]
+}

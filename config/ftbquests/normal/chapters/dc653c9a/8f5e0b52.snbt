@@ -1,0 +1,38 @@
+{
+	x: -8.0d,
+	y: -33.0d,
+	dependencies: [
+		"6479c3ee"
+	],
+	tasks: [{
+		uid: "9ab52bd4",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "92c367b5",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}
+	},
+	{
+		uid: "9362ff1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

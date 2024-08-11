@@ -18,8 +18,8 @@
 		"The most powerful sources are solar panels, quantum generators, and wind generators, as well as nuclear industry from IU, Mekanism, Extreme Reactors and Draconic Evolution.",
 		"",
 		"Don't focus only on one industry, instead, try to develop them simultaneously.",
-		"Remember that energy from different mods can be converted from one to another via energy converters from IU. Just don't forget to put transformer and energy upgrades into them",
-		"if their basic becomes too low"
+		"Remember that energy from different mods can be converted from one to another via energy converters from IU. Just don't forget to put transformers and energy upgrades into them",
+		"if their basic I/O becomes too low"
 	],
 	tasks: [{
 		uid: "cf93c737",

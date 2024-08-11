@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a011fb3d",
+		type: "item",
+		item: "industrialupgrade:baseblockingot1 1 1",
+		count: 32
 	}]
 }

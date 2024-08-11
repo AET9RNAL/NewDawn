@@ -1,0 +1,26 @@
+{
+	x: -9.5d,
+	y: -30.0d,
+	dependencies: [
+		"97bc3e98"
+	],
+	tasks: [{
+		uid: "1c5ff20a",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 1"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "74412015",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 4
+	}]
+}

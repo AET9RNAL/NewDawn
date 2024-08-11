@@ -1,0 +1,24 @@
+{
+	x: -25.0d,
+	y: -2.5d,
+	dependencies: [
+		"4734e07e",
+		"3cc54752"
+	],
+	tasks: [{
+		uid: "15ae2581",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 5s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "eb868848",
+		type: "item",
+		item: "industrialupgrade:itemplates 1 20",
+		count: 16
+	}]
+}

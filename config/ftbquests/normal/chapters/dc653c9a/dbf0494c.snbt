@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: -28.5d,
+	dependencies: [
+		"71c45e66"
+	],
+	tasks: [{
+		uid: "b084bbbf",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 2"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a7897fd4",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 1"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Your worst nightmare",
+	x: 2.5d,
+	y: -26.0d,
+	text: [
+		"§6Visit the Midnight dimension and get some... shrooms. Look for bloody portals at night time, they will spawn pretty often. You won't be able to get back until after the sunrise!",
+		"",
+		"Rules for while in there:",
+		"1.Try not to die(optional)",
+		"2.Don't get high on your own supply"
+	],
+	dependencies: [
+		"e0653f92"
+	],
+	tasks: [{
+		uid: "412d0fc0",
+		type: "dimension",
+		dim: -23
+	}],
+	rewards: [{
+		uid: "1d70d741",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

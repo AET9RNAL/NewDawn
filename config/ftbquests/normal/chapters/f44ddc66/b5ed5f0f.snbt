@@ -12,5 +12,11 @@
 		items: [{
 			item: "industrialupgrade:itemsunnarium 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "e700ef76",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 24
 	}]
 }

@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_endoflame"
 		}]
+	}],
+	rewards: [{
+		uid: "1caaa53b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

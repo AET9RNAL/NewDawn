@@ -9,11 +9,22 @@
 		type: "item",
 		items: [{
 			item: "packagedavaritia:extreme_crafter"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "575aca7c",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "b18e4cdb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

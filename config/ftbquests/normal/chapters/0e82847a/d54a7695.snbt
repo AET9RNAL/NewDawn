@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_kekimorus"
 		}]
+	}],
+	rewards: [{
+		uid: "89ac23e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

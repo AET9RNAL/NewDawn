@@ -1,7 +1,7 @@
 {
 	x: -79.35714285714286d,
 	y: -18.392857142857146d,
-	shape: "square",
+	shape: "hexagon",
 	hide_dependency_lines: true,
 	dependencies: [
 		"820ae94a",

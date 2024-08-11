@@ -2,38 +2,85 @@
 	title: "Mythic Crate",
 	loot_size: 1,
 	rewards: [{
-		item: "draconicevolution:awakened_core"
+		item: "draconicevolution:awakened_core",
+		count: 3
 	},
 	{
 		item: "maia_draconic_edition:enderium_core"
 	},
 	{
 		item: "industrialupgrade:quantumitems4",
-		count: 8
+		count: 48
 	},
 	{
-		item: "avaritia:resource 1 5"
+		item: "avaritia:resource 1 5",
+		count: 2
 	},
 	{
 		item: "industrialupgrade:machines 1 5"
 	},
 	{
-		item: "enderio:block_solar_panel 1 6"
+		item: "enderio:block_solar_panel 1 6",
+		count: 4
 	},
 	{
 		item: "appliedenergistics2:material 1 65"
 	},
 	{
-		item: "iuadditions:iridium_advanced_stellar"
+		item: "iuadditions:iridium_advanced_stellar",
+		count: 12
 	},
 	{
 		item: "iuadditions:core_crossdimensional"
 	},
 	{
-		item: "iuadditions:core_stellar"
+		item: "iuadditions:core_stellar",
+		count: 3
 	},
 	{
-		item: "contenttweaker:infinity_circuit"
+		item: "contenttweaker:infinity_circuit",
+		count: 2
+	},
+	{
+		item: {
+			id: "industrialupgrade:combiner_solid_matter",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:basemachine",
+			Damage: 3s,
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:converter_matter",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:draconicpanel",
+			Damage: 1s,
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "industrialupgrade:wiring_storage",
+			Damage: 10s,
+			tag: {
+				energy: 4.096E11d
+			}
+		}
+	},
+	{
+		item: "mekanismmultiblockmachine:multiblockgenerator"
+	},
+	{
+		item: "draconicevolution:reactor_core"
 	}],
 	loot_crate: {
 		string_id: "mythic_crate",

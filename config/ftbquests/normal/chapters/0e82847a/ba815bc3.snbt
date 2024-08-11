@@ -1,6 +1,7 @@
 {
-	x: -17.5d,
-	y: -3.0d,
+	x: -17.0d,
+	y: -1.0d,
+	shape: "hexagon",
 	text: [
 		"This machine will turn mana into it's liquid state, can be useful when you want to transport it to any part of the world via tesseracts etc. Mana can be accepted/em",
 		"itted via spark, you can place it by clicking RMB while sneaking, also works with spreaders"
@@ -9,6 +10,7 @@
 	dependencies: [
 		"363a2537"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "1c9bdebc",
 		type: "item",
@@ -23,6 +25,16 @@
 			id: "botania:manaringgreater",
 			tag: {
 				mana: 2000000
+			}
+		}
+	},
+	{
+		uid: "bdef5a2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
 			}
 		}
 	}]

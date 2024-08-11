@@ -1,0 +1,75 @@
+{
+	x: 2.5d,
+	y: -36.0d,
+	dependencies: [
+		"ecf18979",
+		"05294b51"
+	],
+	tasks: [{
+		uid: "8ae9021e",
+		type: "item",
+		items: [{
+			id: "tconstruct:hatchet",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Stats: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0477c86",
+		type: "item",
+		item: "minecraft:wheat",
+		count: 16
+	},
+	{
+		uid: "5c3e4040",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -30.0d,
+	dependencies: [
+		"e0653f92"
+	],
+	tasks: [{
+		uid: "eaa69d19",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "09a0321b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

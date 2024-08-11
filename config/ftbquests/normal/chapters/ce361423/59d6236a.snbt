@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -10.0d,
+	dependencies: [
+		"c3afb360"
+	],
+	tasks: [{
+		uid: "4adb3157",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 18"
+		}],
+		count: 4L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "7878250c",
+		type: "item",
+		item: "appliedenergistics2:material 1 30",
+		count: 4
+	}]
+}

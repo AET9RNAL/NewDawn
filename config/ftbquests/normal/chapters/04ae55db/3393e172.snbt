@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 2.5d,
 	text: [
-		"§4Разноцветные!"
+		"§4Colorful!"
 	],
 	dependencies: [
 		"30b92a51"

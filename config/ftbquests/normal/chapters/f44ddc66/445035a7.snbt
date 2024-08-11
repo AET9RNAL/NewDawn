@@ -1,0 +1,117 @@
+{
+	x: -34.5d,
+	y: -16.5d,
+	shape: "diamond",
+	dependencies: [
+		"ac53dc32"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "03c8c5cd",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 6s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "248fa0f5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 22s,
+			tag: {}
+		}],
+		count: 5L
+	},
+	{
+		uid: "0cd54f8d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 30s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "cb554098",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 2s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "2d489a5c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 38s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "3f9e3f31",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 34s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "37d25780",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 18s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "bd8af003",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 14s,
+			tag: {}
+		}],
+		count: 10L
+	},
+	{
+		uid: "27f1a7e3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 10s,
+			tag: {}
+		}],
+		count: 17L
+	},
+	{
+		uid: "b762ef8f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 26s,
+			tag: {}
+		}],
+		count: 64L
+	},
+	{
+		uid: "408e69ef",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:heat_reactors",
+			Damage: 26s,
+			tag: {}
+		}],
+		count: 11L
+	}]
+}

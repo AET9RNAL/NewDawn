@@ -10,5 +10,15 @@
 		items: [{
 			item: "contenttweaker:flower_module_gemini"
 		}]
+	}],
+	rewards: [{
+		uid: "9db0b161",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

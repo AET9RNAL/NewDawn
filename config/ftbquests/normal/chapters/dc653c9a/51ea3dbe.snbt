@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: -33.0d,
+	dependencies: [
+		"d4fa3143"
+	],
+	tasks: [{
+		uid: "27173bf0",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "218a8f18",
+		type: "item",
+		item: "minecraft:flint_and_steel"
+	}]
+}

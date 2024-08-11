@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "baad65d3",
+		type: "item",
+		item: "jaopca:block.photon",
+		count: 16
 	}]
 }

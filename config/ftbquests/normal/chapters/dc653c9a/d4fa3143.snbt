@@ -1,0 +1,33 @@
+{
+	x: 9.0d,
+	y: -34.5d,
+	shape: "hexagon",
+	dependencies: [
+		"20574cc8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8cf98a91",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "5545a9f1",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 12
+	},
+	{
+		uid: "5024965b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

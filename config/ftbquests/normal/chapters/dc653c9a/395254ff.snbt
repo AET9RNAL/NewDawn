@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -34.5d,
+	dependencies: [
+		"61e14ee3"
+	],
+	tasks: [{
+		uid: "0e9d6176",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 16L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "8e206129",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

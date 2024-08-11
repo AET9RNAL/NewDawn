@@ -12,5 +12,20 @@
 			item: "industrialupgrade:cable_iu_item 1 7"
 		}],
 		count: 12L
+	}],
+	rewards: [{
+		uid: "c7edad1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "b9dc81f8",
+		type: "item",
+		item: "industrialupgrade:itemcore 1 7"
 	}]
 }

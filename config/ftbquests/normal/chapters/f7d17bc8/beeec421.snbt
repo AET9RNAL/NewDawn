@@ -17,5 +17,15 @@
 		uid: "ef18cd6f",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "fe9ee679",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

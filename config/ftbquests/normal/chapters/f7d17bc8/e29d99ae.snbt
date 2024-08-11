@@ -1,16 +1,27 @@
 {
-	x: -11.5d,
+	x: -9.5d,
 	y: 9.0d,
 	tasks: [{
 		uid: "f1a58307",
 		type: "item",
 		items: [{
 			item: "packagedauto:package_component"
-		}]
+		}],
+		only_from_crafting: true
 	}],
 	rewards: [{
 		uid: "b70aa727",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "897e7676",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

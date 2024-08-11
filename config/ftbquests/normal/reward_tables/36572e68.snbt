@@ -8,28 +8,31 @@
 		item: "enderio:block_solar_panel 1 1"
 	},
 	{
-		item: "divinerpg:rupee_ingot"
+		item: "divinerpg:rupee_ingot",
+		count: 6
 	},
 	{
-		item: "thermalfoundation:upgrade"
+		item: "thermaldynamics:duct_0 1 3",
+		count: 6
 	},
 	{
-		item: "thermaldynamics:duct_0 1 3"
+		item: "enderio:item_power_conduit 1 1",
+		count: 4
 	},
 	{
-		item: "enderio:item_power_conduit 1 1"
+		item: "astralsorcery:itemcraftingcomponent 1 1",
+		count: 5
 	},
 	{
-		item: "astralsorcery:itemcraftingcomponent 1 1"
-	},
-	{
-		item: "astralsorcery:itemcraftingcomponent 1 4"
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 5
 	},
 	{
 		item: "minecraft:enchanting_table"
 	},
 	{
-		item: "minecraft:end_crystal"
+		item: "minecraft:end_crystal",
+		count: 2
 	},
 	{
 		item: {
@@ -40,19 +43,23 @@
 		}
 	},
 	{
-		item: "industrialupgrade:itemingots 1 2"
+		item: "industrialupgrade:itemingots 1 2",
+		count: 16
 	},
 	{
-		item: "extrautils2:ingredients 1 11"
+		item: "extrautils2:ingredients 1 11",
+		count: 6
 	},
 	{
 		item: "extrautils2:drum 1 2"
 	},
 	{
-		item: "gendustry:apiary.upgrade"
+		item: "gendustry:apiary.upgrade",
+		count: 2
 	},
 	{
-		item: "divinerpg:wildwood_chunk"
+		item: "divinerpg:wildwood_chunk",
+		count: 4
 	},
 	{
 		item: "botania:spreader"
@@ -62,7 +69,7 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 272",
-		count: 4
+		count: 6
 	},
 	{
 		item: "industrialupgrade:circuit 1 2",
@@ -122,6 +129,65 @@
 	{
 		item: "mekanism:basicblock2 1 1",
 		count: 5
+	},
+	{
+		item: "extrautils2:redorchid"
+	},
+	{
+		item: "extendedcrafting:material 1 40"
+	},
+	{
+		item: "extrautils2:ingredients 1 10"
+	},
+	{
+		item: "fluxnetworks:fluxblock"
+	},
+	{
+		item: "betternether:stalagnate_bowl_mushroom"
+	},
+	{
+		item: "extrautils2:ingredients 1 17",
+		count: 3
+	},
+	{
+		item: "contenttweaker:iridium_draconic",
+		count: 2
+	},
+	{
+		item: "extrautils2:ingredients 1 4",
+		count: 16
+	},
+	{
+		item: "mekanismgenerators:generator 1 6"
+	},
+	{
+		item: "threng:material 1 4",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		item: "xlfoodmod:oreo_cake",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 166",
+		count: 4
+	},
+	{
+		item: "enderio:block_alloy_smelter"
+	},
+	{
+		item: "redstonearsenal:material 1 160",
+		count: 4
+	},
+	{
+		item: {
+			id: "industrialupgrade:basemachine3",
+			Damage: 81s,
+			tag: {}
+		}
 	}],
 	loot_crate: {
 		string_id: "rare_crate",

@@ -15,5 +15,10 @@
 		uid: "19a100de",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "1112f28a",
+		type: "item",
+		item: "draconicevolution:chaotic_core"
 	}]
 }

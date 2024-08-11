@@ -2,7 +2,7 @@
 	x: 9.0d,
 	y: -17.5d,
 	text: [
-		"A machine that will generate different loot depending on the module inserted at the cost of different liquids/mana",
+		"§6A machine that will generate different loot depending on the module inserted at the cost of different liquids/mana",
 		"",
 		"How to use:",
 		"1.Place a desired module in the central slot",
@@ -18,5 +18,15 @@
 		items: [{
 			item: "draconicevolution:draconicmachine_industrial_spawner"
 		}]
+	}],
+	rewards: [{
+		uid: "3068b08d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
 	}]
 }

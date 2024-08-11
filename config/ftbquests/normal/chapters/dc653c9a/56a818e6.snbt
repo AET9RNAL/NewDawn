@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: -31.0d,
+	dependencies: [
+		"6479c3ee"
+	],
+	tasks: [{
+		uid: "64a550b0",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "caf62312",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

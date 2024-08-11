@@ -1,0 +1,31 @@
+{
+	x: -9.5d,
+	y: -33.0d,
+	dependencies: [
+		"8f5e0b52"
+	],
+	tasks: [{
+		uid: "ecb1f822",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "97100f6a",
+		type: "item",
+		item: "minecraft:stick",
+		count: 32
+	},
+	{
+		uid: "5ba942bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

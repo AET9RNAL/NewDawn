@@ -6,7 +6,7 @@
 	},
 	{
 		item: "industrialupgrade:itemsunnarium 1 2",
-		count: 7
+		count: 12
 	},
 	{
 		item: "industrialupgrade:upgrades",
@@ -14,7 +14,7 @@
 	},
 	{
 		item: "thermaldynamics:duct_0 1 5",
-		count: 2
+		count: 4
 	},
 	{
 		item: "enderio:item_endergy_conduit 1 8",
@@ -30,7 +30,8 @@
 		item: "appliedenergistics2:controller"
 	},
 	{
-		item: "appliedenergistics2:interface"
+		item: "appliedenergistics2:interface",
+		count: 2
 	},
 	{
 		item: "thermalfoundation:upgrade 1 33"
@@ -47,14 +48,16 @@
 		count: 2
 	},
 	{
-		item: "genetics:misc 1 8"
+		item: "genetics:misc 1 8",
+		count: 3
 	},
 	{
 		item: "enderio:item_me_conduit 1 1",
 		count: 24
 	},
 	{
-		item: "thermalfoundation:storage_alloy 1 7"
+		item: "thermalfoundation:storage_alloy 1 7",
+		count: 3
 	},
 	{
 		item: "draconicevolution:particle_generator 1 2"
@@ -93,7 +96,7 @@
 	},
 	{
 		item: "industrialupgrade:baseblockingot1 1 1",
-		count: 2
+		count: 3
 	},
 	{
 		item: {
@@ -130,10 +133,6 @@
 	{
 		item: "industrialupgrade:upgrades 1 9",
 		count: 6
-	},
-	{
-		item: "industrialupgrade:itemcell 1 27",
-		count: 8
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 285",
@@ -256,6 +255,17 @@
 	},
 	{
 		item: "mekanism:machineblock2 1 13"
+	},
+	{
+		item: {
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluiduu_matter",
+					Amount: 1000
+				}
+			}
+		}
 	}],
 	loot_crate: {
 		string_id: "epic_crate",

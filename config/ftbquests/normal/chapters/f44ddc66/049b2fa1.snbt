@@ -18,5 +18,15 @@
 		uid: "92f5cad4",
 		type: "item",
 		item: "avaritia:resource 1 6"
+	},
+	{
+		uid: "63cf3666",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
 	}]
 }
