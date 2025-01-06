@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.appliedenergistics2.Grinder;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
@@ -208,8 +209,11 @@ mods.avaritia.ExtremeCrafting.addShaped("Wireless Receiver", <appliedenergistics
 
 
 
+//Grinder Recipes
+//Grinder.addRecipe(IItemStack output, IItemStack input, int turns, @Optional IItemStack secondary1Output, @Optional float secondary1Chance, @Optional IItemStack secondary2Output, @Optional float secondary2Chance);
 
-
+Grinder.addRecipe(<midnight:rouxe>*4, <midnight:rouxe_rock>, 4);
+Grinder.addRecipe(<midnight:bloomcrystal>*4, <midnight:bloomcrystal_rock>, 4);
 
 
 

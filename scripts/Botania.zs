@@ -1,21 +1,26 @@
 # CREATED USING EXTERNAL TWEAKER
 import mods.botaniatweaks.Agglomeration;
 import crafttweaker.item.IIngredient;
-recipes.remove(<botania:terraplate>);
-recipes.remove(<botania:runealtar>);
-recipes.remove(<botania:pylon>);
-recipes.remove(<botania:pylon:1>);
-recipes.remove(<botania:pylon:2>);
-recipes.remove(<botania:pool>);
-recipes.remove(<botania:alfheimportal>);
-recipes.remove(<minecraft:golden_hoe>);
-recipes.remove(<minecraft:golden_hoe>);
-recipes.remove(<minecraft:golden_hoe>);
-recipes.remove(<minecraft:golden_hoe>);
+import crafttweaker.item.IItemStack;
 mods.jei.JEI.removeAndHide(<extrabotany:managenerator>);
 mods.jei.JEI.removeAndHide(<extrabotany:manaliquefaction>);
-recipes.remove(<botania:spreader:3>);
-recipes.remove(<botania:spreader>);
+
+val itemsToRemove = [
+    <botania:terraplate>,
+    <botania:runealtar>,
+    <botania:pylon>,
+    <botania:pylon:1>,
+    <botania:pylon:2>,
+    <botania:pool>,
+    <botania:alfheimportal>,
+    <minecraft:golden_hoe>,
+    <botania:spreader:3>,
+    <botania:spreader>,
+] as IItemStack[];
+
+for item in itemsToRemove {
+  recipes.remove(item);
+}
 
 
 //mods.botania.RuneAltar.addRecipe(IItemStack output, IIngredient[] input, int mana);
@@ -98,19 +103,26 @@ mods.botania.ManaInfusion.addConjuration(<taiga:palladium_ore>*2, <taiga:palladi
 
 
 //Rune Altar
+//mods.botania.RuneAltar.removeRecipe(IIngredientoutput);
 //mods.botania.RuneAltar.addRecipe(RESULT,[], MANA);
+
+//Rmoval
+mods.botania.RuneAltar.removeRecipe(<botania:rune>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
+mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
+
+//Addition
 mods.botania.RuneAltar.addRecipe(<matc:inferiumcrystal>, [<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<industrialupgrade:preciousgem>,<avaritia:resource:1>,<enderio:item_material:14>,<botania:rune:5>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"})] , 125000);
 mods.botania.RuneAltar.addRecipe(<matc:prudentiumcrystal>, [<matc:inferiumcrystal>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<enderio:item_material:15>] , 250000);
 mods.botania.RuneAltar.addRecipe(<matc:intermediumcrystal>, [<matc:prudentiumcrystal>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<extrautils2:suncrystal>,<enderio:item_material:16>] , 500000);
 mods.botania.RuneAltar.addRecipe(<matc:superiumcrystal>, [<matc:intermediumcrystal>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<iuadditions:crystal_shimmering>] , 750000);
 mods.botania.RuneAltar.addRecipe(<matc:supremiumcrystal>, [<matc:superiumcrystal>,<mysticalagriculture:crafting:37>,<mysticalagriculture:crafting:37>,<mysticalagriculture:crafting:37>,<mysticalagriculture:crafting:37>,<iuadditions:crystal_venomous>] , 1000000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>,[<matc:inferiumcrystal>,<matc:prudentiumcrystal>,<matc:intermediumcrystal>,<matc:superiumcrystal>,<matc:supremiumcrystal>,<mysticalagriculture:storage:4>,<mysticalagriculture:storage:4>,<industrialupgrade:itembatchargecrystal>,<industrialupgrade:fluid_cell>.withTag({Fluid: {FluidName: "iufluiduu_matter", Amount: 1000}}),<enderio:block_infinity:2>], 6000000);
-
 mods.botania.RuneAltar.addRecipe(<botania:manamachine_agglomeration_plate>,[<botania:terraplate>,<extrabotany:manabarrel>,<botania:rune:11>,<botania:rune:8>,<botaniverse:morerune:3>,<extrabotany:blockshadowium>,<industrialupgrade:manasteel_core>], 500000);
 mods.botania.RuneAltar.addRecipe(<botania:manamachine_gaia_agglomeration_plate>,[<botanicadds:gaia_plate>,<extrabotany:manabarrel>,<botania:rune:11>,<botania:rune:8>,<botaniverse:morerune:3>,<extrabotany:blockshadowium>,<extrabotany:material:3>], 1000000);
 mods.botania.RuneAltar.addRecipe(<botania:manamachine_manapool>,[<botania:pool>,<extrabotany:manabarrel>,<botania:rune:8>,<extrabotany:blockshadowium>], 250000);
 mods.botania.RuneAltar.addRecipe(<botania:manamachine_alfheim_portal>,[<botania:alfheimportal>,<extrabotany:manabarrel>,<botania:rune:11>,<botania:rune:8>,<botaniverse:morerune:3>,<extrabotany:blockshadowium>,<industrialupgrade:terrasteel_core>], 1000000);
-
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_endoflame>,[<botania:specialflower>.withTag({type: "endoflame"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_gourmaryllis>,[<botania:specialflower>.withTag({type: "gourmaryllis"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_thermalily>,[<botania:specialflower>.withTag({type: "thermalily"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
@@ -120,15 +132,17 @@ mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_entropinnyum>,[<b
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_arcana>,[<botania:specialflower>.withTag({type: "arcanerose"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_hydroangeas>,[<botania:specialflower>.withTag({type: "hydroangeas"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 mods.botania.RuneAltar.addRecipe(<contenttweaker:flower_module_gemini>,[<botania:specialflower>.withTag({type: "geminiorchid"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-
 mods.botania.RuneAltar.addRecipe(<botania:manamachine_flower_sim>,[<mekanism:basicblock:8>,<botania:storage>,<botania:quartz:1>,<contenttweaker:mana_formation_core>,<botania:rune:8>,<mekanism:controlcircuit:2>], 5000);
 
+mods.botania.RuneAltar.addRecipe(<botania:rune>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:dye:15>,<ore:sugarcane>,<minecraft:fishing_rod>,<botania:rune>], 5200);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:nether_wart>,<minecraft:gunpowder>,<ore:ingotBrickNether>], 5200);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:brown_mushroom>,<ore:blockCoal>,<ore:stone>], 5200);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:string>,<ore:feather>,<minecraft:carpet>], 5200);
 
 
 
 
-
-
+//Crafting SHAPED
 recipes.addShaped(<contenttweaker:manastate_module_liquid>, [[<industrialupgrade:module_schedule>, <extrabotany:elfjar>, null],[null, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:manastate_module_mana>, [[<industrialupgrade:module_schedule>, <botania:manatablet>, null],[null, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:module_manapool_alchemy>, [[<ore:plateManasteel>, <botania:brewery>, <ore:plateManasteel>],[<botania:manaresource:1>, <industrialupgrade:module_schedule>, <botania:manaresource:1>], [<ore:plateManasteel>, <botania:alchemycatalyst>, <ore:plateManasteel>]]);
@@ -245,3 +259,119 @@ Agglomeration.addRecipe(<contenttweaker:spawner_module_chaos>, [<industrialupgra
 
 Agglomeration.addRecipe(<contenttweaker:module_luck_x2>, [<contenttweaker:module_luck_x1>,<contenttweaker:module_luck_x1>,<betternether:cincinnasite_forged>,<midnight:bogshroom_powder>,<avaritia:resource>,<biomesoplenty:terrestrial_artifact>,
 <enderio:item_material:19>,<extrautils2:suncrystal>,<extrautils2:unstableingots:2>,<astralsorcery:itemusabledust>] as IIngredient[], 250000, 0x60696c, 0xf9f780);
+
+
+
+
+
+
+
+//#Petal Apothecary
+
+//mods.botania.Apothecary.removeRecipe(IItemStack output);
+//mods.botania.Apothecary.addRecipe(IItemStackoutput, [] );
+
+//Removal
+val apothecaryRemovals = [
+  <botania:specialflower>.withTag({type: "bloodyenchantress"}),
+  <botania:specialflower>.withTag({type: "gourmaryllis"}),
+  <botania:specialflower>.withTag({type: "reikarlily"}),
+  <botania:specialflower>.withTag({type: "sunbless"}),
+  <botania:specialflower>.withTag({type: "shulk_me_not"}),
+  <botania:specialflower>.withTag({type: "endoflame"}),
+  <botania:specialflower>.withTag({type: "hydroangeas"}),
+  <botania:specialflower>.withTag({type: "edelweiss"}),
+  <botania:specialflower>.withTag({type: "stonesia"}),
+  <botania:specialflower>.withTag({type: "rafflowsia"}),
+  <botania:specialflower>.withTag({type: "thermalily"}),
+  <botania:specialflower>.withTag({type: "omniviolet"}),
+  <botania:specialflower>.withTag({type: "geminiorchid"}),
+  <botania:specialflower>.withTag({type: "dandelifeon"}),
+  <botania:specialflower>.withTag({type: "ba_rain_flower"}),
+  <botania:specialflower>.withTag({type: "tinkle"}),
+  <botania:specialflower>.withTag({type: "arcanerose"}),
+  <botania:specialflower>.withTag({type: "entropinnyum"}),
+  <botania:specialflower>.withTag({type: "moonbless"}),
+  <botania:specialflower>.withTag({type: "kekimurus"}),
+  <botania:specialflower>.withTag({type: "narslimmus"}),
+  <botania:specialflower>.withTag({type: "munchdew"}),
+  <botania:specialflower>.withTag({type: "ba_snow_flower"}),
+  <botania:specialflower>.withTag({type: "bellflower"}),
+  <botania:specialflower>.withTag({type: "spectrolus"}),
+  <botania:specialflower>.withTag({type: "ba_lightning_flower"})
+] as IItemStack[];
+
+for item in apothecaryRemovals {
+  mods.botania.Apothecary.removeRecipe(item);
+}
+
+//Addition
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "bloodyenchantress"}), [<midnight:viridshroom_powder>,<botania:rune:13>,<botania:rune:5>,<botania:rune:1>,
+<botania:petal:14>,<botania:petal:14>,<botania:petal:14>,<botania:petal:14>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "gourmaryllis"}), [<midnight:viridshroom_powder>,<botania:rune:5>,<botania:rune:1>,<botania:petal:8>,<botania:petal:8>,
+<botania:petal:4>,<botania:petal:4>,<botania:petal:14>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "reikarlily"}), [<midnight:viridshroom_powder>,<botania:rune:15>,<botania:rune:12>,<botania:rune:14>,<botania:manaresource:5>,
+<botania:petal:3>,<botania:petal:3>,<botania:petal:3>,<botania:petal:3>,<botania:petal:11>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "sunbless"}), [<midnight:viridshroom_powder>,<botania:petal>,<botania:petal:4>,<botania:petal:4>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "shulk_me_not"}), [<midnight:viridshroom_powder>,<botania:rune:13>,<botania:rune:14>,<botania:petal:2>,<botania:petal:2>,
+<botania:petal:10>,<botania:petal:10>,<botania:petal:8>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "endoflame"}), [<midnight:viridshroom_powder>,<botania:petal:12>,<botania:petal:12>,<botania:petal:14>,<botania:petal:8>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}), [<midnight:viridshroom_powder>,<botania:petal:9>,<botania:petal:9>,<botania:petal:11>,<botania:petal:11>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "edelweiss"}), [<midnight:viridshroom_powder>,<botania:manaresource:23>,<botania:rune:7>,<botania:rune:8>,<botania:petal:9>,<botania:petal:9>,
+<botania:petal>,<botania:petal>,<botania:petal>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "soarleander"}), [<midnight:viridshroom_powder>,<botania:specialflower>.withTag({type: "gourmaryllis"}),<minecraft:chicken>,
+<minecraft:chicken>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:chicken>,<minecraft:chicken>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "stonesia"}), [<midnight:viridshroom_powder>,<botania:rune:6>,<botania:rune:10>,<botania:petal:7>,<botania:petal:7>,
+<botania:petal:15>,<botania:manaresource:5>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "rafflowsia"}), [<midnight:viridshroom_powder>,<botania:rune:15>,<botania:rune:2>,<botania:manaresource:8>,
+<botania:petal:10>,<botania:petal:10>,<botania:petal:13>,<botania:petal:13>,<botania:petal:15>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "thermalily"}), [<midnight:viridshroom_powder>,<botania:rune:1>,<botania:rune:2>,<botania:petal:1>,<botania:petal:1>,<botania:petal:14>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "omniviolet"}), [<midnight:viridshroom_powder>,<botania:rune:8>,<botania:rune:9>,<botania:rune:4>,<botania:petal:11>,<botania:petal:11>,
+<botania:petal:10>,<botania:petal:10>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "geminiorchid"}), [<midnight:viridshroom_powder>,<botania:manaresource:23>,<botania:manaresource:23>,<botania:petal:1>,
+<botania:petal:1>,<botania:petal:1>,<botania:petal:4>,<botania:petal:4>,<botania:petal:4>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "dandelifeon"}), [<midnight:viridshroom_powder>,<botania:manaresource:5>,<botania:rune:3>,<botania:rune:2>,<botania:rune:1>,
+<botania:rune>,<botania:petal:13>,<botania:petal:5>,<botania:petal:10>,<botania:petal:10>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "ba_rain_flower"}), [<midnight:viridshroom_powder>,<botania:petal:11>,<botania:petal:11>,<botania:petal:11>,<botania:petal:11>,
+<botania:petal:3>,<botania:petal:3>,<botania:petal:3>,<botania:petal:3>,<botania:petal:4>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "tinkle"}), [<midnight:viridshroom_powder>,<botania:manaresource:23>,<extrabotany:material>,<extrabotany:material>,<botania:rune>,
+<botania:rune:2>,<botania:petal:5>,<botania:petal:13>,<botania:petal:4>,<botania:petal:4>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<midnight:viridshroom_powder>,<botania:rune:8>,<botania:petal:6>,<botania:petal:6>,<botania:petal:10>,
+<botania:petal:10>,<botania:petal:5>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}), [<midnight:viridshroom_powder>,<botania:rune:1>,<botania:rune:13>,<botania:petal:14>,<botania:petal:14>,
+<botania:petal>,<botania:petal>,<botania:petal:7>,<botania:petal:7>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "moonbless"}), [<midnight:viridshroom_powder>,<botania:petal:14>,<botania:petal:14>,<botania:petal:14>,<botania:petal>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "kekimurus"}), [<midnight:viridshroom_powder>,<botania:manaresource:8>,<botania:rune:10>,<botania:petal:12>,<botania:petal:12>,
+<botania:petal:1>,<botania:petal:1>,<botania:petal>,<botania:petal>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "narslimmus"}), [<midnight:viridshroom_powder>,<botania:rune>,<botania:rune:5>,<botania:petal:15>,<botania:petal:13>,<botania:petal:13>,
+<botania:petal:5>,<botania:petal:5>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "munchdew"}), [<midnight:viridshroom_powder>,<botania:rune:10>,<botania:petal:5>,<botania:petal:5>,<botania:petal:13>,
+<botania:petal:14>,<botania:petal:14>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "ba_snow_flower"}), [<midnight:viridshroom_powder>,<botania:petal>,<botania:petal>,<botania:petal>,<botania:petal:3>,
+<botania:petal:3>,<botania:petal:3>,<botania:petal:3>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "bellflower"}), [<midnight:viridshroom_powder>,<extrabotany:material>,<botania:petal:5>,<botania:petal:5>,<botania:petal:4>,
+<botania:petal:4>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "spectrolus"}), [<midnight:viridshroom_powder>,<botania:manaresource:8>,<botania:rune:3>,<botania:rune:7>,<botania:petal>,
+<botania:petal>,<botania:petal:11>,<botania:petal:11>,<botania:petal:13>,<botania:petal:13>,<botania:petal:14>,<botania:petal:14>]);
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "ba_lightning_flower"}), [<midnight:viridshroom_powder>,<botanicadds:rune_energy>,<botania:petal:11>,<botania:petal:3>,
+<botania:petal:3>,<botania:petal:3>,<botania:petal:3>]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

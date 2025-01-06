@@ -8,5 +8,15 @@
 			item: "flowingtime:flpedestal"
 		}],
 		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "3fd015c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
 	}]
 }

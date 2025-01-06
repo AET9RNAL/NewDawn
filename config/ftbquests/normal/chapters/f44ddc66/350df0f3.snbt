@@ -12,5 +12,15 @@
 		items: [{
 			item: "contenttweaker:quantum_shield"
 		}]
+	}],
+	rewards: [{
+		uid: "03a282ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

@@ -8,5 +8,15 @@
 			item: "chickenchunks:chunk_loader"
 		}],
 		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4bc36edb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

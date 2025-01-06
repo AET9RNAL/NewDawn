@@ -12,5 +12,15 @@
 			item: "contenttweaker:rod_spectral"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "e694ca3d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

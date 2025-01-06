@@ -11,8 +11,8 @@
 			id: "draconicevolution:draconic_pick",
 			ForgeCaps: {
 				Parent: {
-					Size: 18,
-					Items: []
+					Items: [],
+					Size: 18
 				}
 			}
 		}],

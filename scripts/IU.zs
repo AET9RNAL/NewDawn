@@ -68,6 +68,15 @@ recipes.removeShaped(<industrialupgrade:crafting_elements:211>, [[null, <industr
 recipes.removeShaped(<industrialupgrade:crafting_elements:210>, [[null, <industrialupgrade:cable_iu_item>, null],[<industrialupgrade:circuit:9>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:itembatlamacrystal:*>], [null, <industrialupgrade:cable_iu_item>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:209>, [[null, <industrialupgrade:cable_iu_item:20>, null],[<industrialupgrade:crafting_elements:273>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:itembatlamacrystal:*>], [null, <industrialupgrade:cable_iu_item:20>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrialupgrade:cable_iu_item:15>, null],[<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:advanced_re_battery:16>], [null, <industrialupgrade:cable_iu_item:15>, null]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<ore:alloyBasic>, <ore:dustDiamond>, <ore:alloyBasic>],[<ore:dustDiamond>, <ore:alloyBasic>, <ore:dustDiamond>], [<ore:alloyBasic>, <ore:dustDiamond>, <ore:alloyBasic>]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>],[<ore:dustDiamond>, <minecraft:redstone>, <ore:dustDiamond>], [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <industrialupgrade:itemdust:23>, <minecraft:redstone>],[<industrialupgrade:itemdust:23>, <minecraft:redstone>, <industrialupgrade:itemdust:23>], [<minecraft:redstone>, <industrialupgrade:itemdust:23>, <minecraft:redstone>]]);
+
+
+
+
+
+
 recipes.remove(<iuadditions:compressed_shimmeringhoneycomb>);
 
 recipes.remove(<quantum_generators:qg>);
@@ -136,6 +145,7 @@ recipes.addShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrial
 recipes.addShaped(<industrialupgrade:crafting_elements:137> * 2, [[<minecraft:redstone>, <industrialupgrade:itemplates:12>, <minecraft:redstone>], [<thermalfoundation:material:357>, <extrautils2:ingredients:0>, <thermalfoundation:material:357>],[<minecraft:redstone>, <industrialupgrade:itemplates:16>, <minecraft:redstone>]]);
 recipes.addShaped(<industrialupgrade:magnet>, [[<industrialupgrade:alloyingot:7>, <thermalinnovation:magnet:4>, <industrialupgrade:alloyingot:9>],[<industrialupgrade:itemdoubleplates>, <industrialupgrade:advanced_re_battery>, <industrialupgrade:itemdoubleplates>], [null, <industrialupgrade:itemdoubleplates>, null]]);
 
+recipes.addShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>],[<ore:dustDiamond>, <midnight:rouxe>, <ore:dustDiamond>], [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>]]);
 
 // recipes.addShaped(<iuadditions:qfp_arcana>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_arcana>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_arcana>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
 // recipes.addShaped(<iuadditions:qfp_mortum>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_mortum>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_mortum>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
@@ -699,7 +709,7 @@ mods.industrialupgrade.MolecularTransformer.addRecipe(<contenttweaker:admcore>, 
 mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:divine_shards>, <botania:petal:4>, 125000);
 mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:molten_shards>, <botania:petal:14>, 125000);
 
-
+mods.industrialupgrade.MolecularTransformer.addRecipe(<midnight:rouxe>, <extrautils2:ingredients>, 25000);
 
 //Compressor
 //mods.industrialupgrade.compressor.addRecipe(IItemstack, Ingridient);
@@ -823,8 +833,8 @@ recipes.addShaped(<contenttweaker:admsp>, [[null, null, null],[<contenttweaker:i
 
 mods.industrialupgrade.macerator.addRecipe(<contenttweaker:linkorium_dust>, <contenttweaker:crystal_linkorium>);
 mods.industrialupgrade.macerator.addRecipe(<industrialupgrade:itemdust:23>*9, <minecraft:diamond_block>);
-
-
+mods.industrialupgrade.macerator.addRecipe(<midnight:rouxe>*4, <midnight:rouxe_rock>);
+mods.industrialupgrade.macerator.addRecipe(<midnight:bloomcrystal>*4, <midnight:bloomcrystal_rock>);
 
 
 

@@ -12,5 +12,15 @@
 			item: "contenttweaker:rod_quantum"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "4386dd53",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

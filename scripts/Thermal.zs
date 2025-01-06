@@ -184,6 +184,8 @@ recipes.addShaped(<thermalexpansion:frame:128>, [[<ore:plateIron>, <extrautils2:
 //mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
 
 mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:linkorium_dust>,<contenttweaker:crystal_linkorium>,2000,<botanicadds:elven_lapis>,0.1);
+mods.thermalexpansion.Pulverizer.addRecipe(<midnight:rouxe>*4, <midnight:rouxe_rock>, 2000);
+mods.thermalexpansion.Pulverizer.addRecipe(<midnight:bloomcrystal>*4, <midnight:bloomcrystal_rock>, 2000);
 
 //Induction Smelter
 //mods.thermalexpansion.InductionSmelter.addRecipe(primaryOutput,primaryInput,secondaryInput,energy,secondaryOutput,secondaryChance);
@@ -297,6 +299,48 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:iufluidneft>*250, <industrialup
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>*144, <enderio:item_alloy_endergy_ingot:3>*9, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:stellar_alloy>*1296, <enderio:block_alloy_endergy:3>, 4000);
+
+
+
+//Phytogenic Insolator
+//mods.thermalexpansion.Insolator.addRecipe(IItemStackprimaryOutput, IItemStackprimaryInput, IItemStacksecondaryInput, intenergy, @OptionalIItemStacksecondaryOutput, @OptionalintsecondaryChance, @Optionalintwater);
+
+
+
+mods.thermalexpansion.Insolator.addRecipe(<midnight:nightshroom_hat>, <midnight:nightshroom>, <thermalfoundation:fertilizer>, 4600, <midnight:nightshroom>, 90, 5000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:nightshroom_hat>*2, <midnight:nightshroom>, <thermalfoundation:fertilizer:1>, 6900, <midnight:nightshroom>, 90, 6000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:nightshroom_hat>*4, <midnight:nightshroom>, <thermalfoundation:fertilizer:2>, 13800, <midnight:nightshroom>, 90, 7000);
+
+
+mods.thermalexpansion.Insolator.addRecipe(<midnight:dewshroom_hat>, <midnight:dewshroom>, <thermalfoundation:fertilizer>, 4600, <midnight:dewshroom>, 90, 5000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:dewshroom_hat>*2, <midnight:dewshroom>, <thermalfoundation:fertilizer:1>, 6900, <midnight:dewshroom>, 90, 6000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:dewshroom_hat>*4, <midnight:dewshroom>, <thermalfoundation:fertilizer:2>, 13800, <midnight:dewshroom>, 90, 7000);
+
+
+mods.thermalexpansion.Insolator.addRecipe(<midnight:viridshroom_hat>, <midnight:viridshroom>, <thermalfoundation:fertilizer>, 4600, <midnight:viridshroom>, 90, 5000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:viridshroom_hat>*2, <midnight:viridshroom>, <thermalfoundation:fertilizer:1>, 6900, <midnight:viridshroom>, 90, 6000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:viridshroom_hat>*4, <midnight:viridshroom>, <thermalfoundation:fertilizer:2>, 13800, <midnight:viridshroom>, 90, 7000);
+
+
+mods.thermalexpansion.Insolator.addRecipe(<midnight:bogshroom_hat>, <midnight:bogshroom>, <thermalfoundation:fertilizer>, 4600, <midnight:bogshroom>, 90, 5000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:bogshroom_hat>*2, <midnight:bogshroom>, <thermalfoundation:fertilizer:1>, 6900, <midnight:bogshroom>, 90, 6000);
+mods.thermalexpansion.Insolator.addRecipe(<midnight:bogshroom_hat>*4, <midnight:bogshroom>, <thermalfoundation:fertilizer:2>, 13800, <midnight:bogshroom>, 90, 7000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

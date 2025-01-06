@@ -12,5 +12,15 @@
 		items: [{
 			item: "contenttweaker:nano_shield"
 		}]
+	}],
+	rewards: [{
+		uid: "a152b111",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

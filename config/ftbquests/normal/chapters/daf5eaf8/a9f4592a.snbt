@@ -13,5 +13,15 @@
 		ignore_damage: true,
 		ignore_nbt: 1b,
 		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "af681ff6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

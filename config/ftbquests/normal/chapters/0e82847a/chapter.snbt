@@ -11,5 +11,71 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -22.5d,
+		y: -13.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/halo.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -2.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/terra_plate_overlay.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: -13.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/flower0.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: -7.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/mana_stealer_sword.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.4999999999999858d,
+		y: -6.988095238095234d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/mana_stealer_sword_mirror.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -14.5d,
+		y: -6.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/candy0.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

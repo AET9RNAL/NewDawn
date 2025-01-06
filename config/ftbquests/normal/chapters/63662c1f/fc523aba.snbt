@@ -11,8 +11,8 @@
 			id: "draconicadditions:chaotic_staff_of_power",
 			ForgeCaps: {
 				Parent: {
-					Size: 36,
-					Items: []
+					Items: [],
+					Size: 36
 				}
 			}
 		}],

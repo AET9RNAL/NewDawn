@@ -18,5 +18,71 @@
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -2.9761904761904674d,
+		y: -0.7023809523809561d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/altar_1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: 2.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/scroll_empty.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -9.0d,
+		y: -3.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/gem_sky.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: -8.5d,
+		width: 35.0d,
+		height: 35.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/cloud9.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.0d,
+		y: -5.5d,
+		width: 40.0d,
+		height: 33.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/gridtelescope.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.5d,
+		y: -7.5d,
+		width: 2.5d,
+		height: 2.5d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/as_frame.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "726eff36",
+		type: "item",
+		items: [{
+			item: "entangled:block"
+		}]
+	},
+	{
+		uid: "653a86c2",
+		type: "item",
+		items: [{
+			item: "entangled:item"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1936946",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

@@ -1,6 +1,7 @@
 {
 	x: 9.0d,
 	y: -17.5d,
+	shape: "hexagon",
 	text: [
 		"§6A machine that will generate different loot depending on the module inserted at the cost of different liquids/mana",
 		"",
@@ -12,6 +13,7 @@
 	dependencies: [
 		"95b073dd"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "af57e870",
 		type: "item",

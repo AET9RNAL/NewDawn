@@ -14,5 +14,16 @@
 		hover: [],
 		click: "",
 		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -36.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/oak_tree.png",
+		hover: [],
+		click: "",
+		dev: false
 	}]
 }

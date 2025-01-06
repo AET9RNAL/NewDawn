@@ -129,5 +129,10 @@ recipes.remove(<enderio:block_enhanced_wired_charger>);
 mods.avaritia.ExtremeCrafting.addShaped("Enhanced Wired Charger", <enderio:block_enhanced_wired_charger> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null],[null, null, <enderio:block_alloy:0>, <enderio:block_alloy:0>, <industrialupgrade:circuit:11>, <enderio:block_alloy:0>, <enderio:block_alloy:0>, null, null],[null, null, <enderio:block_alloy:0>, <chargers:charger:2>, <enderio:item_material:54>, <chargers:charger:2>, <enderio:block_alloy:0>, null, null],[null, null, <industrialupgrade:circuit:8>, <iuadditions:capacitor_wildwood>, <enderio:block_wired_charger>, <iuadditions:capacitor_wildwood>, <industrialupgrade:circuit:8>, null, null],[null, null, <enderio:block_alloy:0>, <chargers:charger:2>, <iuadditions:capacitor_wildwood>, <chargers:charger:2>, <enderio:block_alloy:0>, null, null],[null, null, <enderio:block_alloy:0>, <enderio:block_alloy:0>, <iuadditions:qfp_eden>, <enderio:block_alloy:0>, <enderio:block_alloy:0>, null, null],[null, null, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
 
 
+//SAG Mill
+//mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+
+mods.enderio.SagMill.addRecipe([<midnight:rouxe>*4], [100], <midnight:rouxe_rock>);
+mods.enderio.SagMill.addRecipe([<midnight:bloomcrystal>*4], [100], <midnight:bloomcrystal_rock>);
 
 //File End

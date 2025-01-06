@@ -343,7 +343,7 @@ mods.extendedcrafting.EnderCrafting.addShaped(<industrialupgrade:modultype:6>, [
 
 //Combination Crafting
 
-//Combination Crafting
+
 //
 //recipes.remove(XXX);
 //mods.extendedcrafting.CombinationCrafting.addRecipe(output, rfCost, rfRate, input, [
@@ -370,10 +370,172 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:module_qu
 <industrialupgrade:upgrades:1>, <iuadditions:iridium_reinforced_stellar>,<industrialupgrade:upgrades:1>]);
 //
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nanodrill>, 1250000, 20000, <iuadditions:core_eden>, [
+<industrialupgrade:nanopickaxe>, <industrialupgrade:nanoshovel>,<industrialupgrade:photoniy_ingot>,<industrialupgrade:quantumitems7>,<industrialupgrade:photoniy_ingot>,
+<industrialupgrade:energy_crystal>,<industrialupgrade:compresscarbon>,<industrialupgrade:itemdoubleplates:26>]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_saber>, 1250000, 20000, <industrialupgrade:waterrod:3>, [
+<iuadditions:core_eden>, <industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,<industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,
+<industrialupgrade:energy_crystal>,<industrialupgrade:compresscarbon>,<mekanismecoenergistics:morecompressed:2>]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_bow>, 1250000, 20000, <divinerpg:skythern_bow>, [
+pedestalItem, pedestalItem]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nanoshovel>, 1250000, 20000, <botania:elementiumshovel>, [
+pedestalItem, pedestalItem]);
+//
 
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nanopickaxe>, 1250000, 20000, <mekanismtools:obsidianpickaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nanoaxe>, 1250000, 20000, <botania:elementiumaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantumdrill>, 2500000, 200000, <iuadditions:core_wildwood>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:itemnanosaber1>, 2500000, 200000, <industrialupgrade:nano_saber>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantum_bow>, 2500000, 200000, <industrialupgrade:nano_bow>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantumpickaxe>, 2500000, 200000, <industrialupgrade:nanopickaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantumshovel>, 2500000, 200000, <industrialupgrade:nanoshovel>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantumaxe>, 2500000, 200000, <industrialupgrade:nanoaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectraldrill>, 10000000, 500000, <iuadditions:core_mortum>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:itemnanosaber>, 10000000, 500000, <industrialupgrade:itemnanosaber1>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_bow>, 10000000, 500000, <industrialupgrade:quantum_bow>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectralpickaxe>, 10000000, 500000, <industrialupgrade:quantumpickaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectralshovel>, 10000000, 500000, <industrialupgrade:quantumshovel>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectralaxe>, 10000000, 500000, <industrialupgrade:quantumaxe>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:katana>, 10000000, 500000, <industrialupgrade:itemnanosaber1>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:ultddrill>, 20000000, 1000000, input, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_helmet>, 1250000, 20000, <mekanismtools:obsidianhelmet>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_chestplate>, 1250000, 20000, <mekanismtools:obsidianchestplate>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_leggings>, 1250000, 20000, <mekanismtools:obsidianleggings>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:nano_boots>, 1250000, 20000, <mekanismtools:obsidianboots>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantum_helmet>, 2500000, 200000, <industrialupgrade:nano_helmet>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantum_chestplate>, 2500000, 200000, <industrialupgrade:nano_chestplate>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantum_leggings>, 2500000, 200000, <industrialupgrade:nano_leggings>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:quantum_boots>, 2500000, 200000, <industrialupgrade:nano_boots>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_helmet>, 10000000, 500000, <industrialupgrade:quantum_helmet>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_chestplate>, 10000000, 500000, <industrialupgrade:quantum_chestplate>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_leggings>, 10000000, 500000, <industrialupgrade:quantum_leggings>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_boots>, 10000000, 500000, <industrialupgrade:quantum_boots>, [
+pedestalItem, pedestalItem]);
+//
+
+//
+mods.extendedcrafting.CombinationCrafting.addRecipe(<industrialupgrade:spectral_solar_helmet>, 10000000, 500000, <industrialupgrade:spectral_helmet>, [
+pedestalItem, pedestalItem]);
+//
 
 
 

@@ -7,6 +7,17 @@
 		items: [{
 			item: "aroma1997sdimension:portalframe"
 		}],
-		count: 12L
+		count: 12L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "63c02644",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
 	}]
 }

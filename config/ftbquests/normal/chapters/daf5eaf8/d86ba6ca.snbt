@@ -8,5 +8,15 @@
 			item: "enderstorage:ender_storage"
 		}],
 		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "361ebaa1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
 	}]
 }

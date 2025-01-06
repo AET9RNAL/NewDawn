@@ -3,5 +3,60 @@
 	icon: "enderio:block_inventory_panel",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -2.7571428571428527d,
+		y: 3.200000000000003d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/assf.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 4.0d,
+		y: -5.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/inv_panel.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -12.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/skull_zombie.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -18.0d,
+		y: -5.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/block_enderman.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: 3.0d,
+		width: 8.0d,
+		height: 12.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/mutant_enderman_isometric.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

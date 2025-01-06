@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"96d15004"
+	],
+	tasks: [{
+		uid: "c1c52d54",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "617d4327",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}
