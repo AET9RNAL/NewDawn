@@ -1,0 +1,13 @@
+{
+	x: -42.0d,
+	y: -11.0d,
+	tasks: [{
+		uid: "18055a55",
+		type: "item",
+		items: [{
+			item: "mekanism:mekasuitchestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -12.5d,
+	y: -19.5d,
+	dependencies: [
+		"aad00a7e"
+	],
+	tasks: [{
+		uid: "6408a550",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:research_lens"
+		}],
+		ignore_nbt: 1b
+	}]
+}

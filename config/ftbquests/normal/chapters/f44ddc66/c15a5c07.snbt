@@ -1,0 +1,22 @@
+{
+	title: "Oil",
+	x: 2.5d,
+	y: 23.0d,
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "524b7ca0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidneft",
+					Amount: 1000
+				}
+			}
+		}],
+		count: 8L
+	}]
+}

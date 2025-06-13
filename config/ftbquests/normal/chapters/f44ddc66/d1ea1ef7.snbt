@@ -1,0 +1,21 @@
+{
+	title: "Nitrous Oxide",
+	x: 31.0d,
+	y: 22.5d,
+	dependencies: [
+		"aa8130ef"
+	],
+	tasks: [{
+		uid: "eb6a1142",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidnitricoxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

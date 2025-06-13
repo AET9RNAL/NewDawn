@@ -1,0 +1,21 @@
+{
+	title: "Propylene",
+	x: 22.5d,
+	y: 17.5d,
+	dependencies: [
+		"1b7379b8"
+	],
+	tasks: [{
+		uid: "15bdad9f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpropylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

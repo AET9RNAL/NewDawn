@@ -1,0 +1,21 @@
+{
+	title: "Creosote",
+	x: 23.5d,
+	y: 1.0d,
+	dependencies: [
+		"2691a5e3"
+	],
+	tasks: [{
+		uid: "9954bc45",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcreosote",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

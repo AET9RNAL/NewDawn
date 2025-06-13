@@ -1,0 +1,16 @@
+{
+	x: -20.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"aebbeef4"
+	],
+	tasks: [{
+		uid: "6a6fd458",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:electronics_assembler",
+			tag: {}
+		}]
+	}]
+}

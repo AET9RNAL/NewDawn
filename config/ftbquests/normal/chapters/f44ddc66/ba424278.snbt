@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 11.5d,
+	dependencies: [
+		"3dc0319d"
+	],
+	tasks: [{
+		uid: "eaf0943f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:electric_treetap",
+			tag: {
+				charge: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

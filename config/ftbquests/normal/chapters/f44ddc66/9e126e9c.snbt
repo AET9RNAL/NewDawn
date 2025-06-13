@@ -1,0 +1,21 @@
+{
+	title: "Ethylene",
+	x: 19.5d,
+	y: 18.5d,
+	dependencies: [
+		"5399c5df"
+	],
+	tasks: [{
+		uid: "3630d1fe",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidethylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 28.5d,
+	y: 16.5d,
+	dependencies: [
+		"af10ae3d"
+	],
+	tasks: [{
+		uid: "26442198",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemiucrafring 1 2"
+		}],
+		count: 4L
+	}]
+}

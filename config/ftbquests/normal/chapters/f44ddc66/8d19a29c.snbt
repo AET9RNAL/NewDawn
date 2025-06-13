@@ -1,0 +1,16 @@
+{
+	x: 31.5d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "3768e91a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:classicore 1 3"
+		}],
+		count: 16L
+	}]
+}

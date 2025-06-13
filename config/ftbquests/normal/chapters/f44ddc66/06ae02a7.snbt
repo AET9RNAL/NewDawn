@@ -1,0 +1,17 @@
+{
+	x: 30.5d,
+	y: 11.0d,
+	dependencies: [
+		"911df811",
+		"8d19a29c",
+		"bb8d3b77"
+	],
+	tasks: [{
+		uid: "7fc50a3e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:nuclearresource 1 21"
+		}],
+		count: 4L
+	}]
+}

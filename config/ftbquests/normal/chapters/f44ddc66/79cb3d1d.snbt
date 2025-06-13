@@ -1,0 +1,15 @@
+{
+	x: 12.5d,
+	y: 18.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a138ae90"
+	],
+	tasks: [{
+		uid: "c3b21aff",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 549"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Polythylene",
+	x: 19.5d,
+	y: 16.0d,
+	dependencies: [
+		"621030c4",
+		"9e126e9c"
+	],
+	tasks: [{
+		uid: "8babd96d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpolyeth",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

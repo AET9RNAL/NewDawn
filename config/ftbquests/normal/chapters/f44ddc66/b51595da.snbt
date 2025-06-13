@@ -1,6 +1,6 @@
 {
-	x: -0.8d,
-	y: 2.0d,
+	x: 39.0d,
+	y: 9.0d,
 	shape: "square",
 	dependencies: [
 		"a09252ee"

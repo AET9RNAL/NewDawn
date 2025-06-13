@@ -1,0 +1,21 @@
+{
+	title: "Nitrogen",
+	x: 31.0d,
+	y: 21.5d,
+	dependencies: [
+		"d1ea1ef7"
+	],
+	tasks: [{
+		uid: "dba3549d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidazot",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -154,7 +154,8 @@
 			tag: {
 				internalCurrentPower: 1.28E7d,
 				internalMaxPower: 1.28E7d
-			}
+			},
+			Count: 1b
 		},
 		count: 3
 	},

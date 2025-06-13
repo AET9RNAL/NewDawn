@@ -1,0 +1,17 @@
+{
+	x: -27.0d,
+	y: -2.0d,
+	shape: "diamond",
+	dependencies: [
+		"e4ffa9ea"
+	],
+	tasks: [{
+		uid: "2287d67a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 212s,
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Propane",
+	x: 20.5d,
+	y: 21.0d,
+	dependencies: [
+		"d29e111e"
+	],
+	tasks: [{
+		uid: "273d9390",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpropane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

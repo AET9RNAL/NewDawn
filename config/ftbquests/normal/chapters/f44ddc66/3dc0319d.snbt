@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: 11.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"bced150d",
+		"2be875d9",
+		"996c93ad",
+		"1bca3518",
+		"2f9bfaa9",
+		"38fdbc28",
+		"20ea663f",
+		"fd513418",
+		"a895d359"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f6a55a3f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 278"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 20.0d,
+	y: -30.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a096ff9e",
+		"b9a5b546"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "83fb0bf0",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 155s,
+			tag: {}
+		}]
+	}]
+}

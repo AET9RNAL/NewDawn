@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -4.0d,
+	dependencies: [
+		"67ef5470"
+	],
+	tasks: [{
+		uid: "7fcdddb6",
+		type: "item",
+		items: [{
+			id: "quantum_generators:qg",
+			Damage: 1s,
+			tag: {}
+		}]
+	}]
+}

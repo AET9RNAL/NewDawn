@@ -1,0 +1,16 @@
+{
+	x: 18.0d,
+	y: -33.0d,
+	dependencies: [
+		"e0e7383f",
+		"9671329a"
+	],
+	tasks: [{
+		uid: "b71c7e7f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 623"
+		}],
+		count: 4L
+	}]
+}

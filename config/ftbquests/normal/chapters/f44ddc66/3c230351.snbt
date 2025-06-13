@@ -1,0 +1,15 @@
+{
+	x: -15.5d,
+	y: 12.5d,
+	dependencies: [
+		"84d517f9"
+	],
+	tasks: [{
+		uid: "d45b8e26",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:primal_silicon_crystal_handler",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Acetylene",
+	x: 19.5d,
+	y: 19.5d,
+	dependencies: [
+		"d86c8634",
+		"93d7a491"
+	],
+	tasks: [{
+		uid: "bbe3de20",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidacetylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

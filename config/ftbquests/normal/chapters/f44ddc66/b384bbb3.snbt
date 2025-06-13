@@ -1,0 +1,27 @@
+{
+	x: 8.5d,
+	y: -13.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b14f3008"
+	],
+	tasks: [{
+		uid: "dd4fa175",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 77s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "3e806cf8",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:crystal_memory",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

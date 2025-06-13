@@ -1,0 +1,13 @@
+{
+	x: -10.5d,
+	y: -9.5d,
+	shape: "heart",
+	dependencies: [
+		"6081ace5"
+	],
+	tasks: [{
+		uid: "fbee3c97",
+		type: "checkmark",
+		title: "IU:Steam Era ✓"
+	}]
+}

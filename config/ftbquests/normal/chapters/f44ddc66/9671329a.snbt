@@ -1,0 +1,15 @@
+{
+	x: 20.0d,
+	y: -31.5d,
+	dependencies: [
+		"edd5f3cb"
+	],
+	tasks: [{
+		uid: "f69be002",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:alloyingot 1 19"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Bromine",
+	x: 22.5d,
+	y: 21.0d,
+	dependencies: [
+		"c41b2ace"
+	],
+	tasks: [{
+		uid: "a9f8ed4f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidbromine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

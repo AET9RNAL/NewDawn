@@ -1,0 +1,21 @@
+{
+	title: "Sulfur Oxide",
+	x: -12.5d,
+	y: 10.0d,
+	dependencies: [
+		"58ba65ec"
+	],
+	tasks: [{
+		uid: "288a3ced",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsulfuroxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

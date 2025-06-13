@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: 4.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "ee630288",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:photonic_machine",
+			Damage: 17s,
+			tag: {}
+		}]
+	}]
+}

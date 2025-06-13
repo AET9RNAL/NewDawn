@@ -1,0 +1,24 @@
+{
+	x: 16.5d,
+	y: -25.0d,
+	dependencies: [
+		"1d319377"
+	],
+	tasks: [{
+		uid: "5663de94",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 255s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "66e80e4d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:npipe_item"
+		}],
+		count: 8L
+	}]
+}

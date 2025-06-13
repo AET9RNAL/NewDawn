@@ -1,0 +1,19 @@
+{
+	x: 11.5d,
+	y: 11.0d,
+	dependencies: [
+		"b516d4e5"
+	],
+	tasks: [{
+		uid: "bb3ef06e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:drill",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

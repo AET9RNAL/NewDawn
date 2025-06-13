@@ -1,0 +1,10 @@
+{
+	title: "AE:Start",
+	x: -2.0d,
+	y: 19.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "e8a252da",
+		type: "checkmark"
+	}]
+}

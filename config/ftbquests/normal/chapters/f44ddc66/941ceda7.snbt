@@ -1,0 +1,22 @@
+{
+	x: -18.0d,
+	y: 2.0d,
+	dependencies: [
+		"8f237241",
+		"85be8134",
+		"d578a7aa",
+		"f1def798",
+		"59cae2e5"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d07e5dfa",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:crafting_elements",
+			Damage: 272s,
+			tag: {}
+		}],
+		count: 4L
+	}]
+}

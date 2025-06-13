@@ -1,0 +1,16 @@
+{
+	x: -7.0714285714284415d,
+	y: -17.0d,
+	dependencies: [
+		"8aaf0d96"
+	],
+	tasks: [{
+		uid: "6f4cc57f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rover",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

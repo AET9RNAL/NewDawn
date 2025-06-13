@@ -1,0 +1,14 @@
+{
+	x: -40.5d,
+	y: -11.0d,
+	tasks: [{
+		uid: "236bdc7d",
+		type: "item",
+		items: [{
+			id: "mekaweapons:mekatana",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

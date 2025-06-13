@@ -1,0 +1,15 @@
+{
+	x: 16.5d,
+	y: -3.0d,
+	dependencies: [
+		"d764d01f"
+	],
+	tasks: [{
+		uid: "455adf1d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:photoniy"
+		}],
+		count: 4L
+	}]
+}

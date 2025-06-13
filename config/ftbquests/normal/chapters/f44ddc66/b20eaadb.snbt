@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: -27.0d,
+	shape: "octagon",
+	dependencies: [
+		"a9e35ab8"
+	],
+	tasks: [{
+		uid: "e0a8804e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:research_lens 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

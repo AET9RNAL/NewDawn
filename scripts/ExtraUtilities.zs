@@ -28,6 +28,9 @@ mods.jei.JEI.removeAndHide(<extrautils2:biomemarker:*>);
 recipes.remove(<extrautils2:suncrystal:250>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:angelblock>);
+
+
+
 //Don't touch me!
 //#Add
 recipes.addShaped(<extrautils2:machine>, [[<botania:manaresource>, <minecraft:redstone_block>, <botania:manaresource>],[<minecraft:redstone_block>, <thermalfoundation:material:26>, <minecraft:redstone_block>], [<botania:manaresource>, <minecraft:redstone_block>, <botania:manaresource>]]);
@@ -60,15 +63,24 @@ recipes.addShaped(<extrautils2:ingredients:7>, [[<extrautils2:ingredients:9>, <m
 recipes.addShaped(<extrautils2:ingredients:6>, [[<extrautils2:ingredients:9>, <minecraft:gold_ingot>, null],[<chisel:redstone:5>, <tconstruct:fancy_frame:4>, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:angelblock>, [[null, null, null],[null, <minecraft:gold_ingot>, null], [<minecraft:feather>, <divinerpg:bedrock_chunk>, <minecraft:feather>]]);
 recipes.addShaped(<extrautils2:itemcreativebuilderswand>, [[<extrautils2:itembuilderswand>, <mekanism:controlcircuit:4>, null],[null, null, null], [null, null, null]]);
-
-
-
-
-
-
-// Deep Dark Portal
-//recipes.remove(<extrautils2:teleporter:1>);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>],[<extrautils2:compressedcobblestone:2>, <iuadditions:ingot_voidweave>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>]]);
+
+// Creative Mill
+recipes.remove(<extrautils2:passivegenerator:6>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:passivegenerator:6>, [
+    [<iuadditions:core_crossdimensional>, <avaritia:resource:5>, <contenttweaker:iridium_advanced_fiery>, null, null, null, <avaritia:resource:5>, <avaritia:resource:5>, <iuadditions:core_crossdimensional>],
+    [<avaritia:resource:5>, null, null, <contenttweaker:iridium_advanced_fiery>, <iuadditions:core_stellar>, null, <industrialupgrade:rotors_upgrade:8>, <industrialupgrade:rotors_upgrade:13>, <avaritia:resource:5>],
+    [<avaritia:resource:5>, null, null, <industrialupgrade:basemachine2:12>, <contenttweaker:iridium_advanced_fiery>, <industrialupgrade:rotors_upgrade:8>, <industrialupgrade:rotors_upgrade:10>, <industrialupgrade:rotors_upgrade:8>, <contenttweaker:iridium_advanced_fiery>],
+    [null, null, <industrialupgrade:basemachine2:12>, <industrialupgrade:basemachine1:6>, <extrautils2:compressedcobblestone:7>, <industrialupgrade:ultramarinerotor>, <industrialupgrade:rotors_upgrade:8>, <contenttweaker:iridium_advanced_fiery>, null],
+    [null, <iuadditions:core_stellar>, <contenttweaker:iridium_advanced_fiery>, <extrautils2:compressedcobblestone:7>, <extrautils2:passivegenerator:8>, <extrautils2:compressedcobblestone:7>, <contenttweaker:iridium_advanced_fiery>, <iuadditions:core_stellar>, null],
+    [null, <contenttweaker:iridium_advanced_fiery>, <industrialupgrade:water_rotors_upgrade:8>, <industrialupgrade:water_ultramarinerotor>, <extrautils2:compressedcobblestone:7>, <extrautils2:passivegenerator:5>, <industrialupgrade:basemachine2:12>, null, null],
+    [<contenttweaker:iridium_advanced_fiery>, <industrialupgrade:water_rotors_upgrade:8>, <industrialupgrade:water_rotors_upgrade:16>, <industrialupgrade:water_rotors_upgrade:8>, <contenttweaker:iridium_advanced_fiery>, <industrialupgrade:basemachine2:12>, null, null, <avaritia:resource:5>],
+    [<avaritia:resource:5>, <industrialupgrade:water_rotors_upgrade:12>, <industrialupgrade:water_rotors_upgrade:8>, null, <iuadditions:core_stellar>, <contenttweaker:iridium_advanced_fiery>, null, null, <avaritia:resource:5>],
+    [<iuadditions:core_crossdimensional>, <avaritia:resource:5>, <avaritia:resource:5>, null, null, null, <contenttweaker:iridium_advanced_fiery>, <avaritia:resource:5>, <iuadditions:core_crossdimensional>]
+]);
+
+
+
 
 
 //File End

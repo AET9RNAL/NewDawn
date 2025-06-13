@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -5.5d,
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "12eb51a8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:steel_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

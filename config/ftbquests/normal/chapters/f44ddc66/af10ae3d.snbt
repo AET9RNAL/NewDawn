@@ -1,0 +1,16 @@
+{
+	x: 30.5d,
+	y: 15.5d,
+	dependencies: [
+		"06ae02a7",
+		"42a30b89"
+	],
+	tasks: [{
+		uid: "4ebdefb2",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crushed 1 24"
+		}],
+		count: 4L
+	}]
+}

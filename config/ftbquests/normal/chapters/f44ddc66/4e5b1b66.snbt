@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: -4.5d,
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "8d70314d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:refractory_furnace",
+			tag: {}
+		}]
+	}]
+}

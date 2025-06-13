@@ -1,0 +1,22 @@
+{
+	title: "Motor Oil",
+	x: 4.0d,
+	y: 5.5d,
+	dependencies: [
+		"09d3add5",
+		"1171599f"
+	],
+	tasks: [{
+		uid: "36017567",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidmotoroil",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
-	x: -4.5d,
-	y: 1.5d,
+	x: 8.0d,
+	y: 23.0d,
 	dependencies: [
 		"198c3fa2"
 	],
@@ -39,6 +39,16 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcbaf6c1",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_interface_terminal",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

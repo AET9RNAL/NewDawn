@@ -1,0 +1,22 @@
+{
+	title: "Sodium Hypochlorite",
+	x: -7.0d,
+	y: -22.5d,
+	dependencies: [
+		"aca2340b",
+		"d72f454c"
+	],
+	tasks: [{
+		uid: "b69be8dd",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsodium_hypochlorite",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

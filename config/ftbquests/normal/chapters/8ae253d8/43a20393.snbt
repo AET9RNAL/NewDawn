@@ -1,0 +1,13 @@
+{
+	x: -42.0d,
+	y: -12.5d,
+	tasks: [{
+		uid: "b9471ac6",
+		type: "item",
+		items: [{
+			item: "mekanism:mekasuithelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

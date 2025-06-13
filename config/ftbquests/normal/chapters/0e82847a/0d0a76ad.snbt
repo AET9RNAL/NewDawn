@@ -1,4 +1,5 @@
 {
+	title: "Botania:Start",
 	icon: {
 		id: "extrabotany:buddhistrelics",
 		tag: {}

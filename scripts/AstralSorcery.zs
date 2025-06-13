@@ -44,17 +44,29 @@
 
 
 
-// Mechanical Starlight Infuser Controller
-recipes.remove(<astralsorcery:astralmachinee_starlight_infuser>);
-mods.avaritia.ExtremeCrafting.addShaped("Mechanical Starlight Infuser Controller", <astralsorcery:astralmachinee_starlight_infuser> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, <astraladditions:block_starmetal>, null, null, null, null],[null, null, null, <astraladditions:block_starmetal>, <astralsorcery:itemshiftingstar>, <astraladditions:block_starmetal>, null, null, null],[null, null, <astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>, null, null],[null, <astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:blockstarlightinfuser>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>, null],[null, null, <astraladditions:block_starmetal>, <forge:bucketfilled>, <contenttweaker:server_core>, <forge:bucketfilled>, <astraladditions:block_starmetal>, null, null],[null, null, null, <astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>, null, null, null],[null, null, null, null, <astraladditions:block_starmetal>, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+// ────────────────────────────── 7 × 7  Elite Table ──────────────────────────────
 
-// // Celestial Crystallizer Controller
-// recipes.remove(<multiblocked:astralmachine_celestial_crystallizer>);
-// mods.avaritia.ExtremeCrafting.addShaped("Celestial Crystallizer Controller", <multiblocked:astralmachine_celestial_crystallizer> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, <astralsorcery:blockworldilluminator>, null, null, null, null],[null, null, null, <astralsorcery:blockworldilluminator>, <packagedastral:constellation_focus>, <astralsorcery:blockworldilluminator>, null, null, null],[null, null, <astralsorcery:blockworldilluminator>, <astralsorcery:itemusabledust:0>, <astralsorcery:itemcoloredlens:6>, <astralsorcery:itemusabledust:0>, <astralsorcery:blockworldilluminator>, null, null],[null, <astraladditions:block_starmetal>, <iuadditions:core_stellar>, <astralsorcery:itemcoloredlens:6>, <astralsorcery:blockritualpedestal>, <astralsorcery:itemcoloredlens:6>, <iuadditions:core_stellar>, <astraladditions:block_starmetal>, null],[null, null, <astraladditions:block_starmetal>, <astralsorcery:itemusabledust:1>, <contenttweaker:server_core>, <astralsorcery:itemusabledust:1>, <astraladditions:block_starmetal>, null, null],[null, null, null, <astraladditions:block_starmetal>, <astraladditions:block_starmetal>, <astraladditions:block_starmetal>, null, null, null],[null, null, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+// Mechanical Starlight Infuser Controller
+mods.extendedcrafting.TableCrafting.addShaped(0, <astralsorcery:astralmachinee_starlight_infuser>, [
+    [null, null, null, <astraladditions:block_starmetal>, null, null, null],
+    [null, null, <astraladditions:block_starmetal>, <astralsorcery:itemshiftingstar>, <astraladditions:block_starmetal>, null, null],
+    [null, <astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>, null],
+    [<astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:blockstarlightinfuser>, <astralsorcery:itemcoloredlens:5>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>],
+    [null, <astraladditions:block_starmetal>, <forge:bucketfilled>, <contenttweaker:server_core>, <forge:bucketfilled>, <astraladditions:block_starmetal>, null],
+    [null, null, <astraladditions:block_starmetal>, <astralsorcery:itemcraftingcomponent:4>, <astraladditions:block_starmetal>, null, null],
+    [null, null, null, <astraladditions:block_starmetal>, null, null, null]
+]);
 
 // Starlight Synthesizer Controller
-recipes.remove(<astralsorcery:astralmachine_starlight_fabricator>);
-mods.avaritia.ExtremeCrafting.addShaped("Starlight Synthesizer Controller", <astralsorcery:astralmachine_starlight_fabricator> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null],[null, null, null, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, null, null, null],[null, null, <iuadditions:iridium_dense_stellar>, <astralsorcery:iteminfusedglass>, <astralsorcery:iteminfusedglass>, <astralsorcery:iteminfusedglass>, <iuadditions:iridium_dense_stellar>, null, null],[null, null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockworldilluminator>, <astralsorcery:blockwell>, <astralsorcery:blockworldilluminator>, <iuadditions:iridium_dense_stellar>, null, null],[null, null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockworldilluminator>, <contenttweaker:server_core>, <astralsorcery:blockworldilluminator>, <iuadditions:iridium_dense_stellar>, null, null],[null, null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockblackmarble:1>, <iuadditions:core_stellar>, <astralsorcery:blockblackmarble:1>, <iuadditions:iridium_dense_stellar>, null, null],[null, null, null, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <astralsorcery:astralmachine_starlight_fabricator>, [
+    [null, null, null, null, null, null, null],
+    [null, null, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, null, null],
+    [null, <iuadditions:iridium_dense_stellar>, <astralsorcery:iteminfusedglass>, <astralsorcery:iteminfusedglass>, <astralsorcery:iteminfusedglass>, <iuadditions:iridium_dense_stellar>, null],
+    [null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockworldilluminator>, <astralsorcery:blockwell>, <astralsorcery:blockworldilluminator>, <iuadditions:iridium_dense_stellar>, null],
+    [null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockworldilluminator>, <contenttweaker:server_core>, <astralsorcery:blockworldilluminator>, <iuadditions:iridium_dense_stellar>, null],
+    [null, <iuadditions:iridium_dense_stellar>, <astralsorcery:blockblackmarble:1>, <iuadditions:core_stellar>, <astralsorcery:blockblackmarble:1>, <iuadditions:iridium_dense_stellar>, null],
+    [null, null, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, <iuadditions:iridium_dense_stellar>, null, null]
+]);
 
 
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("ND:shaped/internal/altar/dirtfromstuff", <botania:runealtar>, 200, 200, [

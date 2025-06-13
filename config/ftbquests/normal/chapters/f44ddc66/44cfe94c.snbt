@@ -1,0 +1,14 @@
+{
+	x: 27.0d,
+	y: 12.5d,
+	dependencies: [
+		"bb8d3b77"
+	],
+	tasks: [{
+		uid: "54b7940f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphene"
+		}]
+	}]
+}

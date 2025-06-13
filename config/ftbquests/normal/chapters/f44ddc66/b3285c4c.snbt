@@ -1,9 +1,10 @@
 {
-	x: -14.0d,
-	y: 6.0d,
+	x: 10.0d,
+	y: -11.0d,
 	shape: "diamond",
+	hide_dependency_lines: true,
 	dependencies: [
-		"239a8f3f"
+		"b14f3008"
 	],
 	tasks: [{
 		uid: "8e0d97bf",
@@ -16,11 +17,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "7f67b1b9",
-		type: "item",
-		item: "astralsorcery:blockaltar 1 3"
-	},
-	{
 		uid: "85ea5831",
 		type: "item",
 		item: {

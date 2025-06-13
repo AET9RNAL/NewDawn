@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"a76df276"
+	],
+	tasks: [{
+		uid: "5bf35538",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:helium_cooling_mixture"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Sulfur Trioxide",
+	x: -10.0d,
+	y: 9.0d,
+	dependencies: [
+		"682c4a06"
+	],
+	tasks: [{
+		uid: "86d42e54",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsulfurtrioxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

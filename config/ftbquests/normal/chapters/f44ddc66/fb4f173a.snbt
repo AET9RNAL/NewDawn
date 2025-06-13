@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -3.0d,
+	dependencies: [
+		"14ef1f39",
+		"505ea5b5"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "b19b5d5f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemingots 1 23"
+		}]
+	}]
+}

@@ -1,12 +1,9 @@
 {
-	x: -21.0d,
-	y: -9.0d,
+	x: 27.75d,
+	y: -35.5d,
 	shape: "diamond",
-	hide_dependency_lines: true,
 	dependencies: [
-		"af14a2fc",
-		"5d7e9080",
-		"36a5ab1a"
+		"ae4a0b68"
 	],
 	size: 1.5d,
 	tasks: [{

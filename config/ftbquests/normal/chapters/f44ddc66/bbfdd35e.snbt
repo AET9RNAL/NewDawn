@@ -1,0 +1,21 @@
+{
+	title: "Distilled Water",
+	x: 5.5d,
+	y: 4.5d,
+	dependencies: [
+		"b956facf"
+	],
+	tasks: [{
+		uid: "02f644c4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluiddistilled_water",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

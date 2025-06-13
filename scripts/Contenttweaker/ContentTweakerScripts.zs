@@ -103,12 +103,6 @@ iridium_alfheim.maxStackSize = 64;
 iridium_alfheim.register();
 
 
-//iridium_stellar
-var iridium_stellar = VanillaFactory.createItem("iridium_stellar");
-iridium_stellar.maxStackSize = 64;
-iridium_stellar.glowing = true;
-iridium_stellar.register();
-
 //iridium_fiery
 var iridium_fiery = VanillaFactory.createItem("iridium_fiery");
 iridium_fiery.maxStackSize = 64;
@@ -139,12 +133,6 @@ var iridium_reinforced_alfheim = VanillaFactory.createItem("iridium_reinforced_a
 iridium_reinforced_alfheim.maxStackSize = 64;
 iridium_reinforced_alfheim.register();
 
-
-//iridium_reinforced_stellar
-var iridium_reinforced_stellar = VanillaFactory.createItem("iridium_reinforced_stellar");
-iridium_reinforced_stellar.maxStackSize = 64;
-iridium_reinforced_stellar.glowing = true;
-iridium_reinforced_stellar.register();
 
 //iridium_reinforced_fiery
 var iridium_reinforced_fiery = VanillaFactory.createItem("iridium_reinforced_fiery");
@@ -177,13 +165,6 @@ iridium_dense_alfheim.maxStackSize = 64;
 iridium_dense_alfheim.register();
 
 
-//iridium_dense_stellar
-var iridium_dense_stellar = VanillaFactory.createItem("iridium_dense_stellar");
-iridium_dense_stellar.maxStackSize = 64;
-iridium_dense_stellar.glowing = true;
-iridium_dense_stellar.register();
-
-
 //iridium_dense_fiery
 var iridium_dense_fiery = VanillaFactory.createItem("iridium_dense_fiery");
 iridium_dense_fiery.maxStackSize = 64;
@@ -214,12 +195,6 @@ var iridium_advanced_alfheim = VanillaFactory.createItem("iridium_advanced_alfhe
 iridium_advanced_alfheim.maxStackSize = 64;
 iridium_advanced_alfheim.register();
 
-
-//iridium_advanced_stellar
-var iridium_advanced_stellar = VanillaFactory.createItem("iridium_advanced_stellar");
-iridium_advanced_stellar.maxStackSize = 64;
-iridium_advanced_stellar.glowing = true;
-iridium_advanced_stellar.register();
 
 //iridium_advanced_fiery
 var iridium_advanced_fiery = VanillaFactory.createItem("iridium_advanced_fiery");

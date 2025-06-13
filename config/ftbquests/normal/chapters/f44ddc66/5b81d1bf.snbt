@@ -1,0 +1,21 @@
+{
+	title: "Nitric Acid",
+	x: 31.0d,
+	y: 17.5d,
+	dependencies: [
+		"05d30c13"
+	],
+	tasks: [{
+		uid: "40443386",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidnitricacid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

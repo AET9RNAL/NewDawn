@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 15.0d,
+	shape: "rsquare",
+	dependencies: [
+		"812d4f95",
+		"85d9f378",
+		"a9094a9f"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "34e0a4b3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:circuit",
+			Damage: 9s,
+			tag: {
+				level: 6
+			}
+		}]
+	}]
+}

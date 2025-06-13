@@ -1,0 +1,22 @@
+{
+	title: "Coolant",
+	x: 5.5d,
+	y: 2.5d,
+	dependencies: [
+		"a3e14f83",
+		"bbfdd35e"
+	],
+	tasks: [{
+		uid: "8c9ada3f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcoolant",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

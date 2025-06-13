@@ -1,0 +1,21 @@
+{
+	title: "Industrial Oil",
+	x: 23.5d,
+	y: 5.5d,
+	dependencies: [
+		"2729c218"
+	],
+	tasks: [{
+		uid: "953b0b4c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidindustrialoil",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

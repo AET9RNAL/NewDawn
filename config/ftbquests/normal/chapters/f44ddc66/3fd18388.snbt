@@ -1,9 +1,6 @@
 {
-	x: -11.0d,
-	y: 16.0d,
-	dependencies: [
-		"69d5d169"
-	],
+	x: 21.5d,
+	y: -14.5d,
 	tasks: [{
 		uid: "9365cf45",
 		type: "item",
@@ -22,10 +19,5 @@
 			}
 		},
 		count: 2
-	},
-	{
-		uid: "89b45af6",
-		type: "item",
-		item: "industrialupgrade:upgrademodules 1 3"
 	}]
 }

@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 8.5d,
+	shape: "rsquare",
+	dependencies: [
+		"df2aba03"
+	],
+	tasks: [{
+		uid: "8391df24",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:diamond_drill",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Oxygen",
+	x: -8.0d,
+	y: 10.0d,
+	dependencies: [
+		"2657d7f2"
+	],
+	tasks: [{
+		uid: "79099fbf",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidoxy",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

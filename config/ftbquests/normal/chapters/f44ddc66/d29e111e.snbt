@@ -1,0 +1,21 @@
+{
+	title: "Natural Gas",
+	x: 20.0d,
+	y: 22.0d,
+	dependencies: [
+		"c41b2ace"
+	],
+	tasks: [{
+		uid: "35ff524c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidgas",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

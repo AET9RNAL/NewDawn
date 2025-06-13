@@ -1,0 +1,16 @@
+{
+	x: -10.0d,
+	y: 10.5d,
+	dependencies: [
+		"c966c32e",
+		"397cdb21"
+	],
+	tasks: [{
+		uid: "f57ccc7e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_chamber",
+			tag: {}
+		}]
+	}]
+}

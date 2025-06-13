@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: -7.0d,
+	dependencies: [
+		"80cf8312"
+	],
+	tasks: [{
+		uid: "c1bd3fcd",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:synthetic_plate"
+		}],
+		count: 8L
+	}]
+}

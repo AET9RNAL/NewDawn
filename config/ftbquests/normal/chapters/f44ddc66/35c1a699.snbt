@@ -1,0 +1,21 @@
+{
+	title: "Polyacrylonitrile",
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"70264dc0"
+	],
+	tasks: [{
+		uid: "51fd8cdd",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpolyacrylonitrile",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

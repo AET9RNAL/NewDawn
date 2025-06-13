@@ -1,6 +1,6 @@
 {
-	x: 26.5d,
-	y: 11.5d,
+	x: 64.0d,
+	y: 0.5d,
 	shape: "square",
 	hide_dependency_lines: true,
 	dependencies: [

@@ -2,6 +2,15 @@
 # CREATED USING EXTERNAL TWEAKER
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemStack;
+import mods.industrialupgrade.MolecularTransformer;
+import mods.industrialupgrade.rolling;
+import mods.industrialupgrade.gearing;
+import mods.industrialupgrade.compressor;
+import mods.industrialupgrade.GenMicrochip;
+import mods.industrialupgrade.Fermer;
+import mods.industrialupgrade.AlloySmelter;
+import mods.industrialupgrade.DoubleMolecularTransformer;
+import mods.industrialupgrade.fluidadapter;
 //<industrialupgrade:.addTooltip(format.red(""));
 
 //CRAFTINGTABLE
@@ -9,22 +18,16 @@ import crafttweaker.item.IItemStack;
 // Define an array of items to be removed
 val itemsToRemove = [
     <industrialupgrade:circuit:17>,
-    <industrialupgrade:crafting_elements:137>,
-    <industrialupgrade:basemachine3:78>,
     <industrialupgrade:basemachine3:89>,
     <industrialupgrade:simplemachine:1>,
     <industrialupgrade:simplemachine>,
     <industrialupgrade:simplemachine:2>,
     <industrialupgrade:basemachine:4>,
     <industrialupgrade:crafting_elements:79>,
-    <industrialupgrade:basemachine1:10>,
-    <industrialupgrade:blockresource:9>,
-    <industrialupgrade:blockresource:8>,
     <industrialupgrade:moremachine3:16>,
     <industrialupgrade:moremachine3>,
     <industrialupgrade:crafting_elements:24>,
     <industrialupgrade:crafting_elements:116>,
-    <industrialupgrade:crafting_elements:140>,
     <industrialupgrade:forge_hammer>,
     <industrialupgrade:upgradekitpanel:7>,
     <industrialupgrade:upgradekitpanel:8>,
@@ -40,7 +43,6 @@ val itemsToRemove = [
     <industrialupgrade:drill>,
     <industrialupgrade:magnet>,
     <industrialupgrade:jetpack:27>,
-    <industrialupgrade:re_battery>,
     <industrialupgrade:crafting_elements:206>,
     <industrialupgrade:upgrades:10>,
     <industrialupgrade:wiring_storage:2>,
@@ -51,7 +53,13 @@ val itemsToRemove = [
     <industrialupgrade:crafting_elements:30>,
     <industrialupgrade:crafting_elements:75>,
     <industrialupgrade:crafting_elements:79>,
-    <industrialupgrade:gen_sunnarium_plate> 
+    <industrialupgrade:gen_sunnarium_plate>,
+    <industrialupgrade:re_battery>,
+    <industrialupgrade:simplemachine:3>,
+    <industrialupgrade:moremachine2>,
+    <industrialupgrade:moremachine2:8>,
+    <industrialupgrade:moremachine2:4>
+
 ] as IItemStack[];
 for item in itemsToRemove {
   recipes.remove(item);
@@ -111,18 +119,12 @@ recipes.addShaped(<industrialupgrade:forge_hammer>, [[null, <minecraft:iron_ingo
 
 recipes.addShaped(<industrialupgrade:crafting_elements:24>, [[<contenttweaker:tool_box_draconic>, <contenttweaker:tool_box_draconic>, <contenttweaker:tool_box_draconic>],[<contenttweaker:draconium_circuit>, <industrialupgrade:crafting_elements:23>, <contenttweaker:draconium_circuit>], [<iuadditions:iridium_dense_stellar>, <industrialupgrade:crafting_elements:116>, <iuadditions:iridium_dense_stellar>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:116>, [[<contenttweaker:plate_gaia_steel>, <enderio:item_capacitor_stellar>, <contenttweaker:plate_gaia_steel>],[<contenttweaker:plate_gaia_steel>, <industrialupgrade:crafting_elements:92>, <contenttweaker:plate_gaia_steel>], [<contenttweaker:plate_gaia_steel>, <enderio:item_capacitor_stellar>, <contenttweaker:plate_gaia_steel>]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:140>, [[<contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:crafting_elements:139>, <industrialupgrade:photoniy_ingot>], [<contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>, <contenttweaker:plate_alloy_industrial>]]);
-
-recipes.addShaped(<industrialupgrade:basemachine3:78>, [[<moreplates:electrical_steel_plate>, <ore:plateIron>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:11>, <enderio:block_stirling_generator>, <ore:plateIron>], [<moreplates:electrical_steel_plate>, <ore:plateIron>, <moreplates:electrical_steel_plate>]]);
 recipes.addShaped(<industrialupgrade:basemachine3:89>, [[<industrialupgrade:crafting_elements:265>, <thermalexpansion:machine:8>, <industrialupgrade:crafting_elements:27>],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:154>], [<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:276>, <industrialupgrade:crafting_elements:272>]]);
-recipes.addShaped(<industrialupgrade:simplemachine:1>, [[<moreplates:electrical_steel_plate>, <extrautils2:compressedcobblestone:1>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:63>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:72>], [<moreplates:electrical_steel_plate>, <thermalexpansion:machine:5>, <moreplates:electrical_steel_plate>]]);
-recipes.addShaped(<industrialupgrade:simplemachine>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:272>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:69>, <enderio:block_sag_mill>, <industrialupgrade:crafting_elements:72>], [<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:272>, <moreplates:electrical_steel_plate>]]);
+recipes.addShaped(<industrialupgrade:simplemachine:1>, [[null, <industrialupgrade:basemachine3:167>, null],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:63>], [<industrialupgrade:crafting_elements:276>, <thermalexpansion:machine:5>, <industrialupgrade:crafting_elements:44>]]);
+recipes.addShaped(<industrialupgrade:simplemachine>, [[<moreplates:electrical_steel_plate>, <enderio:block_simple_sag_mill>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:276>], [<moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:166>, <moreplates:electrical_steel_plate>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:219>, [[null, <ironfurnaces:iron_furnace_idle>, null],[<ore:plateIron>, <industrialupgrade:crafting_elements:21>, <ore:plateIron>], [<moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>, <moreplates:redstone_alloy_plate>]]);
 recipes.addShaped(<industrialupgrade:basemachine:4>, [[<industrialupgrade:crafting_elements:70>, <gendustry:apiary.upgrade:6>, <industrialupgrade:crafting_elements:74>],[<enderio:block_alloy_smelter>, <industrialupgrade:simplemachine:2>, <enderio:block_alloy_smelter>], [<industrialupgrade:crafting_elements:74>, <gendustry:apiary.upgrade:6>, <industrialupgrade:crafting_elements:70>]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<ore:plateBronze>, <industrialupgrade:radiationresources:4>, <ore:plateBronze>]]);
-recipes.addShaped(<industrialupgrade:basemachine1:10>, [[null, <industrialupgrade:basemachine3:89>, null],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:blockresource:9>, <industrialupgrade:crafting_elements:99>], [null, <industrialupgrade:crafting_elements:276>, null]]);
-recipes.addShaped(<industrialupgrade:blockresource:9>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:dark_steel_plate>],[<immersiveengineering:material:9>, <industrialupgrade:blockresource:8>, <immersiveengineering:material:9>], [<moreplates:dark_steel_plate>, <industrialupgrade:itemdoubleplates:25>, <moreplates:electrical_steel_plate>]]);
-recipes.addShaped(<industrialupgrade:blockresource:8>, [[<immersiveengineering:material:8>, <industrialupgrade:crafting_elements:137>, <immersiveengineering:material:8>],[<industrialupgrade:crafting_elements:137>, <thermalexpansion:frame>, <industrialupgrade:crafting_elements:137>], [<immersiveengineering:material:8>, <industrialupgrade:crafting_elements:137>, <immersiveengineering:material:8>]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:79>, [[<industrialupgrade:crafting_elements:282>, <extrautils2:suncrystal>, <industrialupgrade:crafting_elements:282>],[<industrialupgrade:crafting_elements:274>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:crafting_elements:274>], [<redstonearsenal:material:128>, <industrialupgrade:toriy>, <redstonearsenal:material:128>]]);
 recipes.addShaped(<industrialupgrade:moremachine3:16>, [[<thermalexpansion:augment:337>, <industrialupgrade:crafting_elements:218>, <thermalexpansion:augment:337>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<thermalexpansion:augment:337>, <industrialupgrade:crafting_elements:276>, <thermalexpansion:augment:337>]]);
 recipes.addShaped(<industrialupgrade:moremachine3>, [[<industrialupgrade:crafting_elements:64>, <enderio:block_farm_station>, <industrialupgrade:crafting_elements:61>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:9>, <industrialupgrade:crafting_elements:44>], [<iuadditions:circuit_stellar>, <thermalexpansion:machine:5>, <iuadditions:circuit_stellar>]]);
 
@@ -140,42 +142,40 @@ recipes.addShaped(<industrialupgrade:wiring_storage:4>, [[<industrialupgrade:lap
 recipes.addShaped(<industrialupgrade:crafting_elements:212>, [[null, <industrialupgrade:cable_iu_item:2>, null],[<industrialupgrade:circuit:10>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:lapotron_crystal:*>], [null, <industrialupgrade:cable_iu_item:2>, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:211>, [[null, <industrialupgrade:cable_iu_item:1>, null],[<industrialupgrade:circuit:9>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:lapotron_crystal:*>], [null, <industrialupgrade:cable_iu_item:1>, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:210>, [[null, <industrialupgrade:cable_iu_item>, null],[<industrialupgrade:circuit:9>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:lapotron_crystal:*>], [null, <industrialupgrade:cable_iu_item>, null]]);
-//recipes.addShaped(<industrialupgrade:crafting_elements:209>, [[null, <industrialupgrade:cable_iu_item:20>, null],[<industrialupgrade:crafting_elements:273>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:lapotron_crystal:*>], [null, <industrialupgrade:cable_iu_item:20>, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:208>, [[null, <industrialupgrade:cable_iu_item:15>, null],[<industrialupgrade:crafting_elements:272>, <industrialupgrade:crafting_elements:21>, <industrialupgrade:advanced_re_battery:16>.anyDamage()], [null, <industrialupgrade:cable_iu_item:15>, null]]);
-recipes.addShaped(<industrialupgrade:crafting_elements:137> * 2, [[<minecraft:redstone>, <industrialupgrade:itemplates:12>, <minecraft:redstone>], [<thermalfoundation:material:357>, <extrautils2:ingredients:0>, <thermalfoundation:material:357>],[<minecraft:redstone>, <industrialupgrade:itemplates:16>, <minecraft:redstone>]]);
 recipes.addShaped(<industrialupgrade:magnet>, [[<industrialupgrade:alloyingot:7>, <thermalinnovation:magnet:4>, <industrialupgrade:alloyingot:9>],[<industrialupgrade:itemdoubleplates>, <industrialupgrade:advanced_re_battery>, <industrialupgrade:itemdoubleplates>], [null, <industrialupgrade:itemdoubleplates>, null]]);
 
-recipes.addShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>],[<ore:dustDiamond>, <midnight:rouxe>, <ore:dustDiamond>], [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>]]);
+recipes.addShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>],[<ore:dustDiamond>, <midnight:rouxe>, <ore:dustDiamond>], [<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>]]);
 
-// recipes.addShaped(<iuadditions:qfp_arcana>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_arcana>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_arcana>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
-// recipes.addShaped(<iuadditions:qfp_mortum>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_mortum>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_mortum>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
-// recipes.addShaped(<iuadditions:qfp_skythern>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_skythern>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_skythern>], [<divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>]]);
-// recipes.addShaped(<iuadditions:qfp_apalachia>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_apalachia>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_apalachia>], [<divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>]]);
-// recipes.addShaped(<contenttweaker:<iuadditions:qfp_wildwood>fp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_wildwood>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_wildwood>], [<divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>]]);
-// recipes.addShaped(<iuadditions:qfp_eden>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_eden>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_eden>], [<divinerpg:eden_chunk>, <divinerpg:eden_chunk>, <divinerpg:eden_chunk>]]);
+recipes.addShaped(<iuadditions:qfp_arcana>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_arcana>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_arcana>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
+recipes.addShaped(<iuadditions:qfp_mortum>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_mortum>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_mortum>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
+recipes.addShaped(<iuadditions:qfp_skythern>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_skythern>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_skythern>], [<divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>]]);
+recipes.addShaped(<iuadditions:qfp_apalachia>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_apalachia>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_apalachia>], [<divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>]]);
+recipes.addShaped(<iuadditions:qfp_wildwood>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_wildwood>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_wildwood>], [<divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>]]);
+recipes.addShaped(<iuadditions:qfp_eden>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_eden>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_eden>], [<divinerpg:eden_chunk>, <divinerpg:eden_chunk>, <divinerpg:eden_chunk>]]);
 recipes.addShaped(<contenttweaker:neutronium_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:neutronium_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:neutronium_capacitor>], [<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>]]);
 recipes.addShaped(<contenttweaker:chaotic_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:chaotic_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:chaotic_capacitor>], [<maia_draconic_edition:chaotic_plate>, <maia_draconic_edition:chaotic_plate>, <maia_draconic_edition:chaotic_plate>]]);
 recipes.addShaped(<contenttweaker:awakened_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:awakened_capacitor>, <industrialupgrade:circuit:10>, <contenttweaker:awakened_capacitor>], [<moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>]]);
 recipes.addShaped(<contenttweaker:draconic_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:draconium_capacitor>, <industrialupgrade:circuit:10>, <contenttweaker:draconium_capacitor>], [<moreplates:draconium_plate>, <moreplates:draconium_plate>, <moreplates:draconium_plate>]]);
-// recipes.addShaped(<iuadditions:soic_arcana>:soic_mortum>, [[<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>],[<industrialupgrade:stik:16>, <iuadditions:capacitor_arcana>, <industrialupgrade:stik:16>], [<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>]]);
-// recipes.addShaped(<iuadditions:soic_mortum>, [[<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>],[<industrialupgrade:stik:10>, <iuadditions:capacitor_mortum>, <industrialupgrade:stik:10>], [<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>]]);
-// recipes.addShaped(<iuadditions:soic_skythern>, [[<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>],[<industrialupgrade:stik:14>, <iuadditions:capacitor_skythern>, <industrialupgrade:stik:14>], [<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>]]);
-// recipes.addShaped(<iuadditions:soic_apalachia>, [[<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>],[<industrialupgrade:stik:12>, <iuadditions:capacitor_apalachia>, <industrialupgrade:stik:12>], [<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>]]);
-// recipes.addShaped(<iuadditions:soic_wildwood>, [[<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>],[<industrialupgrade:stik:11>, <iuadditions:capacitor_wildwood>, <industrialupgrade:stik:11>], [<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>]]);
-// recipes.addShaped(<iuadditions:soic_eden>, [[<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>],[<industrialupgrade:stik:13>, <iuadditions:capacitor_eden>, <industrialupgrade:stik:13>], [<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>]]);
+recipes.addShaped(<iuadditions:soic_arcana>, [[<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>],[<industrialupgrade:stik:16>, <iuadditions:capacitor_arcana>, <industrialupgrade:stik:16>], [<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>]]);
+recipes.addShaped(<iuadditions:soic_mortum>, [[<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>],[<industrialupgrade:stik:10>, <iuadditions:capacitor_mortum>, <industrialupgrade:stik:10>], [<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>]]);
+recipes.addShaped(<iuadditions:soic_skythern>, [[<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>],[<industrialupgrade:stik:14>, <iuadditions:capacitor_skythern>, <industrialupgrade:stik:14>], [<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>]]);
+recipes.addShaped(<iuadditions:soic_apalachia>, [[<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>],[<industrialupgrade:stik:12>, <iuadditions:capacitor_apalachia>, <industrialupgrade:stik:12>], [<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>]]);
+recipes.addShaped(<iuadditions:soic_wildwood>, [[<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>],[<industrialupgrade:stik:11>, <iuadditions:capacitor_wildwood>, <industrialupgrade:stik:11>], [<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>]]);
+recipes.addShaped(<iuadditions:soic_eden>, [[<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>],[<industrialupgrade:stik:13>, <iuadditions:capacitor_eden>, <industrialupgrade:stik:13>], [<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>]]);
 recipes.addShaped(<contenttweaker:neutronium_soic>, [[<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>],[<industrialupgrade:stik:5>, <contenttweaker:neutronium_capacitor>, <industrialupgrade:stik:5>], [<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>]]);
 recipes.addShaped(<contenttweaker:chaotic_soic>, [[<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>],[<industrialupgrade:stik:5>, <contenttweaker:chaotic_capacitor>, <industrialupgrade:stik:5>], [<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>]]);
 recipes.addShaped(<contenttweaker:awakened_soic>, [[<industrialupgrade:stik:18>, <industrialupgrade:stik:18>, <industrialupgrade:stik:18>],[<industrialupgrade:stik:18>, <contenttweaker:awakened_capacitor>, <industrialupgrade:stik:18>], [<industrialupgrade:stik:18>, <industrialupgrade:stik:18>, <industrialupgrade:stik:18>]]);
 recipes.addShaped(<contenttweaker:draconic_soic>, [[<industrialupgrade:stik:2>, <industrialupgrade:stik:2>, <industrialupgrade:stik:2>],[<industrialupgrade:stik:2>, <contenttweaker:draconium_capacitor>, <industrialupgrade:stik:2>], [<industrialupgrade:stik:2>, <industrialupgrade:stik:2>, <industrialupgrade:stik:2>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_fiery>, [[<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_fiery>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_fiery>]]);
-recipes.addShaped(<contenttweaker:iridium_reinforced_stellar>, [[<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>]]);
+recipes.addShaped(<iuadditions:iridium_reinforced_stellar>, [[<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_alfheim>, [[<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_alfheim>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_alfheim>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_chaotic>, [[<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_chaotic>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_chaotic>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_awakened>, [[<contenttweaker:iridium_awakened>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_awakened>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_awakened>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_awakened>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_draconic>, [[<contenttweaker:iridium_draconic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_draconic>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_draconic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_draconic>]]);
 recipes.addShaped(<contenttweaker:rod_spectral>, [[<industrialupgrade:itemingots:6>, <industrialupgrade:itemingots:10>, <industrialupgrade:itemingots:6>],[<industrialupgrade:itemingots:6>, <industrialupgrade:itemdust:24>, <industrialupgrade:itemingots:6>], [<industrialupgrade:itemingots:6>, <industrialupgrade:itemingots:10>, <industrialupgrade:itemingots:6>]]);
 recipes.addShaped(<contenttweaker:rod_quantum>, [[<industrialupgrade:alloyingot:7>, <industrialupgrade:alloyingot:8>, <industrialupgrade:alloyingot:7>],[<industrialupgrade:alloyingot:7>, <industrialupgrade:itemdust:24>, <industrialupgrade:alloyingot:7>], [<industrialupgrade:alloyingot:7>, <industrialupgrade:alloyingot:8>, <industrialupgrade:alloyingot:7>]]);
-recipes.addShaped(<contenttweaker:rod_nano>, [[<industrialupgrade:crafting_elements:281>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:281>],[<industrialupgrade:crafting_elements:281>, <botania:manaresource:18>, <industrialupgrade:crafting_elements:281>], [<industrialupgrade:crafting_elements:281>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:281>]]);
+recipes.addShaped(<contenttweaker:rod_nano>, [[<industrialupgrade:crafting_elements:281>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:281>],[<industrialupgrade:crafting_elements:281>, <botania:manaresource:18>, <industrialupgrade:crafting_elements:281>], [<industrialupgrade:crafting_elements:281>, <industrialupgrade:stik:29>, <industrialupgrade:crafting_elements:281>]]);
 recipes.addShaped(<contenttweaker:iuarmor_core>, [[<thermalfoundation:material:167>, <industrialupgrade:compresscarbon>, <thermalfoundation:material:167>],[<industrialupgrade:compresscarbon>, <draconicevolution:tool_upgrade:8>, <industrialupgrade:compresscarbon>], [<thermalfoundation:material:167>, <industrialupgrade:compresscarbon>, <thermalfoundation:material:167>]]);
 recipes.addShaped(<contenttweaker:spectral_shield>, [[<industrialupgrade:lapotron_crystal>.anyDamage(), <contenttweaker:iridium_dense_alfheim>, <industrialupgrade:lapotron_crystal>.anyDamage()],[<contenttweaker:iridium_dense_alfheim>, <draconicevolution:tool_upgrade:9>, <contenttweaker:iridium_dense_alfheim>], [<industrialupgrade:lapotron_crystal>.anyDamage(), <contenttweaker:iridium_dense_alfheim>, <industrialupgrade:lapotron_crystal>.anyDamage()]]);
 recipes.addShaped(<contenttweaker:quantum_shield>, [[<industrialupgrade:energy_crystal>.anyDamage(), <industrialupgrade:crafting_elements:285>, <industrialupgrade:energy_crystal>.anyDamage()],[<industrialupgrade:crafting_elements:285>, <draconicevolution:tool_upgrade:9>, <industrialupgrade:crafting_elements:285>], [<industrialupgrade:energy_crystal>.anyDamage(), <industrialupgrade:crafting_elements:285>, <industrialupgrade:energy_crystal>.anyDamage()]]);
@@ -189,10 +189,10 @@ recipes.addShaped(<contenttweaker:glass_adm>, [[<contenttweaker:iridium_advanced
 recipes.addShaped(<industrialupgrade:drill>, [[null, <ore:plateIron>, null],[<ore:plateIron>, <thermalinnovation:drill>, <ore:plateIron>], [<ore:plateIron>, <industrialupgrade:crafting_elements:279>, <ore:plateIron>]]);
 recipes.addShaped(<industrialupgrade:jetpack:27>, [[<ore:plateIron>, <industrialupgrade:crafting_elements:273>, <ore:plateIron>],[<ore:plateIron>, <simplyjetpacks:itemjetpack:1>, <ore:plateIron>], [<moreplates:glowstone_plate>, <industrialupgrade:wiring_storage:2>, <moreplates:glowstone_plate>]]);
 
-recipes.addShaped(<industrialupgrade:re_battery>, [[null, <industrialupgrade:cable_iu_item:19>, null],[<industrialupgrade:casing:25>, <taiga:tiberium_crystal>, <industrialupgrade:casing:25>], [<industrialupgrade:casing:25>, <enderio:item_alloy_ingot:3>, <industrialupgrade:casing:25>]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:206>, [[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:19>, <astralsorcery:blockinfusedwood:1>],[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:crafting_elements:21>, <astralsorcery:blockinfusedwood:1>], [<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:19>, <astralsorcery:blockinfusedwood:1>]]);
 recipes.addShaped(<industrialupgrade:upgrades:10>, [[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:re_battery>.anyDamage(), <astralsorcery:blockinfusedwood:1>],[<industrialupgrade:cable_iu_item:12>, <enderio:item_basic_capacitor:2>, <industrialupgrade:cable_iu_item:12>], [<botania:livingwood:5>, <industrialupgrade:crafting_elements:272>, <botania:livingwood:5>]]);
-recipes.addShaped(<industrialupgrade:wiring_storage:2>, [[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:18>, <astralsorcery:blockinfusedwood:1>],[<industrialupgrade:re_battery>.anyDamage(), <industrialupgrade:re_battery>.anyDamage(), <industrialupgrade:re_battery>.anyDamage()], [<astralsorcery:blockinfusedwood:1>, <botania:livingwood:5>, <astralsorcery:blockinfusedwood:1>]]);
+recipes.addShaped(<industrialupgrade:wiring_storage:2>, [[<astralsorcery:blockinfusedwood:1>, <industrialupgrade:cable_iu_item:18>, <astralsorcery:blockinfusedwood:1>],[<industrialupgrade:advanced_re_battery>.anyDamage(), <industrialupgrade:advanced_re_battery>.anyDamage(), <industrialupgrade:advanced_re_battery>.anyDamage()], [<astralsorcery:blockinfusedwood:1>, <botania:livingwood:5>, <astralsorcery:blockinfusedwood:1>]]);
+recipes.addShaped(<industrialupgrade:re_battery>, [[<industrialupgrade:cable_iu_item:19>, <industrialupgrade:charged_quartz>, <industrialupgrade:cable_iu_item:19>],[<industrialupgrade:alloycasing:22>, <taiga:tiberium_crystal>, <industrialupgrade:alloycasing:22>], [<industrialupgrade:alloycasing:22>, <industrialupgrade:charged_redstone>, <industrialupgrade:alloycasing:22>]]);
 
 recipes.addShaped(<industrialupgrade:teraddrill>, [[null, <botania:terrapick>, null],[<industrialupgrade:upgrades:8>, <industrialupgrade:diamond_drill>.anyDamage(), <industrialupgrade:upgrades:8>], [<moreplates:terrasteel_plate>, <industrialupgrade:upgrades:8>, <moreplates:terrasteel_plate>]]);
 recipes.addShaped(<industrialupgrade:terrasteel_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:274>, <industrialupgrade:rune_sun>],[<industrialupgrade:itemiucrafring:1>, <moreplates:terrasteel_plate>, <industrialupgrade:itemiucrafring:1>], [<moreplates:terrasteel_plate>, <industrialupgrade:rune_energy>, <moreplates:terrasteel_plate>]]);
@@ -205,12 +205,22 @@ recipes.addShaped(<industrialupgrade:crafting_elements:75>, [[<ore:plateCobalt>,
 
 
 recipes.addShaped(<industrialupgrade:gen_sunnarium_plate>, [[null, <industrialupgrade:crafting_elements:128>, null],[<industrialupgrade:crafting_elements:47>, <industrialupgrade:se_gen>, <industrialupgrade:crafting_elements:79>], [null, <industrialupgrade:crafting_elements:276>, null]]);
-recipes.addShaped(<industrialupgrade:simplemachine:2>, [[<industrialupgrade:crafting_elements:72>, <industrialupgrade:crafting_elements:219>, <industrialupgrade:crafting_elements:72>],[<industrialupgrade:crafting_elements:272>, <enderio:block_simple_furnace>, <industrialupgrade:crafting_elements:272>], [<industrialupgrade:crafting_elements:35>, <industrialupgrade:crafting_elements:44>, <industrialupgrade:crafting_elements:35>]]);
+recipes.addShaped(<industrialupgrade:simplemachine:2>, [[null, <industrialupgrade:basemachine3:181>, null],[<industrialupgrade:mini_smeltery>, <industrialupgrade:blockresource:8>, <industrialupgrade:refractory_furnace>], [<industrialupgrade:crafting_elements:276>, <enderio:block_simple_furnace>, <industrialupgrade:crafting_elements:276>]]);
+recipes.addShaped(<industrialupgrade:simplemachine:3>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:159>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:168>]]);
+recipes.addShaped(<industrialupgrade:moremachine2>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:165>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:124>]]);
+recipes.addShaped(<industrialupgrade:moremachine2:8>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:132>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:170>]]);
+recipes.addShaped(<industrialupgrade:moremachine2:4>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:163>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:169>]]);
 
 
-// Matter Fabricator
+// Matter Fabricator — Advanced table (5×5)
 recipes.remove(<industrialupgrade:simplemachine:6>);
-mods.avaritia.ExtremeCrafting.addShaped("Matter Fabricator", <industrialupgrade:simplemachine:6> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null],[null, null, null, <industrialupgrade:blockresource:9>, <industrialupgrade:rune_energy>, <industrialupgrade:blockresource:9>, null, null, null],[null, null, <industrialupgrade:blockresource:9>, <ore:circuitPerfectHybrid>, <industrialupgrade:crafting_elements:273>, <ore:circuitPerfectHybrid>, <industrialupgrade:blockresource:9>, null, null],[null, null, <industrialupgrade:rune_energy>, <industrialupgrade:crafting_elements:273>, <packagedastral:constellation_crafter>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_energy>, null, null],[null, null, <industrialupgrade:blockresource:9>, <ore:circuitPerfectHybrid>, <industrialupgrade:charging_lapotron_crystal>, <ore:circuitPerfectHybrid>, <industrialupgrade:blockresource:9>, null, null],[null, null, null, <industrialupgrade:blockresource:9>, <industrialupgrade:rune_energy>, <industrialupgrade:blockresource:9>, null, null, null],[null, null, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+mods.extendedcrafting.TableCrafting.addShaped(0,<industrialupgrade:simplemachine:6>,[
+    [null,<industrialupgrade:blockresource:9>,<industrialupgrade:rune_energy>,<industrialupgrade:blockresource:9>,null],
+    [<industrialupgrade:blockresource:9>,<ore:circuitPerfectHybrid>,<industrialupgrade:crafting_elements:273>,<ore:circuitPerfectHybrid>,<industrialupgrade:blockresource:9>],
+    [<industrialupgrade:rune_energy>,<industrialupgrade:crafting_elements:273>,<packagedastral:constellation_crafter>,<industrialupgrade:crafting_elements:273>,<industrialupgrade:rune_energy>],
+    [<industrialupgrade:blockresource:9>,<ore:circuitPerfectHybrid>,<industrialupgrade:charging_lapotron_crystal>,<ore:circuitPerfectHybrid>,<industrialupgrade:blockresource:9>],
+    [null,<industrialupgrade:blockresource:9>,<industrialupgrade:rune_energy>,<industrialupgrade:blockresource:9>,null]
+]);
 
 
 
@@ -224,143 +234,159 @@ recipes.addShaped(<industrialupgrade:machines:8>, [[null, null, null],[null, <in
 recipes.addShaped(<industrialupgrade:machines:7>, [[null, null, null],[null, <industrialupgrade:modulestype:7>, null], [null, null, null]]);
 
 
+
+// Stellar Core
+recipes.remove(<iuadditions:core_stellar>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <iuadditions:core_stellar>, [
+    [<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:1>, null, null, null, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>],
+    [<astralsorcery:blockblackmarble:0>, null, null, null, <astralsorcery:itemcraftingcomponent:1>, null, <astralsorcery:blockblackmarble:0>, null, <astralsorcery:blockblackmarble:0>],
+    [null, <astralsorcery:blockblackmarble:0>, null, null, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:blockblackmarble:0>, null, <astralsorcery:itemcraftingcomponent:1>, null],
+    [null, null, <astralsorcery:blockblackmarble:0>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:2>, <astralsorcery:itemcraftingcomponent:4>, null, null, <astralsorcery:itemcraftingcomponent:1>],
+    [null, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcoloredlens:4>, <astralsorcery:itemshiftingstar>, <astralsorcery:itemcoloredlens:0>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>, null],
+    [<astralsorcery:itemcraftingcomponent:1>, null, null, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockblackmarble:0>, null, null],
+    [<astralsorcery:itemcraftingcomponent:1>, null, null, <astralsorcery:blockblackmarble:0>, <astralsorcery:itemcraftingcomponent:2>, null, null, <astralsorcery:blockblackmarble:0>, null],
+    [<astralsorcery:blockblackmarble:0>, null, <astralsorcery:blockblackmarble:0>, null, <astralsorcery:itemcraftingcomponent:1>, null, null, null, <astralsorcery:blockblackmarble:0>],
+    [<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, null, null, null, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>]
+]);
+
+
 //ROLLING
 //mods.industrialupgrade.rolling.addRecipe(AAA, AAA);
-mods.industrialupgrade.rolling.addRecipe(<maia_draconic_edition:chaotic_plate>, <draconicevolution:chaos_shard:1>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:certus_quartz_plate>, <appliedenergistics2:material>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:certus_quartz_plate>, <appliedenergistics2:material:10>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:fluix_plate>, <appliedenergistics2:material:7>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:fluix_plate>, <appliedenergistics2:material:12>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:crystal_matrix_plate>, <avaritia:resource:1>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:infinity_plate>, <avaritia:resource:6>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:neutronium_plate>, <avaritia:resource:4>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:elementium_plate>, <botania:manaresource:7>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:gaia_spirit_plate>, <botania:manaresource:14>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:manasteel_plate>, <botania:manaresource>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:terrasteel_plate>, <botania:manaresource:4>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:awakened_draconium_plate>, <draconicevolution:draconic_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:draconium_plate>, <draconicevolution:draconium_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:conductive_iron_plate>, <enderio:item_alloy_ingot:4>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:dark_steel_plate>, <enderio:item_alloy_ingot:6>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:electrical_steel_plate>, <enderio:item_alloy_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:end_steel_plate>, <enderio:item_alloy_ingot:8>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:energetic_alloy_plate>, <enderio:item_alloy_ingot:1>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:iron_alloy_plate>, <enderio:item_alloy_ingot:9>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:pulsating_iron_plate>, <enderio:item_alloy_ingot:5>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:redstone_alloy_plate>, <enderio:item_alloy_ingot:3>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:soularium_plate>, <enderio:item_alloy_ingot:7>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:vibrant_alloy_plate>, <enderio:item_alloy_ingot:2>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:crystalline_pink_slime_plate>, <enderio:item_alloy_endergy_ingot:4>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:energetic_silver_plate>, <enderio:item_alloy_endergy_ingot:5>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:melodic_alloy_plate>, <enderio:item_alloy_endergy_ingot:2>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:stellar_alloy_plate>, <enderio:item_alloy_endergy_ingot:3>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:vivid_alloy_plate>, <enderio:item_alloy_endergy_ingot:6>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:demon_plate>, <extrautils2:ingredients:11>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:enchanted_plate>, <extrautils2:ingredients:12>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:evil_infused_iron_plate>, <extrautils2:ingredients:17>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:silicon_plate>, <appliedenergistics2:material:5>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:coal_plate>, <minecraft:coal>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:diamond_plate>, <minecraft:diamond>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:emerald_plate>, <minecraft:emerald>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:glowstone_plate>, <minecraft:glowstone_dust>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:nether_quartz_plate>, <minecraft:quartz>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:redstone_plate>, <minecraft:redstone>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:insanium_plate>, <mysticalagradditions:insanium:2>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:inferium_plate>, <mysticalagriculture:crafting:33>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:intermedium_plate>, <mysticalagriculture:crafting:35>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:prudentium_plate>, <mysticalagriculture:crafting:34>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:superium_plate>, <mysticalagriculture:crafting:36>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:supremium_plate>, <mysticalagriculture:crafting:37>);
-mods.industrialupgrade.rolling.addRecipe(<iuadditions:plate_astralstarmetal>, <astralsorcery:itemcraftingcomponent:1>);
+rolling.addRecipe(<maia_draconic_edition:chaotic_plate>, <draconicevolution:chaos_shard:1>);
+rolling.addRecipe(<moreplates:certus_quartz_plate>, <appliedenergistics2:material>);
+rolling.addRecipe(<moreplates:certus_quartz_plate>, <appliedenergistics2:material:10>);
+rolling.addRecipe(<moreplates:fluix_plate>, <appliedenergistics2:material:7>);
+rolling.addRecipe(<moreplates:fluix_plate>, <appliedenergistics2:material:12>);
+rolling.addRecipe(<moreplates:crystal_matrix_plate>, <avaritia:resource:1>);
+rolling.addRecipe(<moreplates:infinity_plate>, <avaritia:resource:6>);
+rolling.addRecipe(<moreplates:neutronium_plate>, <avaritia:resource:4>);
+rolling.addRecipe(<moreplates:elementium_plate>, <botania:manaresource:7>);
+rolling.addRecipe(<moreplates:gaia_spirit_plate>, <botania:manaresource:14>);
+rolling.addRecipe(<moreplates:manasteel_plate>, <botania:manaresource>);
+rolling.addRecipe(<moreplates:terrasteel_plate>, <botania:manaresource:4>);
+rolling.addRecipe(<moreplates:awakened_draconium_plate>, <draconicevolution:draconic_ingot>);
+rolling.addRecipe(<moreplates:draconium_plate>, <draconicevolution:draconium_ingot>);
+rolling.addRecipe(<moreplates:conductive_iron_plate>, <enderio:item_alloy_ingot:4>);
+rolling.addRecipe(<moreplates:dark_steel_plate>, <enderio:item_alloy_ingot:6>);
+rolling.addRecipe(<moreplates:electrical_steel_plate>, <enderio:item_alloy_ingot>);
+rolling.addRecipe(<moreplates:end_steel_plate>, <enderio:item_alloy_ingot:8>);
+rolling.addRecipe(<moreplates:energetic_alloy_plate>, <enderio:item_alloy_ingot:1>);
+rolling.addRecipe(<moreplates:iron_alloy_plate>, <enderio:item_alloy_ingot:9>);
+rolling.addRecipe(<moreplates:pulsating_iron_plate>, <enderio:item_alloy_ingot:5>);
+rolling.addRecipe(<moreplates:redstone_alloy_plate>, <enderio:item_alloy_ingot:3>);
+rolling.addRecipe(<moreplates:soularium_plate>, <enderio:item_alloy_ingot:7>);
+rolling.addRecipe(<moreplates:vibrant_alloy_plate>, <enderio:item_alloy_ingot:2>);
+rolling.addRecipe(<moreplates:crystalline_pink_slime_plate>, <enderio:item_alloy_endergy_ingot:4>);
+rolling.addRecipe(<moreplates:energetic_silver_plate>, <enderio:item_alloy_endergy_ingot:5>);
+rolling.addRecipe(<moreplates:melodic_alloy_plate>, <enderio:item_alloy_endergy_ingot:2>);
+rolling.addRecipe(<moreplates:stellar_alloy_plate>, <enderio:item_alloy_endergy_ingot:3>);
+rolling.addRecipe(<moreplates:vivid_alloy_plate>, <enderio:item_alloy_endergy_ingot:6>);
+rolling.addRecipe(<moreplates:demon_plate>, <extrautils2:ingredients:11>);
+rolling.addRecipe(<moreplates:enchanted_plate>, <extrautils2:ingredients:12>);
+rolling.addRecipe(<moreplates:evil_infused_iron_plate>, <extrautils2:ingredients:17>);
+rolling.addRecipe(<moreplates:silicon_plate>, <appliedenergistics2:material:5>);
+rolling.addRecipe(<moreplates:coal_plate>, <minecraft:coal>);
+rolling.addRecipe(<moreplates:diamond_plate>, <minecraft:diamond>);
+rolling.addRecipe(<moreplates:emerald_plate>, <minecraft:emerald>);
+rolling.addRecipe(<moreplates:glowstone_plate>, <minecraft:glowstone_dust>);
+rolling.addRecipe(<moreplates:nether_quartz_plate>, <minecraft:quartz>);
+rolling.addRecipe(<moreplates:redstone_plate>, <minecraft:redstone>);
+rolling.addRecipe(<moreplates:insanium_plate>, <mysticalagradditions:insanium:2>);
+rolling.addRecipe(<moreplates:inferium_plate>, <mysticalagriculture:crafting:33>);
+rolling.addRecipe(<moreplates:intermedium_plate>, <mysticalagriculture:crafting:35>);
+rolling.addRecipe(<moreplates:prudentium_plate>, <mysticalagriculture:crafting:34>);
+rolling.addRecipe(<moreplates:superium_plate>, <mysticalagriculture:crafting:36>);
+rolling.addRecipe(<moreplates:supremium_plate>, <mysticalagriculture:crafting:37>);
+rolling.addRecipe(<iuadditions:plate_astralstarmetal>, <astralsorcery:itemcraftingcomponent:1>);
 
 
 
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:357>, <thermalfoundation:material:165>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:358>, <thermalfoundation:material:166>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:359>, <thermalfoundation:material:167>);
-mods.industrialupgrade.rolling.addRecipe(<thermalfoundation:material:356>, <thermalfoundation:material:164>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:draconium_plate>, <draconicevolution:draconium_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<moreplates:awakened_draconium_plate>, <draconicevolution:draconic_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<contenttweaker:plate_alloy_industrial>, <contenttweaker:alloy_industrial>);
-mods.industrialupgrade.rolling.addRecipe(<contenttweaker:plate_alloy_ender>, <contenttweaker:alloy_ender>);
-mods.industrialupgrade.rolling.addRecipe(<contenttweaker:plate_alloy_thermal>, <contenttweaker:alloy_thermal>);
-mods.industrialupgrade.rolling.addRecipe(<contenttweaker:plate_alloy_botanical>, <contenttweaker:alloy_botanical>);
-mods.industrialupgrade.rolling.addRecipe(<contenttweaker:plate_gaia_steel>, <botanicadds:gaiasteel_ingot>);
-mods.industrialupgrade.rolling.addRecipe(<iuadditions:plate_astralstarmetal>, <astralsorcery:itemcraftingcomponent:1>);
-mods.industrialupgrade.rolling.addRecipe(<redstonearsenal:material:128>, <redstonearsenal:material:32>);
+rolling.addRecipe(<thermalfoundation:material:357>, <thermalfoundation:material:165>);
+rolling.addRecipe(<thermalfoundation:material:358>, <thermalfoundation:material:166>);
+rolling.addRecipe(<thermalfoundation:material:359>, <thermalfoundation:material:167>);
+rolling.addRecipe(<thermalfoundation:material:356>, <thermalfoundation:material:164>);
+rolling.addRecipe(<moreplates:draconium_plate>, <draconicevolution:draconium_ingot>);
+rolling.addRecipe(<moreplates:awakened_draconium_plate>, <draconicevolution:draconic_ingot>);
+rolling.addRecipe(<contenttweaker:plate_alloy_industrial>, <contenttweaker:alloy_industrial>);
+rolling.addRecipe(<contenttweaker:plate_alloy_ender>, <contenttweaker:alloy_ender>);
+rolling.addRecipe(<contenttweaker:plate_alloy_thermal>, <contenttweaker:alloy_thermal>);
+rolling.addRecipe(<contenttweaker:plate_alloy_botanical>, <contenttweaker:alloy_botanical>);
+rolling.addRecipe(<contenttweaker:plate_gaia_steel>, <botanicadds:gaiasteel_ingot>);
+rolling.addRecipe(<iuadditions:plate_astralstarmetal>, <astralsorcery:itemcraftingcomponent:1>);
+rolling.addRecipe(<redstonearsenal:material:128>, <redstonearsenal:material:32>);
 
 
-mods.industrialupgrade.rolling.addRecipe(<iuadditions:plate_celestial>, <iuadditions:ingot_celestial>);
-mods.industrialupgrade.rolling.addRecipe(<iuadditions:plate_voidweave>, <iuadditions:ingot_voidweave>);
+rolling.addRecipe(<iuadditions:plate_celestial>, <iuadditions:ingot_celestial>);
+rolling.addRecipe(<iuadditions:plate_voidweave>, <iuadditions:ingot_voidweave>);
 //Gearing
 //mods.industrialupgrade.gearing.addRecipe(OUTPUT,INPUT);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:certus_quartz_gear>, <appliedenergistics2:material> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:certus_quartz_gear>, <appliedenergistics2:material:10> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:fluix_gear>, <appliedenergistics2:material:7> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:fluix_gear>, <appliedenergistics2:material:12> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:crystal_matrix_gear>, <avaritia:resource:1> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:infinity_gear>, <avaritia:resource:6> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:neutronium_gear>, <avaritia:resource:4> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:elementium_gear>, <botania:manaresource:7> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:gaia_spirit_gear>, <botania:manaresource:14> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:manasteel_gear>, <botania:manaresource> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:terrasteel_gear>, <botania:manaresource:4> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:awakened_draconium_gear>, <draconicevolution:draconic_ingot> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:draconium_gear>, <draconicevolution:draconium_ingot> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:conductive_iron_gear>, <enderio:item_alloy_ingot:4> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:dark_steel_gear>, <enderio:item_alloy_ingot:6> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:electrical_steel_gear>, <enderio:item_alloy_ingot> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:end_steel_gear>, <enderio:item_alloy_ingot:8> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:energetic_alloy_gear>, <enderio:item_alloy_ingot:1> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:iron_alloy_gear>, <enderio:item_alloy_ingot:9> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:pulsating_iron_gear>, <enderio:item_alloy_ingot:5> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:redstone_alloy_gear>, <enderio:item_alloy_ingot:3> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:soularium_gear>, <enderio:item_alloy_ingot:7> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:vibrant_alloy_gear>, <enderio:item_alloy_ingot:2> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:crude_steel_gear>, <enderio:item_alloy_endergy_ingot> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:crystalline_alloy_gear>, <enderio:item_alloy_endergy_ingot:1> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:crystalline_pink_slime_gear>, <enderio:item_alloy_endergy_ingot:4> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:energetic_silver_gear>, <enderio:item_alloy_endergy_ingot:5> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:melodic_alloy_gear>, <enderio:item_alloy_endergy_ingot:2> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:stellar_alloy_gear>, <enderio:item_alloy_endergy_ingot:3> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:vivid_alloy_gear>, <enderio:item_alloy_endergy_ingot:6> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:demon_gear>, <extrautils2:ingredients:11> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:enchanted_gear>, <extrautils2:ingredients:12> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:evil_infused_iron_gear>, <extrautils2:ingredients:17> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:silicon_gear>, <appliedenergistics2:material:5> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:coal_gear>, <minecraft:coal> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:glowstone_gear>, <minecraft:glowstone_dust> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:lapis_lazuli_gear>, <minecraft:dye:4> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:nether_quartz_gear>, <minecraft:quartz> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:insanium_gear>, <mysticalagradditions:insanium:2> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:inferium_gear>, <mysticalagriculture:crafting:33> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:intermedium_gear>, <mysticalagriculture:crafting:35> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:prudentium_gear>, <mysticalagriculture:crafting:34> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:soulium_gear>, <enderio:item_alloy_ingot:7> * 4);
-mods.industrialupgrade.gearing.addRecipe(<moreplates:superium_gear>, <mysticalagriculture:crafting:36> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:25>, <minecraft:gold_ingot> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:26>, <minecraft:diamond> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:27>, <minecraft:emerald> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:258>, <thermalfoundation:material:130> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:260>, <thermalfoundation:material:132> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:261>, <thermalfoundation:material:133> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:262>, <thermalfoundation:material:134> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:263>, <thermalfoundation:material:135> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:264>, <thermalfoundation:material:136> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:288>, <thermalfoundation:material:160> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:289>, <thermalfoundation:material:161> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:290>, <thermalfoundation:material:162> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:291>, <thermalfoundation:material:163> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:292>, <thermalfoundation:material:164> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:293>, <thermalfoundation:material:165> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:294>, <thermalfoundation:material:166> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:295>, <thermalfoundation:material:167> * 4);
+gearing.addRecipe(<moreplates:certus_quartz_gear>, <appliedenergistics2:material> * 4);
+gearing.addRecipe(<moreplates:certus_quartz_gear>, <appliedenergistics2:material:10> * 4);
+gearing.addRecipe(<moreplates:fluix_gear>, <appliedenergistics2:material:7> * 4);
+gearing.addRecipe(<moreplates:fluix_gear>, <appliedenergistics2:material:12> * 4);
+gearing.addRecipe(<moreplates:crystal_matrix_gear>, <avaritia:resource:1> * 4);
+gearing.addRecipe(<moreplates:infinity_gear>, <avaritia:resource:6> * 4);
+gearing.addRecipe(<moreplates:neutronium_gear>, <avaritia:resource:4> * 4);
+gearing.addRecipe(<moreplates:elementium_gear>, <botania:manaresource:7> * 4);
+gearing.addRecipe(<moreplates:gaia_spirit_gear>, <botania:manaresource:14> * 4);
+gearing.addRecipe(<moreplates:manasteel_gear>, <botania:manaresource> * 4);
+gearing.addRecipe(<moreplates:terrasteel_gear>, <botania:manaresource:4> * 4);
+gearing.addRecipe(<moreplates:awakened_draconium_gear>, <draconicevolution:draconic_ingot> * 4);
+gearing.addRecipe(<moreplates:draconium_gear>, <draconicevolution:draconium_ingot> * 4);
+gearing.addRecipe(<moreplates:conductive_iron_gear>, <enderio:item_alloy_ingot:4> * 4);
+gearing.addRecipe(<moreplates:dark_steel_gear>, <enderio:item_alloy_ingot:6> * 4);
+gearing.addRecipe(<moreplates:electrical_steel_gear>, <enderio:item_alloy_ingot> * 4);
+gearing.addRecipe(<moreplates:end_steel_gear>, <enderio:item_alloy_ingot:8> * 4);
+gearing.addRecipe(<moreplates:energetic_alloy_gear>, <enderio:item_alloy_ingot:1> * 4);
+gearing.addRecipe(<moreplates:iron_alloy_gear>, <enderio:item_alloy_ingot:9> * 4);
+gearing.addRecipe(<moreplates:pulsating_iron_gear>, <enderio:item_alloy_ingot:5> * 4);
+gearing.addRecipe(<moreplates:redstone_alloy_gear>, <enderio:item_alloy_ingot:3> * 4);
+gearing.addRecipe(<moreplates:soularium_gear>, <enderio:item_alloy_ingot:7> * 4);
+gearing.addRecipe(<moreplates:vibrant_alloy_gear>, <enderio:item_alloy_ingot:2> * 4);
+gearing.addRecipe(<moreplates:crude_steel_gear>, <enderio:item_alloy_endergy_ingot> * 4);
+gearing.addRecipe(<moreplates:crystalline_alloy_gear>, <enderio:item_alloy_endergy_ingot:1> * 4);
+gearing.addRecipe(<moreplates:crystalline_pink_slime_gear>, <enderio:item_alloy_endergy_ingot:4> * 4);
+gearing.addRecipe(<moreplates:energetic_silver_gear>, <enderio:item_alloy_endergy_ingot:5> * 4);
+gearing.addRecipe(<moreplates:melodic_alloy_gear>, <enderio:item_alloy_endergy_ingot:2> * 4);
+gearing.addRecipe(<moreplates:stellar_alloy_gear>, <enderio:item_alloy_endergy_ingot:3> * 4);
+gearing.addRecipe(<moreplates:vivid_alloy_gear>, <enderio:item_alloy_endergy_ingot:6> * 4);
+gearing.addRecipe(<moreplates:demon_gear>, <extrautils2:ingredients:11> * 4);
+gearing.addRecipe(<moreplates:enchanted_gear>, <extrautils2:ingredients:12> * 4);
+gearing.addRecipe(<moreplates:evil_infused_iron_gear>, <extrautils2:ingredients:17> * 4);
+gearing.addRecipe(<moreplates:silicon_gear>, <appliedenergistics2:material:5> * 4);
+gearing.addRecipe(<moreplates:coal_gear>, <minecraft:coal> * 4);
+gearing.addRecipe(<moreplates:glowstone_gear>, <minecraft:glowstone_dust> * 4);
+gearing.addRecipe(<moreplates:lapis_lazuli_gear>, <minecraft:dye:4> * 4);
+gearing.addRecipe(<moreplates:nether_quartz_gear>, <minecraft:quartz> * 4);
+gearing.addRecipe(<moreplates:insanium_gear>, <mysticalagradditions:insanium:2> * 4);
+gearing.addRecipe(<moreplates:inferium_gear>, <mysticalagriculture:crafting:33> * 4);
+gearing.addRecipe(<moreplates:intermedium_gear>, <mysticalagriculture:crafting:35> * 4);
+gearing.addRecipe(<moreplates:prudentium_gear>, <mysticalagriculture:crafting:34> * 4);
+gearing.addRecipe(<moreplates:soulium_gear>, <enderio:item_alloy_ingot:7> * 4);
+gearing.addRecipe(<moreplates:superium_gear>, <mysticalagriculture:crafting:36> * 4);
+gearing.addRecipe(<thermalfoundation:material:25>, <minecraft:gold_ingot> * 4);
+gearing.addRecipe(<thermalfoundation:material:26>, <minecraft:diamond> * 4);
+gearing.addRecipe(<thermalfoundation:material:27>, <minecraft:emerald> * 4);
+gearing.addRecipe(<thermalfoundation:material:258>, <thermalfoundation:material:130> * 4);
+gearing.addRecipe(<thermalfoundation:material:260>, <thermalfoundation:material:132> * 4);
+gearing.addRecipe(<thermalfoundation:material:261>, <thermalfoundation:material:133> * 4);
+gearing.addRecipe(<thermalfoundation:material:262>, <thermalfoundation:material:134> * 4);
+gearing.addRecipe(<thermalfoundation:material:263>, <thermalfoundation:material:135> * 4);
+gearing.addRecipe(<thermalfoundation:material:264>, <thermalfoundation:material:136> * 4);
+gearing.addRecipe(<thermalfoundation:material:288>, <thermalfoundation:material:160> * 4);
+gearing.addRecipe(<thermalfoundation:material:289>, <thermalfoundation:material:161> * 4);
+gearing.addRecipe(<thermalfoundation:material:290>, <thermalfoundation:material:162> * 4);
+gearing.addRecipe(<thermalfoundation:material:291>, <thermalfoundation:material:163> * 4);
+gearing.addRecipe(<thermalfoundation:material:292>, <thermalfoundation:material:164> * 4);
+gearing.addRecipe(<thermalfoundation:material:293>, <thermalfoundation:material:165> * 4);
+gearing.addRecipe(<thermalfoundation:material:294>, <thermalfoundation:material:166> * 4);
+gearing.addRecipe(<thermalfoundation:material:295>, <thermalfoundation:material:167> * 4);
 
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:256>, <thermalfoundation:material:128> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:257>, <thermalfoundation:material:129> * 4);
-mods.industrialupgrade.gearing.addRecipe(<thermalfoundation:material:259>, <thermalfoundation:material:131> * 4);
+gearing.addRecipe(<thermalfoundation:material:256>, <thermalfoundation:material:128> * 4);
+gearing.addRecipe(<thermalfoundation:material:257>, <thermalfoundation:material:129> * 4);
+gearing.addRecipe(<thermalfoundation:material:259>, <thermalfoundation:material:131> * 4);
 
-mods.industrialupgrade.gearing.addRecipe(<redstonearsenal:material:96>,<redstonearsenal:material:32>*4);
+gearing.addRecipe(<redstonearsenal:material:96>,<redstonearsenal:material:32>*4);
 
 //SMELTING
 mods.industrialupgrade.electricfurnace.addRecipe(<thermalfoundation:material:165>, <thermalfoundation:material:101>, 50.0);
@@ -372,112 +398,38 @@ mods.industrialupgrade.electricfurnace.addRecipe(<thermalfoundation:material:167
 //GenMicrochip
 //mods.industrialupgrade.GenMicrochip.addRecipe(lltemStack, llngredient, llngredient, llngredient, llngredient, llngredient, int);
 
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:draconium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:draconium_capacitor>, <contenttweaker:draconic_soic>,<contenttweaker:draconic_qfp>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:awakened_draconium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:awakened_capacitor>, <contenttweaker:awakened_soic>,<contenttweaker:awakened_qfp>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:chaotic_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:chaotic_capacitor>, <contenttweaker:chaotic_soic>,<contenttweaker:chaotic_qfp>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:neutronium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:neutronium_capacitor>, <contenttweaker:neutronium_soic>,<contenttweaker:neutronium_qfp>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_eden>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_eden>, <iuadditions:soic_eden>,<iuadditions:qfp_eden>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_wildwood>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_wildwood>, <iuadditions:soic_wildwood>,<iuadditions:qfp_wildwood>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_apalachia>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_apalachia>, <iuadditions:soic_apalachia>,<iuadditions:qfp_apalachia>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_skythern>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_skythern>, <iuadditions:soic_skythern>,<iuadditions:qfp_skythern>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_mortum>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_mortum>, <iuadditions:soic_mortum>,<iuadditions:qfp_mortum>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:circuit_arcana>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_arcana>, <iuadditions:soic_arcana>,<iuadditions:qfp_arcana>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:draconium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:draconium_capacitor>, <contenttweaker:draconic_soic>,<contenttweaker:draconic_qfp>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:awakened_draconium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:awakened_capacitor>, <contenttweaker:awakened_soic>,<contenttweaker:awakened_qfp>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:chaotic_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:chaotic_capacitor>, <contenttweaker:chaotic_soic>,<contenttweaker:chaotic_qfp>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:neutronium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:neutronium_capacitor>, <contenttweaker:neutronium_soic>,<contenttweaker:neutronium_qfp>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_eden>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_eden>, <iuadditions:soic_eden>,<iuadditions:qfp_eden>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_wildwood>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_wildwood>, <iuadditions:soic_wildwood>,<iuadditions:qfp_wildwood>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_apalachia>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_apalachia>, <iuadditions:soic_apalachia>,<iuadditions:qfp_apalachia>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_skythern>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_skythern>, <iuadditions:soic_skythern>,<iuadditions:qfp_skythern>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_mortum>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_mortum>, <iuadditions:soic_mortum>,<iuadditions:qfp_mortum>, 5000);
+GenMicrochip.addRecipe(<iuadditions:circuit_arcana>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_arcana>, <iuadditions:soic_arcana>,<iuadditions:qfp_arcana>, 5000);
 
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:draconium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:awakened_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:awakened_draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:chaotic_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <maia_draconic_edition:chaotic_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<contenttweaker:neutronium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <avaritia:resource:3>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_eden>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:eden_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_wildwood>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:wildwood_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_apalachia>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:apalachia_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_skythern>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:skythern_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_mortum>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:mortum_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-// mods.industrialupgrade.GenMicrochip.addRecipe(<iuadditions:capacitor_arcana>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:collector_fragments>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:draconium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:awakened_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:awakened_draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:chaotic_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <maia_draconic_edition:chaotic_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<contenttweaker:neutronium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <avaritia:resource:3>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
 
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:35>, <moreplates:certus_quartz_plate> * 4, <moreplates:redstone_alloy_plate> *  4, <appliedenergistics2:material:22> * 2, <appliedenergistics2:part:140> * 2, <fluxnetworks:flux> * 2, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:36>, <appliedenergistics2:material:35> * 3, <moreplates:redstone_plate> * 4, <appliedenergistics2:material:22> * 2, <appliedenergistics2:part:140> * 4, <fluxnetworks:flux> * 2, 2000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:37>, <appliedenergistics2:material:36> * 3, <extrautils2:ingredients:2> * 4, <appliedenergistics2:material:22> * 2, <appliedenergistics2:part:140> * 4, <moreplates:terrasteel_plate>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:38>, <appliedenergistics2:material:37> * 3, <moreplates:redstone_alloy_plate> * 4, <contenttweaker:ae2uel_processor_universal>, <appliedenergistics2:part:140> * 4, <industrialupgrade:circuit:8>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:61>, <appliedenergistics2:material:38> * 3, <thermalfoundation:material:357> * 4, <contenttweaker:ae2uel_processor_universal>, <appliedenergistics2:part:140> * 4, <iuadditions:plate_astralstarmetal>, 3500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:62>, <appliedenergistics2:material:61> * 3, <contenttweaker:plate_alloy_thermal> * 2, <threng:material:6>, <appliedenergistics2:part:76> * 4, <iuadditions:plate_certus>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:63>, <appliedenergistics2:material:62> * 3, <contenttweaker:plate_alloy_ender> * 2, <threng:material:6>, <appliedenergistics2:part:76> * 4, <iuadditions:plate_static>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:64>, <appliedenergistics2:material:63> * 3, <contenttweaker:plate_alloy_botanical> * 4, <threng:material:14> * 4, <industrialupgrade:qe_iu_item> * 4, <iuadditions:plate_refractive>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:65>, <appliedenergistics2:material:64> * 3, <iuadditions:core_apalachia>, <forestry:database>*2, <industrialupgrade:upgrades:6>*4, <iuadditions:plate_refractive>*2, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:66>, <appliedenergistics2:material:65> * 3, <iuadditions:core_skythern>, <storagedrawers:upgrade_creative>*2, <industrialupgrade:modules:8>*4, <contenttweaker:iridium_advanced_fiery>*2, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:67>, <appliedenergistics2:material:66> * 3, <iuadditions:core_crossdimensional>, <storagedrawers:upgrade_creative>*4, <industrialupgrade:upgrades:7>*4, <contenttweaker:iridium_advanced_chaotic>*2, 5000);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:54>, <moreplates:certus_quartz_plate> * 4, <enderio:item_fluid_filter>, <appliedenergistics2:material:22> * 2, <appliedenergistics2:part:140> * 2, <minecraft:lapis_block>, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:55>, <appliedenergistics2:material:54> * 3, <mekanism:compressedredstone>, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <minecraft:lapis_block>, 2000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:56>, <appliedenergistics2:material:55> * 3, <mekanism:compressedredstone>, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <industrialupgrade:crafting_elements:154>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:57>, <appliedenergistics2:material:56> * 3, <ore:alloyAdvanced> * 2, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <industrialupgrade:crafting_elements:27>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:68>, <appliedenergistics2:material:57> * 3, <ore:alloyAdvanced> * 4, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <industrialupgrade:crafting_elements:6>, 4000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:69>, <appliedenergistics2:material:68> * 3, <ore:alloyAdvanced> * 4, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <industrialupgrade:crafting_elements:83>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:70>, <appliedenergistics2:material:69> * 3, <ore:alloyAdvanced> * 4, <appliedenergistics2:material:23> * 2, <industrialupgrade:fluid_cell> * 4, <industrialupgrade:crafting_elements:107>, 5000);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_1k>, <appliedenergistics2:crafting_unit>, <thermalexpansion:frame>, <industrialupgrade:itemplates:3> * 4, <appliedenergistics2:quartz_vibrant_glass> * 4, <appliedenergistics2:material:35>, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_4k>, <appliedenergistics2:crafting_unit>, <thermalexpansion:frame>, <industrialupgrade:itemplates:3> * 4, <appliedenergistics2:quartz_vibrant_glass> * 4, <appliedenergistics2:material:36>, 2000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_16k>, <appliedenergistics2:crafting_unit>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:274> * 4, <industrialupgrade:crafting_elements:128>, <appliedenergistics2:material:37>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_64k>, <appliedenergistics2:crafting_unit>, <industrialupgrade:blockresource:9>, <industrialupgrade:crafting_elements:274> * 4, <industrialupgrade:crafting_elements:129>, <appliedenergistics2:material:38>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_1mb>, <appliedenergistics2:crafting_unit>, <genetics:misc:10>, <industrialupgrade:compresscarbonultra> * 8,<industrialupgrade:manasteel_core> * 2, <appliedenergistics2:material:61>, 3500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_4mb>, <appliedenergistics2:crafting_unit>, <genetics:misc:10>, <industrialupgrade:compresscarbonultra> * 8,<industrialupgrade:terrasteel_core> * 2, <appliedenergistics2:material:62>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_16mb>, <appliedenergistics2:crafting_unit>, <contenttweaker:perfect_industrial_casing>, <contenttweaker:plate_alloy_thermal> * 4, <industrialupgrade:elementium_core> * 2, <appliedenergistics2:material:63>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_64mb>, <appliedenergistics2:crafting_unit>, <contenttweaker:perfect_industrial_casing>, <contenttweaker:plate_gaia_steel> * 8, <industrialupgrade:elementium_core> * 2, <appliedenergistics2:material:64>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_256mb>, <appliedenergistics2:crafting_unit>, <contenttweaker:perfect_industrial_casing>, <contenttweaker:plate_gaia_steel> * 8, <industrialupgrade:itemcore:4>*2, <appliedenergistics2:material:65>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_1gb>, <appliedenergistics2:crafting_unit>, <contenttweaker:perfect_industrial_casing>, <contenttweaker:plate_alloy_botanical>*2, <industrialupgrade:itemcore:5>*2, <appliedenergistics2:material:66>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_storage_15gb>, <appliedenergistics2:crafting_unit>, <contenttweaker:perfect_industrial_casing>, <contenttweaker:plate_alloy_botanical>*4, <industrialupgrade:neutroncore>, <appliedenergistics2:material:67>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_monitor>, <appliedenergistics2:crafting_unit>, <appliedenergistics2:part:400>, <appliedenergistics2:quartz_vibrant_glass> * 4, <industrialupgrade:crafting_elements:273>, <forestry:chipsets:3>.withTag({T: 3 as short}), 1500);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_1k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor>, <genetics:misc:8>, <moreplates:manasteel_plate>, <appliedenergistics2:material:35>, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_4k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor>, <genetics:misc:8>, <moreplates:manasteel_plate> * 2, <appliedenergistics2:material:36>, 2000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_16k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor:1>, <genetics:misc:8> * 4, <moreplates:manasteel_plate> * 4, <appliedenergistics2:material:37>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_64k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor:2>, <genetics:misc:8> * 4, <moreplates:terrasteel_plate> * 4, <appliedenergistics2:material:38>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_1mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 2, <genetics:misc:9>, <moreplates:elementium_plate> * 4, <appliedenergistics2:material:61>, 3500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_4mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 2, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 2, <appliedenergistics2:material:62>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_16mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_stellar> * 2, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 2, <appliedenergistics2:material:63>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_64mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_stellar> * 2, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 2, <appliedenergistics2:material:64>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:storage_cell_256mb>, <appliedenergistics2:material:39>, <contenttweaker:neutronium_capacitor> *4, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 4, <appliedenergistics2:material:65>, 5000);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_1k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor>, <genetics:misc:8> * 4, <moreplates:manasteel_plate> * 4, <appliedenergistics2:material:54>, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_4k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor>, <genetics:misc:8> * 4, <moreplates:manasteel_plate> * 4, <appliedenergistics2:material:55>, 2000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_16k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor:1>, <genetics:misc:8> * 4, <moreplates:manasteel_plate> * 4, <appliedenergistics2:material:56>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_64k>, <appliedenergistics2:material:39>, <enderio:item_basic_capacitor:2>, <genetics:misc:8> * 4, <moreplates:terrasteel_plate> * 4, <appliedenergistics2:material:57>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_1mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 2, <genetics:misc:9> * 4, <moreplates:elementium_plate> * 4, <appliedenergistics2:material:68>, 4000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_4mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_stellar> * 2, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 2, <appliedenergistics2:material:69>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:fluid_storage_cell_16mb>, <appliedenergistics2:material:39>, <enderio:item_capacitor_stellar> * 2, <genetics:misc:9> * 4, <contenttweaker:plate_alloy_industrial> * 2, <appliedenergistics2:material:70>, 5000);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:spatial_storage_cell_2_cubed>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 2, <mekanism:teleportationcore>, <thermalfoundation:material:359> * 4, <appliedenergistics2:material:32>, 4000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:spatial_storage_cell_16_cubed>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 16, <appliedenergistics2:material:47>, <moreplates:draconium_plate> * 4, <appliedenergistics2:material:33>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:spatial_storage_cell_128_cubed>, <appliedenergistics2:material:39>, <enderio:item_capacitor_melodic> * 32, <endreborn:item_advanced_ender_pearl>, <moreplates:crystal_matrix_plate> * 4, <appliedenergistics2:material:34>, 5000);
-    
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:28>, <industrialupgrade:module_schedule>, <industrialupgrade:itemplates:1>, <industrialupgrade:crafting_elements:92>, <enderio:item_basic_capacitor:2>, <industrialupgrade:crafting_elements:25>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:25>, <industrialupgrade:module_schedule>, <industrialupgrade:itemdoubleplates:21>, <industrialupgrade:crafting_elements:42>, <enderio:item_basic_capacitor:2>, <industrialupgrade:crafting_elements:21>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:30>*3, <appliedenergistics2:material:28>, <mekanism:controlcircuit:2>, <industrialupgrade:fluid_cell>, <extrautils2:ingredients:15> *2, <industrialupgrade:crafting_elements:155>, 3000); 
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:53>, <appliedenergistics2:material:25>, <mekanism:controlcircuit:1>, <appliedenergistics2:part:280>, <avaritia:double_compressed_crafting_table>, <industrialupgrade:crafting_elements:128>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:27>, <appliedenergistics2:material:25>, <mekanism:controlcircuit:1>, <moreplates:electrical_steel_plate>, <storagedrawers:upgrade_storage:4>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}), 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:portable_cell>, <appliedenergistics2:material:39>, <appliedenergistics2:chest>, <appliedenergistics2:material:35>, <appliedenergistics2:energy_cell>, <storagedrawers:upgrade_storage>, 2500);
-//mods.industrialupgrade.GenMicrochip.addRecipe(<aeadditions:storage.fluid.portable>, <appliedenergistics2:material:39>, <appliedenergistics2:chest>, <appliedenergistics2:material:54>, <appliedenergistics2:energy_cell>, <industrialupgrade:crafting_elements:48>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:58>, <appliedenergistics2:material:28>, <mekanism:controlcircuit:2>, <appliedenergistics2:interface>, <ironchest:diamond_crystal_chest_upgrade>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:material:26>, <appliedenergistics2:material:25>, <mekanism:controlcircuit:1>, <industrialupgrade:crafting_elements:16>, <minecraft:comparator>, <industrialupgrade:crafting_elements:266>, 2500);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_eden>);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_wildwood>);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_apalachia>);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_skythern>);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_mortum>);
+GenMicrochip.removeRecipe(<iuadditions:capacitor_arcana>);
+GenMicrochip.addRecipe(<iuadditions:capacitor_eden>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:eden_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_wildwood>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:wildwood_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_apalachia>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:apalachia_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_skythern>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:skythern_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_mortum>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:mortum_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_arcana>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:collector_fragments>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:capacitor_stellar>, <industrialupgrade:itemingots:9>, <astralsorcery:itemusabledust>, <fluxnetworks:flux>, <astralsorcery:itemcraftingcomponent:1>, <industrialupgrade:itemingots:9>, 2000);
 
 
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:part:260>,<ore:circuitElite>, <gendustry:eject_cover>, <industrialupgrade:crafting_elements:42>, <appliedenergistics2:material:43>, <industrialupgrade:plastic_plate>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:part:240>,<ore:circuitElite>, <gendustry:import_cover>, <industrialupgrade:crafting_elements:42>, <appliedenergistics2:material:44>, <industrialupgrade:plastic_plate>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:part:261>, <ore:circuitElite>, <botania:rune>, <industrialupgrade:crafting_elements:42>, <appliedenergistics2:material:43>, <botania:pistonrelay>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:part:241>, <ore:circuitElite>, <botania:rune>, <industrialupgrade:crafting_elements:42>, <appliedenergistics2:material:44>, <botania:pistonrelay>, 2500);
 
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator>, <appliedenergistics2:crafting_unit>,<mekanism:controlcircuit> * 2, <industrialupgrade:crafting_elements:42>, <industrialupgrade:crafting_elements:414> * 4, <industrialupgrade:circuit:17>, 1500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_4x>, <appliedenergistics2:crafting_accelerator>*2, <mekanism:controlcircuit:1>, <industrialupgrade:crafting_elements:42>, <industrialupgrade:crafting_elements:414> * 4, <industrialupgrade:circuit:14>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_16x>, <appliedenergistics2:crafting_accelerator_4x>*3, <mekanism:controlcircuit:2>, <industrialupgrade:crafting_elements:16> * 2, <industrialupgrade:crafting_elements:426> * 4, <industrialupgrade:circuit:6>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_64x>, <appliedenergistics2:crafting_accelerator_16x>*3, <mekanism:controlcircuit:3>, <industrialupgrade:crafting_elements:16> * 2, <industrialupgrade:crafting_elements:426> * 8, <industrialupgrade:circuit:7>, 3500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_128x>, <appliedenergistics2:crafting_accelerator_64x>*2, <mekanismecoenergistics:morecontrolcircuit:2>, <industrialupgrade:crafting_elements:92> * 4, <industrialupgrade:crafting_elements:373> * 8,<industrialupgrade:circuit:7>, 4000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_256x>, <appliedenergistics2:crafting_accelerator_128x>*2, <mekanismecoenergistics:morecontrolcircuit:3>, <industrialupgrade:crafting_elements:92> * 4, <industrialupgrade:crafting_elements:373> * 16,<industrialupgrade:circuit:8>, 4500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_512x>, <appliedenergistics2:crafting_accelerator_256x>*2, <mekanismecoenergistics:morecontrolcircuit:7>, <industrialupgrade:crafting_elements:116> * 8, <industrialupgrade:crafting_elements:402> * 16,<industrialupgrade:circuit:8>, 5000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:crafting_accelerator_1024x>, <appliedenergistics2:crafting_accelerator_512x>*2, <mekanismecoenergistics:morecontrolcircuit:8>, <industrialupgrade:crafting_elements:116> * 8, <industrialupgrade:crafting_elements:402> * 32,<contenttweaker:neutronium_qfp>, 5000);
-
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:energy_cell> * 2, <industrialupgrade:solar_panel_battery:1>, <mekanism:otherdust:4> * 16, <industrialupgrade:crafting_elements:387> * 2, <mekanism:energyupgrade>, 2500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:improved_energy_cell>, <appliedenergistics2:dense_energy_cell> * 2, <industrialupgrade:solar_panel_battery:2>, <mekanismecoenergistics:moredust:3> * 16, <industrialupgrade:crafting_elements:425> * 2, <industrialupgrade:modules:6>, 3000);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:advanced_energy_cell>, <appliedenergistics2:improved_energy_cell> * 2, <industrialupgrade:solar_panel_battery:3>, <mekanismecoenergistics:moredust:3> * 24, <industrialupgrade:crafting_elements:372> * 2, <industrialupgrade:modules:7>, 3500);
-mods.industrialupgrade.GenMicrochip.addRecipe(<appliedenergistics2:perfect_energy_cell>, <appliedenergistics2:advanced_energy_cell> * 2, <industrialupgrade:solar_panel_battery:4>, <mekanismecoenergistics:moredust:3> * 32, <industrialupgrade:crafting_elements:398> * 2, <industrialupgrade:modules:8>, 4000);
 
 
 
@@ -489,7 +441,7 @@ mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:irid
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:275>, <industrialupgrade:chaosingot>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:275>, <botania:storage:2>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:275>, <astraladditions:block_starmetal>, 1000000);
-mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:275>, <mysticalagriculture:fire_essence>, 1000000);
+mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:275>, <divinerpg:molten_stone>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matter_chaotic>, <industrialupgrade:solidmatter>, <industrialupgrade:chaosingot>, 300000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matter_awakened_draconium>, <industrialupgrade:solidmatter>, <draconicevolution:draconic_block>, 200000000 );
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matter_gaia_guardian>, <industrialupgrade:solidmatter>, <avaritiatweaks:gaia_block>, 100000000);
@@ -499,217 +451,212 @@ mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matt
 // MolecularTransformer
 //mods.industrialupgrade.MolecularTransformer.addRecipe(output, ingredient, NNN);
 
-mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:arcanium>, <divinerpg:raw_arcanium>, 10000000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:raw_arcanium>, <astraladditions:block_starmetal>, 400000000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material>, 30000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<industrialforegoing:plastic>, <industrialupgrade:crafting_elements:290>, 120000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:eden_heart>, <industrialupgrade:entitymodules:1>.reuse(), 11111);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:eden_heart>, <divinerpg:eden_chunk>, 250000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:wildwood_heart>, <divinerpg:wildwood_chunk>, 300000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:apalachia_heart>, <divinerpg:apalachia_chunk>, 350000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:skythern_heart>, <divinerpg:skythern_chunk>, 500000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:mortum_heart>, <divinerpg:mortum_chunk>, 800000000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<draconicevolution:dragon_heart>, <minecraft:dragon_egg>, 800000000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<draconicadditions:chaos_heart>, <draconicadditions:chaos_crystal_stable>, 2000000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:bluefire_stone>, <divinerpg:molten_stone>, 12000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:divine_shards> * 5, <divinerpg:mysterious_clock>, 10000000);
-//mods.industrialupgrade.MolecularTransformer.addRecipe(output, ingredient, NNN);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:stone_essence>*2, <mysticalagriculture:stone_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dirt_essence> *2, <mysticalagriculture:dirt_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nature_essence> *2, <mysticalagriculture:nature_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:wood_essence> *2, <mysticalagriculture:wood_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:water_essence> *2, <mysticalagriculture:water_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ice_essence> *2, <mysticalagriculture:ice_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:fire_essence> *2, <mysticalagriculture:fire_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dye_essence> *2, <mysticalagriculture:dye_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nether_essence> *2, <mysticalagriculture:nether_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:coal_essence> *2, <mysticalagriculture:coal_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:iron_essence> *2, <mysticalagriculture:iron_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nether_quartz_essence> *2, <mysticalagriculture:nether_quartz_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:glowstone_essence> *2, <mysticalagriculture:glowstone_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:redstone_essence> *2, <mysticalagriculture:redstone_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:obsidian_essence> *2, <mysticalagriculture:obsidian_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:gold_essence> *2, <mysticalagriculture:gold_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lapis_lazuli_essence> *2, <mysticalagriculture:lapis_lazuli_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:end_essence> *2, <mysticalagriculture:end_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:experience_essence> *2, <mysticalagriculture:experience_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:diamond_essence> *2, <mysticalagriculture:diamond_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:emerald_essence> *2, <mysticalagriculture:emerald_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:zombie_essence> *2, <mysticalagriculture:zombie_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:pig_essence>*2, <mysticalagriculture:pig_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:chicken_essence>*2, <mysticalagriculture:chicken_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:cow_essence> *2, <mysticalagriculture:cow_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sheep_essence> *2, <mysticalagriculture:sheep_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:slime_essence> *2, <mysticalagriculture:slime_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:skeleton_essence> *2, <mysticalagriculture:skeleton_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:creeper_essence> *2, <mysticalagriculture:creeper_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:spider_essence> *2, <mysticalagriculture:spider_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rabbit_essence> *2, <mysticalagriculture:rabbit_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:guardian_essence> *2, <mysticalagriculture:guardian_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:blaze_essence> *2, <mysticalagriculture:blaze_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ghast_essence> *2, <mysticalagriculture:ghast_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:enderman_essence> *2, <mysticalagriculture:enderman_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:wither_skeleton_essence> *2, <mysticalagriculture:wither_skeleton_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rubber_essence> *2, <mysticalagriculture:rubber_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:silicon_essence> *2, <mysticalagriculture:silicon_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sulfur_essence> *2, <mysticalagriculture:sulfur_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:aluminum_essence> *2, <mysticalagriculture:aluminum_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:copper_essence> *2, <mysticalagriculture:copper_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:saltpeter_essence> *2, <mysticalagriculture:saltpeter_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:tin_essence> *2, <mysticalagriculture:tin_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:bronze_essence> *2, <mysticalagriculture:bronze_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:zinc_essence> *2, <mysticalagriculture:zinc_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:silver_essence> *2, <mysticalagriculture:silver_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lead_essence> *2, <mysticalagriculture:lead_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:graphite_essence> *2, <mysticalagriculture:graphite_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:steel_essence> *2, <mysticalagriculture:steel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nickel_essence> *2, <mysticalagriculture:nickel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:constantan_essence> *2, <mysticalagriculture:constantan_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:electrum_essence> *2, <mysticalagriculture:electrum_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:invar_essence> *2, <mysticalagriculture:invar_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:mithril_essence> *2, <mysticalagriculture:mithril_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:tungsten_essence> *2, <mysticalagriculture:tungsten_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:titanium_essence> *2, <mysticalagriculture:titanium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:uranium_essence> *2, <mysticalagriculture:uranium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:platinum_essence> *2, <mysticalagriculture:platinum_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:iridium_essence> *2, <mysticalagriculture:iridium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ruby_essence> *2, <mysticalagriculture:ruby_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sapphire_essence> *2, <mysticalagriculture:sapphire_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:peridot_essence> *2, <mysticalagriculture:peridot_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:blizz_essence> *2, <mysticalagriculture:blizz_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:basalz_essence> *2, <mysticalagriculture:basalz_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:signalum_essence> *2, <mysticalagriculture:signalum_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lumium_essence> *2, <mysticalagriculture:lumium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:enderium_essence> *2, <mysticalagriculture:enderium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:grains_of_infinity_essence> *2, <mysticalagriculture:grains_of_infinity_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:electrical_steel_essence> *2, <mysticalagriculture:electrical_steel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:redstone_alloy_essence> *2, <mysticalagriculture:redstone_alloy_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:conductive_iron_essence> *2, <mysticalagriculture:conductive_iron_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:soularium_essence> *2, <mysticalagriculture:soularium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dark_steel_essence> *2, <mysticalagriculture:dark_steel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:pulsating_iron_essence> *2, <mysticalagriculture:pulsating_iron_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:energetic_alloy_essence> *2, <mysticalagriculture:energetic_alloy_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:vibrant_alloy_essence> *2, <mysticalagriculture:vibrant_alloy_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:end_steel_essence> *2, <mysticalagriculture:end_steel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:mystical_flower_essence> *2, <mysticalagriculture:mystical_flower_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:manasteel_essence> *2, <mysticalagriculture:manasteel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:elementium_essence> *2, <mysticalagriculture:elementium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:terrasteel_essence> *2, <mysticalagriculture:terrasteel_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:marble_essence> *2, <mysticalagriculture:marble_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:limestone_essence> *2, <mysticalagriculture:limestone_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:basalt_essence> *2, <mysticalagriculture:basalt_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:apatite_essence> *2, <mysticalagriculture:apatite_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:aquamarine_essence> *2, <mysticalagriculture:aquamarine_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:starmetal_essence> *2, <mysticalagriculture:starmetal_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rock_crystal_essence> *2, <mysticalagriculture:rock_crystal_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:draconium_essence> *2, <mysticalagriculture:draconium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:yellorium_essence> *2, <mysticalagriculture:yellorium_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sky_stone_essence> *2, <mysticalagriculture:sky_stone_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:certus_quartz_essence> *2, <mysticalagriculture:certus_quartz_seeds> , 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:fluix_essence>*2, <mysticalagriculture:fluix_seeds> , 105000);
+MolecularTransformer.addRecipe(<divinerpg:arcanium>, <divinerpg:raw_arcanium>, 10000000);
+MolecularTransformer.addRecipe(<divinerpg:raw_arcanium>, <astraladditions:block_starmetal>, 400000000);
+MolecularTransformer.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material>, 30000);
+MolecularTransformer.addRecipe(<industrialforegoing:plastic>, <industrialupgrade:crafting_elements:290>, 120000);
 
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:stone_seeds> * 2, <mysticalagriculture:stone_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dirt_seeds> * 2, <mysticalagriculture:dirt_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nature_seeds> * 2, <mysticalagriculture:nature_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:wood_seeds> * 2, <mysticalagriculture:wood_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:water_seeds> * 2, <mysticalagriculture:water_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ice_seeds> * 2, <mysticalagriculture:ice_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:fire_seeds> * 2, <mysticalagriculture:fire_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dye_seeds> * 2, <mysticalagriculture:dye_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nether_seeds> * 2, <mysticalagriculture:nether_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:coal_seeds> * 2, <mysticalagriculture:coal_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:iron_seeds> * 2, <mysticalagriculture:iron_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nether_quartz_seeds> * 2, <mysticalagriculture:nether_quartz_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:glowstone_seeds> * 2, <mysticalagriculture:glowstone_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:redstone_seeds> * 2, <mysticalagriculture:redstone_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:obsidian_seeds> * 2, <mysticalagriculture:obsidian_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:gold_seeds> * 2, <mysticalagriculture:gold_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lapis_lazuli_seeds> * 2, <mysticalagriculture:lapis_lazuli_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:end_seeds> * 2, <mysticalagriculture:end_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:experience_seeds> * 2, <mysticalagriculture:experience_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:diamond_seeds> * 2, <mysticalagriculture:diamond_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:emerald_seeds> * 2, <mysticalagriculture:emerald_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:zombie_seeds> * 2, <mysticalagriculture:zombie_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:pig_seeds> * 2, <mysticalagriculture:pig_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:chicken_seeds> * 2, <mysticalagriculture:chicken_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:cow_seeds> * 2, <mysticalagriculture:cow_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sheep_seeds> * 2, <mysticalagriculture:sheep_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:slime_seeds> * 2, <mysticalagriculture:slime_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:skeleton_seeds> * 2, <mysticalagriculture:skeleton_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:creeper_seeds> * 2, <mysticalagriculture:creeper_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:spider_seeds> * 2, <mysticalagriculture:spider_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rabbit_seeds> * 2, <mysticalagriculture:rabbit_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:guardian_seeds> * 2, <mysticalagriculture:guardian_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:blaze_seeds> * 2, <mysticalagriculture:blaze_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ghast_seeds> * 2, <mysticalagriculture:ghast_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:enderman_seeds> * 2, <mysticalagriculture:enderman_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:wither_skeleton_seeds> * 2, <mysticalagriculture:wither_skeleton_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rubber_seeds> * 2, <mysticalagriculture:rubber_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:silicon_seeds> * 2, <mysticalagriculture:silicon_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sulfur_seeds> * 2, <mysticalagriculture:sulfur_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:aluminum_seeds> * 2, <mysticalagriculture:aluminum_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:copper_seeds> * 2, <mysticalagriculture:copper_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:saltpeter_seeds> * 2, <mysticalagriculture:saltpeter_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:tin_seeds> * 2, <mysticalagriculture:tin_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:bronze_seeds> * 2, <mysticalagriculture:bronze_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:zinc_seeds> * 2, <mysticalagriculture:zinc_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:silver_seeds> * 2, <mysticalagriculture:silver_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lead_seeds> * 2, <mysticalagriculture:lead_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:graphite_seeds> * 2, <mysticalagriculture:graphite_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:steel_seeds> * 2, <mysticalagriculture:steel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:nickel_seeds> * 2, <mysticalagriculture:nickel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:constantan_seeds> * 2, <mysticalagriculture:constantan_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:electrum_seeds> * 2, <mysticalagriculture:electrum_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:invar_seeds> * 2, <mysticalagriculture:invar_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:mithril_seeds> * 2, <mysticalagriculture:mithril_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:tungsten_seeds> * 2, <mysticalagriculture:tungsten_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:titanium_seeds> * 2, <mysticalagriculture:titanium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:uranium_seeds> * 2, <mysticalagriculture:uranium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:platinum_seeds> * 2, <mysticalagriculture:platinum_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:iridium_seeds> * 2, <mysticalagriculture:iridium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:ruby_seeds> * 2, <mysticalagriculture:ruby_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sapphire_seeds> * 2, <mysticalagriculture:sapphire_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:peridot_seeds> * 2, <mysticalagriculture:peridot_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:blizz_seeds> * 2, <mysticalagriculture:blizz_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:basalz_seeds> * 2, <mysticalagriculture:basalz_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:signalum_seeds> * 2, <mysticalagriculture:signalum_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:lumium_seeds> * 2, <mysticalagriculture:lumium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:enderium_seeds> * 2, <mysticalagriculture:enderium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:grains_of_infinity_seeds> * 2, <mysticalagriculture:grains_of_infinity_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:electrical_steel_seeds> * 2, <mysticalagriculture:electrical_steel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:redstone_alloy_seeds> * 2, <mysticalagriculture:redstone_alloy_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:conductive_iron_seeds> * 2, <mysticalagriculture:conductive_iron_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:soularium_seeds> * 2, <mysticalagriculture:soularium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:dark_steel_seeds> * 2, <mysticalagriculture:dark_steel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:pulsating_iron_seeds> * 2, <mysticalagriculture:pulsating_iron_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:energetic_alloy_seeds> * 2, <mysticalagriculture:energetic_alloy_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:vibrant_alloy_seeds> * 2, <mysticalagriculture:vibrant_alloy_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:end_steel_seeds> * 2, <mysticalagriculture:end_steel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:mystical_flower_seeds> * 2, <mysticalagriculture:mystical_flower_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:manasteel_seeds> * 2, <mysticalagriculture:manasteel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:elementium_seeds> * 2, <mysticalagriculture:elementium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:terrasteel_seeds> * 2, <mysticalagriculture:terrasteel_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:marble_seeds> * 2, <mysticalagriculture:marble_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:limestone_seeds> * 2, <mysticalagriculture:limestone_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:basalt_seeds> * 2, <mysticalagriculture:basalt_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:apatite_seeds> * 2, <mysticalagriculture:apatite_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:aquamarine_seeds> * 2, <mysticalagriculture:aquamarine_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:starmetal_seeds> * 2, <mysticalagriculture:starmetal_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:rock_crystal_seeds> * 2, <mysticalagriculture:rock_crystal_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:draconium_seeds> * 2, <mysticalagriculture:draconium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:yellorium_seeds> * 2, <mysticalagriculture:yellorium_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:sky_stone_seeds> * 2, <mysticalagriculture:sky_stone_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:certus_quartz_seeds> * 2, <mysticalagriculture:certus_quartz_essence>, 105000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<mysticalagriculture:fluix_seeds> * 2, <mysticalagriculture:fluix_essence>, 105000);
-//These changes ensure that each type of seed corresponds to its respective essence analogue, multiplied by two.
+MolecularTransformer.addRecipe(<draconicevolution:dragon_heart>, <minecraft:dragon_egg>, 800000000);
+MolecularTransformer.addRecipe(<draconicadditions:chaos_heart>, <draconicadditions:chaos_crystal_stable>, 2000000000);
+//MolecularTransformer.addRecipe(<divinerpg:bluefire_stone>, <divinerpg:molten_stone>, 12000000);
+//MolecularTransformer.addRecipe(<divinerpg:divine_shards> * 5, <divinerpg:mysterious_clock>, 10000000);
 
-mods.industrialupgrade.MolecularTransformer.addRecipe(<thermalfoundation:storage:7>, <minecraft:iron_block>, 9000500);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<industrialupgrade:itemcore> * 9, <thermalfoundation:storage:7>, 13500);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<contenttweaker:admcore>, <industrialupgrade:itemcore:13> * 8, 84000000000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:divine_shards>, <botania:petal:4>, 125000);
-mods.industrialupgrade.MolecularTransformer.addRecipe(<divinerpg:molten_shards>, <botania:petal:14>, 125000);
+MolecularTransformer.addRecipe(<mysticalagriculture:stone_essence>*2, <mysticalagriculture:stone_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dirt_essence> *2, <mysticalagriculture:dirt_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nature_essence> *2, <mysticalagriculture:nature_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:wood_essence> *2, <mysticalagriculture:wood_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:water_essence> *2, <mysticalagriculture:water_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ice_essence> *2, <mysticalagriculture:ice_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:fire_essence> *2, <mysticalagriculture:fire_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dye_essence> *2, <mysticalagriculture:dye_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nether_essence> *2, <mysticalagriculture:nether_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:coal_essence> *2, <mysticalagriculture:coal_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:iron_essence> *2, <mysticalagriculture:iron_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nether_quartz_essence> *2, <mysticalagriculture:nether_quartz_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:glowstone_essence> *2, <mysticalagriculture:glowstone_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:redstone_essence> *2, <mysticalagriculture:redstone_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:obsidian_essence> *2, <mysticalagriculture:obsidian_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:gold_essence> *2, <mysticalagriculture:gold_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lapis_lazuli_essence> *2, <mysticalagriculture:lapis_lazuli_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:end_essence> *2, <mysticalagriculture:end_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:experience_essence> *2, <mysticalagriculture:experience_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:diamond_essence> *2, <mysticalagriculture:diamond_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:emerald_essence> *2, <mysticalagriculture:emerald_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:zombie_essence> *2, <mysticalagriculture:zombie_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:pig_essence>*2, <mysticalagriculture:pig_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:chicken_essence>*2, <mysticalagriculture:chicken_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:cow_essence> *2, <mysticalagriculture:cow_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sheep_essence> *2, <mysticalagriculture:sheep_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:slime_essence> *2, <mysticalagriculture:slime_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:skeleton_essence> *2, <mysticalagriculture:skeleton_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:creeper_essence> *2, <mysticalagriculture:creeper_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:spider_essence> *2, <mysticalagriculture:spider_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rabbit_essence> *2, <mysticalagriculture:rabbit_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:guardian_essence> *2, <mysticalagriculture:guardian_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:blaze_essence> *2, <mysticalagriculture:blaze_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ghast_essence> *2, <mysticalagriculture:ghast_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:enderman_essence> *2, <mysticalagriculture:enderman_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:wither_skeleton_essence> *2, <mysticalagriculture:wither_skeleton_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rubber_essence> *2, <mysticalagriculture:rubber_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:silicon_essence> *2, <mysticalagriculture:silicon_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sulfur_essence> *2, <mysticalagriculture:sulfur_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:aluminum_essence> *2, <mysticalagriculture:aluminum_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:copper_essence> *2, <mysticalagriculture:copper_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:saltpeter_essence> *2, <mysticalagriculture:saltpeter_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:tin_essence> *2, <mysticalagriculture:tin_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:bronze_essence> *2, <mysticalagriculture:bronze_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:zinc_essence> *2, <mysticalagriculture:zinc_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:silver_essence> *2, <mysticalagriculture:silver_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lead_essence> *2, <mysticalagriculture:lead_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:graphite_essence> *2, <mysticalagriculture:graphite_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:steel_essence> *2, <mysticalagriculture:steel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nickel_essence> *2, <mysticalagriculture:nickel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:constantan_essence> *2, <mysticalagriculture:constantan_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:electrum_essence> *2, <mysticalagriculture:electrum_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:invar_essence> *2, <mysticalagriculture:invar_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:mithril_essence> *2, <mysticalagriculture:mithril_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:tungsten_essence> *2, <mysticalagriculture:tungsten_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:titanium_essence> *2, <mysticalagriculture:titanium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:uranium_essence> *2, <mysticalagriculture:uranium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:platinum_essence> *2, <mysticalagriculture:platinum_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:iridium_essence> *2, <mysticalagriculture:iridium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ruby_essence> *2, <mysticalagriculture:ruby_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sapphire_essence> *2, <mysticalagriculture:sapphire_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:peridot_essence> *2, <mysticalagriculture:peridot_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:blizz_essence> *2, <mysticalagriculture:blizz_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:basalz_essence> *2, <mysticalagriculture:basalz_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:signalum_essence> *2, <mysticalagriculture:signalum_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lumium_essence> *2, <mysticalagriculture:lumium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:enderium_essence> *2, <mysticalagriculture:enderium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:grains_of_infinity_essence> *2, <mysticalagriculture:grains_of_infinity_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:electrical_steel_essence> *2, <mysticalagriculture:electrical_steel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:redstone_alloy_essence> *2, <mysticalagriculture:redstone_alloy_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:conductive_iron_essence> *2, <mysticalagriculture:conductive_iron_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:soularium_essence> *2, <mysticalagriculture:soularium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dark_steel_essence> *2, <mysticalagriculture:dark_steel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:pulsating_iron_essence> *2, <mysticalagriculture:pulsating_iron_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:energetic_alloy_essence> *2, <mysticalagriculture:energetic_alloy_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:vibrant_alloy_essence> *2, <mysticalagriculture:vibrant_alloy_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:end_steel_essence> *2, <mysticalagriculture:end_steel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:mystical_flower_essence> *2, <mysticalagriculture:mystical_flower_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:manasteel_essence> *2, <mysticalagriculture:manasteel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:elementium_essence> *2, <mysticalagriculture:elementium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:terrasteel_essence> *2, <mysticalagriculture:terrasteel_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:marble_essence> *2, <mysticalagriculture:marble_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:limestone_essence> *2, <mysticalagriculture:limestone_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:basalt_essence> *2, <mysticalagriculture:basalt_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:apatite_essence> *2, <mysticalagriculture:apatite_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:aquamarine_essence> *2, <mysticalagriculture:aquamarine_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:starmetal_essence> *2, <mysticalagriculture:starmetal_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rock_crystal_essence> *2, <mysticalagriculture:rock_crystal_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:draconium_essence> *2, <mysticalagriculture:draconium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:yellorium_essence> *2, <mysticalagriculture:yellorium_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sky_stone_essence> *2, <mysticalagriculture:sky_stone_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:certus_quartz_essence> *2, <mysticalagriculture:certus_quartz_seeds> , 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:fluix_essence>*2, <mysticalagriculture:fluix_seeds> , 105000);
 
-mods.industrialupgrade.MolecularTransformer.addRecipe(<midnight:rouxe>, <extrautils2:ingredients>, 25000);
+MolecularTransformer.addRecipe(<mysticalagriculture:stone_seeds> * 2, <mysticalagriculture:stone_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dirt_seeds> * 2, <mysticalagriculture:dirt_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nature_seeds> * 2, <mysticalagriculture:nature_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:wood_seeds> * 2, <mysticalagriculture:wood_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:water_seeds> * 2, <mysticalagriculture:water_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ice_seeds> * 2, <mysticalagriculture:ice_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:fire_seeds> * 2, <mysticalagriculture:fire_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dye_seeds> * 2, <mysticalagriculture:dye_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nether_seeds> * 2, <mysticalagriculture:nether_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:coal_seeds> * 2, <mysticalagriculture:coal_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:iron_seeds> * 2, <mysticalagriculture:iron_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nether_quartz_seeds> * 2, <mysticalagriculture:nether_quartz_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:glowstone_seeds> * 2, <mysticalagriculture:glowstone_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:redstone_seeds> * 2, <mysticalagriculture:redstone_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:obsidian_seeds> * 2, <mysticalagriculture:obsidian_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:gold_seeds> * 2, <mysticalagriculture:gold_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lapis_lazuli_seeds> * 2, <mysticalagriculture:lapis_lazuli_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:end_seeds> * 2, <mysticalagriculture:end_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:experience_seeds> * 2, <mysticalagriculture:experience_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:diamond_seeds> * 2, <mysticalagriculture:diamond_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:emerald_seeds> * 2, <mysticalagriculture:emerald_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:zombie_seeds> * 2, <mysticalagriculture:zombie_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:pig_seeds> * 2, <mysticalagriculture:pig_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:chicken_seeds> * 2, <mysticalagriculture:chicken_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:cow_seeds> * 2, <mysticalagriculture:cow_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sheep_seeds> * 2, <mysticalagriculture:sheep_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:slime_seeds> * 2, <mysticalagriculture:slime_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:skeleton_seeds> * 2, <mysticalagriculture:skeleton_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:creeper_seeds> * 2, <mysticalagriculture:creeper_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:spider_seeds> * 2, <mysticalagriculture:spider_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rabbit_seeds> * 2, <mysticalagriculture:rabbit_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:guardian_seeds> * 2, <mysticalagriculture:guardian_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:blaze_seeds> * 2, <mysticalagriculture:blaze_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ghast_seeds> * 2, <mysticalagriculture:ghast_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:enderman_seeds> * 2, <mysticalagriculture:enderman_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:wither_skeleton_seeds> * 2, <mysticalagriculture:wither_skeleton_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rubber_seeds> * 2, <mysticalagriculture:rubber_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:silicon_seeds> * 2, <mysticalagriculture:silicon_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sulfur_seeds> * 2, <mysticalagriculture:sulfur_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:aluminum_seeds> * 2, <mysticalagriculture:aluminum_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:copper_seeds> * 2, <mysticalagriculture:copper_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:saltpeter_seeds> * 2, <mysticalagriculture:saltpeter_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:tin_seeds> * 2, <mysticalagriculture:tin_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:bronze_seeds> * 2, <mysticalagriculture:bronze_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:zinc_seeds> * 2, <mysticalagriculture:zinc_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:silver_seeds> * 2, <mysticalagriculture:silver_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lead_seeds> * 2, <mysticalagriculture:lead_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:graphite_seeds> * 2, <mysticalagriculture:graphite_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:steel_seeds> * 2, <mysticalagriculture:steel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:nickel_seeds> * 2, <mysticalagriculture:nickel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:constantan_seeds> * 2, <mysticalagriculture:constantan_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:electrum_seeds> * 2, <mysticalagriculture:electrum_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:invar_seeds> * 2, <mysticalagriculture:invar_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:mithril_seeds> * 2, <mysticalagriculture:mithril_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:tungsten_seeds> * 2, <mysticalagriculture:tungsten_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:titanium_seeds> * 2, <mysticalagriculture:titanium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:uranium_seeds> * 2, <mysticalagriculture:uranium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:platinum_seeds> * 2, <mysticalagriculture:platinum_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:iridium_seeds> * 2, <mysticalagriculture:iridium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:ruby_seeds> * 2, <mysticalagriculture:ruby_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sapphire_seeds> * 2, <mysticalagriculture:sapphire_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:peridot_seeds> * 2, <mysticalagriculture:peridot_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:blizz_seeds> * 2, <mysticalagriculture:blizz_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:basalz_seeds> * 2, <mysticalagriculture:basalz_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:signalum_seeds> * 2, <mysticalagriculture:signalum_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:lumium_seeds> * 2, <mysticalagriculture:lumium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:enderium_seeds> * 2, <mysticalagriculture:enderium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:grains_of_infinity_seeds> * 2, <mysticalagriculture:grains_of_infinity_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:electrical_steel_seeds> * 2, <mysticalagriculture:electrical_steel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:redstone_alloy_seeds> * 2, <mysticalagriculture:redstone_alloy_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:conductive_iron_seeds> * 2, <mysticalagriculture:conductive_iron_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:soularium_seeds> * 2, <mysticalagriculture:soularium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:dark_steel_seeds> * 2, <mysticalagriculture:dark_steel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:pulsating_iron_seeds> * 2, <mysticalagriculture:pulsating_iron_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:energetic_alloy_seeds> * 2, <mysticalagriculture:energetic_alloy_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:vibrant_alloy_seeds> * 2, <mysticalagriculture:vibrant_alloy_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:end_steel_seeds> * 2, <mysticalagriculture:end_steel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:mystical_flower_seeds> * 2, <mysticalagriculture:mystical_flower_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:manasteel_seeds> * 2, <mysticalagriculture:manasteel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:elementium_seeds> * 2, <mysticalagriculture:elementium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:terrasteel_seeds> * 2, <mysticalagriculture:terrasteel_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:marble_seeds> * 2, <mysticalagriculture:marble_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:limestone_seeds> * 2, <mysticalagriculture:limestone_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:basalt_seeds> * 2, <mysticalagriculture:basalt_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:apatite_seeds> * 2, <mysticalagriculture:apatite_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:aquamarine_seeds> * 2, <mysticalagriculture:aquamarine_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:starmetal_seeds> * 2, <mysticalagriculture:starmetal_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:rock_crystal_seeds> * 2, <mysticalagriculture:rock_crystal_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:draconium_seeds> * 2, <mysticalagriculture:draconium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:yellorium_seeds> * 2, <mysticalagriculture:yellorium_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:sky_stone_seeds> * 2, <mysticalagriculture:sky_stone_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:certus_quartz_seeds> * 2, <mysticalagriculture:certus_quartz_essence>, 105000);
+MolecularTransformer.addRecipe(<mysticalagriculture:fluix_seeds> * 2, <mysticalagriculture:fluix_essence>, 105000);
+
+
+MolecularTransformer.addRecipe(<thermalfoundation:storage:7>, <minecraft:iron_block>, 9000500);
+MolecularTransformer.addRecipe(<industrialupgrade:itemcore> * 9, <thermalfoundation:storage:7>, 13500);
+MolecularTransformer.addRecipe(<contenttweaker:admcore>, <industrialupgrade:itemcore:13> * 8, 84000000000);
+MolecularTransformer.addRecipe(<divinerpg:divine_shards>, <botania:petal:4>, 125000);
+MolecularTransformer.addRecipe(<divinerpg:molten_shards>, <botania:petal:14>, 125000);
+
+MolecularTransformer.addRecipe(<midnight:rouxe>, <extrautils2:ingredients>, 25000);
 
 //Compressor
 //mods.industrialupgrade.compressor.addRecipe(IItemstack, Ingridient);
@@ -755,12 +702,10 @@ mods.industrialupgrade.Fermer.addRecipe(<divinerpg:hitchak> *2, <divinerpg:hitch
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:veilo> *2, <divinerpg:veilo_seeds>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:tomato> *2, <divinerpg:tomato_seeds>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:moonbulb> *2, <divinerpg:moonbulb_seeds>);
-////mods.industrialupgrade.Fermer.addRecipe(<thaumcraft:log_greatwood> *2, <thaumcraft:sapling_greatwood>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:hitchak_seeds>, <divinerpg:hitchak>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:veilo_seeds>, <divinerpg:veilo>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:tomato_seeds>, <divinerpg:tomato>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:moonbulb_seeds>, <divinerpg:moonbulb>);
-////mods.industrialupgrade.Fermer.addRecipe(<thaumcraft:sapling_greatwood>, <thaumcraft:log_greatwood>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:pink_glowbone> *2, <divinerpg:pink_glowbone>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:purple_glowbone> *2, <divinerpg:purple_glowbone>);
 mods.industrialupgrade.Fermer.addRecipe(<divinerpg:sky_flower> *2, <divinerpg:sky_flower>);
@@ -822,8 +767,10 @@ mods.industrialupgrade.Sunnarium.addRecipe(<contenttweaker:admcore_exc>, <conten
 //Enrich
 //mods.industrialupgrade.Enrich.addRecipe(output, container, fill);
 
+//TO-DO
+
 //mods.industrialupgrade.Enrich.addRecipe(<contenttweaker:admsp>, <industrialupgrade:itemsunnariumpanel:12>, <contenttweaker:iridium_advanced_fiery>);
-mods.industrialupgrade.Enrich.addRecipe(<extrautils2:suncrystal>, <extrautils2:suncrystal:250>, <industrialupgrade:itemsunnarium:4>);
+//mods.industrialupgrade.Enrich.addRecipe(<extrautils2:suncrystal>, <extrautils2:suncrystal:250>, <industrialupgrade:itemsunnarium:4>);
 
 
 recipes.addShaped(<contenttweaker:admsp>, [[null, null, null],[<contenttweaker:iridium_advanced_chaotic>, <industrialupgrade:itemsunnariumpanel:12>, <contenttweaker:iridium_advanced_chaotic>], [null, null, null]]);
@@ -837,10 +784,10 @@ mods.industrialupgrade.macerator.addRecipe(<midnight:rouxe>*4, <midnight:rouxe_r
 mods.industrialupgrade.macerator.addRecipe(<midnight:bloomcrystal>*4, <midnight:bloomcrystal_rock>);
 
 
+//Fluid adapter
+//mods.industrialupgrade.fluidadapter.addRecipe(lltemStack, IltemStack, ILiquidStack, ILiquid Stack);
 
-
-
-
+fluidadapter.addRecipe(<botania:manaresource:2>, <extrautils2:suncrystal>, <liquid:glowstone>, <liquid:water>);
 
 
 

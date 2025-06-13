@@ -1,0 +1,22 @@
+{
+	title: "Dibromopropane",
+	x: 22.5d,
+	y: 19.0d,
+	dependencies: [
+		"da89d748",
+		"29ae825c"
+	],
+	tasks: [{
+		uid: "ba4c0429",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluiddibromopropane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

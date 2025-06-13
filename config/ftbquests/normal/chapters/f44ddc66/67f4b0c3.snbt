@@ -1,0 +1,16 @@
+{
+	x: -9.5d,
+	y: -3.0d,
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "9b332401",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:obsidian_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

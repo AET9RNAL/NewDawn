@@ -1,0 +1,23 @@
+{
+	title: "Sulfuric Acid",
+	x: 30.5d,
+	y: 9.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5",
+		"2f9911ce"
+	],
+	tasks: [{
+		uid: "99d50e49",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsulfuricacid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

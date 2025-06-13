@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -17.5d,
+	dependencies: [
+		"aad3df52"
+	],
+	tasks: [{
+		uid: "253a6bc0",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:rotorupgrade_schemes"
+		}]
+	}]
+}

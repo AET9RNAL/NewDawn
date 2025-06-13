@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -24.0d,
+	shape: "hexagon",
+	dependencies: [
+		"e90bf3f0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cc6f539b",
+		type: "item",
+		items: [{
+			item: "midnight:rouxe"
+		}],
+		count: 16L
+	}]
+}

@@ -44,47 +44,24 @@ recipes.addShaped(<industrialforegoing:mob_relocator>, [[<industrialforegoing:pl
 recipes.addShaped(<industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <industrialupgrade:nano_saber:27>.anyDamage(), <industrialforegoing:plastic>],[<botania:rune:13>, <enderio:item_material>, <botania:rune:13>], [<moreplates:evil_infused_iron_gear>, <simplyjetpacks:metaitemmods:19>, <moreplates:evil_infused_iron_gear>]]);
 recipes.addShaped(<industrialforegoing:enchantment_aplicator>, [[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],[<enderio:block_dark_steel_anvil>, <thermalexpansion:frame>, <enderio:block_dark_steel_anvil>], [<extrautils2:simpledecorative>, <extrautils2:decorativesolidwood:1>, <extrautils2:simpledecorative>]]);
 recipes.addShaped(<industrialforegoing:enchantment_aplicator>, [[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],[<enderio:block_dark_steel_anvil>, <enderio:item_material>, <enderio:block_dark_steel_anvil>], [<extrautils2:simpledecorative>, <extrautils2:decorativesolidwood:1>, <extrautils2:simpledecorative>]]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Hydrator
-recipes.remove(<industrialforegoing:hydrator>);
-mods.avaritia.ExtremeCrafting.addShaped("Hydrator", <industrialforegoing:hydrator> * 1, [[<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>], [null, null, null, null, null, null, null, null, null],[<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],[<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],[<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <appliedenergistics2:quartz_growth_accelerator>, <mysticalagriculture:growth_accelerator>, <appliedenergistics2:quartz_growth_accelerator>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],[<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],[<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],[null, null, null, null, null, null, null, null, null],[<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>]]);
-
-
 recipes.addShaped(<industrialforegoing:pitiful_fuel_generator>, [[<ore:ingotInvar>, <moreplates:conductive_iron_plate>, <botania:manaresource>],[<ore:gearIron>, <ironfurnaces:iron_furnace_idle>, <ore:gearIron>], [<botania:manaresource>, <thermalexpansion:frame>, <ore:ingotInvar>]]);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ────── Hydrator ──────
+mods.extendedcrafting.TableCrafting.addShaped(0,
+    <industrialforegoing:hydrator>,
+    [
+        [<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>],
+        [null, null, null, null, null, null, null, null, null],
+        [<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],
+        [<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],
+        [<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <appliedenergistics2:quartz_growth_accelerator>, <mysticalagriculture:growth_accelerator>, <appliedenergistics2:quartz_growth_accelerator>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],
+        [<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],
+        [<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],
+        [null, null, null, null, null, null, null, null, null],
+        [<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>]
+    ]
+);
 
 
 

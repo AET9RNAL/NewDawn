@@ -1,0 +1,21 @@
+{
+	title: "Acryonitrile",
+	x: -1.0d,
+	y: -6.0d,
+	dependencies: [
+		"189e5c74"
+	],
+	tasks: [{
+		uid: "83b7a358",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidacrylonitrile",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

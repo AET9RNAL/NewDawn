@@ -1,0 +1,21 @@
+{
+	title: "Polybutadiene",
+	x: 0.0d,
+	y: -7.5d,
+	dependencies: [
+		"d8201efa"
+	],
+	tasks: [{
+		uid: "078c744e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpolybutadiene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

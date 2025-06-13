@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	dependencies: [
+		"6f894d3d",
+		"8199b56e"
+	],
+	tasks: [{
+		uid: "fbed1aa8",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cooling_mixture"
+		}],
+		count: 4L
+	}]
+}

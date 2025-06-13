@@ -138,7 +138,6 @@ var pickaxeArray = [
     <netherex:blazed_amedian_pickaxe>,
     <netherex:withered_amedian_pickaxe>,
     <thermalfoundation:tool.sword_copper>,
-    <immersiveengineering:pickaxe_steel>,
     <thermalfoundation:tool.pickaxe_electrum>,
     <thermalfoundation:tool.pickaxe_invar>,
 
@@ -212,7 +211,6 @@ var axeArray = [
  <thermalfoundation:tool.axe_invar>,
  <endreborn:tool_axe_wolframium>,
  <futuremc:netherite_axe>,
- <immersiveengineering:axe_steel>,
  <midnight:tenebrum_axe>,
  <midnight:nagrilite_axe>,
  <midnight:ebonys_axe>,
@@ -256,7 +254,6 @@ var shovelArray = [
     <midnight:shadowroot_shovel>,
     <midnight:tenebrum_shovel>,
     <thermalfoundation:tool.shovel_copper>,
-    <immersiveengineering:shovel_steel>,
     <mekanismtools:bronzeshovel>,
     <futuremc:netherite_shovel>,
     <forestry:bronze_shovel>,

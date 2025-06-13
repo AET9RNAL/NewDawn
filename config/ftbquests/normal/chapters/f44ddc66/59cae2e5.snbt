@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"84d517f9"
+	],
+	tasks: [{
+		uid: "2a84a836",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:primal_soldering_mechanism",
+			tag: {}
+		}]
+	},
+	{
+		uid: "c0d9ef2a",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solderingiron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

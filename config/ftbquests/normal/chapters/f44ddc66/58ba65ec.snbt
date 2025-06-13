@@ -1,0 +1,15 @@
+{
+	x: -18.0d,
+	y: 10.0d,
+	dependencies: [
+		"84d517f9"
+	],
+	tasks: [{
+		uid: "b85acf35",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:primal_fluid_integrator",
+			tag: {}
+		}]
+	}]
+}

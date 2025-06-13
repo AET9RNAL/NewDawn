@@ -1,0 +1,21 @@
+{
+	title: "Cryogen",
+	x: 10.5d,
+	y: -7.0d,
+	dependencies: [
+		"d8773f07"
+	],
+	tasks: [{
+		uid: "46e452d1",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcryogen",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

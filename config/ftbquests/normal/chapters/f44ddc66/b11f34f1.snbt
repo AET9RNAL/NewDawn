@@ -1,6 +1,6 @@
 {
-	x: 8.0d,
-	y: -7.0d,
+	x: 48.5d,
+	y: -13.0d,
 	shape: "diamond",
 	hide_dependency_lines: true,
 	dependencies: [

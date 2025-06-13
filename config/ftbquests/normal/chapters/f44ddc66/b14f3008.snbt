@@ -1,0 +1,14 @@
+{
+	x: 21.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"498bcfc8"
+	],
+	tasks: [{
+		uid: "3fc25d65",
+		type: "checkmark",
+		title: "IU:Advanced Energy Era"
+	}]
+}

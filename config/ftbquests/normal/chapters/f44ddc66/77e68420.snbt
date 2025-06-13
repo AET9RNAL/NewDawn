@@ -1,0 +1,16 @@
+{
+	x: 15.0d,
+	y: -3.0d,
+	dependencies: [
+		"5fbff743"
+	],
+	tasks: [{
+		uid: "c7260c25",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 145s,
+			tag: {}
+		}]
+	}]
+}

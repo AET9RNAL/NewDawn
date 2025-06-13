@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 23.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"1d1afcfc"
+	],
+	tasks: [{
+		uid: "01086d12",
+		type: "checkmark",
+		title: "IU:Electric Era"
+	}]
+}

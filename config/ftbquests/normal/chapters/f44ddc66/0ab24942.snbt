@@ -1,0 +1,16 @@
+{
+	x: -15.0d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9ef2829f"
+	],
+	tasks: [{
+		uid: "ab629339",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:primal_programming_table",
+			tag: {}
+		}]
+	}]
+}

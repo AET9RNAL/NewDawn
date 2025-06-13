@@ -1,11 +1,8 @@
 {
-	x: 1.5d,
-	y: -2.0d,
+	x: 42.0d,
+	y: -8.0d,
 	shape: "diamond",
 	hide_dependency_lines: true,
-	dependencies: [
-		"6a9d56af"
-	],
 	tasks: [{
 		uid: "e8f8d9d4",
 		type: "item",

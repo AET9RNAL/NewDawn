@@ -1,6 +1,6 @@
 {
-	x: -24.5d,
-	y: 0.0d,
+	x: -26.0d,
+	y: 12.0d,
 	shape: "diamond",
 	dependencies: [
 		"6c729726",
@@ -13,7 +13,7 @@
 		items: [{
 			item: "industrialupgrade:cable_iu_item 1 19"
 		}],
-		count: 64L
+		count: 12L
 	}],
 	rewards: [{
 		uid: "4aa4dbf7",

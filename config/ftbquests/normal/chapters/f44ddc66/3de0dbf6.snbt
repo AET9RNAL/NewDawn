@@ -1,7 +1,8 @@
 {
-	x: 24.0d,
-	y: 11.5d,
+	x: 61.5d,
+	y: 0.5d,
 	shape: "square",
+	hide_dependency_lines: true,
 	dependencies: [
 		"29fd6ef0"
 	],

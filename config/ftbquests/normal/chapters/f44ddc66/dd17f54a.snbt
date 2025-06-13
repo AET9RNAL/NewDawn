@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 16.5d,
+	dependencies: [
+		"570b076e",
+		"29fd6ef0"
+	],
+	tasks: [{
+		uid: "d2a3c005",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:nanobox"
+		}],
+		count: 3L
+	}]
+}

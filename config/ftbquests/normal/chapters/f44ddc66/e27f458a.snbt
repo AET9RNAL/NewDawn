@@ -1,0 +1,21 @@
+{
+	title: "Nitrogen Hydride",
+	x: 30.5d,
+	y: 20.5d,
+	dependencies: [
+		"e25a1e9e"
+	],
+	tasks: [{
+		uid: "c0982d49",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidnitrogenhydride",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

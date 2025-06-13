@@ -1,14 +1,15 @@
 {
-	x: 13.5d,
-	y: -1.5d,
+	x: 16.5d,
+	y: -3.5d,
+	shape: "rsquare",
 	dependencies: [
 		"914f762e"
 	],
 	tasks: [{
-		uid: "99b9a77a",
+		uid: "f23e60e4",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 67"
+			item: "crazyae:material 1 6"
 		}]
 	}]
 }

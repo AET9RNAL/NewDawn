@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -3.5d,
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "414b2875",
+		type: "item",
+		items: [{
+			id: "powerutils:powerutils",
+			Damage: 3s,
+			tag: {}
+		}]
+	}]
+}

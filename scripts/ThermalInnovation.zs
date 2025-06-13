@@ -33,23 +33,32 @@ recipes.addShaped(<thermalinnovation:magnet>, [[<industrialupgrade:alloyingot:4>
 
 
 
-// Fluxbore (Signalum)
+
+
+// Fluxbore (Signalum) ───────────────────────────────────────
 recipes.remove(<thermalinnovation:drill:3>);
-mods.avaritia.ExtremeCrafting.addShaped("Fluxbore (Signalum)", <thermalinnovation:drill:3> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null, null],[null, null, <thermalfoundation:material:357>, <astralsorcery:itemcoloredlens:1>, <astralsorcery:itemcoloredlens:1>, <astralsorcery:itemcoloredlens:1>, <thermalfoundation:material:357>, null, null],[null, null, <thermalfoundation:material:357>, <ore:circuitSpectral>, <botania:lens:7>, <ore:circuitSpectral>, <thermalfoundation:material:357>, null, null],[null, null, <thermalfoundation:material:357>, <forge:bucketfilled>, <thermalinnovation:drill:2>, <forge:bucketfilled>, <thermalfoundation:material:357>, null, null],[null, null, <thermalfoundation:material:357>, <aroma1997sdimension:miningmultitool>, <thermalfoundation:upgrade:2>, <aroma1997sdimension:miningmultitool>, <thermalfoundation:material:357>, null, null],[null, null, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null, null],[null, null, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalinnovation:drill:3>, [
+    [null, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null],
+    [null, <thermalfoundation:material:357>, <astralsorcery:itemcoloredlens:1>, <astralsorcery:itemcoloredlens:1>, <astralsorcery:itemcoloredlens:1>, <thermalfoundation:material:357>, null],
+    [null, <thermalfoundation:material:357>, <ore:circuitSpectral>, <botania:lens:7>, <ore:circuitSpectral>, <thermalfoundation:material:357>, null],
+    [null, <thermalfoundation:material:357>, <forge:bucketfilled>, <thermalinnovation:drill:2>, <forge:bucketfilled>, <thermalfoundation:material:357>, null],
+    [null, <thermalfoundation:material:357>, <aroma1997sdimension:miningmultitool>, <thermalfoundation:upgrade:2>, <aroma1997sdimension:miningmultitool>, <thermalfoundation:material:357>, null],
+    [null, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>, null],
+    [null, null, null, null, null, null, null]
+]);
 
-// Fluxbore (Resonant)
+
+// Fluxbore (Resonant) ───────────────────────────────────────
 recipes.remove(<thermalinnovation:drill:4>);
-mods.avaritia.ExtremeCrafting.addShaped("Fluxbore (Resonant)", <thermalinnovation:drill:4> * 1, [[null, null, null, null, null, null, null, null, null], [null, null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, <simplyjetpacks:metaitemmods:19>, <appliedenergistics2:part:300>, <endreborn:ingot_infused>, <endreborn:ingot_infused>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:itemfluxpack:14>, <ore:gearTitanium>, <endreborn:ingot_infused>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, <simplyjetpacks:metaitemmods:19>, <appliedenergistics2:part:300>, <thermalinnovation:drill:3>, <appliedenergistics2:part:300>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, <simplyjetpacks:metaitemmods:19>, <enderio:item_material:43>, <thermalfoundation:upgrade:35>, <enderio:item_material:43>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, null, null],[null, null, null, null, null, null, null, null, null],[null, null, null, null, null, null, null, null, null]]);
-
-
-
-
-
-
-
-
-
-
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalinnovation:drill:4>, [
+    [null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, <simplyjetpacks:metaitemmods:19>, <appliedenergistics2:part:300>, <endreborn:ingot_infused>, <endreborn:ingot_infused>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:itemfluxpack:14>, <ore:gearTitanium>, <endreborn:ingot_infused>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, <simplyjetpacks:metaitemmods:19>, <appliedenergistics2:part:300>, <thermalinnovation:drill:3>, <appliedenergistics2:part:300>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, <simplyjetpacks:metaitemmods:19>, <enderio:item_material:43>, <thermalfoundation:upgrade:35>, <enderio:item_material:43>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, null],
+    [null, null, null, null, null, null, null]
+]);
 
 
 

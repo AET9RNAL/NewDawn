@@ -1,0 +1,17 @@
+{
+	x: 36.0d,
+	y: -13.5d,
+	dependencies: [
+		"61573178"
+	],
+	tasks: [{
+		uid: "58a65e20",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:purifier",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,9 +1,9 @@
 {
-	x: -13.5d,
-	y: 3.5d,
+	x: 30.0d,
+	y: 2.5d,
 	hide_dependency_lines: true,
 	dependencies: [
-		"ed1b9770"
+		"20e9aae5"
 	],
 	tasks: [{
 		uid: "1d6c7c86",
@@ -16,12 +16,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "c0168c41",
-		type: "item",
-		item: "industrialupgrade:itemcell 1 20",
-		count: 16
-	},
-	{
 		uid: "6046f90c",
 		type: "item",
 		item: {

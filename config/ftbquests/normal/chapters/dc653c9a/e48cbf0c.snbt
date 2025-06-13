@@ -1,0 +1,17 @@
+{
+	x: 3.125d,
+	y: -23.625d,
+	shape: "hexagon",
+	dependencies: [
+		"e90bf3f0"
+	],
+	size: 1.75d,
+	tasks: [{
+		uid: "8fb483aa",
+		type: "item",
+		items: [{
+			item: "midnight:bloomcrystal"
+		}],
+		count: 16L
+	}]
+}

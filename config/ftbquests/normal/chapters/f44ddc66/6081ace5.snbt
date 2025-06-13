@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -8.0d,
+	shape: "gear",
+	dependencies: [
+		"18dfae11"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a2362432",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:blockresource 1 8"
+		}],
+		count: 2L
+	}]
+}

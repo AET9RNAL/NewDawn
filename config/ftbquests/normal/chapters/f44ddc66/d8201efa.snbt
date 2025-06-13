@@ -1,0 +1,21 @@
+{
+	title: "Butadiene",
+	x: -1.0d,
+	y: -7.5d,
+	dependencies: [
+		"c61047bd"
+	],
+	tasks: [{
+		uid: "8879a03f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidbutadiene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

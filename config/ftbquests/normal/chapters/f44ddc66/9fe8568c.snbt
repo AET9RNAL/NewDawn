@@ -1,0 +1,20 @@
+{
+	x: 16.5d,
+	y: -36.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8c500d96",
+		"1ba37b94"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "26c6334f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:photonic_machine",
+			Damage: 7s,
+			tag: {}
+		}]
+	}]
+}

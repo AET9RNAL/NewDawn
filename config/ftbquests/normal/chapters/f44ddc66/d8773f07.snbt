@@ -1,0 +1,79 @@
+{
+	x: 8.5d,
+	y: -7.0d,
+	shape: "gear",
+	dependencies: [
+		"4f9e2f86",
+		"39b326ed",
+		"67ef5470"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "cfc1eaa2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			tag: {}
+		}]
+	},
+	{
+		uid: "ffe8714b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 4s,
+			tag: {}
+		}],
+		count: 11L
+	},
+	{
+		uid: "47b8bc63",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 1s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "5ed6af58",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 6s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "0261b468",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 3s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "4e492cd2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 5s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "efdf832c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chemical_plant",
+			Damage: 2s,
+			tag: {}
+		}],
+		count: 34L
+	}]
+}

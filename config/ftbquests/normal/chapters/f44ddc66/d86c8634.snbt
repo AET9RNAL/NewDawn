@@ -1,0 +1,21 @@
+{
+	title: "Methane",
+	x: 19.5d,
+	y: 21.0d,
+	dependencies: [
+		"d29e111e"
+	],
+	tasks: [{
+		uid: "bc282e81",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidmethane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

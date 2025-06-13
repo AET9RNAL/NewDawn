@@ -1,0 +1,69 @@
+{
+	x: -20.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"941ceda7"
+	],
+	tasks: [{
+		uid: "80ba35a8",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:steam_boiler",
+			tag: {}
+		}]
+	},
+	{
+		uid: "0869cc59",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:steam_boiler",
+			Damage: 1s,
+			tag: {}
+		}],
+		count: 13L
+	},
+	{
+		uid: "c01755db",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:steam_boiler",
+			Damage: 2s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "f0b95fe9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:steam_boiler",
+			Damage: 3s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "453d3499",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:steam_boiler",
+			Damage: 4s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "f0c87367",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 599"
+		}]
+	},
+	{
+		uid: "a22d2b5e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 294"
+		}],
+		count: 10L
+	}]
+}

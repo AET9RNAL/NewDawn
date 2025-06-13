@@ -3,5 +3,6 @@
 //#Remove
 //Don't touch me!
 //#Add
-#reloadable
+recipes.addShaped(<iuadditions:soic_stellar>, [[<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>],[<industrialupgrade:stik:6>, <iuadditions:capacitor_stellar>, <industrialupgrade:stik:6>], [<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>]]);
+recipes.addShaped(<iuadditions:qfp_stellar>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_stellar>, <industrialupgrade:crafting_elements:549>, <iuadditions:capacitor_stellar>], [<iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]]);
 //File End

@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: -5.0d,
+	dependencies: [
+		"a7873ca2"
+	],
+	tasks: [{
+		uid: "cac710bb",
+		type: "item",
+		items: [{
+			id: "quantum_generators:qg",
+			Damage: 2s,
+			tag: {}
+		}]
+	}]
+}

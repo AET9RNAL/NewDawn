@@ -1,0 +1,64 @@
+{
+	x: 8.0d,
+	y: -27.0d,
+	shape: "gear",
+	dependencies: [
+		"84eef385"
+	],
+	tasks: [{
+		uid: "0d1aa6a2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			tag: {}
+		}]
+	},
+	{
+		uid: "e2ddedc1",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			Damage: 5s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "e77cd823",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			Damage: 4s,
+			tag: {}
+		}],
+		count: 2L
+	},
+	{
+		uid: "c62b37b7",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			Damage: 1s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "d2da6a1e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			Damage: 3s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "bec54279",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:earth_quarry",
+			Damage: 2s,
+			tag: {}
+		}],
+		count: 37L
+	}]
+}

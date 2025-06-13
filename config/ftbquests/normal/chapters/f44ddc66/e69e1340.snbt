@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"60ad3415"
+	],
+	tasks: [{
+		uid: "827cda75",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:upgrade_speed_creation"
+		}]
+	}]
+}

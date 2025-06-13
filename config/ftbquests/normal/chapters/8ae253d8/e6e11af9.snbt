@@ -1,0 +1,11 @@
+{
+	x: -45.0d,
+	y: -12.0d,
+	tasks: [{
+		uid: "2efc6ea5",
+		type: "item",
+		items: [{
+			item: "mekaweapons:mekaarrow"
+		}]
+	}]
+}

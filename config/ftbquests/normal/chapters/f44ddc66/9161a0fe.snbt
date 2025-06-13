@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: -26.0d,
+	dependencies: [
+		"574a3b3f",
+		"ddf539d2",
+		"99d9281e"
+	],
+	tasks: [{
+		uid: "b999feec",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemdust 1 64"
+		}]
+	}]
+}

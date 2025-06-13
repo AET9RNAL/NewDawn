@@ -1,0 +1,19 @@
+{
+	x: 14.5d,
+	y: 10.0d,
+	dependencies: [
+		"3dc0319d"
+	],
+	tasks: [{
+		uid: "b01acea3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:electric_hoe",
+			tag: {
+				charge: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

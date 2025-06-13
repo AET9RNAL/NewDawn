@@ -1,0 +1,22 @@
+{
+	title: "Hydrazine",
+	x: -7.0d,
+	y: -21.0d,
+	dependencies: [
+		"186c90f0",
+		"8d3c8771"
+	],
+	tasks: [{
+		uid: "ae7bf99c",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidhydrazine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

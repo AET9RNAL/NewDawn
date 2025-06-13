@@ -1,0 +1,21 @@
+{
+	title: "Polypropylene",
+	x: -2.5d,
+	y: -6.0d,
+	dependencies: [
+		"7319cea0"
+	],
+	tasks: [{
+		uid: "86f42c07",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpolyprop",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

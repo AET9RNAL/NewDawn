@@ -3,5 +3,93 @@
 	icon: "chisel:futura 1 2",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 1.5d,
+		y: 12.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/gui_colorizer.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.5d,
+		y: 9.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 30.0d,
+		image: "contenttweaker:textures/blocks/mana_connector.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 0.5d,
+		y: 9.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/card_advanced_speed.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 6.0d,
+		y: 19.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/certus_quartz_wrench.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.0d,
+		y: 12.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/controller.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -1.0d,
+		y: 19.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/charged_quartz_ore_light.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 10.0d,
+		y: 15.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/controller_conflict.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.0d,
+		y: 19.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/charged_staff.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

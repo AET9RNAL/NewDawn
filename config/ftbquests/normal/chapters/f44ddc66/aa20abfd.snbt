@@ -1,6 +1,6 @@
 {
-	x: 22.0d,
-	y: 7.0d,
+	x: 59.5d,
+	y: -4.0d,
 	shape: "diamond",
 	dependencies: [
 		"fdbb6a5b"

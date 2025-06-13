@@ -1,0 +1,14 @@
+{
+	x: 11.5d,
+	y: -18.5d,
+	dependencies: [
+		"beed6c2e"
+	],
+	tasks: [{
+		uid: "a4c1cda5",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:spaceupgrademodules 1 6"
+		}]
+	}]
+}

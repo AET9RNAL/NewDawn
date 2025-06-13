@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -28.5d,
+	dependencies: [
+		"05daa635"
+	],
+	tasks: [{
+		uid: "43870f25",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:autoheater"
+		}]
+	}]
+}

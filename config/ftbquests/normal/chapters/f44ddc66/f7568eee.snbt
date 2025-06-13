@@ -1,0 +1,22 @@
+{
+	title: "Butadiene-Nitrile",
+	x: 2.5d,
+	y: -7.0d,
+	dependencies: [
+		"521fa4ef",
+		"35c1a699"
+	],
+	tasks: [{
+		uid: "4b442105",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidbutadiene_nitrile",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

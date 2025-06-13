@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -7.0d,
+	dependencies: [
+		"f7568eee"
+	],
+	tasks: [{
+		uid: "b494003b",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:synthetic_rubber"
+		}],
+		count: 8L
+	}]
+}

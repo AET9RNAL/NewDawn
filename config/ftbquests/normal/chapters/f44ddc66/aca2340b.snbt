@@ -1,0 +1,21 @@
+{
+	title: "Sodium Hydroxide",
+	x: -7.0d,
+	y: -24.0d,
+	dependencies: [
+		"9161a0fe"
+	],
+	tasks: [{
+		uid: "35022628",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsodiumhydroxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

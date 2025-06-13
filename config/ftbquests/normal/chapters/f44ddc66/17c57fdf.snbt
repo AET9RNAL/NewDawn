@@ -1,0 +1,15 @@
+{
+	x: 13.0d,
+	y: -19.5d,
+	dependencies: [
+		"beed6c2e"
+	],
+	tasks: [{
+		uid: "03aa09d6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemspace"
+		}],
+		count: 8L
+	}]
+}

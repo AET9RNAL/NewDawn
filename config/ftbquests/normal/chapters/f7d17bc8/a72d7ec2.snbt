@@ -1,6 +1,6 @@
 {
-	x: 11.5d,
-	y: 14.0d,
+	x: 10.0d,
+	y: 15.0d,
 	shape: "hexagon",
 	hide_dependency_lines: true,
 	dependencies: [
@@ -64,14 +64,6 @@
 			tag: {
 				type: "legendary_crate"
 			}
-		}
-	},
-	{
-		uid: "e9325195",
-		type: "item",
-		item: {
-			id: "appliedenergistics2:storage_cell_64mb",
-			tag: {}
 		}
 	}]
 }

@@ -1,0 +1,21 @@
+{
+	title: "Copper Sulfate",
+	x: -10.0d,
+	y: 6.0d,
+	dependencies: [
+		"2f9911ce"
+	],
+	tasks: [{
+		uid: "57e0fec3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidcoppersulfate",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

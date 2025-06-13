@@ -1,0 +1,16 @@
+{
+	x: 12.0d,
+	y: -7.0d,
+	dependencies: [
+		"a70ff63b",
+		"c8a4953b"
+	],
+	tasks: [{
+		uid: "8aa7a243",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cryogenic_cooling_mixture"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -16.0d,
+	y: -4.5d,
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "1d5cca54",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cultivated_peat"
+		}],
+		count: 8L
+	}]
+}

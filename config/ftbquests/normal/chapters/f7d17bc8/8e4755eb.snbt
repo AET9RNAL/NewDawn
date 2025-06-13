@@ -1,6 +1,7 @@
 {
-	x: 7.5d,
-	y: 4.5d,
+	x: 16.5d,
+	y: 5.5d,
+	shape: "rsquare",
 	dependencies: [
 		"116de0c6"
 	],
@@ -8,7 +9,7 @@
 		uid: "6f9dcc5d",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 61"
+			item: "crazyae:material"
 		}]
 	}],
 	rewards: [{

@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -27.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b14f3008"
+	],
+	tasks: [{
+		uid: "579a29b7",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemdust 1 69"
+		}]
+	}]
+}

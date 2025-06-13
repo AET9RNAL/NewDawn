@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 24.0d,
+	dependencies: [
+		"c15a5c07"
+	],
+	tasks: [{
+		uid: "c9728e07",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:refiner",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: 10.0d,
+	dependencies: [
+		"3dc0319d"
+	],
+	tasks: [{
+		uid: "5482c427",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wind_meter",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

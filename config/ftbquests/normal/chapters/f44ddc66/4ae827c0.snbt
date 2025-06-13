@@ -1,10 +1,13 @@
 {
-	x: -12.585544217687072d,
-	y: -7.7307823129251645d,
-	shape: "hexagon",
+	x: 6.25d,
+	y: -32.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
 	dependencies: [
+		"edd5f3cb",
 		"a4cb1bc4"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "fdfcfab8",
 		type: "item",

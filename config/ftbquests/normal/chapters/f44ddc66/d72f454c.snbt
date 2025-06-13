@@ -1,0 +1,22 @@
+{
+	title: "Chlorine",
+	x: -5.5d,
+	y: -24.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b14f3008"
+	],
+	tasks: [{
+		uid: "d64d1be6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidchlorum",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

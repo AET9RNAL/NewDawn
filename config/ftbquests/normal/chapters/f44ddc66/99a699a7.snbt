@@ -1,0 +1,15 @@
+{
+	x: -21.0d,
+	y: 11.5d,
+	dependencies: [
+		"9ef2829f"
+	],
+	tasks: [{
+		uid: "ecbee736",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:tank_iu",
+			tag: {}
+		}]
+	}]
+}

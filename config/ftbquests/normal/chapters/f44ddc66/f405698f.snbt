@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: 13.0d,
+	dependencies: [
+		"3dc0319d"
+	],
+	tasks: [{
+		uid: "9944d89b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:electric_wrench",
+			tag: {
+				charge: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

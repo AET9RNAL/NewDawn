@@ -1,0 +1,14 @@
+{
+	title: "Packaged Auto",
+	x: -9.5d,
+	y: 10.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d4de8073"
+	],
+	tasks: [{
+		uid: "12a84251",
+		type: "checkmark"
+	}]
+}

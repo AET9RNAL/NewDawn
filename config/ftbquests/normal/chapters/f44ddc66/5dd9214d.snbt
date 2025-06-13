@@ -1,0 +1,14 @@
+{
+	x: 27.0d,
+	y: 15.0d,
+	dependencies: [
+		"99d99895"
+	],
+	tasks: [{
+		uid: "2eaaa1bb",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:motors_with_improved_bearings_"
+		}]
+	}]
+}

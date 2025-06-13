@@ -1,0 +1,21 @@
+{
+	title: "Nitrogen Monoxide",
+	x: 30.5d,
+	y: 19.5d,
+	dependencies: [
+		"e27f458a"
+	],
+	tasks: [{
+		uid: "1c869c38",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidnitrogenoxy",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

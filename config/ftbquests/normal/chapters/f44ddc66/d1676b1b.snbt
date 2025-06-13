@@ -1,6 +1,6 @@
 {
-	x: 32.0d,
-	y: 7.0d,
+	x: 69.5d,
+	y: -4.0d,
 	shape: "diamond",
 	dependencies: [
 		"da5064a3",

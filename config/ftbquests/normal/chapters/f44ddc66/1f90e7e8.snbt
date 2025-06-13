@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 13.5d,
+	dependencies: [
+		"c7f45462"
+	],
+	tasks: [{
+		uid: "32a6682b",
+		type: "item",
+		items: [{
+			item: "taiga:tiberium_crystal"
+		}],
+		count: 32L
+	}]
+}

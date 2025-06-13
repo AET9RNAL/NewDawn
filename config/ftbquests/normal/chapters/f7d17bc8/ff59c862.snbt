@@ -1,14 +1,14 @@
 {
-	x: -3.0d,
+	x: -0.5d,
 	y: 10.0d,
 	dependencies: [
 		"2134853f"
 	],
 	tasks: [{
-		uid: "ff1ce351",
+		uid: "9639c975",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:crafting_accelerator_4x"
+			item: "crazyae:crafting_accelerator_4x"
 		}]
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: 14.0d,
+	dependencies: [
+		"84d517f9"
+	],
+	tasks: [{
+		uid: "c425a1f6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:blockresource 1 12"
+		}]
+	}]
+}

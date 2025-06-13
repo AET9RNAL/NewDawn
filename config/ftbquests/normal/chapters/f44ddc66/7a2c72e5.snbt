@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -22.5d,
+	dependencies: [
+		"cbc32b4d"
+	],
+	tasks: [{
+		uid: "97389e6d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:spaceupgrademodules"
+		}]
+	}]
+}

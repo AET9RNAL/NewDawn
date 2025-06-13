@@ -1,15 +1,16 @@
 {
-	x: 9.5d,
-	y: 3.5d,
+	x: 17.0d,
+	y: 14.0d,
 	shape: "diamond",
+	hide_dependency_lines: true,
 	dependencies: [
 		"7c2a5a5c"
 	],
 	tasks: [{
-		uid: "0b00317a",
+		uid: "6a0c41ce",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:crafting_storage_4mb"
+			item: "crazyae:crafting_storage_1mb"
 		}]
 	}],
 	rewards: [{
