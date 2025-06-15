@@ -1,0 +1,21 @@
+{
+	x: 17.0d,
+	y: 31.5d,
+	text: [
+		"Attracts mods to itself"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7e3316f3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 137s,
+			tag: {}
+		}]
+	}]
+}

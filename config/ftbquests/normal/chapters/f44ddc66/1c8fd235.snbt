@@ -1,0 +1,23 @@
+{
+	x: 12.5d,
+	y: 30.0d,
+	text: [
+		"§f§dTesseract§f is capable of transporting §bEnergy§f, §9Fluids§f, and §eItems§f across §6unlimited distances§f within the same dimension.",
+		"",
+		"§7§oMore details are available in the machine description.§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "44ad5af9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 107s,
+			tag: {}
+		}]
+	}]
+}

@@ -1,4 +1,4 @@
-//This file was created via CT-GUI! Editing it is not advised!
+#reloadable
 //Don't touch me!
 
 //#Remove
@@ -29,7 +29,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:resource:5>, [
     [<contenttweaker:matter_gaia_guardian>, <industrialupgrade:modulestype:2>, <draconicevolution:awakened_core>, <industrialupgrade:solidmatter:7>, <eternalsingularity:eternal_singularity>, <industrialupgrade:solidmatter:3>, <draconicevolution:awakened_core>, <industrialupgrade:modulestype:2>, <contenttweaker:matter_stellar>],
     [<contenttweaker:plate_alloy_botanical>, <industrialupgrade:lens:6>, <avaritia:ultimate_stew>, <industrialupgrade:solidmatter:6>, <industrialupgrade:solidmatter:5>, <industrialupgrade:solidmatter:4>, <avaritia:ultimate_stew>, <industrialupgrade:lens:2>, <contenttweaker:plate_alloy_thermal>],
     [<mekanism:polyethene:2>, <botaniverse:morerune:3>, <thermalexpansion:florb>.withTag({Fluid: "astralsorcery.liquidstarlight"}), <avaritia:resource:7>, <draconicevolution:awakened_core>, <avaritia:resource:7>, <thermalexpansion:florb>.withTag({Fluid: "astralsorcery.liquidstarlight"}), <botaniverse:morerune:3>, <mekanism:polyethene:2>],
-    [<mysticalagradditions:neutronium_essence>, <extrautils2:suncrystal>, <botaniverse:morerune:3>, <industrialupgrade:itemsunnariumpanel:12>, <appliedenergistics2:material:61>, <industrialupgrade:itemsunnariumpanel:12>, <botaniverse:morerune:3>, <extrautils2:suncrystal>, <mysticalagradditions:awakened_draconium_essence>],
+    [<mysticalagradditions:neutronium_essence>, <extrautils2:suncrystal>, <botaniverse:morerune:3>, <industrialupgrade:itemsunnariumpanel:12>, <crazyae:material>, <industrialupgrade:itemsunnariumpanel:12>, <botaniverse:morerune:3>, <extrautils2:suncrystal>, <mysticalagradditions:awakened_draconium_essence>],
     [<mekanismecoenergistics:controlcircuitavaritia:1>, <mysticalagradditions:neutronium_essence>, <industrialupgrade:plastic_plate>, <astralsorcery:itemcoloredlens:6>, <mekanism:cosmicmatter>, <astralsorcery:itemcoloredlens:3>, <industrialupgrade:plastic_plate>, <mysticalagradditions:awakened_draconium_essence>, <mekanismecoenergistics:controlcircuitavaritia:1>]
 ]);
 
@@ -39,7 +39,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:resource:5>, [
 // Eternal Singularity  ──────────────────────────────────────
 recipes.remove(<eternalsingularity:eternal_singularity>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <eternalsingularity:eternal_singularity>, [
-    [<jaopca:avaritia_singularity.elven_elementium>, <jaopca:avaritia_singularity.draconium_awakened>, <jaopca:avaritia_singularity.cyanite>, <jaopca:avaritia_singularity.conductive_iron>, <jaopca:avaritia_singularity.coal>, <jaopca:avaritia_singularity.cosmic_neutronium>, <jaopca:avaritia_singularity.crystal_matrix>, <jaopca:avaritia_singularity.demonic_metal>, <jaopca:avaritia_singularity.electrical_steel>],
+    [<jaopca:avaritia_singularity.elven_elementium>, <jaopca:avaritia_singularity.draconium_awakened>, <jaopca:avaritia_singularity.cyanite>, <jaopca:avaritia_singularity.conductive_iron>, <jaopca:avaritia_singularity.coal>, <jaopca:avaritia_singularity.cosmic_neutronium>, <jaopca:avaritia_singularity.crystal_matrix>, <jaopca:avaritia_singularity.demonic>, <jaopca:avaritia_singularity.electrical_steel>],
     [<jaopca:avaritia_singularity.manasteel>, <jaopca:avaritia_singularity.invar>, <jaopca:avaritia_singularity.fluix>, <jaopca:avaritia_singularity.end_steel>, <jaopca:avaritia_singularity.charged_certus_quartz>, <jaopca:avaritia_singularity.energetic_alloy>, <jaopca:avaritia_singularity.energetic_silver>, <jaopca:avaritia_singularity.glowstone>, <jaopca:avaritia_singularity.magnesium>],
     [<jaopca:avaritia_singularity.proton>, <jaopca:avaritia_singularity.muntsa>, <jaopca:avaritia_singularity.bronze>, <jaopca:avaritia_singularity.blaze>, <jaopca:avaritia_singularity.aquamarine>, <jaopca:avaritia_singularity.basalz>, <jaopca:avaritia_singularity.blizz>, <jaopca:avaritia_singularity.melodic_alloy>, <jaopca:avaritia_singularity.nichrome>],
     [<jaopca:avaritia_singularity.vitalium>, <jaopca:avaritia_singularity.ancient_debris>, <jaopca:avaritia_singularity.aerotheum>, <avaritia:singularity:10>, <avaritia:singularity:8>, <avaritia:singularity:11>, <jaopca:avaritia_singularity.alumel>, <jaopca:avaritia_singularity.aluminumbronze>, <jaopca:avaritia_singularity.aluminumbronze>],

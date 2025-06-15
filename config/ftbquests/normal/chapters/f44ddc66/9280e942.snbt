@@ -1,6 +1,9 @@
 {
-	x: 19.0d,
-	y: -2.75d,
+	x: 26.75d,
+	y: -5.0d,
+	text: [
+		"§fStores §aRadiation§f."
+	],
 	dependencies: [
 		"2f0ab9a7"
 	],

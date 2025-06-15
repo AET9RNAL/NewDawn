@@ -1,6 +1,9 @@
 {
-	x: 2.0d,
+	x: 2.5d,
 	y: 25.5d,
+	text: [
+		"§7§o1B of §6Diesel§7§o = §6100,000 §bEF§7§o.§r"
+	],
 	dependencies: [
 		"76031cee"
 	],

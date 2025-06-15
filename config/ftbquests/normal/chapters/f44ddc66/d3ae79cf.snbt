@@ -1,6 +1,14 @@
 {
 	x: -16.5d,
 	y: 14.5d,
+	text: [
+		"§fThe §aLatex Extractor§f is your first way of processing §aRaw Latex§f into §bLiquid Latex§f.",
+		"",
+		"§fPlace raw latex inside and hold §eRMB§f with a §6Treetap§f on it — the process will start.",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete."
+	],
 	dependencies: [
 		"84d517f9"
 	],

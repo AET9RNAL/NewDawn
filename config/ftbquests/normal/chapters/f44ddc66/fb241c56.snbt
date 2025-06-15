@@ -1,6 +1,16 @@
 {
 	x: -19.5d,
 	y: 13.5d,
+	text: [
+		"§6§lUsing Cutters with Primitive Machines§r",
+		"",
+		"§fLook up available recipes and put the required items into the mechanism.",
+		"",
+		"§fThen press §eRMB§f with §6Cutters§f to start the process.",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete."
+	],
 	dependencies: [
 		"84d517f9"
 	],

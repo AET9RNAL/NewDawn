@@ -1,9 +1,14 @@
 {
 	title: "IU:End Game✓",
-	x: 26.0d,
-	y: -38.5d,
+	x: 42.0d,
+	y: -27.0d,
 	shape: "heart",
-	size: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ab2e83f8",
+		"ae4a0b68"
+	],
+	size: 6.0d,
 	tasks: [{
 		uid: "fd2cc8e5",
 		type: "checkmark"

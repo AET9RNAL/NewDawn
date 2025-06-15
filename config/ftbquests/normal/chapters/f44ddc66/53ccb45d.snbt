@@ -1,6 +1,15 @@
 {
 	x: -17.0d,
 	y: 11.5d,
+	text: [
+		"§6Right-click§f on the machine while holding an §eCable§f.  ",
+		"§7§oThen right-click on the machine while holding §aInsulation§7§o.  ",
+		"§cUse Cutter§f to complete the process.",
+		"",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete. "
+	],
 	dependencies: [
 		"84d517f9"
 	],

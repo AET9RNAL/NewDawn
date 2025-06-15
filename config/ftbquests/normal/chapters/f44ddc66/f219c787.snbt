@@ -1,0 +1,21 @@
+{
+	x: 14.0d,
+	y: 31.5d,
+	text: [
+		"Trash any Item"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a7fb5671",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 123s,
+			tag: {}
+		}]
+	}]
+}

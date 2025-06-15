@@ -3,10 +3,11 @@
 	y: 20.0d,
 	shape: "diamond",
 	text: [
-		"§6There are 3 rules that you're advised to follow when advancing in IU:",
-		"1.Mine everything, even if there is no use for it now",
-		"2.Don't rush the progress or you'll be overwhelmed and get stuck",
-		"3.Manage your resources and energy wisely  - and your progress rate will be higher"
+		"§6§lEssential Tools: Cutters & Hammer§r",
+		"",
+		"§fCutters and Hammer are your number one tools to make.",
+		"",
+		"§fThey are used with primitive machines, such as the §bAnvil§f and §bRolling Machine§f to produce §dPlates§f and §dCables§f."
 	],
 	dependencies: [
 		"a3155a90"

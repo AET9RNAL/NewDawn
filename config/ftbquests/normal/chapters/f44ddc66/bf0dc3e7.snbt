@@ -1,6 +1,11 @@
 {
 	x: -2.5d,
 	y: 6.0d,
+	text: [
+		"§6§lSteam Current Converter§r",
+		"",
+		"§fConverts §bSteam§f into usable §eCurrent§f for your machines."
+	],
 	dependencies: [
 		"4734e07e"
 	],

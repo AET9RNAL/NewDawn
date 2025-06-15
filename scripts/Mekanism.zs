@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 //This file was created via CT-GUI! Editing it is not advised!

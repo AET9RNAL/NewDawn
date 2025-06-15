@@ -2,6 +2,16 @@
 	x: 8.5d,
 	y: -7.0d,
 	shape: "gear",
+	text: [
+		"§fThe §6Chemical Plant§f creates §bCryogen§f from §3Helium§f, and requires §eQuantum Energy (QE)§f to operate.",
+		"",
+		"§fAfter assembling the multiblock:",
+		" §7• §fSupply §eQE§f to §bsocket§f on both sides  ",
+		" §7• §fFill both §9Heat Exchangers§f with §5Liquid Iodine§f  ",
+		" §7• §fProvide §3Helium§f to both §9Separate Tanks§f",
+		"",
+		"§fOnce all systems are connected, activate the machine from the §aController§f."
+	],
 	dependencies: [
 		"4f9e2f86",
 		"39b326ed",

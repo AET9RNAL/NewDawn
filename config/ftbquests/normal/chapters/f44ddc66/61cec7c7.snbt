@@ -1,6 +1,9 @@
 {
 	x: -4.0d,
 	y: 6.0d,
+	text: [
+		"Conducts current!"
+	],
 	dependencies: [
 		"bf0dc3e7"
 	],

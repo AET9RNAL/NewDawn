@@ -1,6 +1,11 @@
 {
 	x: -5.5d,
 	y: 14.0d,
+	text: [
+		"§6§lSteam Age Begins§r",
+		"",
+		"§fThe §6Foundation§f of your §eSteam Machines§f."
+	],
 	dependencies: [
 		"84d517f9"
 	],

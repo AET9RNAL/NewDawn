@@ -1,0 +1,75 @@
+{
+	x: 26.5d,
+	y: 33.0d,
+	text: [
+		"§6§lLightning Rod — Storm-Powered Energy§r",
+		"",
+		"§fA somewhat unconventional way to generate §bElectricity§f.  ",
+		"",
+		"§fThe §eLightning Rod§f will attract lightning during §9Rain§f or §9Thunder§f and harness its power.",
+		"",
+		"§7§o1 Strike = §e500,000 §bEF§7§o.§r",
+		"",
+		"§7§oJust remember what they say — don't stand under a tree during a storm...  ",
+		"or in this case, under a lightning rod!§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "337fbfdc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			tag: {}
+		}]
+	},
+	{
+		uid: "3c77480d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			Damage: 2s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "5e33c486",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			Damage: 5s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "eac7a44d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			Damage: 4s,
+			tag: {}
+		}]
+	},
+	{
+		uid: "39c96e4d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			Damage: 3s,
+			tag: {}
+		}],
+		count: 4L
+	},
+	{
+		uid: "bbdc28aa",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:lightning_rod",
+			Damage: 1s,
+			tag: {}
+		}],
+		count: 2L
+	}]
+}

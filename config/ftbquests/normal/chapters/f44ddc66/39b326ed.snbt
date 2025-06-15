@@ -1,6 +1,14 @@
 {
 	x: 10.0d,
 	y: -3.5d,
+	text: [
+		"§f§eConverters§f allow you to convert energy between two specified types §oin both directions§f.",
+		"",
+		"§fIf the output is §cinsufficient§f for your needs, insert §6Transformer Upgrades§f and §eEnergy Upgrades§f.  ",
+		"§fTo achieve §amaximum output§f, it's recommended to use the §dhighest tier§f upgrades available.",
+		"",
+		"§7§oTypically, one slot is reserved for a transformer, and the rest for energy storage.§r"
+	],
 	dependencies: [
 		"69d5d169"
 	],

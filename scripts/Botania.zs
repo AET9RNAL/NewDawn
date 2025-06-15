@@ -1,3 +1,4 @@
+#reloadable
 # CREATED USING EXTERNAL TWEAKER
 import mods.botaniatweaks.Agglomeration;
 import crafttweaker.item.IIngredient;

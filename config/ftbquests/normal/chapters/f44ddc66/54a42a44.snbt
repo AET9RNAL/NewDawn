@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: -11.0d,
+	text: [
+		"§6§lMatter Collector — Wireless UU-Matter§r",
+		"",
+		"§fThe §dMatter Collector§f collects §6UU-Matter§f from your generators §bwirelessly§f — yes, you heard that right!",
+		"",
+		"§fJust place it somewhere nearby, supply it with §eEnergy§f, and it will start working.",
+		"",
+		"§7§oNo more pipes needed to extract matter from generators — how convenient!§r"
+	],
+	dependencies: [
+		"b3285c4c"
+	],
+	tasks: [{
+		uid: "c929b836",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 125s,
+			tag: {}
+		}]
+	}]
+}

@@ -24,9 +24,6 @@
 		count: 4
 	},
 	{
-		item: "appliedenergistics2:material 1 65"
-	},
-	{
 		item: "iuadditions:iridium_advanced_stellar",
 		count: 12
 	},

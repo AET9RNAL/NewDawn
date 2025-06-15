@@ -1,0 +1,24 @@
+{
+	x: 15.5d,
+	y: 31.5d,
+	text: [
+		"§f§cTrashes§f §bEnergy§f.  ",
+		"",
+		"",
+		"§7§oWhy on earth would you do that?§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fb0142b9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 121s,
+			tag: {}
+		}]
+	}]
+}

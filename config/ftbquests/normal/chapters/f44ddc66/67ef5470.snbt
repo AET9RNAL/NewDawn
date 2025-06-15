@@ -1,6 +1,19 @@
 {
 	x: 8.5d,
 	y: -4.0d,
+	text: [
+		"§f§dQuantum Generators§f are a special kind of generator that produce §eQuantum Energy (QE)§f.",
+		"",
+		"§fThey can be upgraded by inserting up to §c8 Cores§f of the same tier, §atripling§f the energy generation.",
+		"",
+		"§fIn my opinion, these are one of the §abest energy sources§f — they work §eday and night§f, require §7no maintenance§f, and are §acheaper§f than solar panels.",
+		"",
+		"§7§oTo remove inserted cores, right-click with a §bPurifier§7§o.§r  ",
+		"",
+		"§c§oSHOULD YOU TRY REMOVING IT WITH A WRENCH YOU WILL §lLOSE§r§c THE INSERTED CORES!§r",
+		"",
+		"§7§oYou can also convert QE to EF — the rate is §e1 QE§7§o = §b16 EF§7§o.§r"
+	],
 	dependencies: [
 		"69d5d169"
 	],

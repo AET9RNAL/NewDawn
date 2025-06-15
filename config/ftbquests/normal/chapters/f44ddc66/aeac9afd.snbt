@@ -1,6 +1,12 @@
 {
 	x: 22.5d,
 	y: -22.0d,
+	text: [
+		"§fAnother kind of matter that §eIU§f provides — aside from §9Liquid Matter§f — is §aSolid Matter§f.",
+		"",
+		"§fThere are different types of solid matter, each used in specific §dproportions§f for recreating various items.  ",
+		"This is a more §badvanced§f method of replication and generally supports a §owider range§f of items."
+	],
 	dependencies: [
 		"834263b4"
 	],

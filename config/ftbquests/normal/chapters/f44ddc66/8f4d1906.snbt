@@ -1,11 +1,22 @@
 {
 	x: -5.5d,
 	y: 5.0d,
-	shape: "square",
+	shape: "rsquare",
+	text: [
+		"§fThis is the §cheart§f of your §eSteam Machines§f.  ",
+		"§fThe §6Steam Boiler§f produces §bSteam§f.",
+		"",
+		"§fIt requires a §cLava Source§f underneath (§cNOT§f flowing lava!) and §9Water§f to work.  ",
+		"",
+		"§fJust fill it using a §dBucket§f or a §dCapsule§f.",
+		"",
+		"§7§o2 mB of Water = 1 mB of Steam§r"
+	],
 	dependencies: [
 		"b055b9d9",
 		"56c43732"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "e97ff0c3",
 		type: "item",

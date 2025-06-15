@@ -182,7 +182,7 @@ mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack, I
 mods.industrialupgrade.fluid_mixer.remove(ILiquidStack);
 
 ##-------------fluidadapter-------------##
-mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_output, IItemStack, ILiquidStack, ILiquidStack);
+mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
 mods.industrialupgrade.fluidadapter.remove(ILiquidStack, IItemStack);
 
 ##-------------fluidintegrator-------------##
@@ -252,3 +252,20 @@ mods.industrialupgrade.solidfluidmixer.remove(ILiquidStack, IItemStack);
 mods.industrialupgrade.vein.addChanceOre(String, IItemStack, int, int);
 mods.industrialupgrade.vein.addVein(String);
 mods.industrialupgrade.vein.removeOre(Block);
+
+
+
+# CraftTweker Integration  EXTENDED CRAFTING
+
+
+
+
+##-------------CombinationCrafting-------------##
+mods.extendedcrafting.CombinationCrafting.addRecipe(IItemStack, long, IItemStack, IIngredient[]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(IItemStack, long, int, IItemStack, IIngredient[]);
+mods.extendedcrafting.CombinationCrafting.remove(IItemStack);
+
+##-------------CompressionCrafting-------------##
+mods.extendedcrafting.CompressionCrafting.addRecipe(IItemStack, IItemStack, int, IItemStack, int);
+mods.extendedcrafting.CompressionCrafting.addRecipe(IItemStack_output, IItemStack_input, int_item_count, IItemStack_catalyst, int_energy, int_energy_consume);
+mods.extendedcrafting.CompressionCrafting.remove(IItemStack);

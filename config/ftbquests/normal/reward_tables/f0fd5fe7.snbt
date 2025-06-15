@@ -53,9 +53,6 @@
 		item: "appliedenergistics2:creative_energy_cell"
 	},
 	{
-		item: "appliedenergistics2:material 1 66"
-	},
-	{
 		item: {
 			id: "mekanism:energycube",
 			tag: {

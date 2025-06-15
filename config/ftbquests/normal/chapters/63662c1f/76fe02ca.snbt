@@ -3,12 +3,13 @@
 	y: -17.5d,
 	shape: "hexagon",
 	text: [
-		"§6A machine that will generate different loot depending on the module inserted at the cost of different liquids/mana",
+		"§fA machine that generates different §eLoot§f depending on the §dModule§f inserted — at the cost of various §9Liquids§f or §3Mana§f.",
 		"",
-		"How to use:",
-		"1.Place a desired module in the central slot",
-		"2.Supply it with required liquid/mana",
-		"For view all available recipes click \"U\" on it while in the inventory"
+		"§f§lHow to Use:§r  ",
+		"§f1. Place the desired module in the §bcentral slot§f.  ",
+		"§f2. Supply it with the required §9liquid§f or §3mana§f.",
+		"",
+		"§7§oTo view all available recipes, press §b[U]§7§o while hovering over the machine in your inventory.§r"
 	],
 	dependencies: [
 		"95b073dd"

@@ -2,6 +2,9 @@
 	x: 18.0d,
 	y: 0.0d,
 	shape: "hexagon",
+	text: [
+		"§fThe §dMolecular Transformer§f is an advanced piece of tech that almost §bmagically§f transforms one item into another — for a small fee, such as §eEnergy§f."
+	],
 	dependencies: [
 		"b14f3008"
 	],

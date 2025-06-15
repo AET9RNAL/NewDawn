@@ -1,6 +1,9 @@
 {
 	x: 28.5d,
 	y: 4.0d,
+	text: [
+		"§fCreates §aRadiation§f by consuming §6Radioactive Waste§f."
+	],
 	dependencies: [
 		"d3d4f0d2"
 	],

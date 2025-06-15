@@ -2,6 +2,10 @@
 	x: 18.5d,
 	y: 18.0d,
 	shape: "diamond",
+	text: [
+		"§f§6Quarry§f can be used to simplify ore mining.  ",
+		"§fIt excavates the entire §eVein§f located within the §bSame Chunk§f."
+	],
 	dependencies: [
 		"239a8f3f"
 	],

@@ -1,6 +1,9 @@
 {
 	x: -9.5d,
 	y: -3.0d,
+	text: [
+		"Yields additional products"
+	],
 	dependencies: [
 		"fb4f173a"
 	],

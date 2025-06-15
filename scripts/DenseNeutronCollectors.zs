@@ -1,4 +1,4 @@
-//This file was created via CT-GUI! Editing it is not advised!
+#reloadable
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
@@ -8,6 +8,7 @@
 // ───────────── 9 × 9  Ultimate Table ─────────────
 
 // Dense Neutron Collector
+recipes.remove(<denseneutroncollectors:compressed_neutron_collector>);
 mods.extendedcrafting.TableCrafting.addShaped(0,
     <denseneutroncollectors:compressed_neutron_collector>,
     [
@@ -24,6 +25,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0,
 );
 
 // Denser Neutron Collector
+recipes.remove(<denseneutroncollectors:double_compressed_neutron_collector>);
 mods.extendedcrafting.TableCrafting.addShaped(0,
     <denseneutroncollectors:double_compressed_neutron_collector>,
     [
@@ -40,17 +42,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0,
 );
 
 // Densest Neutron Collector
+recipes.remove(<denseneutroncollectors:triple_compressed_neutron_collector>);
 mods.extendedcrafting.TableCrafting.addShaped(0,
     <denseneutroncollectors:triple_compressed_neutron_collector>,
     [
         [<iuadditions:plate_venomous>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_venomous>],
-        [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <appliedenergistics2:material:61>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
+        [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <crazyae:material>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
         [null, <contenttweaker:plate_alloy_industrial>, <iuadditions:circuit_stellar>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:double_transformer:0>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:circuit_stellar>, <contenttweaker:plate_alloy_industrial>, null],
         [<iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:moremachine:5>, <iuadditions:core_apalachia>, <industrialupgrade:moremachine:5>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>],
-        [<iuadditions:plate_celestial>, <appliedenergistics2:material:61>, <industrialupgrade:double_transformer:0>, <iuadditions:core_apalachia>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:core_apalachia>, <industrialupgrade:double_transformer:0>, <appliedenergistics2:material:61>, <iuadditions:plate_celestial>],
+        [<iuadditions:plate_celestial>, <crazyae:material>, <industrialupgrade:double_transformer:0>, <iuadditions:core_apalachia>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:core_apalachia>, <industrialupgrade:double_transformer:0>, <crazyae:material>, <iuadditions:plate_celestial>],
         [<iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:moremachine:5>, <iuadditions:core_apalachia>, <industrialupgrade:moremachine:5>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>],
         [null, <contenttweaker:plate_alloy_industrial>, <iuadditions:circuit_stellar>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:double_transformer:0>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:circuit_stellar>, <contenttweaker:plate_alloy_industrial>, null],
-        [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <appliedenergistics2:material:61>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
+        [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <crazyae:material>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
         [<iuadditions:plate_venomous>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_venomous>]
     ]
 );

@@ -1,6 +1,11 @@
 {
 	x: -5.5d,
 	y: 15.5d,
+	text: [
+		"§fDigs up a §e3×3§f area all the way down to §8Bedrock§f.",
+		"",
+		"§fRequires §9Quarry Pipes§f and §6§l1 Drill Bit§f to operate."
+	],
 	dependencies: [
 		"56c43732"
 	],

@@ -2,6 +2,17 @@
 	x: 18.5d,
 	y: 14.5d,
 	shape: "hexagon",
+	text: [
+		"§6§lQuarry + Drilling Rig — Hidden Veins§r",
+		"",
+		"§fAnother way to use the §6Quarry§f is to excavate §eVeins§f discovered via the §bDrilling Rig§f.",
+		"",
+		"§fAnalyze the chunk — with a §a15%§f chance, you may find a §7Mineral Vein§f.  ",
+		"Unlike surface veins, this one is §9virtual§f — a hidden resource within the chunk.  ",
+		"§7§oIn other words, it’s just a fancy way the dev hides resources from you :D§r",
+		"",
+		"§fPlace the quarry in the §bsame chunk§f, open its GUI, select §e“Ores and Veins”§f mode, and it will start working."
+	],
 	dependencies: [
 		"1e3da71e"
 	],

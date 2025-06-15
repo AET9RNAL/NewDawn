@@ -1,6 +1,11 @@
 {
 	x: -18.0d,
 	y: -0.5d,
+	text: [
+		"§fThe §6Liquid Heater§f heats machines by consuming §cLava§f.",
+		"",
+		"§fIt is required to heat up the §bBlast Furnace§f or the §bSteam Boiler§f."
+	],
 	dependencies: [
 		"941ceda7"
 	],

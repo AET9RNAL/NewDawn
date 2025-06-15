@@ -1,6 +1,14 @@
 {
 	x: -14.0d,
 	y: 12.5d,
+	text: [
+		"§cWorks only during the day!§r",
+		"",
+		"§fPut the necessary ingredient into the table, then take the §dLaser§f in your hand and hold §eRMB§f on the mechanism.",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete."
+	],
 	dependencies: [
 		"84d517f9"
 	],

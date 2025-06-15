@@ -1,6 +1,18 @@
 {
 	x: -18.0d,
 	y: 21.5d,
+	text: [
+		"§6§lTreetap — Your Gateway to Rubber§r",
+		"",
+		"§fTreetap is a tool used for extracting §a§lRaw Latex§f from rubber trees that can be found all over the world.",
+		"§fEach rubber tree has one or more sections that contain latex.",
+		"",
+		"§fTo extract latex from the section, §e§lRMN§f on it with the treetap and you will get raw latex.",
+		"",
+		"§fYou can collect latex from one section a few times, but doing so will render it unusable, and the latex won't appear in the future.",
+		"",
+		"§7§oYou need to allow the section some time to recover before next extraction in order for the process to be sustainable.§r"
+	],
 	dependencies: [
 		"8eff8ca3"
 	],

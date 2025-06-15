@@ -11,7 +11,7 @@
 		uid: "65e7c9b7",
 		type: "item",
 		items: [{
-			item: "contenttweaker:iridium_advanced_stellar"
+			item: "iuadditions:iridium_advanced_stellar"
 		}],
 		count: 25000L
 	},

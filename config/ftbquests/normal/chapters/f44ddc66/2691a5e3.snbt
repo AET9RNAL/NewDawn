@@ -2,6 +2,11 @@
 	x: 24.901360544217766d,
 	y: 1.0408163265306314d,
 	shape: "gear",
+	text: [
+		"§fProduces §8Creosote§f from §bSteam§f and §0Coal§f.",
+		"",
+		"§fRequires §cHeating§f to operate and can work §afaster§f by increasing §6Pressure§f."
+	],
 	dependencies: [
 		"fcb94879",
 		"f2633b2d"

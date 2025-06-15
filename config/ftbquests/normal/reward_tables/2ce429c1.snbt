@@ -142,16 +142,6 @@
 		item: "industrialupgrade:spectral_box"
 	},
 	{
-		item: {
-			id: "appliedenergistics2:advanced_energy_cell",
-			tag: {
-				internalCurrentPower: 6400000.0d,
-				internalMaxPower: 6400000.0d
-			},
-			Count: 1b
-		}
-	},
-	{
 		item: "ae2stuff:wireless"
 	},
 	{

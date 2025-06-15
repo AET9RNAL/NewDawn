@@ -2,6 +2,11 @@
 	x: -20.0d,
 	y: 18.5d,
 	shape: "diamond",
+	text: [
+		"Make some plates using anvil.",
+		"",
+		"They will be useful later"
+	],
 	dependencies: [
 		"6829caab"
 	],

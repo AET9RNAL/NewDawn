@@ -1,7 +1,16 @@
+#reloadable
 import crafttweaker.item.IIngredient;
+import mods.extendedcrafting.CompressionCrafting;
 //REMOVE
 recipes.remove(<extendedcrafting:material:7>);
 //
+// val itemsToRemove = [
+    
+// ] as IItemStack[];
+
+// for item in itemsToRemove {
+//   recipes.remove(item);
+// }
 
 //ADD
 
@@ -24,6 +33,9 @@ recipes.remove(<extendedcrafting:material:7>);
 
 
 mods.botania.RuneAltar.addRecipe(<extendedcrafting:material:7>*2,[<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:gunpowder>,<minecraft:glowstone_dust>], 2000);
+
+
+
 
 
 

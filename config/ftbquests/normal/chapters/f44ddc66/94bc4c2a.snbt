@@ -2,6 +2,12 @@
 	x: -12.0d,
 	y: 16.0d,
 	shape: "diamond",
+	text: [
+		"§6§lThe only way to obtain §b§lDiamonds §6§lbefore §e§lElectric Era§6§l.",
+		"",
+		"§7Break the stones of the §bCrystal Vein§7 to get a",
+		"§a§lchance §7of obtaining §b§lDiamond Ore§7."
+	],
 	dependencies: [
 		"84d517f9"
 	],

@@ -1,7 +1,8 @@
-//import crafttweaker.item.IIngredient;
+#reloadable
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-//import moretweaker.draconicevolution.FusionCrafting;
+
 
 
 //This file was created via CT-GUI! Editing it is not advised!

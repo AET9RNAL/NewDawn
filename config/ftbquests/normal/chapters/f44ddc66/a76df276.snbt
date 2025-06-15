@@ -1,6 +1,9 @@
 {
 	x: 2.0d,
-	y: 1.5d,
+	y: 1.0d,
+	text: [
+		"We have helium now, someone bring the ballons."
+	],
 	dependencies: [
 		"187bbf4b"
 	],

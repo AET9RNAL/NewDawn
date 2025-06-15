@@ -1,6 +1,9 @@
 {
 	x: -15.5d,
 	y: -3.0d,
+	text: [
+		"§7§oProduces §aSteam§7§o twice as fast for §ehalf the water§7§o compared to the Steam Boiler.§r"
+	],
 	dependencies: [
 		"fb4f173a"
 	],

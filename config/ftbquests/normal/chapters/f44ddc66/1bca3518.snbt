@@ -1,6 +1,16 @@
 {
 	x: 14.0d,
 	y: 25.5d,
+	text: [
+		"§fA powerful generator capable of producing a lot of §bEnergy§f.",
+		"",
+		"§fConsumes §eNatural Gas§f.",
+		"",
+		"§7§o1B of Natural Gas = §e225,000 §bEF§7§o.§r",
+		"",
+		"§7§oYou can find natural gas in the world by using a §6Gas Sensor§7§o.  ",
+		"§7§oRight-click (RMB) and it will display deposits of natural gas.§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"20e9aae5"

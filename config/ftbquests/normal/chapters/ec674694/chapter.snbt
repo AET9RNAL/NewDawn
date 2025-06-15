@@ -1,5 +1,5 @@
 {
-	title: "The ultimate enderman power",
+	title: "Ender IO",
 	icon: "enderio:block_inventory_panel",
 	always_invisible: false,
 	group: 0,

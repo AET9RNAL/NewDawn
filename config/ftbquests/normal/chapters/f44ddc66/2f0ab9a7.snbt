@@ -1,6 +1,14 @@
 {
-	x: 20.0d,
-	y: -3.75d,
+	x: 23.75d,
+	y: -5.0d,
+	text: [
+		"§fA §ccrucial§f machine required for the §asafe operation§f of your nuclear reactor.",
+		"",
+		"§fPlace it near the reactor and it will §adraw radiation§f away from it automatically.",
+		"",
+		"§c§oMake sure to maintain a constant energy supply if you don't want your reactor to go §lKABOOM§r§c!§r"
+	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"ff8f6a6d"
 	],

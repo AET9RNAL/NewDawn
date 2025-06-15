@@ -1,4 +1,4 @@
-
+#reloadable
 # CREATED USING EXTERNAL TWEAKER
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemStack;
@@ -11,6 +11,7 @@ import mods.industrialupgrade.Fermer;
 import mods.industrialupgrade.AlloySmelter;
 import mods.industrialupgrade.DoubleMolecularTransformer;
 import mods.industrialupgrade.fluidadapter;
+import mods.industrialupgrade.fluidintegrator;
 //<industrialupgrade:.addTooltip(format.red(""));
 
 //CRAFTINGTABLE
@@ -198,7 +199,7 @@ recipes.addShaped(<industrialupgrade:teraddrill>, [[null, <botania:terrapick>, n
 recipes.addShaped(<industrialupgrade:terrasteel_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:274>, <industrialupgrade:rune_sun>],[<industrialupgrade:itemiucrafring:1>, <moreplates:terrasteel_plate>, <industrialupgrade:itemiucrafring:1>], [<moreplates:terrasteel_plate>, <industrialupgrade:rune_energy>, <moreplates:terrasteel_plate>]]);
 recipes.addShaped(<industrialupgrade:photoniumglass>, [[<industrialupgrade:stik>, <enderio:item_material:3>, <industrialupgrade:stik>],[<industrialupgrade:itemsunnarium:2>, <industrialupgrade:itemiucrafring:1>, <industrialupgrade:itemsunnarium:2>], [<industrialupgrade:stik>, <enderio:item_material:3>, <industrialupgrade:stik>]]);
 
-recipes.addShaped(<industrialupgrade:crafting_elements:37>, [[<redstonearsenal:material:128>, <extrautils2:suncrystal>, <redstonearsenal:material:128>],[null, <industrialupgrade:crafting_elements:21>, null], [null, null, null]]);
+recipes.addShaped(<industrialupgrade:crafting_elements:37>, [[<redstonearsenal:material:128>, <redstonearsenal:material:128>, <redstonearsenal:material:128>],[null, <industrialupgrade:crafting_elements:21>, null], [null, null, null]]);
 
 recipes.addShaped(<industrialupgrade:crafting_elements:30>, [[<ore:plateInvar>, <astralsorcery:itemusabledust:1>, <ore:plateInvar>],[null, <industrialupgrade:crafting_elements:21>, null], [null, null, null]]);
 recipes.addShaped(<industrialupgrade:crafting_elements:75>, [[<ore:plateCobalt>, <ore:plateCobalt>, <ore:plateCobalt>],[<divinerpg:divine_stone>, <industrialupgrade:crafting_elements:21>, <divinerpg:divine_stone>], [<divinerpg:divine_stone>, <industrialupgrade:itemiucrafring:3>, <divinerpg:divine_stone>]]);
@@ -210,6 +211,8 @@ recipes.addShaped(<industrialupgrade:simplemachine:3>, [[<moreplates:electrical_
 recipes.addShaped(<industrialupgrade:moremachine2>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:165>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:124>]]);
 recipes.addShaped(<industrialupgrade:moremachine2:8>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:132>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:170>]]);
 recipes.addShaped(<industrialupgrade:moremachine2:4>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:163>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:169>]]);
+recipes.addShaped(<iuadditions:soic_stellar>, [[<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>],[<industrialupgrade:stik:6>, <iuadditions:capacitor_stellar>, <industrialupgrade:stik:6>], [<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>]]);
+recipes.addShaped(<iuadditions:qfp_stellar>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_stellar>, <industrialupgrade:crafting_elements:549>, <iuadditions:capacitor_stellar>], [<iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]]);
 
 
 // Matter Fabricator — Advanced table (5×5)
@@ -785,11 +788,29 @@ mods.industrialupgrade.macerator.addRecipe(<midnight:bloomcrystal>*4, <midnight:
 
 
 //Fluid adapter
-//mods.industrialupgrade.fluidadapter.addRecipe(lltemStack, IltemStack, ILiquidStack, ILiquid Stack);
+//mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
 
-fluidadapter.addRecipe(<botania:manaresource:2>, <extrautils2:suncrystal>, <liquid:glowstone>, <liquid:water>);
+//Fluid integrator
+//mods.industrialupgrade.fluidintegrator.addRecipe(IItemStack_input, IItemStack__output, ILiquidStack_input, ILiquidStack_output);
 
+fluidintegrator.addRecipe(<botania:manaresource:2>, <extrautils2:suncrystal>, <liquid:glowstone>*2000, <liquid:water>*2000);
 
+fluidintegrator.addRecipe(<industrialupgrade:itemdust:13>, <redstonearsenal:material>, <liquid:redstone>*500, <liquid:water>*500);
+
+val honey = <liquid:for.honey> * 2500;
+
+fluidintegrator.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <iuadditions:crystal_shimmering>, honey, <liquid:water>* 2500);
+fluidintegrator.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <iuadditions:crystal_radioactive>, honey, <liquid:water>* 2500);
+fluidintegrator.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <iuadditions:crystal_venomous>, honey, <liquid:water>* 2500);
+fluidintegrator.addRecipe(<iuadditions:compressed_certushoneycomb>, <iuadditions:crystal_certus>, honey, <liquid:water>* 2500);
+fluidintegrator.addRecipe(<iuadditions:compressed_statichoneycomb>, <iuadditions:crystal_static>, honey, <liquid:water>* 2500);
+fluidintegrator.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <iuadditions:crystal_dripping>, honey, <liquid:water>* 2500);
+
+fluidintegrator.addRecipe(<contenttweaker:wyvern_energy_core_empty>, <draconicevolution:wyvern_energy_core>, <liquid:vibrant_alloy>*4000, <liquid:water>* 4000);
+fluidintegrator.addRecipe(<contenttweaker:awakened_energy_core_empty>, <draconicevolution:draconic_energy_core>, <liquid:stellar_alloy>*4000, <liquid:water>* 4000);
+fluidintegrator.addRecipe(<contenttweaker:wyvern_capacitor_empty>, <draconicevolution:draconium_capacitor>, <liquid:draconium>*5000, <liquid:water>* 5000);
+fluidintegrator.addRecipe(<contenttweaker:awakened_capacitor_empty>, <draconicevolution:draconium_capacitor:1>, <liquid:pulsating_iron>*5000, <liquid:water>* 5000);
+fluidintegrator.addRecipe(<extrautils2:suncrystal>, <redstonearsenal:material:160>, <liquid:redstone>*1000, <liquid:water>* 1000);
 
 
 

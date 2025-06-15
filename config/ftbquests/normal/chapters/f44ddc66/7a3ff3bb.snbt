@@ -1,0 +1,21 @@
+{
+	x: 12.5d,
+	y: 31.5d,
+	text: [
+		"Trash any fluid"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d7b2c866",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 122s,
+			tag: {}
+		}]
+	}]
+}

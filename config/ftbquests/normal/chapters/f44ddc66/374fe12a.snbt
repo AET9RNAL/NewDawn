@@ -1,8 +1,10 @@
 {
 	x: 28.5d,
 	y: 2.5d,
+	text: [
+		"§fThe machine requires §aRadiation§f to operate."
+	],
 	dependencies: [
-		"6f870940",
 		"2dba9d3d"
 	],
 	tasks: [{

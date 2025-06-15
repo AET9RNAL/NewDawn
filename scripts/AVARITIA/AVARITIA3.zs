@@ -1,104 +1,394 @@
+#reloadable
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IItemStack;
+import mods.extendedcrafting.CompressionCrafting;
+import mods.jei.JEI.removeAndHide;
 # CREATED USING EXTERNAL TWEAKER
-//mods.avaritia.Compressor.add("NAMEPLACEHOLDER", NAMEPLACEHOLDER1, 4032, NAMEPLACEHOLDER2, true);
+//mods.avaritia.Compressor.add("NAMEPLACEHOLDER", IItemStack_output, item_count, IItemStack_input, true);
+//mods.jei.JEI.removeAndHide(FILL);
 mods.avaritia.Compressor.removeAll();
 
 mods.avaritia.Compressor.remove(<jaopca:avaritia_singularity.elven_elementium>);
 mods.avaritia.Compressor.remove(<jaopca:avaritia_singularity.draconium_awakened>);
 mods.avaritia.Compressor.remove(<jaopca:avaritia_singularity.cyanite>);
 
-mods.avaritia.Compressor.add("singularity", <avaritia:singularity>, 4032, <minecraft:iron_block>,true);
-mods.avaritia.Compressor.add("gold", <avaritia:singularity:1>, 4032, <minecraft:gold_block>, true);
-mods.avaritia.Compressor.add("lapis", <avaritia:singularity:2>, 4032, <ore:blockLapis>, true);
-mods.avaritia.Compressor.add("Redstone", <avaritia:singularity:3>, 4032, <ore:blockRedstone>, true);
-mods.avaritia.Compressor.add("quartz", <avaritia:singularity:4>, 4032, <ore:blockQuartz>, true);
-mods.avaritia.Compressor.add("copper", <avaritia:singularity:5>, 4032, <ore:blockCopper>, true);
-mods.avaritia.Compressor.add("tin", <avaritia:singularity:6>, 4032, <ore:blockTin>, true);
-mods.avaritia.Compressor.add("lead", <avaritia:singularity:7>, 4032, <ore:blockLead>, true);
-mods.avaritia.Compressor.add("silver", <avaritia:singularity:8>, 4032, <ore:blockSilver>, true);
-mods.avaritia.Compressor.add("nickel", <avaritia:singularity:9>, 4032, <ore:blockNickel>, true);
-mods.avaritia.Compressor.add("diamond", <avaritia:singularity:10>, 4032, <ore:blockDiamond>, true);
-mods.avaritia.Compressor.add("Emerald", <avaritia:singularity:11>, 4032, <ore:blockEmerald>, true);
-mods.avaritia.Compressor.add("Platinum", <avaritia:singularity:13>, 2016, <ore:blockPlatinum>, true);
-mods.avaritia.Compressor.add("Iridium", <avaritia:singularity:14>, 2016, <ore:blockIridium>, true);
+val CompressionCrafting_remove = [
+    <jaopca:avaritia_singularity.cobalt_chrome>,
+    <jaopca:avaritia_singularity.crude_steel>,
+    <jaopca:avaritia_singularity.crystal_flux>,
+    <jaopca:avaritia_singularity.crystalline_alloy>,
+    <jaopca:avaritia_singularity.crystalline_pink_slime>,
+    <jaopca:avaritia_singularity.crystaltine>,
+    <jaopca:avaritia_singularity.demonic_metal>,
+    <jaopca:avaritia_singularity.dilithium>,
+    <jaopca:avaritia_singularity.duranite>,
+    <jaopca:avaritia_singularity.adamant>,
+    <jaopca:avaritia_singularity.activated_glowstone>,
+    <jaopca:avaritia_singularity.abyssum>,
+    <avaritia:singularity:12>,
+    <jaopca:avaritia_singularity.adamantium>,
+    <jaopca:avaritia_singularity.amethyst>,
+    <jaopca:avaritia_singularity.amber>,
+    <jaopca:avaritia_singularity.aluminium_silicon>,
+    <jaopca:avaritia_singularity.aluminium_lithium>,
+    <jaopca:avaritia_singularity.aluminum>,
+    <jaopca:avaritia_singularity.alubrass>,
+    <jaopca:avaritia_singularity.beryllium>,
+    <jaopca:avaritia_singularity.basalt>,
+    <jaopca:avaritia_singularity.barium>,
+    <jaopca:avaritia_singularity.aurorium>,
+    <jaopca:avaritia_singularity.astrium>,
+    <jaopca:avaritia_singularity.ardite>,
+    <jaopca:avaritia_singularity.bor>,
+    <jaopca:avaritia_singularity.bloodstone>,
+    <jaopca:avaritia_singularity.black_iron>,
+    <jaopca:avaritia_singularity.bismuth>,
+    <jaopca:avaritia_singularity.beryllium_bronze>,
+    <jaopca:avaritia_singularity.brick_seared>,
+    <jaopca:avaritia_singularity.brick_nether>,
+    <jaopca:avaritia_singularity.cadmium>,
+    <jaopca:avaritia_singularity.charcoal>,
+    <jaopca:avaritia_singularity.draconid>,
+    <jaopca:avaritia_singularity.lunar>,
+    <jaopca:avaritia_singularity.malachite>,
+    <jaopca:avaritia_singularity.manyullyn>,
+    <jaopca:avaritia_singularity.meteoric>,
+    <jaopca:avaritia_singularity.meteorite>,
+    <jaopca:avaritia_singularity.mithril>,
+    <jaopca:avaritia_singularity.molybdenum>,
+    <jaopca:avaritia_singularity.moon>,
+    <jaopca:avaritia_singularity.dyonite>,
+    <jaopca:avaritia_singularity.eezo>,
+    <jaopca:avaritia_singularity.ender_pearl>,
+    <jaopca:avaritia_singularity.enriched_glowstone>,
+    <jaopca:avaritia_singularity.fluorite>,
+    <jaopca:avaritia_singularity.fractum>,
+    <jaopca:avaritia_singularity.gadolinium>,
+    <jaopca:avaritia_singularity.gaiasteel>,
+    <jaopca:avaritia_singularity.gallium>,
+    <jaopca:avaritia_singularity.gallium_arsenic>,
+    <jaopca:avaritia_singularity.graphite>,
+    <jaopca:avaritia_singularity.hades>,
+    <jaopca:avaritia_singularity.hafnium>,
+    <jaopca:avaritia_singularity.hafnium_boride>,
+    <jaopca:avaritia_singularity.hafnium_carbide>,
+    <jaopca:avaritia_singularity.harmonite>,
+    <jaopca:avaritia_singularity.ignitz>,
+    <jaopca:avaritia_singularity.imperomite>,
+    <jaopca:avaritia_singularity.inconel>,
+    <jaopca:avaritia_singularity.insanium>,
+    <jaopca:avaritia_singularity.intermedium>,
+    <jaopca:avaritia_singularity.iox>,
+    <jaopca:avaritia_singularity.karmesine>,
+    <jaopca:avaritia_singularity.knightslime>,
+    <jaopca:avaritia_singularity.ludicrite>,
+    <jaopca:avaritia_singularity.lithium>,
+    <jaopca:avaritia_singularity.molybdenum_steel>,
+    <jaopca:avaritia_singularity.prometheum>,
+    <jaopca:avaritia_singularity.proxii>,
+    <jaopca:avaritia_singularity.prudentium>,
+    <jaopca:avaritia_singularity.pyrotheum>,
+    <jaopca:avaritia_singularity.redbrass>,
+    <jaopca:avaritia_singularity.refined_glowstone>,
+    <jaopca:avaritia_singularity.refined_obsidian>,
+    <jaopca:avaritia_singularity.sapphire>,
+    <jaopca:avaritia_singularity.seismum>,
+    <jaopca:avaritia_singularity.neodymium>,
+    <jaopca:avaritia_singularity.neptunium>,
+    <jaopca:avaritia_singularity.nihilite>,
+    <jaopca:avaritia_singularity.nimonic>,
+    <jaopca:avaritia_singularity.niob>,
+    <jaopca:avaritia_singularity.niobium>,
+    <jaopca:avaritia_singularity.niobium_titanium>,
+    <jaopca:avaritia_singularity.nitenol>,
+    <jaopca:avaritia_singularity.nucleo_arlemite>,
+    <jaopca:avaritia_singularity.nucleo_arlemite>,
+    <jaopca:avaritia_singularity.nucleo_arlemite>,
+    <jaopca:avaritia_singularity.nucleum>,
+    <jaopca:avaritia_singularity.obsidiorite>,
+    <jaopca:avaritia_singularity.orichalcos>,
+    <jaopca:avaritia_singularity.orichalcum>,
+    <jaopca:avaritia_singularity.osmiridium>,
+    <jaopca:avaritia_singularity.osmium>,
+    <jaopca:avaritia_singularity.osram>,
+    <jaopca:avaritia_singularity.ovium>,
+    <jaopca:avaritia_singularity.palladium>,
+    <jaopca:avaritia_singularity.permalloy>,
+    <jaopca:avaritia_singularity.petrotheum>,
+    <jaopca:avaritia_singularity.photonium>,
+    <jaopca:avaritia_singularity.pigiron>,
+    <jaopca:avaritia_singularity.plutonium>,
+    <jaopca:avaritia_singularity.polonium>,
+    <jaopca:avaritia_singularity.prismarine>,
+    <jaopca:avaritia_singularity.tungsten>,
+    <jaopca:avaritia_singularity.ultimate>,
+    <jaopca:avaritia_singularity.unstable>,
+    <jaopca:avaritia_singularity.uranium>,
+    <jaopca:avaritia_singularity.uru>,
+    <jaopca:avaritia_singularity.valyrium>,
+    <jaopca:avaritia_singularity.vanadium>,
+    <jaopca:avaritia_singularity.vanadoalumite>,
+    <jaopca:avaritia_singularity.shadow_photonium>,
+    <jaopca:avaritia_singularity.shadowium>,
+    <jaopca:avaritia_singularity.silicon>,
+    <jaopca:avaritia_singularity.silicon_dioxide>,
+    <jaopca:avaritia_singularity.slag>,
+    <jaopca:avaritia_singularity.solarium>,
+    <jaopca:avaritia_singularity.soularium>,
+    <jaopca:avaritia_singularity.stainless_steel>,
+    <jaopca:avaritia_singularity.steel>,
+    <jaopca:avaritia_singularity.stellite>,
+    <jaopca:avaritia_singularity.stone>,
+    <jaopca:avaritia_singularity.strontium>,
+    <jaopca:avaritia_singularity.sulfur>,
+    <jaopca:avaritia_singularity.superalloy_haynes>,
+    <jaopca:avaritia_singularity.superalloy_rene>,
+    <jaopca:avaritia_singularity.superium>,
+    <jaopca:avaritia_singularity.supremium>,
+    <jaopca:avaritia_singularity.tantalum>,
+    <jaopca:avaritia_singularity.tantalum>,
+    <jaopca:avaritia_singularity.tantalum_tungsten_hafnium>,
+    <jaopca:avaritia_singularity.tanzanite>,
+    <jaopca:avaritia_singularity.terrax>,
+    <jaopca:avaritia_singularity.thallium>,
+    <jaopca:avaritia_singularity.thorium>,
+    <jaopca:avaritia_singularity.tiberium>,
+    <jaopca:avaritia_singularity.titanium>,
+    <jaopca:avaritia_singularity.triberium>,
+    <jaopca:avaritia_singularity.violium>,
+    <jaopca:avaritia_singularity.vivid_alloy>,
+    <jaopca:avaritia_singularity.zirconium>,
+    <jaopca:avaritia_singularity.woods>,
+    <jaopca:avaritia_singularity.yellorium>,
+    <jaopca:avaritia_singularity.yrdeen>,
+    <jaopca:avaritia_singularity.yttrium>,
+    <jaopca:avaritia_singularity.yttrium_aluminium_garnet>,
+    <jaopca:avaritia_singularity.zeliber>,
+    <jaopca:avaritia_singularity.zinc>
 
-mods.avaritia.Compressor.add("Aerotheum", <jaopca:avaritia_singularity.aerotheum>, 576, <ore:blockAerotheum>, true);
-mods.avaritia.Compressor.add("Alcled", <jaopca:avaritia_singularity.alcled>, 4032, <ore:blockAlcled>, true);
-mods.avaritia.Compressor.add("Alumel", <jaopca:avaritia_singularity.alumel>, 4032, <ore:blockAlumel>, true);
-mods.avaritia.Compressor.add("Aluminium", <jaopca:avaritia_singularity.aluminium>, 4032, <ore:blockAluminium>, true);
-mods.avaritia.Compressor.add("Aluminumbronze", <jaopca:avaritia_singularity.aluminumbronze>, 4032, <ore:blockAluminumbronze>, true);
-mods.avaritia.Compressor.add("americium", <jaopca:avaritia_singularity.americium>, 5, <ore:blockAmericium>, true);
-mods.avaritia.Compressor.add("debris", <jaopca:avaritia_singularity.ancient_debris>, 1152, <ore:blockAncientDebris>, true);
-mods.avaritia.Compressor.add("apatite", <jaopca:avaritia_singularity.apatite>, 4032, <ore:blockApatite>, true);
+    
+] as crafttweaker.item.IItemStack[];
 
-mods.avaritia.Compressor.add("Aquamarine", <jaopca:avaritia_singularity.aquamarine>, 4032, <ore:blockAquamarine>, true);
-mods.avaritia.Compressor.add("AstralStarmetal", <jaopca:avaritia_singularity.astral_starmetal>, 1024, <astraladditions:block_starmetal>, true);
-mods.avaritia.Compressor.add("Basalz", <jaopca:avaritia_singularity.basalz>, 576, <ore:blockBasalz>, true);
-mods.avaritia.Compressor.add("BaseEssence", <jaopca:avaritia_singularity.base_essence>, 4032, <ore:blockBaseEssence>, true);
-mods.avaritia.Compressor.add("Bedrock", <jaopca:avaritia_singularity.bedrock>, 4032, <ore:blockBedrock>, true);
-mods.avaritia.Compressor.add("Blaze", <jaopca:avaritia_singularity.blaze>, 4032, <ore:blockBlaze>, true);
-mods.avaritia.Compressor.add("Blitz", <jaopca:avaritia_singularity.blitz>, 576, <ore:blockBlitz>, true);
-mods.avaritia.Compressor.add("Blutonium", <jaopca:avaritia_singularity.blutonium>, 7, <ore:blockBlutonium>, true);
+for item in CompressionCrafting_remove {
+  ///CompressionCrafting.remove(item);
+  removeAndHide(item);
+}
 
-mods.avaritia.Compressor.add("Bronze", <jaopca:avaritia_singularity.bronze>, 4032, <ore:blockBronze>, true);
-mods.avaritia.Compressor.add("Caravky", <jaopca:avaritia_singularity.caravky>, 576, <ore:blockCaravky>, true);
-mods.avaritia.Compressor.add("ChargedCertusQuartz", <jaopca:avaritia_singularity.charged_certus_quartz>, 4032, <ore:blockChargedCertusQuartz>, true);
-mods.avaritia.Compressor.add("Chromium", <jaopca:avaritia_singularity.chromium>, 4032, <ore:blockChromium>, true);
-mods.avaritia.Compressor.add("Coal", <jaopca:avaritia_singularity.coal>, 4032, <ore:blockCoal>, true);
-mods.avaritia.Compressor.add("Cobalt", <jaopca:avaritia_singularity.cobalt>, 4032, <ore:blockCobalt>, true);
-mods.avaritia.Compressor.add("ConductiveIron", <jaopca:avaritia_singularity.conductive_iron>, 4032, <ore:blockConductiveIron>, true);
-mods.avaritia.Compressor.add("Constantan", <jaopca:avaritia_singularity.constantan>, 4032, <ore:blockConstantan>, true);
-mods.avaritia.Compressor.add("CosmicNeutronium", <jaopca:avaritia_singularity.cosmic_neutronium>, 48, <ore:blockCosmicNeutronium>, true);
+// CompressionCrafting.remove(<extendedcrafting:singularity:48>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:49>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:50>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:64>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:65>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:66>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:34>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:16>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:7>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:6>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:5>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:4>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:3>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:2>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:1>);
+// CompressionCrafting.remove(<extendedcrafting:singularity>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:25>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:24>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:23>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:22>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:21>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:20>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:19>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:18>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:17>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:33>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:32>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:31>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:30>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:29>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:28>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:27>);
+// CompressionCrafting.remove(<extendedcrafting:singularity:26>);
 
-mods.avaritia.Compressor.add("Cryotheum", <jaopca:avaritia_singularity.cryotheum>, 4032, <ore:blockCryotheum>, true);
-mods.avaritia.Compressor.add("CrystalMatrix", <jaopca:avaritia_singularity.crystal_matrix>, 4032, <ore:blockCrystalMatrix>, true);
-mods.avaritia.Compressor.add("Curium", <jaopca:avaritia_singularity.curium>, 576, <ore:blockCurium>, true);
-mods.avaritia.Compressor.add("Cyanite", <jaopca:avaritia_singularity.cyanite>, 14, <ore:blockCyanite>, true);
-mods.avaritia.Compressor.add("DarkSteel", <jaopca:avaritia_singularity.dark_steel>, 4032, <ore:blockDarkSteel>, true);
-mods.avaritia.Compressor.add("DemonicMetal", <jaopca:avaritia_singularity.demonic_metal>, 4032, <ore:blockDemonicMetal>, true);
-mods.avaritia.Compressor.add("Draconium", <jaopca:avaritia_singularity.draconium>, 1152, <ore:blockDraconium>, true);
-mods.avaritia.Compressor.add("DraconiumAwakened", <jaopca:avaritia_singularity.draconium_awakened>, 28, <ore:blockDraconiumAwakened>, true);
-mods.avaritia.Compressor.add("duralumin", <jaopca:avaritia_singularity.duralumin>, 4032, <ore:blockDuralumin>, true);
 
-mods.avaritia.Compressor.add("ElectricalSteel", <jaopca:avaritia_singularity.electrical_steel>, 4032, <ore:blockElectricalSteel>, true);
-mods.avaritia.Compressor.add("Electrum", <jaopca:avaritia_singularity.electrum>, 4032, <ore:blockElectrum>, true);
-mods.avaritia.Compressor.add("EnchantedMetal", <jaopca:avaritia_singularity.enchanted_metal>, 28, <ore:blockEnchantedMetal>, true);
-mods.avaritia.Compressor.add("EndSteel", <jaopca:avaritia_singularity.end_steel>, 4032, <ore:blockEndSteel>, true);
-mods.avaritia.Compressor.add("Enderium", <jaopca:avaritia_singularity.enderium>, 4032, <ore:blockEnderium>, true);
-mods.avaritia.Compressor.add("EnergeticAlloy", <jaopca:avaritia_singularity.energetic_alloy>, 4032, <ore:blockEnergeticAlloy>, true);
-mods.avaritia.Compressor.add("EnergeticSilver", <jaopca:avaritia_singularity.energetic_silver>, 4032, <ore:blockEnergeticSilver>, true);
-mods.avaritia.Compressor.add("EvilMetal", <jaopca:avaritia_singularity.evil_metal>, 224, <ore:blockEvilMetal>, true);
 
-mods.avaritia.Compressor.add("Ferromanganese", <jaopca:avaritia_singularity.ferromanganese>, 4032, <ore:blockFerromanganese>, true);
-mods.avaritia.Compressor.add("fluix_block", <jaopca:avaritia_singularity.fluix>, 4032, <appliedenergistics2:fluix_block>, true);
-mods.avaritia.Compressor.add("Germanium", <jaopca:avaritia_singularity.germanium>, 1152, <ore:blockGermanium>, true);
-mods.avaritia.Compressor.add("Glowstone", <jaopca:avaritia_singularity.glowstone>, 4032, <ore:blockGlowstone>, true);
-mods.avaritia.Compressor.add("Inferium", <jaopca:avaritia_singularity.inferium>, 1008, <ore:blockInferium>, true);
-mods.avaritia.Compressor.add("Invar", <jaopca:avaritia_singularity.invar>, 4032, <ore:blockInvar>, true);
-mods.avaritia.Compressor.add("Lumium", <jaopca:avaritia_singularity.lumium>, 4032, <ore:blockLumium>, true);
-mods.avaritia.Compressor.add("Magnesium", <jaopca:avaritia_singularity.magnesium>, 4032, <ore:blockMagnesium>, true);
-mods.avaritia.Compressor.add("Mana", <jaopca:avaritia_singularity.mana>, 57, <ore:blockMana>, true);
+//CompressionCrafting.addRecipe(IItemStack_output, IItemStack_input, int_item_count, IItemStack_catalyst, int_energy, int_energy_consume);
+//CompressionCrafting.remove(IItemStack);
 
-mods.avaritia.Compressor.add("manasteel", <jaopca:avaritia_singularity.manasteel>, 4032, <botania:storage>, true);
-mods.avaritia.Compressor.add("Manganese", <jaopca:avaritia_singularity.manganese>, 4032, <ore:blockManganese>, true);
-mods.avaritia.Compressor.add("MelodicAlloy", <jaopca:avaritia_singularity.melodic_alloy>, 1027, <ore:blockMelodicAlloy>, true);
-mods.avaritia.Compressor.add("Mikhail", <jaopca:avaritia_singularity.mikhail>, 4032, <ore:blockMikhail>, true);
-mods.avaritia.Compressor.add("Muntsa", <jaopca:avaritia_singularity.muntsa>, 4032, <ore:blockMuntsa>, true);
-mods.avaritia.Compressor.add("Neutron", <jaopca:avaritia_singularity.neutron>, 576, <ore:blockNeutron>, true);
-mods.avaritia.Compressor.add("Nichrome", <jaopca:avaritia_singularity.nichrome>, 4032, <ore:blockNichrome>, true);
-mods.avaritia.Compressor.add("Photon", <jaopca:avaritia_singularity.photon>, 576, <ore:blockPhoton>, true);
-mods.avaritia.Compressor.add("Proton", <jaopca:avaritia_singularity.proton>, 576, <ore:blockProton>, true);
 
-mods.avaritia.Compressor.add("PulsatingIron", <jaopca:avaritia_singularity.pulsating_iron>, 4032, <ore:blockPulsatingIron>, true);
-mods.avaritia.Compressor.add("RedstoneAlloy", <jaopca:avaritia_singularity.redstone_alloy>, 4032, <ore:blockRedstoneAlloy>, true);
-mods.avaritia.Compressor.add("Signalum", <jaopca:avaritia_singularity.signalum>, 4032, <ore:blockSignalum>, true);
-mods.avaritia.Compressor.add("Spinel", <jaopca:avaritia_singularity.spinel>, 4032, <ore:blockSpinel>, true);
-mods.avaritia.Compressor.add("StellarAlloy", <jaopca:avaritia_singularity.stellar_alloy>, 576, <ore:blockStellarAlloy>, true);
-mods.avaritia.Compressor.add("VibrantAlloy", <jaopca:avaritia_singularity.vibrant_alloy>, 4032, <ore:blockVibrantAlloy>, true);
-mods.avaritia.Compressor.add("Vitalium", <jaopca:avaritia_singularity.vitalium>, 4032, <ore:blockVitalium>, true);
 
-mods.avaritia.Compressor.add("Terrasteel", <jaopca:avaritia_singularity.terrasteel>, 4032, <botania:storage:1>, true);
-mods.avaritia.Compressor.add("Elementium", <jaopca:avaritia_singularity.elven_elementium>, 4032, <botania:storage:2>, true);
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.aerotheum>, <thermalfoundation:material:1026>, 1024, <extendedcrafting:material:11>, 1000000, 100000);
 
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.alcled>, <industrialupgrade:alloyingot:5>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.alumel>, <industrialupgrade:alloyingot:1>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.aluminium>, <industrialupgrade:itemingots:1>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.americium>, <industrialupgrade:radiationresources>, 576, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.ancient_debris>, <futuremc:ancient_debris>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.apatite>, <forestry:apatite>, 25000, <extendedcrafting:material:11>, 1000000, 100000);
+
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.aquamarine>, <astralsorcery:itemcraftingcomponent>, 25000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.astral_starmetal>, <astralsorcery:itemcraftingcomponent:1>, 2048, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.blaze>, <minecraft:blaze_rod>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.blitz>, <thermalfoundation:material:2050>, 2048, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.caravky>, <industrialupgrade:itemingots:5>, 576, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.charged_certus_quartz>, <appliedenergistics2:material:1>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.chromium>, <industrialupgrade:itemingots:11>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.conductive_iron>, <enderio:item_alloy_ingot:4>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.cosmic_neutronium>, <avaritia:resource:4>, 64, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.cryotheum>, <thermalfoundation:material:1025>, 2048, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.crystal_matrix>, <avaritia:resource:1>, 128, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.curium>, <industrialupgrade:radiationresources:2>, 576, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.cyanite>, <bigreactors:ingotcyanite>, 32, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.dark_steel>, <enderio:item_alloy_ingot:6>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.demonic>, <iuadditions:ingot_moltendemon>, 9600, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.draconium>, <draconicevolution:draconium_ingot>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.draconium_awakened>, <draconicevolution:draconic_ingot>, 32, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.duralumin>, <industrialupgrade:alloyingot:8>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.electrical_steel>, <enderio:item_alloy_ingot>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.electrum>, <industrialupgrade:itemingots:13>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.enchanted_metal>, <extrautils2:ingredients:12>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.end_steel>, <enderio:item_alloy_ingot:8>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.enderium>, <thermalfoundation:material:167>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.energetic_alloy>, <enderio:item_alloy_ingot:1>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.energetic_silver>, <enderio:item_alloy_endergy_ingot:5>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.evil_metal>, <extrautils2:ingredients:17>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.ferromanganese>, <industrialupgrade:alloyingot:9>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.fluix>, <appliedenergistics2:material:7>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.germanium>, <industrialupgrade:itemingots:18>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.glowstone>, <minecraft:glowstone_dust>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.inferium>, <mysticalagriculture:crafting>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.invar>, <industrialupgrade:itemingots:4>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.magnesium>, <industrialupgrade:itemingots:7>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.manasteel>, <botania:manaresource>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.manganese>, <industrialupgrade:itemingots:16>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.melodic_alloy>, <enderio:item_alloy_endergy_ingot:2>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.mikhail>, <industrialupgrade:itemingots>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.muntsa>, <industrialupgrade:alloyingot:3>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.neutron>, <industrialupgrade:neutroniumingot>, 576, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.nichrome>, <industrialupgrade:alloyingot:4>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.photon>, <industrialupgrade:photoniy_ingot>, 128, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.proton>, <industrialupgrade:proton>, 128, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.pulsating_iron>, <enderio:item_alloy_ingot:5>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.redstone_alloy>, <enderio:item_alloy_ingot:3>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.signalum>, <thermalfoundation:material:165>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.spinel>, <industrialupgrade:itemingots:12>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.stellar_alloy>, <enderio:item_alloy_endergy_ingot:3>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.vibrant_alloy>, <enderio:item_alloy_ingot:2>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.vitalium>, <industrialupgrade:alloyingot:7>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.terrasteel>, <botania:manaresource:4>, 1024, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.elven_elementium>, <botania:manaresource:7>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.basalz>, <thermalfoundation:material:2053>, 2048, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.base_essence>, <mysticalagriculture:crafting:32>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.bedrock>, <enderio:item_material:20>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.blutonium>, <bigreactors:ingotblutonium>, 32, <extendedcrafting:material:11>, 1000000, 100000);
+
+
+
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.coal>, <minecraft:coal>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.bronze>, <industrialupgrade:itemingots:20>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:10>, <minecraft:diamond>, 1024, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.blizz>, <thermalfoundation:material:2049>, 2048, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:8>, <industrialupgrade:itemingots:14>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:11>, <minecraft:emerald>, 1024, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.aluminumbronze>, <industrialupgrade:alloyingot>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:7>, <industrialupgrade:itemingots:22>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:5>, <industrialupgrade:itemingots:21>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:2>, <minecraft:dye:4>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity>, <minecraft:iron_ingot>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:6>, <industrialupgrade:itemingots:24>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:13>, <industrialupgrade:itemingots:9>, 4032, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:9>, <industrialupgrade:itemingots:8>, 12800, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:14>, <industrialupgrade:itemingots:17>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.mana>, <thermalfoundation:material:1028>, 576, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.lumium>, <thermalfoundation:material:166>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.cobalt>, <industrialupgrade:itemingots:6>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.constantan>, <thermalfoundation:material:164>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:1>, <minecraft:gold_ingot>, 16000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:3>, <minecraft:redstone>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
+
+CompressionCrafting.addRecipe(<avaritia:singularity:4>, <minecraft:quartz>, 32000, <extendedcrafting:material:11>, 1000000, 100000);
 
 
 

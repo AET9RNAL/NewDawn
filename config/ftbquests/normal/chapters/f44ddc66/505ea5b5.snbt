@@ -1,6 +1,9 @@
 {
 	x: -6.5d,
 	y: 0.0d,
+	text: [
+		"Just one more step!"
+	],
 	dependencies: [
 		"899ab29b"
 	],

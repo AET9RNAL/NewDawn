@@ -1,6 +1,9 @@
 {
 	x: 5.0d,
 	y: 25.5d,
+	text: [
+		"§7§oConsumes §cLava§7§o — §61B§7§o = §e10,000 §bEF§7§o.§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"20e9aae5"

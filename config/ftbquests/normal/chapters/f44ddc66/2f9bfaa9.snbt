@@ -1,6 +1,9 @@
 {
 	x: 6.5d,
 	y: 25.5d,
+	text: [
+		"§7§oConsumes §cRedstone§7§o — §61§7§o = §e10,000 §bEF§7§o.§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"20e9aae5"

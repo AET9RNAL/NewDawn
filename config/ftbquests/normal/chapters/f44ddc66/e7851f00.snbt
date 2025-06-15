@@ -1,7 +1,10 @@
 {
 	x: 50.0d,
-	y: -2.0d,
+	y: -3.5d,
 	shape: "gear",
+	text: [
+		"§fRemoves dependence on §abiome§f and §3flow direction§f."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"0b0603cb",

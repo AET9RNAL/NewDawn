@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.appliedenergistics2.Grinder;
@@ -56,7 +57,6 @@ val itemsToRemove = [
   <appliedenergistics2:part:240>,
   <appliedenergistics2:part:261>,
   <appliedenergistics2:part:241>,
-  <appliedenergistics2:material:61>,
   <appliedenergistics2:material:62>,
   <appliedenergistics2:material:63>,
   <appliedenergistics2:material:64>,

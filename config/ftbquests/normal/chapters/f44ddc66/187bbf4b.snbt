@@ -2,6 +2,14 @@
 	x: 4.0d,
 	y: 0.0d,
 	shape: "gear",
+	text: [
+		"§fYou can finally §aspeed up§f your machines in exchange for higher §eEnergy Consumption§f.",
+		"",
+		"§fIf, after adding several §bOverclocker Upgrades§f, the machine stops functioning —  ",
+		"it likely means the energy required for one operation exceeds its internal buffer.",
+		"",
+		"§fTo fix this, increase the buffer using §eEnergy Upgrades§f!"
+	],
 	dependencies: [
 		"41a7cf8d"
 	],

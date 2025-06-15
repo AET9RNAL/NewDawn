@@ -1,6 +1,7 @@
+#reloadable
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
-//This file was created via CT-GUI! Editing it is not advised!
+import mods.industrialupgrade.AlloySmelter;
 //Don't touch me!
 //#Remove
 ///recipes.remove(AAAA);
@@ -347,8 +348,8 @@ mods.industrialupgrade.AdvAlloySmelter.addRecipe(<contenttweaker:alloy_thermal>,
 
 
 
-
-
+//Alloy Smelter IU
+AlloySmelter.addRecipe(<thermalfoundation:material:1028>, <thermalfoundation:material:2049>, <botania:manaresource:23>, 2000);
 
 
 

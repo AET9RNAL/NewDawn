@@ -2,6 +2,12 @@
 	x: 3.5d,
 	y: 21.5d,
 	shape: "circle",
+	text: [
+		"§fStores §bEF Energy§f.",
+		"",
+		"§7§oThe side with the §eDot§7§o is the §6Energy Output§7§o,  ",
+		"§7§oall other sides are §9Energy Inputs§7§o.§r"
+	],
 	dependencies: [
 		"20e9aae5"
 	],

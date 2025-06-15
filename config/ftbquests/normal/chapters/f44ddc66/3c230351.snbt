@@ -1,6 +1,14 @@
 {
 	x: -15.5d,
 	y: 12.5d,
+	text: [
+		"§fMake a §bCrystal Grower§f in advance and start producing §dSilicon Discs§f.  ",
+		"§fThey will be used later in the crafting of §eElectrical Circuits§f.",
+		"",
+		"§fPlace §7§o3§f §7§oSilicon Dust§f and §7§o1§f §7§oFlint§f inside — the process will start.",
+		"",
+		"§7§oOne operation takes 12 minutes and 30 seconds.§r"
+	],
 	dependencies: [
 		"84d517f9"
 	],

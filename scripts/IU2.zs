@@ -1,3 +1,15 @@
+#reloadable
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IItemStack;
+import mods.industrialupgrade.MolecularTransformer;
+import mods.industrialupgrade.rolling;
+import mods.industrialupgrade.gearing;
+import mods.industrialupgrade.compressor;
+import mods.industrialupgrade.GenMicrochip;
+import mods.industrialupgrade.Fermer;
+import mods.industrialupgrade.AlloySmelter;
+import mods.industrialupgrade.DoubleMolecularTransformer;
+import mods.industrialupgrade.fluidadapter;
 import crafttweaker.item.IIngredient;
 import mods.extendedcrafting.CombinationCrafting;
 import mods.extendedcrafting.EnderCrafting;
@@ -5,13 +17,23 @@ import mods.extendedcrafting.EnderCrafting;
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
+val itemsToRemove = [
+    <industrialupgrade:crafting_elements:22>,
+	<industrialupgrade:crafting_elements:229>,
+	<industrialupgrade:itemplates:25>,
+	<industrialupgrade:crafting_elements:16>,
+	<industrialupgrade:crafting_elements:72>,
+	<industrialupgrade:basemachine3:81>,
+	<industrialupgrade:vajra>,
+	<industrialupgrade:ult_vajra>,
+	<industrialupgrade:ultddrill>
 
-recipes.remove(<industrialupgrade:crafting_elements:22>);
-recipes.remove(<industrialupgrade:crafting_elements:229>);
-recipes.remove(<industrialupgrade:itemplates:25>);
-recipes.remove(<industrialupgrade:crafting_elements:16>);
-recipes.remove(<industrialupgrade:crafting_elements:72>);
-recipes.remove(<industrialupgrade:basemachine3:81>);
+
+] as IItemStack[];
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
 //Don't touch me!
 //#Add
 recipes.addShaped(<industrialupgrade:elementium_core>, [[<industrialupgrade:rune_night>, <industrialupgrade:crafting_elements:273>, <industrialupgrade:rune_sun>],[<industrialupgrade:photoniy_ingot>, <industrialupgrade:manasteel_core>, <industrialupgrade:photoniy_ingot>], [<moreplates:elementium_plate>, <industrialupgrade:rune_energy>, <moreplates:elementium_plate>]]);

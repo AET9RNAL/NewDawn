@@ -2,6 +2,12 @@
 	x: 7.0d,
 	y: 4.5d,
 	shape: "diamond",
+	text: [
+		"§fThe §eSolar Distiller§f turns §9Water§f into §bDistilled Water§f.",
+		"",
+		"§fIt works §7slowly§f and only during the §eDaytime§f,  ",
+		"so it’s recommended to build §amultiple units§f and upgrade them to the highest tier you can afford."
+	],
 	dependencies: [
 		"20e9aae5"
 	],

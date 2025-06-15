@@ -1,6 +1,23 @@
 {
 	x: 10.0d,
 	y: -12.5d,
+	text: [
+		"§f§bEnergy§f allows you to do many things — one of them is §aresource generation§f.",
+		"",
+		"§fThe §dReplicator§f lets you replicate scanned items §oinfinitely§f for the cost of §6UU-Matter§f.",
+		"",
+		"§f§lHow to Use:§r  ",
+		"§f1. §fScan the item you want to replicate.  ",
+		"§7§o(Note: Not all items can be replicated.  ",
+		"To check, hover over the item and press §e[Shift]§7§o —  ",
+		"if you see “To create an item in a replicator, you need: nn mB”, it means it’s replicable.)§r",
+		"",
+		"§f2. §fPlace a §bPattern Storage§f next to the §aScanner§f and save the scanned item into it.  ",
+		"§f3. §fPlace a §dReplicator§f next to the §bPattern Storage§f.  ",
+		"§f4. §fSupply it with §6UU-Matter§f, choose a §eReplication Mode§f, and start the process.",
+		"",
+		"§c§oNote: Both scanning and replication require enormous amounts of energy. Be prepared.§r"
+	],
 	dependencies: [
 		"b3285c4c",
 		"b941ed18",

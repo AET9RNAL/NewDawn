@@ -1,6 +1,11 @@
 {
 	x: -6.5d,
 	y: 10.0d,
+	text: [
+		"§fThe §bSteam Electrolyzer§f operates using §bSteam§f, §eCurrent§f, and §9Water§f.",
+		"",
+		"§fPower it with a §6Steam Current Converter§f — either place it next to the electrolyzer, or connect it with an §eAmpere Cable§f."
+	],
 	dependencies: [
 		"4734e07e"
 	],

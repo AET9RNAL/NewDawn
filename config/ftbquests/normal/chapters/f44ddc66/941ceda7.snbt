@@ -1,6 +1,13 @@
 {
 	x: -18.0d,
 	y: 2.0d,
+	text: [
+		"§fThe most basic type of §eElectrical Circuit§f.",
+		"",
+		"§fEach circuit has two different §6Levels§f — when using as ingredient for crafting, pay close attention to which level is used in the recipe.",
+		"",
+		"§fHover over the circuit and look at the §b“Level”§f property."
+	],
 	dependencies: [
 		"8f237241",
 		"85be8134",

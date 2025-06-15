@@ -1,6 +1,11 @@
 {
 	x: 12.5d,
 	y: 25.5d,
+	text: [
+		"§7§oConsumes §3Hydrogen§7§o.",
+		"",
+		"§7§o1B of Hydrogen = §e10,000 §bEF§7§o.§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"20e9aae5"

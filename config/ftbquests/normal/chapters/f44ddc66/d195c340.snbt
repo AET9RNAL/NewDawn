@@ -1,6 +1,9 @@
 {
 	x: -20.5d,
 	y: 5.5d,
+	text: [
+		"§fTo advance the crafting process, press §eLMB§f when the indicator is in the §aGreen Area§f."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"aebbeef4"

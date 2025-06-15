@@ -1,6 +1,9 @@
 {
 	x: -15.5d,
 	y: 7.5d,
+	text: [
+		"Your first processor!"
+	],
 	dependencies: [
 		"dab0d0dd"
 	],

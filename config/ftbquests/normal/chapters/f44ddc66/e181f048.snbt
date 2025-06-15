@@ -1,0 +1,21 @@
+{
+	x: 17.0d,
+	y: 30.0d,
+	text: [
+		"§fAnother generator — this time, it produces §5Obsidian§f!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "77bc85bb",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine2",
+			Damage: 10s,
+			tag: {}
+		}]
+	}]
+}

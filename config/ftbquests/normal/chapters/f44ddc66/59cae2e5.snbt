@@ -1,6 +1,11 @@
 {
 	x: -18.0d,
 	y: 5.5d,
+	text: [
+		"§fA §6Soldering Iron§f is required in the §bInstrument Slot§f.",
+		"",
+		"§fTo advance the progress, keep the indicator in the §aGreen Zone§f using the §eArrow Keys§f on your keyboard."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"84d517f9"

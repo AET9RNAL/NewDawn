@@ -1,6 +1,27 @@
 {
 	x: 37.25d,
 	y: 19.5d,
+	text: [
+		"§fThe §eMinipanel Assembler§f is the base for a custom-built §6Solar Panel§f.  ",
+		"What kind of panel? Well, that’s up to you — §acreate whatever you want§f.",
+		"",
+		"§f§eBatteries§f determine how much §bEnergy§f the panel can store.  ",
+		"§7§oFill all four slots with the same type to receive a §a+5%§7§o storage bonus.§r",
+		"",
+		"§f§eSockets§f control how much §bEnergy§f your panel can output.  ",
+		"§7§oUse matching sockets in all slots for a §a+5%§7§o output bonus.§r",
+		"",
+		"§fThe §6Tier§f of your panel is defined by the §dCores§f you insert.",
+		"",
+		"§fThere are three types of §3Glass§f:",
+		" §7• §bNight Glass§f — allows the panel to work at night  ",
+		" §7• §eDay Glass§f — enables daytime functionality  ",
+		" §7• §dDaily Glass§f — a hybrid that works day and night",
+		"",
+		"§fThe panel also has a §cStability§f value, indicated by the lines between the glass slots.  ",
+		"§fStability depends on §3Glass Placement§f.  ",
+		"§7§oMixing glass tiers (e.g., advanced + hybrid) lowers stability and reduces generation bonuses.§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"61573178"

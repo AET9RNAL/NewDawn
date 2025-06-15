@@ -1,6 +1,14 @@
 {
 	x: -19.5d,
 	y: 14.5d,
+	text: [
+		"§fSupply §bLiquid Latex§f via a §9Liquid Pipe§f from the extractor to the dryer.",
+		"",
+		"§fWhen there is enough liquid latex, the process will start §aautomatically§f.",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete."
+	],
 	dependencies: [
 		"84d517f9"
 	],

@@ -1,7 +1,10 @@
 {
 	x: 50.0d,
-	y: 0.0d,
+	y: 0.5d,
 	shape: "gear",
+	text: [
+		"§fRemoves dependence on §aheight§f and §bwind direction§f."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"2141c58b",

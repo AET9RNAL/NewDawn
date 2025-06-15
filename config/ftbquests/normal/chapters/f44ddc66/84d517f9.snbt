@@ -2,6 +2,23 @@
 	title: "Smeltery",
 	x: -18.0d,
 	y: 14.0d,
+	shape: "gear",
+	text: [
+		"§6§lSmeltery — Melting, Mixing, Casting§r",
+		"",
+		"§fThe smeltery is a way to §emelt§f, §emix§f, and §ecast§f metals and alloys.",
+		"",
+		"§fIt is very similar to a §bTinkers' Construct§f smeltery.",
+		"",
+		"§fIt requires §cLava§f as fuel. Supply it to the tanks located at the back of the smeltery.",
+		"",
+		"§fPlace the metal in the smeltery's §9Furnace§f.",
+		"In the §9Controller§f, select the desired melted metals and click §e“Mix”§f or §e“Mix All”§f to create an alloy.",
+		"",
+		"§fIn the §9Casting Form§f insert a §dMold§f (ingot or gear).",
+		"",
+		"§fSelect the item in the controller and it will start casting."
+	],
 	dependencies: [
 		"6829caab"
 	],

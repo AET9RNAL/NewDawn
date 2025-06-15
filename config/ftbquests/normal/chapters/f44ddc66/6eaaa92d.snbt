@@ -1,6 +1,11 @@
 {
-	x: -0.5d,
+	x: -1.0d,
 	y: 6.0d,
+	text: [
+		"§fCharges §cRedstone§f and §bQuartz§f using §eCurrent§f.",
+		"",
+		"§7§oRequires 200A for one operation.§r"
+	],
 	dependencies: [
 		"bf0dc3e7"
 	],

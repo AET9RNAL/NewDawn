@@ -1,7 +1,21 @@
 {
 	x: -20.0d,
 	y: -0.5d,
-	shape: "rsquare",
+	shape: "gear",
+	text: [
+		"§fYour next §eSteam Source§f after the §6Steam Converter§f.",
+		"",
+		"§fNot only is it a §dMultiblock§f now — its efficiency has also improved!  ",
+		"§fIt is §a2× faster§f and produces §a2× more Steam§f for the same amount of §9Water§f!",
+		"",
+		"§fAfter assembling the structure, place a §6Ferrite Ring Inductor§f and §610 Coils§f in the §bHeat Exchanger§f at the bottom.",
+		"",
+		"§fHeat it up using a §6Liquid Heater§f, then pour water into the §e§lRight Tank§r.",
+		"",
+		"§fWait a while for it to heat up — soon the process will begin and you'll see §bSteam§f in the §9Left Tank§f.",
+		"",
+		"§fUse a §9Steam Pipe§f for extraction."
+	],
 	dependencies: [
 		"941ceda7"
 	],

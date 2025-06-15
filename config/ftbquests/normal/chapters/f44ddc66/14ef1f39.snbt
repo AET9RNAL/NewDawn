@@ -2,7 +2,10 @@
 	title: "Blast Furnace",
 	x: -16.0d,
 	y: -0.5d,
-	shape: "rsquare",
+	shape: "gear",
+	text: [
+		"§f§6Blast Furnace§f will simplify the creation of §7Steel§f."
+	],
 	dependencies: [
 		"941ceda7"
 	],

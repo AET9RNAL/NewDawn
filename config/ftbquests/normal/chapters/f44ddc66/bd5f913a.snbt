@@ -2,6 +2,19 @@
 	x: 22.97857142857137d,
 	y: 12.729931972789089d,
 	shape: "hexagon",
+	text: [
+		"§f§bAutomatic Hunter§f is a handy, lag-free machine for obtaining §eMob Loot§f in massive, unlimited quantities.",
+		"",
+		"§fFirst, you’ll need to capture the mob you want using a §6Hunter Module:Mob§f.  ",
+		"Insert it into the machine, supply §eEnergy§f, and it will begin generating loot based on that mob’s §7Loot Table§f.",
+		"",
+		"§7§oNote: Some modded mobs may have broken or missing loot tables.  ",
+		"If that’s the case, the machine won't produce any loot.§r",
+		"",
+		"§7§oI’ve patched many known cases, but if you find a mob that doesn't work — report it on the modpack's §9GitHub§7§o or §9Discord§7§o so I may fix it.§r",
+		"",
+		"§c§oBoss mobs are excluded for balance reasons.§r"
+	],
 	dependencies: [
 		"9b185934"
 	],

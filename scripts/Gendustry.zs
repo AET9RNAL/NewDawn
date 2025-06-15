@@ -1,4 +1,4 @@
-//This file was created via CT-GUI! Editing it is not advised!
+#reloadable
 //Don't touch me!
 //#Remove
 recipes.remove(<gendustry:env_processor>);

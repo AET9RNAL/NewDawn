@@ -1,6 +1,9 @@
 {
-	x: 10.5d,
-	y: 23.0d,
+	x: 8.0d,
+	y: 22.0d,
+	text: [
+		"§fUsed to obtain §dLithium§f, §aBeryllium§f, and §bBoron§f."
+	],
 	dependencies: [
 		"20e9aae5"
 	],

@@ -1,0 +1,19 @@
+{
+	x: 36.5d,
+	y: -6.0d,
+	text: [
+		"Upgrade your rotors!"
+	],
+	dependencies: [
+		"4a217e35"
+	],
+	tasks: [{
+		uid: "e00529b4",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 43s,
+			tag: {}
+		}]
+	}]
+}

@@ -1,6 +1,9 @@
 {
-	x: 33.5d,
+	x: 36.5d,
 	y: -5.0d,
+	text: [
+		"§fThe §9Hydro Industry§f is on the same level as §bWind Industry§f —  just pick your poison §7;)§r"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"5be93959"

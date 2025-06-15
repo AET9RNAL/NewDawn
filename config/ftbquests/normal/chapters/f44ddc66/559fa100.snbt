@@ -1,6 +1,9 @@
 {
 	x: 26.5d,
 	y: 7.0d,
+	text: [
+		"§fProduces §dExcited Cores§f and other ingredients necessary for the §eSolar Industry§f."
+	],
 	dependencies: [
 		"8830e670"
 	],

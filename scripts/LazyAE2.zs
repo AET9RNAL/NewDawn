@@ -1,20 +1,29 @@
+#reloadable
 import mods.extendedcrafting.CombinationCrafting;
+import crafttweaker.item.IItemStack;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
 //recipes.remove(XXX);
-recipes.remove(<threng:machine>);
-recipes.remove(<threng:machine:1>);
-recipes.remove(<threng:machine:2>);
-recipes.remove(<threng:machine:3>);
-recipes.remove(<threng:machine:4>);
-recipes.remove(<threng:machine:5>);
-recipes.remove(<threng:material:4>);
+val itemsToRemove = [
+  <threng:machine>,
+  <threng:machine:1>,
+  <threng:machine:2>,
+  <threng:machine:3>,
+  <threng:machine:4>,
+  <threng:machine:5>,
+  <threng:material:4>,
+  <threng:big_assembler>,
+  <threng:big_assembler:1>,
+  <threng:big_assembler:2>,
+  <threng:big_assembler:3>,
+  <threng:big_assembler:4>
+] as IItemStack[];
 
-recipes.remove(<threng:big_assembler>);
-recipes.remove(<threng:big_assembler:2>);
-recipes.remove(<threng:big_assembler:3>);
-recipes.remove(<threng:big_assembler:4>);
+for item in itemsToRemove {
+  recipes.remove(item);
+}
+
 //Don't touch me!
 //#Add
 recipes.addShaped(<threng:material:4>, [[<threng:material>, <threng:material:1>, <threng:material>],[<appliedenergistics2:quartz_vibrant_glass>, <contenttweaker:ae2uel_processor_universal>, <appliedenergistics2:quartz_vibrant_glass>], [<threng:material>, <threng:material:1>, <threng:material>]]);

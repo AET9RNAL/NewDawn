@@ -1,0 +1,21 @@
+{
+	x: 14.0d,
+	y: 30.0d,
+	text: [
+		"§fGenerates §9Water§f — doesn't get any simpler than that §7;)§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2a0c8a88",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 9s,
+			tag: {}
+		}]
+	}]
+}

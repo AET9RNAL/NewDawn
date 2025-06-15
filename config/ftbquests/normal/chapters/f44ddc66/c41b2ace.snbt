@@ -1,6 +1,9 @@
 {
 	x: 21.0d,
 	y: 23.0d,
+	text: [
+		"§fRight-click while holding in hand — it will highlight various §3Gas Deposits§f."
+	],
 	dependencies: [
 		"20e9aae5"
 	],

@@ -150,17 +150,6 @@
 	},
 	{
 		item: {
-			id: "appliedenergistics2:perfect_energy_cell",
-			tag: {
-				internalCurrentPower: 1.28E7d,
-				internalMaxPower: 1.28E7d
-			},
-			Count: 1b
-		},
-		count: 3
-	},
-	{
-		item: {
 			id: "mekanism:basicblock2",
 			Damage: 3s,
 			tag: {

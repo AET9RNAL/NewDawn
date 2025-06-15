@@ -1,3 +1,4 @@
+#reloadable
 recipes.addShaped(<extrautils2:creativeenergy>, [[null, null, null],[null, <draconicevolution:creative_rf_source>, null], [null, null, null]]);
 
 

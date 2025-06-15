@@ -1,6 +1,9 @@
 {
 	x: 8.5d,
 	y: 20.5d,
+	text: [
+		"§f§7Stone§f, §eSand§f, and §8Gravel§f — for your §bEnergy§f!"
+	],
 	dependencies: [
 		"9d831af9"
 	],
