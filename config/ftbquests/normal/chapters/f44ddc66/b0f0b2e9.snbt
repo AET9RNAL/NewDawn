@@ -112,5 +112,20 @@
 			}
 		},
 		count: 4
+	},
+	{
+		uid: "48c676ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c97b1b96",
+		type: "xp",
+		xp: 100
 	}]
 }

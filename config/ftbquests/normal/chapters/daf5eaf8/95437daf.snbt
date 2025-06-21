@@ -1,6 +1,11 @@
 {
 	x: -1.0d,
 	y: -3.0d,
+	text: [
+		"§fA gadget that will help you with building.",
+		"",
+		"§7• §eHold §lG§r§e to open the config menu"
+	],
 	tasks: [{
 		uid: "d28d4527",
 		type: "item",

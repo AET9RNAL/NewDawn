@@ -24,5 +24,20 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57bbefe9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "80efc7f1",
+		type: "xp",
+		xp: 50
 	}]
 }

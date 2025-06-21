@@ -166,22 +166,75 @@
             }
         },
     
-        "Discord":
-        {
-            "text" : "",
-			"texture" : "cmm:textures/gui/logo.png",
-			"hoverText" : "",
-			"alignment" : "left",
-            "posX" : 103,
-            "posY" : 185,
-            "width" : 25,
-            "height" : 25,
-			"action" :
-			{
-                "type" : "openLink",
-				"link" : "https://linktr.ee/AET3RNAL"
+        "discord": {
+            "text": " ",
+            "posX": -25,
+            "posY": 80,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "clickSound": "block.lever.click",
+            "imageWidth": 383,
+            "imageHeight": 383,
+            "texture": "cmm:textures/gui/discord.png",
+            "tooltip": "Discord",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.com/invite/bXgXTa6Wxs"
             }
-        }
+        },
+        "github": {
+			"text": " ",
+			"posX": -25,
+			"posY": 105,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "cmm:textures/gui/github.png",
+			"tooltip": "GitHub",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/AET9RNAL/NewDawn"
+			}
+		},
+            "linktree": {
+			"text": " ",
+			"posX": -25,
+			"posY": 130,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "cmm:textures/gui/linktree.png",
+			"tooltip": "LinkTree",
+			"action": {
+				"type": "openLink",
+				"link": "https://linktr.ee/AET3RNAL"
+			}
+		},
+		"game_folder": {
+			"text": " ",
+			"posX": -25,
+			"posY": 155,
+			"width": 20,
+			"height": 20,
+			"alignment": "top_right",
+			"clickSound": "block.lever.click",
+			"imageWidth": 383,
+			"imageHeight": 383,
+			"texture": "cmm:textures/gui/folder.png",
+			"tooltip": "Game Folder",
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+		}
+        
     },
     
     
@@ -217,17 +270,9 @@
             "color" : -250,
             "alignment" : "bottom_left"
         },
-        "mpversion":
-        {
-            "text" : "ver: 1.3",
-            "posX" : 25,
-            "posY" : -45,
-            "color" : -250,
-            "alignment" : "bottom_left"
-        },
         "release":
         {
-            "text" : "release date: 2024.NN.NN",
+            "text" : "Release date: 2025.06",
             "posX" : 25,
             "posY" : -30,
             "color" : -250,
@@ -265,24 +310,75 @@
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
-        {
-            "images" : "newdawn:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
-        },
-        "background":
-		{
-			"image" : "cmm:textures/gui/NDAP.png",
-            "mode" : "fill"
-		}
+        "background": {
+    "image": "",
+    "mode": "fill",
+    "slideshow": {
+        "images": [
+            "cmm:slideshow/0.png",
+            "cmm:slideshow/1.png",
+            "cmm:slideshow/2.png",
+            "cmm:slideshow/3.png",
+            "cmm:slideshow/4.png",
+            "cmm:slideshow/5.png",
+            "cmm:slideshow/6.png",
+            "cmm:slideshow/7.png",
+            "cmm:slideshow/8.png",
+            "cmm:slideshow/9.png",
+            "cmm:slideshow/10.png",
+            "cmm:slideshow/11.png",
+            "cmm:slideshow/12.png",
+            "cmm:slideshow/13.png",
+            "cmm:slideshow/14.png",
+            "cmm:slideshow/15.png",
+            "cmm:slideshow/16.png",
+            "cmm:slideshow/17.png",
+            "cmm:slideshow/18.png",
+            "cmm:slideshow/19.png",
+            "cmm:slideshow/20.png",
+            "cmm:slideshow/21.png",
+            "cmm:slideshow/22.png",
+            "cmm:slideshow/23.png",
+            "cmm:slideshow/24.png",
+            "cmm:slideshow/25.png",
+            "cmm:slideshow/26.png",
+            "cmm:slideshow/27.png",
+            "cmm:slideshow/28.png",
+            "cmm:slideshow/29.png",
+            "cmm:slideshow/30.png",
+            "cmm:slideshow/31.png",
+            "cmm:slideshow/32.png",
+            "cmm:slideshow/33.png",
+            "cmm:slideshow/34.png",
+            "cmm:slideshow/35.png",
+            "cmm:slideshow/36.png",
+            "cmm:slideshow/37.png",
+            "cmm:slideshow/38.png",
+            "cmm:slideshow/39.png",
+            "cmm:slideshow/40.png",
+            "cmm:slideshow/41.png",
+            "cmm:slideshow/42.png",
+            "cmm:slideshow/43.png",
+            "cmm:slideshow/44.png",
+            "cmm:slideshow/45.png",
+            "cmm:slideshow/46.png",
+            "cmm:slideshow/47.png",
+            "cmm:slideshow/48.png",
+            "cmm:slideshow/49.png",
+            "cmm:slideshow/50.png",
+            "cmm:slideshow/51.png",
+            "cmm:slideshow/52.png",
+            "cmm:slideshow/53.png",
+            "cmm:slideshow/54.png",
+            "cmm:slideshow/55.png"
+        ],
+        "shuffle": true,
+        "displayDuration": 90,
+        "fadeDuration": 40,
+        "sync": true
+    }
+}
+
         
     }
-    
- 
-
-
-
 }

@@ -28,5 +28,10 @@
 		uid: "e009098c",
 		type: "item",
 		item: "mekanismecoenergistics:ecogenerator"
+	},
+	{
+		uid: "9a138fb9",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -26,5 +26,25 @@
 		type: "item",
 		item: "minecraft:diamond_block",
 		count: 3
+	},
+	{
+		uid: "7e513950",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "30d78d08",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "d7af3acc",
+		type: "xp",
+		xp: 50
 	}]
 }

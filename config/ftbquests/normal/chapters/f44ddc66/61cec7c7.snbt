@@ -14,5 +14,20 @@
 			item: "industrialupgrade:ae_iu_item"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "38f30c7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e1cd5c1a",
+		type: "xp",
+		xp: 50
 	}]
 }

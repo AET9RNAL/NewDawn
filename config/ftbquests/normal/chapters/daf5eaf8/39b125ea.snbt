@@ -1,6 +1,16 @@
 {
 	x: -1.0d,
 	y: 0.0d,
+	text: [
+		"§fIt’s hard to describe what this device is... let’s just say it's §omagically technical§f.  ",
+		"",
+		"Use an §bEntangled Binder§f to select the block you want the §6Entangloporter§f to become, then §eRMB§f on the Entangloporter.  ",
+		"",
+		"That block is now available §ainstantly§f and §obi-directionally§f at its location!",
+		"",
+		"Just be very careful what you entagloport and don't try anything stupid as it may produce unexpected results and even cause a crash, which will keep happening",
+		"until the block is somehow removed"
+	],
 	tasks: [{
 		uid: "726eff36",
 		type: "item",

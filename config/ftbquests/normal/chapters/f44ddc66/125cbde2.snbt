@@ -11,5 +11,20 @@
 			item: "industrialupgrade:itemspace 1 14"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "a4382b3e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c3d9d653",
+		type: "xp",
+		xp: 100
 	}]
 }

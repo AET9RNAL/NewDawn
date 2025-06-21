@@ -37,5 +37,15 @@
 			}
 		},
 		count: 3
+	},
+	{
+		uid: "4b4f2ac0",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "4cebbfe9",
+		type: "xp",
+		xp: 50
 	}]
 }

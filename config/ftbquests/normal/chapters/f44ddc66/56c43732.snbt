@@ -15,5 +15,20 @@
 		items: [{
 			item: "industrialupgrade:blockresource 1 12"
 		}]
+	}],
+	rewards: [{
+		uid: "f29f7eb2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0b395077",
+		type: "xp",
+		xp: 50
 	}]
 }

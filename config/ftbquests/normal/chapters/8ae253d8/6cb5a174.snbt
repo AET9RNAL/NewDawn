@@ -17,5 +17,10 @@
 		type: "item",
 		item: "thermalfoundation:material 1 167",
 		count: 32
+	},
+	{
+		uid: "0f5b14fb",
+		type: "xp",
+		xp: 50
 	}]
 }

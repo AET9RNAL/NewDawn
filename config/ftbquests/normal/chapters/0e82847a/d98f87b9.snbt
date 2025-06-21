@@ -2,7 +2,8 @@
 	x: -12.5d,
 	y: -11.0d,
 	text: [
-		""
+		"§f§dSparks§f transmit §3Mana§f. Their behavior can be modified using §eSpark Augments§f.  ",
+		"§fPick an augment and §eRMB§f on the spark to install it."
 	],
 	dependencies: [
 		"625114fc"
@@ -23,5 +24,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "972d2fc2",
+		type: "xp",
+		xp: 50
 	}]
 }

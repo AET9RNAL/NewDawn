@@ -12,5 +12,15 @@
 			item: "industrialupgrade:crafting_elements 1 623"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "6c43ec8f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
 	}]
 }

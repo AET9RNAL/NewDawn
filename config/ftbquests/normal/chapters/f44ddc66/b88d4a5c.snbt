@@ -26,5 +26,20 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "60ebd406",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7af35051",
+		type: "xp",
+		xp: 75
 	}]
 }

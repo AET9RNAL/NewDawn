@@ -13,5 +13,20 @@
 		items: [{
 			item: "industrialupgrade:itemingots 1 23"
 		}]
+	}],
+	rewards: [{
+		uid: "cf498c5f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f3176b77",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -16,22 +16,8 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "80b40195",
-		type: "item",
-		item: {
-			id: "industrialupgrade:barionrotor",
-			tag: {
-				damage: 110592000
-			}
-		}
-	},
-	{
-		uid: "2b87e8cd",
-		type: "item",
-		item: {
-			id: "industrialupgrade:basemachine3",
-			Damage: 31s,
-			tag: {}
-		}
+		uid: "1b58527d",
+		type: "xp",
+		xp: 50
 	}]
 }

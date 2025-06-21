@@ -3,20 +3,18 @@
 	y: -13.0d,
 	shape: "hexagon",
 	text: [
-		"§6This machine aacepts different flower modules that mimic behaviour of regular flowers that you may already be familiar with. The exception is that ",
-		"flower modules are usually at least 2 times more powerful than regular flowers. Some recipes support liquid mana",
+		"§fThis machine accepts different §dFlower Modules§f that mimic the behavior of regular §aflowers§f you're already familiar with.  ",
+		"The difference is that these modules are usually at least §a2× more powerful§f than their natural counterparts.  ",
+		"§7Some recipes support §9Liquid Mana§7.§r",
 		"",
-		"How to use:",
+		"§f§lHow to Use:§r  ",
+		"§f1. Place a §eMana State Module§f in the upper central slot.  ",
+		"§7§oNote: Before choosing which mana state you want to generate, check the recipe.  ",
+		"All recipes support normal mana, but only some support liquid mana.§r",
 		"",
-		"1.Put a mana state module in the upper central slot. ",
-		"*Note: before choosing what state of mana you want to be generated, look up the recipes and check if it supports liquid state. All recipes support regular",
-		"mana state, but few support liquid.",
-		"",
-		"2.Put a flower module in the central slot",
-		"",
-		"3.Depending on a flower, supply the machine with required resources.",
-		"",
-		"4.Extract the accumulated mana via spark, or a pipe if it's fluided mana"
+		"§f2. Insert a §dFlower Module§f in the central slot.  ",
+		"§f3. Depending on the flower, supply the machine with the required resources.  ",
+		"§f4. Extract accumulated mana via a §dSpark§f, or use a §9fluid pipe§f if liquid mana is used."
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -45,5 +43,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "75f3b4fc",
+		type: "xp",
+		xp: 50
 	}]
 }

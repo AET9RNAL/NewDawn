@@ -18,16 +18,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "933bf66e",
-		type: "item",
-		item: {
-			id: "industrialupgrade:compressiridium",
-			tag: {
-				damage: 144000
-			}
-		}
-	},
-	{
 		uid: "9a312e11",
 		type: "item",
 		item: {
@@ -36,5 +26,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "3b9c630b",
+		type: "xp",
+		xp: 50
 	}]
 }

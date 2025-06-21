@@ -15,5 +15,10 @@
 				tier: 0
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "c2d17fd6",
+		type: "xp",
+		xp: 50
 	}]
 }

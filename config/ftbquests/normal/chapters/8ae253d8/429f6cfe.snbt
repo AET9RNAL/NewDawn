@@ -19,5 +19,10 @@
 		type: "item",
 		item: "mekanism:otherdust 1 4",
 		count: 12
+	},
+	{
+		uid: "8f511f8a",
+		type: "xp",
+		xp: 50
 	}]
 }

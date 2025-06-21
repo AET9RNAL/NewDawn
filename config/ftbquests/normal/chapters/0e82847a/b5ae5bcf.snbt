@@ -2,7 +2,9 @@
 	x: -19.5d,
 	y: -6.5d,
 	text: [
-		"Transfer rate: 100000Mn/t; Range in blocks: 18"
+		"§f§dBotaniverse Sparks§f are highly advanced and allow the transfer of §3enormous amounts§f of §3Mana§f.",
+		"",
+		"§7Transfer Rate: §a100,000 Mn/t§7; Range: §a18 blocks§r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -26,5 +28,10 @@
 			}
 		},
 		count: 8
+	},
+	{
+		uid: "eb1ffb67",
+		type: "xp",
+		xp: 50
 	}]
 }

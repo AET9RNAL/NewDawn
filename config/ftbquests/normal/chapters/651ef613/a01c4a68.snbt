@@ -3,10 +3,10 @@
 	y: -9.0d,
 	shape: "diamond",
 	text: [
-		"§6A quarry capable of generating a handful of ores by effectively utilizing a focused ray of Mineralis constellation. Your first, advanced, automatic way of",
-		"getting lots of resources.",
+		"§fA §6Quarry§f capable of generating a handful of ores by effectively utilizing a focused ray of the §bMineralis§f constellation.  ",
+		"It’s your first §aadvanced§f, automatic method of obtaining large amounts of resources.",
 		"",
-		"*Note: Don't forget to use celestial collector crystals with max stats on stabilizing platforms for max performance"
+		"§7§oNote: For maximum performance, use §dCelestial Collector Crystals§7§o with max stats on §9Stabilizing Platforms§7§o.§r"
 	],
 	dependencies: [
 		"fca8fad0"
@@ -34,5 +34,10 @@
 		uid: "81aca4b6",
 		type: "item",
 		item: "astralsorcery:itemfragmentcapsule"
+	},
+	{
+		uid: "5d2546e8",
+		type: "xp",
+		xp: 50
 	}]
 }

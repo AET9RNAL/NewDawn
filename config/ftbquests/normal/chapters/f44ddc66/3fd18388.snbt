@@ -22,5 +22,20 @@
 			}
 		},
 		count: 2
+	},
+	{
+		uid: "bd51a9a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "15c7adeb",
+		type: "xp",
+		xp: 100
 	}]
 }

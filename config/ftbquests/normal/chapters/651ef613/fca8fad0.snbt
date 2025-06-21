@@ -27,5 +27,10 @@
 				type: "legendary_crate"
 			}
 		}
+	},
+	{
+		uid: "6b70d6de",
+		type: "xp",
+		xp: 50
 	}]
 }

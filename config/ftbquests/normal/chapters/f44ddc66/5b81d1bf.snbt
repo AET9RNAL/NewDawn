@@ -17,5 +17,20 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "79b98525",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "62b9637d",
+		type: "xp",
+		xp: 75
 	}]
 }

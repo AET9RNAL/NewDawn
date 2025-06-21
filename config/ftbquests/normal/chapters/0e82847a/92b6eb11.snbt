@@ -29,5 +29,10 @@
 		uid: "78556228",
 		type: "item",
 		item: "divinerpg:serenade_striker"
+	},
+	{
+		uid: "866b94ba",
+		type: "xp",
+		xp: 50
 	}]
 }

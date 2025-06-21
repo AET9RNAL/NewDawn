@@ -20,5 +20,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "b82088d0",
+		type: "xp",
+		xp: 50
 	}]
 }

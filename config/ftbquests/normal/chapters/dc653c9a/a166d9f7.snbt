@@ -2,8 +2,10 @@
 	x: -4.5d,
 	y: -39.0d,
 	text: [
-		"§6You'll notice that some quests can't be completed simply by having a required item in your inventory. Such quests require you to manually craft an item",
-		"in order to complete them. That means that any other way of obtaining an item other than manual crafting will fail, that includes any form of autocrafting"
+		"§fYou'll notice that some quests can't be completed simply by having the required item in your inventory.  ",
+		"Such quests require you to §dmanually craft§f the item in order to complete them.",
+		"",
+		"§fThis means that any other method of obtaining the item — including §cautocrafting§f — will §cfail§f to complete the quest."
 	],
 	tasks: [{
 		uid: "c5b97b37",

@@ -20,5 +20,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "deb81cd8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "2d147a15",
+		type: "xp",
+		xp: 50
 	}]
 }

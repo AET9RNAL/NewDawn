@@ -1,5 +1,5 @@
 {
-	x: -48.5d,
+	x: -50.5d,
 	y: -12.5d,
 	dependencies: [
 		"c4d91faf"
@@ -12,15 +12,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6e8cdaa3",
-		type: "item",
-		item: {
-			id: "industrialupgrade:basemachine3",
-			Damage: 28s,
-			tag: {}
-		}
-	},
-	{
 		uid: "a82c4fad",
 		type: "item",
 		item: {
@@ -29,5 +20,10 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "47c7d861",
+		type: "xp",
+		xp: 50
 	}]
 }

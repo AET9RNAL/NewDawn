@@ -17,5 +17,20 @@
 			id: "industrialupgrade:primal_fluid_integrator",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "6ed0f876",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "6cf04ab0",
+		type: "xp",
+		xp: 50
 	}]
 }

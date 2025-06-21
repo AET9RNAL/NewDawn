@@ -23,5 +23,20 @@
 			Damage: 76s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "e9c05ef3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "23e7326b",
+		type: "xp",
+		xp: 75
 	}]
 }

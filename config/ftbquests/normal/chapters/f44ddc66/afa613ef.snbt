@@ -51,5 +51,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "974f10ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "55f318a1",
+		type: "xp",
+		xp: 50
 	}]
 }

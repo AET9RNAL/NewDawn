@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: 3.2607142857142826d,
+	tasks: [{
+		uid: "d671db45",
+		type: "checkmark",
+		title: "Ender IO"
+	}],
+	rewards: [{
+		uid: "9117d963",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ad8b4786",
+		type: "xp",
+		xp: 50
+	}]
+}

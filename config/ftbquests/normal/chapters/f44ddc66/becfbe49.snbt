@@ -19,5 +19,20 @@
 			id: "industrialupgrade:macerator",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "ee7c9c43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ad005940",
+		type: "xp",
+		xp: 50
 	}]
 }

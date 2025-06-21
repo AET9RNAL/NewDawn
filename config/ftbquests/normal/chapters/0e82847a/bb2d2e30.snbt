@@ -24,5 +24,20 @@
 			}
 		},
 		count: 4
+	},
+	{
+		uid: "478f5e0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "99d9f25f",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -42,5 +42,10 @@
 			}
 		},
 		count: 32
+	},
+	{
+		uid: "0d5be8fc",
+		type: "xp",
+		xp: 50
 	}]
 }

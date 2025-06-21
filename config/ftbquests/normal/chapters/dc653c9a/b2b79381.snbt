@@ -2,24 +2,19 @@
 	x: -6.5d,
 	y: -41.0d,
 	text: [
-		"§6Where to get energy?",
+		"§6§lWhere to Get Energy?§r",
 		"",
-		"§2I decided not to pose any limitations to the player when it comes to energy generation. However, that's true only for mid and end game stages.",
-		"In the beginning you don't have much of a choice. You can use something primitive like dynamos from Thermal or stirling generators from EnderIO,",
-		"or any other primitive combustion generator.",
+		"§fThere are plenty of §benergy sources§f to choose from, depending on your progression and playstyle:",
 		"",
-		"But my recommendation is a constellation generator from AstralSorcery, it provides with a decent amount of power for a low price when it comes to resources,",
-		"but instead it will require you to heavily advance in AstralSorcery.",
+		"§7• §eSolar§f",
+		"§7• §bWind§f",
+		"§7• §3Hydro§f",
+		"§7• §cNuclear§f",
+		"§7• §6Misc Generators§f — Lava, redstone, peat, gas, biomass, and many more.",
 		"",
-		"After a while you can build a nuclear reactor from ExtremeReactors, or, solar panels from MekanismEcoEnergistics or other mods. Everything else is limited",
-		"only by your imagination, as there are LOTS of power sources here. And energy here is just like air, you can't live without it. The more you have it, the more",
-		"opportunities open up for you.",
+		"§fMost power sources have §dmultiple variants§f across different mods — some are easier to access early on, others are extremely powerful but costly to set up.",
 		"",
-		"The most powerful sources are solar panels, quantum generators, and wind generators, as well as nuclear industry from IU, Mekanism, Extreme Reactors and Draconic Evolution.",
-		"",
-		"Don't focus only on one industry, instead, try to develop them simultaneously.",
-		"Remember that energy from different mods can be converted from one to another via energy converters from IU. Just don't forget to put transformers and energy upgrades into them",
-		"if their basic I/O becomes too low"
+		"§7§oEach comes with it's own set of drawbacks and benefits, keep that in mind."
 	],
 	tasks: [{
 		uid: "cf93c737",
@@ -29,6 +24,6 @@
 	rewards: [{
 		uid: "d69b7aab",
 		type: "xp",
-		xp: 500
+		xp: 100
 	}]
 }

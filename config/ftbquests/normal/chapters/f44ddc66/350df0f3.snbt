@@ -2,6 +2,10 @@
 	x: 64.0d,
 	y: 0.5d,
 	shape: "square",
+	text: [
+		" §b§lQuantum Armor§r§f is significantly more powerful than the previous generation.  ",
+		"It is capable of absorbing much more damage."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"390a4d8c"

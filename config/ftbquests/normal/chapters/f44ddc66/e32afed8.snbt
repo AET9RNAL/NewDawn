@@ -31,5 +31,20 @@
 		uid: "1db40b1d",
 		type: "item",
 		item: "industrialupgrade:excitednucleus"
+	},
+	{
+		uid: "cd718237",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "9ec4a62d",
+		type: "xp",
+		xp: 75
 	}]
 }

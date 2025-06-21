@@ -11,5 +11,20 @@
 			item: "industrialupgrade:nuclearresource"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "88f54db1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ceed19b4",
+		type: "xp",
+		xp: 75
 	}]
 }

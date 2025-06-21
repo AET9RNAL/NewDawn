@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: -4.5d,
+	x: -8.5d,
+	y: -4.630357142857115d,
 	dependencies: [
 		"cb6116e7"
 	],
@@ -20,5 +20,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "0d757400",
+		type: "xp",
+		xp: 50
 	}]
 }

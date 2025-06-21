@@ -3,8 +3,10 @@
 	y: 1.0d,
 	shape: "hexagon",
 	text: [
-		"This machine will return liquid mana into it's normal state.  Mana can be accepted/emitted via spark, you can place it by clicking RMB while sneaking, ",
-		"also works with spreaders"
+		"§fThis machine converts §9Liquid Mana§f back into its §3normal state§f.",
+		"",
+		"§fMana can be §aaccepted§f and §cemitted§f via §dSparks§f.  ",
+		"§7Sneak + §eRMB§7 to place a spark on the machine. It also works with §bSpreaders§7.§r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -42,5 +44,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "389fc3ba",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -14,5 +14,10 @@
 				tier: 0
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "ed24b66c",
+		type: "xp",
+		xp: 50
 	}]
 }

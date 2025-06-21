@@ -1,0 +1,157 @@
+{
+	title: "Electric Era Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "industrialupgrade:crafting_elements 1 21"
+	},
+	{
+		item: "industrialupgrade:crushed 1 24",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1 1 6",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:itemingots 1 23",
+		count: 8
+	},
+	{
+		item: {
+			id: "industrialupgrade:crafting_elements",
+			Damage: 273s,
+			tag: {
+				level: 3
+			}
+		}
+	},
+	{
+		item: "industrialupgrade:itemplates 1 25",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 60"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 294",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:casing 1 25",
+		count: 32
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 137",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:plastic_plate",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:itemplates 1 13",
+		count: 8
+	},
+	{
+		item: {
+			id: "industrialupgrade:advanced_re_battery",
+			tag: {}
+		}
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 274",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 277",
+		count: 4
+	},
+	{
+		item: "taiga:tiberium_crystal",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:charged_quartz",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:cable_iu_item 1 19",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 599",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 568",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:itemdust 1 24",
+		count: 9
+	},
+	{
+		item: "industrialupgrade:alloydoubleplate 1 4",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:cable_iu_item 1 13",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:itemingots 1 31",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:itemdust 1 27",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:alloyingot 1 2",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:circuit 1 12",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 581",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:compressed_redstone",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 588"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 282",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:gear 1 12",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 70",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:itemsunnarium 1 2",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 275",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "electric_era_crate",
+		color: 8768210,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

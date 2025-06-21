@@ -17,5 +17,10 @@
 		uid: "783beb4a",
 		type: "item",
 		item: "botaniverse:morepool"
+	},
+	{
+		uid: "b1e4eb65",
+		type: "xp",
+		xp: 50
 	}]
 }

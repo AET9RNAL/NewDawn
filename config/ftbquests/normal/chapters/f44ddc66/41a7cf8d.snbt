@@ -12,5 +12,20 @@
 			item: "industrialupgrade:cooling_mixture"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "90d6dbfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ebe41a01",
+		type: "xp",
+		xp: 75
 	}]
 }

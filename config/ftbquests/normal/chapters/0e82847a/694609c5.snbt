@@ -20,5 +20,10 @@
 				type: "random_crate"
 			}
 		}
+	},
+	{
+		uid: "dc7290e7",
+		type: "xp",
+		xp: 50
 	}]
 }

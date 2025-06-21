@@ -1,6 +1,9 @@
 {
 	x: 5.0d,
 	y: -34.5d,
+	text: [
+		"§f§eGrout§f needs to be smelted into §7Seared Bricks§f, which are used to craft components of the §dTinkers' Construct§f smeltery."
+	],
 	dependencies: [
 		"94564817"
 	],
@@ -26,5 +29,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "6f7966c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "3e1035e1",
+		type: "xp",
+		xp: 50
 	}]
 }

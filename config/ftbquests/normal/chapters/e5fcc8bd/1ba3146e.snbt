@@ -23,5 +23,15 @@
 			}
 		},
 		count: 2
+	},
+	{
+		uid: "d30117ee",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1db9fd63",
+		type: "xp",
+		xp: 50
 	}]
 }

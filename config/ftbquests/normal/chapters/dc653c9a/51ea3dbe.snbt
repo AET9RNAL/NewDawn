@@ -16,5 +16,20 @@
 		uid: "218a8f18",
 		type: "item",
 		item: "minecraft:flint_and_steel"
+	},
+	{
+		uid: "5004c14c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "2e07075b",
+		type: "xp",
+		xp: 50
 	}]
 }

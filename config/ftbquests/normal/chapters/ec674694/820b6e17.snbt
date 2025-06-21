@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: -3.0d,
+	x: -10.5d,
+	y: -3.1303571428571146d,
 	dependencies: [
 		"6d72c5cb"
 	],
@@ -20,5 +20,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "fcc65095",
+		type: "xp",
+		xp: 50
 	}]
 }

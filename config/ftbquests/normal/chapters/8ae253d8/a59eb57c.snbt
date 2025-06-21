@@ -1,6 +1,11 @@
 {
-	x: -48.5d,
+	x: -50.5d,
 	y: -10.5d,
+	text: [
+		"§f§eTier Installers§f are a convenient way to upgrade your machine.  ",
+		"",
+		"Right-click the machine you want to upgrade to the next tier."
+	],
 	dependencies: [
 		"c43abcfa"
 	],
@@ -25,5 +30,25 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "1cdd8862",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "1c5b9629",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "d84bbae7",
+		type: "xp",
+		xp: 50
 	}]
 }

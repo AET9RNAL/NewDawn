@@ -203,7 +203,7 @@ RuneAltar.removeRecipe(<botania:rune:2>);
 RuneAltar.removeRecipe(<botania:rune:3>);
 
 //Addition
-RuneAltar.addRecipe(<matc:inferiumcrystal>, [<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<industrialupgrade:preciousgem>,<avaritia:resource:1>,<enderio:item_material:14>,<botania:rune:5>,<naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"})] , 125000);
+RuneAltar.addRecipe(<matc:inferiumcrystal>, [<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<industrialupgrade:preciousgem>,<avaritia:resource:1>,<enderio:item_material:14>,<botania:rune:5>,<minecraft:dye:15>] , 125000);
 RuneAltar.addRecipe(<matc:prudentiumcrystal>, [<matc:inferiumcrystal>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<mysticalagriculture:crafting:34>,<enderio:item_material:15>] , 250000);
 RuneAltar.addRecipe(<matc:intermediumcrystal>, [<matc:prudentiumcrystal>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<mysticalagriculture:crafting:35>,<extrautils2:suncrystal>,<enderio:item_material:16>] , 500000);
 RuneAltar.addRecipe(<matc:superiumcrystal>, [<matc:intermediumcrystal>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<mysticalagriculture:crafting:36>,<iuadditions:crystal_shimmering>] , 750000);

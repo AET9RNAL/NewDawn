@@ -2,6 +2,16 @@
 	x: -41.0d,
 	y: -22.0d,
 	shape: "hexagon",
+	text: [
+		"§6§lThermal Evaporation Tower§r  ",
+		"§fA §emultiblock§f structure used to convert one liquid into another by applying heat.  ",
+		"It is required for the production of:  ",
+		" §7• §eBrine  ",
+		" §7• §bLiquid Lithium  ",
+		" §7• §cSuperheated Sodium",
+		"",
+		"§fIt requires §cheat §fto operate that can be obtained by Resistive heater, additionally you can place 4 solar stations on the corners on the top of the tower to help generate more heat."
+	],
 	dependencies: [
 		"d0c18b38"
 	],
@@ -47,5 +57,10 @@
 		type: "item",
 		item: "industrialupgrade:blockresource 1 2",
 		count: 48
+	},
+	{
+		uid: "effb75a5",
+		type: "xp",
+		xp: 50
 	}]
 }

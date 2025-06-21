@@ -1,8 +1,12 @@
 {
 	x: -9.0d,
 	y: -4.0d,
+	text: [
+		"§fThe §3Mana Pool§f allows you to store §3Mana§f. Its capacity is §a1,000,000 Mana§f."
+	],
 	dependencies: [
-		"951d71a0"
+		"951d71a0",
+		"94ee51e0"
 	],
 	tasks: [{
 		uid: "3f408b18",
@@ -22,5 +26,20 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "cc1c3b28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "9686e0f0",
+		type: "xp",
+		xp: 50
 	}]
 }

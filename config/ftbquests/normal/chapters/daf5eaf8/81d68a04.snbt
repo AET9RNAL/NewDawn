@@ -1,6 +1,24 @@
 {
 	x: -4.0d,
 	y: -3.0d,
+	text: [
+		"§fThis item allows you to §espeed up§f the rate at which §bblocks tick§f.",
+		"",
+		"§7• Passively collects time while in your inventory  ",
+		"§7• Right-click a block to consume time and accelerate it",
+		"",
+		"§fEach consecutive use on the same block increases the tick speed:",
+		"",
+		" §8First Click§f — §630s§f stored time  ",
+		" §8Second Click§f — §660s  ",
+		" §8Third Click§f — §6120s  ",
+		" §8Fourth Click§f — §6240s  ",
+		" §8Fifth Click§f — §6480s",
+		"",
+		"§fEach click §adoubles§f the tick rate, and the effect lasts §e30 seconds§f.",
+		"",
+		"§cNote:§f You can only have §lone§r Time in a bottle in your inventory at a time."
+	],
 	tasks: [{
 		uid: "bc65d2ca",
 		type: "item",

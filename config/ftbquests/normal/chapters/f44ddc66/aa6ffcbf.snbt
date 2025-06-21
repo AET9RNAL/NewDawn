@@ -28,5 +28,10 @@
 		type: "item",
 		item: "industrialupgrade:cable_iu_item 1 5",
 		count: 24
+	},
+	{
+		uid: "97f29cbb",
+		type: "xp",
+		xp: 100
 	}]
 }

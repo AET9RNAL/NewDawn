@@ -16,13 +16,8 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "03d80bbd",
-		type: "item",
-		item: {
-			id: "industrialupgrade:neutron",
-			tag: {
-				damage: 27648000
-			}
-		}
+		uid: "cdced607",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:motors_with_improved_bearings_"
 		}]
+	}],
+	rewards: [{
+		uid: "818ff294",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e2b80c79",
+		type: "xp",
+		xp: 75
 	}]
 }

@@ -13,5 +13,20 @@
 			item: "industrialupgrade:plast"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "8bf61b28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "9beb5144",
+		type: "xp",
+		xp: 75
 	}]
 }

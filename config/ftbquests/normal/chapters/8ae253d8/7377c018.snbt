@@ -16,5 +16,10 @@
 		type: "item",
 		item: "avaritia:block_resource 1 2",
 		count: 4
+	},
+	{
+		uid: "20615b6c",
+		type: "xp",
+		xp: 50
 	}]
 }

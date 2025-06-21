@@ -25,5 +25,20 @@
 			tag: {}
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "007320bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "838244bb",
+		type: "xp",
+		xp: 50
 	}]
 }

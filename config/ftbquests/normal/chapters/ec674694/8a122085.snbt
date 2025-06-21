@@ -1,10 +1,9 @@
 {
-	x: -7.642857142857139d,
-	y: -12.61785714285714d,
+	x: -9.5d,
+	y: -10.630357142857115d,
 	dependencies: [
 		"e038bebc"
 	],
-	size: 1.8d,
 	tasks: [{
 		uid: "cd94fe32",
 		type: "item",
@@ -21,5 +20,10 @@
 				type: "random_crate"
 			}
 		}
+	},
+	{
+		uid: "4ae87a2d",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -18,5 +18,20 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "2aefd78d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7b21d31f",
+		type: "xp",
+		xp: 100
 	}]
 }

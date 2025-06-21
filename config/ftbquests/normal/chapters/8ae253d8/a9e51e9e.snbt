@@ -34,5 +34,10 @@
 				damage: 157090
 			}
 		}
+	},
+	{
+		uid: "0dd2f1fc",
+		type: "xp",
+		xp: 50
 	}]
 }

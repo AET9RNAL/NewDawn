@@ -68,5 +68,20 @@
 			tag: {}
 		}],
 		count: 27L
+	}],
+	rewards: [{
+		uid: "1e22a476",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "53a0b137",
+		type: "xp",
+		xp: 100
 	}]
 }

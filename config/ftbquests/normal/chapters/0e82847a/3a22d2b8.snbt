@@ -3,7 +3,10 @@
 	y: -4.0d,
 	shape: "hexagon",
 	text: [
-		"Mana capacity is x10 the normal pool. Emits/Accepts at higher rates"
+		"§f§dBotaniverse Mana Pools§f store and transfer §3Mana§f at higher rates.",
+		"",
+		"§7Mana Capacity: §ax10§7 of a normal pool  ",
+		"§7Transfer Speed: §aIncreased emission and acceptance rates§r"
 	],
 	dependencies: [
 		"9ec10eb0"
@@ -38,5 +41,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "423aa6c1",
+		type: "xp",
+		xp: 50
 	}]
 }

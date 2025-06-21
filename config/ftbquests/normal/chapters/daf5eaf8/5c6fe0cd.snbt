@@ -1,6 +1,12 @@
 {
 	x: 0.5d,
 	y: -3.0d,
+	text: [
+		"§fWipes out anything you select — be §cvery careful§f not to void something important.  ",
+		"",
+		"§7• §eShift + RMB§7 — Set the area dimensions  ",
+		"§7• §aPress §l[U]§r§a (or your custom keybind) to undo the last action  "
+	],
 	tasks: [{
 		uid: "305472a3",
 		type: "item",

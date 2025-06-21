@@ -30,5 +30,20 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "9f657bf3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "614bd88f",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	x: -5.5d,
 	y: -3.0d,
+	text: [
+		"§fA fully §2flat§f dimension — perfect for §bmining§f or building a §abase§f without terrain getting in the way."
+	],
 	tasks: [{
 		uid: "5a73fb58",
 		type: "item",

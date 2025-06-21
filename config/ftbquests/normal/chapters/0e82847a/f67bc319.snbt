@@ -18,5 +18,10 @@
 		type: "item",
 		item: "extrabotany:spiritfuel",
 		count: 16
+	},
+	{
+		uid: "c7fbb77f",
+		type: "xp",
+		xp: 50
 	}]
 }

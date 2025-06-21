@@ -30,5 +30,10 @@
 		type: "item",
 		item: "minecraft:melon_block",
 		count: 16
+	},
+	{
+		uid: "d8377aa1",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -15,5 +15,10 @@
 				tier: 0
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "7a606323",
+		type: "xp",
+		xp: 50
 	}]
 }

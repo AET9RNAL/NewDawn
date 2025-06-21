@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:upgrade_speed_creation"
 		}]
+	}],
+	rewards: [{
+		uid: "7c404ceb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "14b2166d",
+		type: "xp",
+		xp: 75
 	}]
 }

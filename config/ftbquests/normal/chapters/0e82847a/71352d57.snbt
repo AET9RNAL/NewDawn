@@ -22,5 +22,10 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "4bfb0d45",
+		type: "xp",
+		xp: 50
 	}]
 }

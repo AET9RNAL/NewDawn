@@ -11,5 +11,20 @@
 			item: "industrialupgrade:research_lens 1 1"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44926d4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1851ef28",
+		type: "xp",
+		xp: 100
 	}]
 }

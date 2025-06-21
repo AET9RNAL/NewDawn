@@ -36,12 +36,8 @@
 		}
 	},
 	{
-		uid: "1792d732",
-		type: "item",
-		item: {
-			id: "industrialupgrade:basemachine3",
-			Damage: 29s,
-			tag: {}
-		}
+		uid: "3206ae4d",
+		type: "xp",
+		xp: 50
 	}]
 }

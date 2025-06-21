@@ -17,5 +17,10 @@
 		type: "item",
 		item: "astralsorcery:itemcraftingcomponent 1 1",
 		count: 32
+	},
+	{
+		uid: "10316ad5",
+		type: "xp",
+		xp: 50
 	}]
 }

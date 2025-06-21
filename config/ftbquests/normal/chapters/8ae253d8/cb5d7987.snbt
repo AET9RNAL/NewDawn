@@ -29,5 +29,10 @@
 		type: "item",
 		item: "mekanism:cardboardbox",
 		count: 2
+	},
+	{
+		uid: "5774b26a",
+		type: "xp",
+		xp: 50
 	}]
 }

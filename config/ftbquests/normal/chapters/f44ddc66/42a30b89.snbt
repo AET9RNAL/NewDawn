@@ -11,5 +11,20 @@
 			item: "industrialupgrade:itemdust 1 62"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "b450a7e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0a9890a4",
+		type: "xp",
+		xp: 75
 	}]
 }

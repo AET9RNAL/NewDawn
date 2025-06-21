@@ -72,5 +72,20 @@
 			tag: {}
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "2fd6637a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a6eb9eda",
+		type: "xp",
+		xp: 100
 	}]
 }

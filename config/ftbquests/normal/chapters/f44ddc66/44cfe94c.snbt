@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:graphene"
 		}]
+	}],
+	rewards: [{
+		uid: "707e29ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ef6ba955",
+		type: "xp",
+		xp: 75
 	}]
 }

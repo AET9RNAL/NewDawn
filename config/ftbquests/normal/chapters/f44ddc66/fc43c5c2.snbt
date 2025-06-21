@@ -30,5 +30,20 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "c4ef4068",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "5593d855",
+		type: "xp",
+		xp: 100
 	}]
 }

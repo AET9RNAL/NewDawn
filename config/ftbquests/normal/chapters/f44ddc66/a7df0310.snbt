@@ -2,6 +2,9 @@
 	x: 69.0d,
 	y: 0.5d,
 	shape: "square",
+	text: [
+		"Spectal Armor provides the best protection IU can offer"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"b4c79b88"

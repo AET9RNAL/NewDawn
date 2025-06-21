@@ -2,6 +2,9 @@
 	x: -12.5d,
 	y: -7.5d,
 	shape: "hexagon",
+	text: [
+		"§fThe §dPetal Apothecary§f allows you to create various §afunctional§f and §egenerational§f flowers."
+	],
 	dependencies: [
 		"352cea00"
 	],
@@ -33,5 +36,20 @@
 			}
 		},
 		count: 12
+	},
+	{
+		uid: "0aae9734",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "110afb96",
+		type: "xp",
+		xp: 50
 	}]
 }

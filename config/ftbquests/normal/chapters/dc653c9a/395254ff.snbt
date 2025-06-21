@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: -34.5d,
+	text: [
+		"Craft some blank patterns"
+	],
 	dependencies: [
 		"61e14ee3"
 	],
@@ -22,5 +25,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "c75c5b81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "47f2e626",
+		type: "xp",
+		xp: 50
 	}]
 }

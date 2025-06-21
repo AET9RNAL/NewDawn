@@ -14,5 +14,20 @@
 			item: "industrialupgrade:baseore1 1 6"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "1c2c0c5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ae0ca2e0",
+		type: "xp",
+		xp: 75
 	}]
 }

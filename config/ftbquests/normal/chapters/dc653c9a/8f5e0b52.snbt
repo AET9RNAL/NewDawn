@@ -1,6 +1,10 @@
 {
 	x: -8.0d,
 	y: -33.0d,
+	text: [
+		"§f§6Drawers§f allow you to store large quantities of resources.  ",
+		"Unlike chests, they have only §71 slot§f — so only one type of resource can be stored."
+	],
 	dependencies: [
 		"6479c3ee"
 	],
@@ -34,5 +38,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "4595b0d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "6bf9f7d4",
+		type: "xp",
+		xp: 50
 	}]
 }

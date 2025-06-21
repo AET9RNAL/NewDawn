@@ -18,5 +18,10 @@
 		type: "item",
 		item: "industrialupgrade:quantumitems3",
 		count: 3
+	},
+	{
+		uid: "44d92d10",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -1,6 +1,22 @@
 {
 	x: -5.5d,
 	y: 1.5d,
+	text: [
+		"§6§lEnder IO — Conduits§r",
+		"",
+		"§f§dEnder IO§f introduces §eConduits§f — modular cables that transfer different types of resources:",
+		"",
+		"§7• §fItems  ",
+		"§7• §9Liquids  ",
+		"§7• §eEnergy  ",
+		"§7• §cRedstone Signals  ",
+		"§7• §bAE Channels",
+		"",
+		"§fThey are highly §aversatile§f and §dconfigurable§f.  ",
+		"Most support filtering, and their speed can be adjusted using §6Extract Speed Upgrades§f or §8Downgrades§f.",
+		"",
+		"§fDifferent types of conduits can be §bgrouped§f together on the same block for compact setups."
+	],
 	dependencies: [
 		"9a66b63c"
 	],
@@ -189,18 +205,13 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "2f25c0f1",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "legendary_crate"
-			}
-		}
-	},
-	{
 		uid: "527c3a8e",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "d37f9716",
+		type: "xp",
+		xp: 50
 	}]
 }

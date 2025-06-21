@@ -15,5 +15,20 @@
 			Damage: 171s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "ffd9caad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "5e870107",
+		type: "xp",
+		xp: 50
 	}]
 }

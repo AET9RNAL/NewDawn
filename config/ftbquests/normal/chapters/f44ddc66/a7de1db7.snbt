@@ -26,5 +26,25 @@
 		type: "item",
 		item: "industrialupgrade:crafting_elements 1 272",
 		count: 6
+	},
+	{
+		uid: "2f5c202f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e70e0f55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
 	}]
 }

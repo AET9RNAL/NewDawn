@@ -11,5 +11,20 @@
 			id: "industrialupgrade:block_strong_anvil",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "0948de8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "61fd7a97",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -202,7 +202,8 @@ val itemsToRemove = [
   <mekanism:machineblock:7>.withTag({recipeType: 15}),
   <mekanism:machineblock3:7>.withTag({recipeType: 15}),
   <mekanism:machineblock3:8>.withTag({recipeType: 15}),
-  <mekanism:machineblock4:7>
+  <mekanism:machineblock4:7>,
+  <mekanism:modulebase>,
 ]as IItemStack[];
 for item in itemsToRemove {
   recipes.remove(item);
@@ -355,6 +356,7 @@ recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}), [[<industr
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 8}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:5>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock:10>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock:1>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:modulebase>, [[<industrialupgrade:quantumitems4>, <moreplates:infinity_plate>, <industrialupgrade:quantumitems4>],[<industrialupgrade:quantumitems4>, <industrialupgrade:module_schedule>, <industrialupgrade:quantumitems4>], [<industrialupgrade:quantumitems4>, <moreplates:infinity_plate>, <industrialupgrade:quantumitems4>]]);
 
 mods.avaritia.Compressor.add("circuit", <mekanism:controlcircuit:4>, 42, <mekanismecoenergistics:morecontrolcircuit:9>,true);
 
@@ -593,12 +595,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0,<mekanism:mekamachine_extreme_ev
     [<industrialupgrade:crafting_elements:392>,<industrialupgrade:item_per_exchanger>,<industrialupgrade:item_per_exchanger>,<mekanism:basicblock:15>,<industrialupgrade:item_per_exchanger>,<industrialupgrade:item_per_exchanger>,<industrialupgrade:crafting_elements:392>],
     [<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>,<industrialupgrade:crafting_elements:392>]
 ]);
-
-
-
-
-
-
 
 
 

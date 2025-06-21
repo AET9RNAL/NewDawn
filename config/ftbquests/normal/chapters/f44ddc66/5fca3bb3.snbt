@@ -28,5 +28,20 @@
 		type: "item",
 		item: "industrialupgrade:blockresource 1 6",
 		count: 32
+	},
+	{
+		uid: "4fceed49",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "d67b4723",
+		type: "xp",
+		xp: 100
 	}]
 }

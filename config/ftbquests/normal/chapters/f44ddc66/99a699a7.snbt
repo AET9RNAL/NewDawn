@@ -11,5 +11,20 @@
 			id: "industrialupgrade:tank_iu",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "228f2051",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "fdc8e4ca",
+		type: "xp",
+		xp: 50
 	}]
 }

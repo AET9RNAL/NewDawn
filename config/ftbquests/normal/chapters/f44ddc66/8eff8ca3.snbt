@@ -68,5 +68,20 @@
 		uid: "40a639c3",
 		type: "checkmark",
 		icon: "industrialupgrade:guide_book"
+	}],
+	rewards: [{
+		uid: "754bc864",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7bcd1eb0",
+		type: "xp",
+		xp: 50
 	}]
 }

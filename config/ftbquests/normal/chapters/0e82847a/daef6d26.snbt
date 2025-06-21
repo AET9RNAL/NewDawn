@@ -2,6 +2,9 @@
 	x: 4.914285714285711d,
 	y: -3.3190476190476303d,
 	shape: "hexagon",
+	text: [
+		"§f§dBotaniverse Spreaders§f function like regular §bSpreaders§f, but with §ahigher Mana transfer rates§f."
+	],
 	dependencies: [
 		"120bae1c"
 	],
@@ -24,5 +27,10 @@
 			}
 		},
 		count: 2
+	},
+	{
+		uid: "15d2e88a",
+		type: "xp",
+		xp: 50
 	}]
 }

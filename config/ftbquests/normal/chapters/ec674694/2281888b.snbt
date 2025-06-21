@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: -8.0d,
+	x: -8.5d,
+	y: -7.630357142857115d,
 	dependencies: [
 		"5a66b2fd"
 	],
@@ -20,5 +20,10 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "abb581ce",
+		type: "xp",
+		xp: 50
 	}]
 }

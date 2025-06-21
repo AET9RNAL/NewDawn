@@ -1,6 +1,15 @@
 {
-	x: -7.5d,
-	y: 1.5d,
+	x: -9.5d,
+	y: 1.2607142857142826d,
+	text: [
+		"§f§dEnder IO§f machines use §eCapacitors§f to operate.  ",
+		"They determine both the §aspeed§f of the machine and its §benergy storage capacity§f.",
+		"",
+		"§fThe higher the tier of the capacitor, the §afaster§f the machine runs."
+	],
+	dependencies: [
+		"055fb6a5"
+	],
 	tasks: [{
 		uid: "a74af1e4",
 		type: "item",
@@ -17,5 +26,10 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "ebe208ca",
+		type: "xp",
+		xp: 50
 	}]
 }

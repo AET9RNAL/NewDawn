@@ -1,6 +1,9 @@
 {
 	x: -5.5d,
 	y: -1.5d,
+	text: [
+		"A deep dark portal to a deep dark place"
+	],
 	tasks: [{
 		uid: "5b952e6b",
 		type: "item",

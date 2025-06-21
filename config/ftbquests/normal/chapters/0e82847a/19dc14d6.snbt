@@ -20,5 +20,10 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "4d271f26",
+		type: "xp",
+		xp: 50
 	}]
 }

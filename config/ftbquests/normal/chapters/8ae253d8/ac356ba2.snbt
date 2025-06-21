@@ -1,6 +1,6 @@
 {
 	x: -47.5d,
-	y: -5.0d,
+	y: -7.0d,
 	dependencies: [
 		"fa0558e2"
 	],
@@ -17,5 +17,25 @@
 		type: "item",
 		item: "industrialupgrade:gear 1 19",
 		count: 4
+	},
+	{
+		uid: "36c5e75d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "3285a633",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "ae3f849e",
+		type: "xp",
+		xp: 50
 	}]
 }

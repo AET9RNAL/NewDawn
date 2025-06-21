@@ -2,8 +2,11 @@
 	x: -41.0d,
 	y: -24.0d,
 	text: [
-		"This is a very powerful machine capable of processing liquids at a much higher rate, it's no longer necessary to build a dozen of evaporation towers, instead,",
-		"place a few of these and you'll be set for the rest of the game"
+		"§fThis is a §apowerful§f machine capable of processing liquids at a §cmuch higher rate§f.",
+		"",
+		"§fNo more need to build a dozen §6Evaporation Towers§f — just place a few of these and you’re §aset for the rest of the game§f.",
+		"",
+		"§7Simple. Lagless. Effective."
 	],
 	dependencies: [
 		"6b34a5a9"
@@ -24,5 +27,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "e3524a19",
+		type: "xp",
+		xp: 50
 	}]
 }

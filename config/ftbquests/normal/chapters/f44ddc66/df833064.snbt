@@ -11,5 +11,20 @@
 			item: "industrialupgrade:cultivated_peat"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "898d0c50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f522cda4",
+		type: "xp",
+		xp: 50
 	}]
 }

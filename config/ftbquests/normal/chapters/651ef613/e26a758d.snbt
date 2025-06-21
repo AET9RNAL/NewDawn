@@ -3,7 +3,7 @@
 	y: -9.0d,
 	shape: "diamond",
 	text: [
-		"§6This machine can create perfect celestial crystals, no more complex automations!"
+		"§fThis machine can create §dPerfect Celestial Crystals§f — no more complex automations!"
 	],
 	dependencies: [
 		"b34ecdfd"
@@ -25,5 +25,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "e441e061",
+		type: "xp",
+		xp: 50
 	}]
 }

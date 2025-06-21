@@ -31,5 +31,10 @@
 			id: "industrialupgrade:machines",
 			tag: {}
 		}
+	},
+	{
+		uid: "52538100",
+		type: "xp",
+		xp: 50
 	}]
 }

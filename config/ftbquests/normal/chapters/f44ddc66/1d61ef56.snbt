@@ -28,5 +28,10 @@
 		type: "item",
 		item: "mekanismecoenergistics:controlcircuitavaritia 1 1",
 		count: 6
+	},
+	{
+		uid: "a461cc2b",
+		type: "xp",
+		xp: 100
 	}]
 }

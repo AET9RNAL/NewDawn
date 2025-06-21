@@ -2,17 +2,12 @@
 	x: 0.5d,
 	y: -39.0d,
 	text: [
-		"§6Where should I begin?",
+		"§6§lWhere Should I Begin?§r",
 		"",
-		"§2In the beginning I'd recommend you to start from Tinker's Construct, as this is how you'll obtain your first tools. Then, you should advance in Astral Sorcery,",
-		"at the same time, start exploring Midnight dimension. This will open a road to Botania. ",
+		"§fIn the beginning, it's recommended to start with §dTinkers' Construct§f — this is how you'll obtain your first tools.",
 		"",
-		"When it comes to machinery as a rule, the sequence is: ",
-		"Thermal->EnderIO->Mekanism->IndustrialUpgrade.",
-		"",
-		"Although the progression isn't necessarily sequential.",
-		"but rather interconnected, that means, for example, when components from IU are being used in Mekanism or Thermal and the other way around. The more",
-		"powerful is a machine, the more resources it will require and connections between mods will be more intertwined."
+		"§fThen, advance into §bAstral Sorcery§f while simultaneously exploring the §5Midnight Dimension§f.  ",
+		"This will open the path toward progressing into §2Botania§f."
 	],
 	tasks: [{
 		uid: "c3f2f572",
@@ -22,6 +17,6 @@
 	rewards: [{
 		uid: "7f7da7d1",
 		type: "xp",
-		xp: 500
+		xp: 100
 	}]
 }

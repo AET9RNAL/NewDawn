@@ -16,5 +16,20 @@
 		uid: "a7897fd4",
 		type: "item",
 		item: "storagedrawers:upgrade_storage 1 1"
+	},
+	{
+		uid: "db5fef93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "d940eab8",
+		type: "xp",
+		xp: 50
 	}]
 }

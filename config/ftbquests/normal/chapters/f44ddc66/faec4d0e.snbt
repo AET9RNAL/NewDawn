@@ -35,5 +35,20 @@
 		uid: "ab1a314f",
 		type: "item",
 		item: "xlfoodmod:super_energy_drink"
+	},
+	{
+		uid: "61fabc25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "6fcf0dad",
+		type: "xp",
+		xp: 75
 	}]
 }

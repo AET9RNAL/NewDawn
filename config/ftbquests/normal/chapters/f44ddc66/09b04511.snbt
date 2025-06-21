@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:autoheater"
 		}]
+	}],
+	rewards: [{
+		uid: "f163de83",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ef873f0f",
+		type: "xp",
+		xp: 100
 	}]
 }

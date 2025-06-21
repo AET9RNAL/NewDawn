@@ -12,5 +12,20 @@
 			item: "industrialupgrade:cryogenic_cooling_mixture"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "ab9e4b30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "d07cf076",
+		type: "xp",
+		xp: 100
 	}]
 }

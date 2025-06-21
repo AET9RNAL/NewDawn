@@ -11,5 +11,20 @@
 			item: "industrialupgrade:photoniy"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "517ad6af",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1b9a7871",
+		type: "xp",
+		xp: 100
 	}]
 }

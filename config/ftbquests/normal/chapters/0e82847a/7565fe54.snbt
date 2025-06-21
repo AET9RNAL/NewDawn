@@ -30,5 +30,10 @@
 		type: "item",
 		item: "botania:manaresource 1 1",
 		count: 64
+	},
+	{
+		uid: "16ddd124",
+		type: "xp",
+		xp: 50
 	}]
 }

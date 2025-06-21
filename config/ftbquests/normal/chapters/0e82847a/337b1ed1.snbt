@@ -16,5 +16,10 @@
 		type: "item",
 		item: "extrabotany:material 1 1",
 		count: 2
+	},
+	{
+		uid: "07337b78",
+		type: "xp",
+		xp: 50
 	}]
 }

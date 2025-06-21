@@ -31,5 +31,20 @@
 		type: "item",
 		item: "industrialupgrade:itemcore 1 2",
 		count: 8
+	},
+	{
+		uid: "8b2fb393",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "fadb9b39",
+		type: "xp",
+		xp: 100
 	}]
 }

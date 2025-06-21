@@ -1,6 +1,6 @@
 {
-	x: -11.5d,
-	y: 0.0d,
+	x: -7.5d,
+	y: -0.13035714285711464d,
 	dependencies: [
 		"81f2b32c"
 	],
@@ -20,5 +20,10 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "48ee3787",
+		type: "xp",
+		xp: 50
 	}]
 }

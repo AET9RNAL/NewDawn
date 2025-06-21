@@ -12,5 +12,20 @@
 			item: "industrialupgrade:crushed 1 24"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "680b9141",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e3909b06",
+		type: "xp",
+		xp: 75
 	}]
 }

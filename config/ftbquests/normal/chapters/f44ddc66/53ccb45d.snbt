@@ -20,5 +20,20 @@
 			id: "industrialupgrade:primal_wire_insulator",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "6dca017c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "6b71ffcd",
+		type: "xp",
+		xp: 50
 	}]
 }

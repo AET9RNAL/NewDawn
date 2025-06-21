@@ -85,5 +85,20 @@
 			tag: {}
 		}],
 		count: 34L
+	}],
+	rewards: [{
+		uid: "f827903c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7510eb98",
+		type: "xp",
+		xp: 100
 	}]
 }

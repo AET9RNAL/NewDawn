@@ -1,6 +1,9 @@
 {
 	x: -2.5d,
 	y: -1.5d,
+	text: [
+		"A pricey pedestal for you to put whatever you want on it"
+	],
 	tasks: [{
 		uid: "cd1a8240",
 		type: "item",

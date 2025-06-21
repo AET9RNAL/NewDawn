@@ -1,6 +1,9 @@
 {
 	x: -9.5d,
 	y: -33.0d,
+	text: [
+		"§f§6Drawers§f can be upgraded to expand their storage even §afurther§f!"
+	],
 	dependencies: [
 		"8f5e0b52"
 	],
@@ -27,5 +30,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "45a02c77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "6645a5ee",
+		type: "xp",
+		xp: 50
 	}]
 }

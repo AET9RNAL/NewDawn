@@ -20,5 +20,20 @@
 			Damage: 3s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "5677aae3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e4923073",
+		type: "xp",
+		xp: 100
 	}]
 }

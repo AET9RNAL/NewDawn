@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:itemingots 1 44"
 		}]
+	}],
+	rewards: [{
+		uid: "4eae1230",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a7d7d2f1",
+		type: "xp",
+		xp: 100
 	}]
 }

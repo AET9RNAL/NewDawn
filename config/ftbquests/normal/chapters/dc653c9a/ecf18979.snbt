@@ -2,6 +2,9 @@
 	x: -2.0d,
 	y: -33.0d,
 	shape: "hexagon",
+	text: [
+		"§f§eStencil Table§f, §ePart Builder§f, and §eTool Station§f will help you craft your first tools. YAY!"
+	],
 	dependencies: [
 		"395254ff"
 	],
@@ -69,5 +72,25 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "3fd0c0a5",
+		type: "item",
+		item: "tconstruct:book"
+	},
+	{
+		uid: "5631e671",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "c62b7bbb",
+		type: "xp",
+		xp: 50
 	}]
 }

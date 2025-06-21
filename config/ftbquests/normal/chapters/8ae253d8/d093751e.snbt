@@ -18,5 +18,10 @@
 		type: "item",
 		item: "enderio:block_alloy 1 4",
 		count: 4
+	},
+	{
+		uid: "3dca50bc",
+		type: "xp",
+		xp: 50
 	}]
 }

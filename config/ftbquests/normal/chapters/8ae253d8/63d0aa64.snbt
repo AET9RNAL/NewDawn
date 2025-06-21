@@ -189,5 +189,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "ed8846cb",
+		type: "xp",
+		xp: 50
 	}]
 }

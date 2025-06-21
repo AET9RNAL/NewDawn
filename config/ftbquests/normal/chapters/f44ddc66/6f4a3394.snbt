@@ -43,19 +43,24 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "def7ccec",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "uncommon_crate"
-			}
-		}
-	},
-	{
 		uid: "ee0b667e",
 		type: "item",
 		item: "industrialupgrade:cable_iu_item 1 13",
 		count: 8
+	},
+	{
+		uid: "d6eb63cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ee6b0968",
+		type: "xp",
+		xp: 50
 	}]
 }

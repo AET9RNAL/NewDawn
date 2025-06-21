@@ -27,5 +27,10 @@
 		type: "item",
 		item: "minecraft:wool",
 		count: 64
+	},
+	{
+		uid: "63e39694",
+		type: "xp",
+		xp: 50
 	}]
 }

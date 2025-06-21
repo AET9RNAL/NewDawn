@@ -17,5 +17,10 @@
 		uid: "edc5c911",
 		type: "item",
 		item: "extrabotany:quantummanabuffer"
+	},
+	{
+		uid: "8a7940fb",
+		type: "xp",
+		xp: 50
 	}]
 }

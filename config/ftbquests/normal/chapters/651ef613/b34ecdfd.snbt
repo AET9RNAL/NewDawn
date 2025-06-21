@@ -3,7 +3,7 @@
 	y: -10.0d,
 	shape: "diamond",
 	text: [
-		"§6This machine can create perfect rock crystals, no more complex automations!"
+		"§fThis machine can create §dPerfect Rock Crystals§f — no more complex automations!"
 	],
 	dependencies: [
 		"fca8fad0"
@@ -30,5 +30,10 @@
 		uid: "be5fcfd9",
 		type: "item",
 		item: "astralsorcery:itemfragmentcapsule"
+	},
+	{
+		uid: "f80fe060",
+		type: "xp",
+		xp: 50
 	}]
 }

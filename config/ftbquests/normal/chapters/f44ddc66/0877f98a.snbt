@@ -113,5 +113,20 @@
 			tag: {}
 		}],
 		count: 60L
+	}],
+	rewards: [{
+		uid: "9a6d8016",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "b31cfb89",
+		type: "xp",
+		xp: 100
 	}]
 }

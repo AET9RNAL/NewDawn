@@ -1,6 +1,10 @@
 {
 	x: 0.5d,
 	y: -1.5d,
+	text: [
+		"Replaces blocks with the one you selected.",
+		"To select a block shift + right-click"
+	],
 	tasks: [{
 		uid: "5e42e1bf",
 		type: "item",

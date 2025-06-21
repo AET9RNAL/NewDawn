@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:rotorupgrade_schemes"
 		}]
+	}],
+	rewards: [{
+		uid: "5f1fd0bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "58f58396",
+		type: "xp",
+		xp: 100
 	}]
 }

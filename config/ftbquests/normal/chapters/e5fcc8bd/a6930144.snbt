@@ -34,5 +34,15 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "db057371",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "83894951",
+		type: "xp",
+		xp: 50
 	}]
 }

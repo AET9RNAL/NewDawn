@@ -11,5 +11,20 @@
 			id: "industrialupgrade:refiner",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "8f94c6fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "8d6e035a",
+		type: "xp",
+		xp: 75
 	}]
 }

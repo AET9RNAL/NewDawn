@@ -19,5 +19,20 @@
 			id: "industrialupgrade:block_squeezer",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "9c0466bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "b90a994a",
+		type: "xp",
+		xp: 50
 	}]
 }

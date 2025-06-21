@@ -221,7 +221,6 @@ var axeArray = [
  <mekanismtools:lapislazuliaxe>,
  <mekanismtools:glowstoneaxe>,
  <mekanismtools:bronzeaxe>,
- <naturesaura:infused_iron_axe>,
  <thermalfoundation:tool.axe_copper>,
  <thermalfoundation:tool.axe_constantan>,
  <thermalfoundation:tool.axe_bronze>

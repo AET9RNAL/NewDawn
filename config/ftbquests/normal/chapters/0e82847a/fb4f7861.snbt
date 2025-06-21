@@ -30,5 +30,10 @@
 		type: "item",
 		item: "minecraft:tnt",
 		count: 32
+	},
+	{
+		uid: "8629542e",
+		type: "xp",
+		xp: 50
 	}]
 }

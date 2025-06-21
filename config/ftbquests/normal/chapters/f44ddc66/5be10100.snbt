@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:crafting_elements 1 641"
 		}]
+	}],
+	rewards: [{
+		uid: "40daf1b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "9ff13862",
+		type: "xp",
+		xp: 100
 	}]
 }

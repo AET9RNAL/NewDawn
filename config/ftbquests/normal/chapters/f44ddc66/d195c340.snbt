@@ -15,5 +15,20 @@
 			id: "industrialupgrade:electronics_assembler",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "97ab331c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c5d551f6",
+		type: "xp",
+		xp: 50
 	}]
 }

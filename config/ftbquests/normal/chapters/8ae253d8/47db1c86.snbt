@@ -2,6 +2,17 @@
 	x: -57.0d,
 	y: -20.0d,
 	shape: "hexagon",
+	text: [
+		"§fThe §dQuantum Entangloporter§f is a §aTesseract-like§f device capable of transferring:",
+		"",
+		"§7• §9Liquids  ",
+		"§7• §eItems  ",
+		"§7• §bEnergy  ",
+		"§7• §3Gases  ",
+		"§7• §6Heat",
+		"",
+		"§fIt works over §ounlimited distances§f and even §cbetween dimensions§f."
+	],
 	dependencies: [
 		"a3bc4561"
 	],
@@ -42,5 +53,10 @@
 		type: "item",
 		item: "mekanism:energyupgrade",
 		count: 8
+	},
+	{
+		uid: "9d864299",
+		type: "xp",
+		xp: 50
 	}]
 }

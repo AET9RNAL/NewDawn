@@ -22,5 +22,10 @@
 				type: "random_crate"
 			}
 		}
+	},
+	{
+		uid: "3a8224f3",
+		type: "xp",
+		xp: 50
 	}]
 }

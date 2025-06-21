@@ -11,5 +11,20 @@
 			item: "industrialupgrade:alloyingot 1 16"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "dbb2899a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e29776f5",
+		type: "xp",
+		xp: 100
 	}]
 }

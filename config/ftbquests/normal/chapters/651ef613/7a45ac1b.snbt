@@ -3,8 +3,12 @@
 	y: -8.0d,
 	shape: "diamond",
 	text: [
-		"§6Best low-to-mid end energy generator. Energy generation depends on constellation. Focus a ray of starlight via linking tool from collector crystal",
-		"and the generator will start producing power. Energy can only be extracted via Mekanism cables configured in \"Pull\" mode"
+		"§fThe best §alow-to-mid§f end energy generator.  ",
+		"Energy generation depends on the §bConstellation§f it's aligned with.",
+		"",
+		"§fFocus a ray of §9Starlight§f using a §dLinking Tool§f from a §dCollector Crystal§f, and the generator will begin producing power.",
+		"",
+		"§7§oEnergy can only be extracted via §6Mekanism Cables§7§o configured in §e\"Pull\"§7§o mode.§r"
 	],
 	dependencies: [
 		"a32c36be"
@@ -37,5 +41,10 @@
 				type: "epic_crate"
 			}
 		}
+	},
+	{
+		uid: "67f7ccfe",
+		type: "xp",
+		xp: 50
 	}]
 }

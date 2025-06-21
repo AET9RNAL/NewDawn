@@ -22,5 +22,20 @@
 				weight: 113
 			}
 		}
+	},
+	{
+		uid: "44d22f9c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "4881e54f",
+		type: "xp",
+		xp: 50
 	}]
 }

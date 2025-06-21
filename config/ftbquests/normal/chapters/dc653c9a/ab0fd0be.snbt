@@ -1,6 +1,9 @@
 {
 	x: 6.5d,
 	y: -31.0d,
+	text: [
+		"§fThe §6Iron Furnace§f is an improved version of the regular furnace — it smelts items §afaster§f."
+	],
 	dependencies: [
 		"30f17899"
 	],
@@ -21,5 +24,20 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "1a3fb0c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "c25bfc1a",
+		type: "xp",
+		xp: 50
 	}]
 }

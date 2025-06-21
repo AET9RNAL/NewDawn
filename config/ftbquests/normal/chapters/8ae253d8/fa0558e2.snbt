@@ -1,9 +1,10 @@
 {
 	x: -47.5d,
-	y: -3.5d,
+	y: -5.5d,
 	tasks: [{
 		uid: "23e06965",
-		type: "checkmark"
+		type: "checkmark",
+		title: "Mekanism"
 	}],
 	rewards: [{
 		uid: "350fff34",
@@ -26,5 +27,25 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "218a4b4f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "6fc0a4d0",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "a9c03b18",
+		type: "xp",
+		xp: 50
 	}]
 }

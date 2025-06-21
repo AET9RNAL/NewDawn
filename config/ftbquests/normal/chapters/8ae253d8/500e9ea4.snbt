@@ -25,5 +25,10 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "ba60b527",
+		type: "xp",
+		xp: 50
 	}]
 }

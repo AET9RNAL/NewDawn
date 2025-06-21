@@ -29,5 +29,10 @@
 			Damage: 10s,
 			tag: {}
 		}
+	},
+	{
+		uid: "fcb98572",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -3,11 +3,13 @@
 	x: 2.5d,
 	y: -26.0d,
 	text: [
-		"§6Visit the Midnight dimension and get some... shrooms. Look for bloody portals at night time, they will spawn pretty often. You won't be able to get back until after the sunrise!",
+		"§fVisit the §dMidnight Dimension§f and get some... §5shrooms§f.  ",
+		"Look for §cbloody portals§f at §9night§f — they spawn fairly often.  ",
+		"§cYou won’t be able to return until after sunrise!§r",
 		"",
-		"Rules for while in there:",
-		"1.Try not to die(optional)",
-		"2.Don't get high on your own supply"
+		"§f§lRules while you're in there:§r  ",
+		"§71.§f Try not to die §7(optional)  ",
+		"§72.§f Don’t get high on your own supply"
 	],
 	dependencies: [
 		"e0653f92"
@@ -26,5 +28,10 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "0760eea4",
+		type: "xp",
+		xp: 50
 	}]
 }

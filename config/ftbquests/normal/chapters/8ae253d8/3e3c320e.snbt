@@ -1,5 +1,5 @@
 {
-	x: -64.0d,
+	x: -61.5d,
 	y: -13.5d,
 	dependencies: [
 		"9265f341"
@@ -28,5 +28,10 @@
 		type: "item",
 		item: "minecraft:iron_block",
 		count: 9
+	},
+	{
+		uid: "7474d145",
+		type: "xp",
+		xp: 50
 	}]
 }

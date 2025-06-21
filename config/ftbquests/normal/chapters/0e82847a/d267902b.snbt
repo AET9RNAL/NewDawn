@@ -21,5 +21,10 @@
 		uid: "2cdf5e9d",
 		type: "item",
 		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "d6b548fe",
+		type: "xp",
+		xp: 50
 	}]
 }

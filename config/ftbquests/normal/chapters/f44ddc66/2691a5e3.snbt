@@ -65,5 +65,20 @@
 			tag: {}
 		}],
 		count: 22L
+	}],
+	rewards: [{
+		uid: "14506af7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "2cc10265",
+		type: "xp",
+		xp: 75
 	}]
 }

@@ -27,5 +27,10 @@
 		type: "item",
 		item: "industrialupgrade:plastic_plate",
 		count: 12
+	},
+	{
+		uid: "d6387f2a",
+		type: "xp",
+		xp: 50
 	}]
 }

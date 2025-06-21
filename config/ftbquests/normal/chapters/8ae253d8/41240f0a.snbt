@@ -17,5 +17,10 @@
 		type: "item",
 		item: "mekanismecoenergistics:moreingot",
 		count: 16
+	},
+	{
+		uid: "ed230232",
+		type: "xp",
+		xp: 50
 	}]
 }

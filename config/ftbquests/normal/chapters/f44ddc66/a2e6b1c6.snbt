@@ -24,5 +24,10 @@
 				type: "mythic_crate"
 			}
 		}
+	},
+	{
+		uid: "37ccbd40",
+		type: "xp",
+		xp: 100
 	}]
 }

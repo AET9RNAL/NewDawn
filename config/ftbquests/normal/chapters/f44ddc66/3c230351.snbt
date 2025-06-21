@@ -19,5 +19,20 @@
 			id: "industrialupgrade:primal_silicon_crystal_handler",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "8c464ee8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "842c3dd7",
+		type: "xp",
+		xp: 50
 	}]
 }

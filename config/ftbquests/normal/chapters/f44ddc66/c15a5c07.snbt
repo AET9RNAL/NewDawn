@@ -18,5 +18,30 @@
 			}
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "520834aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7b70f241",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7bb88187",
+		type: "xp",
+		xp: 75
 	}]
 }

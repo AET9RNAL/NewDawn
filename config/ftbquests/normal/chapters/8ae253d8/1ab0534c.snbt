@@ -16,13 +16,8 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "4311772a",
-		type: "item",
-		item: {
-			id: "industrialupgrade:adronrotor",
-			tag: {
-				damage: 442368000
-			}
-		}
+		uid: "0c0bd0df",
+		type: "xp",
+		xp: 50
 	}]
 }

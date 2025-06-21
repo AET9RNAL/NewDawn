@@ -10,5 +10,20 @@
 		uid: "01086d12",
 		type: "checkmark",
 		title: "IU:Electric Era"
+	}],
+	rewards: [{
+		uid: "224de5f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "323d48e6",
+		type: "xp",
+		xp: 75
 	}]
 }

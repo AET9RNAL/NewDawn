@@ -25,5 +25,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "95657c1b",
+		type: "xp",
+		xp: 50
 	}]
 }

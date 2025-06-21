@@ -3,6 +3,17 @@
 	y: -2.0d,
 	tasks: [{
 		uid: "310fa085",
-		type: "checkmark"
+		type: "checkmark",
+		title: "Thermal"
+	}],
+	rewards: [{
+		uid: "d2a136eb",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "fd53fa8c",
+		type: "xp",
+		xp: 50
 	}]
 }

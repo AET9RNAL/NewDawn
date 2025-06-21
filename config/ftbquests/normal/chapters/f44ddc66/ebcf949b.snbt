@@ -18,5 +18,25 @@
 		type: "item",
 		item: "industrialupgrade:baseblockingot 1 14",
 		count: 8
+	},
+	{
+		uid: "df63df59",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "3397e812",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
 	}]
 }

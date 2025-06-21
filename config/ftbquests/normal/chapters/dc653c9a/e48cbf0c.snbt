@@ -13,5 +13,10 @@
 			item: "midnight:bloomcrystal"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "e1e3e040",
+		type: "xp",
+		xp: 50
 	}]
 }

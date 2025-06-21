@@ -3,8 +3,10 @@
 	y: -1.0d,
 	shape: "hexagon",
 	text: [
-		"This machine will turn mana into it's liquid state, can be useful when you want to transport it to any part of the world via tesseracts etc. Mana can be accepted/em",
-		"itted via spark, you can place it by clicking RMB while sneaking, also works with spreaders"
+		"§fThis machine converts §3Mana§f into its §9liquid state§f — useful for transporting it anywhere in the world via §dTesseracts§f or similar systems.",
+		"",
+		"§fMana can be §aaccepted§f and §cemitted§f using §dSparks§f.  ",
+		"§7Sneak + §eRMB§7 to place a spark on the machine. It also works with §bSpreaders§7.§r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
@@ -37,5 +39,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "40055730",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:radiationresources 1 11"
 		}]
+	}],
+	rewards: [{
+		uid: "1dbee511",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "fbeaa5ce",
+		type: "xp",
+		xp: 100
 	}]
 }

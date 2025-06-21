@@ -18,5 +18,20 @@
 		type: "item",
 		item: "industrialupgrade:solidmatter 1 2",
 		count: 64
+	},
+	{
+		uid: "3d44f714",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "5a812bbe",
+		type: "xp",
+		xp: 100
 	}]
 }

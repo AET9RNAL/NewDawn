@@ -15,14 +15,8 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "b35a7cb5",
-		type: "item",
-		item: {
-			id: "industrialupgrade:diamond_drill",
-			tag: {
-				charge: 30000.0d,
-				ID_Item: 2147483647
-			}
-		}
+		uid: "5ba2a906",
+		type: "xp",
+		xp: 50
 	}]
 }

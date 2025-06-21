@@ -10,5 +10,20 @@
 		items: [{
 			item: "industrialupgrade:spaceupgrademodules 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "74c51720",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "9585de23",
+		type: "xp",
+		xp: 100
 	}]
 }

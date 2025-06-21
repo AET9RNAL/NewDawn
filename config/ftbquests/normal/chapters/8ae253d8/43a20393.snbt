@@ -1,6 +1,10 @@
 {
-	x: -42.0d,
-	y: -12.5d,
+	x: -40.0d,
+	y: -15.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"17742804"
+	],
 	tasks: [{
 		uid: "b9471ac6",
 		type: "item",
@@ -9,5 +13,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4bb886b",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -30,5 +30,10 @@
 		type: "item",
 		item: "industrialupgrade:photoniy_ingot",
 		count: 32
+	},
+	{
+		uid: "120464b5",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -8,5 +8,20 @@
 		uid: "f00f79a1",
 		type: "dimension",
 		dim: -1
+	}],
+	rewards: [{
+		uid: "e6f0263f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "459a54ff",
+		type: "xp",
+		xp: 50
 	}]
 }

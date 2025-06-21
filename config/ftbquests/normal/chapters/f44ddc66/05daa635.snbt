@@ -11,5 +11,10 @@
 			item: "industrialupgrade:alloyingot 1 14"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "bcc965e4",
+		type: "xp",
+		xp: 100
 	}]
 }

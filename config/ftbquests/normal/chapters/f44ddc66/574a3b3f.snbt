@@ -11,5 +11,20 @@
 		items: [{
 			item: "industrialupgrade:itemdust 1 68"
 		}]
+	}],
+	rewards: [{
+		uid: "5dd20931",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "5fc1bbfa",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -23,5 +23,10 @@
 		type: "item",
 		item: "industrialupgrade:circuit 1 11",
 		count: 6
+	},
+	{
+		uid: "1ed823c0",
+		type: "xp",
+		xp: 50
 	}]
 }

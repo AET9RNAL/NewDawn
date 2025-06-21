@@ -13,5 +13,10 @@
 			item: "midnight:rouxe"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "41a71f7e",
+		type: "xp",
+		xp: 50
 	}]
 }

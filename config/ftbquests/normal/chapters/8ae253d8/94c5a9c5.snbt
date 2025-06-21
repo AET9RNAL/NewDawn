@@ -1,6 +1,9 @@
 {
 	x: -52.5d,
 	y: -9.0d,
+	text: [
+		"§fThe §dMetallurgic Infuser§f is your §6gateway§f to §bMekanism§f."
+	],
 	dependencies: [
 		"2f57729b",
 		"d3d3d2bc"
@@ -35,5 +38,25 @@
 		type: "item",
 		item: "industrialupgrade:itemdust 1 23",
 		count: 12
+	},
+	{
+		uid: "79e16e43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "251949f4",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "70fd33f1",
+		type: "xp",
+		xp: 50
 	}]
 }

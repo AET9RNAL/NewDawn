@@ -32,5 +32,20 @@
 		type: "item",
 		item: "botania:fertilizer",
 		count: 32
+	},
+	{
+		uid: "161df75c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "bd69c833",
+		type: "xp",
+		xp: 50
 	}]
 }

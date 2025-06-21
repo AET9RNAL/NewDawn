@@ -1,6 +1,9 @@
 {
 	x: 2.0d,
 	y: -1.5d,
+	text: [
+		"§fA handy block that keeps your chunks §aloaded§f even while you're away."
+	],
 	tasks: [{
 		uid: "fb4213c8",
 		type: "item",

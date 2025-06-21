@@ -17,5 +17,10 @@
 		type: "item",
 		item: "contenttweaker:neutronium_circuit",
 		count: 4
+	},
+	{
+		uid: "4340c543",
+		type: "xp",
+		xp: 50
 	}]
 }

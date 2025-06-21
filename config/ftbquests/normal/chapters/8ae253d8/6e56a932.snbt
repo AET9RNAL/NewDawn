@@ -28,5 +28,10 @@
 		type: "item",
 		item: "minecraft:coal_block",
 		count: 32
+	},
+	{
+		uid: "cfeeb8eb",
+		type: "xp",
+		xp: 50
 	}]
 }

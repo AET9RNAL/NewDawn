@@ -2,13 +2,18 @@
 	x: -4.5d,
 	y: -41.0d,
 	text: [
-		"§6Ore generation has been significantly changed. Now, the spawning of most ores is handled by §9IndustrialUpgrade.§6 It also introduces a new system of veins.",
+		"§6Ore generation has been significantly changed.§r  ",
+		"§fNow, the spawning of most ores is handled by §9IndustrialUpgrade§f. It also introduces a new system of §oveins§f.",
 		"",
-		"You'll notice that ores are no longer scattered all over the caves but are found in dense veins containing a large quantity of the same type of ore.",
+		"§fYou'll notice that ores are no longer scattered all over the caves,  ",
+		"but are found in §ddense veins§f containing a large quantity of the same type of ore.",
 		"",
-		"To find veins effectively, it's recommended to abandon the idea of tunnel mining. Instead, look for tiny ore stones on the surface. Underneath them, you'll find a vein; the ore type of the vein matches the one you found on the surface.",
+		"§fTo find veins effectively, it's recommended to §cabandon the idea of tunnel mining§f.  ",
+		"Instead, look for tiny §7ore pebbles§f on the surface. Underneath them, you'll find a vein —  ",
+		"the ore type of the vein matches the one you found on the surface.",
 		"",
-		"However, this concept isn't applicable to all ores. Ores from other mods are generated in the usual way."
+		"§fHowever, this concept isn't applicable to §call ores§f.  ",
+		"§fOres from other mods are generated in the §7usual way§f."
 	],
 	tasks: [{
 		uid: "70e75451",
@@ -18,6 +23,6 @@
 	rewards: [{
 		uid: "ef97d170",
 		type: "xp",
-		xp: 500
+		xp: 100
 	}]
 }

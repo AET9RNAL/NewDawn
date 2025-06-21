@@ -19,5 +19,20 @@
 			id: "industrialupgrade:dryer",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "e24a7635",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0788b5ad",
+		type: "xp",
+		xp: 50
 	}]
 }

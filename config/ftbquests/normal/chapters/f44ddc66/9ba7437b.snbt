@@ -28,5 +28,20 @@
 		type: "item",
 		item: "industrialupgrade:itemiucrafring 1 2",
 		count: 32
+	},
+	{
+		uid: "4d77fe96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "6f4c9306",
+		type: "xp",
+		xp: 75
 	}]
 }

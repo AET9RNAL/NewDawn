@@ -25,5 +25,10 @@
 				type: "rare_crate"
 			}
 		}
+	},
+	{
+		uid: "cd3aac27",
+		type: "xp",
+		xp: 50
 	}]
 }

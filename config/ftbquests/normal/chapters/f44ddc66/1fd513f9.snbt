@@ -1,8 +1,14 @@
 {
-	x: -24.5d,
-	y: 6.0d,
+	x: 10.5d,
+	y: 22.0d,
 	shape: "diamond",
+	text: [
+		"Generates heat by consuming lava"
+	],
 	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
 	tasks: [{
 		uid: "a31ddcda",
 		type: "item",
@@ -15,12 +21,6 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "ec63a526",
-		type: "item",
-		item: "industrialupgrade:itemcell 1 29",
-		count: 12
-	},
-	{
 		uid: "9ba519d7",
 		type: "item",
 		item: {
@@ -29,5 +29,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "20c39ece",
+		type: "xp",
+		xp: 50
 	}]
 }

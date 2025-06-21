@@ -79,5 +79,20 @@
 			item: "industrialupgrade:crafting_elements 1 294"
 		}],
 		count: 10L
+	}],
+	rewards: [{
+		uid: "1f2a21c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f4e8ebca",
+		type: "xp",
+		xp: 50
 	}]
 }

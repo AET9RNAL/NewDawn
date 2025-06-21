@@ -1,6 +1,6 @@
 {
 	x: -47.5d,
-	y: -6.0d,
+	y: -9.0d,
 	dependencies: [
 		"ac356ba2"
 	],
@@ -33,5 +33,25 @@
 				type: "common_crate"
 			}
 		}
+	},
+	{
+		uid: "bbe0c8a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "633308d0",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "b5dc45b9",
+		type: "xp",
+		xp: 50
 	}]
 }

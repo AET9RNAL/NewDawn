@@ -24,5 +24,20 @@
 			id: "quantum_generators:qg",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "78a1dad0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "b7e0fd02",
+		type: "xp",
+		xp: 100
 	}]
 }

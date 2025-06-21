@@ -28,5 +28,10 @@
 				type: "mythic_crate"
 			}
 		}
+	},
+	{
+		uid: "7ca71360",
+		type: "xp",
+		xp: 100
 	}]
 }

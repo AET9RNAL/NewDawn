@@ -27,5 +27,10 @@
 		uid: "b9dc81f8",
 		type: "item",
 		item: "industrialupgrade:itemcore 1 7"
+	},
+	{
+		uid: "ec8c4cbf",
+		type: "xp",
+		xp: 100
 	}]
 }

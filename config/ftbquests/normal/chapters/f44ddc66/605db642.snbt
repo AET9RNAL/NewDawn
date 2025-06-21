@@ -16,5 +16,10 @@
 			Damage: 3s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "e68f99f8",
+		type: "xp",
+		xp: 100
 	}]
 }

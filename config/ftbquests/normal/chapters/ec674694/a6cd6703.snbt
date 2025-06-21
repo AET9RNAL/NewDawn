@@ -1,6 +1,6 @@
 {
-	x: -11.5d,
-	y: -1.5d,
+	x: -8.0d,
+	y: -1.6303571428571146d,
 	dependencies: [
 		"ba79b83a"
 	],
@@ -10,5 +10,10 @@
 		items: [{
 			item: "enderio:block_cap_bank 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "9dcc189c",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -27,5 +27,10 @@
 		uid: "2851a530",
 		type: "item",
 		item: "industrialupgrade:itemcore 1 6"
+	},
+	{
+		uid: "04d801ee",
+		type: "xp",
+		xp: 100
 	}]
 }

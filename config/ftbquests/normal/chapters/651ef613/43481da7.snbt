@@ -3,7 +3,8 @@
 	y: -1.5595238095238102d,
 	shape: "diamond",
 	text: [
-		"§6This machine is capable of generating liquid starlight. To do so, it requires a constant supply of energy, also a focused ray of Horologium constellation."
+		"§fThis machine is capable of generating §9Liquid Starlight§f.  ",
+		"To do so, it requires a constant supply of §eEnergy§f and a focused ray of the §bHorologium§f constellation."
 	],
 	dependencies: [
 		"edeea799"
@@ -30,5 +31,10 @@
 			}
 		},
 		count: 32
+	},
+	{
+		uid: "f2421a6c",
+		type: "xp",
+		xp: 50
 	}]
 }

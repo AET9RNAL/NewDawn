@@ -16,5 +16,10 @@
 		type: "item",
 		item: "avaritia:resource 1 4",
 		count: 8
+	},
+	{
+		uid: "661d464f",
+		type: "xp",
+		xp: 50
 	}]
 }

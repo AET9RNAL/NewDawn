@@ -12,5 +12,20 @@
 			item: "industrialupgrade:classicore 1 3"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "b23bab70",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "47ab2057",
+		type: "xp",
+		xp: 75
 	}]
 }

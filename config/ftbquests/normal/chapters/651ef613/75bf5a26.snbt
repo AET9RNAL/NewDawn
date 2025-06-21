@@ -14,5 +14,10 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			}
 		}
+	},
+	{
+		uid: "7f002c90",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -11,5 +11,20 @@
 			id: "industrialupgrade:refractory_furnace",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "e08a3316",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f69ac3e0",
+		type: "xp",
+		xp: 50
 	}]
 }

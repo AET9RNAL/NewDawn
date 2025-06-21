@@ -1,6 +1,9 @@
 {
 	x: -1.5d,
 	y: -15.75d,
+	text: [
+		"NYI"
+	],
 	dependencies: [
 		"27b5e2f0"
 	],
@@ -21,5 +24,10 @@
 				type: "mythic_crate"
 			}
 		}
+	},
+	{
+		uid: "afbcc3f1",
+		type: "xp",
+		xp: 50
 	}]
 }

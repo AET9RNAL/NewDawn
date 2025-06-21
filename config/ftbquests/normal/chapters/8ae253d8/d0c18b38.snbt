@@ -1,6 +1,12 @@
 {
 	x: -41.0d,
 	y: -18.5d,
+	text: [
+		"§6§lResistive Heater§r",
+		"",
+		"§fGenerates §cheat§f from energy.  ",
+		"Required for various machines."
+	],
 	dependencies: [
 		"56aa1f25"
 	],
@@ -14,11 +20,6 @@
 		only_from_crafting: true
 	}],
 	rewards: [{
-		uid: "f06bd8ab",
-		type: "item",
-		item: "mekanism:machineblock3 1 4"
-	},
-	{
 		uid: "26084ad2",
 		type: "item",
 		item: {
@@ -27,5 +28,10 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "22ba346d",
+		type: "xp",
+		xp: 50
 	}]
 }

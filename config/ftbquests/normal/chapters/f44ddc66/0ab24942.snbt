@@ -15,5 +15,20 @@
 			id: "industrialupgrade:primal_programming_table",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "67d82600",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "804a8801",
+		type: "xp",
+		xp: 50
 	}]
 }

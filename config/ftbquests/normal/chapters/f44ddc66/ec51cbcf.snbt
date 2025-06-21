@@ -11,5 +11,20 @@
 		items: [{
 			item: "industrialupgrade:plastic_plate"
 		}]
+	}],
+	rewards: [{
+		uid: "877d2487",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "60607437",
+		type: "xp",
+		xp: 75
 	}]
 }

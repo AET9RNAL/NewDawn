@@ -2,15 +2,17 @@
 	x: 2.5d,
 	y: -41.0d,
 	text: [
-		"§6What's the goal of the modpack?",
+		"§6§lWhat’s the Goal of This Modpack?§r",
 		"",
-		"§2Long story short, it all comes down to three main things:",
-		"1.Energy",
-		"2.Mana",
-		"3.Starlight",
+		"§fThe pack introduces §alots of new content§f, §dmechanics§f, and §emachinery§f across both magic and technology mods.",
 		"",
-		"If you have these things, then you have resources, if you have resources - you can craft new machines and explore mods more deeply. Some people set a goal to complete all of the quests or don't do them at all, some aim for creative items and as much",
-		"power as possible. Build giant factories, advanced ore processing lines, automate everything. At the end where to go and where to stop is only up to you, pick your poison ;)"
+		"§fThe ultimate goal is to §bprogress through all major stages§f — from §7Primitive tech§f to §dQuantum mastery§f —  ",
+		"while building complex §aautomation systems§f, massive §6factories§f, and advanced §9ore-processing lines§f.",
+		"",
+		"§fAlong the way, you'll explore powerful modded tools, push machinery to its limits, and eventually reach the point of §2full self-sustaining automation§f  ",
+		"— where resources generate, process, and craft themselves without your manual input.",
+		"",
+		"§7Whether you prefer industry, magic, or a blend of both, your mission is to create an interconnected world of efficiency, power, and scale."
 	],
 	tasks: [{
 		uid: "7e92d8fb",
@@ -20,6 +22,6 @@
 	rewards: [{
 		uid: "30e5f393",
 		type: "xp",
-		xp: 300
+		xp: 100
 	}]
 }

@@ -11,5 +11,20 @@
 			item: "industrialupgrade:synthetic_plate"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "d108cccd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "597fe608",
+		type: "xp",
+		xp: 100
 	}]
 }

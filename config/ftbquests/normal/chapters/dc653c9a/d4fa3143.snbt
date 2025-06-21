@@ -2,6 +2,9 @@
 	x: 9.0d,
 	y: -34.5d,
 	shape: "hexagon",
+	text: [
+		"§f§bDiamonds§f can be obtained later as you advance in §eIndustrial Upgrade§f."
+	],
 	dependencies: [
 		"94bc4c2a",
 		"20574cc8"
@@ -30,5 +33,20 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "72261947",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "964801ae",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -1,11 +1,20 @@
 {
-	x: -45.0d,
-	y: -12.0d,
+	x: -37.0d,
+	y: -13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7d32b24d"
+	],
 	tasks: [{
 		uid: "2efc6ea5",
 		type: "item",
 		items: [{
 			item: "mekaweapons:mekaarrow"
 		}]
+	}],
+	rewards: [{
+		uid: "bfb5d015",
+		type: "xp",
+		xp: 50
 	}]
 }

@@ -3,7 +3,8 @@
 	y: -11.0d,
 	shape: "diamond",
 	text: [
-		"§6Like a normal starlight infuser, but automated. There is LazyAE, and then there is what I'd call LazyAS, lol"
+		"§fLike a normal §9Starlight Infuser§f, but §aautomated§f.  ",
+		"There’s §dLazyAE§f... and now, what I’d call §dLazyAS§f, §7lol§r"
 	],
 	dependencies: [
 		"c2c2c9a3"
@@ -30,5 +31,10 @@
 			}
 		},
 		count: 24
+	},
+	{
+		uid: "d57c074f",
+		type: "xp",
+		xp: 50
 	}]
 }

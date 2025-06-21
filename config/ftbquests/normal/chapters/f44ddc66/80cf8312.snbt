@@ -11,5 +11,20 @@
 			item: "industrialupgrade:synthetic_rubber"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "8ecfe71f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1305f650",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -18,5 +18,20 @@
 		type: "item",
 		item: "minecraft:coal_block",
 		count: 32
+	},
+	{
+		uid: "0da9b3ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "6b82e5a8",
+		type: "xp",
+		xp: 75
 	}]
 }

@@ -1,6 +1,10 @@
 {
 	x: -4.0d,
 	y: -1.5d,
+	text: [
+		"§6§lAdvanced Enchantment Table§r  ",
+		"§fNo more randomness! This table lets you §achoose the enchantments§f you want directly."
+	],
 	tasks: [{
 		uid: "53ff4844",
 		type: "item",

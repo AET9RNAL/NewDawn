@@ -26,13 +26,18 @@
 		}]
 	}],
 	rewards: [{
-		uid: "1b1d4e9a",
+		uid: "8fdab032",
 		type: "item",
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
-				type: "uncommon_crate"
+				type: "steam_era_crate"
 			}
 		}
+	},
+	{
+		uid: "80da208e",
+		type: "xp",
+		xp: 50
 	}]
 }

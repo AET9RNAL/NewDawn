@@ -13,5 +13,10 @@
 			Damage: 66s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "ac2c8992",
+		type: "xp",
+		xp: 75
 	}]
 }

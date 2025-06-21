@@ -35,5 +35,10 @@
 		type: "item",
 		item: "minecraft:gold_block",
 		count: 32
+	},
+	{
+		uid: "3e6aa67a",
+		type: "xp",
+		xp: 100
 	}]
 }

@@ -1,6 +1,13 @@
 {
 	x: -1.0d,
 	y: -1.5d,
+	text: [
+		"§f§7• §eHold §lG§r§e to change the mode  ",
+		"§7• §eRight-Click (RMB)§f to set the first point  ",
+		"§7• §eShift + Right-Click§f to set the second point  ",
+		"",
+		"§fYou can paste the selected area wherever you want if you have the required resources."
+	],
 	tasks: [{
 		uid: "183dca29",
 		type: "item",

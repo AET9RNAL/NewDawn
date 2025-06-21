@@ -1,6 +1,10 @@
 {
 	x: 2.5d,
 	y: 2.0d,
+	text: [
+		"§f§6Upgrade Kits§f allow you to upgrade your machine to the next tier.  ",
+		"The higher the tier, the §afaster§f the machine operates."
+	],
 	dependencies: [
 		"5ac189a2"
 	],
@@ -22,5 +26,15 @@
 				type: "uncommon_crate"
 			}
 		}
+	},
+	{
+		uid: "fcc38156",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "fc45ebf0",
+		type: "xp",
+		xp: 50
 	}]
 }

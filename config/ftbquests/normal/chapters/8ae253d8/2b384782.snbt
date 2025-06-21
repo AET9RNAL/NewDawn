@@ -2,6 +2,12 @@
 	x: -57.0d,
 	y: -18.0d,
 	shape: "hexagon",
+	text: [
+		"§fAn advanced machine capable of mining specified ores within a §b32-block radius§f.",
+		"",
+		"§fUse filters to define which ores to mine.  ",
+		"§fCan be upgraded to work faster, but this also increases energy consumption."
+	],
 	dependencies: [
 		"a3bc4561"
 	],
@@ -35,5 +41,10 @@
 			}
 		},
 		count: 16
+	},
+	{
+		uid: "c2a40d81",
+		type: "xp",
+		xp: 50
 	}]
 }

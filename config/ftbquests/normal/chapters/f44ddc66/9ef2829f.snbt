@@ -19,5 +19,20 @@
 			id: "industrialupgrade:compressor",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "0bdbad7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "2f34a3e3",
+		type: "xp",
+		xp: 50
 	}]
 }

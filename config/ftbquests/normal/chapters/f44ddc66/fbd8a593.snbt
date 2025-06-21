@@ -2,6 +2,9 @@
 	x: 59.0d,
 	y: 0.5d,
 	shape: "square",
+	text: [
+		"§fNano Armor is a basic energy armor that provides a basic level of protection.  "
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"29fd6ef0"

@@ -22,5 +22,10 @@
 			Damage: 2s,
 			tag: {}
 		}
+	},
+	{
+		uid: "3083d6d3",
+		type: "xp",
+		xp: 50
 	}]
 }

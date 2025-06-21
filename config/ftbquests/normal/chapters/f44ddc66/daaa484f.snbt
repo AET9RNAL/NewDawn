@@ -18,5 +18,20 @@
 				level: 6
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "fa1d8330",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7079f963",
+		type: "xp",
+		xp: 75
 	}]
 }

@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherex:ghast_queen_tear"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/ghast"
+                }
+            ]
+        },
+        {
+            "name": "pool1",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/ghast"
+                }
+            ]
+        }
+    ]
+}

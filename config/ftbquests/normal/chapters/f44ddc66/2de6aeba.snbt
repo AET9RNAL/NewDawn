@@ -28,5 +28,20 @@
 		uid: "75db0ff7",
 		type: "item",
 		item: "industrialupgrade:itemcore 1 5"
+	},
+	{
+		uid: "8d4ed878",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f2587492",
+		type: "xp",
+		xp: 100
 	}]
 }

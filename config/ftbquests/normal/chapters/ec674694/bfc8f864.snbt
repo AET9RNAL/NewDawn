@@ -1,6 +1,6 @@
 {
-	x: -7.642857142857139d,
-	y: -17.760714285714283d,
+	x: -9.547619047619044d,
+	y: -15.5d,
 	shape: "hexagon",
 	dependencies: [
 		"37f4830e"
@@ -22,5 +22,10 @@
 				type: "legendary_crate"
 			}
 		}
+	},
+	{
+		uid: "460a69d5",
+		type: "xp",
+		xp: 50
 	}]
 }

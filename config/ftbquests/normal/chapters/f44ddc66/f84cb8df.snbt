@@ -20,5 +20,20 @@
 			item: "industrialupgrade:npipe_item"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "dc1beeb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a0cebbd4",
+		type: "xp",
+		xp: 100
 	}]
 }

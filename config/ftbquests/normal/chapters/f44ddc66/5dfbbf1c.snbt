@@ -12,5 +12,20 @@
 			id: "industrialupgrade:primal_fluid_heater",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "69158cd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "53e87670",
+		type: "xp",
+		xp: 50
 	}]
 }

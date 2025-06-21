@@ -37,5 +37,20 @@
 		uid: "bc14775e",
 		type: "item",
 		item: "mekanismecoenergistics:ecogenerator 1 5"
+	},
+	{
+		uid: "9c2c900d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1dd39461",
+		type: "xp",
+		xp: 100
 	}]
 }
