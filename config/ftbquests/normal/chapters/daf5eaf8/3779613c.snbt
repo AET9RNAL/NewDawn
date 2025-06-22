@@ -1,6 +1,9 @@
 {
 	x: 3.5d,
 	y: -3.0d,
+	text: [
+		"Transfers liquids, Mekanism gases and Botania mana"
+	],
 	tasks: [{
 		uid: "99247831",
 		type: "item",

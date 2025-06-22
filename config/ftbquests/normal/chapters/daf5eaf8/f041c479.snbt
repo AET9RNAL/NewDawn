@@ -2,7 +2,9 @@
 	x: -2.5d,
 	y: -1.5d,
 	text: [
-		"A pricey pedestal for you to put whatever you want on it"
+		"A pricey pedestal for you to put a watch or whatever you want on it.",
+		"",
+		"Allows to add random ticks to nearby tiles when used with the watch"
 	],
 	tasks: [{
 		uid: "cd1a8240",
