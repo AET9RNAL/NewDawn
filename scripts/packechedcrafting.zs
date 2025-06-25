@@ -35,7 +35,7 @@ recipes.remove(<packagedauto:encoder>);
 mods.extendedcrafting.TableCrafting.addShaped(0,<packagedauto:encoder>,[
     [null,null,null,null,null],
     [<minecraft:piston>,<thermalfoundation:storage_alloy:6>,<packagedauto:me_package_component>,<thermalfoundation:storage_alloy:6>,<minecraft:piston>],
-    [<thermalfoundation:storage_alloy:6>,<packagedauto:me_package_component>,<ae2stuff:encoder>,<packagedauto:me_package_component>,<thermalfoundation:storage_alloy:6>],
+    [<thermalfoundation:storage_alloy:6>,<packagedauto:me_package_component>,null,<packagedauto:me_package_component>,<thermalfoundation:storage_alloy:6>],
     [<thermalfoundation:storage_alloy:6>,<contenttweaker:ae2uel_processor_universal>,<appliedenergistics2:part:341>,<contenttweaker:ae2uel_processor_universal>,<thermalfoundation:storage_alloy:6>],
     [<minecraft:piston>,<thermalfoundation:storage_alloy:6>,<thermalfoundation:storage_alloy:6>,<thermalfoundation:storage_alloy:6>,<minecraft:piston>]
 ]);

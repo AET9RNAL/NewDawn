@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	text: [
+		"Trade XP for valuable skills!"
+	],
+	tasks: [{
+		uid: "02d2e210",
+		type: "item",
+		items: [{
+			item: "improvableskills:skills_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

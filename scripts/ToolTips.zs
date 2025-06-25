@@ -1,5 +1,6 @@
 #reloadable
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI.addDescription;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Add
@@ -276,10 +277,80 @@ for shovel in shovelArray {
 }
 
 
+//DivineRPG
+
+mods.jei.JEI.addDescription(<divinerpg:realmite_ore>,
+"§6§lOre Deposit: §r§eRealmite  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f1.0% per chunk  
+§a§lAltitude: §r§f45–25  
+§9§lDeposit Size: §r§f128–32 Blocks  
+§5§lIndicator: Mystical Orange Flower  "
+);
+
+mods.jei.JEI.addDescription(<divinerpg:rupee_ore>,
+"§6§lOre Deposit: §r§eRupee  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.5% per chunk  
+§a§lAltitude: §r§f45–25  
+§9§lDeposit Size: §r§f32–128 Blocks  
+§5§lIndicator: §r§dMystical Light-Blue Flower"
+
+);
+mods.jei.JEI.addDescription(<divinerpg:arlemite_ore>,
+"§6§lOre Deposit: §r§eArlemite  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.5% per chunk  
+§a§lAltitude: §r§f45–25  
+§9§lDeposit Size: §r§f32–128 Blocks  
+§5§lIndicator: §r§dMystical Lime Flower  "
+);
+
+
+#Mystical Agriculture
+
+mods.jei.JEI.addDescription(<mysticalagriculture:inferium_ore>,"
+§6§lOre Deposit: §r§eInferium  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.33% per chunk  
+§a§lAltitude: §r§f45–10  
+§9§lDeposit Size: §r§f160–320 Blocks  
+§5§lIndicator: §r§dDandelion with Mystical Green Flower  
+");
+
+mods.jei.JEI.addDescription(<mysticalagriculture:prosperity_ore>,"
+§6§lOre Deposit: §r§eProsperity  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.29% per chunk  
+§a§lAltitude: §r§f45–10  
+§9§lDeposit Size: §r§f160–320 Blocks  
+§5§lIndicator: §r§dPoppy with Mystical White Flower
+");
 
 
 
-
+mods.jei.JEI.addDescription(<appliedenergistics2:quartz_ore>,"
+§6§lOre Deposit: §r§eCertus Quartz Cluster  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.22% per chunk  
+§a§lAltitude: §r§f55–40  
+§9§lDeposit Size: §r§f192–640 Blocks  
+§5§lIndicator: §r§dMystical Magenta Flower with Mystical Black Flower with Oxeye Daisy 
+");
+mods.jei.JEI.addDescription(<appliedenergistics2:charged_quartz_ore>,"
+§6§lOre Deposit: §r§eCertus Quartz Cluster  
+§b§lBiome: §r§fAny  
+§d§lRarity: §r§f0.22% per chunk  
+§a§lAltitude: §r§f55–40  
+§9§lDeposit Size: §r§f192–640 Blocks  
+§5§lIndicator: §r§dMystical Magenta Flower with Mystical Black Flower with Oxeye Daisy 
+");
+// mods.jei.JEI.addDescription(item,"desc");
+// mods.jei.JEI.addDescription(item,"desc");
+// mods.jei.JEI.addDescription(item,"desc");
+// mods.jei.JEI.addDescription(item,"desc");
+// mods.jei.JEI.addDescription(item,"desc");
+// mods.jei.JEI.addDescription(item,"desc");
 
 
 

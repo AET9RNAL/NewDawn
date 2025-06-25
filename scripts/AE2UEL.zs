@@ -126,10 +126,7 @@ val itemsToRemove = [
   <appliedenergistics2:part:558>,
   <appliedenergistics2:part:555>,
 //  <appliedenergistics2:spatial_io_port>,
-  <ae2stuff:inscriberper>,
   <appliedenergistics2:energy_cell>,
-  <ae2stuff:inscriberadv>,
-  <ae2stuff:inscriberimp>,
   <appliedenergistics2:quantum_ring>,
   <crazyae:perfect_solar_panel>,
   <crazyae:advanced_solar_panel>,
@@ -260,9 +257,6 @@ recipes.addShaped(<appliedenergistics2:wireless_access_point>, [[<industrialupgr
 recipes.addShaped(<contenttweaker:server_core>, [[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>],[<appliedenergistics2:part:76>, <appliedenergistics2:controller>, <appliedenergistics2:part:76>], [<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:part:76>, <appliedenergistics2:quartz_vibrant_glass>]]);
 recipes.addShaped(<appliedenergistics2:interface>, [[null, null, null],[null, <appliedenergistics2:part:440>, null], [null, null, null]]);
 
-recipes.addShaped(<ae2stuff:inscriberper>, [[<ore:doubleplateDuralumin>, <crazyae:crafting_accelerator_16x>, <ore:doubleplateDuralumin>],[<mekanism:controlcircuit:3>, <ae2stuff:inscriberadv>, <ore:circuitUltimate>], [<ore:doubleplateDuralumin>, <contenttweaker:ae2uel_processor_universal>, <industrialupgrade:alloydoubleplate:8>]]);
-recipes.addShaped(<ae2stuff:inscriberadv>, [[<ore:plateElectrum>, <crazyae:crafting_accelerator_4x>, <ore:plateElectrum>],[<mekanism:controlcircuit:2>, <ae2stuff:inscriberimp>, <ore:circuitElite>], [<ore:plateElectrum>, <contenttweaker:ae2uel_processor_universal>, <industrialupgrade:itemplates:13>]]);
-recipes.addShaped(<ae2stuff:inscriberimp>, [[<ore:plateChromium>, <appliedenergistics2:crafting_accelerator>, <ore:plateChromium>],[<mekanism:controlcircuit:1>, <ae2stuff:inscriber>, <ore:circuitAdvanced>], [<ore:plateChromium>, <appliedenergistics2:material:24>, <industrialupgrade:itemplates:11>]]);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<ore:plateIron>, <appliedenergistics2:material:22>, <ore:plateIron>],[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:76>], [<ore:plateIron>, <appliedenergistics2:material:22>, <ore:plateIron>]]);
 recipes.addShaped(<crazyae:perfect_solar_panel>, [[<mekanismecoenergistics:moresolarcell:7>, <appliedenergistics2:material:9>, <mekanismecoenergistics:moresolarcell:7>],[<appliedenergistics2:material:9>, <crazyae:advanced_solar_panel>, <appliedenergistics2:material:9>], [<crazyae:advanced_solar_panel>, <appliedenergistics2:material:38>, <crazyae:advanced_solar_panel>]]);
 recipes.addShaped(<crazyae:advanced_solar_panel>, [[<mekanismecoenergistics:moresolarcell>, <appliedenergistics2:material:9>, <mekanismecoenergistics:moresolarcell>],[<appliedenergistics2:material:9>, <crazyae:improved_solar_panel>, <appliedenergistics2:material:9>], [<crazyae:improved_solar_panel>, <appliedenergistics2:material:36>, <crazyae:improved_solar_panel>]]);

@@ -1,0 +1,27 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"Starts crafting on altars and shows the location of rock crystals at night."
+	],
+	dependencies: [
+		"d77b4584"
+	],
+	tasks: [{
+		uid: "3c8f9e92",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7da98bae",
+		type: "xp",
+		xp: 50
+	}]
+}

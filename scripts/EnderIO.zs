@@ -6,7 +6,7 @@ import mods.enderio.AlloySmelter;
 //recipes.remove(XXX);
 //mods.enderio.AlloySmelter.removeRecipe(IItemStack);
 recipes.remove(<enderio:block_farm_station>);
-recipes.remove(<enderio:block_simple_stirling_generator>);
+//recipes.remove(<enderio:block_simple_stirling_generator>);
 recipes.remove(<enderio:block_simple_furnace>);
 recipes.remove(<enderio:block_sag_mill>);
 recipes.remove(<enderio:block_simple_sag_mill>);
@@ -54,7 +54,7 @@ recipes.addShaped(<enderio:block_simple_sag_mill>, [[<appliedenergistics2:materi
 
 recipes.addShaped(<enderio:block_stirling_generator>, [[<enderio:block_alloy:6>, <enderio:block_alloy:3>, <enderio:block_alloy:6>],[<industrialupgrade:crafting_elements:356>, <enderio:block_simple_stirling_generator>, <industrialupgrade:crafting_elements:356>], [<enderio:item_material:73>, <enderio:item_material:1>, <enderio:item_material:73>]]);
 
-recipes.addShaped(<enderio:block_simple_stirling_generator>, [[<ore:plateConductiveIron>, <extrautils2:machine>, <ore:plateConductiveIron>],[<moreplates:crude_steel_plate>, <enderio:item_material>, <moreplates:crude_steel_plate>], [<enderio:item_material:11>, <minecraft:piston>, <enderio:item_material:11>]]);
+recipes.addShaped(<enderio:block_simple_stirling_generator>, [[<minecraft:stonebrick>, <minecraft:furnace>, <minecraft:stonebrick>],[<minecraft:stonebrick>, <enderio:item_material:11>, <minecraft:stonebrick>], [<enderio:item_material:11>, <minecraft:piston>, <enderio:item_material:11>]]);
 
 recipes.addShaped(<enderio:block_alloy_smelter>, [[<simplyjetpacks:metaitemmods:6>, <thermalexpansion:machine>, <simplyjetpacks:metaitemmods:6>],[<thermalexpansion:machine:3>, <enderio:item_material:1>, <thermalexpansion:machine:3>], [<enderio:item_material:73>, <minecraft:cauldron>, <enderio:item_material:73>]]);
 

@@ -10,7 +10,8 @@
 		"§fThey are used with primitive machines, such as the §bAnvil§f and §bRolling Machine§f to produce §dPlates§f and §dCables§f."
 	],
 	dependencies: [
-		"a3155a90"
+		"a3155a90",
+		"75ca46c0"
 	],
 	tasks: [{
 		uid: "95502b02",

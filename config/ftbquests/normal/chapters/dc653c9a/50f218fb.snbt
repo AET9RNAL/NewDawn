@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -31.0d,
+	dependencies: [
+		"56a818e6",
+		"0e1fb26d"
+	],
+	tasks: [{
+		uid: "b768cbc4",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}],
+	rewards: [{
+		uid: "0fac012e",
+		type: "xp",
+		xp: 100
+	}]
+}

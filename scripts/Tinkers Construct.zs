@@ -1,5 +1,7 @@
 #reloadable
 import crafttweaker.item.IItemStack;
+import mods.tconstruct.Alloy;
+import mods.tconstruct.Melting;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
@@ -28,15 +30,51 @@ recipes.addShaped(<tconstruct:fancy_frame:4>, [[null, <tconstruct:ingots:2>, nul
 recipes.addShaped(<tconstruct:materials:13>, [[null, <minecraft:piston>, null],[<minecraft:dye:4>, <industrialforegoing:pink_slime>, <minecraft:dye:4>], [null, <minecraft:piston>, null]]);
 recipes.addShaped(<tconstruct:materials:12>, [[null, <minecraft:dye:4>, null],[<minecraft:piston>, <industrialforegoing:pink_slime>, <minecraft:piston>], [null, <minecraft:dye:4>, null]]);
 recipes.addShaped(<tconstruct:materials:14>, [[<ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>],[<ore:plateDenseObsidian>, <tconstruct:cast:*>, <ore:plateDenseObsidian>], [<ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>]]);
+recipes.addShaped(<tconstruct:cast_custom:3>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
 
 //mods.tconstruct.Melting.addRecipe(ILiquidStackoutput, IIngredientinput, inttemp);
 mods.tconstruct.Melting.addRecipe(<liquid:pyrotheum>*250, <thermalfoundation:material:1024>, 1000);
 
+Melting.addRecipe(<liquid:gallium>*144, <industrialupgrade:raw_metals:29>, 400);
+Melting.addRecipe(<liquid:hafnium>*144, <industrialupgrade:raw_metals:30>, 400);
+Melting.addRecipe(<liquid:yttrium>*144, <industrialupgrade:raw_metals:31>, 400);
+Melting.addRecipe(<liquid:titanium>*144, <industrialupgrade:raw_metals:8>, 400);
+Melting.addRecipe(<liquid:molybdenum>*144, <industrialupgrade:raw_metals:32>, 400);
+Melting.addRecipe(<liquid:neodymium>*144, <industrialupgrade:raw_metals:33>, 400);
+Melting.addRecipe(<liquid:platinum>*144, <industrialupgrade:raw_metals:7>, 400);
+Melting.addRecipe(<liquid:niobium>*144, <industrialupgrade:raw_metals:34>, 400);
+Melting.addRecipe(<liquid:gadolinium>*144, <industrialupgrade:raw_metals:28>, 400);
+Melting.addRecipe(<liquid:magnesium>*144, <industrialupgrade:raw_metals:5>, 400);
+Melting.addRecipe(<liquid:cobalt>*144, <industrialupgrade:raw_metals:4>, 400);
+Melting.addRecipe(<liquid:tungsten>*144, <industrialupgrade:raw_metals:3>, 400);
+Melting.addRecipe(<liquid:nickel>*144, <industrialupgrade:raw_metals:6>, 400);
+Melting.addRecipe(<liquid:vanadium>*144, <industrialupgrade:raw_metals:2>, 400);
+Melting.addRecipe(<liquid:mikhail>*144, <industrialupgrade:raw_metals>, 400);
+Melting.addRecipe(<liquid:gold>*144, <industrialupgrade:raw_metals:17>, 400);
+Melting.addRecipe(<liquid:copper>*144, <industrialupgrade:raw_metals:16>, 400);
+Melting.addRecipe(<liquid:germanium>*144, <industrialupgrade:raw_metals:15>, 400);
+Melting.addRecipe(<liquid:iridium>*144, <industrialupgrade:raw_metals:14>, 400);
+Melting.addRecipe(<liquid:polonium>*144, <industrialupgrade:raw_metals:36>, 400);
+Melting.addRecipe(<liquid:chromium>*144, <industrialupgrade:raw_metals:9>, 400);
+Melting.addRecipe(<liquid:spinel>*144, <industrialupgrade:raw_metals:10>, 400);
+Melting.addRecipe(<liquid:silver>*144, <industrialupgrade:raw_metals:11>, 400);
+Melting.addRecipe(<liquid:zinc>*144, <industrialupgrade:raw_metals:12>, 400);
+Melting.addRecipe(<liquid:manganese>*144, <industrialupgrade:raw_metals:13>, 400);
+Melting.addRecipe(<liquid:iron>*144, <industrialupgrade:raw_metals:18>, 400);
+Melting.addRecipe(<liquid:lead>*144, <industrialupgrade:raw_metals:19>, 400);
+Melting.addRecipe(<liquid:tin>*144, <industrialupgrade:raw_metals:20>, 400);
+Melting.addRecipe(<liquid:osmium>*144, <industrialupgrade:raw_metals:22>, 400);
+Melting.addRecipe(<liquid:tantalum>*144, <industrialupgrade:raw_metals:23>, 400);
+Melting.addRecipe(<liquid:cadmium>*144, <industrialupgrade:raw_metals:24>, 400);
+Melting.addRecipe(<liquid:arsenic>*144, <industrialupgrade:raw_metals:25>, 400);
+Melting.addRecipe(<liquid:barium>*144, <industrialupgrade:raw_metals:26>, 400);
+Melting.addRecipe(<liquid:bismuth>*144, <industrialupgrade:raw_metals:27>, 400);
+Melting.addRecipe(<liquid:strontium>*144, <industrialupgrade:raw_metals:37>, 400);
+
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStackoutput, ILiquidStack[]);
-mods.tconstruct.Alloy.addRecipe(<liquid:crude_steel>*288, [<liquid:stone>*14400,<liquid:clay>*5184]);
-mods.tconstruct.Alloy.addRecipe(<liquid:redstone_alloy>*144,[<liquid:quartz>*72,<liquid:redstone>*72]);
-
+Alloy.addRecipe(<liquid:crude_steel>*288, [<liquid:stone>*14400,<liquid:clay>*5184]);
+Alloy.addRecipe(<liquid:redstone_alloy>*144,[<liquid:quartz>*72,<liquid:redstone>*72]);
 
 
 
