@@ -18,5 +18,10 @@
 		type: "item",
 		item: "industrialupgrade:itemsunnariumpanel 1 10",
 		count: 16
+	},
+	{
+		uid: "706066fd",
+		type: "xp",
+		xp: 75
 	}]
 }

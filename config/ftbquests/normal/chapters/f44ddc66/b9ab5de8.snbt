@@ -23,5 +23,10 @@
 		type: "item",
 		item: "industrialupgrade:blockresource 1 4",
 		count: 24
+	},
+	{
+		uid: "2f2bd4d1",
+		type: "xp",
+		xp: 200
 	}]
 }

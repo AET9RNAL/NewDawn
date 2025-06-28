@@ -23,5 +23,10 @@
 		type: "item",
 		item: "minecraft:iron_block",
 		count: 24
+	},
+	{
+		uid: "d920d2a2",
+		type: "xp",
+		xp: 200
 	}]
 }

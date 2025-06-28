@@ -1,0 +1,16 @@
+{
+	x: 41.5d,
+	y: -21.0d,
+	dependencies: [
+		"302bcaa1"
+	],
+	tasks: [{
+		uid: "bfa65568",
+		type: "item",
+		items: [{
+			id: "iuadditions:divinepanel",
+			Damage: 2s,
+			tag: {}
+		}]
+	}]
+}

@@ -15,5 +15,10 @@
 			tag: {}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fcc179f",
+		type: "xp_levels",
+		xp_levels: 100
 	}]
 }

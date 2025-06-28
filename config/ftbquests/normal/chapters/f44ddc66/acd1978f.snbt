@@ -23,5 +23,10 @@
 		type: "item",
 		item: "industrialupgrade:baseblockingot1 1 1",
 		count: 24
+	},
+	{
+		uid: "6863f2e9",
+		type: "xp",
+		xp: 200
 	}]
 }

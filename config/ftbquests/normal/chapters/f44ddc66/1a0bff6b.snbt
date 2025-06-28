@@ -18,5 +18,10 @@
 		type: "item",
 		item: "industrialupgrade:neutroniumingot",
 		count: 64
+	},
+	{
+		uid: "506c700a",
+		type: "xp",
+		xp: 75
 	}]
 }

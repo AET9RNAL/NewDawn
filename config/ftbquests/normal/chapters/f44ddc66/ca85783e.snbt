@@ -15,5 +15,10 @@
 			Damage: 18s,
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "afc5c543",
+		type: "xp",
+		xp: 200
 	}]
 }

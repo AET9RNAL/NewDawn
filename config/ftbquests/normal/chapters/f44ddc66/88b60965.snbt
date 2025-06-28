@@ -1,0 +1,16 @@
+{
+	x: 46.0d,
+	y: -19.5d,
+	dependencies: [
+		"11d32edc"
+	],
+	tasks: [{
+		uid: "7222bbaa",
+		type: "item",
+		items: [{
+			id: "iuadditions:forestrypanel",
+			Damage: 5s,
+			tag: {}
+		}]
+	}]
+}

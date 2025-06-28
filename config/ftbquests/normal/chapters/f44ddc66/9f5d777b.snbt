@@ -23,5 +23,10 @@
 		type: "item",
 		item: "jaopca:block.photon",
 		count: 16
+	},
+	{
+		uid: "a61c6a14",
+		type: "xp",
+		xp: 200
 	}]
 }

@@ -18,5 +18,10 @@
 		type: "item",
 		item: "minecraft:gold_ingot",
 		count: 24
+	},
+	{
+		uid: "069c5133",
+		type: "xp",
+		xp: 75
 	}]
 }

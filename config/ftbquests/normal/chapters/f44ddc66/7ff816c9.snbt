@@ -18,5 +18,10 @@
 		type: "item",
 		item: "industrialupgrade:itemingots 1 14",
 		count: 64
+	},
+	{
+		uid: "878f3803",
+		type: "xp",
+		xp: 75
 	}]
 }

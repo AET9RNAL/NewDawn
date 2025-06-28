@@ -65,5 +65,10 @@
 			tag: {}
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "eedd34e1",
+		type: "xp",
+		xp: 200
 	}]
 }

@@ -12,5 +12,10 @@
 		items: [{
 			item: "industrialupgrade:crafting_elements 1 388"
 		}]
+	}],
+	rewards: [{
+		uid: "c16879de",
+		type: "xp",
+		xp: 75
 	}]
 }

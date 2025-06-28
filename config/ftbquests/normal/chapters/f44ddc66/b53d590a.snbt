@@ -29,5 +29,10 @@
 		type: "item",
 		item: "industrialupgrade:quantumitems3",
 		count: 16
+	},
+	{
+		uid: "05108340",
+		type: "xp",
+		xp: 200
 	}]
 }

@@ -23,5 +23,10 @@
 		type: "item",
 		item: "industrialupgrade:excitednucleus 1 5",
 		count: 4
+	},
+	{
+		uid: "670a9ccc",
+		type: "xp",
+		xp: 200
 	}]
 }

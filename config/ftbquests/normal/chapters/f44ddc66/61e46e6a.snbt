@@ -28,5 +28,10 @@
 				type: "mythic_crate"
 			}
 		}
+	},
+	{
+		uid: "bb188e7a",
+		type: "xp",
+		xp: 200
 	}]
 }

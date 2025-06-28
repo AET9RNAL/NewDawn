@@ -12,5 +12,10 @@
 		items: [{
 			item: "industrialupgrade:solar_panel_battery 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "59002e2d",
+		type: "xp",
+		xp: 75
 	}]
 }

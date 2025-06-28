@@ -188,7 +188,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("ND:shaped/internal/altar/celestial
 
 
 
-
+mods.astralsorcery.LightTransmutation.addTransmutation(<divinerpg:rupee_ore>, <astralsorcery:blockcustomore:1>, 300);
 
 
 

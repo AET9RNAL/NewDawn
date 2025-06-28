@@ -29,5 +29,10 @@
 		type: "item",
 		item: "jaopca:block.neutron",
 		count: 12
+	},
+	{
+		uid: "2fe7a87f",
+		type: "xp",
+		xp: 200
 	}]
 }

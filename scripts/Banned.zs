@@ -47,6 +47,7 @@ mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:gen
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}));
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}));
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
+mods.jei.JEI.removeAndHide(<industrialupgrade:fluid_cell>.withTag({Fluid: {FluidName: "liquid_sunshine", Amount: 1000}}));
 
 val itemsToRemove = [
 <extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}),

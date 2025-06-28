@@ -224,7 +224,7 @@ RuneAltar.addRecipe(<contenttweaker:flower_module_hydroangeas>,[<botania:special
 RuneAltar.addRecipe(<contenttweaker:flower_module_gemini>,[<botania:specialflower>.withTag({type: "geminiorchid"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 RuneAltar.addRecipe(<botania:manamachine_flower_sim>,[<mekanism:basicblock:8>,<botania:storage>,<botania:quartz:1>,<contenttweaker:mana_formation_core>,<botania:rune:8>,<mekanism:controlcircuit:2>], 5000);
 
-RuneAltar.addRecipe(<botania:rune>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:dye:15>,<ore:sugarcane>,<minecraft:fishing_rod>,<botania:rune>], 5200);
+RuneAltar.addRecipe(<botania:rune>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:dye:15>,<ore:sugarcane>,<minecraft:fishing_rod>], 5200);
 RuneAltar.addRecipe(<botania:rune:1>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:nether_wart>,<minecraft:gunpowder>,<ore:ingotBrickNether>], 5200);
 RuneAltar.addRecipe(<botania:rune:2>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:brown_mushroom>,<ore:blockCoal>,<ore:stone>], 5200);
 RuneAltar.addRecipe(<botania:rune:3>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:string>,<ore:feather>,<minecraft:carpet>], 5200);

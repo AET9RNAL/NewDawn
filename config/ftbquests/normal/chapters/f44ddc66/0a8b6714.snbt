@@ -1,0 +1,17 @@
+{
+	x: 38.5d,
+	y: -17.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a32c36be",
+		"65bf1fb0"
+	],
+	tasks: [{
+		uid: "ccb4586e",
+		type: "item",
+		items: [{
+			id: "iuadditions:astralpanel",
+			tag: {}
+		}]
+	}]
+}

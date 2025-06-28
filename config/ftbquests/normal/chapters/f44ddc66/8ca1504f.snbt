@@ -21,5 +21,10 @@
 			Damage: 93s,
 			tag: {}
 		}
+	},
+	{
+		uid: "609b264b",
+		type: "xp",
+		xp: 75
 	}]
 }
