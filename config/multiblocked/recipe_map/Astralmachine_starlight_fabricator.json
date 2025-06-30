@@ -6,14 +6,6 @@
     {
       "uid": "763bd578-6dbe-40d1-8311-ff0ea0a99e40",
       "duration": 20,
-      "outputs": {
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ]
-      },
       "tickInputs": {
         "starlight_as": [
           {

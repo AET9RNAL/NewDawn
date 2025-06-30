@@ -121,7 +121,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:4s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:4s}"
               ]
             }
           }
@@ -229,7 +229,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:gold_ore\",Count:1,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:17s}"
               ]
             }
           }
@@ -265,7 +265,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:ore\",Count:1,Damage:3s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:19s}"
               ]
             }
           }
@@ -284,7 +284,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:131s}"
+                "{id:\"industrialupgrade:itemingots\",Count:3,Damage:22s}"
               ]
             }
           }
@@ -301,7 +301,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:1s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -661,7 +661,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:ore\",Count:1,Damage:4s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:1s}"
               ]
             }
           }
@@ -680,7 +680,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:132s}"
+                "{id:\"industrialupgrade:itemingots\",Count:3,Damage:1s}"
               ]
             }
           }
@@ -697,7 +697,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:ore\",Count:1,Damage:6s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:7s}"
               ]
             }
           }
@@ -716,7 +716,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:134s}"
+                "{id:\"industrialupgrade:itemingots\",Count:3,Damage:9s}"
               ]
             }
           }
@@ -949,7 +949,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:1,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:18s}"
               ]
             }
           }
@@ -1021,7 +1021,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"thermalfoundation:ore\",Count:1,Damage:7s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:14s}"
               ]
             }
           }
@@ -1040,7 +1040,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:135s}"
+                "{id:\"industrialupgrade:itemingots\",Count:3,Damage:17s}"
               ]
             }
           }
@@ -1237,7 +1237,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:9s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:9s}"
               ]
             }
           }
@@ -1272,7 +1272,7 @@
             "chance": 1.0,
             "content": {
               "amount": 1,
-              "ore": "oreCopper"
+              "ore": "rawCopper"
             }
           }
         ],
@@ -1290,7 +1290,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:3,Damage:128s}"
+                "{id:\"industrialupgrade:itemingots\",Count:3,Damage:21s}"
               ]
             }
           }
@@ -1343,7 +1343,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:15s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:15s}"
               ]
             }
           }

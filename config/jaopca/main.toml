@@ -50,7 +50,7 @@
 	#List of recipes that should not be added.
 	blacklist = []
 	#List of recipes by regex that should not be added.
-	regexBlacklist = ["jaopca:avaritia.block_to_singularity.*"]
+	regexBlacklist = []
 
 #Configurations related to color generation.
 [colors]

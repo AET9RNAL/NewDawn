@@ -91,7 +91,7 @@ val itemsToRemove = [
   <mekanism:basicblock2>,
   <mekanism:basicblock:14>,
   <mekanism:electricbow>,
-  <mekanism:mektool>,
+  <mekanism:meka_tool>,
   <mekanism:atomicdisassembler>,
   <mekanism:gasupgrade>,
   <mekanism:mufflingupgrade>,
@@ -288,7 +288,7 @@ recipes.addShaped(<mekanism:basicblock:15>, [[<mekanism:basicblock2>, <ore:circu
 recipes.addShaped(<mekanism:basicblock2> * 4, [[<industrialupgrade:crafting_elements:277>, <ore:plateSteel>, <industrialupgrade:crafting_elements:277>],[<ore:plateSteel>, <industrialupgrade:item_simple_exchanger>, <ore:plateSteel>], [<industrialupgrade:crafting_elements:277>, <ore:plateSteel>, <industrialupgrade:crafting_elements:277>]]);
 recipes.addShaped(<mekanism:basicblock:14>, [[<ore:circuitAdvanced>, <industrialupgrade:heat_sensor>, <ore:circuitAdvanced>],[<mekanism:basicblock2>, <appliedenergistics2:controller>, <mekanism:basicblock2>], [<mekanism:basicblock2>, <industrialupgrade:crafting_elements:15>, <mekanism:basicblock2>]]);
 recipes.addShaped(<mekanism:electricbow>, [[null, <mekanism:enrichedalloy>, <botania:manaresource:16>],[<mekanism:energytablet>.anyDamage(), <ore:gearTitanium>, <botania:manaresource:16>], [null, <mekanism:enrichedalloy>, <botania:manaresource:16>]]);
-recipes.addShaped(<mekanism:mektool>, [[<industrialupgrade:diamond_drill>.anyDamage(), <industrialupgrade:gear:3>, <industrialupgrade:chainsaw>.anyDamage()],[<mekanismecoenergistics:energytablethybrid>.anyDamage(), <mekanismecoenergistics:morecontrolcircuit:2>, <mekanismecoenergistics:energytablethybrid>.anyDamage()], [<mekanism:compressedobsidian>, <contenttweaker:rod_nano>, <mekanism:compressedobsidian>]]);
+recipes.addShaped(<mekanism:meka_tool>, [[<industrialupgrade:diamond_drill>.anyDamage(), <industrialupgrade:gear:3>, <industrialupgrade:chainsaw>.anyDamage()],[<mekanismecoenergistics:energytablethybrid>.anyDamage(), <mekanismecoenergistics:morecontrolcircuit:2>, <mekanismecoenergistics:energytablethybrid>.anyDamage()], [<mekanism:compressedobsidian>, <contenttweaker:rod_nano>, <mekanism:compressedobsidian>]]);
 recipes.addShaped(<mekanism:atomicdisassembler>, [[<mekanism:compressedobsidian>, <simplyjetpacks:metaitemmods:30>, <mekanismecoenergistics:energytabletadvanced>.anyDamage()],[<mekanism:compressedobsidian>, <mekanismecoenergistics:morecontrolcircuit:3>, <simplyjetpacks:metaitemmods:30>], [<contenttweaker:rod_nano>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]]);
 recipes.addShaped(<mekanism:gasupgrade>, [[<mekanismecoenergistics:morecompressed:2>, <industrialupgrade:crafting_elements:42>, <mekanismecoenergistics:morecompressed:2>],[<mekanism:reinforcedalloy>, <industrialupgrade:plastic_plate>, <mekanism:reinforcedalloy>], [null, <industrialupgrade:gas_sensor>, null]]);
 recipes.addShaped(<mekanism:mufflingupgrade>, [[<mekanismecoenergistics:morecompressed:2>, <industrialupgrade:crafting_elements:42>, <mekanismecoenergistics:morecompressed:2>],[<mekanism:reinforcedalloy>, <industrialupgrade:plastic_plate>, <mekanism:reinforcedalloy>], [null, <extrautils2:soundmuffler>, null]]);

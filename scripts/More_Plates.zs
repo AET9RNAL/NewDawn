@@ -234,5 +234,5 @@ recipes.remove(<moreplates:hammer>);
 //Don't touch me!
 //#Add
 //File End
-recipes.addShaped(<moreplates:hammer>, [[<ore:plateSteel>, <ore:plateIron>, <ore:plateSteel>],[null, <forestry:oak_stick>, null], [null, <forestry:oak_stick>, null]]);
+recipes.addShaped(<moreplates:hammer>, [[<ore:plateTitanium>, <ore:plateIron>, <ore:plateTitanium>],[null, <forestry:oak_stick>, null], [null, <forestry:oak_stick>, null]]);
 

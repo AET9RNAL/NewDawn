@@ -101,9 +101,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"divinerpg:eden_log\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:eden_log\",Count:6,Damage:0s}"
               ]
             }
           },
@@ -122,6 +122,15 @@
               "amount": 12,
               "matches": [
                 "{id:\"divinerpg:eden_soul\",Count:12,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_eden\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -181,9 +190,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 8,
               "matches": [
-                "{id:\"divinerpg:skythern_fragments\",Count:4,Damage:0s}"
+                "{id:\"divinerpg:skythern_fragments\",Count:8,Damage:0s}"
               ]
             }
           },
@@ -208,9 +217,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"divinerpg:skythern_log\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:skythern_log\",Count:6,Damage:0s}"
               ]
             }
           },
@@ -238,6 +247,15 @@
               "amount": 6,
               "matches": [
                 "{id:\"divinerpg:skythern_soul\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_skythern\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -288,18 +306,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 8,
               "matches": [
-                "{id:\"divinerpg:wildwood_fragments\",Count:4,Damage:0s}"
+                "{id:\"divinerpg:wildwood_fragments\",Count:8,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"divinerpg:wildwood_log\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:wildwood_log\",Count:6,Damage:0s}"
               ]
             }
           },
@@ -336,6 +354,15 @@
               "amount": 9,
               "matches": [
                 "{id:\"divinerpg:wildwood_soul\",Count:9,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_wildwood\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -467,18 +494,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"divinerpg:mortum_log\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:mortum_log\",Count:6,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 12,
               "matches": [
-                "{id:\"divinerpg:mortum_fragments\",Count:4,Damage:0s}"
+                "{id:\"divinerpg:mortum_fragments\",Count:12,Damage:0s}"
               ]
             }
           },
@@ -488,6 +515,15 @@
               "amount": 6,
               "matches": [
                 "{id:\"divinerpg:mortum_soul\",Count:6,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_mortum\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -547,9 +583,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 8,
               "matches": [
-                "{id:\"divinerpg:apalachia_fragments\",Count:4,Damage:0s}"
+                "{id:\"divinerpg:apalachia_fragments\",Count:8,Damage:0s}"
               ]
             }
           },
@@ -565,9 +601,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"divinerpg:apalachia_log\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:apalachia_log\",Count:6,Damage:0s}"
               ]
             }
           },
@@ -595,6 +631,15 @@
               "amount": 9,
               "matches": [
                 "{id:\"divinerpg:apalachia_soul\",Count:9,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_apalachia\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -699,9 +744,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"divinerpg:veilo\",Count:1,Damage:0s}"
+                "{id:\"divinerpg:veilo\",Count:2,Damage:0s}"
               ]
             }
           },
@@ -726,9 +771,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 4,
               "matches": [
-                "{id:\"divinerpg:moonbulb\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:moonbulb\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"iuadditions:capacitor_arcana\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -1222,20 +1276,20 @@
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.8,
             "content": {
-              "amount": 1,
+              "amount": 2,
               "matches": [
-                "{id:\"minecraft:nether_star\",Count:1,Damage:0s}"
+                "{id:\"minecraft:nether_star\",Count:2,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 25,
+              "amount": 50,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:25,Damage:0s}"
+                "{id:\"minecraft:experience_bottle\",Count:50,Damage:0s}"
               ]
             }
           }
@@ -1284,16 +1338,16 @@
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.9,
             "content": {
-              "amount": 6,
+              "amount": 12,
               "matches": [
-                "{id:\"minecraft:quartz_ore\",Count:6,Damage:0s}"
+                "{id:\"minecraft:quartz_ore\",Count:12,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.95,
             "content": {
               "amount": 8,
               "matches": [
@@ -1302,29 +1356,29 @@
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.9,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:glowstone\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.6,
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"minecraft:glowstone\",Count:4,Damage:0s}"
+                "{id:\"betternether:cincinnasite_block\",Count:4,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.95,
             "content": {
-              "amount": 1,
+              "amount": 4,
               "matches": [
-                "{id:\"betternether:cincinnasite_block\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:bloodgem\",Count:2,Damage:0s}"
+                "{id:\"divinerpg:bloodgem\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -1370,6 +1424,69 @@
               "amount": 1,
               "matches": [
                 "{id:\"divinerpg:hellstone_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"thermalfoundation:ore_fluid\",Count:10,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"betternether:nether_reed\",Count:5,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:6,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.75,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:12,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"futuremc:netherite_scrap\",Count:5,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"netherex:amethyst_crystal\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.6,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"netherex:rime_crystal\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -1429,18 +1546,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 40,
+              "amount": 80,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:40,Damage:0s}"
+                "{id:\"minecraft:experience_bottle\",Count:80,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 1.0,
+            "chance": 0.9,
             "content": {
-              "amount": 10,
+              "amount": 40,
               "matches": [
-                "{id:\"draconicevolution:draconium_dust\",Count:10,Damage:0s}"
+                "{id:\"draconicevolution:draconium_dust\",Count:40,Damage:0s}"
               ]
             }
           },
@@ -1456,36 +1573,36 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 8,
               "matches": [
-                "{id:\"minecraft:ender_pearl\",Count:4,Damage:0s}"
+                "{id:\"minecraft:ender_pearl\",Count:8,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 8,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:2,Damage:103s}"
+                "{id:\"thermalfoundation:material\",Count:8,Damage:103s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 12,
+              "amount": 24,
               "matches": [
-                "{id:\"minecraft:end_stone\",Count:12,Damage:0s}"
+                "{id:\"minecraft:end_stone\",Count:24,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 6,
               "matches": [
-                "{id:\"endreborn:item_raw_endorium\",Count:2,Damage:0s}"
+                "{id:\"endreborn:item_raw_endorium\",Count:6,Damage:0s}"
               ]
             }
           },
@@ -1513,6 +1630,15 @@
               "amount": 1,
               "matches": [
                 "{id:\"endreborn:item_end_shard\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"draconicevolution:nugget\",Count:32,Damage:0s}"
               ]
             }
           }
@@ -1563,9 +1689,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 12,
+              "amount": 256,
               "matches": [
-                "{id:\"minecraft:experience_bottle\",Count:12,Damage:0s}"
+                "{id:\"minecraft:experience_bottle\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -1581,18 +1707,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 64,
+              "amount": 128,
               "matches": [
-                "{id:\"draconicevolution:draconium_dust\",Count:64,Damage:0s}"
+                "{id:\"draconicevolution:draconium_dust\",Count:128,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 9,
+              "amount": 32,
               "matches": [
-                "{id:\"draconicevolution:infused_obsidian\",Count:9,Damage:0s}"
+                "{id:\"draconicevolution:infused_obsidian\",Count:32,Damage:0s}"
               ]
             }
           },
@@ -1608,9 +1734,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 12,
               "matches": [
-                "{id:\"draconicevolution:draconium_block\",Count:2,Damage:1s}"
+                "{id:\"draconicevolution:draconium_block\",Count:12,Damage:1s}"
               ]
             }
           }

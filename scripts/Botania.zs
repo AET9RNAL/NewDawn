@@ -213,15 +213,15 @@ RuneAltar.addRecipe(<botania:manamachine_agglomeration_plate>,[<botania:terrapla
 RuneAltar.addRecipe(<botania:manamachine_gaia_agglomeration_plate>,[<botanicadds:gaia_plate>,<extrabotany:manabarrel>,<botania:rune:11>,<botania:rune:8>,<botaniverse:morerune:3>,<extrabotany:blockshadowium>,<extrabotany:material:3>], 1000000);
 RuneAltar.addRecipe(<botania:manamachine_manapool>,[<botania:pool>,<extrabotany:manabarrel>,<botania:rune:8>,<extrabotany:blockshadowium>], 250000);
 RuneAltar.addRecipe(<botania:manamachine_alfheim_portal>,[<botania:alfheimportal>,<extrabotany:manabarrel>,<botania:rune:11>,<botania:rune:8>,<botaniverse:morerune:3>,<extrabotany:blockshadowium>,<industrialupgrade:terrasteel_core>], 1000000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_endoflame>,[<botania:specialflower>.withTag({type: "endoflame"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_gourmaryllis>,[<botania:specialflower>.withTag({type: "gourmaryllis"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_thermalily>,[<botania:specialflower>.withTag({type: "thermalily"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_kekimorus>,[<botania:specialflower>.withTag({type: "kekimurus"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_reikar>,[<botania:specialflower>.withTag({type: "reikarlily"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_entropinnyum>,[<botania:specialflower>.withTag({type: "entropinnyum"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_arcana>,[<botania:specialflower>.withTag({type: "arcanerose"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_hydroangeas>,[<botania:specialflower>.withTag({type: "hydroangeas"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
-RuneAltar.addRecipe(<contenttweaker:flower_module_gemini>,[<botania:specialflower>.withTag({type: "geminiorchid"}),<mekanism:polyethene:2>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_endoflame>,[<botania:specialflower>.withTag({type: "endoflame"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_gourmaryllis>,[<botania:specialflower>.withTag({type: "gourmaryllis"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_thermalily>,[<botania:specialflower>.withTag({type: "thermalily"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_kekimorus>,[<botania:specialflower>.withTag({type: "kekimurus"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_reikar>,[<botania:specialflower>.withTag({type: "reikarlily"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_entropinnyum>,[<botania:specialflower>.withTag({type: "entropinnyum"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_arcana>,[<botania:specialflower>.withTag({type: "arcanerose"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_hydroangeas>,[<botania:specialflower>.withTag({type: "hydroangeas"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
+RuneAltar.addRecipe(<contenttweaker:flower_module_gemini>,[<botania:specialflower>.withTag({type: "geminiorchid"}),<mekanism:hdpe_sheet>,<moreplates:manasteel_plate>,<mekanismecoenergistics:morecompressed:3>,<botania:manaresource:22>,<botaniverse:morerune:2>], 10000);
 RuneAltar.addRecipe(<botania:manamachine_flower_sim>,[<mekanism:basicblock:8>,<botania:storage>,<botania:quartz:1>,<contenttweaker:mana_formation_core>,<botania:rune:8>,<mekanism:controlcircuit:2>], 5000);
 
 RuneAltar.addRecipe(<botania:rune>,[<midnight:dewshroom_powder>,<botania:manaresource:23>,<botania:manaresource>,<minecraft:dye:15>,<ore:sugarcane>,<minecraft:fishing_rod>], 5200);
@@ -286,65 +286,65 @@ Agglomeration.addRecipe(<draconicevolution:wyvern_boots>, [<draconicevolution:wy
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_hell>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<divinerpg:molten_stone>,<divinerpg:hellstone_ingot>,
 <divinerpg:netherite_chunk>,<divinerpg:fury_fire>,<divinerpg:bluefire_stone>,<taiga:tiberium_crystal>] as IIngredient[], 
-1000000, 0xf78413, 0xce000c, <taiga:valyrium_block>, <betternether:cincinnasite_brick_plate>, <divinerpg:netherite_block>, null, null, null);
+12000000, 0xf78413, 0xce000c, <taiga:valyrium_block>, <betternether:cincinnasite_brick_plate>, <divinerpg:netherite_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_eden>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_eden>,<divinerpg:eden_heart>,
 <divinerpg:eden_soul>,<divinerpg:eden_dust>,<divinerpg:eden_sparkles>,<divinerpg:eden_ore>] as IIngredient[], 
-2000000, 0xf2fc25, 0xd14500, <divinerpg:eden_block>, <divinerpg:divine_lamp>, <divinerpg:eden_block>, null, null, null);
+15000000, 0xf2fc25, 0xd14500, <divinerpg:eden_block>, <divinerpg:divine_lamp>, <divinerpg:eden_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_wildwood>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_wildwood>,<divinerpg:wildwood_heart>,
 <divinerpg:wildwood_soul>,<divinerpg:wildwood_dust>,<divinerpg:wildwood_planks>,<divinerpg:wildwood_ore>] as IIngredient[], 
-3000000, 0x71b6ff, 0x444bff, <divinerpg:wildwood_block>, <divinerpg:rupee_block>, <divinerpg:wildwood_block>, null, null, null);
+20000000, 0x71b6ff, 0x444bff, <divinerpg:wildwood_block>, <divinerpg:rupee_block>, <divinerpg:wildwood_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_apalachia>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_apalachia>,<divinerpg:apalachia_heart>,
 <divinerpg:apalachia_soul>,<divinerpg:apalachia_dust>,<divinerpg:apalachia_planks>,<divinerpg:apalachia_ore>] as IIngredient[], 
-4000000, 0x9100b5, 0x7f0067, <divinerpg:apalachia_block>, <divinerpg:ender_stone_lamp>, <divinerpg:apalachia_block>, null, null, null);
+30000000, 0x9100b5, 0x7f0067, <divinerpg:apalachia_block>, <divinerpg:ender_stone_lamp>, <divinerpg:apalachia_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_skythern>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_skythern>,<divinerpg:skythern_heart>,
 <divinerpg:skythern_soul>,<divinerpg:skythern_dust>,<divinerpg:skythern_planks>,<divinerpg:skythern_ore>] as IIngredient[], 
-5000000, 0xc2c2c2, 0xc2c2c2, <divinerpg:skythern_block>, <divinerpg:milky_lamp>, <divinerpg:skythern_block>, null, null, null);
+35000000, 0xc2c2c2, 0xc2c2c2, <divinerpg:skythern_block>, <divinerpg:milky_lamp>, <divinerpg:skythern_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_mortum>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_mortum>,<divinerpg:mortum_heart>,
 <divinerpg:mortum_soul>,<divinerpg:mortum_dust>,<divinerpg:mortum_planks>,<divinerpg:mortum_ore>] as IIngredient[], 
-6000000, 0x2c2f2f, 0x642c2b, <divinerpg:mortum_block>, <divinerpg:black_steel>, <divinerpg:mortum_block>, null, null, null);
+50000000, 0x2c2f2f, 0x642c2b, <divinerpg:mortum_block>, <divinerpg:black_steel>, <divinerpg:mortum_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_vethea>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_vethea>,<divinerpg:karos_lump>,
 <divinerpg:rock_chunks>,<divinerpg:shiny_pearls>,<divinerpg:luna_stone>,<divinerpg:firelight>] as IIngredient[], 
-7000000, 0x00399d, 0x041532, <divinerpg:dream_lamp>, <divinerpg:dark_dream_bricks>, <divinerpg:fire_crystal>, null, null, null);
+60000000, 0x00399d, 0x041532, <divinerpg:dream_lamp>, <divinerpg:dark_dream_bricks>, <divinerpg:fire_crystal>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_arcana>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_arcana>,<divinerpg:arcanite_tubes>,
 <divinerpg:arcanium_torch>,<divinerpg:ancient_key>,<divinerpg:hitchak>,<divinerpg:raw_arcanium>] as IIngredient[], 
-2000000, 0x78bbca, 0xa83c3b, <divinerpg:dungeon_lamp_breakable>, <divinerpg:arcanium_block>, <divinerpg:arcanium_power_breakable>, null, null, null);
+55000000, 0x78bbca, 0xa83c3b, <divinerpg:dungeon_lamp_breakable>, <divinerpg:arcanium_block>, <divinerpg:arcanium_power_breakable>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_gaia>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<botaniverse:morerune:3>,<botanicadds:terra_protector>,
 <extrabotany:cocoondesire>,<extrabotany:spiritfuel>,<extrabotany:material:9>,<botanicadds:elvenwood_log>,<contenttweaker:matter_gaia_guardian>,<extrabotany:silenteternity>] as IIngredient[], 
-8000000, 0xeb8bc8, 0xc5005c, <botanicadds:gaiasteel_block>, <avaritiatweaks:gaia_block>, <botania:pistonrelay>, null, null, null);
+250000000, 0xeb8bc8, 0xc5005c, <botanicadds:gaiasteel_block>, <avaritiatweaks:gaia_block>, <botania:pistonrelay>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_wither>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:circuit_stellar>,<botania:blacklotus:1>,
 <botania:specialflower>.withTag({type: "ba_wither_flower"}),<avaritia:singularity:8>,<contenttweaker:matter_chaotic>,<astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}),
 <avaritia:singularity:7>,<avaritia:cosmic_meatballs>] as IIngredient[], 
-3000000, 0xdedede, 0x606060, <mysticalagriculture:witherproof_block>, <mysticaladaptations:netherstar_block>, <mysticalagriculture:witherproof_block>, null, null, null);
+25000000, 0xdedede, 0x606060, <mysticalagriculture:witherproof_block>, <mysticaladaptations:netherstar_block>, <mysticalagriculture:witherproof_block>, null, null, null);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_dragon>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<iuadditions:core_crossdimensional>,
 <contenttweaker:draconium_circuit>,<jaopca:avaritia_singularity.draconium>,<minecraft:dragon_breath>,<minecraft:skull:5>,<moreplates:neutronium_gear>,<draconicevolution:ender_energy_manipulator>,
 <endreborn:item_end_rune>,<endreborn:ingot_infused>] as IIngredient[], 
-5000000, 0x353535, 0xb90fdf, <taiga:uru_ore>, <draconicevolution:draconium_block:1>, <endreborn:block_essence_ore>, null, <draconicevolution:draconium_block>, <minecraft:obsidian>);
+100000000, 0x353535, 0xb90fdf, <taiga:uru_ore>, <draconicevolution:draconium_block:1>, <endreborn:block_essence_ore>, null, <draconicevolution:draconium_block>, <minecraft:obsidian>);
 
 
 Agglomeration.addRecipe(<contenttweaker:spawner_module_chaos>, [<industrialupgrade:entitymodules:1>,<botania:spawnermover>,<contenttweaker:spawner_module_dragon>,<jaopca:avaritia_singularity.draconium_awakened>,
 <contenttweaker:iridium_advanced_chaotic>,<jaopca:avaritia_singularity.demonic_metal>,<draconicadditions:chaotic_energy_core>,<contenttweaker:matter_awakened_draconium>,<draconicevolution:awakened_core>,
 <jaopca:avaritia_singularity.cosmic_neutronium>,<jaopca:avaritia_singularity.caravky>] as IIngredient[], 
-30000000, 0xf4ffe3, 0xd42d00, <mysticalagradditions:special:4>, <draconicevolution:draconic_block>, <draconicevolution:infused_obsidian>, null, <draconicevolution:draconium_block:1>, <endreborn:block_essence_ore>);
+500000000, 0xf4ffe3, 0xd42d00, <mysticalagradditions:special:4>, <draconicevolution:draconic_block>, <draconicevolution:infused_obsidian>, null, <draconicevolution:draconium_block:1>, <endreborn:block_essence_ore>);
 
 
 Agglomeration.addRecipe(<contenttweaker:module_luck_x2>, [<contenttweaker:module_luck_x1>,<contenttweaker:module_luck_x1>,<betternether:cincinnasite_forged>,<midnight:bogshroom_powder>,<avaritia:resource>,<biomesoplenty:terrestrial_artifact>,

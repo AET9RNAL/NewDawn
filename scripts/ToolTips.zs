@@ -345,9 +345,30 @@ mods.jei.JEI.addDescription(<appliedenergistics2:charged_quartz_ore>,"
 §9§lDeposit Size: §r§f192–640 Blocks  
 §5§lIndicator: §r§dMystical Magenta Flower with Mystical Black Flower with Oxeye Daisy 
 ");
-// mods.jei.JEI.addDescription(item,"desc");
-// mods.jei.JEI.addDescription(item,"desc");
-// mods.jei.JEI.addDescription(item,"desc");
+mods.jei.JEI.addDescription(<thermalfoundation:ore_fluid:2>,"
+ §8– §6Ore Deposit: §fRedstone  
+§8– §bBiome: §fAny  
+§8– §dRarity: §f0.5% per chunk  
+§8– §aAltitude: §f45–35  
+§8– §9Deposit Size: §f64–196 Blocks  
+§8– §5§lIndicator: §r§dPoppy with Mystical Red Flower
+");
+mods.jei.JEI.addDescription(<draconicevolution:draconium_ore>,"
+§8– §6Ore Deposit: §fDraconium  
+§8– §bBiome: §fAny  
+§8– §dRarity: §f0.25% per chunk  
+§8– §aAltitude: §f35–25  
+§8– §9Deposit Size: §f250–500 Blocks  
+§8– §5§lIndicator: §r§dMystical Red Flower with Mystical Purple Flower with Wildflower
+");
+mods.jei.JEI.addDescription(<mekanism:oreblock:3>,"
+§8– §6Ore Deposit: §fFluorite  
+§8– §bBiome: §fAny  
+§8– §dRarity: §f0.29% per chunk  
+§8– §aAltitude: §f45–35  
+§8– §9Deposit Size: §f250–500 Blocks  
+§8– §5§lIndicator: §r§dMystical White Flower with Mystical Cyan Flower with Mystical Pink Flower
+");
 // mods.jei.JEI.addDescription(item,"desc");
 // mods.jei.JEI.addDescription(item,"desc");
 // mods.jei.JEI.addDescription(item,"desc");

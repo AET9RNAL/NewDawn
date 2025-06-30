@@ -5,13 +5,13 @@
   "recipes": [
     {
       "uid": "c2ffdec3-a161-4110-9410-f9be55e460b9",
-      "duration": 1,
-      "inputs": {
+      "duration": 20,
+      "tickInputs": {
         "starlight_as": [
           {
             "chance": 1.0,
             "content": {
-              "starlight": 50000,
+              "starlight": 2500,
               "constellation": "astralsorcery.constellation.horologium"
             }
           }
@@ -19,15 +19,15 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 10000000
+            "content": 50000
           }
         ]
       },
-      "outputs": {
+      "tickOutputs": {
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:50}"
           }
         ]
       }

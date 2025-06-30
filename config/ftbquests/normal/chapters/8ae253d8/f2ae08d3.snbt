@@ -6,10 +6,10 @@
 		"17742804"
 	],
 	tasks: [{
-		uid: "289806c7",
+		uid: "0e38666a",
 		type: "item",
 		items: [{
-			item: "mekanism:mekasuitboots"
+			item: "mekanism:mekasuit_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

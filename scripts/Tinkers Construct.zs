@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Melting;
+import mods.tconstruct.Casting;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
@@ -72,15 +73,62 @@ Melting.addRecipe(<liquid:bismuth>*144, <industrialupgrade:raw_metals:27>, 54);
 Melting.addRecipe(<liquid:strontium>*144, <industrialupgrade:raw_metals:37>, 90);
 Melting.addRecipe(<liquid:thallium>*144, <industrialupgrade:raw_metals:38>, 64);
 Melting.addRecipe(<liquid:palladium>*144, <industrialupgrade:raw_metals:35>, 192);
-
+Melting.addRecipe(<liquid:aluminium>*144, <industrialupgrade:raw_metals:1>, 100);
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStackoutput, ILiquidStack[]);
 Alloy.addRecipe(<liquid:crude_steel>*288, [<liquid:stone>*14400,<liquid:clay>*5184]);
 Alloy.addRecipe(<liquid:redstone_alloy>*144,[<liquid:quartz>*72,<liquid:redstone>*72]);
 
 
+//Casting.addTableRecipe(lltemStack, llngredient, ILiquidStack, int, optional.boolean, optional.int);
+Casting.addTableRecipe(<tconstruct:sharpening_kit>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sharpening_kit"}), <liquid:draconium>, 288,false,300);
+Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:draconium>, 288, false, 300);
+Casting.addTableRecipe(<tconstruct:shovel_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:shovel_head"}), <liquid:draconium>, 288, false, 300);
+Casting.addTableRecipe(<tconstruct:axe_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:axe_head"}), <liquid:draconium>, 288, false, 300);
+Casting.addTableRecipe(<tconstruct:broad_axe_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:broad_axe_head"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:sword_blade>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sword_blade"}), <liquid:draconium>, 288, false, 300);
+Casting.addTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_sword_blade"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:hammer_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hammer_head"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:excavator_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:excavator_head"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:kama_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:kama_head"}), <liquid:draconium>, 288, false, 300);
+Casting.addTableRecipe(<tconstruct:scythe_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:scythe_head"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:pan_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:draconium>, 432, false, 300);
+Casting.addTableRecipe(<tconstruct:sign_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:sign_head"}), <liquid:draconium>, 432, false, 300);
+Casting.addTableRecipe(<tconstruct:tool_rod>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:tough_tool_rod>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_tool_rod"}), <liquid:draconium>, 432, false, 300);
+Casting.addTableRecipe(<tconstruct:binding>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:binding"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:tough_binding>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:tough_binding"}), <liquid:draconium>, 432, false, 300);
+Casting.addTableRecipe(<tconstruct:wide_guard>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:wide_guard"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:hand_guard>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:hand_guard"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:cross_guard>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:cross_guard"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:large_plate>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:large_plate"}), <liquid:draconium>, 1152, false, 300);
+Casting.addTableRecipe(<tconstruct:knife_blade>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:knife_blade"}), <liquid:draconium>, 144, false, 300);
+Casting.addTableRecipe(<tconstruct:bow_limb>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:bow_limb"}), <liquid:draconium>, 432, false, 300);
+Casting.addTableRecipe(<tconstruct:arrow_head>.withTag({Material: "wyverndraconium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:arrow_head"}), <liquid:draconium>, 288, false, 300);
 
-
-
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:sharpening_kit>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:pick_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:shovel_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:axe_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:broad_axe_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:sword_blade>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:large_sword_blade>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:hammer_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:excavator_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:kama_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:scythe_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*432, <tconstruct:pan_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*432, <tconstruct:sign_head>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:tool_rod>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*432, <tconstruct:tough_tool_rod>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:binding>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*432, <tconstruct:tough_binding>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:wide_guard>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:hand_guard>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:cross_guard>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*1152, <tconstruct:large_plate>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*144, <tconstruct:knife_blade>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*432, <tconstruct:bow_limb>.withTag({Material: "wyverndraconium"}), 300);
+Melting.addRecipe(<liquid:draconium>*288, <tconstruct:arrow_head>.withTag({Material: "wyverndraconium"}), 300);
 
 //File End

@@ -142,7 +142,8 @@
 				mekData: {
 					energyStored: 1.0E7d
 				}
-			}
+			},
+			Count: 1b
 		}
 	},
 	{

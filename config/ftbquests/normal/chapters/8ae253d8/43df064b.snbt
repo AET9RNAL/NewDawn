@@ -5,10 +5,10 @@
 		"cd93c85a"
 	],
 	tasks: [{
-		uid: "50dad2d7",
+		uid: "565426d6",
 		type: "item",
 		items: [{
-			item: "mekanism:mektool"
+			item: "mekanism:meka_tool"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

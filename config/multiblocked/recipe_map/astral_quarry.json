@@ -31,11 +31,209 @@
       "outputs": {
         "item": [
           {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:quartz_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.04,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"bigreactors:oreyellorite\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:arlemite_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.36,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:realmite_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.22,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:rupee_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.12,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.18,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.07,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"enderio:item_material\",Count:2,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.063,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:resources\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
             "chance": 0.38,
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:gold_ore\",Count:2,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:17s}"
               ]
             }
           },
@@ -44,7 +242,376 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:2,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:18s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.56,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:16s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.56,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.4,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:19s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.18,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:7s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:8s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:9s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:14s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.018,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:radiationresources\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:25s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:26s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:27s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:28s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:29s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:30s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:31s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:32s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:34s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:35s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:36s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:37s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:38s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:39s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:22s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:23s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:24s}"
               ]
             }
           },
@@ -94,101 +661,20 @@
             }
           },
           {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"appliedenergistics2:quartz_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:arlemite_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.36,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:realmite_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.22,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:rupee_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.12,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"bigreactors:oreyellorite\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
             "chance": 0.8,
             "content": {
-              "amount": 1,
+              "amount": 3,
               "matches": [
-                "{id:\"forestry:resources\",Count:1,Damage:0s}"
+                "{id:\"minecraft:coal\",Count:3,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 0.56,
+            "chance": 0.01,
             "content": {
-              "amount": 2,
+              "amount": 4,
               "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.56,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.4,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:2s}"
+                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -197,124 +683,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.18,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:2,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:10s}"
+                "{id:\"minecraft:glowstone\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -360,15 +729,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"taiga:ovium_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:14s}"
               ]
             }
           },
@@ -490,335 +850,11 @@
             }
           },
           {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.8,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"minecraft:coal\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.18,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:draconium_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.018,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:blockradiationore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
             "chance": 0.06,
             "content": {
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:ore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.04,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0E-4,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.07,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"enderio:item_material\",Count:2,Damage:20s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.063,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:glowstone\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:10s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:13s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:14s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:3s}"
               ]
             }
           }
@@ -853,11 +889,209 @@
       "outputs": {
         "item": [
           {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:quartz_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.02,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"bigreactors:oreyellorite\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:arlemite_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.18,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:realmite_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.11,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:rupee_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.06,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.09,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.07,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"enderio:item_material\",Count:2,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.005,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.063,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:resources\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
             "chance": 0.19,
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:gold_ore\",Count:2,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:17s}"
               ]
             }
           },
@@ -866,7 +1100,412 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:2,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:18s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.28,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:16s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.28,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:19s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.09,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:7s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:8s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:9s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:14s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:baseore\",Count:1,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.009,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:blockradiationore\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:25s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:26s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:27s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:28s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:29s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:30s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:31s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:32s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:34s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:35s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:36s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:37s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:38s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:39s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.15,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:22s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:23s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:24s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:22s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:23s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:24s}"
               ]
             }
           },
@@ -916,101 +1555,20 @@
             }
           },
           {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"appliedenergistics2:quartz_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:arlemite_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.18,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:realmite_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.11,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:rupee_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.06,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"bigreactors:oreyellorite\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
             "chance": 0.4,
             "content": {
-              "amount": 1,
+              "amount": 3,
               "matches": [
-                "{id:\"forestry:resources\",Count:1,Damage:0s}"
+                "{id:\"minecraft:coal\",Count:3,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 0.28,
+            "chance": 0.01,
             "content": {
-              "amount": 2,
+              "amount": 4,
               "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.28,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:2,Damage:2s}"
+                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -1019,124 +1577,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.15,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.15,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.09,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:2,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:10s}"
+                "{id:\"minecraft:glowstone\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -1182,15 +1623,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"taiga:ovium_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"thermalfoundation:ore\",Count:1,Damage:7s}"
               ]
             }
           },
@@ -1312,335 +1744,11 @@
             }
           },
           {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.4,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"minecraft:coal\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.09,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"draconicevolution:draconium_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.005,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.009,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:blockradiationore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
             "chance": 0.03,
             "content": {
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:ore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.15,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.02,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.005,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0E-4,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.07,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"enderio:item_material\",Count:2,Damage:20s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.063,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:glowstone\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:10s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:13s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:14s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.15,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:1,Damage:3s}"
               ]
             }
           }
@@ -1677,9 +1785,198 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 4,
               "matches": [
-                "{id:\"minecraft:gold_ore\",Count:10,Damage:0s}"
+                "{id:\"appliedenergistics2:quartz_ore\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 5.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"bigreactors:oreyellorite\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:arlemite_ore\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"divinerpg:realmite_ore\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"divinerpg:rupee_ore\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.6,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.35,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"enderio:item_material\",Count:3,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"forestry:resources\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
               ]
             }
           },
@@ -1688,7 +1985,394 @@
             "content": {
               "amount": 10,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:10,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:17s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:16s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:16s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:8,Damage:19s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:4,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:2,Damage:7s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:4,Damage:8s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:9s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:14s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.09,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:radiationresources\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:25s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:26s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:27s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:28s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:29s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:30s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:31s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:32s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:34s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:35s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:36s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:37s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:38s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:1,Damage:39s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:3,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:22s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:23s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:5,Damage:24s}"
               ]
             }
           },
@@ -1740,9 +2424,18 @@
           {
             "chance": 1.0,
             "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:9,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
               "amount": 4,
               "matches": [
-                "{id:\"appliedenergistics2:quartz_ore\",Count:4,Damage:0s}"
+                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -1751,214 +2444,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:arlemite_ore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"divinerpg:realmite_ore\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"divinerpg:rupee_ore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.6,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"divinerpg:eden_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"bigreactors:oreyellorite\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"forestry:resources\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:10,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:10,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 8,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:8,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.9,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:4,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:2,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:4,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:2,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:2,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:4,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:10s}"
+                "{id:\"minecraft:glowstone\",Count:2,Damage:0s}"
               ]
             }
           },
@@ -2004,15 +2490,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"taiga:ovium_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:14s}"
               ]
             }
           },
@@ -2134,335 +2611,11 @@
             }
           },
           {
-            "chance": 0.5,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 9,
-              "matches": [
-                "{id:\"minecraft:coal\",Count:9,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.9,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"draconicevolution:draconium_ore\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.09,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:blockradiationore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
             "chance": 0.3,
             "content": {
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:ore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.1,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.2,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 5.0E-4,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.35,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"enderio:item_material\",Count:3,Damage:20s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"extrautils2:ingredients\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"minecraft:glowstone\",Count:2,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:10s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:13s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:1,Damage:14s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:3,Damage:3s}"
               ]
             }
           }
@@ -2499,9 +2652,198 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 100,
+              "amount": 40,
               "matches": [
-                "{id:\"minecraft:gold_ore\",Count:100,Damage:0s}"
+                "{id:\"appliedenergistics2:quartz_ore\",Count:40,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:20,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"bigreactors:oreyellorite\",Count:20,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.002,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"divinerpg:arlemite_ore\",Count:20,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"divinerpg:realmite_ore\",Count:30,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"divinerpg:rupee_ore\",Count:20,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"divinerpg:eden_ore\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:20,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"enderio:item_material\",Count:30,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:10,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"forestry:resources\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
               ]
             }
           },
@@ -2510,7 +2852,385 @@
             "content": {
               "amount": 100,
               "matches": [
-                "{id:\"minecraft:iron_ore\",Count:100,Damage:0s}"
+                "{id:\"industrialupgrade:raw_metals\",Count:100,Damage:17s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 100,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:100,Damage:18s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 100,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:100,Damage:16s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 100,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:100,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 80,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:80,Damage:19s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:classicore\",Count:10,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.3,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 40,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:40,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:20,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 40,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:40,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:20,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 20,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:20,Damage:7s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 40,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:40,Damage:8s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:9s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:14s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"industrialupgrade:radiationresources\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:25s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:26s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:27s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:28s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:29s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:30s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:31s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:32s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:34s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:35s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:36s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:37s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:38s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:39s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 30,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:30,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.8,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:22s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:23s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.7,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"industrialupgrade:raw_metals\",Count:10,Damage:24s}"
               ]
             }
           },
@@ -2562,144 +3282,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 40,
+              "amount": 90,
               "matches": [
-                "{id:\"appliedenergistics2:quartz_ore\",Count:40,Damage:0s}"
+                "{id:\"minecraft:coal\",Count:90,Damage:0s}"
               ]
             }
           },
           {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"divinerpg:arlemite_ore\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"divinerpg:realmite_ore\",Count:30,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"divinerpg:rupee_ore\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"divinerpg:eden_ore\",Count:10,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"bigreactors:oreyellorite\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
+            "chance": 0.05,
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"forestry:resources\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 100,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:100,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 100,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:100,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 80,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:80,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:classicore\",Count:10,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.3,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"industrialupgrade:preciousgem\",Count:4,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 40,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:40,Damage:1s}"
+                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -2708,79 +3302,7 @@
             "content": {
               "amount": 20,
               "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:20,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 40,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:40,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:20,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:20,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 40,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:40,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:10s}"
+                "{id:\"minecraft:glowstone\",Count:20,Damage:0s}"
               ]
             }
           },
@@ -2826,15 +3348,6 @@
               "amount": 5,
               "matches": [
                 "{id:\"taiga:ovium_ore\",Count:5,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:14s}"
               ]
             }
           },
@@ -2958,333 +3471,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 90,
-              "matches": [
-                "{id:\"minecraft:coal\",Count:90,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"draconicevolution:draconium_ore\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:block_essence_ore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"industrialupgrade:blockradiationore\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
               "amount": 1,
               "matches": [
                 "{id:\"thermalfoundation:ore\",Count:1,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.5,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.01,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesSteadfast\",UID1:\"forestry.speciesSteadfast\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.001,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"forestry:bee_drone_ge\",Count:1,Damage:0s,tag:{IsAnalyzed:0b,Health:50,MaxH:50,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},Mate:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMonastic\",UID1:\"forestry.speciesMonastic\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLong\",UID1:\"forestry.lifespanLong\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"forestry.flowersWheat\",UID1:\"forestry.flowersWheat\"},{Slot:10b,UID0:\"forestry.floweringFaster\",UID1:\"forestry.floweringFaster\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:blacklotus\",Count:1,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.002,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"botania:overgrowthseed\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.05,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"endreborn:death_essence\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"enderio:item_material\",Count:30,Damage:20s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"extrautils2:ingredients\",Count:10,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 20,
-              "matches": [
-                "{id:\"minecraft:glowstone\",Count:20,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:1s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:3s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:4s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:6s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:7s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:8s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:9s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:10s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:11s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:12s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:13s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 10,
-              "matches": [
-                "{id:\"industrialupgrade:baseore2\",Count:10,Damage:14s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 30,
-              "matches": [
-                "{id:\"industrialupgrade:baseore\",Count:30,Damage:3s}"
               ]
             }
           }
