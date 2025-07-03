@@ -1,0 +1,56 @@
+{
+	x: 24.0d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"§6§lMana Converter§r",
+		"",
+		"§fBidirectional §3Mana§f ↔ §eEF§f energy converter.",
+		"",
+		"§eMN ⇒ EF Mode:  ",
+		"§f• Draws mana from adjacent §dMana Pools§f and §bMana Buffers§f (except top side)  ",
+		"§f• Supported Pools: §aBotania§f, §9Botaniverse§f, §dBotanic Additions§f  ",
+		"§f• Supported Buffers: §bExtra Botany§f  ",
+		"§f• §eAccepts§f mana from §dSpreaders§f  ",
+		"§c✖ Cannot accept mana from Sparks  ",
+		"§f• Converts mana to energy using  ratio: ",
+		"§b1 Mana§7 ⇒ §e50 EF§7",
+		"",
+		"",
+		"§eEF ⇒ MN Mode:  ",
+		"§f• Accepts §eEF§f and converts it into §3Mana§f using ratio:",
+		"§e50 EF§7 ⇒ §b1 Mana§7)  ",
+		"§f• Extracts mana via §dSpark§f with §6Recessive Augment§f (only from the §atop side§f)  ",
+		"§f• Also exports to adjacent pools, buffers, and converters (top side only)",
+		"",
+		"§f§6Transfer Rate:  ",
+		"§f• Depends on converter's power tier (upgradable with §eTransformer Upgrades§f)  ",
+		"§f• Internal buffers for mana and energy can be increased with §aEnergy Upgrades§f"
+	],
+	dependencies: [
+		"cc4c0e57"
+	],
+	tasks: [{
+		uid: "582bb476",
+		type: "item",
+		items: [{
+			id: "iuadditions:manaconverter",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "1b2cd4ee",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2e625def",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	}]
+}

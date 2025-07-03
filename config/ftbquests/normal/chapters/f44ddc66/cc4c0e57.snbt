@@ -1,0 +1,33 @@
+{
+	x: 23.5d,
+	y: -2.0d,
+	text: [
+		"Converts EF/RF bidirectionally"
+	],
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "9d779e01",
+		type: "item",
+		items: [{
+			id: "powerutils:powerutils",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "2e3853a5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "b4bc9873",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	}]
+}

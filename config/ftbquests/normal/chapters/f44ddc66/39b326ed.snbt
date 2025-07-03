@@ -1,6 +1,6 @@
 {
-	x: 10.0d,
-	y: -3.5d,
+	x: 19.0d,
+	y: -2.0d,
 	text: [
 		"§f§eConverters§f allow you to convert energy between two specified types §oin both directions§f.",
 		"",

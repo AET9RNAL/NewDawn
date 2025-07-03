@@ -12,6 +12,7 @@
 		"",
 		"§fOnce all systems are connected, activate the machine from the §aController§f."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"4f9e2f86",
 		"39b326ed",
