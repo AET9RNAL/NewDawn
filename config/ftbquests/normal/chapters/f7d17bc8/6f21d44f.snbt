@@ -1,6 +1,17 @@
 {
 	x: 13.5d,
 	y: 11.5d,
+	text: [
+		"§b§lME Energy Cell§r",
+		"",
+		"§fUsed to create energy storage within your §dME§f system.",
+		"",
+		"§f§lEnergy types supported:§r  ",
+		"§6• §fFE / RF  ",
+		"§6• §fEF  ",
+		"§6• §fQE  ",
+		"§6• §fSE"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"29fd6ef0",

@@ -334,7 +334,7 @@ mods.jei.JEI.addDescription(<appliedenergistics2:quartz_ore>,"
 §b§lBiome: §r§fAny  
 §d§lRarity: §r§f0.22% per chunk  
 §a§lAltitude: §r§f55–40  
-§9§lDeposit Size: §r§f192–640 Blocks  
+§9§lDeposit Size: §r§f410–820 Blocks  
 §5§lIndicator: §r§dMystical Magenta Flower with Mystical Black Flower with Oxeye Daisy 
 ");
 mods.jei.JEI.addDescription(<appliedenergistics2:charged_quartz_ore>,"

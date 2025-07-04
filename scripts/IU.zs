@@ -12,7 +12,14 @@ import mods.industrialupgrade.AlloySmelter;
 import mods.industrialupgrade.DoubleMolecularTransformer;
 import mods.industrialupgrade.fluidadapter;
 import mods.industrialupgrade.fluidintegrator;
+import mods.jei.JEI.removeAndHide;
 //<industrialupgrade:.addTooltip(format.red(""));
+
+// IU.zs
+
+
+
+
 
 //CRAFTINGTABLE
 //recipes.remove(AAA);
@@ -65,7 +72,6 @@ val itemsToRemove = [
 for item in itemsToRemove {
   recipes.remove(item);
 }
-
 
 recipes.removeShaped(<industrialupgrade:crafting_elements:186>, [[null, <industrialupgrade:itemdoubleplates:22>, null],[<industrialupgrade:itemdoubleplates:22>, null, null], [null, <industrialupgrade:itemdoubleplates:22>, null]]);
 recipes.removeShaped(<industrialupgrade:crafting_elements:187>, [[null, <industrialupgrade:itemdoubleplates:22>, null],[null, null, <industrialupgrade:itemdoubleplates:22>], [null, <industrialupgrade:itemdoubleplates:22>, null]]);

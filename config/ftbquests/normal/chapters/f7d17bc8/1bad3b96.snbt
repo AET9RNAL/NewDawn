@@ -3,6 +3,15 @@
 	x: -9.5d,
 	y: 10.5d,
 	shape: "rsquare",
+	text: [
+		"§b§lPackagedAuto§r",
+		"",
+		"§fAllows automation of complex crafting systems, including:  ",
+		"§6• §cDraconic Evolution Fusion  ",
+		"§6• §dAvaritia Workbench  ",
+		"§6• §bAstral Sorcery Altars  ",
+		"§6• §9Extended Crafting§f — all tiers"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"d4de8073"

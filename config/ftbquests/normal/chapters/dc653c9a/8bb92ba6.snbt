@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: -39.0d,
+	text: [
+		"§b§lWater Mechanics Changed§r",
+		"",
+		"§fWater is §cno longer infinite§f.",
+		"",
+		"§fWhen you take water from a source block, it §cwon’t restore itself§f like in vanilla.",
+		"",
+		"§aException:§f Infinite water sources still exist only in the §3Deep Ocean§f biome."
+	],
+	tasks: [{
+		uid: "7099c016",
+		type: "checkmark",
+		icon: "industrialupgrade:fluiddistilled_water"
+	}],
+	rewards: [{
+		uid: "d7643747",
+		type: "xp",
+		xp: 100
+	}]
+}

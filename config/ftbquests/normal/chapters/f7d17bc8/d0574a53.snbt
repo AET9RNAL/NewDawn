@@ -2,6 +2,9 @@
 	x: 12.0d,
 	y: 11.5d,
 	shape: "rsquare",
+	text: [
+		"Used to create fluid storage within your ME system"
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"905404b5",

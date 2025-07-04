@@ -1,6 +1,10 @@
 {
 	x: -1.0d,
 	y: 17.0d,
+	text: [
+		"§fAccepts §cRF§f, §cFE§f, or any other §cRF-like§f energy type  ",
+		"and converts it into §eAE§f energy usable by your §9AE Network§f."
+	],
 	dependencies: [
 		"32083429"
 	],

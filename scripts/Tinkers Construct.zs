@@ -75,6 +75,13 @@ Melting.addRecipe(<liquid:thallium>*144, <industrialupgrade:raw_metals:38>, 64);
 Melting.addRecipe(<liquid:palladium>*144, <industrialupgrade:raw_metals:35>, 192);
 Melting.addRecipe(<liquid:aluminium>*144, <industrialupgrade:raw_metals:1>, 100);
 
+Melting.addRecipe(<liquid:stone>*648, <extrautils2:compressedcobblestone>, 500);
+Melting.addRecipe(<liquid:stone>*5832, <extrautils2:compressedcobblestone:1>, 600);
+Melting.addRecipe(<liquid:stone>*51912, <extrautils2:compressedcobblestone:2>, 900);
+Melting.addRecipe(<liquid:stone>*472392, <extrautils2:compressedcobblestone:3>, 1000);
+
+
+
 //mods.tconstruct.Alloy.addRecipe(ILiquidStackoutput, ILiquidStack[]);
 Alloy.addRecipe(<liquid:crude_steel>*288, [<liquid:stone>*14400,<liquid:clay>*5184]);
 Alloy.addRecipe(<liquid:redstone_alloy>*144,[<liquid:quartz>*72,<liquid:redstone>*72]);

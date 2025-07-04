@@ -1,6 +1,9 @@
 {
 	x: 15.0d,
 	y: 11.5d,
+	text: [
+		"§fUsed to create §3Botania Mana§f storage within your §dME§f system."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"32dd178a"

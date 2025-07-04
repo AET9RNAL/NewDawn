@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: 18.0d,
+	text: [
+		"Inscriber presses can be found in meteorites while exploring the world."
+	],
 	dependencies: [
 		"d4de8073"
 	],

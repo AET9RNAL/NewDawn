@@ -1,6 +1,16 @@
 {
 	x: 1.5d,
 	y: 6.0d,
+	text: [
+		"§b§lSpatial Storage§r",
+		"",
+		"§fSpatial pylons and IO port allow you to store every block that's within its area in a separate dimension created at the moment of activation, linked to the cell.  ",
+		"§fYou can even go there yourself if you activate the IO port while standing in the active area.",
+		"",
+		"§cThe cell is the key to that dimension — should you lose it, there will be no conventional way to get your stuff back.",
+		"",
+		"§fUseful for transporting chunks of the world, can also be used as a pocket dimension, the dimension can also be accessed by any means of teleportation without having to go through the pylon structure."
+	],
 	dependencies: [
 		"ff7fcf72"
 	],
