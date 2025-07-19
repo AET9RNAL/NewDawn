@@ -324,7 +324,7 @@ mods.jei.JEI.addDescription(<mysticalagriculture:prosperity_ore>,"
 §d§lRarity: §r§f0.29% per chunk  
 §a§lAltitude: §r§f45–10  
 §9§lDeposit Size: §r§f160–320 Blocks  
-§5§lIndicator: §r§dPoppy with Mystical White Flower
+§5§lIndicator: §r§dWhite Tulip with Mystical White Flower
 ");
 
 

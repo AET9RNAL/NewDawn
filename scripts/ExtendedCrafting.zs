@@ -31,7 +31,7 @@ recipes.remove(<extendedcrafting:material:7>);
 //[ITEM, ITEM, ITEM]
 //], seconds);  
 
-
+recipes.addShapeless(<extendedcrafting:material>, [<ore:ingotIron>,<ore:dustCoal>]);
 mods.botania.RuneAltar.addRecipe(<extendedcrafting:material:7>*2,[<minecraft:glowstone_dust>,<minecraft:redstone>,<minecraft:gunpowder>,<minecraft:glowstone_dust>], 2000);
 
 

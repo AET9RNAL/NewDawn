@@ -41,10 +41,5 @@
 		uid: "30d78d08",
 		type: "xp",
 		xp: 50
-	},
-	{
-		uid: "d7af3acc",
-		type: "xp",
-		xp: 50
 	}]
 }

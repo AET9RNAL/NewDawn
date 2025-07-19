@@ -8,11 +8,13 @@ import mods.industrialupgrade.compressor;
 import mods.industrialupgrade.GenMicrochip;
 import mods.industrialupgrade.Fermer;
 import mods.industrialupgrade.AlloySmelter;
+import mods.industrialupgrade.AdvAlloySmelter;
 import mods.industrialupgrade.DoubleMolecularTransformer;
 import mods.industrialupgrade.fluidadapter;
 import crafttweaker.item.IIngredient;
 import mods.extendedcrafting.CombinationCrafting;
 import mods.extendedcrafting.EnderCrafting;
+import mods.industrialupgrade.gas_combiner;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
@@ -834,13 +836,13 @@ mods.industrialupgrade.compressor.addRecipe(<maia_draconic_edition:chaotic_plate
 
 //AdvAlloySmelter
 //mods.industrialupgrade.AdvAlloySmelter.addRecipe(output, container, fill, fill1, temperature);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:solarium_ingot>*2, <taiga:valyrium_ingot>*2, <taiga:uru_ingot>*2, <taiga:nucleum_ingot>, 3000);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:proxii_ingot>*3, <taiga:abyssum_ingot>, <taiga:osram_ingot>, 3000);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:imperomite_ingot>*3, <taiga:osram_ingot>, <taiga:eezo_ingot>, 3000);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:niob_ingot>*3, <taiga:eezo_ingot>, <taiga:abyssum_ingot>, 3000);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:proxii_ingot>*3, <taiga:prometheum_ingot>*3, <taiga:palladium_ingot>*3, <taiga:eezo_ingot>, 3200);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:imperomite_ingot>*3, <taiga:duranite_ingot>*3, <taiga:prometheum_ingot>, <taiga:abyssum_ingot>, 3000);
-mods.industrialupgrade.AdvAlloySmelter.addRecipe(<taiga:niob_ingot>*3, <taiga:palladium_ingot>*3, <taiga:duranite_ingot>, <taiga:osram_ingot>, 3100);
+AdvAlloySmelter.addRecipe(<taiga:solarium_ingot>*2, <taiga:valyrium_ingot>*2, <taiga:uru_ingot>*2, <taiga:nucleum_ingot>, 3000);
+AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:proxii_ingot>*3, <taiga:abyssum_ingot>, <taiga:osram_ingot>, 3000);
+AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:imperomite_ingot>*3, <taiga:osram_ingot>, <taiga:eezo_ingot>, 3000);
+AdvAlloySmelter.addRecipe(<taiga:nucleum_ingot>*3, <taiga:niob_ingot>*3, <taiga:eezo_ingot>, <taiga:abyssum_ingot>, 3000);
+AdvAlloySmelter.addRecipe(<taiga:proxii_ingot>*3, <taiga:prometheum_ingot>*3, <taiga:palladium_ingot>*3, <taiga:eezo_ingot>, 3200);
+AdvAlloySmelter.addRecipe(<taiga:imperomite_ingot>*3, <taiga:duranite_ingot>*3, <taiga:prometheum_ingot>, <taiga:abyssum_ingot>, 3000);
+AdvAlloySmelter.addRecipe(<taiga:niob_ingot>*3, <taiga:palladium_ingot>*3, <taiga:duranite_ingot>, <taiga:osram_ingot>, 3100);
 
 
 
@@ -852,28 +854,32 @@ mods.industrialupgrade.peralloysmelter.addRecipe(<contenttweaker:alloy_industria
 //ROLLING
 //mods.industrialupgrade.rolling.addRecipe(AAA, AAA);
 mods.industrialupgrade.rolling.addRecipe(<moreplates:crystalline_alloy_plate>, <enderio:item_alloy_endergy_ingot:1>);
+mods.industrialupgrade.rolling.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>*2);
 
 
 
+// MEKANISM - INDUSTRIAL UPGRADE CROSS-COMPAT //
+//mods.industrialupgrade.PlacticMachine.addRecipe(ILiquidStack_input, IIngredient, IItemStack);
+mods.industrialupgrade.PlacticMachine.addRecipe(<liquid:liquidoxygen>*1000, <industrialupgrade:plast>, <industrialupgrade:plastic_plate>);
+mods.industrialupgrade.PlacticMachine.addRecipe(<liquid:liquidoxygen>*200, <industrialupgrade:red_phosphorus>*4, <industrialupgrade:phosphorus_oxide>*2);
 
+//mods.industrialupgrade.fluidintegrator
+mods.industrialupgrade.fluidintegrator.addRecipe(<industrialupgrade:smalldust:22>, <industrialupgrade:heavyore:4>, <liquid:liquidoxygen>*1100, <liquid:iufluidsulfuroxide>*800);
 
+//gas_combiner.addRecipe(ILiquidStack_input, ILiquidStack, ILiquidStack);
+gas_combiner.addRecipe(<liquid:iufluidsulfuroxide>*200, <liquid:iufluidhydrogensulfide>*200, <liquid:liquidoxygen>*300);
+gas_combiner.addRecipe(<liquid:iufluidsulfurtrioxide>*200, <liquid:iufluidsulfuroxide>*200, <liquid:liquidoxygen>*100);
+gas_combiner.addRecipe(<liquid:iufluidnitrogendioxide>*200, <liquid:iufluidnitrogenoxy>*200, <liquid:liquidoxygen>*100);
 
+//mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
+mods.industrialupgrade.fluidadapter.addRecipe(<industrialupgrade:royal_jelly>, <industrialupgrade:itemdust:40>, <liquid:liquidoxygen>*200, <liquid:iufluidprotein>*200);
 
+//mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack_input, ILiquidStack_output, ILiquidStack_output);
+mods.industrialupgrade.fluid_mixer.addRecipe(<liquid:iufluidnitrogenhydride>*400, <liquid:liquidoxygen>*400, <liquid:iufluidnitrogenoxy>*400, <liquid:water>*600);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//mods.industrialupgrade.solidfluidmixer.addRecipe(IItemStack_output, ILiquidStack, ILiquidStack, ILiquidStack);
+mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:484>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyprop>*250, <liquid:liquidoxygen>*100);
+mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:483>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyeth>*250, <liquid:liquidoxygen>*100);
 
 
 

@@ -15,6 +15,8 @@ recipes.remove(<aroma1997sdimension:portalframe>);
 recipes.remove(<minecraft:ender_chest>);
 recipes.remove(<minecraft:beacon>);
 furnace.remove(<tconstruct:seared:4>);
+recipes.removeShaped(<minecraft:chest>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+
 //Don't touch me!
 //#Add
 recipes.addShaped(<minecraft:brewing_stand>, [[null, null, null],[null, <botania:blazeblock>, null], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);

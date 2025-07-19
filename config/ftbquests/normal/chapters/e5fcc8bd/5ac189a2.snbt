@@ -1,9 +1,12 @@
 {
-	x: 2.5d,
-	y: -2.0d,
+	x: 4.5d,
+	y: -5.5d,
+	shape: "gear",
+	hide_dependency_lines: true,
 	dependencies: [
 		"bd815ed7"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "ba535f4d",
 		type: "item",

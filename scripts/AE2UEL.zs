@@ -202,7 +202,8 @@ val itemsToRemove = [
   <crazyae:mechanical_petal>,
   <crazyae:mechanical_puredaisy>,
   <crazyae:mechanical_brewery>,
-  <crazyae:mechanical_teraplate>  
+  <crazyae:mechanical_teraplate>,
+  <appliedenergistics2:chest>
 
 
 ] as IItemStack[];
@@ -243,6 +244,8 @@ mods.jei.JEI.removeAndHide(<nae2:storage_crafting_256k>);
 
 //Don't touch me!
 //#Add
+
+recipes.addShaped(<appliedenergistics2:chest>, [[<extrautils2:decorativeglass>, <appliedenergistics2:part:380>, <extrautils2:decorativeglass>],[<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], [<ore:plateIron>, <ore:gemFluix>, <ore:plateIron>]]);
 recipes.addShaped(<appliedenergistics2:energy_cell>, [[<ore:crystalCertusQuartz>, <threng:material:1>, <ore:crystalCertusQuartz>],[<industrialupgrade:charged_redstone>, <appliedenergistics2:quartz_glass>, <industrialupgrade:charged_redstone>], [<ore:crystalCertusQuartz>, <threng:material:1>, <ore:crystalCertusQuartz>]]);
 recipes.addShaped(<appliedenergistics2:dense_energy_cell>, [[<appliedenergistics2:energy_cell>.anyDamage(), <industrialupgrade:itemdust:24>, <appliedenergistics2:energy_cell>.anyDamage()],[<industrialupgrade:itemdust:24>, <appliedenergistics2:material:24>, <industrialupgrade:itemdust:24>], [<appliedenergistics2:energy_cell>.anyDamage(), <industrialupgrade:itemdust:24>, <appliedenergistics2:energy_cell>.anyDamage()]]);
 recipes.addShaped(<crazyae:improved_molecular_assembler>, [[<crazyae:material:16>, <appliedenergistics2:molecular_assembler>, <threng:material:14>],[<appliedenergistics2:molecular_assembler>, <industrialupgrade:crafting_elements:556>, <appliedenergistics2:molecular_assembler>], [<threng:material:14>, <appliedenergistics2:molecular_assembler>, <crazyae:material:16>]]);

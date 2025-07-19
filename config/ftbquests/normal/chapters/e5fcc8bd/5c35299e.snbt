@@ -1,8 +1,8 @@
 {
-	x: 4.0d,
-	y: 1.0d,
+	x: 3.0d,
+	y: -9.0d,
 	dependencies: [
-		"0390737e"
+		"5ac189a2"
 	],
 	tasks: [{
 		uid: "f7e6fac1",
@@ -38,11 +38,6 @@
 	},
 	{
 		uid: "db98207e",
-		type: "xp",
-		xp: 50
-	},
-	{
-		uid: "28c032b0",
 		type: "xp",
 		xp: 50
 	}]

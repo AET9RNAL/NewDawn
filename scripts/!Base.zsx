@@ -114,7 +114,7 @@ mods.industrialupgrade.MolecularTransformer.addOreRecipe(IItemStack_output, IIng
 mods.industrialupgrade.MolecularTransformer.addRecipe(IItemStack_output, IIngredient, energy);
 mods.industrialupgrade.MolecularTransformer.removeRecipe(IItemStack);
 
-##-------------PlacticMachine-------------##
+##-------------PlasticMachine-------------##
 mods.industrialupgrade.PlacticMachine.addRecipe(ILiquidStack_input, IIngredient, IItemStack);
 mods.industrialupgrade.PlacticMachine.remove(IItemStack);
 
@@ -178,11 +178,11 @@ mods.industrialupgrade.extruding.addRecipe(IItemStack_output, IIngredient);
 mods.industrialupgrade.extruding.remove(IItemStack);
 
 ##-------------fluid_mixer-------------##
-mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack, ILiquidStack, ILiquidStack);
+mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack_input, ILiquidStack_output, ILiquidStack_output);
 mods.industrialupgrade.fluid_mixer.remove(ILiquidStack);
 
 ##-------------fluidadapter-------------##
-mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
+mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_input, ILiquidStack_input, ILiquidStack_output);
 mods.industrialupgrade.fluidadapter.remove(ILiquidStack, IItemStack);
 
 ##-------------fluidintegrator-------------##
@@ -190,11 +190,11 @@ mods.industrialupgrade.fluidintegrator.addRecipe(IItemStack_output, IItemStack, 
 mods.industrialupgrade.fluidintegrator.remove(ILiquidStack, IItemStack);
 
 ##-------------fluidseparator-------------##
-mods.industrialupgrade.fluidseparator.addRecipe(ILiquidStack_input, ILiquidStack, ILiquidStack);
+mods.industrialupgrade.fluidseparator.addRecipe(ILiquidStack_input, ILiquidStack_output, ILiquidStack_output);
 mods.industrialupgrade.fluidseparator.remove(ILiquidStack);
 
 ##-------------gas_combiner-------------##
-mods.industrialupgrade.gas_combiner.addRecipe(ILiquidStack_input, ILiquidStack, ILiquidStack);
+mods.industrialupgrade.gas_combiner.addRecipe(ILiquidStack_output, ILiquidStack, ILiquidStack);
 
 ##-------------gearing-------------##
 mods.industrialupgrade.gearing.addRecipe(IItemStack_output, IIngredient);

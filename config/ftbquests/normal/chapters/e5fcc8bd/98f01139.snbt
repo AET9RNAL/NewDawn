@@ -35,8 +35,7 @@
 			tag: {
 				type: "random_crate"
 			}
-		},
-		count: 3
+		}
 	},
 	{
 		uid: "4b4f2ac0",

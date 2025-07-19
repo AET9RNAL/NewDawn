@@ -87,6 +87,10 @@ recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<ore:alloyBasic>, <o
 recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>],[<ore:dustDiamond>, <minecraft:redstone>, <ore:dustDiamond>], [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>]]);
 recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<minecraft:redstone>, <industrialupgrade:itemdust:23>, <minecraft:redstone>],[<industrialupgrade:itemdust:23>, <minecraft:redstone>, <industrialupgrade:itemdust:23>], [<minecraft:redstone>, <industrialupgrade:itemdust:23>, <minecraft:redstone>]]);
 
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>],[<ore:dustDiamond>, <ore:gemQuartz>, <ore:dustDiamond>], [<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>],[<ore:dustDiamond>, <ore:gemQuartz>, <ore:dustDiamond>], [<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>],[<ore:dustDiamond>, <minecraft:quartz>, <ore:dustDiamond>], [<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>]]);
+recipes.removeShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <industrialupgrade:itemdust:23>, <industrialupgrade:charged_redstone>],[<industrialupgrade:itemdust:23>, <minecraft:quartz>, <industrialupgrade:itemdust:23>], [<industrialupgrade:charged_redstone>, <industrialupgrade:itemdust:23>, <industrialupgrade:charged_redstone>]]);
 
 
 

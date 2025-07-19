@@ -1,6 +1,6 @@
 {
-	x: 4.0d,
-	y: 2.0d,
+	x: 3.0d,
+	y: -0.5d,
 	dependencies: [
 		"a7d2b15c"
 	],
@@ -25,11 +25,6 @@
 	},
 	{
 		uid: "2ef07dd1",
-		type: "xp",
-		xp: 50
-	},
-	{
-		uid: "166408b8",
 		type: "xp",
 		xp: 50
 	}]

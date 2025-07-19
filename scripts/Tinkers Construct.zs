@@ -74,6 +74,8 @@ Melting.addRecipe(<liquid:strontium>*144, <industrialupgrade:raw_metals:37>, 90)
 Melting.addRecipe(<liquid:thallium>*144, <industrialupgrade:raw_metals:38>, 64);
 Melting.addRecipe(<liquid:palladium>*144, <industrialupgrade:raw_metals:35>, 192);
 Melting.addRecipe(<liquid:aluminium>*144, <industrialupgrade:raw_metals:1>, 100);
+Melting.addRecipe(<liquid:zirconium>*144, <industrialupgrade:raw_metals:39>, 100);
+
 
 Melting.addRecipe(<liquid:stone>*648, <extrautils2:compressedcobblestone>, 500);
 Melting.addRecipe(<liquid:stone>*5832, <extrautils2:compressedcobblestone:1>, 600);

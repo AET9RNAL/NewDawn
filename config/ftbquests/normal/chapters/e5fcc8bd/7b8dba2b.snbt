@@ -1,8 +1,8 @@
 {
-	x: 5.0d,
-	y: -1.0d,
+	x: 6.0d,
+	y: -2.0d,
 	dependencies: [
-		"8e571743"
+		"5ac189a2"
 	],
 	tasks: [{
 		uid: "744ef315",
@@ -35,11 +35,6 @@
 				type: "rare_crate"
 			}
 		}
-	},
-	{
-		uid: "62d35f0f",
-		type: "xp",
-		xp: 50
 	},
 	{
 		uid: "a0a2e118",

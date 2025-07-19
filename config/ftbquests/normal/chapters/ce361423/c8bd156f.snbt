@@ -11,7 +11,7 @@
 			item: "extendedcrafting:material 1 7"
 		}],
 		count: 32L,
-		only_from_crafting: true
+		only_from_crafting: false
 	}],
 	rewards: [{
 		uid: "8f00d013",
