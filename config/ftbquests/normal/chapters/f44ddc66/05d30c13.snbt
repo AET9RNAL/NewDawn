@@ -1,0 +1,36 @@
+{
+	title: "Nitrogen Dioxide",
+	x: 31.0d,
+	y: 18.5d,
+	dependencies: [
+		"8e440a9e"
+	],
+	tasks: [{
+		uid: "f53e8cb5",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidnitrogendioxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "13da95de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "832a93b2",
+		type: "xp",
+		xp: 75
+	}]
+}

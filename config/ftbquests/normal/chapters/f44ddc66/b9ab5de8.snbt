@@ -1,0 +1,32 @@
+{
+	x: 41.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"a7f99deb",
+		"4d543ebf"
+	],
+	tasks: [{
+		uid: "98b49481",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_rotor_carbon",
+			tag: {
+				damage: 403200
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65c0a4dc",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 4",
+		count: 24
+	},
+	{
+		uid: "2f2bd4d1",
+		type: "xp",
+		xp: 200
+	}]
+}

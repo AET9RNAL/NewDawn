@@ -1,0 +1,34 @@
+{
+	x: 10.5d,
+	y: 11.5d,
+	dependencies: [
+		"b516d4e5"
+	],
+	tasks: [{
+		uid: "b2ae79bb",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:chainsaw",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19a47370",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a65cddf6",
+		type: "xp",
+		xp: 75
+	}]
+}

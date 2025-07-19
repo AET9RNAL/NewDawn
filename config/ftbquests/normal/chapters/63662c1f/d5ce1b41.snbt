@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -12.0d,
+	dependencies: [
+		"95b073dd"
+	],
+	tasks: [{
+		uid: "35f204e1",
+		type: "item",
+		items: [{
+			item: "draconicadditions:item_drainer"
+		}]
+	}],
+	rewards: [{
+		uid: "6f21881c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

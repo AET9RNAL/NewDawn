@@ -1,0 +1,28 @@
+{
+	x: 45.5d,
+	y: -10.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "a962c901",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solar_panel_glass 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "f731ab41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "d6195920",
+		type: "xp",
+		xp: 75
+	}]
+}

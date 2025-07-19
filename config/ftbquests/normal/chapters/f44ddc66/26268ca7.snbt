@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: 7.0d,
+	dependencies: [
+		"a38c10c8"
+	],
+	tasks: [{
+		uid: "44e7edc3",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 498"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3c808f48",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "739f38b2",
+		type: "xp",
+		xp: 50
+	}]
+}

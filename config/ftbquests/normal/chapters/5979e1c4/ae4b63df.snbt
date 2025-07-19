@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: 6.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "1cf54f0f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rock_crystal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "83f470ab",
+		type: "xp",
+		xp: 100
+	}]
+}

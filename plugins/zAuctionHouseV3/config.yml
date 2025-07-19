@@ -1,0 +1,118 @@
+# Download it here: https://black-minecraft.com/resources/38/
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   5€ gift code on Minecraft Vote Server : ZAUCTIONHOUSE (https://serveur-minecraft-vote.fr/utiliser/un/code/cadeau?code=ZAUCTIONHOUSE)
+#
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+# 
+# ███████╗░█████╗░██╗░░░██╗░█████╗░████████╗██╗░█████╗░███╗░░██╗██╗░░██╗░█████╗░██╗░░░██╗░██████╗███████╗██╗░░░██╗██████╗░
+# ╚════██║██╔══██╗██║░░░██║██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║██║░░██║██╔══██╗██║░░░██║██╔════╝██╔════╝██║░░░██║╚════██╗
+# ░░███╔═╝███████║██║░░░██║██║░░╚═╝░░░██║░░░██║██║░░██║██╔██╗██║███████║██║░░██║██║░░░██║╚█████╗░█████╗░░╚██╗░██╔╝░█████╔╝
+# ██╔══╝░░██╔══██║██║░░░██║██║░░██╗░░░██║░░░██║██║░░██║██║╚████║██╔══██║██║░░██║██║░░░██║░╚═══██╗██╔══╝░░░╚████╔╝░░╚═══██╗
+# ███████╗██║░░██║╚██████╔╝╚█████╔╝░░░██║░░░██║╚█████╔╝██║░╚███║██║░░██║╚█████╔╝╚██████╔╝██████╔╝███████╗░░╚██╔╝░░██████╔╝
+# ╚══════╝╚═╝░░╚═╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═════╝░╚══════╝░░░╚═╝░░░╚═════╝░
+#
+#
+#
+#   Commands and permissions:
+#   - /zauctionhouse » Main command (aliases: /ah, /hdv, /zauction, /zah, /zhdv) - zauctionhouse.use
+#   - /ah sell <price> [<amount>] » Sell an item (aliases: /ah vendre, /ah s) - zauctionhouse.sell
+#   - /ah sellinventory <price> » Sell an inventory (aliases: /ah vendreinventaire, /ah si, /ah vi) - zauctionhouse.sell.inventory
+#   - /ah reload » Reloaded the configuration files - zauctionhouse.reload
+#   - /ah config » Configure the in-game plugin - zauctionhouse.config
+#   - /ah version » See the plugin version - no permission
+#   - /ah blacklist » See the list of blacklist players - zauctionhouse.blacklist
+#   - /ah blacklist add <player> » Add a player to the blacklist - zauctionhouse.blacklist.add
+#   - /ah blacklist remove <player> » Remove a player from the blacklist - zauctionhouse.blacklist.remove
+#   - /ah history [<page>] [<type>] » View your purchase and/or sale history - zauctionhouse.history
+#   - /ah transaction <player> [<page>] [<type>] » View a player's buy or sell history - zauctionhouse.transaction
+#   - /ah claim » Allows you to recover your pending money - zauctionhouse.claim
+#   - /ah search <string> » Allows you to search for anything, more information about the filter system on the "Filter" page - zauctionhouse.search
+#   - /ah purge <days> » Purge old transactions - zauctionhouse.purge
+#
+#   Optionals commands:
+#   - /ah expire » Allows you to access the list of expired items 
+#   - /ah buying » Allows you to access the list of purchased items
+#   - /ah categories » Allow access to the list of categories
+#   - /ah items » Allows you to access your items on sale
+#
+#########################################################################################################################################
+
+# Allows you to create inventories, you must list their name here to be able to use them in the plugin.
+# Attention, the name of the inventories must be in lower case.
+customInventories:
+
+# Allows to disable the plugin in different world
+disableWorlds:
+  - world_the_end
+
+# Allows you to ban items from sale.
+bannedItems:
+  goldenappel:
+    material: GOLDEN_APPLE   
+    data: 1
+
+# Allows you to ban materials from sale.
+bannedItemsWithMaterial:
+  - BEDROCK
+
+# Have a list of materials that will be allowed for sale
+whitelistMaterials: []
+    
+bannedItemsWithNameContains:
+  - "Custom Sword"  
+  
+bannedItemsWithLoreContains:
+  - "Example line contains"
+  
+bannedModelId:
+  - "PAPER:10001"
+
+# Allows you to set permissions for the sale of items.
+# You must replace the '.' with a '_' in this file
+# In your permission plugin its a '.'
+# For example, in the configuration file you have: zauctionhouse_max_5 and the permission will therefore be zauctionhouse.max.5
+permissions:
+  zauctionhouse_max_5: 5
+  zauctionhouse_max_10: 10
+  zauctionhouse_max_15: 15
+
+# Replace '_' by a '.' for your permission  
+expirations: # Expiration per rank and in secondes
+  zauctionhouse_expiration_vip: 3600 
+  zauctionhouse_expiration_vipplus: 7200
+  zauctionhouse_expiration_elite: 259200
+  
+# To display an item in priority its priority must be higher.
+priorities:
+  vip:
+    priority: 1
+    limit: 10
+    permission: "zauctionhouse.priority.vip"
+    text: "&bVip"
+  vipplus:
+    priority: 2
+    limit: 5
+    permission: "zauctionhouse.priority.vipplus"
+    text: "&6Vip+"      
+  
+# Allows to connect the plugin to a SQL database.
+# Here SQL is used only as a storage system.
+# You cannot use SQL to synchronize items between different servers.
+sql:
+  user: "homesstead"
+  password: "secret"
+  port: 3306
+  host: "192.168.10.10"
+  database: "zauctionhouse" 
+
+# Allows to open the "auction" inventory (the default inventory) from an npc
+# named "Auction"
+citizen:
+  1:
+    name: "Auction"
+    inventory: "auction"  

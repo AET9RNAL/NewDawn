@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -4.630357142857115d,
+	dependencies: [
+		"6d72c5cb"
+	],
+	tasks: [{
+		uid: "198c7c13",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_energetic_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "a972768e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "dbd4533c",
+		type: "xp",
+		xp: 50
+	}]
+}

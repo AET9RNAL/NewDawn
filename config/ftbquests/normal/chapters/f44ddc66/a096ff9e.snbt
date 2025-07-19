@@ -1,0 +1,13 @@
+{
+	title: "IU:End Game",
+	x: 18.0d,
+	y: -31.0d,
+	shape: "rsquare",
+	dependencies: [
+		"35ec51a9"
+	],
+	tasks: [{
+		uid: "5ec09677",
+		type: "checkmark"
+	}]
+}

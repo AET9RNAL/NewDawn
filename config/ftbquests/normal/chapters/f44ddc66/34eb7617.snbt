@@ -1,0 +1,46 @@
+{
+	x: 5.309523809523611d,
+	y: -33.66071428571427d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"1d1d51bd",
+		"edd5f3cb"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "b4f401ad",
+		type: "item",
+		items: [{
+			id: "simplyquarries:simplyquarries",
+			Damage: 3s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "937bc21a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "a53dce14",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c790427d",
+		type: "xp",
+		xp: 100
+	}]
+}

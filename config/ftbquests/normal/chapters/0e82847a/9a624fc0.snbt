@@ -1,0 +1,33 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	shape: "hexagon",
+	dependencies: [
+		"a16b165e"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "6e0999c1",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "477dc01b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "7f38aadd",
+		type: "xp",
+		xp: 50
+	}]
+}

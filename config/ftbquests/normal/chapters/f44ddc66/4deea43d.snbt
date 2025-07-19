@@ -1,0 +1,38 @@
+{
+	x: 47.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"2df4f92d",
+		"2141c58b"
+	],
+	tasks: [{
+		uid: "58473264",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:barionrotor",
+			tag: {
+				damage: 110592000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cabd2d08",
+		type: "item",
+		item: "industrialupgrade:baseblockingot1 1 1",
+		count: 64
+	},
+	{
+		uid: "dde7c5bf",
+		type: "item",
+		item: "industrialupgrade:quantumitems3",
+		count: 16
+	},
+	{
+		uid: "b33834f3",
+		type: "xp",
+		xp: 200
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -13.0d,
+	y: 4.5d,
+	dependencies: [
+		"143290a4"
+	],
+	tasks: [{
+		uid: "5dcd8cd0",
+		type: "item",
+		items: [{
+			item: "packagedastral:discovery_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "b39d7aa5",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "930ea09d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

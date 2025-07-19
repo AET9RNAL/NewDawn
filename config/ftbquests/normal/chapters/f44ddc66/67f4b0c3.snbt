@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: -3.0d,
+	text: [
+		"Yields additional products"
+	],
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "9b332401",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:obsidian_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a0b53b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "987a35ec",
+		type: "xp",
+		xp: 50
+	}]
+}

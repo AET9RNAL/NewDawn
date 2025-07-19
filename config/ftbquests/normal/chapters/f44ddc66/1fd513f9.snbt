@@ -1,0 +1,38 @@
+{
+	x: 10.5d,
+	y: 22.0d,
+	shape: "diamond",
+	text: [
+		"Generates heat by consuming lava"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "a31ddcda",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 6s,
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9ba519d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "20c39ece",
+		type: "xp",
+		xp: 50
+	}]
+}

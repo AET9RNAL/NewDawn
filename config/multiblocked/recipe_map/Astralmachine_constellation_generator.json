@@ -1,0 +1,122 @@
+{
+  "name": "Astralmachine_constellation_generator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "0460a1b6-6658-405b-a793-531e3f01621c",
+      "duration": 20,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 30000,
+              "constellation": "astralsorcery.constellation.lucerna"
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "51913075-8833-41a2-830b-d12bb8d19bfd",
+      "duration": 20,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 30000,
+              "constellation": "astralsorcery.constellation.evorsio"
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 400
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a01b9e13-30ab-4a6d-a8c7-70a42af02026",
+      "duration": 20,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 30000,
+              "constellation": "astralsorcery.constellation.fornax"
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 700
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3fdb396c-707e-4e56-8c50-e695cd1a194c",
+      "duration": 20,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 30000,
+              "constellation": "astralsorcery.constellation.discidia"
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 250
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3fbf09cc-07c5-4a72-b4f7-27d0a9479bbe",
+      "duration": 20,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 30000,
+              "constellation": "astralsorcery.constellation.horologium"
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 15000
+          }
+        ]
+      }
+    }
+  ]
+}

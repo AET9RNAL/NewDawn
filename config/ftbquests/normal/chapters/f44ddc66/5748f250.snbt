@@ -1,0 +1,31 @@
+{
+	x: 46.0d,
+	y: -10.0d,
+	shape: "diamond",
+	dependencies: [
+		"736ef7d8",
+		"3182dee1"
+	],
+	tasks: [{
+		uid: "f0cc7af6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:daynight_solar_panel_glass 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "baf3b2d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "13652494",
+		type: "xp",
+		xp: 75
+	}]
+}

@@ -1,0 +1,46 @@
+claim:
+  vertexpand:
+    enabled: true
+  blocklimits:
+    enabled: false
+    limits: {}
+regionprotect:
+  flow:
+    lava:
+      enabled: false
+    water:
+      enabled: false
+  ignitebyplayer:
+    enabled: false
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: false
+customflags:
+  damage-animals:
+    enabled: false
+  block-interact:
+    enabled: false
+  entity-interact:
+    enabled: false
+autoflags:
+  enabled: false
+  flags:
+    use: DENY
+    tnt: DENY
+restrictcommands:
+  enabled: true
+  commands:
+  - -setwarp
+  - -sethome

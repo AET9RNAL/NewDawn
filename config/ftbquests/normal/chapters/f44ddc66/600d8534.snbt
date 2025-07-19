@@ -1,0 +1,31 @@
+{
+	x: 57.0d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"570b076e",
+		"390a4d8c"
+	],
+	tasks: [{
+		uid: "48f67d57",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nano_bow",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb0da2a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 14.5d,
+	dependencies: [
+		"aba25873"
+	],
+	tasks: [{
+		uid: "4155650b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 153s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "fbcaed90",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a711f16d",
+		type: "xp",
+		xp: 75
+	}]
+}

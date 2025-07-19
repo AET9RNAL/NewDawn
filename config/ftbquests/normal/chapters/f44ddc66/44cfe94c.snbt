@@ -1,0 +1,29 @@
+{
+	x: 27.0d,
+	y: 12.5d,
+	dependencies: [
+		"bb8d3b77"
+	],
+	tasks: [{
+		uid: "54b7940f",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:graphene"
+		}]
+	}],
+	rewards: [{
+		uid: "707e29ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ef6ba955",
+		type: "xp",
+		xp: 75
+	}]
+}

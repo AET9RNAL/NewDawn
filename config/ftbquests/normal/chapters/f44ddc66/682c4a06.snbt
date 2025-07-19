@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: 10.5d,
+	dependencies: [
+		"c966c32e",
+		"397cdb21"
+	],
+	tasks: [{
+		uid: "f57ccc7e",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gas_chamber",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "ddbef0c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0aac9a2f",
+		type: "xp",
+		xp: 50
+	}]
+}

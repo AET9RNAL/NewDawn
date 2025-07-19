@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -16.0d,
+	dependencies: [
+		"76fe02ca"
+	],
+	tasks: [{
+		uid: "762ea1ae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_skythern"
+		}]
+	}]
+}

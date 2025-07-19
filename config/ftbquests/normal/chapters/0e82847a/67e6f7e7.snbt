@@ -1,0 +1,26 @@
+{
+	x: -5.25d,
+	y: -6.0d,
+	shape: "hexagon",
+	dependencies: [
+		"337b1ed1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "350f0958",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_gaia_agglomeration_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "edc5c911",
+		type: "item",
+		item: "extrabotany:quantummanabuffer"
+	},
+	{
+		uid: "8a7940fb",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 21.0d,
+	y: 23.0d,
+	text: [
+		"§fRight-click while holding in hand — it will highlight various §3Gas Deposits§f."
+	],
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "7a29c03c",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:gas_sensor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d4324d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1954ae0a",
+		type: "xp",
+		xp: 75
+	}]
+}

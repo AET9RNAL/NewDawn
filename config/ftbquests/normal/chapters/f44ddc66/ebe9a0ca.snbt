@@ -1,0 +1,34 @@
+{
+	x: -0.4547619047618241d,
+	y: -34.5d,
+	shape: "diamond",
+	dependencies: [
+		"e3b4e243"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "d3143473",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine1",
+			Damage: 9s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26f2b454",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "7d48e2cd",
+		type: "xp",
+		xp: 100
+	}]
+}

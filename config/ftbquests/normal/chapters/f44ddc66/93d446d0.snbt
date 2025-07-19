@@ -1,0 +1,32 @@
+{
+	x: 4.0d,
+	y: -13.076190476190398d,
+	shape: "diamond",
+	dependencies: [
+		"949c22b5"
+	],
+	tasks: [{
+		uid: "ee2eea12",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 8"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "7e6574ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "9e440428",
+		type: "xp",
+		xp: 100
+	}]
+}

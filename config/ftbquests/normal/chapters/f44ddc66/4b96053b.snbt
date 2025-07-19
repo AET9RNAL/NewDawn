@@ -1,0 +1,32 @@
+{
+	x: 41.5d,
+	y: 3.5d,
+	shape: "diamond",
+	dependencies: [
+		"b0ddf201",
+		"ad3d082b"
+	],
+	tasks: [{
+		uid: "e35c4e6a",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:iridium",
+			tag: {
+				damage: 123428
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0444b818",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 282",
+		count: 64
+	},
+	{
+		uid: "7e61503c",
+		type: "xp",
+		xp: 200
+	}]
+}

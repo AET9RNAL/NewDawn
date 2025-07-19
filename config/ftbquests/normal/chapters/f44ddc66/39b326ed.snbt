@@ -1,0 +1,39 @@
+{
+	x: 19.0d,
+	y: -2.0d,
+	text: [
+		"§f§eConverters§f allow you to convert energy between two specified types §oin both directions§f.",
+		"",
+		"§fIf the output is §cinsufficient§f for your needs, insert §6Transformer Upgrades§f and §eEnergy Upgrades§f.  ",
+		"§fTo achieve §amaximum output§f, it's recommended to use the §dhighest tier§f upgrades available.",
+		"",
+		"§7§oTypically, one slot is reserved for a transformer, and the rest for energy storage.§r"
+	],
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "414b2875",
+		type: "item",
+		items: [{
+			id: "powerutils:powerutils",
+			Damage: 3s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "5677aae3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e4923073",
+		type: "xp",
+		xp: 100
+	}]
+}

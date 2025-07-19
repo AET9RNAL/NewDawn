@@ -1,0 +1,48 @@
+{
+	x: 23.25d,
+	y: 8.25d,
+	shape: "hexagon",
+	dependencies: [
+		"fa48dafb"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3c4110df",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:imp_se_gen",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "646218cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "40f85a1e",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 2"
+	},
+	{
+		uid: "ed68e872",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "8839741b",
+		type: "xp",
+		xp: 75
+	}]
+}

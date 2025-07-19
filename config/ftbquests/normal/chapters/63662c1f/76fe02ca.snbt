@@ -1,0 +1,35 @@
+{
+	x: 9.0d,
+	y: -17.5d,
+	shape: "hexagon",
+	text: [
+		"§fA machine that generates different §eLoot§f depending on the §dModule§f inserted — at the cost of various §9Liquids§f or §3Mana§f.",
+		"",
+		"§f§lHow to Use:§r  ",
+		"§f1. Place the desired module in the §bcentral slot§f.  ",
+		"§f2. Supply it with the required §9liquid§f or §3mana§f.",
+		"",
+		"§7§oTo view all available recipes, press §b[U]§7§o while hovering over the machine in your inventory.§r"
+	],
+	dependencies: [
+		"95b073dd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "af57e870",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconicmachine_industrial_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "3068b08d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

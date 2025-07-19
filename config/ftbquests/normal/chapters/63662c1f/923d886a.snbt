@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b97769a5"
+	],
+	tasks: [{
+		uid: "3c8f640b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ecfb99a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_sides",
+    "up": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_sides",
+    "north": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_front",
+    "south": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_sides",
+    "west": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_sides",
+    "east": "contenttweaker:blocks/mekamachine_extreme_thermal_evaporation_chamber_sides"
+  }
+}

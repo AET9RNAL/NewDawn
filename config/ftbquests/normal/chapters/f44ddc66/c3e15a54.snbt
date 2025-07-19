@@ -1,0 +1,32 @@
+{
+	x: 44.5d,
+	y: -4.5d,
+	shape: "diamond",
+	dependencies: [
+		"9f5d777b",
+		"d0ff60e8"
+	],
+	tasks: [{
+		uid: "727309eb",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_photon",
+			tag: {
+				damage: 691200
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "045db49d",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 5",
+		count: 4
+	},
+	{
+		uid: "86157695",
+		type: "xp",
+		xp: 200
+	}]
+}

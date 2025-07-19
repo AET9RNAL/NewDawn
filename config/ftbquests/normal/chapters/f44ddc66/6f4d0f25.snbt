@@ -1,0 +1,31 @@
+{
+	x: 66.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"7ddc42c7",
+		"d0a9cfc2"
+	],
+	tasks: [{
+		uid: "9d94c665",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectralshovel",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10267a30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

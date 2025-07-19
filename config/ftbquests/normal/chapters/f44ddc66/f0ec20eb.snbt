@@ -1,0 +1,34 @@
+{
+	x: 22.0d,
+	y: -2.0d,
+	text: [
+		"Converts EF/TE bidirectionally"
+	],
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "181ac8f8",
+		type: "item",
+		items: [{
+			id: "powerutils:powerutils",
+			Damage: 2s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "a8a5f399",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "25e6dcc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	}]
+}

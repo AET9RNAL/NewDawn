@@ -1,0 +1,25 @@
+Block Spam: false
+ Spam Result Console Command: kick %name% §cReceived TMC/TMS from client\n§fEither lag or spam... :P
+ MaxChatsPerPlayerPerMinute: 35
+ MaxChatsPerPlayerPer10s: 15
+ MaxChatsPerPlayerPerSecond: 4
+
+Sanitize Chat: true
+ Filth Result Console Command: 
+Sanitize Commands: false
+Sanitize Sign Text: true
+
+#Warning: the following configuration option can cause harmless 
+#words to be blocked if their reversed spelling matches a bad word.
+Check words backwards in antiFilth: false
+Default Badword Replacement: [-]
+
+It is generally good to disable these if you have another plugin
+that handles sign/chat color (such as EssentialsChat)
+Chat Colors: true
+Chat Formats: true
+Sign Colors: true
+Sign Formats: true
+
+Automatic update check: true
+Plugin Prefix (before plugin->player messages): §3<§aC§3>§f 

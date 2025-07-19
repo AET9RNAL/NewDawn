@@ -1,0 +1,24 @@
+{
+	icon: "divinerpg:king_of_scorchers_statue",
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"95d91c62"
+	],
+	tasks: [{
+		uid: "0e89b94c",
+		type: "kill",
+		entity: "divinerpg:king_of_scorchers",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "139de5b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

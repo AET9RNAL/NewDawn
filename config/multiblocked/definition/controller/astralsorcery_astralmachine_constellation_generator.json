@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "location": "astralsorcery:astralmachine_constellation_generator",
+  "traits": {
+    "forge_energy": {
+      "cIO": 1,
+      "gIO": 2,
+      "x": 149,
+      "y": 81,
+      "width": 18,
+      "height": 85,
+      "texture": "multiblocked:textures/rf_charge_bar_medium_ver.png",
+      "fillDirection": 3,
+      "capacity": 1000000,
+      "maxReceive": 20000,
+      "maxExtract": 20000
+    },
+    "starlight_as": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 27,
+      "width": 11,
+      "height": 63,
+      "texture": "multiblocked:textures/starlight_progress_bar.png",
+      "fillDirection": 3,
+      "capacity": 125000,
+      "passiveStarlight": false
+    },
+    "background": "multiblocked:textures/as_gui_const_gen.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN",
+        "x": 151,
+        "y": 7,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:astralmachine_constellation_generator",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Astralmachine_constellation_generator",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "astralsorcery:astralmachine_constellation_generator",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

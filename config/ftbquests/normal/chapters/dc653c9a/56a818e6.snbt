@@ -1,0 +1,43 @@
+{
+	x: -6.5d,
+	y: -31.0d,
+	text: [
+		"§fJust like a regular §6Chest§f, but with §emore slots§f."
+	],
+	dependencies: [
+		"6479c3ee"
+	],
+	tasks: [{
+		uid: "64a550b0",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "caf62312",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "6cc56d71",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "8d70beeb",
+		type: "xp",
+		xp: 50
+	}]
+}

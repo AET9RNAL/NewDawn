@@ -1,0 +1,65 @@
+{
+	x: 10.0d,
+	y: -11.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"b14f3008"
+	],
+	tasks: [{
+		uid: "8e0d97bf",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:simplemachine",
+			Damage: 6s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85ea5831",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "3a930f18",
+		type: "item",
+		item: {
+			id: "industrialupgrade:fluid_cell",
+			Count: 64,
+			tag: {
+				Fluid: {
+					FluidName: "iufluiduu_matter",
+					Amount: 1000
+				}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "3b9965b2",
+		type: "item",
+		item: "industrialupgrade:itemcore 1 4"
+	},
+	{
+		uid: "95f87a42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "a57ce95c",
+		type: "xp",
+		xp: 100
+	}]
+}

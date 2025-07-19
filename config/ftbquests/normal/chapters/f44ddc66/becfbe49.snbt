@@ -1,0 +1,38 @@
+{
+	x: -16.5d,
+	y: 13.5d,
+	text: [
+		"§fPut what you need inside and hold §eRMB§f on the machine to begin processing.",
+		"",
+		"§7§oCan be repaired with a §6Crushing Element§7§o.",
+		"",
+		"§fLook at the progress bar provided by §bThe One Probe§f — it will advance.  ",
+		"§fAs soon as it reaches §a100%§f, your recipe will be complete."
+	],
+	dependencies: [
+		"84d517f9"
+	],
+	tasks: [{
+		uid: "eda85e69",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:macerator",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "ee7c9c43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "ad005940",
+		type: "xp",
+		xp: 50
+	}]
+}

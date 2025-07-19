@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>$3FPS$f: </str>
+            <op>
+                <str>gt</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>50</num>
+                <num>40</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>$a</str>
+                <str>$b</str>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <var>fps</var>
+            
+            <str>$7 |$f $dRAM$f: $e</str>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1048576</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>M$f (</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memtotal</var>
+                </pct>
+                <num>60</num>
+                <num>70</num>
+                <num>80</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <round>
+                <pct>
+                    <var>memused</var>
+                    <var>memtotal</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>%$f)$f</str>
+            <op>
+                <str>gt</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memtotal</var>
+                </pct>
+                <num>92</num>
+                <num>0</num>
+                <str>$c</str>
+                <str />
+            </op>
+            <str>$7 |$f $2Ent$f: $e{entitiestotal}$f</str>
+            <str>$7 |$r  </str>
+                <icon>
+                    <str>newdawn:gui/clock.png</str>
+                    <num>0</num>
+                    <num>0</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                    <num>128</num>
+                </icon>
+            <str> $a</str>
+            <var>rltime24</var>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>1</num>
+                <num>0</num>
+                <str>$7 |$f $6Ping$f:</str>
+                <str />
+            </op>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>500</num>
+                <num>300</num>
+                <num>200</num>
+                <num>150</num>
+                <num>100</num>
+                <num>0</num>
+                <str>$4</str>
+                <str>$c</str>
+                <str>$6</str>
+                <str>$e</str>
+                <str>$b</str>
+                <str>$a</str>
+            </op>
+            <op>
+                <str>gt</str>
+                <var>ping</var>
+                <num>1</num>
+                <num>0</num>
+                <str> $e{ping}ms</str>
+                <str />
+            </op>
+            <str>$r</str>
+        </line>
+    </lines>
+    <lines at="bottomleft">
+    <line>
+        <icon>
+            <concat>
+                <str>newdawn:gui/phase</str>
+                <var>moonphase</var>
+                <str>.png</str>
+            </concat>
+            <num>0</num>
+            <num>0</num>
+            <num>128</num>
+            <num>128</num>
+            <num>128</num>
+            <num>128</num>
+        </icon>
+        <str> </str>
+        <op>
+            <str>le</str>
+            <var>moonphase</var>
+            <num>0</num>
+            <num>1</num>
+            <num>2</num>
+            <num>3</num>
+            <num>4</num>
+            <num>5</num>
+            <num>6</num>
+            <num>7</num>
+            <str>Full Moon</str>
+            <str>Waning Gibbous</str>
+            <str>Third Quarter</str>
+            <str>Waning Crescent</str>
+            <str>New Moon</str>
+            <str>Waxing Crescent</str>
+            <str>First Quarter</str>
+            <str>Waxing Gibbous</str>
+        </op>
+
+        <str> $7| $fSpeed$f: $e</str>
+        <round>
+         <var>speed</var>
+        <num>0</num>
+        </round>
+
+
+        <str> $7|  </str>
+        <if>
+            <greater>
+                <var>light</var>
+                <num>7</num>
+            </greater>
+            <icon>
+                <str>newdawn:gui/bright.png</str>
+                <num>0</num>
+                <num>0</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+            </icon>
+            <icon>
+                <str>newdawn:gui/dim.png</str>
+                <num>0</num>
+                <num>0</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+                <num>128</num>
+            </icon>
+        </if>
+        <str> </str>
+        <op>
+            <str>gt</str>
+            <var>light</var>
+            <num>15</num>
+            <num>7</num>
+            <num>4</num>
+            <num>0</num>
+            <num>-1</num>
+            <str>$b</str>
+            <str>$a</str>
+            <str>$6</str>
+            <str>$c</str>
+            <str>$4</str>
+        </op>
+        <var>light</var>
+        <str>$r</str>
+    </line>
+</lines>
+
+    
+</config>

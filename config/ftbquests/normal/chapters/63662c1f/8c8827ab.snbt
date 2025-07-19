@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b97769a5"
+	],
+	tasks: [{
+		uid: "95045939",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec31ef3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

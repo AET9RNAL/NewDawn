@@ -1,0 +1,35 @@
+{
+	x: -67.5d,
+	y: -15.5d,
+	shape: "hexagon",
+	text: [
+		"The ultimate power of the wind"
+	],
+	dependencies: [
+		"6e702e7b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d9a4b716",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockgenerator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a312e11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "3b9c630b",
+		type: "xp",
+		xp: 50
+	}]
+}

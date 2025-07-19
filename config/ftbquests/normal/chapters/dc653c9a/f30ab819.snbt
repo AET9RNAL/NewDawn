@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:diamond_sword",
+	x: 2.5d,
+	y: -39.0d,
+	text: [
+		"§fScaling Health introduces a §cdynamic difficulty system§f.  ",
+		"When you first join the world, the difficulty starts at §a0§f. As time goes on and §edays go by§f, it will gradually increase.",
+		"",
+		"§fDifficulty directly affects §cmob strength§f — increasing their §cdamage§f and §chealth§f.",
+		"",
+		"§fAs they become more powerful, your tactics must adapt.  ",
+		"You can’t afford to sit idle — if difficulty rises unchecked, you'll eventually find yourself §cunable to kill anything§f.",
+		"",
+		"§fTo survive, you'll need to §aimprove your gear and armor§f constantly."
+	],
+	tasks: [{
+		uid: "f3d9466c",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0979fe9e",
+		type: "xp",
+		xp: 50
+	}]
+}

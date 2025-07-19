@@ -1,0 +1,24 @@
+{
+	x: 17.0d,
+	y: -6.5d,
+	dependencies: [
+		"fcd02cc5"
+	],
+	tasks: [{
+		uid: "dfea82ca",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:tier6_inferium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "60f9e2f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 59.0d,
+	y: -3.5d,
+	shape: "diamond",
+	dependencies: [
+		"0c923280"
+	],
+	tasks: [{
+		uid: "3d11d836",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:adv_nano_boots",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d107914d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"75ca46c0",
+		"0822a125"
+	],
+	tasks: [{
+		uid: "05567a6d",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "02590287",
+		type: "xp",
+		xp: 100
+	}]
+}

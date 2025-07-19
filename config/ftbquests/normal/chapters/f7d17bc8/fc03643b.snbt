@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 17.0d,
+	text: [
+		"§fAccepts §cRF§f, §cFE§f, or any other §cRF-like§f energy type  ",
+		"and converts it into §eAE§f energy usable by your §9AE Network§f."
+	],
+	dependencies: [
+		"32083429"
+	],
+	tasks: [{
+		uid: "40f5e2f8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "35215fd7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	}]
+}

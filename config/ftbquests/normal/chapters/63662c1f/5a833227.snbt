@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -25.0d,
+	dependencies: [
+		"0c1be9df"
+	],
+	tasks: [{
+		uid: "b1f1a4f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_chaos"
+		}]
+	}]
+}

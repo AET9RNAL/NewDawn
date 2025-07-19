@@ -1,0 +1,50 @@
+{
+	x: -57.0d,
+	y: -18.0d,
+	shape: "hexagon",
+	text: [
+		"§fAn advanced machine capable of mining specified ores within a §b32-block radius§f.",
+		"",
+		"§fUse filters to define which ores to mine.  ",
+		"§fCan be upgraded to work faster, but this also increases energy consumption."
+	],
+	dependencies: [
+		"a3bc4561"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9909ec99",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "15d15208",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "0912d41e",
+		type: "item",
+		item: {
+			id: "mekanismecoenergistics:ecotransmitter",
+			tag: {
+				tier: 2
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "c2a40d81",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Astralmachine_crystallizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "9b9d5a7e-aaf8-4706-9956-a40c19684a2f",
+      "duration": 6000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemrockcrystalsimple\",Count:1,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:400,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 84,
+              "constellation": "astralsorcery.constellation.mineralis"
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:11}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 584
+          }
+        ]
+      }
+    }
+  ]
+}

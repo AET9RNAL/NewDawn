@@ -1,0 +1,38 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"ca42fa9a",
+		"edeea799"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "ddcaffe6",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 1s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "401f9821",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "9f09237a",
+		type: "xp",
+		xp: 50
+	}]
+}

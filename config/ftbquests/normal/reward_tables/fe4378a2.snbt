@@ -1,0 +1,129 @@
+{
+	title: "Steam Era Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		item: "minecraft:piston",
+		count: 2
+	},
+	{
+		item: "minecraft:hopper"
+	},
+	{
+		item: "minecraft:apple",
+		count: 16
+	},
+	{
+		item: "minecraft:cookie",
+		count: 16
+	},
+	{
+		item: "minecraft:lava_bucket"
+	},
+	{
+		item: "industrialupgrade:blockresource 1 12"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 41"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 164"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 144"
+	},
+	{
+		item: "appliedenergistics2:sky_stone_block",
+		count: 16
+	},
+	{
+		item: "minecraft:redstone",
+		count: 16
+	},
+	{
+		item: {
+			id: "industrialupgrade:crafting_elements",
+			Damage: 272s,
+			tag: {}
+		}
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 538"
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 650",
+		count: 2
+	},
+	{
+		item: "minecraft:clay",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:ae_iu_item",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 492",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 271",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 42",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:circuit 1 15",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:itemingots 1 7",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:blockspace3 1 4",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockspace3 1 9",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:itemdust 1 60",
+		count: 5
+	},
+	{
+		item: "industrialupgrade:baseore1 1 3",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockspace 1 12",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore2 1 2",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:charged_redstone",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 476",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "steam_era_crate",
+		color: 7432795,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

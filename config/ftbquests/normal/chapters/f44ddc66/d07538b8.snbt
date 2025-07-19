@@ -1,0 +1,32 @@
+{
+	x: 38.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"bd1d55d5",
+		"20216da8"
+	],
+	tasks: [{
+		uid: "4b409e0f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rotor_iron",
+			tag: {
+				damage: 57600
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b31eb5b",
+		type: "item",
+		item: "minecraft:iron_block",
+		count: 24
+	},
+	{
+		uid: "d920d2a2",
+		type: "xp",
+		xp: 200
+	}]
+}

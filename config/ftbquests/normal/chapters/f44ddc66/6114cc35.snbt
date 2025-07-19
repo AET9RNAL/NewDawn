@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -5.0d,
+	dependencies: [
+		"a42b8b19"
+	],
+	tasks: [{
+		uid: "8ec87e3e",
+		type: "item",
+		items: [{
+			id: "quantum_generators:qg",
+			Damage: 3s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "2e1f302f",
+		type: "xp",
+		xp: 100
+	}]
+}

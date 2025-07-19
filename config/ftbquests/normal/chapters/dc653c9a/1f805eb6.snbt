@@ -1,0 +1,40 @@
+{
+	x: 6.5d,
+	y: -29.5d,
+	dependencies: [
+		"ab0fd0be"
+	],
+	tasks: [{
+		uid: "9e6b175c",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:gold_furnace_idle"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "c5136853",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "3df9e898",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "13844954",
+		type: "xp",
+		xp: 50
+	}]
+}

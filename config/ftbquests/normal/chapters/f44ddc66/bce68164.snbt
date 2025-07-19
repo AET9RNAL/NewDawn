@@ -1,0 +1,19 @@
+{
+	x: 27.75d,
+	y: -5.0d,
+	text: [
+		"§fCreate and test your §eReactor Schematics§f in this machine §awithout risk§f of blowing your base to §csmithereens§f."
+	],
+	dependencies: [
+		"2f0ab9a7"
+	],
+	tasks: [{
+		uid: "bad227e6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 131s,
+			tag: {}
+		}]
+	}]
+}

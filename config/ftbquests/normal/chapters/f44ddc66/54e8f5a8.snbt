@@ -1,0 +1,49 @@
+{
+	x: 15.0d,
+	y: 14.0d,
+	dependencies: [
+		"7a07a650",
+		"b4c79b88"
+	],
+	tasks: [{
+		uid: "c37909cc",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 4s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4eb6e8cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "34521d83",
+		type: "item",
+		item: "industrialupgrade:itemdust 1 24",
+		count: 32
+	},
+	{
+		uid: "6bb735cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c5e5f41e",
+		type: "xp",
+		xp: 75
+	}]
+}

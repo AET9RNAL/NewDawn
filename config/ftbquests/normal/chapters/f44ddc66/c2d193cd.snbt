@@ -1,0 +1,32 @@
+{
+	x: -18.0d,
+	y: -3.0d,
+	dependencies: [
+		"3435fa77",
+		"df833064"
+	],
+	tasks: [{
+		uid: "e8b2f649",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 178s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "e6579b30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0cc741a3",
+		type: "xp",
+		xp: 50
+	}]
+}

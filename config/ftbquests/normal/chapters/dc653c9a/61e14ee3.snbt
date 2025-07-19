@@ -1,0 +1,43 @@
+{
+	x: -2.0d,
+	y: -36.0d,
+	text: [
+		"§6Trees are falling, or am I dreaming?"
+	],
+	dependencies: [
+		"0725eeb5"
+	],
+	tasks: [{
+		uid: "93ae62f1",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e9d6bfd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "4d38a7c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "be07f99c",
+		type: "xp",
+		xp: 50
+	}]
+}

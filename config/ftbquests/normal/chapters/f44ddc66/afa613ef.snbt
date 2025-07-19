@@ -1,0 +1,71 @@
+{
+	x: -18.0d,
+	y: 20.0d,
+	shape: "diamond",
+	text: [
+		"§6§lEssential Tools: Cutters & Hammer§r",
+		"",
+		"§fCutters and Hammer are your number one tools to make.",
+		"",
+		"§fThey are used with primitive machines, such as the §bAnvil§f and §bRolling Machine§f to produce §dPlates§f and §dCables§f."
+	],
+	dependencies: [
+		"a3155a90",
+		"75ca46c0"
+	],
+	tasks: [{
+		uid: "95502b02",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "157b3464",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa72e46a",
+		type: "item",
+		item: "industrialupgrade:itemplates 1 22",
+		count: 16
+	},
+	{
+		uid: "34a6e0d9",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 2",
+		count: 4
+	},
+	{
+		uid: "16e3a8dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "974f10ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "55f318a1",
+		type: "xp",
+		xp: 50
+	}]
+}

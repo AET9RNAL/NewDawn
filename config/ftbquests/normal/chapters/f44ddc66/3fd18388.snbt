@@ -1,0 +1,41 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "9365cf45",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:double_transformer",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "05b70a75",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "bd51a9a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "15c7adeb",
+		type: "xp",
+		xp: 100
+	}]
+}

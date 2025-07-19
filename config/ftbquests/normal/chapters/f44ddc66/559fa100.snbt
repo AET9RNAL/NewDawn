@@ -1,0 +1,44 @@
+{
+	x: 26.5d,
+	y: 7.0d,
+	text: [
+		"§fProduces §dExcited Cores§f and other ingredients necessary for the §eSolar Industry§f."
+	],
+	dependencies: [
+		"8830e670"
+	],
+	tasks: [{
+		uid: "94d705c6",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:gen_sunnarium",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a95f97a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "a10a4b8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "519954c8",
+		type: "xp",
+		xp: 75
+	}]
+}

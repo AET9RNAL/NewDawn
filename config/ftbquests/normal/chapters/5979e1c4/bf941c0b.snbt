@@ -1,0 +1,24 @@
+{
+	x: 17.0d,
+	y: -5.5d,
+	dependencies: [
+		"fcd02cc5"
+	],
+	tasks: [{
+		uid: "b887e667",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "10106d0b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

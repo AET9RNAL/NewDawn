@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 14.5d,
+	dependencies: [
+		"2b87ca87"
+	],
+	tasks: [{
+		uid: "d723eed3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "29050f9c",
+		type: "xp",
+		xp: 100
+	}]
+}

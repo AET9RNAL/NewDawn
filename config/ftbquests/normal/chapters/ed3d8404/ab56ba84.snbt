@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"fcf4ed31"
+	],
+	tasks: [{
+		uid: "82b4f706",
+		type: "item",
+		items: [{
+			item: "iuadditions:core_eden"
+		}]
+	}],
+	rewards: [{
+		uid: "76d76f4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

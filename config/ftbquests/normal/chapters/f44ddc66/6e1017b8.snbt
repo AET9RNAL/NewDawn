@@ -1,0 +1,47 @@
+{
+	x: 17.5d,
+	y: 15.5d,
+	shape: "diamond",
+	dependencies: [
+		"29fd6ef0"
+	],
+	tasks: [{
+		uid: "c441fbef",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:cable_iu_item 1 13"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "872109b3",
+		type: "item",
+		item: "industrialupgrade:itemdust 1 24",
+		count: 64
+	},
+	{
+		uid: "9b240b2e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "fa04c7a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "032073ea",
+		type: "xp",
+		xp: 75
+	}]
+}

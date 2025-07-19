@@ -1,0 +1,171 @@
+{
+	title: "Advanced Era Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "industrialupgrade:crafting_elements 1 72",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 16",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 92",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 652",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:upgrade_casing",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 275",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 373",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 553",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:photoniy",
+		count: 2
+	},
+	{
+		item: {
+			id: "industrialupgrade:circuit",
+			Damage: 10s,
+			tag: {
+				level: 7
+			}
+		},
+		count: 2
+	},
+	{
+		item: "industrialupgrade:quantumitems2",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:quantumitems7",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:compresscarbon",
+		count: 8
+	},
+	{
+		item: {
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluiduu_matter",
+					Amount: 1000
+				}
+			}
+		}
+	},
+	{
+		item: "industrialupgrade:gear 1 9",
+		count: 12
+	},
+	{
+		item: "industrialupgrade:alloyingot 1 20",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:alloyingot 1 26",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:itemsunnarium 1 3",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 299",
+		count: 3
+	},
+	{
+		item: "industrialupgrade:upgrades 1 8"
+	},
+	{
+		item: "industrialupgrade:cryogenic_cooling_mixture"
+	},
+	{
+		item: "industrialupgrade:itemiucrafring 1 1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockresource 1 7",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:itemcore 1 3",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:cable_iu_item 1 15",
+		count: 32
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 96",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 20",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 414",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:itemcore 1 2",
+		count: 4
+	},
+	{
+		item: "industrialupgrade:itemingots 1 25",
+		count: 32
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 367",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 356",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 47",
+		count: 6
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 387",
+		count: 16
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 340",
+		count: 32
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 592",
+		count: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 532"
+	}],
+	loot_crate: {
+		string_id: "advanced_era_crate",
+		color: 2459383,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

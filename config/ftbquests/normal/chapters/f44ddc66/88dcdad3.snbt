@@ -1,0 +1,32 @@
+{
+	x: 44.5d,
+	y: 3.5d,
+	shape: "diamond",
+	dependencies: [
+		"ecbbefba",
+		"ff105a1b"
+	],
+	tasks: [{
+		uid: "2f5445ff",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:photon",
+			tag: {
+				damage: 691200
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f74d3378",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 5",
+		count: 4
+	},
+	{
+		uid: "670a9ccc",
+		type: "xp",
+		xp: 200
+	}]
+}

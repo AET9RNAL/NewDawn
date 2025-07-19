@@ -1,0 +1,29 @@
+{
+	x: -8.5d,
+	y: -10.630357142857115d,
+	dependencies: [
+		"8a122085"
+	],
+	tasks: [{
+		uid: "add3310d",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "c99d3713",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "de9926e8",
+		type: "xp",
+		xp: 50
+	}]
+}

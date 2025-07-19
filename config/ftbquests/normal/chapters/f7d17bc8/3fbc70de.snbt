@@ -1,0 +1,20 @@
+{
+	x: 18.5d,
+	y: 4.0d,
+	text: [
+		"An improved version of portable cell, stores much more bytes and types, also has auto-pickup feature."
+	],
+	dependencies: [
+		"7c2a5a5c"
+	],
+	tasks: [{
+		uid: "b698e75d",
+		type: "item",
+		items: [{
+			id: "crazyae:improved_portable_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

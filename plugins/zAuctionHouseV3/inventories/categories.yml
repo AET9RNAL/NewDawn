@@ -1,0 +1,98 @@
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+#
+######################################################################################################################################### 
+
+name: "&7Categories"
+size: 54
+type: CATEGORIES
+items:
+  slots:
+    type: NONE_SLOT
+    isPermanent: true
+    item:
+      material: STAINED_GLASS_PANE
+      data: 7
+      name: "&e"
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 18
+      - 27
+      - 17
+      - 26
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 53
+      - 52
+      - 51
+      - 48
+      - 50
+  back:
+    type: BACK
+    item:
+      material: NETHER_STAR
+      name: "&cНазад"
+    slot: 49   
+  block:
+    type: CATEGORIES
+    category: "blocks"
+    item:
+      material: GRASS
+      name: "&fКатегория: Блоки"
+      lore:
+        - "&f» &7There are &b%zauctionhouse_category_item_blocks% &7items in the blocks category."
+    slot: 20
+  weapons:
+    type: CATEGORIES
+    category: "weapons"
+    item:
+      material: DIAMOND_SWORD
+      name: "&fКатегория: Оружие"
+      lore:
+        - "&f» &7There are &b%zauctionhouse_category_item_weapons% &7items in the blocks weapons."
+    slot: 21         
+  tools:
+    type: CATEGORIES
+    category: "tools"
+    item:
+      material: IRON_AXE
+      name: "&fКатегория: Инструменты"
+      lore:
+        - "&f» &7There are &b%zauctionhouse_category_item_tools% &7items in the blocks tools."
+    slot: 22
+  potions:
+    type: CATEGORIES
+    category: "potions"
+    item:
+      material: BLAZE_ROD
+      name: "&fКатегория: Зелья"
+      lore:
+        - "&f» &7There are &b%zauctionhouse_category_item_potions% &7items in the blocks potions."
+    slot: 23    
+  misc:
+    type: CATEGORIES
+    category: "misc"
+    item:
+      material: EXP_BOTTLE
+      name: "&fКатегория: Разное"
+      lore:
+        - "&f» &7There are &b%zauctionhouse_category_item_misc% &7items in the blocks misc."
+    slot: 24    

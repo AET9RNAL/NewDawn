@@ -1,0 +1,65 @@
+{
+	x: -2.0d,
+	y: -41.0d,
+	text: [
+		"§6§lWelcome to \"New Dawn\" (Expert) — Techno Magic RPG Modpack§r",
+		"",
+		"§fCongratulations on successfully installing §d\"New Dawn (Expert)\"§f — a unique blend of §9Technology§f and §5Magic§f.",
+		"",
+		"§fBefore you dive headfirst into your journey, know that there's a lot waiting for you:",
+		"",
+		"§2I.§f Lots of rewarding quests  ",
+		"§2II.§f Custom, complicated crafting recipes  ",
+		"§2III.§f New custom machines  ",
+		"§2IV.§f Magic and Technology  ",
+		"§2V.§f And tons of new mechanics, content, and changes",
+		"",
+		"§fThis pack took a §ccountless number of hours§f to create — and there's still more planned content that's only on paper for now.",
+		"",
+		"§eThe pack is currently in early beta.§f  ",
+		"That means you may encounter §cbugs§f, §cinconsistencies§f in recipes, or §ccrashes§f.  ",
+		"While I've done my best to spot and fix these, it's impossible to catch everything alone.",
+		"",
+		"§fSo please, §dreport anything unusual§f you come across — you'll be contributing to development, and I’ll be §oinfinitely grateful§r.",
+		"",
+		"§fAs mentioned earlier, this pack includes §ecustom machines§f (e.g., §bAstral Sorcery§f and §2Botania§f based)  ",
+		"designed to make your life easier — and, in some ways, lazier §7(lol)§f.  ",
+		"Their functionality is explained in quests and is fairly intuitive once you press §e[U]§f to view their recipes.",
+		"",
+		"§fStill stuck? Don’t be shy — ask a question in our §9Discord§f. We're happy to help and make sure your experience is a great one!",
+		"",
+		"§c*** Make sure you're using the §lofficial version§r§c of the modpack.§r  ",
+		"§fDownloading from third-party websites may result in tampered or even §cinfected§f distributions.",
+		"",
+		"§fWe officially distribute only on:",
+		"",
+		"§61.§f CurseForge — §nhttps://legacy.curseforge.com/members/aeternai/projects§r  ",
+		"§a2.§f Modrinth — §nhttps://modrinth.com/user/AETeRnAL§r",
+		"",
+		"§fOther useful links:",
+		"",
+		"§9Discord — §nhttps://discord.gg/bXgXTa6Wxs§r  ",
+		"§aLinkTree — §nhttps://linktr.ee/AET3RNAL§r"
+	],
+	tasks: [{
+		uid: "edc67491",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f5428f32",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "01dc8945",
+		type: "item",
+		item: "divinerpg:fruit_cake",
+		count: 4
+	},
+	{
+		uid: "1a89c254",
+		type: "item",
+		item: "minecraft:log",
+		count: 5
+	}]
+}

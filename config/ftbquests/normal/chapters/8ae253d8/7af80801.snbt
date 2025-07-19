@@ -1,0 +1,26 @@
+{
+	x: -37.5d,
+	y: -8.5d,
+	text: [
+		"§fIt's worth mentioning that §dMeka-Armor§f in its base form is §cvery weak§f.  ",
+		"",
+		"You should look at it more as a §7shell§f for future upgrades.  ",
+		"It's the §eModification Units§f that make it truly §apowerful§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"17742804"
+	],
+	tasks: [{
+		uid: "4630d274",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock4 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "03c3b431",
+		type: "xp",
+		xp: 50
+	}]
+}

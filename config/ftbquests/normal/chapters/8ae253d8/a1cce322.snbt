@@ -1,0 +1,23 @@
+{
+	x: -60.0d,
+	y: -25.0d,
+	shape: "diamond",
+	dependencies: [
+		"495e47b0"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "f840d5cd",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:ecogeneratoradd 1 9"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "cdced607",
+		type: "xp",
+		xp: 50
+	}]
+}

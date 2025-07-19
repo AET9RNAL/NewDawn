@@ -1,0 +1,15 @@
+{
+	x: 16.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"03e512e9"
+	],
+	tasks: [{
+		uid: "552b4622",
+		type: "item",
+		items: [{
+			item: "crazyae:material 1 4"
+		}]
+	}]
+}

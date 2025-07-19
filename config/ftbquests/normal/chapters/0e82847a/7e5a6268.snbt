@@ -1,0 +1,41 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	dependencies: [
+		"91d5bb40"
+	],
+	tasks: [{
+		uid: "37d14a86",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "85f8bef7",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 1s,
+			tag: {
+				weight: 76
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "e6e52c81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "a9051a3c",
+		type: "xp",
+		xp: 50
+	}]
+}

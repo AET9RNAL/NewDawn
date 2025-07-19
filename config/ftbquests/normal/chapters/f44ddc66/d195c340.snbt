@@ -1,0 +1,34 @@
+{
+	x: -20.5d,
+	y: 5.5d,
+	text: [
+		"§fTo advance the crafting process, press §eLMB§f when the indicator is in the §aGreen Area§f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aebbeef4"
+	],
+	tasks: [{
+		uid: "6a6fd458",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:electronics_assembler",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "97ab331c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "c5d551f6",
+		type: "xp",
+		xp: 50
+	}]
+}

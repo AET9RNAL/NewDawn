@@ -1,0 +1,24 @@
+{
+	x: 18.5d,
+	y: -2.5d,
+	dependencies: [
+		"a2570773"
+	],
+	tasks: [{
+		uid: "9b2f90ed",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "062367de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

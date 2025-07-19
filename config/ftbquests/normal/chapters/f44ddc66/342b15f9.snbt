@@ -1,0 +1,29 @@
+{
+	x: -23.0d,
+	y: 23.0d,
+	text: [
+		"Use planner and deplanner to build multiblocks faster."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eff8ca3"
+	],
+	tasks: [{
+		uid: "872a0651",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:multiblock_planner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3497c53",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:multiblock_deplanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

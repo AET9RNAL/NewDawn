@@ -1,0 +1,29 @@
+{
+	x: -20.0d,
+	y: -13.0d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "1089d32d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_thermalily"
+		}]
+	}],
+	rewards: [{
+		uid: "c1b0b973",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "186c22c6",
+		type: "xp",
+		xp: 50
+	}]
+}

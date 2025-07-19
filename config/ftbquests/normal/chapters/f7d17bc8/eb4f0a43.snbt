@@ -1,0 +1,30 @@
+{
+	x: 9.0d,
+	y: 18.0d,
+	dependencies: [
+		"56f4e66d"
+	],
+	tasks: [{
+		uid: "d034c3a4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "05cd9db6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "86f4df2e",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 64
+	}]
+}

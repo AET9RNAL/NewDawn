@@ -1,0 +1,24 @@
+{
+	x: 39.0d,
+	y: -15.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "5692c860",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solar_panel_glass 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "59c1d122",
+		type: "item",
+		item: "industrialupgrade:itemsunnariumpanel 1 2",
+		count: 24
+	},
+	{
+		uid: "5eca7a2b",
+		type: "xp",
+		xp: 75
+	}]
+}

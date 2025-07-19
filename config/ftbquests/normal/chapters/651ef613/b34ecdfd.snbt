@@ -1,0 +1,39 @@
+{
+	x: -2.5d,
+	y: -10.0d,
+	shape: "diamond",
+	text: [
+		"§fThis machine can create §dPerfect Rock Crystals§f — no more complex automations!"
+	],
+	dependencies: [
+		"fca8fad0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ac33f20d",
+		type: "item",
+		items: [{
+			item: "multiblocked:astralmachine_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "9d08be41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "be5fcfd9",
+		type: "item",
+		item: "astralsorcery:itemfragmentcapsule"
+	},
+	{
+		uid: "f80fe060",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -17.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"143290a4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4ac4a620",
+		type: "item",
+		items: [{
+			item: "packageddraconic:fusion_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "19a100de",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1112f28a",
+		type: "item",
+		item: "draconicevolution:chaotic_core"
+	}]
+}

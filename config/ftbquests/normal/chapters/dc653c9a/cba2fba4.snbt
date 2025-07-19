@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -41.0d,
+	text: [
+		"§6Tool Durability Overhaul§r",
+		"",
+		"§fIf you look up any vanilla or some modded tools, you'll notice that they are §cextremely fragile§f  ",
+		"and can be broken with just §cone hit§f. That's because in the beginning,  ",
+		"you'll have to advance through §aTinkers' Construct§f instead of the classic way.",
+		"",
+		"§fUpgrade your Tinkers' tools as much as you can, and choose materials §dwisely§f  ",
+		"to get the most §aefficient§f tools possible."
+	],
+	tasks: [{
+		uid: "7ee5413d",
+		type: "checkmark",
+		icon: "minecraft:wooden_pickaxe"
+	}],
+	rewards: [{
+		uid: "567bf3c0",
+		type: "xp",
+		xp: 100
+	}]
+}

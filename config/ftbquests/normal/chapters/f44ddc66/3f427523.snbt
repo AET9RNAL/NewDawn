@@ -1,0 +1,44 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	text: [
+		"§6§lSteam Pressure is Critical for Operation!§r",
+		"",
+		"§f§eSteam Machines§f require §cPressure§f to operate!",
+		"",
+		"§fIn the GUI of the steam machine, hover over the initial §a“0.0”§f value — that’s your current pressure.  ",
+		"",
+		"§fTo run the machine, increase the pressure to the required value (shown while hovering).",
+		"",
+		"§fPlace a §6Pressure Converter§f next to the machine, supply it with §bSuperheated Steam§f, and set the desired pressure value.",
+		"",
+		"§7§oFor more information, click the §b“?”§7§o icon at the top right corner of the machine."
+	],
+	dependencies: [
+		"8f4d1906"
+	],
+	tasks: [{
+		uid: "24e7a533",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 164s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "ddec9a99",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "11fde60a",
+		type: "xp",
+		xp: 50
+	}]
+}

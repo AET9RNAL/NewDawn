@@ -1,0 +1,33 @@
+{
+	x: 16.5d,
+	y: -16.5d,
+	dependencies: [
+		"270ecbcd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "564e41bf",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:wiring_storage",
+			Damage: 10s,
+			tag: {}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "98fd6d66",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	},
+	{
+		uid: "37ccbd40",
+		type: "xp",
+		xp: 100
+	}]
+}

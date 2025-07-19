@@ -1,0 +1,52 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "AET9RNAL",
+      "uniqueId": "303a9b45-12c7-4157-8ff1-594a5d6ca809"
+    },
+    "time": 1752097658587,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/y65TtW5LeK"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1701723036790,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2023-12-04_21.49.26.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1701632440289,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2023-12-03_20.39.22.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AETERNAL",
+      "uniqueId": "2a076cce-e954-3b8a-9aca-88a547c55f73"
+    },
+    "time": 1695658316477,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2023-09-25_16.11.38.hprof"
+    }
+  }
+]

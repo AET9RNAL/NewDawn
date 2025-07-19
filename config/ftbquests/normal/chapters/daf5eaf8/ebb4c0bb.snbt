@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"§fGrow §dEnder Pearls§f.  ",
+		"§7Can be obtained by punching grass."
+	],
+	tasks: [{
+		uid: "262096a0",
+		type: "item",
+		items: [{
+			item: "extrautils2:enderlilly"
+		}]
+	}],
+	rewards: [{
+		uid: "45ca291d",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 16
+	}]
+}

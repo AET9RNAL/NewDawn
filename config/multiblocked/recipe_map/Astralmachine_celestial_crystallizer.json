@@ -1,0 +1,60 @@
+{
+  "name": "Astralmachine_celestial_crystallizer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "7bae3831-0980-47b7-b7e8-a52c17eb7a0b",
+      "duration": 8400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1,Damage:0s,tag:{astralsorcery:{crystalProperties:{collectiveCapability:100,size:900,fract:0,purity:100,sizeOverride:-1}}},ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 108,
+              "constellation": "astralsorcery.constellation.horologium"
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:12}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1071
+          }
+        ]
+      }
+    }
+  ]
+}

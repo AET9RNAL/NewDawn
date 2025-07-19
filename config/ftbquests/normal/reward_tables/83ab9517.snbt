@@ -1,0 +1,14 @@
+{
+	title: "Perfect Era Crate",
+	loot_size: 1,
+	rewards: [],
+	loot_crate: {
+		string_id: "perfect_era_crate",
+		color: 13453299,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -1.6303571428571146d,
+	dependencies: [
+		"81f2b32c"
+	],
+	tasks: [{
+		uid: "125ea884",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "dbd900c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "f2c80f73",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: -3.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "cbda8b7d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wither_skeleton_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "90170aeb",
+		type: "xp",
+		xp: 100
+	}]
+}

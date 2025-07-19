@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: -5.5d,
+	dependencies: [
+		"a2bfffe3"
+	],
+	tasks: [{
+		uid: "1294943b",
+		type: "item",
+		items: [{
+			item: "gendustry:liquifier"
+		}]
+	}],
+	rewards: [{
+		uid: "4a5cdd70",
+		type: "xp",
+		xp: 100
+	}]
+}

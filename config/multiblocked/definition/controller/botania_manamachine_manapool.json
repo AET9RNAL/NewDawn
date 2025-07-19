@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "location": "botania:manamachine_manapool",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 71,
+      "y": 61,
+      "width": 31,
+      "height": 38,
+      "texture": "multiblocked:textures/manapool_prog_bar.png",
+      "fillDirection": 2
+    },
+    "background": "multiblocked:textures/gui_manamachine_manapool.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "catalyst",
+        "x": 77,
+        "y": 72,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:module_manapool_alchemy\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_manapool_conjuration\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_manapool_dimensional\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:module_manapool\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out",
+        "x": 78,
+        "y": 103,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "upgrade",
+        "x": 151,
+        "y": 7,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:upgrade_x1\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x2\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x4\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x16\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:upgrade_x64\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "in",
+        "x": 78,
+        "y": 42,
+        "autoIO": true
+      }
+    ],
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 131,
+      "width": 14,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 1000000,
+      "allowSpark": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:manamachine_manapool",
+        "type": "imodel"
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.75,
+          1.0
+        ]
+      ]
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "manamachine_manapool",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "botania:manamachine_manapool",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

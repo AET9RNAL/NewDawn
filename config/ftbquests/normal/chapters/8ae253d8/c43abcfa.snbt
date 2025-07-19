@@ -1,0 +1,44 @@
+{
+	x: -52.5d,
+	y: -10.5d,
+	dependencies: [
+		"94c5a9c5"
+	],
+	tasks: [{
+		uid: "9b0afcf8",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}],
+	rewards: [{
+		uid: "9210a42d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "25733e3a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "c60d5edb",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "2a52970e",
+		type: "xp",
+		xp: 50
+	}]
+}

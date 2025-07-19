@@ -1,0 +1,39 @@
+{
+	x: -4.5d,
+	y: -6.0d,
+	dependencies: [
+		"c77deb64"
+	],
+	tasks: [{
+		uid: "7def6a02",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e4ef3a2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "deb81cd8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "2d147a15",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 42.0d,
+	y: 3.0d,
+	shape: "diamond",
+	dependencies: [
+		"b0ddf201",
+		"acd1978f"
+	],
+	tasks: [{
+		uid: "7dc7dc6b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:spectral",
+			tag: {
+				damage: 157090
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a011fb3d",
+		type: "item",
+		item: "industrialupgrade:baseblockingot1 1 1",
+		count: 32
+	},
+	{
+		uid: "588887b2",
+		type: "xp",
+		xp: 200
+	}]
+}

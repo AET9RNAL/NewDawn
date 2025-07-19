@@ -1,0 +1,125 @@
+{
+	title: "It's about flowers, always was",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.dream: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -22.5d,
+		y: -13.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/halo.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -5.0d,
+		y: -2.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/terra_plate_overlay.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: -13.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/flower0.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.5d,
+		y: -7.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/mana_stealer_sword.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.4999999999999858d,
+		y: -6.988095238095234d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/mana_stealer_sword_mirror.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -14.5d,
+		y: -6.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/candy0.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -2.5d,
+		y: -9.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 45.0d,
+		image: "contenttweaker:textures/blocks/catalyst_conjuration_overlay.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -31.0d,
+		y: -8.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/luminizer.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -14.0d,
+		y: -2.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/bottle_mana_1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.0d,
+		y: -5.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/blocks/runic_altar_top.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,245 @@
+{
+	title: "Ore Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:gold_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:coal_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:lapis_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:diamond_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:redstone_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:emerald_ore",
+		count: 8
+	},
+	{
+		item: "minecraft:quartz_ore",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1 1 1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1 1 3",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1 1 4",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore1 1 5",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:classicore",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:classicore 1 1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:classicore 1 2",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:classicore 1 3",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockpreciousore",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockpreciousore 1 1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:blockpreciousore 1 2",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 1",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 2",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 3",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 4",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 5",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 6",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 7",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 8",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 9",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 10",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 11",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 12",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 13",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 14",
+		count: 8
+	},
+	{
+		item: "industrialupgrade:baseore 1 15",
+		count: 8
+	},
+	{
+		item: "draconicevolution:draconium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:tiberium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:aurorium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:prometheum_ore",
+		count: 8
+	},
+	{
+		item: "taiga:duranite_ore",
+		count: 8
+	},
+	{
+		item: "taiga:valyrium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:karmesine_ore",
+		count: 8
+	},
+	{
+		item: "taiga:vibranium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:ovium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:jauxum_ore",
+		count: 8
+	},
+	{
+		item: "taiga:palladium_ore",
+		count: 8
+	},
+	{
+		item: "taiga:osram_ore",
+		count: 8
+	},
+	{
+		item: "taiga:uru_ore",
+		count: 8
+	},
+	{
+		item: "taiga:eezo_ore",
+		count: 8
+	},
+	{
+		item: "taiga:abyssum_ore",
+		count: 8
+	},
+	{
+		item: "taiga:dilithium_ore",
+		count: 8
+	},
+	{
+		item: "bigreactors:oreyellorite",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:inferium_ore",
+		count: 8
+	},
+	{
+		item: "mysticalagriculture:prosperity_ore",
+		count: 8
+	},
+	{
+		item: "astralsorcery:blockcustomore",
+		count: 4
+	},
+	{
+		item: "astralsorcery:blockcustomore 1 1",
+		count: 8
+	},
+	{
+		item: "aroma1997sdimension:miningore 1 1",
+		count: 32
+	}],
+	loot_crate: {
+		string_id: "ore_crate",
+		color: 9637718,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

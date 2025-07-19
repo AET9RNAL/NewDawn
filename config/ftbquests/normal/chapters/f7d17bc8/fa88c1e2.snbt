@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: 11.5d,
+	text: [
+		"§b§lPortable Cell§r",
+		"",
+		"§fThis is one of those items you should craft §aas soon as you can afford to§f.",
+		"",
+		"§fIt expands your inventory and allows you to carry more resources and is incredibly useful, especially when §6mining§f or gathering §6resources§f away from your base."
+	],
+	dependencies: [
+		"0ad61a33",
+		"24eae1f0"
+	],
+	tasks: [{
+		uid: "093f567a",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:portable_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

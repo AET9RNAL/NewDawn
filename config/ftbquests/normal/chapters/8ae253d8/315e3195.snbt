@@ -1,0 +1,34 @@
+{
+	x: -91.0d,
+	y: -21.5d,
+	dependencies: [
+		"ed883acd"
+	],
+	tasks: [{
+		uid: "62b46cea",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 4s,
+			tag: {
+				tier: 3
+			}
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6b7edb5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "cd3aac27",
+		type: "xp",
+		xp: 50
+	}]
+}

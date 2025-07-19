@@ -1,0 +1,15 @@
+{
+	title: "IU:Advanced Energy Era✓",
+	x: 11.0d,
+	y: -31.0d,
+	shape: "heart",
+	dependencies: [
+		"1c06c181"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "53c59ebe",
+		type: "checkmark",
+		title: "IU:Advanced Energy Era✓"
+	}]
+}

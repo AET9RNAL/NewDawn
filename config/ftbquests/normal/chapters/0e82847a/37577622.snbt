@@ -1,0 +1,29 @@
+{
+	x: -22.5d,
+	y: -16.5d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "c43ce495",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_gemini"
+		}]
+	}],
+	rewards: [{
+		uid: "9db0b161",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "25260cf1",
+		type: "xp",
+		xp: 50
+	}]
+}

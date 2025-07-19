@@ -1,0 +1,44 @@
+{
+	x: 16.5d,
+	y: -5.5d,
+	shape: "square",
+	dependencies: [
+		"b4c79b88",
+		"764932c2"
+	],
+	tasks: [{
+		uid: "c02ee873",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:itembatlamacrystal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e37511c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "b3ce4cb9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "b4de43ee",
+		type: "xp",
+		xp: 100
+	}]
+}

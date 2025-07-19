@@ -1,0 +1,47 @@
+{
+	x: 21.0d,
+	y: -21.0d,
+	dependencies: [
+		"4ec57d3b"
+	],
+	tasks: [{
+		uid: "c8986d57",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:solid",
+			Damage: 6s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a59836ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "1fc762f1",
+		type: "item",
+		item: "industrialupgrade:itemcore 1 5"
+	},
+	{
+		uid: "c474b6fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "perfect_era_crate"
+			}
+		}
+	},
+	{
+		uid: "02e09942",
+		type: "xp",
+		xp: 100
+	}]
+}

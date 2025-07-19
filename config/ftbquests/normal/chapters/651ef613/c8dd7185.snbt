@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -11.5d,
+	text: [
+		"§f§aLuck Modules§f are used in the §6Astral Quarry§f.  ",
+		"They determine the §echance§f of ore generation, as well as the §aquantity§f produced."
+	],
+	dependencies: [
+		"a01c4a68"
+	],
+	tasks: [{
+		uid: "8e8c8f31",
+		type: "item",
+		items: [{
+			item: "contenttweaker:module_luck_x1"
+		}]
+	}],
+	rewards: [{
+		uid: "259bad4c",
+		type: "item",
+		item: "astralsorcery:blockcustomore 1 1",
+		count: 24
+	},
+	{
+		uid: "0abf4b69",
+		type: "xp",
+		xp: 50
+	}]
+}

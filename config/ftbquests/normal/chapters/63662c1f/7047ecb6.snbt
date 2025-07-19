@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b97769a5"
+	],
+	tasks: [{
+		uid: "c108f1ed",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_shovel",
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df4168d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

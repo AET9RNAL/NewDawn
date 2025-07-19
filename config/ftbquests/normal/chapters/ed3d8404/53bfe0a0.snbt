@@ -1,0 +1,25 @@
+{
+	x: 12.5d,
+	y: 2.5d,
+	dependencies: [
+		"47a43c02"
+	],
+	tasks: [{
+		uid: "d0e3e115",
+		type: "item",
+		items: [{
+			item: "iuadditions:core_mortum"
+		}]
+	}],
+	rewards: [{
+		uid: "17f53b60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		},
+		count: 2
+	}]
+}

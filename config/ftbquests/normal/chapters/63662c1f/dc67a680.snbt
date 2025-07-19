@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -19.5d,
+	dependencies: [
+		"76fe02ca"
+	],
+	tasks: [{
+		uid: "f7e3194c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_eden"
+		}]
+	}]
+}

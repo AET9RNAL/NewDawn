@@ -1,0 +1,30 @@
+{
+	x: -10.0d,
+	y: -4.5d,
+	dependencies: [
+		"fb4f173a"
+	],
+	tasks: [{
+		uid: "8d70314d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:refractory_furnace",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "e08a3316",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "f69ac3e0",
+		type: "xp",
+		xp: 50
+	}]
+}

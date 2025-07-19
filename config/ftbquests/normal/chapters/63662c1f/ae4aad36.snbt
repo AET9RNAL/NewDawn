@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -19.5d,
+	dependencies: [
+		"e64d5ac1"
+	],
+	tasks: [{
+		uid: "32b37167",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaotic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd40d72a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: -19.5d,
+	dependencies: [
+		"f255d7b5"
+	],
+	tasks: [{
+		uid: "bd3a0060",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemspace 1 18"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ad15c13f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "5a2e8b27",
+		type: "xp",
+		xp: 100
+	}]
+}

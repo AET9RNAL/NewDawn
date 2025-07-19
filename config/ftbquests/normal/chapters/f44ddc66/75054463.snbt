@@ -1,0 +1,21 @@
+{
+	x: 39.8d,
+	y: 9.8d,
+	shape: "square",
+	dependencies: [
+		"b51595da"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "1286f5a6",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:solar_panel_battery 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7bcbb20a",
+		type: "xp",
+		xp: 75
+	}]
+}

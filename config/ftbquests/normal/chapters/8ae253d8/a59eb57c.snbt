@@ -1,0 +1,54 @@
+{
+	x: -50.5d,
+	y: -10.5d,
+	text: [
+		"§f§eTier Installers§f are a convenient way to upgrade your machine.  ",
+		"",
+		"Right-click the machine you want to upgrade to the next tier."
+	],
+	dependencies: [
+		"c43abcfa"
+	],
+	tasks: [{
+		uid: "c7250f6f",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}]
+	}],
+	rewards: [{
+		uid: "555a2fa6",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 8"
+	},
+	{
+		uid: "cda0c5b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "1cdd8862",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "1c5b9629",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "d84bbae7",
+		type: "xp",
+		xp: 50
+	}]
+}

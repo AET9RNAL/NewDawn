@@ -1,0 +1,32 @@
+{
+	x: -12.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"7592f18b",
+		"5ea694fb"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7cf03f25",
+		type: "item",
+		items: [{
+			item: "packagedastral:trait_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "ef18cd6f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fe9ee679",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -39.0d,
+	text: [
+		"§fYou'll notice that some quests can't be completed simply by having the required item in your inventory.  ",
+		"Such quests require you to §dmanually craft§f the item in order to complete them.",
+		"",
+		"§fThis means that any other method of obtaining the item — including §cautocrafting§f — will §cfail§f to complete the quest."
+	],
+	tasks: [{
+		uid: "c5b97b37",
+		type: "checkmark",
+		icon: "botania:cosmetic 1 31"
+	}],
+	rewards: [{
+		uid: "3efe4dbd",
+		type: "xp",
+		xp: 300
+	}]
+}

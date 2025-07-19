@@ -1,0 +1,23 @@
+{
+	x: -22.0d,
+	y: 23.0d,
+	text: [
+		"§6§lYour personal wallhack§r",
+		"",
+		"§fThis little device shows §b§lOre Veins§f and displays them for you.",
+		"",
+		"§7§oWorking radius is 4 Chunks.§r"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eff8ca3"
+	],
+	tasks: [{
+		uid: "61511572",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:sensor",
+			tag: {}
+		}]
+	}]
+}

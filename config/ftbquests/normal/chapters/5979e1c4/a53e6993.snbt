@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -5.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "d1f13cfe",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dye_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "4df130e6",
+		type: "xp",
+		xp: 100
+	}]
+}

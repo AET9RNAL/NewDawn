@@ -1,0 +1,36 @@
+{
+	x: 4.914285714285711d,
+	y: -3.3190476190476303d,
+	shape: "hexagon",
+	text: [
+		"§f§dBotaniverse Spreaders§f function like regular §bSpreaders§f, but with §ahigher Mana transfer rates§f."
+	],
+	dependencies: [
+		"120bae1c"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "e561fb1c",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader"
+		}]
+	}],
+	rewards: [{
+		uid: "cf81b0c6",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 2s,
+			tag: {
+				weight: 113
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "15d2e88a",
+		type: "xp",
+		xp: 50
+	}]
+}

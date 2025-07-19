@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -6.5d,
+	text: [
+		"§4You did it! Now, you possess the power to summon Herobrine"
+	],
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "9f31acae",
+		type: "item",
+		items: [{
+			item: "enderio:block_creative_spawner"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f77b2f4a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

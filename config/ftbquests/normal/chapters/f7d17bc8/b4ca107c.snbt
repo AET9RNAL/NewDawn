@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: 15.5d,
+	dependencies: [
+		"f9c038de"
+	],
+	tasks: [{
+		uid: "793e3b5f",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "bca6c337",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

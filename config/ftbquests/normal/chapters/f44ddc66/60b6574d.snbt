@@ -1,0 +1,44 @@
+{
+	x: 10.5d,
+	y: 1.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d5fd56f3",
+		"bc5446a3"
+	],
+	tasks: [{
+		uid: "f2878df2",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:moremachine1",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44e10b57",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "8a416e2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "8e652022",
+		type: "xp",
+		xp: 75
+	}]
+}

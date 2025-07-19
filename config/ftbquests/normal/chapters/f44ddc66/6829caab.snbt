@@ -1,0 +1,43 @@
+{
+	x: -18.0d,
+	y: 18.5d,
+	shape: "diamond",
+	text: [
+		"§6§lPrimitive Machines: Anvil Mechanics§r",
+		"",
+		"§fThe §bAnvil§f is used to produce §dPlates§f. It wears out over time and can be repaired with §9Titanium§f (§eSHIFT§f + §eRMB§f on the anvil).",
+		"",
+		"§fPrimitive machines have a §6“Skill”§f parameter that increases with use.",
+		"",
+		"§fThe higher the skill, the faster the mechanism.",
+		"",
+		"§7§oSkill gain encourages repeated use and progression.§r"
+	],
+	dependencies: [
+		"afa613ef",
+		"157b3464"
+	],
+	tasks: [{
+		uid: "c78192f8",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:block_anvil",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "8fdab032",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "80da208e",
+		type: "xp",
+		xp: 50
+	}]
+}

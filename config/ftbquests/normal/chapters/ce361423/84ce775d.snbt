@@ -1,0 +1,30 @@
+{
+	x: -8.0d,
+	y: -8.5d,
+	dependencies: [
+		"0a34863c",
+		"e1ff8836"
+	],
+	tasks: [{
+		uid: "3faff5ad",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "8462cbc4",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:marked_pedestal"
+		}],
+		count: 12L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "a5464afa",
+		type: "item",
+		item: "appliedenergistics2:material 1 38"
+	}]
+}

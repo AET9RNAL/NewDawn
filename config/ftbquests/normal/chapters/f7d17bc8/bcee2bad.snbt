@@ -1,0 +1,31 @@
+{
+	x: -13.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	dependencies: [
+		"e44b080b"
+	],
+	size: 1.1d,
+	tasks: [{
+		uid: "a22df5d9",
+		type: "item",
+		items: [{
+			item: "packagedastral:attunement_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "09926a12",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6c958250",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

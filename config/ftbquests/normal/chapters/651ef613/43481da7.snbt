@@ -1,0 +1,40 @@
+{
+	x: 7.940476190476197d,
+	y: -1.5595238095238102d,
+	shape: "diamond",
+	text: [
+		"§fThis machine is capable of generating §9Liquid Starlight§f.  ",
+		"To do so, it requires a constant supply of §eEnergy§f and a focused ray of the §bHorologium§f constellation."
+	],
+	dependencies: [
+		"edeea799"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a02402de",
+		type: "item",
+		items: [{
+			item: "astralsorcery:astralmachine_starlight_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "8cafe293",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 1000
+				}
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "f2421a6c",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	icon: "divinerpg:eternal_archer_statue",
+	x: 8.5d,
+	y: 1.5d,
+	dependencies: [
+		"5aed7e7f"
+	],
+	tasks: [{
+		uid: "470a3988",
+		type: "kill",
+		entity: "divinerpg:eternal_archer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "89016e65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

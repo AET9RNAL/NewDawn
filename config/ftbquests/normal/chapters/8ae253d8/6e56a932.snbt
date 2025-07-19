@@ -1,0 +1,37 @@
+{
+	x: -73.0d,
+	y: -13.5d,
+	dependencies: [
+		"d387b31b"
+	],
+	tasks: [{
+		uid: "b65317ab",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "83fb3170",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "7bea36ee",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 32
+	},
+	{
+		uid: "cfeeb8eb",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 36.099999999999994d,
+	y: 17.4d,
+	shape: "square",
+	dependencies: [
+		"1a0bff6b"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "c5145abc",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 318"
+		}]
+	}],
+	rewards: [{
+		uid: "65c5cf89",
+		type: "xp",
+		xp: 75
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	x: -9.5d,
+	y: -33.0d,
+	text: [
+		"§f§6Drawers§f can be upgraded to expand their storage even §afurther§f!"
+	],
+	dependencies: [
+		"8f5e0b52"
+	],
+	tasks: [{
+		uid: "ecb1f822",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "97100f6a",
+		type: "item",
+		item: "minecraft:stick",
+		count: 32
+	},
+	{
+		uid: "5ba942bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "45a02c77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "6645a5ee",
+		type: "xp",
+		xp: 50
+	}]
+}

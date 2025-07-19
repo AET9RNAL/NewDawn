@@ -1,0 +1,22 @@
+{
+	x: 38.5d,
+	y: -11.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"69d5d169"
+	],
+	tasks: [{
+		uid: "dd1cce42",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:excitednucleus"
+		}]
+	}],
+	rewards: [{
+		uid: "b3223bf5",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 6",
+		count: 32
+	}]
+}

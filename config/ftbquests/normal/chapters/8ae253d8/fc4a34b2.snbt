@@ -1,0 +1,33 @@
+{
+	x: -59.5d,
+	y: -33.5d,
+	shape: "hexagon",
+	dependencies: [
+		"3eb3a9bc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "22526124",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:avaritiagenerator 1 5"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "98bf1499",
+		type: "item",
+		item: {
+			id: "industrialupgrade:ultramarinerotor",
+			tag: {
+				damage: 1769472000
+			}
+		}
+	},
+	{
+		uid: "9d986822",
+		type: "xp",
+		xp: 50
+	}]
+}

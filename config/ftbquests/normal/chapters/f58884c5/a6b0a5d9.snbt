@@ -1,0 +1,73 @@
+{
+	x: -9.5d,
+	y: 0.0d,
+	dependencies: [
+		"16177252"
+	],
+	tasks: [{
+		uid: "831ed900",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}],
+		count: 21L
+	},
+	{
+		uid: "3f775b80",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	},
+	{
+		uid: "b6895f64",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}]
+	},
+	{
+		uid: "cc8ff542",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorpowertaprf"
+		}]
+	},
+	{
+		uid: "c10aeefe",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorglass"
+		}]
+	},
+	{
+		uid: "39f5c777",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}]
+	},
+	{
+		uid: "8274d676",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorfuelrod"
+		}]
+	}],
+	rewards: [{
+		uid: "5813e37f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	},
+	{
+		uid: "51cf00af",
+		type: "item",
+		item: "bigreactors:ingotyellorium",
+		count: 8
+	}]
+}

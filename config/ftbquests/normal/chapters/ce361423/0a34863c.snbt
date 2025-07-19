@@ -1,0 +1,34 @@
+{
+	x: -8.0d,
+	y: -6.5d,
+	dependencies: [
+		"d924fc70"
+	],
+	tasks: [{
+		uid: "79475a90",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "e1ff8836",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 12L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "12864d03",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

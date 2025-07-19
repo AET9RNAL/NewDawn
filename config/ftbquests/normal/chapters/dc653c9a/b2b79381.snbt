@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: -41.0d,
+	text: [
+		"§6§lWhere to Get Energy?§r",
+		"",
+		"§fThere are plenty of §benergy sources§f to choose from, depending on your progression and playstyle:",
+		"",
+		"§7• §eSolar§f",
+		"§7• §bWind§f",
+		"§7• §3Hydro§f",
+		"§7• §cNuclear§f",
+		"§7• §6Misc Generators§f — Lava, redstone, peat, gas, biomass, and many more.",
+		"",
+		"§fMost power sources have §dmultiple variants§f across different mods — some are easier to access early on, others are extremely powerful but costly to set up.",
+		"",
+		"§7§oEach comes with it's own set of drawbacks and benefits, keep that in mind."
+	],
+	tasks: [{
+		uid: "cf93c737",
+		type: "checkmark",
+		icon: "enderio:block_simple_stirling_generator"
+	}],
+	rewards: [{
+		uid: "d69b7aab",
+		type: "xp",
+		xp: 100
+	}]
+}

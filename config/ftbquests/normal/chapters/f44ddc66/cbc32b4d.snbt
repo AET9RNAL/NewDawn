@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: -23.5d,
+	dependencies: [
+		"64c16cf5"
+	],
+	tasks: [{
+		uid: "41be7c16",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:spaceupgrademodule_schedule"
+		}]
+	}],
+	rewards: [{
+		uid: "31b6cd28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	},
+	{
+		uid: "07bef3b3",
+		type: "xp",
+		xp: 100
+	}]
+}

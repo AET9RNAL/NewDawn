@@ -1,0 +1,32 @@
+{
+	x: 44.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"0284e147",
+		"d0ff60e8"
+	],
+	tasks: [{
+		uid: "3eb8197d",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_myphical",
+			tag: {
+				damage: 3456000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41e0d38d",
+		type: "item",
+		item: "jaopca:block.photon",
+		count: 16
+	},
+	{
+		uid: "a61c6a14",
+		type: "xp",
+		xp: 200
+	}]
+}

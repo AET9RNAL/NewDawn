@@ -1,0 +1,29 @@
+{
+	x: -25.0d,
+	y: -13.0d,
+	dependencies: [
+		"e144db5a"
+	],
+	tasks: [{
+		uid: "3665e8db",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flower_module_arcana"
+		}]
+	}],
+	rewards: [{
+		uid: "557dae33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "330bc8c6",
+		type: "xp",
+		xp: 50
+	}]
+}

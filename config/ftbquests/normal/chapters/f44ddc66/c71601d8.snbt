@@ -1,0 +1,27 @@
+{
+	x: 34.9d,
+	y: 9.4d,
+	shape: "square",
+	dependencies: [
+		"83fca018"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "6c9b3e66",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemsunnariumpanel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a103a9d3",
+		type: "item",
+		item: "industrialupgrade:itemingots 1 1",
+		count: 32
+	},
+	{
+		uid: "9a801398",
+		type: "xp",
+		xp: 75
+	}]
+}

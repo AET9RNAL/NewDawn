@@ -1,0 +1,33 @@
+{
+	x: 14.25d,
+	y: 18.0d,
+	shape: "rsquare",
+	dependencies: [
+		"277b6402",
+		"551aacef",
+		"79cb3d1d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b85515d9",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:circuit 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "2ee0f1b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "1c2930c6",
+		type: "xp",
+		xp: 75
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"A pricey pedestal for you to put a watch or whatever you want on it.",
+		"",
+		"Allows to add random ticks to nearby tiles when used with the watch"
+	],
+	tasks: [{
+		uid: "cd1a8240",
+		type: "item",
+		items: [{
+			item: "flowingtime:flpedestal"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "3fd015c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "8e311506",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silicon_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "91265db5",
+		type: "xp",
+		xp: 100
+	}]
+}

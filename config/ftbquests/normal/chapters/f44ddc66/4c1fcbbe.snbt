@@ -1,0 +1,29 @@
+{
+	x: 61.5d,
+	y: -6.0d,
+	dependencies: [
+		"600d8534"
+	],
+	tasks: [{
+		uid: "5e70c437",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:quantum_bow",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef53e5b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 48.2137755102041d,
+	y: -5.018537414966001d,
+	shape: "diamond",
+	dependencies: [
+		"0b0603cb",
+		"f969e3ef"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cbfca00b",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:water_ultramarinerotor",
+			tag: {
+				damage: 1769472000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f0a1af2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	},
+	{
+		uid: "bb188e7a",
+		type: "xp",
+		xp: 200
+	}]
+}

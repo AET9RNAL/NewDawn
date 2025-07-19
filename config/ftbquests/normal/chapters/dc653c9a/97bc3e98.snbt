@@ -1,0 +1,41 @@
+{
+	x: -9.5d,
+	y: -31.5d,
+	dependencies: [
+		"ac5be6f5"
+	],
+	tasks: [{
+		uid: "e6e543b5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f128564b",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "f16ee502",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "fc245acc",
+		type: "xp",
+		xp: 50
+	}]
+}

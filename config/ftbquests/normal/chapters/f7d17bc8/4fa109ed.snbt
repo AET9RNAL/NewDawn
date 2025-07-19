@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: 2.5d,
+	dependencies: [
+		"32a2e0b1"
+	],
+	tasks: [{
+		uid: "5202ef3f",
+		type: "item",
+		items: [{
+			item: "crazyae:material 1 42"
+		}]
+	}]
+}

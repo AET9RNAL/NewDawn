@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"30b92a51"
+	],
+	tasks: [{
+		uid: "fe63fb1d",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "1829a84f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic_crate"
+			}
+		}
+	}]
+}

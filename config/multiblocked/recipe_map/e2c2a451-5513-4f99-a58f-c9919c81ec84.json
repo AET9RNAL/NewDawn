@@ -1,0 +1,332 @@
+{
+  "name": "mana_machine_agglomeration",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "d96cd0f3-27b8-405c-95ce-886bda8a41b6",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x64\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:64,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:64,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:64,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 3200000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "63d7170d-3d49-403a-bf50-87ec80edec64",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x1\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3f56489f-9bf8-47cf-8bed-7b3f16abda5f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x2\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:2,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:2,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:2,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2633ffa7-e235-4137-a036-f8f6b2aa559f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x16\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:16,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:16,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:16,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 800000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d555cfac-bb28-4d17-a84d-a28aab2e01e9",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x4\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:4,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:4,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 200000
+          }
+        ]
+      }
+    }
+  ]
+}

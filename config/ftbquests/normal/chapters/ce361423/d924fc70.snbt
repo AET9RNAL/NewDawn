@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"77338651"
+	],
+	tasks: [{
+		uid: "87cdb8d3",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:frame"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "7a2cdcac",
+		type: "item",
+		item: "industrialupgrade:gear 1 19",
+		count: 8
+	}]
+}

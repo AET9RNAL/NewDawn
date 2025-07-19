@@ -1,0 +1,49 @@
+{
+	x: 17.0d,
+	y: 25.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"20e9aae5"
+	],
+	tasks: [{
+		uid: "e5f98cb3",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:simplemachine",
+			tag: {}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "6aa9cecd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "c5d65874",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 63"
+	},
+	{
+		uid: "6048f121",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "e8f249bd",
+		type: "xp",
+		xp: 75
+	}]
+}

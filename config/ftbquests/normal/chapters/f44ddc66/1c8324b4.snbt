@@ -1,0 +1,16 @@
+{
+	x: 46.0d,
+	y: -17.5d,
+	dependencies: [
+		"c33ad43e"
+	],
+	tasks: [{
+		uid: "505447a6",
+		type: "item",
+		items: [{
+			id: "iuadditions:astralpanel",
+			Damage: 2s,
+			tag: {}
+		}]
+	}]
+}

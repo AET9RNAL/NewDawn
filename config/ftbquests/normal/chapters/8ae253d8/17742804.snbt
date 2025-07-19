@@ -1,0 +1,29 @@
+{
+	x: -40.0d,
+	y: -8.5d,
+	text: [
+		"§6§lMeka Armor & Weaponry — Absolute Power§r",
+		"",
+		"§f§dMeka Armor§f and weaponry are by far the §cstrongest§f in the pack — even §5Infinity Armor§f doesn’t come close.",
+		"",
+		"§fOnce fully upgraded with various §eUnits§f in the §6Modification Station§f, Meka Armor provides an §aimpenetrable energy shield§f, §cimmunity§f to all forms of damage, and many other benefits.",
+		"",
+		"§fThe §cMeka-Tana§f and especially the §bMeka-Bow§f deal §ccrazy damage§f, making them unmatched in combat.",
+		"",
+		"§fThe §dMeka Set§f is your §nend-game goal§f if you're seeking §aabsolute defensive§f and §cdeadly offensive§f capabilities."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fa0558e2"
+	],
+	tasks: [{
+		uid: "e0f9cab1",
+		type: "checkmark",
+		title: "Meka Armor"
+	}],
+	rewards: [{
+		uid: "b2053546",
+		type: "xp",
+		xp: 50
+	}]
+}

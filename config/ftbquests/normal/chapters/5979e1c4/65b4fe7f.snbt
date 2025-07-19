@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -0.5d,
+	dependencies: [
+		"2b87ca87"
+	],
+	tasks: [{
+		uid: "a97de82f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:spider_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "cf2762eb",
+		type: "xp",
+		xp: 100
+	}]
+}

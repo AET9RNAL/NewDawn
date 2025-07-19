@@ -1,0 +1,34 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"§fWipes out anything you select — be §cvery careful§f not to void something important.  ",
+		"",
+		"§7• §eShift + RMB§7 — Set the area dimensions  ",
+		"§7• §aPress §l[U]§r§a (or your custom keybind) to undo the last action  "
+	],
+	tasks: [{
+		uid: "305472a3",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "56567636",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,359 @@
+{
+  "version": 2,
+  "location": "draconicevolution:draconicmachine_industrial_spawner",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_MODULE",
+        "x": 81,
+        "y": 64,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"contenttweaker:spawner_module_hell\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_eden\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_wildwood\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_end\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_apalachia\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_skythern\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_mortum\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_vethea\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_arcana\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_gaia\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_wither\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_chaos\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"contenttweaker:spawner_module_dragon\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 54,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 36,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 144,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 126,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 108,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 90,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 72,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 54,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 36,
+        "y": 101,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 90,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 72,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 54,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 36,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 144,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 126,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 108,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 90,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 72,
+        "y": 119,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 144,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 126,
+        "y": 137,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT",
+        "x": 108,
+        "y": 137,
+        "autoIO": false
+      }
+    ],
+    "background": "multiblocked:textures/gui_industrial_spawner.png",
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F",
+        "x": 17,
+        "y": 14,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 19,
+        "h": 42,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"nutrient_distillation\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"draconium\\\",Amount:1000}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F",
+        "x": 139,
+        "y": 14,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 19,
+        "h": 42,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"refined_biofuel\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"xpjuice\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"astralsorcery.liquidstarlight\\\",Amount:1000}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "IN_F",
+        "x": 81,
+        "y": 14,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 19,
+        "h": 42,
+        "fillDir": "DOWN_TO_UP",
+        "valid": [
+          "\"{FluidName:\\\"iufluidneutron\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"astralsorcery.liquidstarlight\\\",Amount:1000}\"",
+          "\"{FluidName:\\\"draconium\\\",Amount:1000}\""
+        ]
+      }
+    ],
+    "bot_mana": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 12,
+      "y": 129,
+      "width": 15,
+      "height": 35,
+      "texture": "multiblocked:textures/mana_bar_test2.png",
+      "fillDirection": 3,
+      "capacity": 1000000,
+      "allowSpark": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:industrial_spawner",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "legendary_industrial_spawner",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "draconicevolution:draconicmachine_industrial_spawner",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

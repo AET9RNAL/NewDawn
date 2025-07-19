@@ -1,0 +1,37 @@
+{
+	title: "Polypropylene",
+	x: 22.5d,
+	y: 16.0d,
+	dependencies: [
+		"621030c4",
+		"ca198ad2"
+	],
+	tasks: [{
+		uid: "e185fbca",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidpolyprop",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0a24a37e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
+	},
+	{
+		uid: "4d397623",
+		type: "xp",
+		xp: 75
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -10.5d,
+	y: 5.0d,
+	dependencies: [
+		"143290a4"
+	],
+	tasks: [{
+		uid: "3bd1af1d",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0828549d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "28b273cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

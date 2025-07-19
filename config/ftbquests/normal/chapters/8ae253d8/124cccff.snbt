@@ -1,0 +1,22 @@
+{
+	x: -40.0d,
+	y: -13.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"17742804"
+	],
+	tasks: [{
+		uid: "b3bd3fdf",
+		type: "item",
+		items: [{
+			item: "mekanism:mekasuit_bodyarmor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a8ae7e7",
+		type: "xp",
+		xp: 50
+	}]
+}

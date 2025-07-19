@@ -1,0 +1,23 @@
+{
+	x: -59.5d,
+	y: -29.5d,
+	shape: "hexagon",
+	dependencies: [
+		"586d95ae"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "64df70b3",
+		type: "item",
+		items: [{
+			item: "mekanismecoenergistics:avaritiagenerator 1 4"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "0c0bd0df",
+		type: "xp",
+		xp: 50
+	}]
+}

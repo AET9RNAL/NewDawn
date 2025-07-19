@@ -1,0 +1,25 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	dependencies: [
+		"ffae36ca"
+	],
+	tasks: [{
+		uid: "ec75d71b",
+		type: "item",
+		items: [{
+			item: "divinerpg:skythern_block"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "fc00af88",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

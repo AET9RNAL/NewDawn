@@ -1,0 +1,36 @@
+{
+	x: -41.0d,
+	y: -24.0d,
+	text: [
+		"§fThis is a §apowerful§f machine capable of processing liquids at a §cmuch higher rate§f.",
+		"",
+		"§fNo more need to build a dozen §6Evaporation Towers§f — just place a few of these and you’re §aset for the rest of the game§f.",
+		"",
+		"§7Simple. Lagless. Effective."
+	],
+	dependencies: [
+		"6b34a5a9"
+	],
+	tasks: [{
+		uid: "99b7f2e6",
+		type: "item",
+		items: [{
+			item: "mekanism:mekamachine_extreme_evaporation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "b61d6cac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	},
+	{
+		uid: "e3524a19",
+		type: "xp",
+		xp: 50
+	}]
+}

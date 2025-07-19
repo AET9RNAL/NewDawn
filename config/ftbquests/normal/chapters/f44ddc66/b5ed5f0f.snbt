@@ -1,0 +1,27 @@
+{
+	x: 35.699999999999996d,
+	y: 7.0d,
+	shape: "square",
+	dependencies: [
+		"559fa100"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "bad7049d",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemsunnarium 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e700ef76",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 24
+	},
+	{
+		uid: "069c5133",
+		type: "xp",
+		xp: 75
+	}]
+}

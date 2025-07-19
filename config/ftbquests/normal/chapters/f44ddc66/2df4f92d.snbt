@@ -1,0 +1,38 @@
+{
+	x: 44.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"ecbbefba",
+		"88dcdad3"
+	],
+	tasks: [{
+		uid: "664e4959",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:neutron",
+			tag: {
+				damage: 27648000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eb1503f",
+		type: "item",
+		item: "jaopca:block.neutron",
+		count: 8
+	},
+	{
+		uid: "560c32a3",
+		type: "item",
+		item: "industrialupgrade:excitednucleus 1 6",
+		count: 2
+	},
+	{
+		uid: "466e92a9",
+		type: "xp",
+		xp: 200
+	}]
+}

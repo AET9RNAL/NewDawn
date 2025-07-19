@@ -1,0 +1,31 @@
+{
+	x: 56.5d,
+	y: 3.0d,
+	shape: "diamond",
+	dependencies: [
+		"c4abed6c"
+	],
+	tasks: [{
+		uid: "c74d5962",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:nanopickaxe",
+			tag: {
+				ID_Item: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ba280f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		},
+		count: 2
+	}]
+}

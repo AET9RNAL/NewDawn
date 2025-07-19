@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: 3.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "298c81a8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_steel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6861d18e",
+		type: "xp",
+		xp: 100
+	}]
+}

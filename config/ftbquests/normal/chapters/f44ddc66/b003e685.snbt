@@ -1,0 +1,40 @@
+{
+	x: 36.5d,
+	y: 3.0d,
+	text: [
+		"§f§eIU§f introduces a powerful wind industry.  ",
+		"§fWind Turbines harness the power of the wind and convert it into §bElectricity§f.",
+		"",
+		"§fThey output a significant amount of power and have a long operational lifespan.  ",
+		"Over time, the §7Rotors§f will wear out and the §7Blades§f will need to be replaced."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5be93959"
+	],
+	tasks: [{
+		uid: "bde6f64f",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 21s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db140116",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	},
+	{
+		uid: "9bb765f8",
+		type: "xp",
+		xp: 200
+	}]
+}

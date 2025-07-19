@@ -1,0 +1,43 @@
+{
+	x: 19.0d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"§6§lSpectral Quantum Converter§r",
+		"",
+		"§fBidirectional §eQE ↔ RF§f energy converter.",
+		"",
+		"§fCapable of transferring energy directly §ninto and out of§f Draconic Evolution's §5Energy Core§f, bypassing all external transfer limits.",
+		"",
+		"§fPlace it within §a16 blocks§f of the Energy Core.  ",
+		"§fEnsure the core is §abuilt and active§f — the converter will auto-detect it.",
+		"",
+		"§fThen, select the desired §emode§f (Input or Output), and you’re good to go!"
+	],
+	dependencies: [
+		"39b326ed"
+	],
+	tasks: [{
+		uid: "2b149f51",
+		type: "item",
+		items: [{
+			id: "iuadditions:spectralqeconverter",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "86e5b752",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "0b1419c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	}]
+}

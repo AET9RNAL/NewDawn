@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: 7.5d,
+	dependencies: [
+		"2986711a"
+	],
+	tasks: [{
+		uid: "400fbac6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:draconium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "4730621e",
+		type: "xp",
+		xp: 100
+	}]
+}

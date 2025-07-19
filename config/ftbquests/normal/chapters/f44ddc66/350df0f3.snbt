@@ -1,0 +1,30 @@
+{
+	x: 64.0d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		" §b§lQuantum Armor§r§f is significantly more powerful than the previous generation.  ",
+		"It is capable of absorbing much more damage."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"390a4d8c"
+	],
+	tasks: [{
+		uid: "e85c17e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:quantum_shield"
+		}]
+	}],
+	rewards: [{
+		uid: "03a282ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

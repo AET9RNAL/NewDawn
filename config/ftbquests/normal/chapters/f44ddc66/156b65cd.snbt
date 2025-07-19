@@ -1,0 +1,32 @@
+{
+	x: 39.0d,
+	y: 3.0d,
+	shape: "diamond",
+	dependencies: [
+		"d07538b8",
+		"20216da8"
+	],
+	tasks: [{
+		uid: "ad719035",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:rotor_steel",
+			tag: {
+				damage: 115200
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e112bcb7",
+		type: "item",
+		item: "industrialupgrade:blockresource 1 3",
+		count: 24
+	},
+	{
+		uid: "c1509b21",
+		type: "xp",
+		xp: 200
+	}]
+}

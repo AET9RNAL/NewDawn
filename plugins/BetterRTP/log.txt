@@ -1,0 +1,24 @@
+2025-07-19 15:12:33 [INFO]: [BetterRTP] Loading Overrides...
+2025-07-19 15:12:33 [WARNING]: [BetterRTP] The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+2025-07-19 15:12:33 [WARNING]: [BetterRTP] The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+2025-07-19 15:12:33 [INFO]: [BetterRTP] Loading World Types...
+2025-07-19 15:12:33 [INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+2025-07-19 15:12:33 [INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+2025-07-19 15:12:33 [INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+2025-07-19 15:12:33 [INFO]: [BetterRTP] Loading Defaults...
+2025-07-19 15:12:33 [INFO]: [BetterRTP] Loading Custom Worlds...
+2025-07-19 15:12:33 [INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-07-19 15:12:33 [INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-07-19 15:12:43 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+2025-07-19 15:12:43 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+2025-07-19 15:12:43 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+2025-07-19 15:12:45 [INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+2025-07-19 15:12:45 [WARNING]: [BetterRTP] Seems like the world `DIM2` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- DIM2: NETHER`
+2025-07-19 15:12:46 [INFO]: [BetterRTP] New world `DIM-1` detected! Reloaded Databases!
+2025-07-19 15:12:46 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+2025-07-19 15:12:46 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+2025-07-19 15:12:46 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+2025-07-19 15:13:40 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_DIM2 (amount: 0)
+2025-07-19 15:13:40 [WARNING]: [BetterRTP] Seems like the world `DIM-1` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- DIM-1: NETHER`
+2025-07-19 15:14:39 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_DIM2 (amount: 0)
+2025-07-19 15:15:39 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_DIM2 (amount: 0)

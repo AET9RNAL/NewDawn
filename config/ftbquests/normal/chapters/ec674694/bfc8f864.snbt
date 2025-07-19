@@ -1,0 +1,31 @@
+{
+	x: -9.547619047619044d,
+	y: -15.5d,
+	shape: "hexagon",
+	dependencies: [
+		"37f4830e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6f9eeb84",
+		type: "item",
+		items: [{
+			item: "avaritiaio:infinitecapacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "e614c659",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "460a69d5",
+		type: "xp",
+		xp: 50
+	}]
+}

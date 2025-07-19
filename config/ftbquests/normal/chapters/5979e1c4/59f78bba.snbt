@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 14.5d,
+	dependencies: [
+		"f1e32cc5"
+	],
+	tasks: [{
+		uid: "8f5b3959",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pulsating_iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "9cc60043",
+		type: "xp",
+		xp: 100
+	}]
+}

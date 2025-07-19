@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: -19.0d,
+	dependencies: [
+		"e64d5ac1"
+	],
+	tasks: [{
+		uid: "d13895e5",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaos_crystal_stable",
+			tag: {
+				isStable: 1b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "791e16ec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	}]
+}

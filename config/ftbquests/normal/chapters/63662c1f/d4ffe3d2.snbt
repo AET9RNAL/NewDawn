@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: -14.0d,
+	dependencies: [
+		"bdcc8872"
+	],
+	tasks: [{
+		uid: "8d1435bc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da42c562",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_crate"
+			}
+		}
+	}]
+}

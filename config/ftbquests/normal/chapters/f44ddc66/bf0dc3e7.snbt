@@ -1,0 +1,36 @@
+{
+	x: -2.5d,
+	y: 6.0d,
+	text: [
+		"§6§lSteam Current Converter§r",
+		"",
+		"§fConverts §bSteam§f into usable §eCurrent§f for your machines."
+	],
+	dependencies: [
+		"4734e07e"
+	],
+	tasks: [{
+		uid: "d4ea1920",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 181s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "1b383f0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "0073c8fb",
+		type: "xp",
+		xp: 50
+	}]
+}

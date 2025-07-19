@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	shape: "heart",
+	dependencies: [
+		"187bbf4b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b3c80554",
+		type: "checkmark",
+		title: "IU:Electric Era ✓"
+	}]
+}

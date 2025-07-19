@@ -1,0 +1,26 @@
+{
+	x: 16.5d,
+	y: 2.5d,
+	shape: "rsquare",
+	dependencies: [
+		"7c2a5a5c"
+	],
+	tasks: [{
+		uid: "e6074a77",
+		type: "item",
+		items: [{
+			item: "crazyae:material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "388a98ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		},
+		count: 2
+	}]
+}

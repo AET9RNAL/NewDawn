@@ -1,0 +1,24 @@
+{
+	x: 46.0d,
+	y: -13.5d,
+	shape: "diamond",
+	dependencies: [
+		"85321123",
+		"1799747e"
+	],
+	tasks: [{
+		uid: "ee1f83e9",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:machines",
+			Damage: 12s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fcc179f",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

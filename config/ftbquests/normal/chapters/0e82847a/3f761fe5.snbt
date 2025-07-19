@@ -1,0 +1,47 @@
+{
+	x: -20.20952380952383d,
+	y: -1.2166666666666686d,
+	shape: "hexagon",
+	text: [
+		"Mana capacity is x1000 the normal pool. Emits/Accepts at higher rates"
+	],
+	dependencies: [
+		"1b29d7be"
+	],
+	size: 1.4d,
+	tasks: [{
+		uid: "47cb2dae",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool 1 2"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "718a2aca",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 3s,
+			tag: {
+				weight: 189
+			}
+		},
+		count: 6
+	},
+	{
+		uid: "a82f1e84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	},
+	{
+		uid: "e670ea2e",
+		type: "xp",
+		xp: 50
+	}]
+}

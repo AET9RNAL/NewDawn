@@ -1,0 +1,100 @@
+{
+  "name": "mana_deliquifier",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "6fa5a8db-7084-4770-aa58-670e461d2afa",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x1\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 100000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "89692f5c-b508-4c30-8fcf-b259bef561e5",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x16\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:1600}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1600000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3f3dd07b-ff50-44c7-b726-8e6de5708398",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:upgrade_x9\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:900}"
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 900000
+          }
+        ]
+      }
+    }
+  ]
+}

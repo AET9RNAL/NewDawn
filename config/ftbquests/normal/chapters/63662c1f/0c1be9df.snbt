@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -22.5d,
+	dependencies: [
+		"76fe02ca"
+	],
+	tasks: [{
+		uid: "286b28f7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:spawner_module_dragon"
+		}]
+	}]
+}

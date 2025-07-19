@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -8.5d,
+	dependencies: [
+		"ed84477e"
+	],
+	tasks: [{
+		uid: "5feb33f9",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ultimate_crafter"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "fd105858",
+		type: "item",
+		item: "appliedenergistics2:material 1 61"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -9.75d,
+	y: -6.0d,
+	shape: "hexagon",
+	dependencies: [
+		"9ec10eb0"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3cfd915f",
+		type: "item",
+		items: [{
+			item: "botania:manamachine_manapool"
+		}]
+	}],
+	rewards: [{
+		uid: "783beb4a",
+		type: "item",
+		item: "botaniverse:morepool"
+	},
+	{
+		uid: "b1e4eb65",
+		type: "xp",
+		xp: 50
+	}]
+}

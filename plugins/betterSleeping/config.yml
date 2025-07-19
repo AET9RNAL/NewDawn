@@ -1,0 +1,17 @@
+# ################ #
+#  BetterSleeping  #
+# ################ #
+
+# What percentage of server or world players must sleep to skip the night
+percentage_needed: 50
+
+# Time players must wait when enough players are sleeping (in ticks, 20 ticks = 1 second)
+sleep_delay: 40
+
+# Set the time (in seconds) players must wait before they can re-enter a bed after leaving it.
+# This prevents bed-enter spamming in chat.
+bed_enter_delay: 10
+
+# If true, enables multiworld support. Otherwise, the percentage of all online players
+# must be sleeping for the night/storm to be skipped in all worlds.
+multiworld_support: true

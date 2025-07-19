@@ -1,0 +1,29 @@
+{
+	x: -18.0d,
+	y: -4.5d,
+	dependencies: [
+		"df833064"
+	],
+	tasks: [{
+		uid: "a8b4e0be",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:blockresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "3807dade",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "4c3e708a",
+		type: "xp",
+		xp: 50
+	}]
+}

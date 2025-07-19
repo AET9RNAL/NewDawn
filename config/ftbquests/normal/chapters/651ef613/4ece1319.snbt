@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"Can help you with building structures by visualising them"
+	],
+	dependencies: [
+		"ca42fa9a"
+	],
+	tasks: [{
+		uid: "a1ae69b9",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

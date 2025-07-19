@@ -1,0 +1,43 @@
+{
+	x: -15.0d,
+	y: -16.5d,
+	dependencies: [
+		"625114fc"
+	],
+	tasks: [{
+		uid: "b1d23f06",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bloodyenchantress"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cba4953c",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			tag: {
+				weight: 96
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "8b37b0fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "c9657685",
+		type: "xp",
+		xp: 50
+	}]
+}

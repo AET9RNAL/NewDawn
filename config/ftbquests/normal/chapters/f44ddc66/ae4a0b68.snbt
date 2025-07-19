@@ -1,0 +1,17 @@
+{
+	x: 26.0d,
+	y: -33.5d,
+	shape: "diamond",
+	dependencies: [
+		"b224165c",
+		"341d4a03"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "22facc89",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 646"
+		}]
+	}]
+}

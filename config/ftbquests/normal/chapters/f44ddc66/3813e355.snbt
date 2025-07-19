@@ -1,0 +1,36 @@
+{
+	x: -16.0d,
+	y: 16.5d,
+	text: [
+		"§6§lEarly Liquid Storage: Oak Tank§r",
+		"",
+		"§fThe §6Oak Tank§f is a cheap and easy way to store liquids in the beginning."
+	],
+	dependencies: [
+		"6829caab"
+	],
+	tasks: [{
+		uid: "c4028830",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:basemachine3",
+			Damage: 185s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "b0c0d899",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "2d28af23",
+		type: "xp",
+		xp: 50
+	}]
+}

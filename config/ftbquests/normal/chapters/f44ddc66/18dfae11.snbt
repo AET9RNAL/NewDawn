@@ -1,0 +1,47 @@
+{
+	x: -14.5d,
+	y: -6.5d,
+	dependencies: [
+		"8d8f8f9c"
+	],
+	tasks: [{
+		uid: "cc4f610e",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:crafting_elements 1 137"
+		}],
+		count: 4L,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "1a854fc1",
+		type: "item",
+		item: "industrialupgrade:crafting_elements 1 137",
+		count: 4
+	},
+	{
+		uid: "ab4aea5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_crate"
+			}
+		}
+	},
+	{
+		uid: "f07ecc9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "steam_era_crate"
+			}
+		}
+	},
+	{
+		uid: "3ec62ac4",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "dfbd0ae4",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "361ebaa1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_crate"
+			}
+		}
+	}]
+}

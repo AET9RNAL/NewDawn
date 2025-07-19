@@ -1,0 +1,20 @@
+{
+	x: -5.5d,
+	y: -7.0d,
+	dependencies: [
+		"75ca46c0",
+		"314c2077"
+	],
+	tasks: [{
+		uid: "afbc0f30",
+		type: "item",
+		items: [{
+			item: "forestry:impregnated_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "b9c9d4a6",
+		type: "xp",
+		xp: 100
+	}]
+}

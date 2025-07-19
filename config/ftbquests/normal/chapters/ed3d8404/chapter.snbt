@@ -1,0 +1,7 @@
+{
+	title: "DivineRPG",
+	icon: "divinerpg:arcanium_power_breakable",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

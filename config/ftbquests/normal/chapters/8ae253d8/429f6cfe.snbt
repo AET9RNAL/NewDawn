@@ -1,0 +1,28 @@
+{
+	x: -61.5d,
+	y: -7.0d,
+	dependencies: [
+		"c54ed0da"
+	],
+	tasks: [{
+		uid: "781bc5f7",
+		type: "item",
+		items: [{
+			item: "mekanism:energytablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "60155c47",
+		type: "item",
+		item: "mekanism:otherdust 1 4",
+		count: 12
+	},
+	{
+		uid: "8f511f8a",
+		type: "xp",
+		xp: 50
+	}]
+}

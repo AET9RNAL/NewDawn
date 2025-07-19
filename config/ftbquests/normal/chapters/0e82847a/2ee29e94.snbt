@@ -1,0 +1,41 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	dependencies: [
+		"9ec10eb0"
+	],
+	tasks: [{
+		uid: "e06e7ae7",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5c9b1e58",
+		type: "item",
+		item: {
+			id: "extrabotany:rewardbag",
+			Damage: 2s,
+			tag: {
+				weight: 113
+			}
+		}
+	},
+	{
+		uid: "44d22f9c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ore_crate"
+			}
+		}
+	},
+	{
+		uid: "4881e54f",
+		type: "xp",
+		xp: 50
+	}]
+}

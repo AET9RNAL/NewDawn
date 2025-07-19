@@ -1,0 +1,114 @@
+#########################################################################################################################################
+#
+#
+#   Sponsor: https://serveur-minecraft-vote.fr/
+#   Documentation: https://zauctionhouse.groupez.dev/
+#   Discord: https://discord.groupez.dev/
+# 
+#
+######################################################################################################################################### 
+
+name: "&7Admin Remove"
+size: 54
+type: ADMIN_REMOVE
+items:
+  slots:
+    type: NONE_SLOT
+    isPermanent: true
+    item:
+      material: STAINED_GLASS_PANE
+      data: 7
+      unbreakable: true
+      name: "&e"
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 18
+      - 27
+      - 17
+      - 26
+      - 35
+      - 36
+      - 44
+      - 46
+      - 47
+      - 53
+      - 52
+      - 51
+      - 45
+      - 50
+      - 48
+  show:
+    type: SHOW_ITEM
+    slot: 22
+  back:
+    type: BACK
+    item:
+      material: STAINED_GLASS_PANE
+      data: 14
+      name: "&cBack"
+    slot: 49
+  removeSilent:
+    type: ADMIN_REMOVE
+    item:
+      material: STAINED_CLAY 
+      data: 13
+      name: "&fRemove silent and give item to player"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&f&l» &7Is silent&7: &atrue"
+        - "&f&l» &7Forced removal&7: &cfalse"
+        - "&7&m-------------------------------------"
+    isSilent: true
+    isForceRemove: false
+    slot: 30
+  remove:
+    type: ADMIN_REMOVE
+    item:
+      material: STAINED_CLAY 
+      data: 5
+      name: "&fRemove and give item to player"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&f&l» &7Is silent&7: &cfalse"
+        - "&f&l» &7Forced removal&7: &cfalse"
+        - "&7&m-------------------------------------"
+    isSilent: false
+    isForceRemove: false
+    slot: 29
+  removeSilentForce:
+    type: ADMIN_REMOVE
+    item:
+      material: STAINED_CLAY 
+      data: 4
+      name: "&fRemove silent and remove item from player"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&f&l» &7Is silent&7: &atrue"
+        - "&f&l» &7Forced removal&7: &atrue"
+        - "&7&m-------------------------------------"
+    isSilent: true
+    isForceRemove: true
+    slot: 32
+  removeForce:
+    type: ADMIN_REMOVE
+    item:
+      material: STAINED_CLAY 
+      data: 14
+      name: "&fRemove without give item to player"
+      lore:
+        - "&7&m-------------------------------------"
+        - "&f&l» &7Is silent&7: &cfalse"
+        - "&f&l» &7Forced removal&7: &atrue"
+        - "&7&m-------------------------------------"
+    isSilent: false
+    isForceRemove: true
+    slot: 33     

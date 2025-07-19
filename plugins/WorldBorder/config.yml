@@ -1,0 +1,97 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  world:
+    x: 96.05526761745445
+    z: 351.88041543042306
+    radiusX: 10000
+    radiusZ: 10000
+    wrapping: false
+  DIM420:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM421:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM422:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM423:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM424:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM426:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM-6:
+    x: 0.5
+    z: 0.5
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false
+  DIM-11325:
+    x: 0.30000001192092896
+    z: 0.30000001192092896
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false
+  DIM-1:
+    x: 0.5
+    z: 0.5
+    radiusX: 25000
+    radiusZ: 25000
+    wrapping: false
+  DIM7:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM427:
+    x: 0.5
+    z: 0.5
+    radiusX: 50000
+    radiusZ: 50000
+    wrapping: false
+  DIM1:
+    x: 0.5
+    z: 0.5
+    radiusX: 250000
+    radiusZ: 250000
+    wrapping: false

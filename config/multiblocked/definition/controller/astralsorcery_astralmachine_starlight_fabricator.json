@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "location": "astralsorcery:astralmachine_starlight_fabricator",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 12,
+      "y": 103,
+      "width": 7,
+      "height": 34,
+      "texture": "multiblocked:textures/as_progress_bar_1.png",
+      "fillDirection": 3
+    },
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "OUT_F",
+        "x": 80,
+        "y": 79,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "background": "multiblocked:textures/as_gui_fabricator.png",
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 150,
+      "width": 10,
+      "height": 15,
+      "texture": "multiblocked:textures/rf_charge_bar.png",
+      "fillDirection": 3,
+      "capacity": 2000000,
+      "maxReceive": 50000,
+      "maxExtract": 50000
+    },
+    "starlight_as": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 10,
+      "y": 21,
+      "width": 11,
+      "height": 63,
+      "texture": "multiblocked:textures/starlight_progress_bar.png",
+      "fillDirection": 3,
+      "capacity": 100000,
+      "passiveStarlight": false
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 2,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:astralmachine_starlight_fabricator",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "multiblocked:empty",
+        "loop": false,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "Astralmachine_starlight_fabricator",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "astralsorcery:astralmachine_starlight_fabricator",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

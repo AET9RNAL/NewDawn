@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	dependencies: [
+		"8d12d6a3"
+	],
+	tasks: [{
+		uid: "aef577fb",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ender_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "d164d78f",
+		type: "item",
+		item: "appliedenergistics2:material 1 38"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"fe587dbe"
+	],
+	tasks: [{
+		uid: "7dc1d245",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slime_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "06a7b5da",
+		type: "xp",
+		xp: 100
+	}]
+}

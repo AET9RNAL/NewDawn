@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: -14.5d,
+	dependencies: [
+		"d27832ce"
+	],
+	tasks: [{
+		uid: "f3cf5477",
+		type: "item",
+		items: [{
+			item: "contenttweaker:module_luck_x20"
+		}]
+	}],
+	rewards: [{
+		uid: "79a7668c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "legendary_crate"
+			}
+		}
+	},
+	{
+		uid: "b2a6f6ca",
+		type: "xp",
+		xp: 50
+	}]
+}
