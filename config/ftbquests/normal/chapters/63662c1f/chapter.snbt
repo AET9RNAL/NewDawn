@@ -1,7 +1,0 @@
-{
-	title: "Dragons",
-	icon: "draconicevolution:reactor_core",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,8 +1,0 @@
-{
-    "packName": "NewDawn",
-    "icon": {
-        "path": "resources/newdawn/customloadingscreen/logo.png",
-        "width": 115,
-        "height": 80
-    }
-}
