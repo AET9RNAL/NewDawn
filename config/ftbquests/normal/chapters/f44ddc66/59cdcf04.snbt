@@ -14,7 +14,8 @@
 		items: [{
 			id: "industrialupgrade:sintezator",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "63e955d2",

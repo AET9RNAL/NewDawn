@@ -136,9 +136,9 @@ EnderCrafting.addShaped(<industrialupgrade:quarrymodules:7>, [
 
 recipes.remove(<industrialupgrade:quarrymodules:8>);
 EnderCrafting.addShaped(<industrialupgrade:quarrymodules:8>, [
-	[<industrialupgrade:itemcore:5>, <iuadditions:iridium_advanced_stellar>, <industrialupgrade:itemcore:5>], 
+	[<industrialupgrade:itemcore:5>, <iuadditions:astral_element:4>, <industrialupgrade:itemcore:5>], 
 	[<industrialupgrade:quarrymodules:7>, <industrialupgrade:circuit:11>, <industrialupgrade:quarrymodules:7>], 
-	[<industrialupgrade:itemcore:5>, <iuadditions:iridium_advanced_stellar>, <industrialupgrade:itemcore:5>]
+	[<industrialupgrade:itemcore:5>, <iuadditions:astral_element:4>, <industrialupgrade:itemcore:5>]
 ]);
 
 
@@ -516,35 +516,35 @@ EnderCrafting.addShaped(<industrialupgrade:analyzermodule>, [
 
 
 //
-CombinationCrafting.addRecipe(<industrialupgrade:nanodrill>, 1250000, 20000, <iuadditions:core_eden>, [
+CombinationCrafting.addRecipe(<industrialupgrade:nanodrill>, 1250000, 20000, <iuadditions:divinerpg_elements:28>, [
 <industrialupgrade:nanopickaxe>, <industrialupgrade:nanoshovel>,<industrialupgrade:nanobox>,<industrialupgrade:nanobox>,<industrialupgrade:nanobox>,
 <industrialupgrade:energy_crystal>,<industrialupgrade:crafting_elements:524>,<industrialupgrade:crafting_elements:517>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:nano_saber>, 1250000, 20000, <industrialupgrade:waterrod:3>, [
-<iuadditions:core_eden>, <industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,<industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,
+<iuadditions:divinerpg_elements:28>, <industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,<industrialupgrade:alloyplate:1>,<industrialupgrade:compresscarbonultra>,
 <industrialupgrade:energy_crystal>,<industrialupgrade:compresscarbon>,<mekanismecoenergistics:morecompressed:2>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:nano_bow>, 1250000, 20000, <botania:crystalbow>, [
-<industrialupgrade:compresscarbon>, <industrialupgrade:quantumitems7>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:re_battery>,<iuadditions:core_eden>,<industrialupgrade:compresscarbon>, <industrialupgrade:quantumitems7>]);
+<industrialupgrade:compresscarbon>, <industrialupgrade:quantumitems7>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:re_battery>,<iuadditions:divinerpg_elements:28>,<industrialupgrade:compresscarbon>, <industrialupgrade:quantumitems7>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:nanoshovel>, 1250000, 20000, <botania:elementiumshovel>, [
-<industrialupgrade:crafting_elements:518>,<contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:518>,<industrialupgrade:crafting_elements:524>,<iuadditions:core_eden>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
+<industrialupgrade:crafting_elements:518>,<contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:518>,<industrialupgrade:crafting_elements:524>,<iuadditions:divinerpg_elements:28>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:nanopickaxe>, 1250000, 20000, <mekanismtools:obsidianpickaxe>, [
-<industrialupgrade:crafting_elements:520>, <contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:523>,<industrialupgrade:crafting_elements:524>,<iuadditions:core_eden>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
+<industrialupgrade:crafting_elements:520>, <contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:523>,<industrialupgrade:crafting_elements:524>,<iuadditions:divinerpg_elements:28>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:nanoaxe>, 1250000, 20000, <botania:elementiumaxe>, [
-<industrialupgrade:crafting_elements:519>, <contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:522>,<industrialupgrade:crafting_elements:524>,<iuadditions:core_eden>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
+<industrialupgrade:crafting_elements:519>, <contenttweaker:rod_nano>,<industrialupgrade:crafting_elements:522>,<industrialupgrade:crafting_elements:524>,<iuadditions:divinerpg_elements:28>,<industrialupgrade:circuit:9>.withTag({level: 5}),<industrialupgrade:circuit:9>.withTag({level: 5})]);
 //
 
 
@@ -574,53 +574,53 @@ CombinationCrafting.addRecipe(<industrialupgrade:nano_boots>, 1250000, 20000, <m
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:itemnanosaber1>, 2500000, 200000, <industrialupgrade:nano_saber>, [
-<industrialupgrade:quantumitems2>, <industrialupgrade:circuit:10>.withTag({level: 7}), <industrialupgrade:waterrod:4>, <industrialupgrade:crafting_elements:516>, <iuadditions:core_wildwood>, <industrialupgrade:quantumitems2>, <industrialupgrade:circuit:10>.withTag({level: 7})]);
+<industrialupgrade:quantumitems2>, <industrialupgrade:circuit:10>.withTag({level: 7}), <industrialupgrade:waterrod:4>, <industrialupgrade:crafting_elements:516>, <iuadditions:divinerpg_elements:29>, <industrialupgrade:quantumitems2>, <industrialupgrade:circuit:10>.withTag({level: 7})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantum_bow>, 2500000, 200000, <industrialupgrade:nano_bow>, [
-<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:5>,<industrialupgrade:quantumitems3>, <botania:manaresource:22>,<iuadditions:core_wildwood>,  <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:5>,<industrialupgrade:quantumitems3>]);
+<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:5>,<industrialupgrade:quantumitems3>, <botania:manaresource:22>,<iuadditions:divinerpg_elements:29>,  <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:5>,<industrialupgrade:quantumitems3>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantumpickaxe>, 2500000, 200000, <industrialupgrade:nanopickaxe>, [
-<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:512>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:515>,<industrialupgrade:crafting_elements:516>,<iuadditions:core_wildwood>,   <industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:3>]);
+<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:512>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:515>,<industrialupgrade:crafting_elements:516>,<iuadditions:divinerpg_elements:29>,   <industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:alloydoubleplate:3>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantumshovel>, 2500000, 200000, <industrialupgrade:nanoshovel>, [
-<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:510>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:513>,<industrialupgrade:crafting_elements:516>,<iuadditions:core_wildwood>,  <industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7})]);
+<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:510>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:513>,<industrialupgrade:crafting_elements:516>,<iuadditions:divinerpg_elements:29>,  <industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantumaxe>, 2500000, 200000, <industrialupgrade:nanoaxe>, [
-<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:511>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:514>,<industrialupgrade:crafting_elements:516>,<iuadditions:core_wildwood>,  <industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7})]);
+<industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7}),  <industrialupgrade:crafting_elements:511>,<contenttweaker:rod_quantum>,<industrialupgrade:crafting_elements:514>,<industrialupgrade:crafting_elements:516>,<iuadditions:divinerpg_elements:29>,  <industrialupgrade:alloydoubleplate:3>,<industrialupgrade:circuit:10>.withTag({level: 7})]);
 //
 
 //
-CombinationCrafting.addRecipe(<industrialupgrade:quantumdrill>, 2500000, 200000, <iuadditions:core_wildwood>, [
+CombinationCrafting.addRecipe(<industrialupgrade:quantumdrill>, 2500000, 200000, <iuadditions:divinerpg_elements:29>, [
 <moreplates:stellar_alloy_plate>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:quantumpickaxe>,<industrialupgrade:crafting_elements:509>,<industrialupgrade:crafting_elements:516>,<industrialupgrade:quantumshovel>,   <industrialupgrade:quantumitems3>,<industrialupgrade:circuit:10>.withTag({level: 7}),<moreplates:stellar_alloy_plate>]);
 //
 
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantum_helmet>, 2500000, 200000, <industrialupgrade:adv_nano_helmet>, [
-<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:core_wildwood>,<industrialupgrade:hazmat_helmet>,    <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
+<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:divinerpg_elements:29>,<industrialupgrade:hazmat_helmet>,    <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantum_chestplate>, 2500000, 200000, <industrialupgrade:adv_nano_chestplate>, [
-<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:core_wildwood>,<simplyjetpacks:metaitemmods:10>,<industrialupgrade:impjetpack>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
+<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:divinerpg_elements:29>,<simplyjetpacks:metaitemmods:10>,<industrialupgrade:impjetpack>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantum_leggings>, 2500000, 200000, <industrialupgrade:adv_nano_leggings>, [
-<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:core_wildwood>,<industrialupgrade:adv_iu_bags:27>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
+<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:divinerpg_elements:29>,<industrialupgrade:adv_iu_bags:27>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:quantum_boots>, 2500000, 200000, <industrialupgrade:adv_nano_boots>, [
-<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:core_wildwood>,<industrialupgrade:rubber_boots>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
+<industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>,   <industrialupgrade:itembatlamacrystal>,<contenttweaker:quantum_shield>,<iuadditions:divinerpg_elements:29>,<industrialupgrade:rubber_boots>,   <industrialupgrade:quantumitems2>,<industrialupgrade:circuit:10>.withTag({level: 7}),<industrialupgrade:quantumitems3>]);
 //
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -630,31 +630,31 @@ CombinationCrafting.addRecipe(<industrialupgrade:quantum_boots>, 2500000, 200000
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:itemnanosaber>, 10000000, 500000, <industrialupgrade:itemnanosaber1>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectral_bow>, 10000000, 500000, <industrialupgrade:quantum_bow>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,<extrabotany:material:7>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,<extrabotany:material:7>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectralpickaxe>, 10000000, 500000, <industrialupgrade:quantumpickaxe>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:528>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:531>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:528>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:531>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectralshovel>, 10000000, 500000, <industrialupgrade:quantumshovel>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:526>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:529>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:526>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:529>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectralaxe>, 10000000, 500000, <industrialupgrade:quantumaxe>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:527>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:530>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),   <industrialupgrade:crafting_elements:527>,<contenttweaker:rod_spectral>,<industrialupgrade:crafting_elements:530>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9})]);
 //
 
 //
-CombinationCrafting.addRecipe(<industrialupgrade:spectraldrill>, 10000000, 500000, <iuadditions:core_mortum>, [
+CombinationCrafting.addRecipe(<industrialupgrade:spectraldrill>, 10000000, 500000, <iuadditions:divinerpg_elements:32>, [
 <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <industrialupgrade:crafting_elements:532>,<industrialupgrade:spectralpickaxe>,<industrialupgrade:crafting_elements:525>,<industrialupgrade:spectralshovel>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
 //
 
@@ -670,22 +670,22 @@ CombinationCrafting.addRecipe(<industrialupgrade:katana>, 10000000, 500000, <ind
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectral_helmet>, 10000000, 500000, <industrialupgrade:quantum_helmet>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,<industrialupgrade:hazmathelmet>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,<industrialupgrade:hazmathelmet>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectral_chestplate>, 10000000, 500000, <industrialupgrade:quantum_chestplate>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,<industrialupgrade:hazmatchest>,<simplyjetpacks:metaitemmods:11>,<enderio:item_material:19>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,<industrialupgrade:hazmatchest>,<simplyjetpacks:metaitemmods:11>,<enderio:item_material:19>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectral_leggings>, 10000000, 500000, <industrialupgrade:quantum_leggings>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,<industrialupgrade:hazmatleggins>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,<industrialupgrade:hazmatleggins>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
 //
 
 //
 CombinationCrafting.addRecipe(<industrialupgrade:spectral_boots>, 10000000, 500000, <industrialupgrade:quantum_boots>, [
-<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:core_mortum>,<industrialupgrade:hazmatboosts>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
+<industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>,   <contenttweaker:spectral_shield>,<industrialupgrade:crafting_elements:532>,<iuadditions:divinerpg_elements:32>,<industrialupgrade:hazmatboosts>,   <industrialupgrade:quantumitems4>,<industrialupgrade:circuit:11>.withTag({level: 9}),<industrialupgrade:adv_spectral_box>]);
 //
 
 //

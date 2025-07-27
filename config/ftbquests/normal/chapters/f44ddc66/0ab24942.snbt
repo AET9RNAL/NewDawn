@@ -14,7 +14,8 @@
 		items: [{
 			id: "industrialupgrade:primal_programming_table",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "67d82600",

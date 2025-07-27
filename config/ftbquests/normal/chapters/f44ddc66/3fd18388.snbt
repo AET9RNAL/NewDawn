@@ -10,7 +10,8 @@
 		items: [{
 			id: "industrialupgrade:double_transformer",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "05b70a75",

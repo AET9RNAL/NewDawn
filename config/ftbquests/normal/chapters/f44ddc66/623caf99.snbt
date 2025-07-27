@@ -36,7 +36,8 @@
 		items: [{
 			id: "iuadditions:manaconverter",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "1b2cd4ee",

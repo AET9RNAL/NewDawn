@@ -20,6 +20,7 @@
 		items: [{
 			item: "industrialupgrade:blockresource 1 8"
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	}]
 }

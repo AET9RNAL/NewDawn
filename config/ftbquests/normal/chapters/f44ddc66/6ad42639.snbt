@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5dfbbf1c"
+	],
+	tasks: [{
+		uid: "72d3ae1f",
+		type: "item",
+		title: "Superheated Steam",
+		items: [{
+			id: "industrialupgrade:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "iufluidsuperheated_steam",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d41240a7",
+		type: "xp",
+		xp: 50
+	}]
+}

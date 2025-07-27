@@ -17,12 +17,10 @@
 		items: [{
 			id: "thermalexpansion:cell",
 			tag: {
-				Recv: 25000,
-				RSControl: 0b,
-				Facing: 2b,
-				Creative: 1b,
 				Energy: 50000000,
+				RSControl: 0b,
 				Level: 4b,
+				Send: 25000,
 				SideCache: [B;
 					2b,
 					2b,
@@ -31,7 +29,9 @@
 					2b,
 					2b
 				],
-				Send: 25000
+				Creative: 1b,
+				Facing: 2b,
+				Recv: 25000
 			}
 		}],
 		only_from_crafting: true

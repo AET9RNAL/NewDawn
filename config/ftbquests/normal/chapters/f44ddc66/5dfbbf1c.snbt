@@ -1,6 +1,6 @@
 {
-	x: -3.5d,
-	y: 14.5d,
+	x: -6.5d,
+	y: 11.5d,
 	hide_dependency_lines: true,
 	dependencies: [
 		"84d517f9"
@@ -11,7 +11,8 @@
 		items: [{
 			id: "industrialupgrade:primal_fluid_heater",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "69158cd6",

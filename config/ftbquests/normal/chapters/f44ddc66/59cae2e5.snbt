@@ -16,7 +16,8 @@
 		items: [{
 			id: "industrialupgrade:primal_soldering_mechanism",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "c0d9ef2a",

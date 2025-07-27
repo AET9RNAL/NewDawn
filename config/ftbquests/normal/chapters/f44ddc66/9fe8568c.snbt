@@ -15,6 +15,7 @@
 			id: "industrialupgrade:photonic_machine",
 			Damage: 7s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

@@ -23,7 +23,8 @@
 		items: [{
 			id: "industrialupgrade:lightning_rod",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "3c77480d",
@@ -32,7 +33,8 @@
 			id: "industrialupgrade:lightning_rod",
 			Damage: 2s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "5e33c486",
@@ -41,7 +43,8 @@
 			id: "industrialupgrade:lightning_rod",
 			Damage: 5s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "eac7a44d",
@@ -50,7 +53,8 @@
 			id: "industrialupgrade:lightning_rod",
 			Damage: 4s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "39c96e4d",
@@ -60,7 +64,8 @@
 			Damage: 3s,
 			tag: {}
 		}],
-		count: 4L
+		count: 4L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "bbdc28aa",
@@ -70,7 +75,8 @@
 			Damage: 1s,
 			tag: {}
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "0fb4a566",

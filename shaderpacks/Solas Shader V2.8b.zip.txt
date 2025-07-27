@@ -1,0 +1,10 @@
+#Sun Jun 22 16:30:20 EDT 2025
+AO=true
+BLOCKY_CLOUDS=true
+BLOOM=false
+FXAA=true
+GI=true
+shadowDistance=512.0
+shadowMapResolution=4096
+VL_SAMPLES=12
+VOXEL_VOLUME_SIZE=256

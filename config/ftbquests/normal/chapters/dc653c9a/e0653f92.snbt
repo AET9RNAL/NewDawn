@@ -11,6 +11,20 @@
 		items: [{
 			id: "tconstruct:broadsword",
 			tag: {
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					Durability: 82
+				},
 				TinkerData: {
 					Materials: [
 						"wood",
@@ -19,33 +33,19 @@
 					],
 					Modifiers: []
 				},
-				Stats: {
-					Durability: 82,
-					HarvestLevel: 0,
-					Attack: 3.0f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
-				},
-				StatsOriginal: {
-					Durability: 82,
-					HarvestLevel: 0,
-					Attack: 3.0f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
-				},
-				Special: {
-					Categories: [
-						"weapon",
-						"tool"
-					]
-				},
 				Modifiers: [{
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
 				}],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					Durability: 82
+				},
 				Traits: [
 					"ecological"
 				]

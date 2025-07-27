@@ -16,7 +16,8 @@
 		items: [{
 			id: "industrialupgrade:primal_fluid_integrator",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6ed0f876",

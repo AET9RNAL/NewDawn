@@ -10,7 +10,8 @@
 		items: [{
 			id: "industrialupgrade:tank_iu",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "228f2051",

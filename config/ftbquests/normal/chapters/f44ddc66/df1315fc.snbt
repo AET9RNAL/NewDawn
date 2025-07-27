@@ -14,7 +14,8 @@
 			id: "powerutils:powerutils",
 			Damage: 1s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "94bc583a",

@@ -23,7 +23,8 @@
 		items: [{
 			id: "industrialupgrade:block_anvil",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8fdab032",

@@ -24,7 +24,8 @@
 			Damage: 272s,
 			tag: {}
 		}],
-		count: 4L
+		count: 4L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "007320bf",

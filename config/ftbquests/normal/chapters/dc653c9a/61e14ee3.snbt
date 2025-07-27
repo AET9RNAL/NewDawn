@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -36.0d,
 	text: [
-		"§6Trees are falling, or am I dreaming?"
+		"§6Chop chop"
 	],
 	dependencies: [
 		"0725eeb5"

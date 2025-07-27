@@ -11,7 +11,8 @@
 			id: "quantum_generators:qg",
 			Damage: 3s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "2e1f302f",

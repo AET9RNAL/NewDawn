@@ -11,7 +11,8 @@
 		items: [{
 			id: "industrialupgrade:earth_quarry",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "e2ddedc1",
@@ -21,7 +22,8 @@
 			Damage: 5s,
 			tag: {}
 		}],
-		count: 4L
+		count: 4L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "e77cd823",
@@ -31,7 +33,8 @@
 			Damage: 4s,
 			tag: {}
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "c62b37b7",
@@ -40,7 +43,8 @@
 			id: "industrialupgrade:earth_quarry",
 			Damage: 1s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "d2da6a1e",
@@ -49,7 +53,8 @@
 			id: "industrialupgrade:earth_quarry",
 			Damage: 3s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "bec54279",
@@ -59,7 +64,8 @@
 			Damage: 2s,
 			tag: {}
 		}],
-		count: 37L
+		count: 37L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3b265b45",

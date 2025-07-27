@@ -158,28 +158,28 @@ recipes.addShaped(<industrialupgrade:magnet>, [[<industrialupgrade:alloyingot:7>
 
 recipes.addShaped(<industrialupgrade:itemdust:24> * 9, [[<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>],[<ore:dustDiamond>, <midnight:rouxe>, <ore:dustDiamond>], [<industrialupgrade:charged_redstone>, <ore:dustDiamond>, <industrialupgrade:charged_redstone>]]);
 
-recipes.addShaped(<iuadditions:qfp_arcana>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_arcana>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_arcana>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
-recipes.addShaped(<iuadditions:qfp_mortum>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_mortum>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_mortum>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
-recipes.addShaped(<iuadditions:qfp_skythern>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_skythern>, <industrialupgrade:circuit:11>, <iuadditions:capacitor_skythern>], [<divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>]]);
-recipes.addShaped(<iuadditions:qfp_apalachia>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_apalachia>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_apalachia>], [<divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>]]);
-recipes.addShaped(<iuadditions:qfp_wildwood>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_wildwood>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_wildwood>], [<divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>]]);
-recipes.addShaped(<iuadditions:qfp_eden>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_eden>, <industrialupgrade:circuit:10>, <iuadditions:capacitor_eden>], [<divinerpg:eden_chunk>, <divinerpg:eden_chunk>, <divinerpg:eden_chunk>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:19>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements:5>, <industrialupgrade:circuit:11>, <iuadditions:divinerpg_elements:5>], [<divinerpg:arcanium>, <divinerpg:arcanium>, <divinerpg:arcanium>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:18>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements:4>, <industrialupgrade:circuit:11>, <iuadditions:divinerpg_elements:4>], [<divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>, <divinerpg:mortum_chunk>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:17>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements:3>, <industrialupgrade:circuit:11>, <iuadditions:divinerpg_elements:3>], [<divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>, <divinerpg:skythern_chunk>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:16>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements:2>, <industrialupgrade:circuit:10>, <iuadditions:divinerpg_elements:2>], [<divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>, <divinerpg:apalachia_chunk>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:15>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements:1>, <industrialupgrade:circuit:10>, <iuadditions:divinerpg_elements:1>], [<divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>, <divinerpg:wildwood_chunk>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:14>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:divinerpg_elements>, <industrialupgrade:circuit:10>, <iuadditions:divinerpg_elements>], [<divinerpg:eden_chunk>, <divinerpg:eden_chunk>, <divinerpg:eden_chunk>]]);
 recipes.addShaped(<contenttweaker:neutronium_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:neutronium_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:neutronium_capacitor>], [<moreplates:neutronium_plate>, <moreplates:neutronium_plate>, <moreplates:neutronium_plate>]]);
 recipes.addShaped(<contenttweaker:chaotic_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:chaotic_capacitor>, <industrialupgrade:circuit:11>, <contenttweaker:chaotic_capacitor>], [<maia_draconic_edition:chaotic_plate>, <maia_draconic_edition:chaotic_plate>, <maia_draconic_edition:chaotic_plate>]]);
 recipes.addShaped(<contenttweaker:awakened_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:awakened_capacitor>, <industrialupgrade:circuit:10>, <contenttweaker:awakened_capacitor>], [<moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>, <moreplates:awakened_draconium_plate>]]);
 recipes.addShaped(<contenttweaker:draconic_qfp>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<contenttweaker:draconium_capacitor>, <industrialupgrade:circuit:10>, <contenttweaker:draconium_capacitor>], [<moreplates:draconium_plate>, <moreplates:draconium_plate>, <moreplates:draconium_plate>]]);
-recipes.addShaped(<iuadditions:soic_arcana>, [[<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>],[<industrialupgrade:stik:16>, <iuadditions:capacitor_arcana>, <industrialupgrade:stik:16>], [<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>]]);
-recipes.addShaped(<iuadditions:soic_mortum>, [[<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>],[<industrialupgrade:stik:10>, <iuadditions:capacitor_mortum>, <industrialupgrade:stik:10>], [<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>]]);
-recipes.addShaped(<iuadditions:soic_skythern>, [[<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>],[<industrialupgrade:stik:14>, <iuadditions:capacitor_skythern>, <industrialupgrade:stik:14>], [<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>]]);
-recipes.addShaped(<iuadditions:soic_apalachia>, [[<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>],[<industrialupgrade:stik:12>, <iuadditions:capacitor_apalachia>, <industrialupgrade:stik:12>], [<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>]]);
-recipes.addShaped(<iuadditions:soic_wildwood>, [[<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>],[<industrialupgrade:stik:11>, <iuadditions:capacitor_wildwood>, <industrialupgrade:stik:11>], [<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>]]);
-recipes.addShaped(<iuadditions:soic_eden>, [[<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>],[<industrialupgrade:stik:13>, <iuadditions:capacitor_eden>, <industrialupgrade:stik:13>], [<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements12>, [[<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>],[<industrialupgrade:stik:16>, <iuadditions:divinerpg_elements:5>, <industrialupgrade:stik:16>], [<industrialupgrade:stik:16>, <industrialupgrade:stik:16>, <industrialupgrade:stik:16>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements11>, [[<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>],[<industrialupgrade:stik:10>, <iuadditions:divinerpg_elements:4>, <industrialupgrade:stik:10>], [<industrialupgrade:stik:10>, <industrialupgrade:stik:10>, <industrialupgrade:stik:10>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements10>, [[<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>],[<industrialupgrade:stik:14>, <iuadditions:divinerpg_elements:3>, <industrialupgrade:stik:14>], [<industrialupgrade:stik:14>, <industrialupgrade:stik:14>, <industrialupgrade:stik:14>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements9>, [[<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>],[<industrialupgrade:stik:12>, <iuadditions:divinerpg_elements:2>, <industrialupgrade:stik:12>], [<industrialupgrade:stik:12>, <industrialupgrade:stik:12>, <industrialupgrade:stik:12>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:8>, [[<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>],[<industrialupgrade:stik:11>, <iuadditions:divinerpg_elements:1>, <industrialupgrade:stik:11>], [<industrialupgrade:stik:11>, <industrialupgrade:stik:11>, <industrialupgrade:stik:11>]]);
+recipes.addShaped(<iuadditions:divinerpg_elements:7>, [[<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>],[<industrialupgrade:stik:13>, <iuadditions:divinerpg_elements>, <industrialupgrade:stik:13>], [<industrialupgrade:stik:13>, <industrialupgrade:stik:13>, <industrialupgrade:stik:13>]]);
 recipes.addShaped(<contenttweaker:neutronium_soic>, [[<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>],[<industrialupgrade:stik:5>, <contenttweaker:neutronium_capacitor>, <industrialupgrade:stik:5>], [<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>]]);
 recipes.addShaped(<contenttweaker:chaotic_soic>, [[<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>],[<industrialupgrade:stik:5>, <contenttweaker:chaotic_capacitor>, <industrialupgrade:stik:5>], [<industrialupgrade:stik:5>, <industrialupgrade:stik:5>, <industrialupgrade:stik:5>]]);
 recipes.addShaped(<contenttweaker:awakened_soic>, [[<industrialupgrade:stik:18>, <industrialupgrade:stik:18>, <industrialupgrade:stik:18>],[<industrialupgrade:stik:18>, <contenttweaker:awakened_capacitor>, <industrialupgrade:stik:18>], [<industrialupgrade:stik:18>, <industrialupgrade:stik:18>, <industrialupgrade:stik:18>]]);
 recipes.addShaped(<contenttweaker:draconic_soic>, [[<industrialupgrade:stik:2>, <industrialupgrade:stik:2>, <industrialupgrade:stik:2>],[<industrialupgrade:stik:2>, <contenttweaker:draconium_capacitor>, <industrialupgrade:stik:2>], [<industrialupgrade:stik:2>, <industrialupgrade:stik:2>, <industrialupgrade:stik:2>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_fiery>, [[<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_fiery>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_fiery>]]);
-recipes.addShaped(<iuadditions:iridium_reinforced_stellar>, [[<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:274>, <iuadditions:iridium_stellar>]]);
+recipes.addShaped(<iuadditions:iridium_reinforced_stellar>, [[<iuadditions:astral_element:1>, <industrialupgrade:crafting_elements:274>, <iuadditions:astral_element:1>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<iuadditions:astral_element:1>, <industrialupgrade:crafting_elements:274>, <iuadditions:astral_element:1>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_alfheim>, [[<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_alfheim>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_alfheim>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_chaotic>, [[<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_chaotic>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_chaotic>]]);
 recipes.addShaped(<contenttweaker:iridium_reinforced_awakened>, [[<contenttweaker:iridium_awakened>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_awakened>],[<industrialupgrade:crafting_elements:274>, <minecraft:diamond>, <industrialupgrade:crafting_elements:274>], [<contenttweaker:iridium_awakened>, <industrialupgrade:crafting_elements:274>, <contenttweaker:iridium_awakened>]]);
@@ -221,8 +221,8 @@ recipes.addShaped(<industrialupgrade:simplemachine:3>, [[<moreplates:electrical_
 recipes.addShaped(<industrialupgrade:moremachine2>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:165>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:124>]]);
 recipes.addShaped(<industrialupgrade:moremachine2:8>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:132>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:170>]]);
 recipes.addShaped(<industrialupgrade:moremachine2:4>, [[<moreplates:electrical_steel_plate>, <industrialupgrade:crafting_elements:163>, <moreplates:electrical_steel_plate>],[<industrialupgrade:crafting_elements:72>, <industrialupgrade:blockresource:8>, <industrialupgrade:crafting_elements:44>], [<industrialupgrade:crafting_elements:276>, <moreplates:electrical_steel_plate>, <industrialupgrade:basemachine3:169>]]);
-recipes.addShaped(<iuadditions:soic_stellar>, [[<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>],[<industrialupgrade:stik:6>, <iuadditions:capacitor_stellar>, <industrialupgrade:stik:6>], [<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>]]);
-recipes.addShaped(<iuadditions:qfp_stellar>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:capacitor_stellar>, <industrialupgrade:crafting_elements:549>, <iuadditions:capacitor_stellar>], [<iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]]);
+recipes.addShaped(<iuadditions:soic_stellar>, [[<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>],[<industrialupgrade:stik:6>, <iuadditions:astral_element:5>, <industrialupgrade:stik:6>], [<industrialupgrade:stik:6>, <industrialupgrade:stik:6>, <industrialupgrade:stik:6>]]);
+recipes.addShaped(<iuadditions:qfp_stellar>, [[<industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>, <industrialupgrade:crafting_elements:282>],[<iuadditions:astral_element:5>, <industrialupgrade:crafting_elements:549>, <iuadditions:astral_element:5>], [<iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]]);
 
 
 // Matter Fabricator — Advanced table (5×5)
@@ -415,31 +415,31 @@ GenMicrochip.addRecipe(<contenttweaker:draconium_circuit>, <industrialupgrade:it
 GenMicrochip.addRecipe(<contenttweaker:awakened_draconium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:awakened_capacitor>, <contenttweaker:awakened_soic>,<contenttweaker:awakened_qfp>, 5000);
 GenMicrochip.addRecipe(<contenttweaker:chaotic_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:chaotic_capacitor>, <contenttweaker:chaotic_soic>,<contenttweaker:chaotic_qfp>, 5000);
 GenMicrochip.addRecipe(<contenttweaker:neutronium_circuit>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <contenttweaker:neutronium_capacitor>, <contenttweaker:neutronium_soic>,<contenttweaker:neutronium_qfp>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_eden>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_eden>, <iuadditions:soic_eden>,<iuadditions:qfp_eden>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_wildwood>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_wildwood>, <iuadditions:soic_wildwood>,<iuadditions:qfp_wildwood>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_apalachia>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_apalachia>, <iuadditions:soic_apalachia>,<iuadditions:qfp_apalachia>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_skythern>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_skythern>, <iuadditions:soic_skythern>,<iuadditions:qfp_skythern>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_mortum>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_mortum>, <iuadditions:soic_mortum>,<iuadditions:qfp_mortum>, 5000);
-GenMicrochip.addRecipe(<iuadditions:circuit_arcana>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:capacitor_arcana>, <iuadditions:soic_arcana>,<iuadditions:qfp_arcana>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:21>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements>, <iuadditions:divinerpg_elements:7>,<iuadditions:divinerpg_elements:14>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:22>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements:1>, <iuadditions:divinerpg_elements:8>,<iuadditions:divinerpg_elements:15>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:23>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements:2>, <iuadditions:divinerpg_elements9>,<iuadditions:divinerpg_elements:16>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:24>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements:3>, <iuadditions:divinerpg_elements10>,<iuadditions:divinerpg_elements:17>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:25>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements:4>, <iuadditions:divinerpg_elements11>,<iuadditions:divinerpg_elements:18>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:26>, <industrialupgrade:itemingots:2>, <thermalfoundation:material:165> , <iuadditions:divinerpg_elements:5>, <iuadditions:divinerpg_elements12>,<iuadditions:divinerpg_elements:19>, 5000);
 
 GenMicrochip.addRecipe(<contenttweaker:draconium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
 GenMicrochip.addRecipe(<contenttweaker:awakened_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <moreplates:awakened_draconium_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
 GenMicrochip.addRecipe(<contenttweaker:chaotic_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <maia_draconic_edition:chaotic_plate>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
 GenMicrochip.addRecipe(<contenttweaker:neutronium_capacitor>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <avaritia:resource:3>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
 
-GenMicrochip.removeRecipe(<iuadditions:capacitor_eden>);
-GenMicrochip.removeRecipe(<iuadditions:capacitor_wildwood>);
-GenMicrochip.removeRecipe(<iuadditions:capacitor_apalachia>);
-GenMicrochip.removeRecipe(<iuadditions:capacitor_skythern>);
-GenMicrochip.removeRecipe(<iuadditions:capacitor_mortum>);
-GenMicrochip.removeRecipe(<iuadditions:capacitor_arcana>);
-GenMicrochip.addRecipe(<iuadditions:capacitor_eden>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:eden_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_wildwood>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:wildwood_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_apalachia>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:apalachia_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_skythern>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:skythern_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_mortum>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:mortum_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_arcana>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:collector_fragments>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
-GenMicrochip.addRecipe(<iuadditions:capacitor_stellar>, <industrialupgrade:itemingots:9>, <astralsorcery:itemusabledust>, <fluxnetworks:flux>, <astralsorcery:itemcraftingcomponent:1>, <industrialupgrade:itemingots:9>, 2000);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements>);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements:1>);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements:2>);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements:3>);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements:4>);
+GenMicrochip.removeRecipe(<iuadditions:divinerpg_elements:5>);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:eden_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:1>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:wildwood_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:2>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:apalachia_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:9>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:3>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:skythern_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:4>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:mortum_gem>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:divinerpg_elements:5>, <industrialupgrade:itemingots:2>, <fluxnetworks:flux> , <divinerpg:collector_fragments>, <enderio:item_alloy_endergy_ingot:6>,<industrialupgrade:itemingots:5>, 5000);
+GenMicrochip.addRecipe(<iuadditions:astral_element:5>, <industrialupgrade:itemingots:9>, <astralsorcery:itemusabledust>, <fluxnetworks:flux>, <astralsorcery:itemcraftingcomponent:1>, <industrialupgrade:itemingots:9>, 2000);
 
 
 
@@ -453,7 +453,7 @@ mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:irid
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_awakened>, <industrialupgrade:crafting_elements:275>, <draconicevolution:draconic_block>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_chaotic>, <industrialupgrade:crafting_elements:275>, <industrialupgrade:chaosingot>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_alfheim>, <industrialupgrade:crafting_elements:275>, <botania:storage:2>, 1000000);
-mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<iuadditions:iridium_stellar>, <industrialupgrade:crafting_elements:275>, <astraladditions:block_starmetal>, 1000000);
+mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<iuadditions:astral_element:1>, <industrialupgrade:crafting_elements:275>, <astraladditions:block_starmetal>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:iridium_fiery>, <industrialupgrade:crafting_elements:275>, <divinerpg:molten_stone>, 1000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matter_chaotic>, <industrialupgrade:solidmatter>, <industrialupgrade:chaosingot>, 300000000);
 mods.industrialupgrade.DoubleMolecularTransformer.addRecipe(<contenttweaker:matter_awakened_draconium>, <industrialupgrade:solidmatter>, <draconicevolution:draconic_block>, 200000000 );
@@ -684,13 +684,13 @@ mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_cha
 mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_alfheim>, <contenttweaker:iridium_dense_alfheim> * 9);
 mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_fiery> , <contenttweaker:iridium_dense_fiery> * 9);
 mods.industrialupgrade.compressor.addRecipe(<thermalfoundation:material:135>, <industrialupgrade:crafting_elements:275>);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <extrabees:honey_comb:82> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <extrabees:honey_comb:21> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <extrabees:honey_comb:28> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_certushoneycomb>, <extrabees:honey_comb:81> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_statichoneycomb>, <extrabees:honey_comb:14> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <forestry:bee_combs:5> * 32);
-mods.industrialupgrade.compressor.addRecipe(<iuadditions:plate_voidweavedense>, <iuadditions:plate_voidweave>*9);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <extrabees:honey_comb:82> * 32);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <extrabees:honey_comb:21> * 32);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <extrabees:honey_comb:28> * 32);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_certushoneycomb>, <extrabees:honey_comb:81> * 32);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_statichoneycomb>, <extrabees:honey_comb:14> * 32);
+// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <forestry:bee_combs:5> * 32);
+
 
 
 //FERMER
@@ -745,12 +745,12 @@ mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <end
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <minecraft:redstone>, <ore:itemSilicon>, 3000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>, <industrialforegoing:pink_slime_ingot>, <enderio:item_material:36>, 3000);
 
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_radioactive>, <iuadditions:plate_radioactive>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_venomous>, <iuadditions:plate_venomous>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_dripping>, <iuadditions:plate_dripping>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_static>, <iuadditions:plate_static>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_shimmering>, <iuadditions:plate_shimmering>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_certus>, <iuadditions:plate_certus>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_radioactive>, <iuadditions:plate_radioactive>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_venomous>, <iuadditions:plate_venomous>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_dripping>, <iuadditions:plate_dripping>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_static>, <iuadditions:plate_static>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_shimmering>, <iuadditions:plate_shimmering>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
+// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_certus>, <iuadditions:plate_certus>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_material:3>, <enderio:item_material:38>*3, <minecraft:flint>, 3000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<redstonearsenal:material:32>, <redstonearsenal:material>, <thermalfoundation:material:1024>, 4000);
 
@@ -809,12 +809,12 @@ fluidintegrator.addRecipe(<industrialupgrade:itemdust:13>, <redstonearsenal:mate
 
 val honey = <liquid:for.honey> * 2500;
 
-fluidintegrator.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <iuadditions:crystal_shimmering>, honey, <liquid:water>* 2500);
-fluidintegrator.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <iuadditions:crystal_radioactive>, honey, <liquid:water>* 2500);
-fluidintegrator.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <iuadditions:crystal_venomous>, honey, <liquid:water>* 2500);
-fluidintegrator.addRecipe(<iuadditions:compressed_certushoneycomb>, <iuadditions:crystal_certus>, honey, <liquid:water>* 2500);
-fluidintegrator.addRecipe(<iuadditions:compressed_statichoneycomb>, <iuadditions:crystal_static>, honey, <liquid:water>* 2500);
-fluidintegrator.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <iuadditions:crystal_dripping>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <iuadditions:crystal_shimmering>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <iuadditions:crystal_radioactive>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <iuadditions:crystal_venomous>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_certushoneycomb>, <iuadditions:crystal_certus>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_statichoneycomb>, <iuadditions:crystal_static>, honey, <liquid:water>* 2500);
+// fluidintegrator.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <iuadditions:crystal_dripping>, honey, <liquid:water>* 2500);
 
 fluidintegrator.addRecipe(<contenttweaker:wyvern_energy_core_empty>, <draconicevolution:wyvern_energy_core>, <liquid:vibrant_alloy>*4000, <liquid:water>* 4000);
 fluidintegrator.addRecipe(<contenttweaker:awakened_energy_core_empty>, <draconicevolution:draconic_energy_core>, <liquid:stellar_alloy>*4000, <liquid:water>* 4000);

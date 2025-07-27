@@ -17,7 +17,8 @@
 			tag: {
 				level: 6
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "fa1d8330",

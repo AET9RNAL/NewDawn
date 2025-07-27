@@ -598,9 +598,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0,<mekanism:mekamachine_extreme_ev
 
 
 
+mods.mekanism.infuser.removeRecipe(<mekanism:enrichediron>);
 
-
-
+mods.mekanism.infuser.addRecipe("CARBON", 30, <industrialupgrade:crafting_elements:499>, <mekanism:enrichediron>);
 
 
 

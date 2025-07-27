@@ -1,0 +1,12 @@
+{
+    "addonId": 871198,
+    "fileId": 6609247,
+    "metadata": {
+        "side": "CLIENT"
+    },
+    "installationPolicy": {
+        "name": "VintageFix",
+        "description": "Load time and RAM use improvements. WARNING: If you are crashing when looking something up in JEI, and in crash report there are mentions of industrialupgrade:fluid_cell - DELETE VintageFix.",
+        "optionalKey": "$"
+    }
+}

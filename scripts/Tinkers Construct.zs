@@ -140,4 +140,9 @@ Melting.addRecipe(<liquid:draconium>*144, <tconstruct:knife_blade>.withTag({Mate
 Melting.addRecipe(<liquid:draconium>*432, <tconstruct:bow_limb>.withTag({Material: "wyverndraconium"}), 300);
 Melting.addRecipe(<liquid:draconium>*288, <tconstruct:arrow_head>.withTag({Material: "wyverndraconium"}), 300);
 
+
+// mods.tconstruct.Fuel.registerFuel(<liquid:iufluidpahoehoe_lava>, 1);
+// mods.tconstruct.Fuel.registerFuel(<liquid:iufluidsuperheated_steam>, 1500);
+mods.tconstruct.Fuel.registerFuel(<liquid:iufluiduu_matter>, 18000);
+
 //File End

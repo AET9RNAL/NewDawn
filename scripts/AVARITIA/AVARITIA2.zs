@@ -11,57 +11,41 @@ recipes.addShaped(<extrautils2:creativeenergy>, [[null, null, null],[null, <drac
 // Sunstorm Spawner
 recipes.remove(<divinerpg:sunstorm_spawner>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <divinerpg:sunstorm_spawner>, [
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, null, null, null, null, null, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_eden>, <contenttweaker:nano_shield>, null, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, null, <iuadditions:circuit_eden>, <enderio:block_powered_spawner>, <iuadditions:circuit_eden>, null, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_eden>, <contenttweaker:nano_shield>, null, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, null, null, null, null, null, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <iuadditions:core_eden>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>]
+	[<ore:blockEden>, <ore:blockEden>, <iuadditions:divinerpg_elements:28>, <ore:blockEden>, <ore:blockEden>], 
+	[<ore:blockEden>, <iuadditions:divinerpg_elements:21>, <industrialupgrade:crafting_elements:59>, <iuadditions:divinerpg_elements:21>, <ore:blockEden>], 
+	[<iuadditions:divinerpg_elements:28>, <industrialupgrade:entitymodules:1>, <enderio:block_powered_spawner>, <industrialupgrade:entitymodules:1>, <iuadditions:divinerpg_elements:28>], 
+	[<ore:blockEden>, <iuadditions:divinerpg_elements:21>, <industrialupgrade:crafting_elements:54>, <iuadditions:divinerpg_elements:21>, <ore:blockEden>], 
+	[<ore:blockEden>, <ore:blockEden>, <iuadditions:divinerpg_elements:28>, <ore:blockEden>, <ore:blockEden>]
 ]);
 
 // Termasect Spawner
 recipes.remove(<divinerpg:termasect_spawner>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <divinerpg:termasect_spawner>, [
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, null, null, null, null, null, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_wildwood>, <contenttweaker:nano_shield>, null, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, null, <iuadditions:circuit_wildwood>, <enderio:block_powered_spawner>, <iuadditions:circuit_wildwood>, null, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_wildwood>, <contenttweaker:nano_shield>, null, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, null, null, null, null, null, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <iuadditions:core_wildwood>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>]
+	[<ore:blockWildwood>, <ore:blockWildwood>, <iuadditions:divinerpg_elements:29>, <ore:blockWildwood>, <ore:blockWildwood>], 
+	[<ore:blockWildwood>, <iuadditions:divinerpg_elements:22>, <industrialupgrade:crafting_elements:59>, <iuadditions:divinerpg_elements:22>, <ore:blockWildwood>], 
+	[<iuadditions:divinerpg_elements:29>, <industrialupgrade:entitymodules:1>, <enderio:block_powered_spawner>, <industrialupgrade:entitymodules:1>, <iuadditions:divinerpg_elements:29>], 
+	[<ore:blockWildwood>, <iuadditions:divinerpg_elements:22>, <industrialupgrade:crafting_elements:54>, <iuadditions:divinerpg_elements:22>, <ore:blockWildwood>], 
+	[<ore:blockWildwood>, <ore:blockWildwood>, <iuadditions:divinerpg_elements:29>, <ore:blockWildwood>, <ore:blockWildwood>]
 ]);
 
 // Eternal Archer Spawner
 recipes.remove(<divinerpg:eternal_archer_spawner>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <divinerpg:eternal_archer_spawner>, [
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, null, null, null, null, null, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_apalachia>, <contenttweaker:nano_shield>, null, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, null, <iuadditions:circuit_apalachia>, <enderio:block_powered_spawner>, <iuadditions:circuit_apalachia>, null, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_apalachia>, <contenttweaker:nano_shield>, null, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, null, null, null, null, null, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <iuadditions:core_apalachia>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>]
+	[<ore:blockApalachia>, <ore:blockApalachia>, <iuadditions:divinerpg_elements:30>, <ore:blockApalachia>, <ore:blockApalachia>], 
+	[<ore:blockApalachia>, <iuadditions:divinerpg_elements:23>, <industrialupgrade:crafting_elements:59>, <iuadditions:divinerpg_elements:23>, <ore:blockApalachia>], 
+	[<iuadditions:divinerpg_elements:30>, <industrialupgrade:entitymodules:1>, <enderio:block_powered_spawner>, <industrialupgrade:entitymodules:1>, <iuadditions:divinerpg_elements:30>], 
+	[<ore:blockApalachia>, <iuadditions:divinerpg_elements:23>, <industrialupgrade:crafting_elements:54>, <iuadditions:divinerpg_elements:23>, <ore:blockApalachia>], 
+	[<ore:blockApalachia>, <ore:blockApalachia>, <iuadditions:divinerpg_elements:30>, <ore:blockApalachia>, <ore:blockApalachia>]
 ]);
 
 // Experienced Cori Spawner
 recipes.remove(<divinerpg:experienced_cori_spawner>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <divinerpg:experienced_cori_spawner>, [
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, null, null, null, null, null, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_skythern>, <contenttweaker:nano_shield>, null, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, null, <iuadditions:circuit_skythern>, <enderio:block_powered_spawner>, <iuadditions:circuit_skythern>, null, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, null, <contenttweaker:nano_shield>, <iuadditions:circuit_skythern>, <contenttweaker:nano_shield>, null, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, null, null, null, null, null, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <iuadditions:core_skythern>, <thermalfoundation:material:327>],
-    [<thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>, <thermalfoundation:material:327>]
+	[<ore:blockSkythern>, <ore:blockSkythern>, <iuadditions:divinerpg_elements:31>, <ore:blockSkythern>, <ore:blockSkythern>], 
+	[<ore:blockSkythern>, <iuadditions:divinerpg_elements:24>, <industrialupgrade:crafting_elements:59>, <iuadditions:divinerpg_elements:24>, <ore:blockSkythern>], 
+	[<iuadditions:divinerpg_elements:31>, <industrialupgrade:entitymodules:1>, <enderio:block_powered_spawner>, <industrialupgrade:entitymodules:1>, <iuadditions:divinerpg_elements:31>], 
+	[<ore:blockSkythern>, <iuadditions:divinerpg_elements:24>, <industrialupgrade:crafting_elements:54>, <iuadditions:divinerpg_elements:24>, <ore:blockSkythern>], 
+	[<ore:blockSkythern>, <ore:blockSkythern>, <iuadditions:divinerpg_elements:31>, <ore:blockSkythern>, <ore:blockSkythern>]
 ]);
 
 

@@ -1,0 +1,12 @@
+{
+    "url": "https://github.com/AET9RNAL/ModAssets/releases/download/Assets/fancy.zip",
+    "folder": "config/mod-director",
+    "installationPolicy": {
+    "extract": true,
+    "deleteAfterExtract": true,
+    "name": "Fancy profile",
+    "description": "Checking this will fetch a bundle of mods that fancify the game, at the cost of optimization and worse performance. If you have a weak PC - please don't. Changes take effect after the second lauch!",
+    "optionalKey": "$",
+    "selectedByDefault": false
+  }
+}

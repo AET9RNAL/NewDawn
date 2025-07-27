@@ -11,6 +11,7 @@
 			id: "iuadditions:astralpanel",
 			Damage: 2s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

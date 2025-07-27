@@ -11,7 +11,8 @@
 		items: [{
 			id: "industrialupgrade:gas_chamber",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ddbef0c3",

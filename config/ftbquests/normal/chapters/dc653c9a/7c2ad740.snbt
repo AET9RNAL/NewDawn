@@ -11,30 +11,6 @@
 		items: [{
 			id: "tconstruct:hatchet",
 			tag: {
-				TinkerData: {
-					Materials: [
-						"wood",
-						"wood",
-						"wood"
-					],
-					Modifiers: []
-				},
-				Stats: {
-					Durability: 75,
-					HarvestLevel: 0,
-					Attack: 2.5f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
-				},
-				StatsOriginal: {
-					Durability: 75,
-					HarvestLevel: 0,
-					Attack: 2.5f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
-				},
 				Special: {
 					Categories: [
 						"weapon",
@@ -43,11 +19,35 @@
 						"harvest"
 					]
 				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					Durability: 75
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
 				Modifiers: [{
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
 				}],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.5f,
+					Durability: 75
+				},
 				Traits: [
 					"ecological"
 				]
