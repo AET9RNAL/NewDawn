@@ -176,7 +176,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_enhanced_sag_mil
     [<thermalfoundation:storage_alloy:0>, <industrialupgrade:itemcore:0>, <industrialupgrade:blockresource:9>, <enderio:item_basic_capacitor:2>, <industrialupgrade:blockresource:9>, <industrialupgrade:itemcore:0>, <thermalfoundation:storage_alloy:0>],
     [<thermalfoundation:storage_alloy:0>, <industrialupgrade:circuit:8>, <iuadditions:divinerpg_elements:30>, <enderio:block_sag_mill>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:circuit:8>, <thermalfoundation:storage_alloy:0>],
     [<thermalfoundation:storage_alloy:0>, <industrialupgrade:itemcore:0>, <industrialupgrade:blockresource:9>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:blockresource:9>, <industrialupgrade:itemcore:0>, <thermalfoundation:storage_alloy:0>],
-    [<thermalfoundation:storage_alloy:0>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <iuadditions:qfp_eden>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <thermalfoundation:storage_alloy:0>],
+    [<thermalfoundation:storage_alloy:0>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <iuadditions:divinerpg_elements:14>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <thermalfoundation:storage_alloy:0>],
     [<thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>, <thermalfoundation:storage_alloy:0>]
 ]);
 
@@ -188,7 +188,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_enhanced_alloy_s
     [<industrialupgrade:itemcore:0>, <industrialupgrade:blockresource:9>, <enderio:item_material:54>, <industrialupgrade:blockresource:9>, <industrialupgrade:itemcore:0>],
     [<industrialupgrade:circuit:8>, <iuadditions:divinerpg_elements:30>, <enderio:block_alloy_smelter>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:circuit:8>],
     [<industrialupgrade:itemcore:0>, <industrialupgrade:blockresource:9>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:blockresource:9>, <industrialupgrade:itemcore:0>],
-    [<industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <iuadditions:qfp_eden>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>]
+    [<industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>, <iuadditions:divinerpg_elements:14>, <industrialupgrade:itemcore:0>, <industrialupgrade:itemcore:0>]
 ]);
 
 // Enhanced Wired Charger
@@ -197,7 +197,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_enhanced_wired_c
     [<enderio:block_alloy:0>, <chargers:charger:2>, <enderio:item_material:54>, <chargers:charger:2>, <enderio:block_alloy:0>],
     [<industrialupgrade:circuit:8>, <iuadditions:divinerpg_elements:30>, <enderio:block_wired_charger>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:circuit:8>],
     [<enderio:block_alloy:0>, <chargers:charger:2>, <iuadditions:divinerpg_elements:30>, <chargers:charger:2>, <enderio:block_alloy:0>],
-    [<enderio:block_alloy:0>, <enderio:block_alloy:0>, <iuadditions:qfp_eden>, <enderio:block_alloy:0>, <enderio:block_alloy:0>]
+    [<enderio:block_alloy:0>, <enderio:block_alloy:0>, <iuadditions:divinerpg_elements:14>, <enderio:block_alloy:0>, <enderio:block_alloy:0>]
 ]);
 
 
