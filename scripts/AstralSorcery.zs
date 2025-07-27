@@ -145,10 +145,10 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("ND:shaped/internal/altar/quarry", 
              <extrautils2:ingredients:2>, <iuadditions:astral_element:9>, <extrautils2:ingredients:2>,
              <astralsorcery:blockmarble:6>, <thermalfoundation:material:514>, <astralsorcery:blockmarble:6>,
              <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>, <industrialupgrade:itemplates:21>,
-             <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>,
-             <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>,
-             <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>,
-             <iuadditions:plate_astralstarmetal>, <iuadditions:plate_astralstarmetal>]);
+             <iuadditions:astral_element>, <iuadditions:astral_element>,
+             <iuadditions:astral_element>, <iuadditions:astral_element>,
+             <iuadditions:astral_element>, <iuadditions:astral_element>,
+             <iuadditions:astral_element>, <iuadditions:astral_element>]);
 
 //Luckx1
  mods.astralsorcery.Altar.addConstellationAltarRecipe("ND:shaped/internal/altar/Luckx1", <contenttweaker:module_luck_x1>, 2000, 10, [
