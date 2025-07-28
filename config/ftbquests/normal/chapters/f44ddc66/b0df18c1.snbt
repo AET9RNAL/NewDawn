@@ -16,7 +16,8 @@
 		items: [{
 			id: "industrialupgrade:wind_turbine",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "32d0ca4e",
@@ -25,7 +26,8 @@
 			id: "industrialupgrade:wind_turbine",
 			Damage: 1s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "ad258374",
@@ -34,7 +36,8 @@
 			id: "industrialupgrade:wind_turbine",
 			Damage: 2s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "b542902c",
@@ -44,7 +47,8 @@
 			Damage: 5s,
 			tag: {}
 		}],
-		count: 3L
+		count: 3L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "a97bc8f2",
@@ -54,7 +58,8 @@
 			Damage: 4s,
 			tag: {}
 		}],
-		count: 6L
+		count: 6L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "28737f83",
@@ -64,7 +69,8 @@
 			Damage: 3s,
 			tag: {}
 		}],
-		count: 16L
+		count: 16L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "eedd34e1",

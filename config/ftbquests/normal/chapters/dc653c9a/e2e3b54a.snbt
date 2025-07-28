@@ -20,20 +20,12 @@
 					Modifiers: []
 				},
 				Stats: {
-					Durability: 75,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					AttackSpeedMultiplier: 1.0f,
 					HarvestLevel: 0,
 					Attack: 2.0f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
-				},
-				StatsOriginal: {
-					Durability: 75,
-					HarvestLevel: 0,
-					Attack: 2.0f,
-					MiningSpeed: 2.0f,
-					AttackSpeedMultiplier: 1.0f,
-					FreeModifiers: 3
+					Durability: 75
 				},
 				Special: {
 					Categories: [
@@ -47,6 +39,14 @@
 					color: -7444965,
 					level: 1
 				}],
+				StatsOriginal: {
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
 				Traits: [
 					"ecological"
 				]

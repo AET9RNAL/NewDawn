@@ -28,7 +28,8 @@
 		items: [{
 			id: "industrialupgrade:smeltery",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "0351c612",
@@ -38,7 +39,8 @@
 			Damage: 3s,
 			tag: {}
 		}],
-		count: 18L
+		count: 18L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "eaed4588",
@@ -48,7 +50,8 @@
 			Damage: 1s,
 			tag: {}
 		}],
-		count: 74L
+		count: 74L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "35b6669a",
@@ -58,7 +61,8 @@
 			Damage: 2s,
 			tag: {}
 		}],
-		count: 3L
+		count: 3L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "a4b99b9b",
@@ -68,7 +72,8 @@
 			Damage: 4s,
 			tag: {}
 		}],
-		count: 3L
+		count: 3L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "f3820605",
@@ -77,7 +82,8 @@
 			id: "industrialupgrade:smeltery",
 			Damage: 5s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e4008396",

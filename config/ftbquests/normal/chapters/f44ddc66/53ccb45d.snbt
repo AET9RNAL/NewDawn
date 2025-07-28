@@ -19,7 +19,8 @@
 		items: [{
 			id: "industrialupgrade:primal_wire_insulator",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6dca017c",

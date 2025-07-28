@@ -18,7 +18,8 @@
 		items: [{
 			id: "industrialupgrade:dryer",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e24a7635",

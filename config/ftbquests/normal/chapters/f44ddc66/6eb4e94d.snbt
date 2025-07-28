@@ -1,6 +1,6 @@
 {
-	x: -3.5d,
-	y: 16.0d,
+	x: -6.5d,
+	y: 13.0d,
 	dependencies: [
 		"5dfbbf1c"
 	],
@@ -11,7 +11,8 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 257s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3a754958",

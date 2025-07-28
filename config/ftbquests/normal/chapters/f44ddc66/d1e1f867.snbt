@@ -25,7 +25,8 @@
 		items: [{
 			id: "industrialupgrade:steam_boiler",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "0869cc59",
@@ -35,7 +36,8 @@
 			Damage: 1s,
 			tag: {}
 		}],
-		count: 13L
+		count: 13L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "c01755db",
@@ -45,7 +47,8 @@
 			Damage: 2s,
 			tag: {}
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "f0b95fe9",
@@ -54,7 +57,8 @@
 			id: "industrialupgrade:steam_boiler",
 			Damage: 3s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "453d3499",
@@ -63,7 +67,8 @@
 			id: "industrialupgrade:steam_boiler",
 			Damage: 4s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "f0c87367",

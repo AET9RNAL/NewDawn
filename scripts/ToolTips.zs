@@ -11,7 +11,7 @@ import mods.jei.JEI.addDescription;
 //addDescription(IItemStack item, string... desc);
 //mods.jei.JEI.addDescription(IItemstack,"TEXT");
 
-<iuadditions:core_crossdimensional>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
+//<iuadditions:divinerpg_elements:35>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
 mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void Forge by clicking RMB while holding Endorium Ingot");
 // <mod_id:industrial_spawner>.displayName = "Industrial Spawner Controller";
 // <mod_id:legendary_industrial_spawner>.displayName = "Legendry Spawner Controller";
@@ -32,9 +32,7 @@ mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void For
 <draconicevolution:reactor_component:1>.addTooltip(format.red("In order to calculate stratup values, multiply default DE params by 100, gen rate/shield"));
 <simplecobblegen:cobblegen>.addTooltip(format.red("Use with ME storage bus to get infinite cobble"));
 
-// <iuadditions:improved_excavator>.displayName = "Improved Excavator";
-// <iuadditions:mana_furnace>.displayName = "Mana Furnace";
-// <iuadditions:mana_macerator>.displayName = "Mana Macerator";
+
 <botania:manamachine_agglomeration_plate>.displayName = "Mechanical Agglomeration Plate";
 <botania:manamachine_alfheim_portal>.displayName = "Mechanical Alfheim Portal";
 <botania:manamachine_gaia_agglomeration_plate>.displayName = "Mechanical GAIA Agglomeration Plate";

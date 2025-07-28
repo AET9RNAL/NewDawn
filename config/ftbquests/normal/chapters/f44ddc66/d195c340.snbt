@@ -14,7 +14,8 @@
 		items: [{
 			id: "industrialupgrade:electronics_assembler",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "97ab331c",

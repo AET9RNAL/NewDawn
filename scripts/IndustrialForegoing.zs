@@ -24,7 +24,7 @@ recipes.remove(<industrialforegoing:mob_duplicator>);
 //Don't touch me!
 //#Add
 recipes.addShaped(<industrialforegoing:black_hole_tank>, [[<industrialupgrade:blockresource:9>, <contenttweaker:matter_awakened_draconium>, <industrialupgrade:blockresource:9>],[<industrialupgrade:crafting_elements:107>, <botania:blackholetalisman>, <industrialupgrade:crafting_elements:107>], [<industrialupgrade:blockresource:9>, <contenttweaker:matter_awakened_draconium>, <industrialupgrade:blockresource:9>]]);
-recipes.addShaped(<industrialforegoing:laser_drill>, [[<bigreactors:reactorcasing>, <industrialupgrade:excitednucleus:4>, <bigreactors:reactorcasing>],[<iuadditions:crystal_radioactive>, <astralsorcery:itemcelestialcrystal>, <packagedastral:constellation_focus>], [<bigreactors:reactorcasing>, <industrialupgrade:excitednucleus:4>, <bigreactors:reactorcasing>]]);
+recipes.addShaped(<industrialforegoing:laser_drill>, [[<bigreactors:reactorcasing>, <industrialupgrade:excitednucleus:4>, <bigreactors:reactorcasing>],[<iuadditions:crystal:1>, <astralsorcery:itemcelestialcrystal>, <packagedastral:constellation_focus>], [<bigreactors:reactorcasing>, <industrialupgrade:excitednucleus:4>, <bigreactors:reactorcasing>]]);
 recipes.addShaped(<industrialforegoing:laser_base>, [[<industrialupgrade:crafting_elements:252>, <draconicevolution:awakened_core>, <botania:lens:7>],[<industrialupgrade:upgradekitmachine:3>, <threng:material:6>, <industrialupgrade:upgradekitmachine:3>], [<botania:lens:7>, <draconicevolution:awakened_core>, <industrialupgrade:crafting_elements:252>]]);
 
 recipes.addShaped(<industrialforegoing:mob_duplicator>, [[<industrialupgrade:crafting_elements:226>, <industrialupgrade:crafting_elements:54>, <industrialupgrade:crafting_elements:58>],[<botania:spawnerclaw>, <industrialupgrade:blockresource:9>, <botania:spawnerclaw>], [<extrautils2:suncrystal>, <moreplates:gaia_spirit_gear>, <extrautils2:suncrystal>]]);
@@ -51,7 +51,7 @@ recipes.addShaped(<industrialforegoing:pitiful_fuel_generator>, [[<ore:ingotInva
 mods.extendedcrafting.TableCrafting.addShaped(0,
     <industrialforegoing:hydrator>,
     [
-        [<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>],
+        [<iuadditions:divinerpg_elements:28>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <thermalfoundation:material:1026>, <contenttweaker:draconium_circuit>, null, <iuadditions:divinerpg_elements:28>],
         [null, null, null, null, null, null, null, null, null],
         [<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],
         [<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],
@@ -59,7 +59,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0,
         [<thermalfoundation:material:1025>, null, <mysticalagriculture:nature_essence>, <enderio:item_material:55>, <appliedenergistics2:quartz_growth_accelerator>, <enderio:item_material:55>, <mysticalagriculture:nature_essence>, null, <thermalfoundation:material:1027>],
         [<contenttweaker:draconium_circuit>, <industrialupgrade:upgrademodules:27>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <industrialupgrade:upgrademodules:27>, <contenttweaker:draconium_circuit>],
         [null, null, null, null, null, null, null, null, null],
-        [<iuadditions:core_eden>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <contenttweaker:draconium_circuit>, null, <iuadditions:core_eden>]
+        [<iuadditions:divinerpg_elements:28>, null, <contenttweaker:draconium_circuit>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <contenttweaker:draconium_circuit>, null, <iuadditions:divinerpg_elements:28>]
     ]
 );
 

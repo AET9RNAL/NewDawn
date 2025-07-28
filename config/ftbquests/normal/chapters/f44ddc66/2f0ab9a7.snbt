@@ -20,6 +20,7 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 102s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

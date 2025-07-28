@@ -23,7 +23,8 @@
 		items: [{
 			id: "quantum_generators:qg",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "78a1dad0",

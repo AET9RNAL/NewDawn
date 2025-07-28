@@ -17,11 +17,11 @@
 					],
 					Color: "blue",
 					AttributeModifiers: [{
-						UUIDMost: -8990733095592964320L,
-						UUIDLeast: -8691300033232491554L,
 						Amount: 0.029999999329447746d,
 						AttributeName: "potioncore.projectileDamage",
 						Operation: 2,
+						UUIDMost: -8990733095592964320L,
+						UUIDLeast: -8691300033232491554L,
 						Name: "qualitytools"
 					}],
 					Name: "quality.aiming.name"

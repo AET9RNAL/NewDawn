@@ -23,7 +23,8 @@
 		items: [{
 			id: "iuadditions:spectralconverter",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "4f712536",

@@ -12,6 +12,7 @@
 		items: [{
 			id: "iuadditions:astralpanel",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

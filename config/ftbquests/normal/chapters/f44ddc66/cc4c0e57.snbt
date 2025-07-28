@@ -13,7 +13,8 @@
 		items: [{
 			id: "powerutils:powerutils",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "2e3853a5",

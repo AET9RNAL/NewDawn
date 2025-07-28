@@ -11,6 +11,7 @@
 			id: "industrialupgrade:wiring_storage",
 			tag: {}
 		}],
+		ignore_nbt: 1b,
 		only_from_crafting: true
 	}],
 	rewards: [{

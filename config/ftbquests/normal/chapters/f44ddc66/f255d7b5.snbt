@@ -13,7 +13,8 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 16s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6efa5761",

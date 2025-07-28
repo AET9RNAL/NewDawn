@@ -10,7 +10,8 @@
 		items: [{
 			id: "industrialupgrade:refractory_furnace",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e08a3316",

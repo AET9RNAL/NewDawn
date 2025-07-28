@@ -26,7 +26,8 @@
 		items: [{
 			id: "industrialupgrade:chemical_plant",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "ffe8714b",
@@ -36,7 +37,8 @@
 			Damage: 4s,
 			tag: {}
 		}],
-		count: 11L
+		count: 11L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "47b8bc63",
@@ -46,7 +48,8 @@
 			Damage: 1s,
 			tag: {}
 		}],
-		count: 4L
+		count: 4L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "5ed6af58",
@@ -56,7 +59,8 @@
 			Damage: 6s,
 			tag: {}
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "0261b468",
@@ -66,7 +70,8 @@
 			Damage: 3s,
 			tag: {}
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "4e492cd2",
@@ -75,7 +80,8 @@
 			id: "industrialupgrade:chemical_plant",
 			Damage: 5s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "efdf832c",
@@ -85,7 +91,8 @@
 			Damage: 2s,
 			tag: {}
 		}],
-		count: 34L
+		count: 34L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "f827903c",

@@ -1,0 +1,13 @@
+{
+    "addonId": 1181652,
+    "fileId": 6103239,
+    "metadata": {
+        "side": "CLIENT"
+    },
+    "installationPolicy": {
+        "name": "Relictium",
+        "description": "Rendering engine, in most cases doubles/triples the FPS. Partial incompatibility with Multiblocked, machines will be invisible",
+        "optionalKey": "$",
+        "selectedByDefault": true
+    }
+}

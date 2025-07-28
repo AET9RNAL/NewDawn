@@ -12,7 +12,8 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 77s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "3e806cf8",

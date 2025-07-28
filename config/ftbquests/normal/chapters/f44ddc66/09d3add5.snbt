@@ -10,7 +10,8 @@
 		items: [{
 			id: "industrialupgrade:adv_refiner",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "7ace4a58",

@@ -31,17 +31,9 @@
 			id: "mekanism:gastank",
 			tag: {
 				mekData: {
-					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
-					security: 0,
-					config2: [B;
-						2b,
-						2b,
-						2b,
-						2b,
-						2b,
-						2b
-					],
 					ejecting2: 1b,
+					sideDataStored: 1b,
+					inputColors5: -1,
 					config3: [B;
 						1b,
 						1b,
@@ -50,54 +42,34 @@
 						1b,
 						1b
 					],
-					ejecting3: 0b,
-					sideDataStored: 1b,
-					strictInput: 0b,
-					inputColors0: -1,
-					inputColors1: -1,
-					inputColors2: -1,
 					inputColors3: -1,
+					security: 0,
+					ejecting3: 0b,
+					strictInput: 0b,
+					inputColors2: -1,
 					inputColors4: -1,
-					inputColors5: -1,
+					config2: [B;
+						2b,
+						2b,
+						2b,
+						2b,
+						2b,
+						2b
+					],
+					inputColors1: -1,
+					Items: [],
+					inputColors0: -1,
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
 					stored: {
 						gasName: "ethene",
 						amount: 512000
-					},
-					Items: []
+					}
 				},
 				tier: 3,
 				BlockEntityTag: {
-					id: "mekanism:gas_tank",
-					facing: 5,
-					redstone: 0b,
-					config2: [B;
-						2b,
-						2b,
-						2b,
-						2b,
-						2b,
-						2b
-					],
 					ejecting2: 1b,
-					config3: [B;
-						1b,
-						1b,
-						2b,
-						1b,
-						1b,
-						1b
-					],
-					ejecting3: 0b,
 					sideDataStored: 1b,
-					strictInput: 0b,
-					inputColors0: -1,
-					inputColors1: -1,
-					inputColors2: -1,
-					inputColors3: -1,
-					inputColors4: -1,
 					inputColors5: -1,
-					securityMode: 0,
-					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
 					securityFreq: {
 						name: "Security",
 						ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
@@ -105,8 +77,16 @@
 						override: 0b,
 						securityMode: 0
 					},
-					Items: [],
-					tier: 3,
+					redstone: 0b,
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					inputColors3: -1,
 					gasTank: {
 						stored: {
 							gasName: "ethene",
@@ -114,8 +94,28 @@
 						},
 						maxGas: 512000
 					},
+					controlType: 0,
 					dumping: 0,
-					controlType: 0
+					tier: 3,
+					facing: 5,
+					securityMode: 0,
+					config2: [B;
+						2b,
+						2b,
+						2b,
+						2b,
+						2b,
+						2b
+					],
+					ejecting3: 0b,
+					strictInput: 0b,
+					id: "mekanism:gas_tank",
+					inputColors4: -1,
+					inputColors2: -1,
+					inputColors1: -1,
+					Items: [],
+					inputColors0: -1,
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c"
 				},
 				display: {
 					Lore: [

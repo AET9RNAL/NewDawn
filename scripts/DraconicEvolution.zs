@@ -56,8 +56,8 @@ for item in itemsToRemove {
 //#Add
 
 
-//recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<iuadditions:plate_astralstarmetal>, <moreplates:diamond_plate>, <enderio:block_crafter>],[<moreplates:diamond_plate>, <draconicevolution:draconic_core>, <moreplates:diamond_plate>], [<enderio:block_crafter>, <astralsorcery:blockaltar:1>, <iuadditions:plate_astralstarmetal>]]);
-recipes.addShaped(<industrialupgrade:chaosenergycore>, [[<iuadditions:plate_refractive>, <industrialupgrade:chaosingot>, <iuadditions:plate_refractive>],[<industrialupgrade:chaosingot>, <draconicevolution:draconic_energy_core>, <industrialupgrade:chaosingot>], [<iuadditions:plate_refractive>, <industrialupgrade:chaosingot>, <iuadditions:plate_refractive>]]);
+//recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<iuadditions:astral_element>, <moreplates:diamond_plate>, <enderio:block_crafter>],[<moreplates:diamond_plate>, <draconicevolution:draconic_core>, <moreplates:diamond_plate>], [<enderio:block_crafter>, <astralsorcery:blockaltar:1>, <iuadditions:astral_element>]]);
+recipes.addShaped(<industrialupgrade:chaosenergycore>, [[<iuadditions:refractive>, <industrialupgrade:chaosingot>, <iuadditions:refractive>],[<industrialupgrade:chaosingot>, <draconicevolution:draconic_energy_core>, <industrialupgrade:chaosingot>], [<iuadditions:refractive>, <industrialupgrade:chaosingot>, <iuadditions:refractive>]]);
 recipes.addShaped(<draconicevolution:energy_crystal:1> * 4, [[<industrialupgrade:modules:11>, <draconicevolution:energy_crystal>, <botanicadds:rune_energy>],[<draconicevolution:energy_crystal>, <draconicevolution:reactor_part:4>, <draconicevolution:energy_crystal>], [<botanicadds:rune_energy>, <draconicevolution:energy_crystal>, <industrialupgrade:modules:11>]]);
 recipes.addShaped(<draconicevolution:energy_crystal> * 4, [[<extrautils2:suncrystal>, <draconicevolution:wyvern_energy_core>, <extrautils2:suncrystal>],[<draconicevolution:wyvern_energy_core>, <astralsorcery:itemcelestialcrystal>, <draconicevolution:wyvern_energy_core>], [<extrautils2:suncrystal>, <draconicevolution:wyvern_energy_core>, <extrautils2:suncrystal>]]);
 recipes.addShaped(<draconicevolution:energy_crystal:8>, [[<industrialupgrade:crafting_elements:398>, <industrialupgrade:additionmodule:10>, <industrialupgrade:crafting_elements:398>],[<ae2stuff:wireless>, <draconicevolution:energy_crystal:2>, <ae2stuff:wireless>], [<industrialupgrade:crafting_elements:398>, <industrialupgrade:additionmodule:10>, <industrialupgrade:crafting_elements:398>]]);
@@ -69,7 +69,7 @@ recipes.addShaped(<draconicevolution:dislocator>, [[<contenttweaker:iridium_rein
 recipes.addShaped(<draconicevolution:crystal_binder>, [[null, <moreplates:draconium_plate>, <avaritia:resource>],[null, <ae2stuff:wireless_kit>, <moreplates:draconium_plate>], [<draconicevolution:draconic_core>, null, null]]);
 recipes.addShaped(<contenttweaker:awakened_capacitor_empty>, [[<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <draconicevolution:draconic_energy_core>],[<contenttweaker:iridium_dense_awakened>, <draconicevolution:draconium_capacitor>, <contenttweaker:iridium_dense_awakened>], [<draconicevolution:draconic_energy_core>, <contenttweaker:iridium_dense_awakened>, <draconicevolution:draconic_energy_core>]]);
 recipes.addShaped(<contenttweaker:wyvern_capacitor_empty>, [[<contenttweaker:iridium_dense_draconic>, <draconicevolution:wyvern_energy_core>, <contenttweaker:iridium_dense_draconic>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<contenttweaker:iridium_dense_draconic>, <draconicevolution:wyvern_energy_core>, <contenttweaker:iridium_dense_draconic>]]);
-recipes.addShaped(<contenttweaker:awakened_energy_core_empty>, [[<iuadditions:plate_static>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate_static>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<iuadditions:plate_static>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate_static>]]);
+recipes.addShaped(<contenttweaker:awakened_energy_core_empty>, [[<iuadditions:plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate:4>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<iuadditions:plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate:4>]]);
 recipes.addShaped(<contenttweaker:wyvern_energy_core_empty>, [[<moreplates:draconium_plate>, <contenttweaker:draconium_circuit>, <moreplates:draconium_plate>],[<ore:plateSignalum>, <draconicevolution:draconic_core>, <ore:plateSignalum>], [<moreplates:draconium_plate>, <ore:plateSignalum>, <moreplates:draconium_plate>]]);
 recipes.addShaped(<draconicevolution:grinder>, [[<industrialupgrade:blockresource:9>, <contenttweaker:draconium_circuit>, <industrialupgrade:blockresource:9>],[<contenttweaker:iridium_reinforced_draconic>, <draconicevolution:draconic_core>, <contenttweaker:iridium_reinforced_draconic>], [<industrialupgrade:blockresource:9>, <draconicevolution:wyvern_sword>, <industrialupgrade:blockresource:9>]]);
 recipes.addShaped(<draconicevolution:crafting_injector>, [[null, null, null],[null, <packageddraconic:marked_basic_injector>, null], [null, null, null]]);
@@ -101,7 +101,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0,<draconicevolution:draconicmachi
     [null,null,<moreplates:evil_infused_iron_plate>,<enderio:item_capacitor_stellar>,<moreplates:crystal_matrix_plate>,<enderio:item_capacitor_stellar>,<moreplates:evil_infused_iron_plate>,null,null],
     [null,<moreplates:evil_infused_iron_plate>,<extrautils2:ingredients:10>,<mekanismecoenergistics:morecontrolcircuit:2>,<moreplates:neutronium_plate>,<mekanismecoenergistics:morecontrolcircuit:2>,<extrautils2:ingredients:10>,<moreplates:evil_infused_iron_plate>,null],
     [<moreplates:crystal_matrix_plate>,<enderio:item_capacitor_stellar>,<mekanismecoenergistics:morecontrolcircuit:2>,<botania:rune:11>,<contenttweaker:iridium_dense_alfheim>,<botania:rune:13>,<mekanismecoenergistics:morecontrolcircuit:2>,<enderio:item_capacitor_stellar>,<moreplates:crystal_matrix_plate>],
-    [<moreplates:crystal_matrix_plate>,<moreplates:crystal_matrix_plate>,<moreplates:neutronium_plate>,<iuadditions:iridium_dense_stellar>,<industrialupgrade:basemachine3:4>,<iuadditions:plate_harmonitedense>,<moreplates:neutronium_plate>,<moreplates:crystal_matrix_plate>,<moreplates:crystal_matrix_plate>],
+    [<moreplates:crystal_matrix_plate>,<moreplates:crystal_matrix_plate>,<moreplates:neutronium_plate>,<iuadditions:astral_element:4>,<industrialupgrade:basemachine3:4>,<iuadditions:plate_harmonitedense>,<moreplates:neutronium_plate>,<moreplates:crystal_matrix_plate>,<moreplates:crystal_matrix_plate>],
     [<moreplates:crystal_matrix_plate>,<enderio:item_capacitor_stellar>,<mekanismecoenergistics:morecontrolcircuit:2>,<botania:rune:13>,<contenttweaker:iridium_dense_draconic>,<botania:rune:11>,<mekanismecoenergistics:morecontrolcircuit:2>,<enderio:item_capacitor_stellar>,<moreplates:crystal_matrix_plate>],
     [null,<moreplates:evil_infused_iron_plate>,<extrautils2:ingredients:10>,<mekanismecoenergistics:morecontrolcircuit:2>,<moreplates:neutronium_plate>,<mekanismecoenergistics:morecontrolcircuit:2>,<extrautils2:ingredients:10>,<moreplates:evil_infused_iron_plate>,null],
     [null,null,<moreplates:evil_infused_iron_plate>,<enderio:item_capacitor_stellar>,<moreplates:crystal_matrix_plate>,<enderio:item_capacitor_stellar>,<moreplates:evil_infused_iron_plate>,null,null],
@@ -115,8 +115,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0,<draconicevolution:draconicmachi
 //
 recipes.remove(<draconicevolution:fusion_crafting_core>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:fusion_crafting_core>, 500000, 2500, <draconicevolution:draconic_core>, [
-<iuadditions:plate_astralstarmetal>, <moreplates:diamond_plate>,<enderio:block_crafter>,<moreplates:diamond_plate>,<moreplates:diamond_plate>,<enderio:block_crafter>,
-<astralsorcery:blockaltar:1>,<iuadditions:plate_astralstarmetal>]);
+<iuadditions:astral_element>, <moreplates:diamond_plate>,<enderio:block_crafter>,<moreplates:diamond_plate>,<moreplates:diamond_plate>,<enderio:block_crafter>,
+<astralsorcery:blockaltar:1>,<iuadditions:astral_element>]);
 //
 
 //
@@ -177,15 +177,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <maia_draconic_edition:primal_h
 // Primal Core
 recipes.remove(<maia_draconic_edition:primal_core>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <maia_draconic_edition:primal_core>, [
-    [<avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null, null, null, null, null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>],
-    [<iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null, <moreplates:neutronium_plate>, null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>],
-    [null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <moreplates:neutronium_plate>, <draconicadditions:chaotic_energy_core>, <moreplates:neutronium_plate>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null],
+    [<avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null, null, null, null, null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>],
+    [<iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null, <moreplates:neutronium_plate>, null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>],
+    [null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <moreplates:neutronium_plate>, <draconicadditions:chaotic_energy_core>, <moreplates:neutronium_plate>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null],
     [null, null, <moreplates:neutronium_plate>, <industrialupgrade:excitednucleus:13>, <extrautils2:opinium:8>, <industrialupgrade:excitednucleus:13>, <moreplates:neutronium_plate>, null, null],
     [null, <moreplates:neutronium_plate>, <draconicadditions:chaotic_energy_core>, <draconicevolution:chaotic_core>, <industrialupgrade:infinitycore>, <draconicevolution:chaotic_core>, <draconicadditions:chaotic_energy_core>, <moreplates:neutronium_plate>, null],
     [null, null, <moreplates:neutronium_plate>, <maia_draconic_edition:vibrant_core>, <maia_draconic_edition:primal_heart>, <maia_draconic_edition:enderium_core>, <moreplates:neutronium_plate>, null, null],
-    [null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <moreplates:neutronium_plate>, <maia_draconic_edition:stellar_core>, <moreplates:neutronium_plate>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null],
-    [<iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null, <moreplates:neutronium_plate>, null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>],
-    [<avaritiaio:grindingballinfinity>, <iuadditions:plate_refractive>, null, null, null, null, null, <iuadditions:plate_refractive>, <avaritiaio:grindingballinfinity>]
+    [null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <moreplates:neutronium_plate>, <maia_draconic_edition:stellar_core>, <moreplates:neutronium_plate>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null],
+    [<iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null, <moreplates:neutronium_plate>, null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>, <iuadditions:refractive>],
+    [<avaritiaio:grindingballinfinity>, <iuadditions:refractive>, null, null, null, null, null, <iuadditions:refractive>, <avaritiaio:grindingballinfinity>]
 ]);
 
 // Enderium Core
@@ -268,10 +268,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:creative_rf_
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_infuser>, [
     [null, null, null, null, null, null, null],
     [<enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>],
-    [<enderio:block_alloy:2>, <iuadditions:qfp_stellar>, <enderio:block_enhanced_wired_charger>, <industrialupgrade:circuit:11>, <enderio:block_enhanced_wired_charger>, <iuadditions:qfp_stellar>, <enderio:block_alloy:2>],
-    [<enderio:block_alloy:2>, <iuadditions:circuit_stellar>, <draconicevolution:draconic_core>, <industrialupgrade:additionmodule:3>, <draconicevolution:draconic_core>, <iuadditions:circuit_stellar>, <enderio:block_alloy:2>],
+    [<enderio:block_alloy:2>, <iuadditions:astral_element:7>, <enderio:block_enhanced_wired_charger>, <industrialupgrade:circuit:11>, <enderio:block_enhanced_wired_charger>, <iuadditions:astral_element:7>, <enderio:block_alloy:2>],
+    [<enderio:block_alloy:2>, <iuadditions:astral_element:8>, <draconicevolution:draconic_core>, <industrialupgrade:additionmodule:3>, <draconicevolution:draconic_core>, <iuadditions:astral_element:8>, <enderio:block_alloy:2>],
     [<enderio:block_alloy:2>, <ore:circuitCrystal>, <enderio:block_enhanced_wired_charger>, <draconicevolution:draconic_core>, <enderio:block_enhanced_wired_charger>, <ore:circuitCrystal>, <enderio:block_alloy:2>],
-    [<enderio:block_alloy:2>, <contenttweaker:nano_shield>, <iuadditions:qfp_stellar>, <iuadditions:circuit_stellar>, <iuadditions:qfp_stellar>, <contenttweaker:nano_shield>, <enderio:block_alloy:2>],
+    [<enderio:block_alloy:2>, <contenttweaker:nano_shield>, <iuadditions:astral_element:7>, <iuadditions:astral_element:8>, <iuadditions:astral_element:7>, <contenttweaker:nano_shield>, <enderio:block_alloy:2>],
     [<enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>, <enderio:block_alloy:2>]
 ]);
 
@@ -279,11 +279,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_infus
 
 // Wyvern Core
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_core>, [
-    [null, <moreplates:neutronium_plate>, <iuadditions:crystal_dripping>, <moreplates:neutronium_plate>, null],
+    [null, <moreplates:neutronium_plate>, <iuadditions:crystal:5>, <moreplates:neutronium_plate>, null],
     [<moreplates:neutronium_plate>, <draconicevolution:draconic_core>, <moreplates:draconium_gear>, <draconicevolution:draconic_core>, <moreplates:neutronium_plate>],
-    [<iuadditions:crystal_radioactive>, <contenttweaker:draconium_circuit>, <iuadditions:core_wildwood>, <contenttweaker:draconium_circuit>, <iuadditions:crystal_venomous>],
+    [<iuadditions:crystal:1>, <contenttweaker:draconium_circuit>, <iuadditions:divinerpg_elements:29>, <contenttweaker:draconium_circuit>, <iuadditions:crystal:2>],
     [<moreplates:neutronium_plate>, <draconicevolution:draconic_core>, <moreplates:draconium_gear>, <draconicevolution:draconic_core>, <moreplates:neutronium_plate>],
-    [null, <moreplates:neutronium_plate>, <iuadditions:crystal_static>, <moreplates:neutronium_plate>, null]
+    [null, <moreplates:neutronium_plate>, <iuadditions:crystal:4>, <moreplates:neutronium_plate>, null]
 ]);
 
 // Draconic Core

@@ -11,7 +11,8 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 1s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "cc89660a",
@@ -20,6 +21,7 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 20s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

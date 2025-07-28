@@ -186,13 +186,13 @@ recipes.addShaped(<thermalexpansion:frame:128>, [[<ore:plateIron>, <extrautils2:
 recipes.remove(<thermalexpansion:cell>.withTag({Recv:25000,RSControl:0 as byte,Facing:2 as byte,Creative:1 as byte,Energy:50000000,Level:4 as byte,SideCache:[2,2,2,2,2,2] as byte[] as byte[],Send:25000}));
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:cell>.withTag({Recv:25000,RSControl:0 as byte,Facing:2 as byte,Creative:1 as byte,Energy:50000000,Level:4 as byte,SideCache:[2,2,2,2,2,2] as byte[] as byte[],Send:25000}), [
     [<simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <redstonearsenal:material:224>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>],
-    [<simplyjetpacks:metaitemmods:30>, <thermalexpansion:augment:656>, <iuadditions:plate_static>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate_static>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate_static>, <thermalexpansion:augment:656>, <simplyjetpacks:metaitemmods:30>],
-    [<simplyjetpacks:metaitemmods:19>, <iuadditions:plate_static>, <industrialupgrade:itemcore:5>, <draconicevolution:draconic_core>, <thermalexpansion:augment:512>, <draconicevolution:draconic_core>, <industrialupgrade:itemcore:5>, <iuadditions:plate_static>, <simplyjetpacks:metaitemmods:19>],
+    [<simplyjetpacks:metaitemmods:30>, <thermalexpansion:augment:656>, <iuadditions:plate:4>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate:4>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate:4>, <thermalexpansion:augment:656>, <simplyjetpacks:metaitemmods:30>],
+    [<simplyjetpacks:metaitemmods:19>, <iuadditions:plate:4>, <industrialupgrade:itemcore:5>, <draconicevolution:draconic_core>, <thermalexpansion:augment:512>, <draconicevolution:draconic_core>, <industrialupgrade:itemcore:5>, <iuadditions:plate:4>, <simplyjetpacks:metaitemmods:19>],
     [<simplyjetpacks:metaitemmods:19>, <thermalfoundation:storage_alloy:7>, <draconicevolution:draconic_core>, <thermalexpansion:augment:513>, <thermalfoundation:upgrade:35>, <thermalexpansion:augment:513>, <draconicevolution:draconic_core>, <thermalfoundation:storage_alloy:7>, <simplyjetpacks:metaitemmods:19>],
-    [<redstonearsenal:material:224>, <iuadditions:plate_static>, <thermalexpansion:augment:512>, <thermalfoundation:upgrade:35>, <enderio:block_solar_panel:5>, <thermalfoundation:upgrade:35>, <thermalexpansion:augment:512>, <iuadditions:plate_static>, <redstonearsenal:material:224>],
+    [<redstonearsenal:material:224>, <iuadditions:plate:4>, <thermalexpansion:augment:512>, <thermalfoundation:upgrade:35>, <enderio:block_solar_panel:5>, <thermalfoundation:upgrade:35>, <thermalexpansion:augment:512>, <iuadditions:plate:4>, <redstonearsenal:material:224>],
     [<simplyjetpacks:metaitemmods:19>, <thermalfoundation:storage_alloy:7>, <draconicevolution:draconic_core>, <thermalexpansion:augment:513>, <thermalfoundation:upgrade:35>, <thermalexpansion:augment:513>, <draconicevolution:draconic_core>, <thermalfoundation:storage_alloy:7>, <simplyjetpacks:metaitemmods:19>],
-    [<simplyjetpacks:metaitemmods:19>, <iuadditions:plate_static>, <industrialupgrade:itemcore:5>, <draconicevolution:draconic_core>, <thermalexpansion:augment:512>, <draconicevolution:draconic_core>, <industrialupgrade:itemcore:5>, <iuadditions:plate_static>, <simplyjetpacks:metaitemmods:19>],
-    [<simplyjetpacks:metaitemmods:30>, <thermalexpansion:augment:656>, <iuadditions:plate_static>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate_static>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate_static>, <thermalexpansion:augment:656>, <simplyjetpacks:metaitemmods:30>],
+    [<simplyjetpacks:metaitemmods:19>, <iuadditions:plate:4>, <industrialupgrade:itemcore:5>, <draconicevolution:draconic_core>, <thermalexpansion:augment:512>, <draconicevolution:draconic_core>, <industrialupgrade:itemcore:5>, <iuadditions:plate:4>, <simplyjetpacks:metaitemmods:19>],
+    [<simplyjetpacks:metaitemmods:30>, <thermalexpansion:augment:656>, <iuadditions:plate:4>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate:4>, <thermalfoundation:storage_alloy:7>, <iuadditions:plate:4>, <thermalexpansion:augment:656>, <simplyjetpacks:metaitemmods:30>],
     [<simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <redstonearsenal:material:224>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:30>]
 ]);
 
@@ -216,12 +216,6 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<redstonearsenal:material:32>,<
 
 val honey = <liquid:for.honey> * 2500;
 
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_shimmering>, <iuadditions:compressed_shimmeringhoneycomb>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_radioactive>, <iuadditions:compressed_radioactivehoneycomb>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_venomous>, <iuadditions:compressed_venomoushoneycomb>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_certus>, <iuadditions:compressed_certushoneycomb>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_static>, <iuadditions:compressed_statichoneycomb>, honey, 800);
-mods.thermalexpansion.Transposer.addFillRecipe(<iuadditions:crystal_dripping>, <iuadditions:compressed_drippinghoneycomb>, honey, 800);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>,<contenttweaker:wyvern_energy_core_empty>, <liquid:vibrant_alloy>*4000, 4000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconic_energy_core>, <contenttweaker:awakened_energy_core_empty>, <liquid:stellar_alloy>*4000, 4000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconium_capacitor>, <contenttweaker:wyvern_capacitor_empty>, <liquid:draconium>*5000, 3500);
