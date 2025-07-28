@@ -242,8 +242,8 @@ recipes.addShaped(<industrialupgrade:machines:7>, [[null, null, null],[null, <in
 
 
 // Stellar Core
-recipes.remove(<iuadditions:divinerpg_elements:28>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <iuadditions:divinerpg_elements:28>, [
+recipes.remove(<iuadditions:astral_element:9>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <iuadditions:astral_element:9>, [
     [<astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:1>, null, null, null, <astralsorcery:blockblackmarble:0>, <astralsorcery:blockblackmarble:0>],
     [<astralsorcery:blockblackmarble:0>, null, null, null, <astralsorcery:itemcraftingcomponent:1>, null, <astralsorcery:blockblackmarble:0>, null, <astralsorcery:blockblackmarble:0>],
     [null, <astralsorcery:blockblackmarble:0>, null, null, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:blockblackmarble:0>, null, <astralsorcery:itemcraftingcomponent:1>, null],

@@ -11,7 +11,7 @@ import mods.jei.JEI.addDescription;
 //addDescription(IItemStack item, string... desc);
 //mods.jei.JEI.addDescription(IItemstack,"TEXT");
 
-<iuadditions:divinerpg_elements:35>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
+//<iuadditions:divinerpg_elements:35>.addTooltip(format.red("The ultimate power of all dimensions in the palm of your hand!"));
 mods.jei.JEI.addDescription(<endreborn:ingot_infused>,"Can be forged on Void Forge by clicking RMB while holding Endorium Ingot");
 // <mod_id:industrial_spawner>.displayName = "Industrial Spawner Controller";
 // <mod_id:legendary_industrial_spawner>.displayName = "Legendry Spawner Controller";

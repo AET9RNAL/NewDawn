@@ -175,45 +175,10 @@ for item in CompressionCrafting_remove {
   removeAndHide(item);
 }
 
-// CompressionCrafting.remove(<extendedcrafting:singularity:48>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:49>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:50>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:64>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:65>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:66>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:34>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:16>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:7>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:6>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:5>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:4>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:3>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:2>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:1>);
-// CompressionCrafting.remove(<extendedcrafting:singularity>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:25>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:24>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:23>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:22>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:21>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:20>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:19>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:18>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:17>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:33>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:32>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:31>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:30>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:29>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:28>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:27>);
-// CompressionCrafting.remove(<extendedcrafting:singularity:26>);
-
 
 
 //CompressionCrafting.addRecipe(IItemStack_output, IItemStack_input, int_item_count, IItemStack_catalyst, int_energy, int_energy_consume);
 //CompressionCrafting.remove(IItemStack);
-
 
 
 CompressionCrafting.addRecipe(<jaopca:avaritia_singularity.aerotheum>, <thermalfoundation:material:1026>, 1024, <extendedcrafting:material:11>, 1000000, 100000);

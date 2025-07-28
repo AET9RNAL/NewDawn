@@ -69,7 +69,7 @@ recipes.addShaped(<draconicevolution:dislocator>, [[<contenttweaker:iridium_rein
 recipes.addShaped(<draconicevolution:crystal_binder>, [[null, <moreplates:draconium_plate>, <avaritia:resource>],[null, <ae2stuff:wireless_kit>, <moreplates:draconium_plate>], [<draconicevolution:draconic_core>, null, null]]);
 recipes.addShaped(<contenttweaker:awakened_capacitor_empty>, [[<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <draconicevolution:draconic_energy_core>],[<contenttweaker:iridium_dense_awakened>, <draconicevolution:draconium_capacitor>, <contenttweaker:iridium_dense_awakened>], [<draconicevolution:draconic_energy_core>, <contenttweaker:iridium_dense_awakened>, <draconicevolution:draconic_energy_core>]]);
 recipes.addShaped(<contenttweaker:wyvern_capacitor_empty>, [[<contenttweaker:iridium_dense_draconic>, <draconicevolution:wyvern_energy_core>, <contenttweaker:iridium_dense_draconic>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<contenttweaker:iridium_dense_draconic>, <draconicevolution:wyvern_energy_core>, <contenttweaker:iridium_dense_draconic>]]);
-recipes.addShaped(<contenttweaker:awakened_energy_core_empty>, [[<iuadditions:honey_plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:honey_plate:4>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<iuadditions:honey_plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:honey_plate:4>]]);
+recipes.addShaped(<contenttweaker:awakened_energy_core_empty>, [[<iuadditions:plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate:4>],[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_energy_core>], [<iuadditions:plate:4>, <draconicevolution:wyvern_energy_core>, <iuadditions:plate:4>]]);
 recipes.addShaped(<contenttweaker:wyvern_energy_core_empty>, [[<moreplates:draconium_plate>, <contenttweaker:draconium_circuit>, <moreplates:draconium_plate>],[<ore:plateSignalum>, <draconicevolution:draconic_core>, <ore:plateSignalum>], [<moreplates:draconium_plate>, <ore:plateSignalum>, <moreplates:draconium_plate>]]);
 recipes.addShaped(<draconicevolution:grinder>, [[<industrialupgrade:blockresource:9>, <contenttweaker:draconium_circuit>, <industrialupgrade:blockresource:9>],[<contenttweaker:iridium_reinforced_draconic>, <draconicevolution:draconic_core>, <contenttweaker:iridium_reinforced_draconic>], [<industrialupgrade:blockresource:9>, <draconicevolution:wyvern_sword>, <industrialupgrade:blockresource:9>]]);
 recipes.addShaped(<draconicevolution:crafting_injector>, [[null, null, null],[null, <packageddraconic:marked_basic_injector>, null], [null, null, null]]);
@@ -279,11 +279,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_infus
 
 // Wyvern Core
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_core>, [
-    [null, <moreplates:neutronium_plate>, <iuadditions:honey_crystal:5>, <moreplates:neutronium_plate>, null],
+    [null, <moreplates:neutronium_plate>, <iuadditions:crystal:5>, <moreplates:neutronium_plate>, null],
     [<moreplates:neutronium_plate>, <draconicevolution:draconic_core>, <moreplates:draconium_gear>, <draconicevolution:draconic_core>, <moreplates:neutronium_plate>],
-    [<iuadditions:honey_crystal:1>, <contenttweaker:draconium_circuit>, <iuadditions:divinerpg_elements:29>, <contenttweaker:draconium_circuit>, <iuadditions:honey_crystal:2>],
+    [<iuadditions:crystal:1>, <contenttweaker:draconium_circuit>, <iuadditions:divinerpg_elements:29>, <contenttweaker:draconium_circuit>, <iuadditions:crystal:2>],
     [<moreplates:neutronium_plate>, <draconicevolution:draconic_core>, <moreplates:draconium_gear>, <draconicevolution:draconic_core>, <moreplates:neutronium_plate>],
-    [null, <moreplates:neutronium_plate>, <iuadditions:honey_crystal:4>, <moreplates:neutronium_plate>, null]
+    [null, <moreplates:neutronium_plate>, <iuadditions:crystal:4>, <moreplates:neutronium_plate>, null]
 ]);
 
 // Draconic Core

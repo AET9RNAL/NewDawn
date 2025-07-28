@@ -46,7 +46,7 @@ recipes.remove(<denseneutroncollectors:triple_compressed_neutron_collector>);
 mods.extendedcrafting.TableCrafting.addShaped(0,
     <denseneutroncollectors:triple_compressed_neutron_collector>,
     [
-        [<iuadditions:honey_plate:2>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:honey_plate:2>],
+        [<iuadditions:plate:2>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate:2>],
         [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <crazyae:material>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
         [null, <contenttweaker:plate_alloy_industrial>, <iuadditions:astral_element:8>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:double_transformer:0>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:astral_element:8>, <contenttweaker:plate_alloy_industrial>, null],
         [<iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:moremachine:5>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:moremachine:5>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>],
@@ -54,7 +54,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0,
         [<iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:moremachine:5>, <iuadditions:divinerpg_elements:30>, <industrialupgrade:moremachine:5>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>],
         [null, <contenttweaker:plate_alloy_industrial>, <iuadditions:astral_element:8>, <denseneutroncollectors:double_compressed_neutron_collector>, <industrialupgrade:double_transformer:0>, <denseneutroncollectors:double_compressed_neutron_collector>, <iuadditions:astral_element:8>, <contenttweaker:plate_alloy_industrial>, null],
         [<contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate_celestial>, <crazyae:material>, <iuadditions:plate_celestial>, <contenttweaker:plate_alloy_industrial>, <industrialupgrade:crafting_elements:102>, <contenttweaker:plate_alloy_industrial>],
-        [<iuadditions:honey_plate:2>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:honey_plate:2>]
+        [<iuadditions:plate:2>, <contenttweaker:plate_alloy_industrial>, null, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, <iuadditions:plate_celestial>, null, <contenttweaker:plate_alloy_industrial>, <iuadditions:plate:2>]
     ]
 );
 

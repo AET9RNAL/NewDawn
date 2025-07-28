@@ -6,8 +6,6 @@ recipes.addShaped(<extrautils2:creativeenergy>, [[null, null, null],[null, <drac
 // ────────── 9 × 9  (Ultimate Table) ──────────
 
 
-
-
 // Sunstorm Spawner
 recipes.remove(<divinerpg:sunstorm_spawner>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <divinerpg:sunstorm_spawner>, [
