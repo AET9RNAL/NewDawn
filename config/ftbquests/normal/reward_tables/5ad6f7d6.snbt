@@ -3,7 +3,7 @@
 	loot_size: 1,
 	rewards: [{
 		item: "draconicevolution:awakened_core",
-		count: 3
+		count: 4
 	},
 	{
 		item: "maia_draconic_edition:enderium_core"
@@ -24,15 +24,12 @@
 		count: 4
 	},
 	{
-		item: "iuadditions:iridium_advanced_stellar",
+		item: "iuadditions:astral_element 1 9",
+		count: 6
+	},
+	{
+		item: "iuadditions:astral_element 1 4",
 		count: 12
-	},
-	{
-		item: "iuadditions:core_crossdimensional"
-	},
-	{
-		item: "iuadditions:core_stellar",
-		count: 3
 	},
 	{
 		item: "contenttweaker:infinity_circuit",
@@ -49,7 +46,8 @@
 			id: "industrialupgrade:basemachine",
 			Damage: 3s,
 			tag: {}
-		}
+		},
+		count: 2
 	},
 	{
 		item: {

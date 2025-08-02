@@ -64,7 +64,13 @@
 		count: 2
 	},
 	{
-		item: "industrialupgrade:crafting_elements 1 272",
+		item: {
+			id: "industrialupgrade:crafting_elements",
+			Damage: 272s,
+			tag: {
+				level: 1
+			}
+		},
 		count: 4
 	},
 	{
@@ -143,7 +149,7 @@
 		count: 4
 	},
 	{
-		item: "mekanism:polyethene 1 2",
+		item: "mekanism:hdpe_sheet",
 		count: 4
 	},
 	{

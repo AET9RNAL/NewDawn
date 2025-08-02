@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_cap_bank 1 1"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "71df9ac1",

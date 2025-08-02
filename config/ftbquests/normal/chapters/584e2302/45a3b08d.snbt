@@ -1,6 +1,7 @@
 {
-	x: 4.0d,
+	x: 3.0d,
 	y: -5.5d,
+	shape: "gear",
 	dependencies: [
 		"382d08d2"
 	],
@@ -9,6 +10,7 @@
 		type: "item",
 		items: [{
 			item: "fluxnetworks:fluxcontroller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

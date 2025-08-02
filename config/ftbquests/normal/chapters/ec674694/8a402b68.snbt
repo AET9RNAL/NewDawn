@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_attractor_obelisk"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "97af90ea",

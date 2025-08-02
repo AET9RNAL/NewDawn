@@ -9,7 +9,7 @@
 		uid: "e88a837c",
 		type: "item",
 		items: [{
-			item: "iuadditions:crystal_shimmering"
+			item: "iuadditions:crystal"
 		}]
 	}],
 	rewards: [{

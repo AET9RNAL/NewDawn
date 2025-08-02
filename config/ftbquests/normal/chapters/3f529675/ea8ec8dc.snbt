@@ -6,7 +6,7 @@
 		uid: "cd752b52",
 		type: "item",
 		items: [{
-			item: "iuadditions:compressed_drippinghoneycomb"
+			item: "iuadditions:compressed_honeycomb 1 5"
 		}]
 	}],
 	rewards: [{

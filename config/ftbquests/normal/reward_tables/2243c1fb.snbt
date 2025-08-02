@@ -2,19 +2,23 @@
 	title: "Electric Era Crate",
 	loot_size: 1,
 	rewards: [{
-		item: "industrialupgrade:crafting_elements 1 21"
+		item: "industrialupgrade:crafting_elements 1 21",
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:crushed 1 24",
-		count: 8
+		count: 8,
+		random_bonus: 4
 	},
 	{
 		item: "industrialupgrade:baseore1 1 6",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "industrialupgrade:itemingots 1 23",
-		count: 8
+		count: 8,
+		random_bonus: 3
 	},
 	{
 		item: {
@@ -27,30 +31,36 @@
 	},
 	{
 		item: "industrialupgrade:itemplates 1 25",
-		count: 8
+		count: 8,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 60"
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 294",
-		count: 4
+		count: 4,
+		random_bonus: 8
 	},
 	{
 		item: "industrialupgrade:casing 1 25",
-		count: 32
+		count: 32,
+		random_bonus: 32
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 137",
-		count: 4
+		count: 4,
+		random_bonus: 2
 	},
 	{
 		item: "industrialupgrade:plastic_plate",
-		count: 2
+		count: 2,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:itemplates 1 13",
-		count: 8
+		count: 32,
+		random_bonus: 15
 	},
 	{
 		item: {
@@ -60,23 +70,28 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 274",
-		count: 4
+		count: 4,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 277",
-		count: 4
+		count: 4,
+		random_bonus: 3
 	},
 	{
 		item: "taiga:tiberium_crystal",
-		count: 16
+		count: 16,
+		random_bonus: 16
 	},
 	{
 		item: "industrialupgrade:charged_quartz",
-		count: 16
+		count: 16,
+		random_bonus: 6
 	},
 	{
 		item: "industrialupgrade:cable_iu_item 1 19",
-		count: 16
+		count: 24,
+		random_bonus: 7
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 599",
@@ -84,66 +99,142 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 568",
-		count: 4
+		count: 4,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:itemdust 1 24",
-		count: 9
+		count: 9,
+		random_bonus: 6
 	},
 	{
 		item: "industrialupgrade:alloydoubleplate 1 4",
-		count: 2
+		count: 2,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:cable_iu_item 1 13",
-		count: 4
+		count: 4,
+		random_bonus: 2
 	},
 	{
 		item: "industrialupgrade:itemingots 1 31",
-		count: 8
+		count: 8,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:itemdust 1 27",
-		count: 16
+		count: 16,
+		random_bonus: 9
 	},
 	{
 		item: "industrialupgrade:alloyingot 1 2",
-		count: 8
+		count: 8,
+		random_bonus: 5
 	},
 	{
 		item: "industrialupgrade:circuit 1 12",
-		count: 16
+		count: 16,
+		random_bonus: 12
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 581",
-		count: 4
+		count: 4,
+		random_bonus: 4
 	},
 	{
 		item: "industrialupgrade:compressed_redstone",
-		count: 4
+		count: 4,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 588"
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 282",
-		count: 8
+		count: 12,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:gear 1 12",
-		count: 2
+		count: 5,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 70",
-		count: 2
+		count: 2,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:itemsunnarium 1 2",
-		count: 4
+		count: 4,
+		random_bonus: 3
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 275",
-		count: 2
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 276",
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 283",
+		count: 12,
+		random_bonus: 4
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 277",
+		count: 3,
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 582",
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 572",
+		count: 2,
+		random_bonus: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 593",
+		random_bonus: 2
+	},
+	{
+		item: "minecraft:diamond",
+		count: 4,
+		random_bonus: 3
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 565",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 580",
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 569",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 570",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 573",
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:crafting_elements 1 578",
+		count: 3,
+		random_bonus: 2
 	}],
 	loot_crate: {
 		string_id: "electric_era_crate",

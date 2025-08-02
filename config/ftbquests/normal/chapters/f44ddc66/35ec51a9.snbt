@@ -11,5 +11,10 @@
 		uid: "53c59ebe",
 		type: "checkmark",
 		title: "IU:Advanced Energy Era✓"
+	}],
+	rewards: [{
+		uid: "e61eb69c",
+		type: "xp",
+		xp: 2500
 	}]
 }

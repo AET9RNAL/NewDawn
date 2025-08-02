@@ -9,7 +9,7 @@
 		uid: "528fb56f",
 		type: "item",
 		items: [{
-			item: "iuadditions:crystal_radioactive"
+			item: "iuadditions:crystal 1 1"
 		}]
 	}],
 	rewards: [{

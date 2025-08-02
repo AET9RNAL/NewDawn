@@ -12,7 +12,8 @@
 			id: "industrialupgrade:photonic_machine",
 			Damage: 17s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "60d086aa",

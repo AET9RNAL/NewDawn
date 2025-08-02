@@ -25,6 +25,7 @@
 			}
 		}],
 		consume_items: false,
+		ignore_nbt: 1b,
 		only_from_crafting: false
 	}],
 	rewards: [{

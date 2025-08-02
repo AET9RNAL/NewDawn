@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_aversion_obelisk"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "4faef913",

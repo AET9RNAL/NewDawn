@@ -22,15 +22,6 @@
 		}
 	},
 	{
-		uid: "0ef64f5f",
-		type: "item",
-		item: {
-			id: "industrialupgrade:basemachine2",
-			Damage: 10s,
-			tag: {}
-		}
-	},
-	{
 		uid: "fcb98572",
 		type: "xp",
 		xp: 50

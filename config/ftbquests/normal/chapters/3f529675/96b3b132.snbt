@@ -9,7 +9,7 @@
 		uid: "1ca95d58",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_static"
+			item: "iuadditions:plate 1 4"
 		}]
 	}],
 	rewards: [{

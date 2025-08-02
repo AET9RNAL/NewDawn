@@ -22,5 +22,10 @@
 				type: "perfect_era_crate"
 			}
 		}
+	},
+	{
+		uid: "388268fc",
+		type: "xp",
+		xp: 1000
 	}]
 }

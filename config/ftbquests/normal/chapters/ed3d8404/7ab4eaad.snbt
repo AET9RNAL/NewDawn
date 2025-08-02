@@ -1,6 +1,6 @@
 {
 	x: 14.5d,
-	y: 3.0d,
+	y: 2.5d,
 	dependencies: [
 		"6f09d1f3"
 	],
@@ -8,7 +8,7 @@
 		uid: "ec863d85",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_vethea"
+			item: "iuadditions:divinerpg_elements 1 34"
 		}]
 	}],
 	rewards: [{

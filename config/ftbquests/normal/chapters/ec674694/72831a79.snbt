@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_solar_panel 1 5"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c99d3713",

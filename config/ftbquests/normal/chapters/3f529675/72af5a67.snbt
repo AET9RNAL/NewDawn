@@ -9,7 +9,7 @@
 		uid: "39ea0420",
 		type: "item",
 		items: [{
-			item: "iuadditions:crystal_dripping"
+			item: "iuadditions:crystal 1 5"
 		}]
 	}],
 	rewards: [{

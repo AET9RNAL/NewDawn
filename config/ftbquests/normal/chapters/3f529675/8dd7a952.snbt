@@ -6,7 +6,7 @@
 		uid: "b8381fb5",
 		type: "item",
 		items: [{
-			item: "iuadditions:compressed_venomoushoneycomb"
+			item: "iuadditions:compressed_honeycomb 1 2"
 		}]
 	}],
 	rewards: [{

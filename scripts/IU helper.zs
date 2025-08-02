@@ -1,5 +1,4 @@
 #reloadable
-# CREATED USING EXTERNAL TWEAKER
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;

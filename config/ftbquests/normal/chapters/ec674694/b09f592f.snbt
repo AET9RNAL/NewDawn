@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_weather_obelisk"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c2883d27",

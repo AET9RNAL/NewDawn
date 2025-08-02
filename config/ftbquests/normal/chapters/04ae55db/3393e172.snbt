@@ -11,7 +11,7 @@
 		uid: "65e7c9b7",
 		type: "item",
 		items: [{
-			item: "iuadditions:iridium_advanced_stellar"
+			item: "iuadditions:astral_element 1 4"
 		}],
 		count: 25000L
 	},

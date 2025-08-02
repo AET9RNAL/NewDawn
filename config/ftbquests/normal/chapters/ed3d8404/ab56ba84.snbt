@@ -8,7 +8,7 @@
 		uid: "82b4f706",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_eden"
+			item: "iuadditions:divinerpg_elements 1 28"
 		}]
 	}],
 	rewards: [{

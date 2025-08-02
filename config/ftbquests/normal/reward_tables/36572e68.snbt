@@ -2,14 +2,15 @@
 	title: "Rare Crate",
 	loot_size: 1,
 	rewards: [{
-		item: "enderio:block_solar_panel"
+		item: "enderio:block_solar_panel",
+		count: 2
 	},
 	{
 		item: "enderio:block_solar_panel 1 1"
 	},
 	{
 		item: "divinerpg:rupee_ingot",
-		count: 6
+		count: 16
 	},
 	{
 		item: "thermaldynamics:duct_0 1 3",
@@ -68,7 +69,13 @@
 		item: "botania:altar"
 	},
 	{
-		item: "industrialupgrade:crafting_elements 1 272",
+		item: {
+			id: "industrialupgrade:crafting_elements",
+			Damage: 272s,
+			tag: {
+				level: 1
+			}
+		},
 		count: 6
 	},
 	{
@@ -80,7 +87,13 @@
 		count: 3
 	},
 	{
-		item: "industrialupgrade:crafting_elements 1 273",
+		item: {
+			id: "industrialupgrade:crafting_elements",
+			Damage: 273s,
+			tag: {
+				level: 3
+			}
+		},
 		count: 4
 	},
 	{

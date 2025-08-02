@@ -1,6 +1,6 @@
 {
-	x: 0.5d,
-	y: -4.0d,
+	x: 1.0d,
+	y: -5.5d,
 	dependencies: [
 		"8c981088"
 	],
@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "fluxnetworks:gargantuanfluxstorage"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

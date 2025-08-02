@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_furnace"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "6a824a80",

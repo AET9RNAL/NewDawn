@@ -9,7 +9,7 @@
 		uid: "09c197b5",
 		type: "item",
 		items: [{
-			item: "iuadditions:crystal_venomous"
+			item: "iuadditions:crystal 1 2"
 		}]
 	}],
 	rewards: [{

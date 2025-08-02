@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_crafter"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "cc213cb2",

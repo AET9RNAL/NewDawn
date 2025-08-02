@@ -12,11 +12,22 @@
 			id: "industrialupgrade:basemachine3",
 			Damage: 66s,
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ac2c8992",
 		type: "xp",
 		xp: 75
+	},
+	{
+		uid: "b2706999",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "electric_era_crate"
+			}
+		}
 	}]
 }

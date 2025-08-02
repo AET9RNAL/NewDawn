@@ -8,7 +8,7 @@
 		uid: "d0e3e115",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_mortum"
+			item: "iuadditions:divinerpg_elements 1 32"
 		}]
 	}],
 	rewards: [{

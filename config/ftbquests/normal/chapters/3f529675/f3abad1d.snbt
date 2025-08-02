@@ -9,7 +9,7 @@
 		uid: "d2b7a9b1",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_certus"
+			item: "iuadditions:plate 1 3"
 		}]
 	}],
 	rewards: [{
