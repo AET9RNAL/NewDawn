@@ -101,8 +101,6 @@
 					security: 0,
 					ejecting3: 0b,
 					strictInput: 0b,
-					inputColors2: -1,
-					inputColors4: -1,
 					config2: [B;
 						1b,
 						1b,
@@ -111,6 +109,8 @@
 						1b,
 						1b
 					],
+					inputColors4: -1,
+					inputColors2: -1,
 					inputColors1: -1,
 					Items: [],
 					inputColors0: -1,

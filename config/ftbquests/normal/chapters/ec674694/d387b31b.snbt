@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_stirling_generator"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "5b86eead",

@@ -9,7 +9,7 @@
 		uid: "1f16dbe5",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_dripping"
+			item: "iuadditions:plate 1 5"
 		}]
 	}],
 	rewards: [{

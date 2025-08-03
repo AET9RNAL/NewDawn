@@ -1,15 +1,14 @@
 {
 	x: -3.0d,
-	y: 3.5d,
+	y: 3.0d,
 	dependencies: [
-		"7ab4eaad",
 		"87133938"
 	],
 	tasks: [{
 		uid: "9c8c183f",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_arcana"
+			item: "iuadditions:divinerpg_elements 1 33"
 		}]
 	}],
 	rewards: [{

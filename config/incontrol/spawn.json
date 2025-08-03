@@ -1,0 +1,103 @@
+[
+  {
+    "mod": "divinerpg",
+    "mincount": {
+      "amount": 0,
+      "mod": "divinerpg",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "divinerpg:whale",
+    "mincount": {
+      "amount": 5,
+      "hostile": true,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "divinerpg:shark",
+    "mincount": {
+      "amount": 5,
+      "hostile": true,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "divinerpg:liopleurodon",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "divinerpg:rainbour",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:squid",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "futuremc:cod",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "futuremc:tropical_fish",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "futuremc:salmon",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "futuremc:pufferfish",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+]

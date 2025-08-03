@@ -6,7 +6,7 @@
 		uid: "a4f68f2a",
 		type: "item",
 		items: [{
-			item: "iuadditions:compressed_shimmeringhoneycomb"
+			item: "iuadditions:compressed_honeycomb"
 		}]
 	}],
 	rewards: [{

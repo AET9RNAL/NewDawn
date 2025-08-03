@@ -9,7 +9,7 @@
 		uid: "c6c6d3cf",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_radioactive"
+			item: "iuadditions:plate 1 1"
 		}]
 	}],
 	rewards: [{

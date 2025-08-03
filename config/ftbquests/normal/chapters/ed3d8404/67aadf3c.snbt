@@ -8,7 +8,7 @@
 		uid: "90ea6d05",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_apalachia"
+			item: "iuadditions:divinerpg_elements 1 30"
 		}]
 	}],
 	rewards: [{

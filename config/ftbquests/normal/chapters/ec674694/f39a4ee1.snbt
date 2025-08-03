@@ -11,7 +11,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_alloy_smelter"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "5ce33b5a",

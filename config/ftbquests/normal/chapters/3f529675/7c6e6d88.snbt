@@ -6,7 +6,7 @@
 		uid: "f78ba310",
 		type: "item",
 		items: [{
-			item: "iuadditions:compressed_radioactivehoneycomb"
+			item: "iuadditions:compressed_honeycomb 1 1"
 		}]
 	}],
 	rewards: [{

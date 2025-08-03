@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "fluxnetworks:fluxpoint"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_sag_mill"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "a06cfcc9",

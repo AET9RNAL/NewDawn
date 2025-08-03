@@ -9,7 +9,7 @@
 		uid: "5bf271dc",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_shimmering"
+			item: "iuadditions:plate"
 		}]
 	}],
 	rewards: [{

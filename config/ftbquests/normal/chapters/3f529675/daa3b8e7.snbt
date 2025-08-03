@@ -6,7 +6,7 @@
 		uid: "2d29696a",
 		type: "item",
 		items: [{
-			item: "iuadditions:compressed_statichoneycomb"
+			item: "iuadditions:compressed_honeycomb 1 4"
 		}]
 	}],
 	rewards: [{

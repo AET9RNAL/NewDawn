@@ -14,7 +14,7 @@
 		uid: "60e2cfcb",
 		type: "item",
 		items: [{
-			item: "iuadditions:core_crossdimensional"
+			item: "iuadditions:divinerpg_elements 1 35"
 		}]
 	}],
 	rewards: [{

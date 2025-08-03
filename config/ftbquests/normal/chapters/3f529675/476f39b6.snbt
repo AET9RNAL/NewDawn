@@ -16,7 +16,7 @@
 		uid: "f452822d",
 		type: "item",
 		items: [{
-			item: "iuadditions:plate_refractive"
+			item: "iuadditions:refractive"
 		}]
 	}],
 	rewards: [{
@@ -39,11 +39,5 @@
 			}
 		},
 		count: 64
-	},
-	{
-		uid: "173620f4",
-		type: "item",
-		item: "iuadditions:plate_refractive",
-		count: 6
 	}]
 }

@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "threng:machine 1 1"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "7a698013",

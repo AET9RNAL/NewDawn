@@ -12,5 +12,10 @@
 			id: "iuadditions:divinepanel",
 			tag: {}
 		}]
+	}],
+	rewards: [{
+		uid: "ab4df3c5",
+		type: "xp",
+		xp: 100
 	}]
 }

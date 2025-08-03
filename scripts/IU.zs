@@ -672,12 +672,6 @@ mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_cha
 mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_alfheim>, <contenttweaker:iridium_dense_alfheim> * 9);
 mods.industrialupgrade.compressor.addRecipe(<contenttweaker:iridium_advanced_fiery> , <contenttweaker:iridium_dense_fiery> * 9);
 mods.industrialupgrade.compressor.addRecipe(<thermalfoundation:material:135>, <industrialupgrade:crafting_elements:275>);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <extrabees:honey_comb:82> * 32);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <extrabees:honey_comb:21> * 32);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <extrabees:honey_comb:28> * 32);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_certushoneycomb>, <extrabees:honey_comb:81> * 32);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_statichoneycomb>, <extrabees:honey_comb:14> * 32);
-// mods.industrialupgrade.compressor.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <forestry:bee_combs:5> * 32);
 
 
 
@@ -732,13 +726,6 @@ mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:7>, <min
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:1>, <minecraft:ender_pearl>, 3000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, <minecraft:redstone>, <ore:itemSilicon>, 3000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:4>, <industrialforegoing:pink_slime_ingot>, <enderio:item_material:36>, 3000);
-
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_radioactive>, <iuadditions:plate_radioactive>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_venomous>, <iuadditions:plate_venomous>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_dripping>, <iuadditions:plate_dripping>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_static>, <iuadditions:plate_static>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_shimmering>, <iuadditions:plate_shimmering>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
-// mods.industrialupgrade.AlloySmelter.addRecipe(<iuadditions:glass_certus>, <iuadditions:plate_certus>, <industrialupgrade:itemsunnariumpanel:12>, 5000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<enderio:item_material:3>, <enderio:item_material:38>*3, <minecraft:flint>, 3000);
 mods.industrialupgrade.AlloySmelter.addRecipe(<redstonearsenal:material:32>, <redstonearsenal:material>, <thermalfoundation:material:1024>, 4000);
 
@@ -768,12 +755,6 @@ mods.industrialupgrade.Sunnarium.addRecipe(<contenttweaker:admcore_exc>, <conten
 //Enrich
 //mods.industrialupgrade.Enrich.addRecipe(output, container, fill);
 
-//TO-DO
-
-//mods.industrialupgrade.Enrich.addRecipe(<contenttweaker:admsp>, <industrialupgrade:itemsunnariumpanel:12>, <contenttweaker:iridium_advanced_fiery>);
-//mods.industrialupgrade.Enrich.addRecipe(<extrautils2:suncrystal>, <extrautils2:suncrystal:250>, <industrialupgrade:itemsunnarium:4>);
-
-
 recipes.addShaped(<contenttweaker:admsp>, [[null, null, null],[<contenttweaker:iridium_advanced_chaotic>, <industrialupgrade:itemsunnariumpanel:12>, <contenttweaker:iridium_advanced_chaotic>], [null, null, null]]);
 
 //Macerator
@@ -784,6 +765,7 @@ mods.industrialupgrade.macerator.addRecipe(<industrialupgrade:itemdust:23>*9, <m
 mods.industrialupgrade.macerator.addRecipe(<midnight:rouxe>*4, <midnight:rouxe_rock>);
 mods.industrialupgrade.macerator.addRecipe(<midnight:bloomcrystal>*4, <midnight:bloomcrystal_rock>);
 
+//TO-DO: FIX THIS
 
 //Fluid adapter
 //mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
@@ -791,140 +773,13 @@ mods.industrialupgrade.macerator.addRecipe(<midnight:bloomcrystal>*4, <midnight:
 //Fluid integrator
 //mods.industrialupgrade.fluidintegrator.addRecipe(IItemStack_input, IItemStack__output, ILiquidStack_input, ILiquidStack_output);
 
-fluidintegrator.addRecipe(<botania:manaresource:2>, <extrautils2:suncrystal>, <liquid:glowstone>*2000, <liquid:water>*2000);
-
-fluidintegrator.addRecipe(<industrialupgrade:itemdust:13>, <redstonearsenal:material>, <liquid:redstone>*500, <liquid:water>*500);
-
-val honey = <liquid:for.honey> * 2500;
-
-// fluidintegrator.addRecipe(<iuadditions:compressed_shimmeringhoneycomb>, <iuadditions:crystal_shimmering>, honey, <liquid:water>* 2500);
-// fluidintegrator.addRecipe(<iuadditions:compressed_radioactivehoneycomb>, <iuadditions:crystal_radioactive>, honey, <liquid:water>* 2500);
-// fluidintegrator.addRecipe(<iuadditions:compressed_venomoushoneycomb>, <iuadditions:crystal_venomous>, honey, <liquid:water>* 2500);
-// fluidintegrator.addRecipe(<iuadditions:compressed_certushoneycomb>, <iuadditions:crystal_certus>, honey, <liquid:water>* 2500);
-// fluidintegrator.addRecipe(<iuadditions:compressed_statichoneycomb>, <iuadditions:crystal_static>, honey, <liquid:water>* 2500);
-// fluidintegrator.addRecipe(<iuadditions:compressed_drippinghoneycomb>, <iuadditions:crystal_dripping>, honey, <liquid:water>* 2500);
-
-fluidintegrator.addRecipe(<contenttweaker:wyvern_energy_core_empty>, <draconicevolution:wyvern_energy_core>, <liquid:vibrant_alloy>*4000, <liquid:water>* 4000);
-fluidintegrator.addRecipe(<contenttweaker:awakened_energy_core_empty>, <draconicevolution:draconic_energy_core>, <liquid:stellar_alloy>*4000, <liquid:water>* 4000);
-fluidintegrator.addRecipe(<contenttweaker:wyvern_capacitor_empty>, <draconicevolution:draconium_capacitor>, <liquid:draconium>*5000, <liquid:water>* 5000);
-fluidintegrator.addRecipe(<contenttweaker:awakened_capacitor_empty>, <draconicevolution:draconium_capacitor:1>, <liquid:pulsating_iron>*5000, <liquid:water>* 5000);
-fluidintegrator.addRecipe(<extrautils2:suncrystal>, <redstonearsenal:material:160>, <liquid:redstone>*1000, <liquid:water>* 1000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//fluidintegrator.addRecipe(<botania:manaresource:2>, <extrautils2:suncrystal>, <liquid:glowstone>*2000, <liquid:water>*2000);
+//fluidintegrator.addRecipe(<industrialupgrade:itemdust:13>, <redstonearsenal:material>, <liquid:redstone>*500, <liquid:water>*500);
+//fluidintegrator.addRecipe(<contenttweaker:wyvern_energy_core_empty>, <draconicevolution:wyvern_energy_core>, <liquid:vibrant_alloy>*4000, <liquid:water>* 4000);
+//fluidintegrator.addRecipe(<contenttweaker:awakened_energy_core_empty>, <draconicevolution:draconic_energy_core>, <liquid:stellar_alloy>*4000, <liquid:water>* 4000);
+//fluidintegrator.addRecipe(<contenttweaker:wyvern_capacitor_empty>, <draconicevolution:draconium_capacitor>, <liquid:draconium>*5000, <liquid:water>* 5000);
+//fluidintegrator.addRecipe(<contenttweaker:awakened_capacitor_empty>, <draconicevolution:draconium_capacitor:1>, <liquid:pulsating_iron>*5000, <liquid:water>* 5000);
+//fluidintegrator.addRecipe(<extrautils2:suncrystal>, <redstonearsenal:material:160>, <liquid:redstone>*1000, <liquid:water>* 1000);
 
 
 

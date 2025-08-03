@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_enhanced_combustion_generator"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "45e1c130",

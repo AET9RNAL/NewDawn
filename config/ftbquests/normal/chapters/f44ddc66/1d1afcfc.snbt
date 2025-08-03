@@ -9,5 +9,10 @@
 		uid: "fbee3c97",
 		type: "checkmark",
 		title: "IU:Steam Era ✓"
+	}],
+	rewards: [{
+		uid: "418d6200",
+		type: "xp",
+		xp: 500
 	}]
 }

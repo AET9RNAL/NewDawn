@@ -708,14 +708,13 @@ CombinationCrafting.addRecipe(<industrialupgrade:ult_vajra>, 6000000, 60000, <in
 
 //Air Transformer
 //mods.industrialupgrade.AerAssembler.addRecipe(output, fill, matter);
-//mods.industrialupgrade.AerAssembler.addRecipe(<divinerpg:clean_pearls>, <divinerpg:yellow_diamond_chunk>, 1.4);
+
 
 
 //Aqua Transformer
 //mods.industrialupgrade.AquaAssembler.addRecipe(output, fill, matter);
 mods.industrialupgrade.AquaAssembler.addRecipe(<divinerpg:ice_shards>, <botania:petal:3>, 0.5);
-//mods.industrialupgrade.AquaAssembler.addRecipe(<divinerpg:aquatic_pellets>,<botania:rune>, 1);
-//mods.industrialupgrade.AquaAssembler.addRecipe(<divinerpg:crab_claw>,<divinerpg:aquatic_pellets>, 1);
+
 
 
 //Default Assembler
@@ -727,25 +726,18 @@ mods.industrialupgrade.AquaAssembler.addRecipe(<divinerpg:ice_shards>, <botania:
 //mods.industrialupgrade.EarthAssembler.addRecipe(output, fill, matter);
 mods.industrialupgrade.EarthAssembler.addRecipe(<divinerpg:jungle_shards>, <botania:petal:5>, 0.5);
 mods.industrialupgrade.EarthAssembler.addRecipe(<divinerpg:terran_shards>, <botania:petal:13>, 0.5);
-//mods.industrialupgrade.EarthAssembler.addRecipe(<divinerpg:dirty_pearls>, <extrabees:honey_comb:60>, 0.7);
+
 
 
 //End Transformer:
 //mods.industrialupgrade.EndAssembler.addRecipe(output, fill, matter);
 mods.industrialupgrade.EndAssembler.addRecipe(<divinerpg:ender_shards>, <botania:petal:2>, 0.5);
 mods.industrialupgrade.EndAssembler.addRecipe(<divinerpg:corrupted_shards>, <botania:petal:10>, 0.5);
-//mods.industrialupgrade.EndAssembler.addRecipe(<endreborn:item_end_essence>, <extrautils2:endershard>, 2);
-//mods.industrialupgrade.EndAssembler.addRecipe(<divinerpg:watching_eye>, <enderio:item_material:16>, 1);
-//mods.industrialupgrade.EndAssembler.addRecipe(<divinerpg:shiny_pearls>, <extrabees:honey_comb:71>, 0.7);
 
 
 //Nether Assembler
 //mods.industrialupgrade.NetherAssembler.addRecipe(output, fill, matter);
-//mods.industrialupgrade.NetherAssembler.addRecipe(<divinerpg:molten_shards>, <botania:petal:14>, 0.5);
-//mods.industrialupgrade.NetherAssembler.addRecipe(<divinerpg:fury_fire>, <divinerpg:purple_blaze>, 3);
-//mods.industrialupgrade.NetherAssembler.addRecipe(<divinerpg:purple_blaze>, <mysticalagriculture:fire_essence>, 1.5);
-//mods.industrialupgrade.NetherAssembler.addRecipe(<divinerpg:polished_pearls>, <extrautils2:ingredients:2>, 0.7);
-//mods.industrialupgrade.NetherAssembler.addRecipe(<divinerpg:bluefire_stone>, <divinerpg:molten_stone>, 3);
+
 
 
 
@@ -856,7 +848,7 @@ mods.industrialupgrade.peralloysmelter.addRecipe(<contenttweaker:alloy_industria
 mods.industrialupgrade.rolling.addRecipe(<moreplates:crystalline_alloy_plate>, <enderio:item_alloy_endergy_ingot:1>);
 mods.industrialupgrade.rolling.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>*2);
 
-
+//TO-DO: FIX THIS
 
 // MEKANISM - INDUSTRIAL UPGRADE CROSS-COMPAT //
 //mods.industrialupgrade.PlacticMachine.addRecipe(ILiquidStack_input, IIngredient, IItemStack);
@@ -864,22 +856,22 @@ mods.industrialupgrade.PlacticMachine.addRecipe(<liquid:liquidoxygen>*1000, <ind
 mods.industrialupgrade.PlacticMachine.addRecipe(<liquid:liquidoxygen>*200, <industrialupgrade:red_phosphorus>*4, <industrialupgrade:phosphorus_oxide>*2);
 
 //mods.industrialupgrade.fluidintegrator
-mods.industrialupgrade.fluidintegrator.addRecipe(<industrialupgrade:smalldust:22>, <industrialupgrade:heavyore:4>, <liquid:liquidoxygen>*1100, <liquid:iufluidsulfuroxide>*800);
+//mods.industrialupgrade.fluidintegrator.addRecipe(<industrialupgrade:smalldust:22>, <industrialupgrade:heavyore:4>, <liquid:liquidoxygen>*1100, <liquid:iufluidsulfuroxide>*800);
 
 //gas_combiner.addRecipe(ILiquidStack_input, ILiquidStack, ILiquidStack);
-gas_combiner.addRecipe(<liquid:iufluidsulfuroxide>*200, <liquid:iufluidhydrogensulfide>*200, <liquid:liquidoxygen>*300);
-gas_combiner.addRecipe(<liquid:iufluidsulfurtrioxide>*200, <liquid:iufluidsulfuroxide>*200, <liquid:liquidoxygen>*100);
-gas_combiner.addRecipe(<liquid:iufluidnitrogendioxide>*200, <liquid:iufluidnitrogenoxy>*200, <liquid:liquidoxygen>*100);
+//gas_combiner.addRecipe(<liquid:iufluidsulfuroxide>*200, <liquid:iufluidhydrogensulfide>*200, <liquid:liquidoxygen>*300);
+//gas_combiner.addRecipe(<liquid:iufluidsulfurtrioxide>*200, <liquid:iufluidsulfuroxide>*200, <liquid:liquidoxygen>*100);
+//gas_combiner.addRecipe(<liquid:iufluidnitrogendioxide>*200, <liquid:iufluidnitrogenoxy>*200, <liquid:liquidoxygen>*100);
 
 //mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
-mods.industrialupgrade.fluidadapter.addRecipe(<industrialupgrade:royal_jelly>, <industrialupgrade:itemdust:40>, <liquid:liquidoxygen>*200, <liquid:iufluidprotein>*200);
+//mods.industrialupgrade.fluidadapter.addRecipe(<industrialupgrade:royal_jelly>, <industrialupgrade:itemdust:40>, <liquid:liquidoxygen>*200, <liquid:iufluidprotein>*200);
 
 //mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack_input, ILiquidStack_output, ILiquidStack_output);
-mods.industrialupgrade.fluid_mixer.addRecipe(<liquid:iufluidnitrogenhydride>*400, <liquid:liquidoxygen>*400, <liquid:iufluidnitrogenoxy>*400, <liquid:water>*600);
+//mods.industrialupgrade.fluid_mixer.addRecipe(<liquid:iufluidnitrogenhydride>*400, <liquid:liquidoxygen>*400, <liquid:iufluidnitrogenoxy>*400, <liquid:water>*600);
 
 //mods.industrialupgrade.solidfluidmixer.addRecipe(IItemStack_output, ILiquidStack, ILiquidStack, ILiquidStack);
-mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:484>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyprop>*250, <liquid:liquidoxygen>*100);
-mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:483>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyeth>*250, <liquid:liquidoxygen>*100);
+//mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:484>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyprop>*250, <liquid:liquidoxygen>*100);
+//mods.industrialupgrade.solidfluidmixer.addRecipe(<industrialupgrade:crafting_elements:483>, <liquid:iufluidcarbonmonoxide>*50, <liquid:iufluidpolyeth>*250, <liquid:liquidoxygen>*100);
 
 
 

@@ -24,7 +24,8 @@
 				],
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "9c16d84f",

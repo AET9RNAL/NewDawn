@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:quartz_growth_accelerator"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "05cd9db6",

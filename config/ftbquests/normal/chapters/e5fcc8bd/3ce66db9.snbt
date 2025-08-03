@@ -24,7 +24,8 @@
 				],
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e42188c0",
@@ -35,11 +36,6 @@
 				type: "rare_crate"
 			}
 		}
-	},
-	{
-		uid: "191ded90",
-		type: "xp",
-		xp: 50
 	},
 	{
 		uid: "634c2ca2",

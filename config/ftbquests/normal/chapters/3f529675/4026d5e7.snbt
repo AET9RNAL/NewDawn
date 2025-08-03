@@ -9,7 +9,7 @@
 		uid: "49427f5d",
 		type: "item",
 		items: [{
-			item: "iuadditions:crystal_static"
+			item: "iuadditions:crystal 1 4"
 		}]
 	}],
 	rewards: [{

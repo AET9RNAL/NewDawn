@@ -1,6 +1,6 @@
 {
 	x: 1.0d,
-	y: -5.0d,
+	y: -4.5d,
 	dependencies: [
 		"fdaf6787"
 	],
@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "fluxnetworks:herculeanfluxstorage"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

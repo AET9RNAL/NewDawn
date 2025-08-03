@@ -10,6 +10,7 @@
 		items: [{
 			item: "appliedenergistics2:interface"
 		}],
+		ignore_nbt: 1b,
 		only_from_crafting: true
 	}]
 }

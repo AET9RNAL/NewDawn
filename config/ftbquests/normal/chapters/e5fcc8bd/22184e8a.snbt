@@ -25,6 +25,7 @@
 			}
 		}],
 		consume_items: false,
+		ignore_nbt: 1b,
 		only_from_crafting: true
 	}],
 	rewards: [{
@@ -36,11 +37,6 @@
 				type: "uncommon_crate"
 			}
 		}
-	},
-	{
-		uid: "6457f993",
-		type: "xp",
-		xp: 50
 	},
 	{
 		uid: "516f73a1",

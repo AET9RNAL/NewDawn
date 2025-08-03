@@ -3,22 +3,27 @@
 	loot_size: 1,
 	rewards: [{
 		item: "minecraft:log",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "minecraft:piston",
-		count: 2
+		count: 2,
+		random_bonus: 1
 	},
 	{
-		item: "minecraft:hopper"
+		item: "minecraft:hopper",
+		random_bonus: 1
 	},
 	{
 		item: "minecraft:apple",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "minecraft:cookie",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "minecraft:lava_bucket"
@@ -37,29 +42,37 @@
 	},
 	{
 		item: "appliedenergistics2:sky_stone_block",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "minecraft:redstone",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
 			Damage: 272s,
-			tag: {}
-		}
+			tag: {
+				level: 1
+			}
+		},
+		random_bonus: 1
 	},
 	{
-		item: "industrialupgrade:crafting_elements 1 538"
+		item: "industrialupgrade:crafting_elements 1 538",
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 650",
-		count: 2
+		count: 2,
+		random_bonus: 2
 	},
 	{
 		item: "minecraft:clay",
-		count: 16
+		count: 16,
+		random_bonus: 8
 	},
 	{
 		item: "industrialupgrade:ae_iu_item",
@@ -67,7 +80,8 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 492",
-		count: 4
+		count: 4,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 271",
@@ -75,7 +89,8 @@
 	},
 	{
 		item: "industrialupgrade:crafting_elements 1 42",
-		count: 2
+		count: 2,
+		random_bonus: 1
 	},
 	{
 		item: "industrialupgrade:circuit 1 15",
@@ -83,7 +98,8 @@
 	},
 	{
 		item: "industrialupgrade:itemingots 1 7",
-		count: 4
+		count: 16,
+		random_bonus: 4
 	},
 	{
 		item: "industrialupgrade:blockspace3 1 4",
@@ -116,6 +132,39 @@
 	{
 		item: "industrialupgrade:crafting_elements 1 476",
 		count: 2
+	},
+	{
+		item: "industrialupgrade:itempipes_iu 1 20",
+		count: 8,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:gear 1 13",
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:itemplates 1 37",
+		count: 4,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:itemplates 1 16",
+		count: 4,
+		random_bonus: 1
+	},
+	{
+		item: "industrialupgrade:itemplates 1 12",
+		count: 4,
+		random_bonus: 3
+	},
+	{
+		item: "industrialupgrade:itemplates 1 13",
+		count: 4,
+		random_bonus: 2
+	},
+	{
+		item: "industrialupgrade:preciousgem",
+		count: 4
 	}],
 	loot_crate: {
 		string_id: "steam_era_crate",
