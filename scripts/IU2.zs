@@ -864,7 +864,7 @@ mods.industrialupgrade.PlacticMachine.addRecipe(<liquid:liquidoxygen>*200, <indu
 //gas_combiner.addRecipe(<liquid:iufluidnitrogendioxide>*200, <liquid:iufluidnitrogenoxy>*200, <liquid:liquidoxygen>*100);
 
 //mods.industrialupgrade.fluidadapter.addRecipe(IItemStack_input, IItemStack_output, ILiquidStack_input, ILiquidStack_output);
-/mods.industrialupgrade.fluidadapter.addRecipe(<industrialupgrade:royal_jelly>, <industrialupgrade:itemdust:40>, <liquid:liquidoxygen>*200, <liquid:iufluidprotein>*200);
+//mods.industrialupgrade.fluidadapter.addRecipe(<industrialupgrade:royal_jelly>, <industrialupgrade:itemdust:40>, <liquid:liquidoxygen>*200, <liquid:iufluidprotein>*200);
 
 //mods.industrialupgrade.fluid_mixer.addRecipe(ILiquidStack_input, ILiquidStack_input, ILiquidStack_output, ILiquidStack_output);
 //mods.industrialupgrade.fluid_mixer.addRecipe(<liquid:iufluidnitrogenhydride>*400, <liquid:liquidoxygen>*400, <liquid:iufluidnitrogenoxy>*400, <liquid:water>*600);
