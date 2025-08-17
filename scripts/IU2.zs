@@ -55,6 +55,26 @@ val itemsToRemove = [
     <industrialupgrade:quantumaxe>,
     <industrialupgrade:quantumpickaxe>,
     <industrialupgrade:quantumshovel>,
+	<industrialupgrade:basemachine3:19>,
+	<industrialupgrade:basemachine3:16>,
+	<industrialupgrade:basemachine3:15>,
+	<industrialupgrade:basemachine3:14>,
+	<industrialupgrade:basemachine3:13>,
+	<industrialupgrade:combiner_solid_matter>,
+	<industrialupgrade:spectralpickaxe>,
+	<industrialupgrade:spectralshovel>,
+	<industrialupgrade:spectralaxe>,
+	<industrialupgrade:spectralbow>,
+	<industrialupgrade:spectral_saber:27>,
+	<industrialupgrade:spectraldrill>,
+	<industrialupgrade:spectral_solar_helmet:27>,
+	<industrialupgrade:combiner_solid_matter>,
+	<industrialupgrade:basemachine3:13>,
+	<industrialupgrade:basemachine3:14>,
+	<industrialupgrade:basemachine3:15>,
+	<industrialupgrade:basemachine3:16>,
+	<industrialupgrade:basemachine3:19>,
+	<industrialupgrade:basemachine3:256>
 
 
 ] as IItemStack[];

@@ -204,6 +204,49 @@ val itemsToRemove = [
   <mekanism:machineblock3:8>.withTag({recipeType: 15}),
   <mekanism:machineblock4:7>,
   <mekanism:modulebase>,
+  <mekanism:machineblock3:7>.withTag({recipeType: 19}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 22}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 18}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 10}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 9}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 13}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 12}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 21}),
+  <mekanism:machineblock:7>.withTag({recipeType: 19}),
+  <mekanism:machineblock:7>.withTag({recipeType: 22}),
+  <mekanism:machineblock:7>.withTag({recipeType: 18}),
+  <mekanism:machineblock:7>.withTag({recipeType: 10}),
+  <mekanism:machineblock:7>.withTag({recipeType: 9}),
+  <mekanism:machineblock:7>.withTag({recipeType: 13}),
+  <mekanism:machineblock:7>.withTag({recipeType: 12}),
+  <mekanism:machineblock:7>.withTag({recipeType: 21}),
+  <mekanism:machineblock:6>.withTag({recipeType: 19}),
+  <mekanism:machineblock:6>.withTag({recipeType: 22}),
+  <mekanism:machineblock:6>.withTag({recipeType: 18}),
+  <mekanism:machineblock:6>.withTag({recipeType: 10}),
+  <mekanism:machineblock:6>.withTag({recipeType: 9}),
+  <mekanism:machineblock:6>.withTag({recipeType: 13}),
+   <mekanism:machineblock:6>.withTag({recipeType: 12}),
+  <mekanism:machineblock:6>.withTag({recipeType: 21}),
+  <mekanism:machineblock:5>.withTag({recipeType: 19}),
+  <mekanism:machineblock:5>.withTag({recipeType: 22}),
+  <mekanism:machineblock:5>.withTag({recipeType: 18}),
+  <mekanism:machineblock:5>.withTag({recipeType: 10}),
+  <mekanism:machineblock:5>.withTag({recipeType: 9}),
+  <mekanism:machineblock:5>.withTag({recipeType: 13}),
+  <mekanism:machineblock:5>.withTag({recipeType: 12}),
+  <mekanism:machineblock:5>.withTag({recipeType: 21}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 23}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 20}),
+  <mekanism:machineblock3:7>.withTag({recipeType: 16}),
+  <mekanism:machineblock:7>.withTag({recipeType: 16}),
+  <mekanism:machineblock:7>.withTag({recipeType: 20}),
+  <mekanism:machineblock:7>.withTag({recipeType: 23}),
+  <mekanism:machineblock:6>.withTag({recipeType: 23}),
+  <mekanism:machineblock:6>.withTag({recipeType: 20}),
+  <mekanism:machineblock:5>.withTag({recipeType: 23}),
+  <mekanism:machineblock:5>.withTag({recipeType: 20})
+
 ]as IItemStack[];
 for item in itemsToRemove {
   recipes.remove(item);
@@ -356,7 +399,70 @@ recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}), [[<industr
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 8}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:5>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock:10>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
 recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock:1>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
-recipes.addShaped(<mekanism:modulebase>, [[<industrialupgrade:quantumitems4>, <moreplates:infinity_plate>, <industrialupgrade:quantumitems4>],[<industrialupgrade:quantumitems4>, <industrialupgrade:module_schedule>, <industrialupgrade:quantumitems4>], [<industrialupgrade:quantumitems4>, <moreplates:infinity_plate>, <industrialupgrade:quantumitems4>]]);
+recipes.addShaped(<mekanism:modulebase>, [[<industrialupgrade:crafting_elements:285>, <mekanism:hdpe_sheet>, <industrialupgrade:crafting_elements:285>],[<industrialupgrade:alloyplate:27>, <industrialupgrade:module_schedule>, <industrialupgrade:alloyplate:27>], [<industrialupgrade:crafting_elements:285>, <mekanism:hdpe_sheet>, <industrialupgrade:crafting_elements:285>]]);
+
+
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 19}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 19}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 22}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 22}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 18}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 18}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 10}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 10}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 9}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 9}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 13}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 13}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 12}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 12}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 21}), [[<mekanism:atomicalloy>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 21}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 19}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 19}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 22}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 22}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 18}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 18}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 10}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 10}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 9}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 9}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 13}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 13}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 12}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 12}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 21}), [[<mekanism:reinforcedalloy>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 21}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <mekanism:reinforcedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 19}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 19}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 22}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 22}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 18}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 18}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 10}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 10}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 9}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 9}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 13}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 13}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 12}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 12}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 21}), [[<mekanism:enrichedalloy>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 21}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <mekanism:enrichedalloy>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 19}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:6>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 22}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock3:13>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 18}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:8>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 10}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock4:1>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 9}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock4>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 13}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock4:4>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 12}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock4:3>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 21}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:1>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 23}), [[<ore:alloyUltimate>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 23}).onlyWithTag({recipeType: 23}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 20}), [[<ore:alloyUltimate>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 20}).onlyWithTag({recipeType: 20}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:machineblock3:7>.withTag({recipeType: 16}), [[<ore:alloyUltimate>, <ore:circuitUltimate>, <industrialupgrade:crafting_elements:140>],[<ore:doubleplateDuralumin>, <mekanism:machineblock:7>.withTag({recipeType: 16}).onlyWithTag({recipeType: 16}), <ore:doubleplateDuralumin>], [<industrialupgrade:crafting_elements:140>, <ore:circuitUltimate>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 16}), [[<ore:alloyElite>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 16}).onlyWithTag({recipeType: 16}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 20}), [[<ore:alloyElite>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 20}).onlyWithTag({recipeType: 20}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:machineblock:7>.withTag({recipeType: 23}), [[<ore:alloyElite>, <ore:circuitElite>, <industrialupgrade:crafting_elements:139>],[<ore:doubleplateVitalium>, <mekanism:machineblock:6>.withTag({recipeType: 23}).onlyWithTag({recipeType: 23}), <ore:doubleplateVitalium>], [<industrialupgrade:crafting_elements:139>, <ore:circuitElite>, <ore:alloyElite>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 23}), [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 23}).onlyWithTag({recipeType: 23}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
+recipes.addShaped(<mekanism:machineblock:6>.withTag({recipeType: 20}), [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <industrialupgrade:crafting_elements:138>],[<ore:doubleplateOsmium>, <mekanism:machineblock:5>.withTag({recipeType: 20}).onlyWithTag({recipeType: 20}), <ore:doubleplateOsmium>], [<industrialupgrade:crafting_elements:138>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
+
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 23}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:7>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 20}), [[<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>],[<ore:plateOsmium>, <mekanism:machineblock2:10>, <ore:plateOsmium>], [<industrialupgrade:crafting_elements:137>, <ore:circuitBasic>, <industrialupgrade:crafting_elements:137>]]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 mods.avaritia.Compressor.add("circuit", <mekanism:controlcircuit:4>, 42, <mekanismecoenergistics:morecontrolcircuit:9>,true);
 

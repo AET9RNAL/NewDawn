@@ -82,6 +82,7 @@ Melting.addRecipe(<liquid:stone>*5832, <extrautils2:compressedcobblestone:1>, 60
 Melting.addRecipe(<liquid:stone>*51912, <extrautils2:compressedcobblestone:2>, 900);
 Melting.addRecipe(<liquid:stone>*472392, <extrautils2:compressedcobblestone:3>, 1000);
 
+Melting.addRecipe(<liquid:redstone>*250, <thermalfoundation:material:893>, 1000);
 
 
 //mods.tconstruct.Alloy.addRecipe(ILiquidStackoutput, ILiquidStack[]);
