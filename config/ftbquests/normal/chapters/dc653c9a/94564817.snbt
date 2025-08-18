@@ -11,6 +11,21 @@
 		items: [{
 			id: "tconstruct:shovel",
 			tag: {
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Durability: 75
+				},
 				TinkerData: {
 					Materials: [
 						"wood",
@@ -19,29 +34,14 @@
 					],
 					Modifiers: []
 				},
-				Stats: {
-					MiningSpeed: 2.0f,
-					FreeModifiers: 3,
-					AttackSpeedMultiplier: 1.0f,
-					HarvestLevel: 0,
-					Attack: 2.0f,
-					Durability: 75
-				},
-				Special: {
-					Categories: [
-						"tool",
-						"aoe",
-						"harvest"
-					]
-				},
 				Modifiers: [{
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
 				}],
 				StatsOriginal: {
-					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
+					MiningSpeed: 2.0f,
 					AttackSpeedMultiplier: 1.0f,
 					HarvestLevel: 0,
 					Attack: 2.0f,
