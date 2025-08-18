@@ -1,0 +1,14 @@
+{
+
+            "addonId": 243190,
+            "fileId": 5183202,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "Shoulder Surfing Reloaded",
+                "description": "Shoulder Surfing Reloaded is a highly configurable third person camera mod",
+                "optionalKey": "$"
+            }
+
+}

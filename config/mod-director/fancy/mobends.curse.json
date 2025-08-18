@@ -1,0 +1,14 @@
+{
+
+            "addonId": 231347,
+            "fileId": 3573346,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "MoBends",
+                "description": "Changes the look of players and mobs to act more realistic and epic.",
+                "optionalKey": "$"
+            }
+
+}

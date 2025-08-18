@@ -1,0 +1,14 @@
+{
+
+            "addonId": 238372,
+            "fileId": 2595310,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "Neat",
+                "description": "Minimalistic Functional Unit Frames for the modern Minecrafter",
+                "optionalKey": "$"
+            }
+
+}

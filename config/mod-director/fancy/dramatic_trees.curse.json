@@ -1,0 +1,14 @@
+{
+
+            "addonId": 637540,
+            "fileId": 5496154,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "Dramatic Trees",
+                "description": "Dynamic Trees with extra edge.",
+                "optionalKey": "$"
+            }
+
+}

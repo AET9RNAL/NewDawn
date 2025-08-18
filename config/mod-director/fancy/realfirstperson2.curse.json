@@ -1,0 +1,14 @@
+{
+
+            "addonId": 248451,
+            "fileId": 2878496,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "RealFirstPerson2",
+                "description": "Whole-body rendering in first-person.",
+                "optionalKey": "$"
+            }
+
+}

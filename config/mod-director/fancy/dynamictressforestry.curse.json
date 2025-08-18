@@ -1,0 +1,14 @@
+{
+
+            "addonId": 401558,
+            "fileId": 3261440,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "DynamicTressForestry",
+                "description": "Compatibility Mod between Dynamic trees and Forestry",
+                "optionalKey": "$"
+            }
+
+}

@@ -1,0 +1,14 @@
+{
+
+            "addonId": 236484,
+            "fileId": 3850023,
+            "metadata": {
+                "side": "CLIENT"
+            },
+            "installationPolicy": {
+                "name": "Chunk Animator",
+                "description": "A smal client side mod that animates the appearance of cunks so that they don't just appear instantly.",
+                "optionalKey": "$"
+            }
+
+}
