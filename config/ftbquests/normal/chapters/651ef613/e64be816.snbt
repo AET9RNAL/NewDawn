@@ -8,10 +8,10 @@
 		uid: "a6211708",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemarchitectwand",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "astralsorcery:itemarchitectwand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

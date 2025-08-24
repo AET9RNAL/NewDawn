@@ -9,7 +9,11 @@
 		uid: "92d10574",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:ecogenerator 1 5"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator",
+			Damage: 5s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -27,7 +31,13 @@
 	{
 		uid: "76bd97b9",
 		type: "item",
-		item: "mekanismecoenergistics:ecogenerator 1 2"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator",
+			Damage: 2s
+		}
 	},
 	{
 		uid: "2838b74b",

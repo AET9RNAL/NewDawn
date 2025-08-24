@@ -9,6 +9,9 @@
 		uid: "8391df24",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:diamond_drill",
 			tag: {
 				ID_Item: 2147483647

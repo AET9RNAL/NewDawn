@@ -10,6 +10,9 @@
 		uid: "7dc7dc6b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectral",
 			tag: {
 				damage: 157090

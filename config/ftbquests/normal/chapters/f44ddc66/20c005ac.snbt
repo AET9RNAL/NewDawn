@@ -9,6 +9,9 @@
 		uid: "c1fa0d0b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:re_battery",
 			tag: {}
 		}],

@@ -8,6 +8,9 @@
 		uid: "b01acea3",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:electric_hoe",
 			tag: {
 				charge: 0.0d

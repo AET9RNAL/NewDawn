@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "quantum_generators:qg",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}],
 		ignore_nbt: 1b
 	}],

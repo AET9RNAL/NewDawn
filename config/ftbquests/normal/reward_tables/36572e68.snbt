@@ -37,6 +37,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:energy_crystal",
 			tag: {
 				charge: 1000000.0d
@@ -71,10 +74,10 @@
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
-			Damage: 272s,
 			tag: {
 				level: 1
-			}
+			},
+			Damage: 272s
 		},
 		count: 6
 	},
@@ -89,10 +92,10 @@
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
-			Damage: 273s,
 			tag: {
 				level: 3
-			}
+			},
+			Damage: 273s
 		},
 		count: 4
 	},
@@ -156,7 +159,12 @@
 		item: "fluxnetworks:fluxblock"
 	},
 	{
-		item: "betternether:stalagnate_bowl_mushroom"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betternether:stalagnate_bowl_mushroom"
+		}
 	},
 	{
 		item: "extrautils2:ingredients 1 17",
@@ -171,7 +179,13 @@
 		count: 16
 	},
 	{
-		item: "mekanismgenerators:generator 1 6"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 6s
+		}
 	},
 	{
 		item: "threng:material 1 4",
@@ -198,17 +212,17 @@
 	{
 		item: {
 			id: "industrialupgrade:basemachine3",
-			Damage: 81s,
-			tag: {}
+			tag: {},
+			Damage: 81s
 		}
 	}],
 	loot_crate: {
 		string_id: "rare_crate",
 		color: 2388387,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

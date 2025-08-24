@@ -23,10 +23,10 @@
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
-			Damage: 273s,
 			tag: {
 				level: 3
-			}
+			},
+			Damage: 273s
 		}
 	},
 	{
@@ -64,6 +64,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:advanced_re_battery",
 			tag: {}
 		}
@@ -240,9 +243,9 @@
 		string_id: "electric_era_crate",
 		color: 8768210,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

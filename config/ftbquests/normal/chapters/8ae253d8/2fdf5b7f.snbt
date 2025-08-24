@@ -10,7 +10,10 @@
 		uid: "a48e0638",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:ecogeneratoradd"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogeneratoradd"
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -28,12 +31,21 @@
 	{
 		uid: "e8f29a00",
 		type: "item",
-		item: "mekanismgenerators:generator 1 6"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 6s
+		}
 	},
 	{
 		uid: "6eb6977d",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:rotor_iron",
 			tag: {
 				damage: 57600

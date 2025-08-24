@@ -15,7 +15,12 @@
 	rewards: [{
 		uid: "218a8f18",
 		type: "item",
-		item: "minecraft:flint_and_steel"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}
 	},
 	{
 		uid: "5004c14c",

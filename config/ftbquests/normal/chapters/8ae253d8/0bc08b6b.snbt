@@ -29,10 +29,10 @@
 		type: "item",
 		item: {
 			id: "mekanismecoenergistics:ecotransmitter",
-			Damage: 2s,
 			tag: {
 				tier: 0
-			}
+			},
+			Damage: 2s
 		},
 		count: 8
 	},

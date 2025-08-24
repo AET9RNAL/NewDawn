@@ -11,6 +11,9 @@
 		uid: "305472a3",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:destructiontool",
 			tag: {
 				overlay: 1b,

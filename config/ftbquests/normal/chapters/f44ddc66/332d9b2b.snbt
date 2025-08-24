@@ -13,8 +13,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:moremachine",
-			Damage: 8s,
-			tag: {}
+			tag: {},
+			Damage: 8s
 		}],
 		ignore_nbt: 1b
 	}],

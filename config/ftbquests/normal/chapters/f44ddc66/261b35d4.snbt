@@ -10,6 +10,9 @@
 		uid: "86fa58cc",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_neutron",
 			tag: {
 				damage: 27648000

@@ -8,10 +8,10 @@
 		uid: "862ab394",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemhandtelescope",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "astralsorcery:itemhandtelescope"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

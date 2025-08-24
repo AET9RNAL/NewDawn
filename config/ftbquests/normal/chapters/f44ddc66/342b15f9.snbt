@@ -12,7 +12,10 @@
 		uid: "872a0651",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:multiblock_planner"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:multiblock_planner"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -21,7 +24,10 @@
 		uid: "b3497c53",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:multiblock_deplanner"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:multiblock_deplanner"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

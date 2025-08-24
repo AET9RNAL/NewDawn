@@ -10,7 +10,13 @@
 	tasks: [{
 		uid: "c5b97b37",
 		type: "checkmark",
-		icon: "botania:cosmetic 1 31"
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
 	}],
 	rewards: [{
 		uid: "3efe4dbd",

@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}]
 	},
 	{
@@ -20,8 +20,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 33s,
-			tag: {}
+			tag: {},
+			Damage: 33s
 		}]
 	},
 	{
@@ -29,8 +29,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 5s,
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}],
 		count: 6L
 	},
@@ -39,8 +39,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 21s,
-			tag: {}
+			tag: {},
+			Damage: 21s
 		}],
 		count: 6L
 	},
@@ -49,8 +49,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 13s,
-			tag: {}
+			tag: {},
+			Damage: 13s
 		}],
 		count: 18L
 	},
@@ -59,8 +59,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 9s,
-			tag: {}
+			tag: {},
+			Damage: 9s
 		}],
 		count: 2L
 	},
@@ -69,8 +69,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 37s,
-			tag: {}
+			tag: {},
+			Damage: 37s
 		}],
 		count: 3L
 	},
@@ -79,8 +79,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 29s,
-			tag: {}
+			tag: {},
+			Damage: 29s
 		}],
 		count: 6L
 	},
@@ -89,8 +89,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 17s,
-			tag: {}
+			tag: {},
+			Damage: 17s
 		}],
 		count: 4L
 	},
@@ -99,8 +99,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 25s,
-			tag: {}
+			tag: {},
+			Damage: 25s
 		}],
 		count: 64L
 	},
@@ -109,8 +109,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 25s,
-			tag: {}
+			tag: {},
+			Damage: 25s
 		}],
 		count: 7L
 	}]

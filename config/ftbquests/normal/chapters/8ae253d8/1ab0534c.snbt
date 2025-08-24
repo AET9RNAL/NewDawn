@@ -10,7 +10,11 @@
 		uid: "64df70b3",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:avaritiagenerator 1 4"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:avaritiagenerator",
+			Damage: 4s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true

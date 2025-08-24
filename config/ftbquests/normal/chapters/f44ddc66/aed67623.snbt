@@ -11,6 +11,9 @@
 		uid: "3dfc916c",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:rotor_wood",
 			tag: {
 				damage: 5400

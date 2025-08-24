@@ -1,6 +1,9 @@
 {
 	title: "Misc",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "flowingtime:timewatch",
 		tag: {}
 	},

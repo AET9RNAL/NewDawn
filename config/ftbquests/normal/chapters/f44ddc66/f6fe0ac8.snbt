@@ -1,0 +1,37 @@
+{
+	x: -0.5d,
+	y: -10.5d,
+	text: [
+		"§9§lModification Station§r",
+		"",
+		"§fAllows you to install §epowerful modules§f into §6armor§f, §6weapons§f, or §6instruments§f.  ",
+		"Modules §achange the behavior§f of the item they are installed into.",
+		"",
+		"§fFor example:  ",
+		"– Increasing the §bdigging area§f of a pickaxe  ",
+		"– Adding §6Fortune§f  ",
+		"– Or even adding a §cDraconic Evolution shield§f to your armor, making it §amuch more powerful§f!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b14f3008"
+	],
+	tasks: [{
+		uid: "53615efd",
+		type: "item",
+		items: [{
+			id: "industrialupgrade:upgrade_block",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "521c1677",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "advanced_era_crate"
+			}
+		}
+	}]
+}

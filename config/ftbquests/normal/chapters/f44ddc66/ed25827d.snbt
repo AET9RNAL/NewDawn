@@ -26,7 +26,13 @@
 	{
 		uid: "5119395f",
 		type: "item",
-		item: "mekanismecoenergistics:ecogenerator 1 5"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator",
+			Damage: 5s
+		}
 	},
 	{
 		uid: "2733bef1",

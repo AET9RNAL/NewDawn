@@ -8,7 +8,10 @@
 		uid: "14ef45c7",
 		type: "item",
 		items: [{
-			item: "mekanism:filterupgrade"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:filterupgrade"
 		}],
 		only_from_crafting: true
 	}],

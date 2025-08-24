@@ -12,8 +12,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:basemachine2",
-			Damage: 14s,
-			tag: {}
+			tag: {},
+			Damage: 14s
 		}],
 		ignore_nbt: 1b
 	}],

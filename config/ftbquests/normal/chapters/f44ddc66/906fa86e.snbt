@@ -9,6 +9,9 @@
 		uid: "3583f112",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:adv_nano_leggings",
 			tag: {
 				ID_Item: 2147483647

@@ -11,6 +11,9 @@
 		uid: "1f47c0e2",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:energy_crystal",
 			tag: {}
 		}],

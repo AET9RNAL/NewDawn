@@ -10,6 +10,9 @@
 		uid: "6b6e5e09",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_rotor_steel",
 			tag: {
 				damage: 115200

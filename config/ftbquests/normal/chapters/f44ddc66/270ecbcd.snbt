@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:wiring_storage",
-			Damage: 9s,
-			tag: {}
+			tag: {},
+			Damage: 9s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -28,7 +28,13 @@
 	{
 		uid: "b9d0b235",
 		type: "item",
-		item: "mekanismecoenergistics:ecogeneratoradd 1 5"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogeneratoradd",
+			Damage: 5s
+		}
 	},
 	{
 		uid: "e0216c55",

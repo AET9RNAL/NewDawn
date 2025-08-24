@@ -8,10 +8,10 @@
 		uid: "5f49ef97",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemexchangewand",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "astralsorcery:itemexchangewand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

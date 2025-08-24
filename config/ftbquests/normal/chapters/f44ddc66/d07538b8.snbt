@@ -10,6 +10,9 @@
 		uid: "4b409e0f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:rotor_iron",
 			tag: {
 				damage: 57600

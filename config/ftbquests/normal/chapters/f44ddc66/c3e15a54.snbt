@@ -10,6 +10,9 @@
 		uid: "727309eb",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_photon",
 			tag: {
 				damage: 691200

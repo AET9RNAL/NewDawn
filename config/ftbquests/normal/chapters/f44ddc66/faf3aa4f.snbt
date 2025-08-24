@@ -8,6 +8,9 @@
 		uid: "58a65e20",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:purifier",
 			tag: {}
 		}],

@@ -67,7 +67,12 @@
 	tasks: [{
 		uid: "40a639c3",
 		type: "checkmark",
-		icon: "industrialupgrade:guide_book"
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:guide_book"
+		}
 	}],
 	rewards: [{
 		uid: "754bc864",

@@ -9,7 +9,10 @@
 		uid: "d2960df0",
 		type: "item",
 		items: [{
-			item: "mekanism:mekasuit_helmet"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:mekasuit_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -13,7 +13,10 @@
 		uid: "d9a4b716",
 		type: "item",
 		items: [{
-			item: "mekanismmultiblockmachine:multiblockgenerator"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismmultiblockmachine:multiblockgenerator"
 		}],
 		ignore_nbt: 1b
 	}],

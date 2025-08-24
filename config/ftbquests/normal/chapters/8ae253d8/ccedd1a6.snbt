@@ -10,7 +10,11 @@
 		uid: "ef00a9bf",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:ecogeneratoradd 1 6"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogeneratoradd",
+			Damage: 6s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -29,6 +33,9 @@
 		uid: "acc5d010",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:myphical",
 			tag: {
 				damage: 3456000

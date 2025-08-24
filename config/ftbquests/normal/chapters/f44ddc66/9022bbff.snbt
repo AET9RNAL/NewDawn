@@ -10,8 +10,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:photonic_machine",
-			Damage: 17s,
-			tag: {}
+			tag: {},
+			Damage: 17s
 		}],
 		ignore_nbt: 1b
 	}],

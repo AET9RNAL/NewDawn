@@ -9,6 +9,9 @@
 		uid: "5e42e1bf",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:exchangertool",
 			tag: {
 				blockstate: {

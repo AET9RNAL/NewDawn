@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 7s,
-			tag: {}
+			tag: {},
+			Damage: 7s
 		}]
 	},
 	{
@@ -20,8 +20,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 23s,
-			tag: {}
+			tag: {},
+			Damage: 23s
 		}],
 		count: 8L
 	},
@@ -30,8 +30,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 31s,
-			tag: {}
+			tag: {},
+			Damage: 31s
 		}]
 	},
 	{
@@ -39,8 +39,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}],
 		count: 8L
 	},
@@ -49,8 +49,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 39s,
-			tag: {}
+			tag: {},
+			Damage: 39s
 		}],
 		count: 8L
 	},
@@ -59,8 +59,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 35s,
-			tag: {}
+			tag: {},
+			Damage: 35s
 		}],
 		count: 4L
 	},
@@ -69,8 +69,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 19s,
-			tag: {}
+			tag: {},
+			Damage: 19s
 		}],
 		count: 8L
 	},
@@ -79,8 +79,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 15s,
-			tag: {}
+			tag: {},
+			Damage: 15s
 		}],
 		count: 8L
 	},
@@ -89,8 +89,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 11s,
-			tag: {}
+			tag: {},
+			Damage: 11s
 		}],
 		count: 28L
 	},
@@ -99,8 +99,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		count: 64L
 	},
@@ -109,8 +109,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:heat_reactors",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		count: 30L
 	}],

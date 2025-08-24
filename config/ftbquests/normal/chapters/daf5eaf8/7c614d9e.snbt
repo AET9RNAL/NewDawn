@@ -29,6 +29,9 @@
 		uid: "7b2d52ed",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "flowingtime:timewatch",
 			tag: {}
 		}],

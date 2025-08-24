@@ -5,7 +5,10 @@
 		uid: "bf2af436",
 		type: "item",
 		items: [{
-			item: "theoneprobe:probe"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "theoneprobe:probe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

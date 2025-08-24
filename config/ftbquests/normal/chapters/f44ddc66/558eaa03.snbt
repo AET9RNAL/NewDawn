@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "iuadditions:divinepanel",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}]
 	}],
 	rewards: [{

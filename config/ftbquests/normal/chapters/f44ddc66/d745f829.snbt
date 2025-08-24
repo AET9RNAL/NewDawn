@@ -9,6 +9,9 @@
 		uid: "3d11d836",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:adv_nano_boots",
 			tag: {
 				ID_Item: 2147483647

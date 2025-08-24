@@ -9,11 +9,14 @@
 		uid: "4e36d524",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectral_solar_helmet",
-			Damage: 27s,
 			tag: {
 				ID_Item: 2147483647
-			}
+			},
+			Damage: 27s
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -10,6 +10,9 @@
 		uid: "efe524fe",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectral_leggings",
 			tag: {
 				ID_Item: 2147483647

@@ -8,7 +8,11 @@
 		uid: "3ad5b8d9",
 		type: "item",
 		items: [{
-			item: "mekanismgenerators:generator 1 6"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 6s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -17,6 +21,9 @@
 		uid: "7e1b2f8c",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:rotor_carbon",
 			tag: {
 				damage: 403200

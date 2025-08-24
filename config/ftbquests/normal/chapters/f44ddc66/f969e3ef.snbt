@@ -10,6 +10,9 @@
 		uid: "2c859133",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_adronrotor",
 			tag: {
 				damage: 442368000

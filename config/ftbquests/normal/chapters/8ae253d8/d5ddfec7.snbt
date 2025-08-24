@@ -10,7 +10,11 @@
 		uid: "af9a6c1f",
 		type: "item",
 		items: [{
-			item: "mekanismmultiblockmachine:multiblockgenerator 1 2"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismmultiblockmachine:multiblockgenerator",
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	}],

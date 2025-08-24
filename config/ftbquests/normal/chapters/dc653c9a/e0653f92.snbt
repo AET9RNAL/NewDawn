@@ -9,8 +9,33 @@
 		uid: "4189cb0b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tconstruct:broadsword",
 			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
 				TinkerData: {
 					Materials: [
 						"wood",
@@ -19,33 +44,11 @@
 					],
 					Modifiers: []
 				},
-				Stats: {
-					MiningSpeed: 2.0f,
-					FreeModifiers: 3,
-					AttackSpeedMultiplier: 1.0f,
-					HarvestLevel: 0,
-					Attack: 3.0f,
-					Durability: 82
-				},
-				Special: {
-					Categories: [
-						"weapon",
-						"tool"
-					]
-				},
 				Modifiers: [{
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
 				}],
-				StatsOriginal: {
-					MiningSpeed: 2.0f,
-					FreeModifiers: 3,
-					AttackSpeedMultiplier: 1.0f,
-					HarvestLevel: 0,
-					Attack: 3.0f,
-					Durability: 82
-				},
 				Traits: [
 					"ecological"
 				]

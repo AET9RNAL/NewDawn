@@ -10,8 +10,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:basemachine3",
-			Damage: 210s,
-			tag: {}
+			tag: {},
+			Damage: 210s
 		}]
 	}],
 	rewards: [{

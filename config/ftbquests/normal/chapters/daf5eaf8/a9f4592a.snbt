@@ -12,6 +12,9 @@
 		uid: "183dca29",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:copypastetool",
 			tag: {
 				mode: "Copy"

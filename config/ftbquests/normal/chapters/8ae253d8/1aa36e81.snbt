@@ -35,10 +35,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:basicblock2",
-			Damage: 3s,
 			tag: {
 				tier: 0
-			}
+			},
+			Damage: 3s
 		}]
 	},
 	{
@@ -46,16 +46,19 @@
 		type: "item",
 		items: [{
 			id: "mekanism:basicblock2",
-			Damage: 4s,
 			tag: {
 				tier: 0
-			}
+			},
+			Damage: 4s
 		}]
 	}],
 	rewards: [{
 		uid: "64e5b37a",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanismecoenergistics:energytabletspectral",
 			tag: {
 				mekData: {

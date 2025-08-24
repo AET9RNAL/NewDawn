@@ -14,14 +14,14 @@
 		type: "item",
 		items: [{
 			id: "tconstruct:tooltables",
-			Damage: 1s,
 			tag: {
 				textureBlock: {
 					id: "minecraft:planks",
 					Count: 1,
 					Damage: 0s
 				}
-			}
+			},
+			Damage: 1s
 		}],
 		only_from_crafting: true
 	},
@@ -30,14 +30,14 @@
 		type: "item",
 		items: [{
 			id: "tconstruct:tooltables",
-			Damage: 2s,
 			tag: {
 				textureBlock: {
 					id: "minecraft:log",
 					Count: 1,
 					Damage: 0s
 				}
-			}
+			},
+			Damage: 2s
 		}],
 		only_from_crafting: true
 	},
@@ -76,7 +76,12 @@
 	{
 		uid: "3fd0c0a5",
 		type: "item",
-		item: "tconstruct:book"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:book"
+		}
 	},
 	{
 		uid: "5631e671",

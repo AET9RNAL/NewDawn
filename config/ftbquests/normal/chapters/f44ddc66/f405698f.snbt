@@ -8,6 +8,9 @@
 		uid: "9944d89b",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:electric_wrench",
 			tag: {
 				charge: 0.0d

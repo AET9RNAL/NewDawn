@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:wiring_storage",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true

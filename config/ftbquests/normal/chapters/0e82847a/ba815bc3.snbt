@@ -24,6 +24,9 @@
 		uid: "8ffee001",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "botania:manaringgreater",
 			tag: {
 				mana: 2000000

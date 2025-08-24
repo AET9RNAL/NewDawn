@@ -8,7 +8,10 @@
 		uid: "cd35858f",
 		type: "item",
 		items: [{
-			item: "draconicadditions:chaotic_chest"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "draconicadditions:chaotic_chest"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

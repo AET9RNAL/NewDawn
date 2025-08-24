@@ -10,6 +10,9 @@
 		uid: "2a0cfbeb",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_compressiridium",
 			tag: {
 				damage: 144000

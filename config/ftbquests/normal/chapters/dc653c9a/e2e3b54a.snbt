@@ -9,23 +9,18 @@
 		uid: "6f9e7715",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tconstruct:pickaxe",
 			tag: {
-				TinkerData: {
-					Materials: [
-						"wood",
-						"wood",
-						"wood"
-					],
-					Modifiers: []
-				},
-				Stats: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
 					MiningSpeed: 2.0f,
 					FreeModifiers: 3,
-					AttackSpeedMultiplier: 1.0f,
+					Durability: 75,
 					HarvestLevel: 0,
-					Attack: 2.0f,
-					Durability: 75
+					Attack: 2.0f
 				},
 				Special: {
 					Categories: [
@@ -34,19 +29,27 @@
 						"harvest"
 					]
 				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
 				Modifiers: [{
 					identifier: "ecological",
 					color: -7444965,
 					level: 1
 				}],
-				StatsOriginal: {
-					MiningSpeed: 2.0f,
-					FreeModifiers: 3,
-					AttackSpeedMultiplier: 1.0f,
-					HarvestLevel: 0,
-					Attack: 2.0f,
-					Durability: 75
-				},
 				Traits: [
 					"ecological"
 				]

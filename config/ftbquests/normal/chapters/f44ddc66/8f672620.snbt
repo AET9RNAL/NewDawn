@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:solid",
-			Damage: 2s,
-			tag: {}
+			tag: {},
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	}],

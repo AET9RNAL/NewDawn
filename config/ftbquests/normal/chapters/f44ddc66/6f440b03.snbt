@@ -8,6 +8,9 @@
 		uid: "6f4cc57f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:rover",
 			tag: {}
 		}],

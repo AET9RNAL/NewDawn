@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 9s,
-			tag: {}
+			tag: {},
+			Damage: 9s
 		}]
 	},
 	{
@@ -20,8 +20,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 25s,
-			tag: {}
+			tag: {},
+			Damage: 25s
 		}]
 	},
 	{
@@ -29,8 +29,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 17s,
-			tag: {}
+			tag: {},
+			Damage: 17s
 		}]
 	},
 	{
@@ -38,8 +38,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 29s,
-			tag: {}
+			tag: {},
+			Damage: 29s
 		}]
 	},
 	{
@@ -47,8 +47,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 21s,
-			tag: {}
+			tag: {},
+			Damage: 21s
 		}],
 		count: 2L
 	},
@@ -57,8 +57,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 13s,
-			tag: {}
+			tag: {},
+			Damage: 13s
 		}],
 		count: 2L
 	},
@@ -67,8 +67,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 33s,
-			tag: {}
+			tag: {},
+			Damage: 33s
 		}],
 		count: 6L
 	},
@@ -77,8 +77,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 37s,
-			tag: {}
+			tag: {},
+			Damage: 37s
 		}]
 	},
 	{
@@ -86,8 +86,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 5s,
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}],
 		count: 3L
 	},
@@ -96,8 +96,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:water_reactors",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		count: 34L
 	}],

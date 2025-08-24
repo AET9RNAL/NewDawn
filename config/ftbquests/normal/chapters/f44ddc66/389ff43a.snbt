@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}]
 	},
 	{
@@ -20,8 +20,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 35s,
-			tag: {}
+			tag: {},
+			Damage: 35s
 		}]
 	},
 	{
@@ -29,8 +29,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 7s,
-			tag: {}
+			tag: {},
+			Damage: 7s
 		}],
 		count: 9L
 	},
@@ -39,8 +39,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 23s,
-			tag: {}
+			tag: {},
+			Damage: 23s
 		}],
 		count: 16L
 	},
@@ -49,8 +49,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 15s,
-			tag: {}
+			tag: {},
+			Damage: 15s
 		}],
 		count: 36L
 	},
@@ -59,8 +59,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 11s,
-			tag: {}
+			tag: {},
+			Damage: 11s
 		}],
 		count: 4L
 	},
@@ -69,8 +69,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 39s,
-			tag: {}
+			tag: {},
+			Damage: 39s
 		}],
 		count: 4L
 	},
@@ -79,8 +79,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 31s,
-			tag: {}
+			tag: {},
+			Damage: 31s
 		}],
 		count: 8L
 	},
@@ -89,8 +89,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 19s,
-			tag: {}
+			tag: {},
+			Damage: 19s
 		}],
 		count: 4L
 	},
@@ -99,8 +99,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		count: 64L
 	},
@@ -109,8 +109,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		count: 64L
 	},
@@ -119,8 +119,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:graphite_reactor",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		count: 11L
 	}],

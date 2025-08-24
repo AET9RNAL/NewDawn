@@ -11,7 +11,10 @@
 		uid: "7a29c03c",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:gas_sensor"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:gas_sensor"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

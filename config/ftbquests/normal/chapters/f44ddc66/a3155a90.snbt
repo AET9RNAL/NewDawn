@@ -20,7 +20,10 @@
 		uid: "67a4f130",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:treetap"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:treetap"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

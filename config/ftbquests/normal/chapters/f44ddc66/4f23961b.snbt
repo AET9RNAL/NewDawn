@@ -8,7 +8,10 @@
 		uid: "6408a550",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:research_lens"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:research_lens"
 		}],
 		ignore_nbt: 1b
 	}],

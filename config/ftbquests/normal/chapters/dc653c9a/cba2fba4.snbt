@@ -14,7 +14,12 @@
 	tasks: [{
 		uid: "7ee5413d",
 		type: "checkmark",
-		icon: "minecraft:wooden_pickaxe"
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:wooden_pickaxe"
+		}
 	}],
 	rewards: [{
 		uid: "567bf3c0",

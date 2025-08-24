@@ -12,8 +12,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 24s,
-			tag: {}
+			tag: {},
+			Damage: 24s
 		}]
 	},
 	{
@@ -21,8 +21,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 32s,
-			tag: {}
+			tag: {},
+			Damage: 32s
 		}]
 	},
 	{
@@ -30,8 +30,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 36s,
-			tag: {}
+			tag: {},
+			Damage: 36s
 		}],
 		count: 4L
 	},
@@ -40,8 +40,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 16s,
-			tag: {}
+			tag: {},
+			Damage: 16s
 		}],
 		count: 3L
 	},
@@ -50,8 +50,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 8s,
-			tag: {}
+			tag: {},
+			Damage: 8s
 		}],
 		count: 2L
 	},
@@ -60,8 +60,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 28s,
-			tag: {}
+			tag: {},
+			Damage: 28s
 		}],
 		count: 2L
 	},
@@ -70,8 +70,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}],
 		count: 2L
 	},
@@ -80,8 +80,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 20s,
-			tag: {}
+			tag: {},
+			Damage: 20s
 		}]
 	},
 	{
@@ -98,8 +98,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_reactor",
-			Damage: 12s,
-			tag: {}
+			tag: {},
+			Damage: 12s
 		}],
 		count: 28L
 	}]

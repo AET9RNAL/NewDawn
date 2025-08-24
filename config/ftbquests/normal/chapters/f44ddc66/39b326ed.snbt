@@ -17,8 +17,8 @@
 		type: "item",
 		items: [{
 			id: "powerutils:powerutils",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}],
 		ignore_nbt: 1b
 	}],

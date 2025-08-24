@@ -10,6 +10,9 @@
 		uid: "d28d4527",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:buildingtool",
 			tag: {
 				blockstate: {

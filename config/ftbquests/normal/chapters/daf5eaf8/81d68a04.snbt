@@ -23,6 +23,9 @@
 		uid: "bc65d2ca",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "tiabs:timeinabottle",
 			tag: {
 				timeData: {}

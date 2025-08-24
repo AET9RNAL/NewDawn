@@ -8,7 +8,10 @@
 		uid: "69ebf68c",
 		type: "item",
 		items: [{
-			item: "mekanism:atomicdisassembler"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:atomicdisassembler"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b,

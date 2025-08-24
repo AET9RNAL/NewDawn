@@ -1,6 +1,9 @@
 {
 	title: "It's about flowers, always was",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "botania:lexicon",
 		tag: {
 			knowledge.minecraft: 1b,

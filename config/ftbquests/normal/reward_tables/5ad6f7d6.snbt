@@ -44,8 +44,8 @@
 	{
 		item: {
 			id: "industrialupgrade:basemachine",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		},
 		count: 2
 	},
@@ -58,21 +58,26 @@
 	{
 		item: {
 			id: "industrialupgrade:draconicpanel",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}
 	},
 	{
 		item: {
 			id: "industrialupgrade:wiring_storage",
-			Damage: 10s,
 			tag: {
 				energy: 4.096E11d
-			}
+			},
+			Damage: 10s
 		}
 	},
 	{
-		item: "mekanismmultiblockmachine:multiblockgenerator"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismmultiblockmachine:multiblockgenerator"
+		}
 	},
 	{
 		item: "draconicevolution:reactor_core"
@@ -82,9 +87,9 @@
 		color: 13849600,
 		glow: true,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

@@ -9,9 +9,12 @@
 		uid: "1a28a366",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:itemnanosaber",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -9,9 +9,10 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:basemachine3",
-			Damage: 199s,
-			tag: {}
-		}]
+			tag: {},
+			Damage: 199s
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "76035cae",

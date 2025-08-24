@@ -10,10 +10,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:transmitter",
-			Damage: 6s,
 			tag: {
 				tier: 0
-			}
+			},
+			Damage: 6s
 		}]
 	}],
 	rewards: [{

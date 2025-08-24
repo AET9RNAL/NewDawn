@@ -10,6 +10,9 @@
 		uid: "350fff34",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanism:configurator",
 			tag: {
 				mekData: {

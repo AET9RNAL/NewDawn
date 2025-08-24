@@ -11,6 +11,9 @@
 		uid: "b698e75d",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "crazyae:improved_portable_cell",
 			tag: {}
 		}],

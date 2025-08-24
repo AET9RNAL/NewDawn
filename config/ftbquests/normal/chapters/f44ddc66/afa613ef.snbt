@@ -17,7 +17,10 @@
 		uid: "95502b02",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:cutter"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:cutter"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -26,7 +29,10 @@
 		uid: "157b3464",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:forge_hammer"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:forge_hammer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

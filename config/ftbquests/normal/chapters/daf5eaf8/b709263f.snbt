@@ -8,7 +8,10 @@
 		uid: "02d2e210",
 		type: "item",
 		items: [{
-			item: "improvableskills:skills_book"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "improvableskills:skills_book"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

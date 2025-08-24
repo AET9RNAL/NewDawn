@@ -10,6 +10,9 @@
 		uid: "1ce15a58",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectralaxe",
 			tag: {
 				ID_Item: 2147483647

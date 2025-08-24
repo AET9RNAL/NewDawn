@@ -22,7 +22,10 @@
 		uid: "653a86c2",
 		type: "item",
 		items: [{
-			item: "entangled:item"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "entangled:item"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

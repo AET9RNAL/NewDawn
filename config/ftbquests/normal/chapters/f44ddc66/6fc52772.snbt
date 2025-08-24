@@ -9,6 +9,9 @@
 		uid: "73bb7051",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:adv_nano_chestplate",
 			tag: {
 				ID_Item: 2147483647

@@ -10,6 +10,9 @@
 		uid: "e35c4e6a",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:iridium",
 			tag: {
 				damage: 123428

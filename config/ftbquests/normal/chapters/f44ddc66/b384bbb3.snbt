@@ -10,8 +10,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:basemachine3",
-			Damage: 77s,
-			tag: {}
+			tag: {},
+			Damage: 77s
 		}],
 		ignore_nbt: 1b
 	},
@@ -19,6 +19,9 @@
 		uid: "3e806cf8",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:crystal_memory",
 			tag: {}
 		}],

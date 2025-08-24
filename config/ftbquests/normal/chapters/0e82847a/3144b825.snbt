@@ -17,9 +17,12 @@
 		uid: "24e88d50",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "extrabotany:lens",
-			Damage: 6s,
-			tag: {}
+			tag: {},
+			Damage: 6s
 		}
 	},
 	{

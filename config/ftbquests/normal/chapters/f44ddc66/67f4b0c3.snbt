@@ -11,7 +11,10 @@
 		uid: "9b332401",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:obsidian_hammer"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:obsidian_hammer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -20,8 +20,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 5s,
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}],
 		ignore_nbt: 1b
 	},
@@ -30,8 +30,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	},
@@ -40,8 +40,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}],
 		ignore_nbt: 1b
 	},
@@ -50,8 +50,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}],
 		ignore_nbt: 1b
 	},
@@ -60,8 +60,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 8s,
-			tag: {}
+			tag: {},
+			Damage: 8s
 		}],
 		ignore_nbt: 1b
 	},
@@ -70,8 +70,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 2s,
-			tag: {}
+			tag: {},
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	},
@@ -80,8 +80,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 7s,
-			tag: {}
+			tag: {},
+			Damage: 7s
 		}],
 		count: 2L,
 		ignore_nbt: 1b
@@ -91,8 +91,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:cyclotron",
-			Damage: 6s,
-			tag: {}
+			tag: {},
+			Damage: 6s
 		}],
 		count: 39L,
 		ignore_nbt: 1b

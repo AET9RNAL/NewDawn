@@ -1,0 +1,29 @@
+{
+	x: -53.84523809523809d,
+	y: -36.58333333333333d,
+	shape: "gear",
+	hide_dependency_lines: true,
+	dependencies: [
+		"fb4f173a",
+		"599624c4",
+		"434fc7d1"
+	],
+	size: 5.0d,
+	tasks: [{
+		uid: "af89224a",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:multiblockmachine 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "49cfbe41",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_crate"
+			}
+		}
+	}]
+}

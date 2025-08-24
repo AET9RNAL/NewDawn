@@ -1,5 +1,10 @@
 {
-	icon: "botania:dice",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:dice"
+	},
 	x: 0.0d,
 	y: 0.0d,
 	text: [

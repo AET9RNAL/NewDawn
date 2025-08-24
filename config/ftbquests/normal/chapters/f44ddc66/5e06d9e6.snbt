@@ -9,6 +9,9 @@
 		uid: "95e46a2f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nanoshovel",
 			tag: {
 				ID_Item: 2147483647

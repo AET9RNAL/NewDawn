@@ -2,8 +2,8 @@
 	title: "New Era",
 	icon: {
 		id: "industrialupgrade:machines",
-		Damage: 12s,
-		tag: {}
+		tag: {},
+		Damage: 12s
 	},
 	always_invisible: false,
 	group: 0,

@@ -24,7 +24,10 @@
 		uid: "4f11f561",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:laser"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:laser"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

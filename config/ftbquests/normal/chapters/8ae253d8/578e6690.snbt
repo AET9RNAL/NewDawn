@@ -25,6 +25,9 @@
 		uid: "f9271d20",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_iridium",
 			tag: {
 				damage: 123428

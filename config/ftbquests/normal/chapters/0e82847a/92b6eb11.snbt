@@ -28,7 +28,12 @@
 	{
 		uid: "78556228",
 		type: "item",
-		item: "divinerpg:serenade_striker"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "divinerpg:serenade_striker"
+		}
 	},
 	{
 		uid: "866b94ba",

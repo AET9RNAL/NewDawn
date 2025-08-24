@@ -11,6 +11,9 @@
 		uid: "3c8f9e92",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "astralsorcery:itemwand",
 			tag: {
 				astralsorcery: {}

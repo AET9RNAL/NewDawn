@@ -33,8 +33,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:steam_boiler",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		count: 13L,
 		ignore_nbt: 1b
@@ -44,8 +44,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:steam_boiler",
-			Damage: 2s,
-			tag: {}
+			tag: {},
+			Damage: 2s
 		}],
 		count: 2L,
 		ignore_nbt: 1b
@@ -55,8 +55,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:steam_boiler",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}],
 		ignore_nbt: 1b
 	},
@@ -65,8 +65,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:steam_boiler",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}],
 		ignore_nbt: 1b
 	},

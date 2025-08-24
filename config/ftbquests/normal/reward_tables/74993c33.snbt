@@ -11,6 +11,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "appliedenergistics2:storage_cell_64k",
 			tag: {}
 		}
@@ -27,6 +30,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:itembatlamacrystal",
 			tag: {
 				charge: 1.0E8d
@@ -54,6 +60,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:buildingtool",
 			tag: {
 				blockstate: {
@@ -64,6 +73,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "buildinggadgets:destructiontool",
 			tag: {
 				overlay: 1b,
@@ -93,6 +105,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_helmet",
 			tag: {
 				ID_Item: 2147483647
@@ -101,6 +116,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_chestplate",
 			tag: {
 				ID_Item: 2147483647
@@ -109,6 +127,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_leggings",
 			tag: {
 				ID_Item: 2147483647
@@ -117,6 +138,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_boots",
 			tag: {
 				ID_Item: 2147483647
@@ -124,7 +148,13 @@
 		}
 	},
 	{
-		item: "mekanismecoenergistics:ecogenerator 1 4"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator",
+			Damage: 4s
+		}
 	},
 	{
 		item: "botaniverse:morepool 1 2"
@@ -132,12 +162,15 @@
 	{
 		item: {
 			id: "industrialupgrade:basemachine3",
-			Damage: 30s,
-			tag: {}
+			tag: {},
+			Damage: 30s
 		}
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanism:meka_tool",
 			tag: {
 				mekData: {
@@ -152,10 +185,10 @@
 	{
 		item: {
 			id: "mekanism:basicblock2",
-			Damage: 3s,
 			tag: {
 				tier: 3
-			}
+			},
+			Damage: 3s
 		},
 		count: 2
 	},
@@ -173,6 +206,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectralpickaxe",
 			tag: {
 				charge: 5.0E7d,
@@ -182,6 +218,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectral_bow",
 			tag: {
 				charge: 150000.0d,
@@ -191,6 +230,9 @@
 	},
 	{
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:per_lappack",
 			tag: {
 				charge: 1.0E8d
@@ -202,9 +244,9 @@
 		color: 15844367,
 		glow: true,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

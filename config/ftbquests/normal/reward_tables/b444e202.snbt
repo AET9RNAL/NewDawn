@@ -66,9 +66,9 @@
 		string_id: "random_crate",
 		color: 11782687,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

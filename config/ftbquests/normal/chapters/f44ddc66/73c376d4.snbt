@@ -13,7 +13,10 @@
 		uid: "12eb51a8",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:steel_hammer"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:steel_hammer"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

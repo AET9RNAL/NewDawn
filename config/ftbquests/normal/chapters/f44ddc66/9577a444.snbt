@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: -11.5d,
+	dependencies: [
+		"f6fe0ac8"
+	],
+	tasks: [{
+		uid: "f5a50932",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:upgrademodules 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ce9862d7",
+		type: "xp",
+		xp: 100
+	}]
+}

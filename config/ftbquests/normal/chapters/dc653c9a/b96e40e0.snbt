@@ -12,7 +12,13 @@
 	tasks: [{
 		uid: "c3f2f572",
 		type: "checkmark",
-		icon: "extrabotany:cosmetic 1 7"
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:cosmetic",
+			Damage: 7s
+		}
 	}],
 	rewards: [{
 		uid: "7f7da7d1",

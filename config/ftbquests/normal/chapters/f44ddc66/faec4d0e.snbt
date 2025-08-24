@@ -35,7 +35,12 @@
 	{
 		uid: "ab1a314f",
 		type: "item",
-		item: "xlfoodmod:super_energy_drink"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "xlfoodmod:super_energy_drink"
+		}
 	},
 	{
 		uid: "61fabc25",

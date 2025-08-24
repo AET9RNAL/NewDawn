@@ -17,10 +17,10 @@
 		type: "item",
 		item: {
 			id: "extrabotany:rewardbag",
-			Damage: 2s,
 			tag: {
 				weight: 113
-			}
+			},
+			Damage: 2s
 		}
 	},
 	{

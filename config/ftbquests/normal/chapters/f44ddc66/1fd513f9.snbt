@@ -14,8 +14,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:basemachine3",
-			Damage: 6s,
-			tag: {}
+			tag: {},
+			Damage: 6s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true

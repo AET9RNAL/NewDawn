@@ -8,7 +8,10 @@
 		uid: "565426d6",
 		type: "item",
 		items: [{
-			item: "mekanism:meka_tool"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:meka_tool"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

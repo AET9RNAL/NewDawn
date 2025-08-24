@@ -10,6 +10,9 @@
 		uid: "79e3ed03",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectralpickaxe",
 			tag: {
 				ID_Item: 2147483647

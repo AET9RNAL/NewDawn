@@ -17,7 +17,12 @@
 	rewards: [{
 		uid: "75a5ec7d",
 		type: "item",
-		item: "mekanismecoenergistics:ecogenerator"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator"
+		}
 	},
 	{
 		uid: "e333e592",

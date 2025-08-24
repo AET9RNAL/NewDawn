@@ -9,6 +9,9 @@
 		uid: "55ce201c",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_helmet",
 			tag: {
 				ID_Item: 2147483647

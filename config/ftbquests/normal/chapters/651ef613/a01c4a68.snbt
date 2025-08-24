@@ -22,7 +22,12 @@
 	rewards: [{
 		uid: "89688383",
 		type: "item",
-		item: "astraladditions:ring_astral"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astraladditions:ring_astral"
+		}
 	},
 	{
 		uid: "2c069b08",
@@ -33,7 +38,12 @@
 	{
 		uid: "81aca4b6",
 		type: "item",
-		item: "astralsorcery:itemfragmentcapsule"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemfragmentcapsule"
+		}
 	},
 	{
 		uid: "5d2546e8",

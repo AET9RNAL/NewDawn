@@ -16,7 +16,10 @@
 		uid: "373336c1",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:molot"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:molot"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -10,6 +10,9 @@
 		uid: "a896ebda",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:quantum_chestplate",
 			tag: {
 				ID_Item: 2147483647

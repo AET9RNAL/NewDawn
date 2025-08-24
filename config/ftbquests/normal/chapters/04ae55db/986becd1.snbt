@@ -2,7 +2,6 @@
 	title: "Head",
 	icon: {
 		id: "minecraft:skull",
-		Damage: 3s,
 		tag: {
 			RepairCost: 0,
 			SkullOwner: {
@@ -18,7 +17,8 @@
 			display: {
 				Name: "LoVi_ApTe4kq's Head"
 			}
-		}
+		},
+		Damage: 3s
 	},
 	x: 0.0d,
 	y: -9.0d,
@@ -60,19 +60,19 @@
 		type: "item",
 		item: {
 			id: "minecraft:skull",
-			Damage: 3s,
 			tag: {
 				SkullOwner: {
-					Name: "AET3RNAL",
 					Id: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
 					Properties: {
 						textures: [{
-							Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMTE1ODY5NzM2OCwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRVQzUk5BTCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWY1Y2NkNWNkMTdkZDY4MTAzMjQ2NGE5YTI3YzRmNTc3YTA2ZDUxYWFiNjI4NTk2ZWNhOTVkYjY0OTc5NDVhIgogICAgfQogIH0KfQ==",
-							Signature: "M2MKMTMDKbbmgtFXglAqVbg1WiJcRVpKda1D7BphCRzio9mtzV/dKgYyL+vVwH1N1nWs0neqGESF/Xpo4K26/lKdDDmHsYL7vPeJhpovz2QBegczezUctQPHmI2wCbYI+kxC/rF22kOnyBeqn/RUAouLh6JytouEVJmC063u+2Xv7wPTIWGj0av9eDWece1KuJ9Txz0Jbm3crn7mdS7LbDChwTB+HoyIaWE26R5zLOFBY9mhBbIoWzb7fwd0N3OdNhgq5vl1FiJwdgZeWHqunFzYwF9SI7NJsgPLVxtDYN4fk9EY5HzzMu0aOe8CPBGZM6c19rOHABROfMJfRRWmJDK1p0sEQay1n6/VYvVyPD6qLCGmi+5lRvPrIJD6JVHDnBYY4KoDGKVcJ+2POdUth5NZKNP4sjuN0kwWOj96krwW9Gkn6OACMHXzaNpU0/LojcbFbcmRVnWrnzXuSskMe0Mt81BfT3WjxeKGF+6V7k4g+dvXR60j0T1R767HQOTzi+OvHfznPlv8NkD4UXabSmA+uio+/X0X/v+uIpEnALzEnuYdgZ3dquOSOb6oAxNdnNkdURQj9T3UWZgrFmVeLPLuT9TfsbK9+H/VVrLePgfVNwvgcRtWBiOQGIobw1cVpQendwUaTcHEqQEHqNSSNef+awxzKAsUBUkiVT4zrfQ="
+							Signature: "M2MKMTMDKbbmgtFXglAqVbg1WiJcRVpKda1D7BphCRzio9mtzV/dKgYyL+vVwH1N1nWs0neqGESF/Xpo4K26/lKdDDmHsYL7vPeJhpovz2QBegczezUctQPHmI2wCbYI+kxC/rF22kOnyBeqn/RUAouLh6JytouEVJmC063u+2Xv7wPTIWGj0av9eDWece1KuJ9Txz0Jbm3crn7mdS7LbDChwTB+HoyIaWE26R5zLOFBY9mhBbIoWzb7fwd0N3OdNhgq5vl1FiJwdgZeWHqunFzYwF9SI7NJsgPLVxtDYN4fk9EY5HzzMu0aOe8CPBGZM6c19rOHABROfMJfRRWmJDK1p0sEQay1n6/VYvVyPD6qLCGmi+5lRvPrIJD6JVHDnBYY4KoDGKVcJ+2POdUth5NZKNP4sjuN0kwWOj96krwW9Gkn6OACMHXzaNpU0/LojcbFbcmRVnWrnzXuSskMe0Mt81BfT3WjxeKGF+6V7k4g+dvXR60j0T1R767HQOTzi+OvHfznPlv8NkD4UXabSmA+uio+/X0X/v+uIpEnALzEnuYdgZ3dquOSOb6oAxNdnNkdURQj9T3UWZgrFmVeLPLuT9TfsbK9+H/VVrLePgfVNwvgcRtWBiOQGIobw1cVpQendwUaTcHEqQEHqNSSNef+awxzKAsUBUkiVT4zrfQ=",
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMTE1ODY5NzM2OCwKICAicHJvZmlsZUlkIiA6ICIyMjJjZWUxN2U2Y2M0M2UxYTRlMWFmODU1NjlmNWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRVQzUk5BTCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWY1Y2NkNWNkMTdkZDY4MTAzMjQ2NGE5YTI3YzRmNTc3YTA2ZDUxYWFiNjI4NTk2ZWNhOTVkYjY0OTc5NDVhIgogICAgfQogIH0KfQ=="
 						}]
-					}
+					},
+					Name: "AET3RNAL"
 				}
-			}
+			},
+			Damage: 3s
 		}
 	},
 	{

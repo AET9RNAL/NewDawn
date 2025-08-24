@@ -10,7 +10,11 @@
 		uid: "9485272c",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:ecogeneratoradd 1 5"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogeneratoradd",
+			Damage: 5s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -29,6 +33,9 @@
 		uid: "23ff76d9",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectral",
 			tag: {
 				damage: 157090

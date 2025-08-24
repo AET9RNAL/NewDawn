@@ -34,7 +34,12 @@
 		count: 5
 	},
 	{
-		item: "industrialupgrade:treetap"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:treetap"
+		}
 	},
 	{
 		item: "minecraft:clock",
@@ -66,10 +71,10 @@
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
-			Damage: 272s,
 			tag: {
 				level: 1
-			}
+			},
+			Damage: 272s
 		},
 		count: 4
 	},
@@ -82,7 +87,12 @@
 		count: 12
 	},
 	{
-		item: "industrialupgrade:forge_hammer"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:forge_hammer"
+		}
 	},
 	{
 		item: "industrialupgrade:single_use_battery",
@@ -186,9 +196,9 @@
 		string_id: "uncommon_crate",
 		color: 2600544,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

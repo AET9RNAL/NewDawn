@@ -11,9 +11,12 @@
 		uid: "df1643b3",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_saber",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

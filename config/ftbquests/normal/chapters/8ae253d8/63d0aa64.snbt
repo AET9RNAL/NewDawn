@@ -68,12 +68,15 @@
 		uid: "a72daf9e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanismgenerators:hohlraum",
 			tag: {
 				mekData: {
 					stored: {
-						gasName: "fusionfuel",
-						amount: 10
+						amount: 10,
+						gasName: "fusionfuel"
 					}
 				}
 			}
@@ -85,22 +88,8 @@
 		item: {
 			id: "mekanism:gastank",
 			tag: {
-				mekData: {
-					ejecting2: 1b,
-					sideDataStored: 1b,
-					inputColors5: -1,
-					config3: [B;
-						1b,
-						1b,
-						2b,
-						1b,
-						1b,
-						1b
-					],
-					inputColors3: -1,
-					security: 0,
-					ejecting3: 0b,
-					strictInput: 0b,
+				tier: 3,
+				BlockEntityTag: {
 					config2: [B;
 						1b,
 						1b,
@@ -109,30 +98,6 @@
 						1b,
 						1b
 					],
-					inputColors4: -1,
-					inputColors2: -1,
-					inputColors1: -1,
-					Items: [],
-					inputColors0: -1,
-					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
-					stored: {
-						gasName: "fusionfuel",
-						amount: 512000
-					}
-				},
-				tier: 3,
-				BlockEntityTag: {
-					ejecting2: 1b,
-					sideDataStored: 1b,
-					inputColors5: -1,
-					securityFreq: {
-						name: "Security",
-						ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
-						publicFreq: 1b,
-						override: 0b,
-						securityMode: 0
-					},
-					redstone: 0b,
 					config3: [B;
 						1b,
 						1b,
@@ -141,41 +106,79 @@
 						1b,
 						1b
 					],
-					inputColors3: -1,
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					dumping: 0,
 					gasTank: {
 						stored: {
-							gasName: "fusionfuel",
-							amount: 512000
+							amount: 512000,
+							gasName: "fusionfuel"
 						},
 						maxGas: 512000
 					},
-					controlType: 0,
-					dumping: 0,
-					tier: 3,
+					sideDataStored: 1b,
 					facing: 5,
 					securityMode: 0,
-					config2: [B;
-						1b,
-						1b,
-						2b,
-						1b,
-						1b,
-						1b
-					],
-					ejecting3: 0b,
 					strictInput: 0b,
-					id: "mekanism:gas_tank",
-					inputColors4: -1,
-					inputColors2: -1,
+					ejecting2: 1b,
+					controlType: 0,
+					tier: 3,
 					inputColors1: -1,
-					Items: [],
 					inputColors0: -1,
-					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c"
+					ejecting3: 0b,
+					inputColors5: -1,
+					inputColors4: -1,
+					inputColors3: -1,
+					Items: [],
+					inputColors2: -1,
+					id: "mekanism:gas_tank",
+					securityFreq: {
+						ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+						name: "Security",
+						securityMode: 0,
+						override: 0b,
+						publicFreq: 1b
+					},
+					redstone: 0b
 				},
 				display: {
 					Lore: [
 						"(+NBT)"
 					]
+				},
+				mekData: {
+					config2: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					config3: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ownerUUID: "222cee17-e6cc-43e1-a4e1-af85569f5a4c",
+					sideDataStored: 1b,
+					strictInput: 0b,
+					security: 0,
+					ejecting2: 1b,
+					inputColors1: -1,
+					inputColors0: -1,
+					ejecting3: 0b,
+					stored: {
+						amount: 512000,
+						gasName: "fusionfuel"
+					},
+					inputColors5: -1,
+					inputColors4: -1,
+					inputColors3: -1,
+					Items: [],
+					inputColors2: -1
 				}
 			}
 		}

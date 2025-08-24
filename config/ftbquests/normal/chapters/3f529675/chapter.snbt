@@ -1,6 +1,9 @@
 {
 	title: "Deez beez",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "forestry:bee_queen_ge",
 		tag: {
 			MaxH: 40,

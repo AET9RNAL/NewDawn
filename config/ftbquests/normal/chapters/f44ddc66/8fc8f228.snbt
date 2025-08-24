@@ -9,9 +9,12 @@
 		uid: "9e296812",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:katana",
-			Damage: 27s,
-			tag: {}
+			tag: {},
+			Damage: 27s
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

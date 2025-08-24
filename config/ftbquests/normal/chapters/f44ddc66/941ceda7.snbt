@@ -21,8 +21,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:crafting_elements",
-			Damage: 272s,
-			tag: {}
+			tag: {},
+			Damage: 272s
 		}],
 		count: 4L,
 		ignore_nbt: 1b

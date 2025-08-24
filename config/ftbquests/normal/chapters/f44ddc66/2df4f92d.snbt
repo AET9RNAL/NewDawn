@@ -10,6 +10,9 @@
 		uid: "664e4959",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:neutron",
 			tag: {
 				damage: 27648000

@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "iuadditions:forestrypanel",
-			Damage: 5s,
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}]
 	}],
 	rewards: [{

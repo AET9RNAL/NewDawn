@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -10.5d,
+	text: [
+		"Allows you to add 1 additional module slot(max:6)"
+	],
+	dependencies: [
+		"f6fe0ac8"
+	],
+	tasks: [{
+		uid: "93352d36",
+		type: "item",
+		items: [{
+			item: "industrialupgrade:itemcore 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f07d9053",
+		type: "xp",
+		xp: 100
+	}]
+}

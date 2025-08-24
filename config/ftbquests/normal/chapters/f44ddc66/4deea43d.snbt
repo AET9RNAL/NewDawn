@@ -10,6 +10,9 @@
 		uid: "58473264",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:barionrotor",
 			tag: {
 				damage: 110592000

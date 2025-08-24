@@ -26,7 +26,12 @@
 		random_bonus: 8
 	},
 	{
-		item: "minecraft:lava_bucket"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:lava_bucket"
+		}
 	},
 	{
 		item: "industrialupgrade:blockresource 1 12"
@@ -53,10 +58,10 @@
 	{
 		item: {
 			id: "industrialupgrade:crafting_elements",
-			Damage: 272s,
 			tag: {
 				level: 1
-			}
+			},
+			Damage: 272s
 		},
 		random_bonus: 1
 	},
@@ -170,9 +175,9 @@
 		string_id: "steam_era_crate",
 		color: 7432795,
 		drops: {
+			boss: 0,
 			passive: 0,
-			monster: 0,
-			boss: 0
+			monster: 0
 		}
 	}
 }

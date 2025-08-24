@@ -12,8 +12,8 @@
 		type: "item",
 		items: [{
 			id: "simplyquarries:simplyquarries",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}],

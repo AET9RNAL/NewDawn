@@ -10,6 +10,9 @@
 		uid: "be88cb19",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:spectraldrill",
 			tag: {
 				ID_Item: 2147483647

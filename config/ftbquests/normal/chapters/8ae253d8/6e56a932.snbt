@@ -8,7 +8,10 @@
 		uid: "b65317ab",
 		type: "item",
 		items: [{
-			item: "mekanismgenerators:generator"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator"
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true

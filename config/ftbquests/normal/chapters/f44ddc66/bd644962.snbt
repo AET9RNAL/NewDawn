@@ -19,8 +19,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 2s,
-			tag: {}
+			tag: {},
+			Damage: 2s
 		}],
 		ignore_nbt: 1b
 	},
@@ -29,8 +29,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 3s,
-			tag: {}
+			tag: {},
+			Damage: 3s
 		}],
 		ignore_nbt: 1b
 	},
@@ -39,8 +39,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 6s,
-			tag: {}
+			tag: {},
+			Damage: 6s
 		}],
 		ignore_nbt: 1b
 	},
@@ -49,8 +49,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 1s,
-			tag: {}
+			tag: {},
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	},
@@ -59,8 +59,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 5s,
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}],
 		count: 2L,
 		ignore_nbt: 1b
@@ -70,8 +70,8 @@
 		type: "item",
 		items: [{
 			id: "industrialupgrade:gas_well",
-			Damage: 4s,
-			tag: {}
+			tag: {},
+			Damage: 4s
 		}],
 		count: 27L,
 		ignore_nbt: 1b

@@ -10,6 +10,9 @@
 		uid: "0b888fc4",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:ultddrill",
 			tag: {
 				ID_Item: 2147483647

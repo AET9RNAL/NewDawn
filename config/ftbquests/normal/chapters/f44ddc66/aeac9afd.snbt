@@ -24,8 +24,8 @@
 		type: "item",
 		item: {
 			id: "industrialupgrade:basemachine3",
-			Damage: 55s,
-			tag: {}
+			tag: {},
+			Damage: 55s
 		}
 	},
 	{

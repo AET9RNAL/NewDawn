@@ -10,6 +10,9 @@
 		uid: "48f67d57",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:nano_bow",
 			tag: {
 				ID_Item: 2147483647

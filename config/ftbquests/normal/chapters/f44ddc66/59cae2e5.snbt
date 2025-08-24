@@ -23,7 +23,10 @@
 		uid: "c0d9ef2a",
 		type: "item",
 		items: [{
-			item: "industrialupgrade:solderingiron"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialupgrade:solderingiron"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

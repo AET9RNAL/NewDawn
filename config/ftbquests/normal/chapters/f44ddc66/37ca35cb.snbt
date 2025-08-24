@@ -8,6 +8,9 @@
 		uid: "5482c427",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:wind_meter",
 			tag: {}
 		}],

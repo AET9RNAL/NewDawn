@@ -29,7 +29,12 @@
 	{
 		uid: "be5fcfd9",
 		type: "item",
-		item: "astralsorcery:itemfragmentcapsule"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemfragmentcapsule"
+		}
 	},
 	{
 		uid: "f80fe060",

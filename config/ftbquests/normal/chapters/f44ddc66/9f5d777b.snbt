@@ -10,6 +10,9 @@
 		uid: "3eb8197d",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_myphical",
 			tag: {
 				damage: 3456000

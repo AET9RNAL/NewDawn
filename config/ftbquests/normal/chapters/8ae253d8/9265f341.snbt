@@ -8,7 +8,11 @@
 		uid: "8c0921b6",
 		type: "item",
 		items: [{
-			item: "mekanismgenerators:generator 1 1"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismgenerators:generator",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -17,6 +21,9 @@
 		uid: "3ba9929e",
 		type: "item",
 		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "mekanismecoenergistics:energytabletadvanced",
 			tag: {
 				mekData: {

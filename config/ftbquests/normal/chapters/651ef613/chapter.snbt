@@ -1,6 +1,9 @@
 {
 	title: "To the stars ",
 	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
 		id: "astralsorcery:blockcelestialcollectorcrystal",
 		tag: {
 			astralsorcery: {

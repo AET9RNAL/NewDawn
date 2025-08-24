@@ -8,10 +8,10 @@
 		uid: "fab9b1eb",
 		type: "item",
 		items: [{
-			id: "astralsorcery:itemgrapplewand",
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
-			}
+			},
+			id: "astralsorcery:itemgrapplewand"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -9,7 +9,11 @@
 		uid: "b95bb08c",
 		type: "item",
 		items: [{
-			item: "mekanismecoenergistics:avaritiagenerator 1 1"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:avaritiagenerator",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b,
 		only_from_crafting: true
@@ -17,7 +21,13 @@
 	rewards: [{
 		uid: "ca83d25c",
 		type: "item",
-		item: "mekanismecoenergistics:ecogenerator 1 8"
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanismecoenergistics:ecogenerator",
+			Damage: 8s
+		}
 	},
 	{
 		uid: "41e19686",

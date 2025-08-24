@@ -8,6 +8,9 @@
 		uid: "b2ae79bb",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:chainsaw",
 			tag: {
 				ID_Item: 2147483647

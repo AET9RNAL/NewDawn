@@ -9,7 +9,10 @@
 		uid: "0e38666a",
 		type: "item",
 		items: [{
-			item: "mekanism:mekasuit_boots"
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:mekasuit_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

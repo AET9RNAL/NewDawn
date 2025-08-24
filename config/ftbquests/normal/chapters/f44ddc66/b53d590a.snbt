@@ -10,6 +10,9 @@
 		uid: "9b7fd71f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:water_barionrotor",
 			tag: {
 				damage: 110592000

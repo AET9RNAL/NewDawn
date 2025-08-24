@@ -8,6 +8,9 @@
 		uid: "eaf0943f",
 		type: "item",
 		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
 			id: "industrialupgrade:electric_treetap",
 			tag: {
 				charge: 0.0d
